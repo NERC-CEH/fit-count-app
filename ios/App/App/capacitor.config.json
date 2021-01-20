@@ -1,0 +1,13 @@
+{
+  "appId": "uk.ac.ceh.fit",
+  "appName": "uk.ac.ceh.fit",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
