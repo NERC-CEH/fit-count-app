@@ -1,6 +1,6 @@
 {
   "appId": "uk.ac.ceh.fit",
-  "appName": "uk.ac.ceh.fit",
+  "appName": "Fit Count",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
