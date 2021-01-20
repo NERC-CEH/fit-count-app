@@ -1,5 +1,5 @@
 {
-  "name": "app-name",
+  "name": "uk.ac.ceh.fit",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve --progress --watch --content-base build --port 8000",
