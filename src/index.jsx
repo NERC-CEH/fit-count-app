@@ -7,7 +7,7 @@ import i18n from 'i18next';
 import config from 'common/config';
 import { initAnalytics } from '@apps';
 import { initReactI18next } from 'react-i18next';
-import { configure } from 'mobx';
+import { configure as mobxConfigure } from 'mobx';
 import App from './App';
 
 import '@ionic/core/css/core.css';
@@ -20,8 +20,7 @@ i18n.use(initReactI18next).init({
   lng: 'en',
 });
 
-// mobx-configure
-configure({
+mobxConfigure({
   enforceActions: 'never',
 });
 
