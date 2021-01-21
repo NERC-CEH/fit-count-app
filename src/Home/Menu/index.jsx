@@ -17,8 +17,6 @@ const onToggle = (setting, checked) => {
 const MenuController = () => {
   const { sendAnalytics } = appModel.attrs;
 
-  const onToggleWrap = (...args) => onToggle(...args);
-
   return (
     <Page id="home-menu">
       <IonHeader>
@@ -29,11 +27,7 @@ const MenuController = () => {
         </IonToolbar>
       </IonHeader>
 
-      <Main
-        sendAnalytics={sendAnalytics}
-        onToggle={onToggleWrap}
-        config={config}
-      />
+      <Main sendAnalytics={sendAnalytics} onToggle={onToggle} config={config} />
 
       <IonFooter>
         <div>
