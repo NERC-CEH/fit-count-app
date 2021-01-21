@@ -43,6 +43,7 @@
     "@ionic/core": "5.5.2",
     "@ionic/react": "5.5.2",
     "@ionic/react-router": "5.5.2",
+    "@sentry/browser": "5.29.2",
     "cordova-plugin-network-information": "^2.0.2",
     "cordova-sqlite-storage": "^5.1.0",
     "i18next": "^19.8.4",
