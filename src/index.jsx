@@ -7,6 +7,7 @@ import i18n from 'i18next';
 import config from 'common/config';
 import { initAnalytics } from '@apps';
 import { initReactI18next } from 'react-i18next';
+import { configure } from 'mobx';
 import App from './App';
 
 import '@ionic/core/css/core.css';
@@ -17,6 +18,11 @@ const { App: AppPlugin, StatusBar, SplashScreen } = Plugins;
 
 i18n.use(initReactI18next).init({
   lng: 'en',
+});
+
+// mobx-configure
+configure({
+  enforceActions: 'never',
 });
 
 setupConfig({
@@ -32,6 +38,9 @@ async function init() {
     environment: config.environment,
     build: config.build,
     release: config.version,
+    tags: {
+      'app.appSession': appModel.attrs.appSession,
+    },
   });
 
   appModel.attrs.appSession += 1;

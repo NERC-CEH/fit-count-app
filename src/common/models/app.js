@@ -5,6 +5,7 @@ class AppModel extends Model {}
 
 const defaults = {
   sendAnalytics: true,
+  appSession: 0,
 };
 
 const appModel = new AppModel(genericStore, 'app', defaults);

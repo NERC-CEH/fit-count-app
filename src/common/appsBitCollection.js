@@ -5,6 +5,8 @@ export { default as Main } from '@bit/flumens.apps.main';
 export { default as Page } from '@bit/flumens.apps.page';
 export { default as MenuAttrItem } from '@bit/flumens.apps.menu-attr-item';
 export { default as Section } from '@bit/flumens.apps.section';
+export { default as MenuNote } from '@bit/flumens.apps.menu-note-item';
+export { default as Toggle } from '@bit/flumens.apps.toggle';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as alert } from '@bit/flumens.apps.helpers.alert';
