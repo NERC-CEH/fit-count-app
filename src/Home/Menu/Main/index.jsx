@@ -15,6 +15,7 @@ import {
   openOutline,
   lockClosedOutline,
   shareSocialOutline,
+  heartOutline,
 } from 'ionicons/icons';
 
 @observer
@@ -45,6 +46,10 @@ class MenuComponent extends React.Component {
           >
             <IonIcon icon={lockClosedOutline} size="small" slot="start" />
             <T>Privacy Policy</T>
+          </IonItem>
+          <IonItem routerLink="/info/credits" detail>
+            <IonIcon icon={heartOutline} size="small" slot="start" />
+            <T>Credits</T>
           </IonItem>
 
           <IonItemDivider>
