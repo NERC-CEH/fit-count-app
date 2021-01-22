@@ -11,6 +11,7 @@ import {
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import { funders, partners } from './parntersAndFunders';
 import './styles.scss';
 
@@ -43,7 +44,9 @@ const About = () => (
   <Page id="about">
     <IonHeader>
       <IonToolbar>
-        <IonTitle>About</IonTitle>
+        <IonTitle>
+          <T>About</T>
+        </IonTitle>
       </IonToolbar>
     </IonHeader>
 

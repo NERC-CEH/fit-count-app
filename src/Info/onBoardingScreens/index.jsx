@@ -68,15 +68,11 @@ const SplashScreen = ({ appModel }) => {
             <div className="slide-header">
               <div className="message-blur-container">
                 <div className="message">
-                  <h2>
-                    <T>Lorrum ipsum</T>
-                  </h2>
+                  <h2>Lorrum ipsum</h2>
                   <p>
-                    <T>
-                      Vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas m.
-                    </T>
+                    Vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti
+                    quos dolores et quas m.
                   </p>
                 </div>
               </div>
@@ -87,15 +83,11 @@ const SplashScreen = ({ appModel }) => {
             <div className="slide-header">
               <div className="message-blur-container">
                 <div className="message">
-                  <h2>
-                    <T>Lorrum ipsum</T>
-                  </h2>
+                  <h2>Lorrum ipsum</h2>
                   <p>
-                    <T>
-                      Vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas m.
-                    </T>
+                    Vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti
+                    quos dolores et quas m.
                   </p>
                 </div>
               </div>
@@ -106,15 +98,11 @@ const SplashScreen = ({ appModel }) => {
             <div className="slide-header">
               <div className="message-blur-container">
                 <div className="message">
-                  <h2>
-                    <T>Lorrum ipsum</T>
-                  </h2>
+                  <h2>Lorrum ipsum</h2>
                   <p>
-                    <T>
-                      Vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas m.
-                    </T>
+                    Vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti
+                    quos dolores et quas m.
                   </p>
 
                   <IonButton fill="clear" onClick={exit}>
