@@ -15,7 +15,7 @@ const onToggle = (setting, checked) => {
 };
 
 const MenuController = () => {
-  const { sendAnalytics } = appModel.attrs;
+  const { sendAnalytics, language } = appModel.attrs;
 
   return (
     <Page id="home-menu">
@@ -27,7 +27,12 @@ const MenuController = () => {
         </IonToolbar>
       </IonHeader>
 
-      <Main sendAnalytics={sendAnalytics} onToggle={onToggle} config={config} />
+      <Main
+        sendAnalytics={sendAnalytics}
+        onToggle={onToggle}
+        config={config}
+        language={language}
+      />
 
       <IonFooter>
         <div>

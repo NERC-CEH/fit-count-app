@@ -6,6 +6,7 @@ class AppModel extends Model {}
 const defaults = {
   sendAnalytics: true,
   appSession: 0,
+  language: null,
 
   showedWelcome: false,
 };

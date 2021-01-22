@@ -1,0 +1,81 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: POEditor.com\n"
+
+# Button title
+msgid "Back"
+msgstr "Back"
+
+# App toolbar label
+msgid "Menu"
+msgstr "Menu"
+
+# App toolbar label
+msgid "About"
+msgstr "About"
+
+# About page content
+msgid "The FIT Count is part of the Pollinator Monitoring Scheme (PoMS) within the UK Pollinator Monitoring and Research Partnership, co-ordinated by the Centre for Ecology & Hydrology (CEH). It is jointly funded by Defra, the Welsh and Scottish Governments, JNCC and project partners, including CEH, the Bumblebee Conservation Trust, Butterfly Conservation, British Trust for Ornithology, Hymettus, the University of Reading and University of Leeds."
+msgstr "The FIT Count is part of the Pollinator Monitoring Scheme (PoMS) within the UK Pollinator Monitoring and Research Partnership, co-ordinated by the Centre for Ecology & Hydrology (CEH). It is jointly funded by Defra, the Welsh and Scottish Governments, JNCC and project partners, including CEH, the Bumblebee Conservation Trust, Butterfly Conservation, British Trust for Ornithology, Hymettus, the University of Reading and University of Leeds."
+
+# About page content
+msgid "PoMSaims to provide much-needed data on the state of the UK’s insect pollinators, especially wild bees and hoverflies, and the role they fulfil in supporting farming and wildlife."
+msgstr "PoMSaims to provide much-needed data on the state of the UK’s insect pollinators, especially wild bees and hoverflies, and the role they fulfil in supporting farming and wildlife."
+
+# About page content
+msgid "For further information about PoMSgo to: <2>www.ceh.ac.uk/pollinator-monitoring to update</2>"
+msgstr "For further information about PoMSgo to: <2>www.ceh.ac.uk/pollinator-monitoring to update</2>"
+
+# About page content
+msgid "Partners:"
+msgstr "Partners:"
+
+# About page content
+msgid "Funders:"
+msgstr "Funders:"
+
+# Menu page content
+msgid "Info"
+msgstr "Info"
+
+# Menu page content
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+# Menu page content
+msgid "Credits"
+msgstr "Credits"
+
+# Menu page content
+msgid "Settings"
+msgstr "Settings"
+
+# Menu page content
+msgid "Cymraeg"
+msgstr "Cymraeg"
+
+# Menu page content
+msgid "Language"
+msgstr "Language"
+
+# Menu page content
+msgid "Share App Analytics"
+msgstr "Share App Analytics"
+
+# Menu page content
+msgid "Share app crash data so we can make the app more reliable."
+msgstr "Share app crash data so we can make the app more reliable."
+
+# Credits page content
+msgid "We are grateful for all the people that helped to create this app:"
+msgstr "We are grateful for all the people that helped to create this app:"
+
+# Onboarding Page button label
+msgid "Got it!"
+msgstr "Got it!"

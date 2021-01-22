@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Main, Toggle, MenuNote } from '@apps';
+import { Main, Toggle, MenuNote, MenuAttrItem } from '@apps';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import exact from 'prop-types-exact';
@@ -16,7 +16,9 @@ import {
   lockClosedOutline,
   shareSocialOutline,
   heartOutline,
+  languageOutline,
 } from 'ionicons/icons';
+import languages from 'common/languages';
 
 @observer
 class MenuComponent extends React.Component {
@@ -24,10 +26,11 @@ class MenuComponent extends React.Component {
     onToggle: PropTypes.func.isRequired,
     sendAnalytics: PropTypes.bool.isRequired,
     config: PropTypes.object.isRequired,
+    language: PropTypes.string.isRequired,
   });
 
   render() {
-    const { onToggle, sendAnalytics, config } = this.props;
+    const { onToggle, sendAnalytics, config, language } = this.props;
     const baseURL = config.backend.url;
 
     const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
@@ -55,6 +58,14 @@ class MenuComponent extends React.Component {
           <IonItemDivider>
             <T>Settings</T>
           </IonItemDivider>
+
+          <MenuAttrItem
+            routerLink="/settings/language"
+            value={languages[language]}
+            label="Language"
+            icon={languageOutline}
+            skipValueTranslation
+          />
 
           <IonItem>
             <IonIcon icon={shareSocialOutline} size="small" slot="start" />

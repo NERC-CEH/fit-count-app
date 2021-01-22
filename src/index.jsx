@@ -8,6 +8,7 @@ import config from 'common/config';
 import { initAnalytics } from '@apps';
 import { initReactI18next } from 'react-i18next';
 import { configure as mobxConfigure } from 'mobx';
+import 'common/translations/translator';
 import App from './App';
 
 import '@ionic/core/css/core.css';
