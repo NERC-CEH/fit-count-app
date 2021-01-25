@@ -17,8 +17,10 @@ import {
   shareSocialOutline,
   heartOutline,
   languageOutline,
+  globeOutline,
 } from 'ionicons/icons';
 import languages from 'common/languages';
+import countries from 'common/countries';
 
 @observer
 class MenuComponent extends React.Component {
@@ -27,13 +29,17 @@ class MenuComponent extends React.Component {
     sendAnalytics: PropTypes.bool.isRequired,
     config: PropTypes.object.isRequired,
     language: PropTypes.string.isRequired,
+    country: PropTypes.string.isRequired,
   });
 
   render() {
-    const { onToggle, sendAnalytics, config, language } = this.props;
+    const { onToggle, sendAnalytics, config, language, country } = this.props;
     const baseURL = config.backend.url;
 
     const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
+
+    const countryName = ({ value }) => value === country;
+    const selectedCountries = countries.find(countryName) || {};
 
     return (
       <Main>
@@ -65,6 +71,13 @@ class MenuComponent extends React.Component {
             label="Language"
             icon={languageOutline}
             skipValueTranslation
+          />
+
+          <MenuAttrItem
+            routerLink="/settings/country"
+            value={selectedCountries.label}
+            label="Country"
+            icon={globeOutline}
           />
 
           <IonItem>

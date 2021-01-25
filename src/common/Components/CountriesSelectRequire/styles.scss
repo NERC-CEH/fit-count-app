@@ -1,0 +1,70 @@
+#country-select {
+  ion-content {
+    --background: #fafbfd;
+  }
+
+  .header {
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    margin: 14px auto;
+
+    ion-icon {
+      font-size: 80px;
+      --ionicon-stroke-width: 12px;
+      color: #2f4a6f;
+    }
+  }
+
+  h4 {
+    margin-left: 10px;
+    text-align: left;
+    color: #2f4a6f;
+  }
+
+  ion-list {
+    text-align: center;
+    width: 100%;
+    background: #fafbfd;
+
+    .country-icons {
+      height: 50px;
+      width: 50px;
+    }
+
+    .countries-container {
+      overflow-y: scroll;
+      height: calc(100vh - 150px);
+
+      ion-item {
+        border-radius: 10px;
+        max-width: 92%;
+        margin: 26px auto;
+        --background: white;
+        color: var(--ion-color-dark);
+        box-shadow: 0 0 10px #e2e2e2;
+        border: 1px solid #2f4a6f52;
+      }
+    }
+
+    .country-list-item {
+      border-radius: 10px;
+      margin-bottom: 6px;
+      background: white;
+      padding: 5px;
+
+      .country-label {
+        margin: 10px 10px;
+      }
+
+      ion-label {
+        margin-left: 20px;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        font-weight: 500;
+      }
+    }
+  }
+}

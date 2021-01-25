@@ -15,7 +15,7 @@ const onToggle = (setting, checked) => {
 };
 
 const MenuController = () => {
-  const { sendAnalytics, language } = appModel.attrs;
+  const { sendAnalytics, language, country } = appModel.attrs;
 
   return (
     <Page id="home-menu">
@@ -32,6 +32,7 @@ const MenuController = () => {
         onToggle={onToggle}
         config={config}
         language={language}
+        country={country}
       />
 
       <IonFooter>

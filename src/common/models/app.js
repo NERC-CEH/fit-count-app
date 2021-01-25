@@ -7,6 +7,7 @@ const defaults = {
   sendAnalytics: true,
   appSession: 0,
   language: null,
+  country: null,
 
   showedWelcome: false,
 };
