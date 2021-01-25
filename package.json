@@ -12,7 +12,8 @@
     "test": "jest --silent --passWithNoTests",
     "test:watch": "jest --watchAll",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand --watch test",
-    "test:eslint": "eslint src --quiet --ext .jsx --ext .js && echo '\\033[37;42;1m PASS \\033[00m'"
+    "test:eslint": "eslint src --quiet --ext .jsx --ext .js && echo '\\033[37;42;1m PASS \\033[00m'",
+    "fetch:data": "cd src/common/data && node make.js"
   },
   "husky": {
     "hooks": {
@@ -29,6 +30,7 @@
     "@bit/flumens.apps.main": "0.2.0",
     "@bit/flumens.apps.menu-attr-item": "^0.5.4",
     "@bit/flumens.apps.menu-note-item": "^0.2.2",
+    "@bit/flumens.apps.modal-header": "^0.1.4",
     "@bit/flumens.apps.models.init-stored-samples": "^0.1.0",
     "@bit/flumens.apps.models.model": "^0.1.0",
     "@bit/flumens.apps.models.store": "^0.3.1",
@@ -39,6 +41,7 @@
     "@capacitor/android": "^2.4.6",
     "@capacitor/core": "2.4.6",
     "@capacitor/ios": "^2.4.6",
+    "@flumens/fetch-onedrive-excel": "^0.1.0",
     "@ionic-native/core": "^5.30.0",
     "@ionic/core": "5.5.2",
     "@ionic/react": "5.5.2",

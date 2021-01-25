@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import {
   IonTabs,
@@ -8,21 +8,25 @@ import {
   IonTabBar,
   IonRouterOutlet,
 } from '@ionic/react';
-import { informationCircleOutline, menuOutline } from 'ionicons/icons';
+import {
+  bookOutline,
+  informationCircleOutline,
+  menuOutline,
+} from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import About from './About';
 import Menu from './Menu';
+import Guide from './Guide';
 import './styles.scss';
 
 const HomeComponent = () => {
-  const tabsRef = useRef();
-
   return (
     <>
-      <IonTabs ref={tabsRef}>
+      <IonTabs>
         <IonRouterOutlet>
           <Redirect exact path="/home" to="/home/about" />
           <Route path="/home/about" component={About} exact />
+          <Route path="/home/guide" component={Guide} exact />
           <Route path="/home/menu" component={Menu} exact />
         </IonRouterOutlet>
 
@@ -31,6 +35,13 @@ const HomeComponent = () => {
             <IonIcon icon={informationCircleOutline} />
             <IonLabel>
               <T>About</T>
+            </IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="home/guide " href="/home/guide">
+            <IonIcon icon={bookOutline} />
+            <IonLabel>
+              <T>ID Guide</T>
             </IonLabel>
           </IonTabButton>
 

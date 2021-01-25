@@ -1,0 +1,44 @@
+#guide {
+  ion-toolbar {
+    --ion-toolbar-background: transparent;
+
+    ion-segment {
+      width: 80%;
+      margin: auto;
+
+      ion-segment-button {
+        color: black;
+      }
+    }
+  }
+
+  .species-list {
+    --ion-grid-padding: 0;
+  }
+
+  .species-list-item {
+    --ion-grid-column-padding: 2px;
+
+    div.species-label {
+      height: 40vw;
+      width: 80%;
+      text-transform: capitalize;
+      background-size: cover !important;
+      background-position: center !important;
+      margin: 20px auto;
+      position: relative;
+      border-radius: 10px;
+
+      div {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        color: var(--ion-color-primary);
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
