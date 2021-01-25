@@ -18,7 +18,7 @@ import './styles.scss';
 const { H, P } = Section;
 
 const byLanguage = obj =>
-  obj.language ? obj.language === appModel.attrs.language : true;
+  obj.country ? obj.country === appModel.attrs.country : true;
 
 const getSponsor = ({ images, url, width, alt }) => (
   <IonCol key={images}>
