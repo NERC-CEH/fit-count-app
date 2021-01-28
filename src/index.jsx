@@ -8,6 +8,8 @@ import config from 'common/config';
 import { initAnalytics } from '@apps';
 import { initReactI18next } from 'react-i18next';
 import { configure as mobxConfigure } from 'mobx';
+import languages from 'common/languages';
+import getLangCodeFromDevice from 'common/Components/getLangCodeFromDevice';
 import 'common/translations/translator';
 import App from './App';
 
@@ -18,7 +20,7 @@ import 'common/theme.scss';
 const { App: AppPlugin, StatusBar, SplashScreen } = Plugins;
 
 i18n.use(initReactI18next).init({
-  lng: 'en',
+  lng: config.DEFAULT_LANGUAGE,
 });
 
 mobxConfigure({
@@ -32,6 +34,15 @@ setupConfig({
 
 async function init() {
   await appModel._init;
+
+  if (!appModel.attrs.language) {
+    const langCode =
+      (await getLangCodeFromDevice(Object.keys(languages))) ||
+      config.DEFAULT_LANGUAGE;
+
+    appModel.attrs.language = langCode;
+    appModel.save();
+  }
 
   initAnalytics({
     dsn: config.sentryDNS,

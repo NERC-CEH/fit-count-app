@@ -3,8 +3,8 @@
 /* eslint-disable camelcase */
 import en from './interface/en.pot';
 import es from './interface/es.po';
-import el from './interface/el_GR.po';
-import pt from './interface/pt_BR.po';
+import el from './interface/el.po';
+import pt from './interface/pt.po';
 
 const rawToKeyVal = lang =>
   Object.entries(lang).reduce((agg, pair) => {
