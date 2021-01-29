@@ -2,141 +2,89 @@
   {
     "id": 1,
     "sortId": 1,
-    "commonName": "Insect1",
+    "commonName": "Beetles",
     "scientificName": "scientificName1",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 2,
     "sortId": 2,
-    "commonName": "Insect2",
+    "commonName": "Bumblebees",
     "scientificName": "scientificName2",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 3,
     "sortId": 3,
-    "commonName": "Insect3",
+    "commonName": "Butterflies and moths",
     "scientificName": "scientificName3",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 4,
     "sortId": 4,
-    "commonName": "Insect4",
+    "commonName": "Honeybees",
     "scientificName": "scientificName4",
-    "attributes": "lorum ipsum"
+    "attributes": [
+      "Long thin antennae, often angled to form an ‘elbow’ shape",
+      "Eyes covering the sides of the head",
+      "Hind legs broad and flattened",
+      "Abdomen can vary from mostly dark to mostly orange",
+      "Long narrow cell in veins at edge of wing",
+      "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs (6). Male honeybees (drones) are similar but have much larger eyes."
+    ],
+    "type": "insects",
+    "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. "
   },
   {
     "id": 5,
     "sortId": 5,
-    "commonName": "Insect5",
+    "commonName": "Hoverflies",
     "scientificName": "scientificName5",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 6,
     "sortId": 6,
-    "commonName": "Insect6",
+    "commonName": "Other flies",
     "scientificName": "scientificName6",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 7,
     "sortId": 7,
-    "commonName": "Insect7",
+    "commonName": "Other insects",
     "scientificName": "scientificName7",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 8,
     "sortId": 8,
-    "commonName": "Insect8",
+    "commonName": "Small insects (<3mm)",
     "scientificName": "scientificName8",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 9,
     "sortId": 9,
-    "commonName": "Insect9",
+    "commonName": "Solitary bees",
     "scientificName": "scientificName9",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   },
   {
     "id": 10,
     "sortId": 10,
-    "commonName": "Insect10",
+    "commonName": "Wasps",
     "scientificName": "scientificName10",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 11,
-    "sortId": 11,
-    "commonName": "Insect11",
-    "scientificName": "scientificName11",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 12,
-    "sortId": 12,
-    "commonName": "Insect12",
-    "scientificName": "scientificName12",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 13,
-    "sortId": 13,
-    "commonName": "Insect13",
-    "scientificName": "scientificName13",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 14,
-    "sortId": 14,
-    "commonName": "Insect14",
-    "scientificName": "scientificName14",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 15,
-    "sortId": 15,
-    "commonName": "Insect15",
-    "scientificName": "scientificName15",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 16,
-    "sortId": 16,
-    "commonName": "Insect16",
-    "scientificName": "scientificName16",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 17,
-    "sortId": 17,
-    "commonName": "Insect17",
-    "scientificName": "scientificName17",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 18,
-    "sortId": 18,
-    "commonName": "Insect18",
-    "scientificName": "scientificName18",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 19,
-    "sortId": 19,
-    "commonName": "Insect19",
-    "scientificName": "scientificName19",
-    "attributes": "lorum ipsum"
-  },
-  {
-    "id": 20,
-    "sortId": 20,
-    "commonName": "Insect20",
-    "scientificName": "scientificName20",
-    "attributes": "lorum ipsum"
+    "attributes": ["lorum ipsum"],
+    "type": "insects"
   }
 ]

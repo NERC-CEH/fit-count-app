@@ -7,7 +7,7 @@
       margin: auto;
 
       ion-segment-button {
-        color: black;
+        color: var(--ion-color-dark);
       }
     }
   }
@@ -23,17 +23,27 @@
       height: 40vw;
       width: 80%;
       text-transform: capitalize;
-      background-size: cover !important;
-      background-position: center !important;
       margin: 20px auto;
       position: relative;
       border-radius: 10px;
+      background-color: #e3e3e3;
+
+      .species-wrapper {
+        padding: 35px 20px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        ion-img {
+          margin-bottom: 20px;
+        }
+      }
 
       div {
         width: 100%;
         position: absolute;
         bottom: 0px;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
         text-align: center;
         color: var(--ion-color-primary);

@@ -11,12 +11,14 @@ import {
   IonLabel,
   IonSegmentButton,
   IonSegment,
+  IonImg,
 } from '@ionic/react';
 import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T } from 'react-i18next';
 import flowersData from 'common/data/flowers.json';
 import insectsData from 'common/data/insects.json';
 import SpeciesProfile from './species/components/SpeciesProfile';
+import 'common/images/species/insects';
 import './styles.scss';
 
 class Guide extends React.Component {
@@ -42,10 +44,13 @@ class Guide extends React.Component {
     });
   };
 
-  getGridCell = ({ commonName, scientificName, id }) => {
+  getGridCell = ({ commonName, scientificName, id, type }) => {
     const onClick = () => this.showSpeciesModal(id, commonName);
 
     const name = commonName || scientificName;
+
+    const image =
+      type === 'insects' ? <IonImg src={`/images/${id}_insect.png`} /> : null;
 
     return (
       <IonCol
@@ -54,12 +59,8 @@ class Guide extends React.Component {
         onClick={onClick}
         size="6"
       >
-        <div
-          style={{
-            background: '#e6e6e6',
-          }}
-          className="species-label"
-        >
+        <div className="species-label">
+          <div className="species-wrapper">{image}</div>
           <div>{name}</div>
         </div>
       </IonCol>
