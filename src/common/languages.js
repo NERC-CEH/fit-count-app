@@ -3,4 +3,5 @@ export default {
   es: 'Español',
   el: 'Eλληνικά',
   pt: 'Português',
+  cy: 'Cymraeg',
 };
