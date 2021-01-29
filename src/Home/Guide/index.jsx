@@ -75,7 +75,7 @@ class Guide extends React.Component {
     const speciesColumns = flowersOrInsectsData.map(this.getGridCell);
 
     return (
-      <IonGrid className="species-list">
+      <IonGrid>
         <IonRow>{speciesColumns}</IonRow>
       </IonGrid>
     );

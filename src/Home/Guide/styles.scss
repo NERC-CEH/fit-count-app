@@ -12,24 +12,20 @@
     }
   }
 
-  .species-list {
-    --ion-grid-padding: 0;
-  }
-
   .species-list-item {
-    --ion-grid-column-padding: 2px;
+    padding: 0;
 
     div.species-label {
-      height: 40vw;
-      width: 80%;
+      height: 42vw;
       text-transform: capitalize;
-      margin: 20px auto;
+      margin: 8px;
       position: relative;
       border-radius: 10px;
-      background-color: #e3e3e3;
+      background-color: #f1f1f1;
+      box-shadow: 0 0 11px #f4a90029, 0 0 3px #5d083c6e;
 
       .species-wrapper {
-        padding: 35px 20px;
+        padding: 30px 27px;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
