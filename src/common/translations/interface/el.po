@@ -110,10 +110,6 @@ msgid "Flowers"
 msgstr ""
 
 # Country page content
-msgid "Select your country"
-msgstr ""
-
-# Country page content
 msgid "Argentina"
 msgstr ""
 

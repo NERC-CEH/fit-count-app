@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
 import appModel from 'models/app';
 import { Page, Main } from '@apps';
@@ -28,15 +27,10 @@ function CountrySelect({ children }) {
   return (
     <Page id="country-select">
       <Main>
-        <IonList>
+        <IonList className="ion-no-padding">
           <div className="header">
             <IonIcon icon={globeOutline} />
           </div>
-
-          <h4>
-            <T>Select your country</T>
-          </h4>
-
           <div className="countries-container">{countriesEntries()}</div>
         </IonList>
       </Main>
