@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { setupConfig, isPlatform } from '@ionic/react';
 import appModel from 'models/app';
+import savedSamples from 'models/savedSamples';
 import { Plugins, StatusBarStyle } from '@capacitor/core';
 import i18n from 'i18next';
 import config from 'common/config';
@@ -34,6 +35,7 @@ setupConfig({
 
 async function init() {
   await appModel._init;
+  await savedSamples._init;
 
   if (!appModel.attrs.language) {
     const langCode =

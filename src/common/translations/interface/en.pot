@@ -137,3 +137,55 @@ msgstr "Cyprus"
 # Country page content
 msgid "United Kingdom"
 msgstr "United Kingdom"
+
+# Home page toolbar label
+msgid "Home"
+msgstr "Home"
+
+# Home page button label
+msgid "Start Survey"
+msgstr "Start Survey"
+
+# Start survey alert message
+msgid "Discard"
+msgstr "Discard"
+
+# Start survey alert button label
+msgid "Continue"
+msgstr "Continue"
+
+# Start survey alert button label
+msgid "Draft"
+msgstr "Draft"
+
+# Start survey alert button message
+msgid "Previous survey draft exists, would you like to continue it?"
+msgstr "Previous survey draft exists, would you like to continue it?"
+
+# Survey content
+msgid "Use the map to zoom in and tap on your <1>location</1>."
+msgstr "Use the map to zoom in and tap on your <1>location</1>."
+
+# Survey content
+msgid "Cancel"
+msgstr "Cancel"
+
+# Survey content
+msgid "Delete Survey"
+msgstr "Delete Survey"
+
+# Survey content
+msgid "Warning - This will discard the survey information you have entered so far."
+msgstr "Warning - This will discard the survey information you have entered so far."
+
+# Survey content
+msgid "Use the map to zoom in and tap on your <1>location</1>.<3>This is attribute page info example.<br/><br/>We can put any text or illustrations in it.</3>"
+msgstr "Use the map to zoom in and tap on your <1>location</1>.<3>This is attribute page info example.<br/><br/>We can put any text or illustrations in it.</3>"
+
+# Survey content
+msgid "Next"
+msgstr "Next"
+
+# Survey content
+msgid "of"
+msgstr "of"

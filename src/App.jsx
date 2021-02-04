@@ -9,6 +9,7 @@ import OnBoardingScreens from './Info/onBoardingScreens';
 import Home from './Home';
 import Info from './Info/router';
 import Settings from './Settings/router';
+import Survey from './Survey/router';
 
 const HomeRedirect = () => {
   return <Redirect to="home" />;
@@ -23,6 +24,7 @@ const App = () => (
             <Route exact path="/" component={HomeRedirect} />
             <Route path="/home" component={Home} />
             {Info}
+            {Survey}
             {Settings}
           </IonRouterOutlet>
         </IonReactRouter>

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Main, Toggle, MenuNote, MenuAttrItem } from '@apps';
+import { Main, Toggle, MenuAttrItem, InfoMessage } from '@apps';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import exact from 'prop-types-exact';
@@ -87,9 +87,9 @@ class MenuComponent extends React.Component {
             </IonLabel>
             <Toggle onToggle={onSendAnalyticsToggle} checked={sendAnalytics} />
           </IonItem>
-          <MenuNote>
+          <InfoMessage>
             Share app crash data so we can make the app more reliable.
-          </MenuNote>
+          </InfoMessage>
         </IonList>
       </Main>
     );

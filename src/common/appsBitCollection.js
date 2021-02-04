@@ -5,9 +5,14 @@ export { default as Main } from '@bit/flumens.apps.main';
 export { default as Page } from '@bit/flumens.apps.page';
 export { default as MenuAttrItem } from '@bit/flumens.apps.menu-attr-item';
 export { default as Section } from '@bit/flumens.apps.section';
-export { default as MenuNote } from '@bit/flumens.apps.menu-note-item';
 export { default as Toggle } from '@bit/flumens.apps.toggle';
 export { default as ModalHeader } from '@bit/flumens.apps.modal-header';
+export { default as RouteWithModels } from '@bit/flumens.apps.route-with-models';
+export { default as ModelLocation } from '@bit/flumens.apps.model-location-map';
+export { default as InfoButton } from '@bit/flumens.apps.info-button';
+export { default as InfoMessage } from '@bit/flumens.apps.info-message';
+
+export * from '@bit/flumens.apps.utils.location';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as alert } from '@bit/flumens.apps.helpers.alert';
@@ -18,3 +23,6 @@ export { default as initAnalytics } from '@bit/flumens.apps.utils.analytics';
 export { default as Model } from '@bit/flumens.apps.models.model';
 export { default as Store } from '@bit/flumens.apps.models.store';
 export { default as initStoredSamples } from '@bit/flumens.apps.models.init-stored-samples';
+export { default as Sample } from '@bit/flumens.apps.models.sample';
+export { default as Media } from '@bit/flumens.apps.models.media';
+export { default as Occurrence } from '@bit/flumens.apps.models.occurrence';

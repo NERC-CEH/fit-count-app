@@ -10,10 +10,12 @@ import {
 } from '@ionic/react';
 import {
   bookOutline,
+  homeOutline,
   informationCircleOutline,
   menuOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
+import Home from './Home';
 import About from './About';
 import Menu from './Menu';
 import Guide from './Guide';
@@ -24,13 +26,21 @@ const HomeComponent = () => {
     <>
       <IonTabs>
         <IonRouterOutlet>
-          <Redirect exact path="/home" to="/home/about" />
+          <Redirect exact path="/home" to="/home/info" />
+          <Route path="/home/info" component={Home} exact />
           <Route path="/home/about" component={About} exact />
           <Route path="/home/guide" component={Guide} exact />
           <Route path="/home/menu" component={Menu} exact />
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom" className="home-tab-bar">
+          <IonTabButton tab="home/info " href="/home/info">
+            <IonIcon icon={homeOutline} />
+            <IonLabel>
+              <T>Home</T>
+            </IonLabel>
+          </IonTabButton>
+
           <IonTabButton tab="home/about " href="/home/about">
             <IonIcon icon={informationCircleOutline} />
             <IonLabel>

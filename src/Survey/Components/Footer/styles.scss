@@ -1,0 +1,21 @@
+#survey-footer {
+  .next-button {
+    z-index: 24;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    --ion-background-color: var(--ion-color-secondary);
+    --background-activated: none;
+    --color: white;
+    width: 80%;
+    --border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .disable {
+    --background: var(--ion-color-medium);
+    opacity: 0.6;
+  }
+}
