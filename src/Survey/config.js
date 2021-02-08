@@ -1,4 +1,47 @@
-const habitatValues = [];
+import img1 from './FlowerCover/images/Group.png';
+import img2 from './FlowerCover/images/Group2.png';
+import img3 from './FlowerCover/images/Group3.png';
+
+const habitatValues = [
+  {
+    id: -1,
+    value: 'Garden',
+  },
+  {
+    id: -1,
+    value: 'School Ground',
+  },
+  {
+    id: -1,
+    value: 'Parklands with trees',
+  },
+  {
+    id: -1,
+    value: 'Churchyard',
+  },
+];
+
+const flowerCoverValues = [
+  {
+    id: 0,
+    value: 'Less than half of 50x50cm patch',
+    background: img3,
+  },
+  {
+    id: 1,
+    value: 'Half of path',
+    background: img2,
+  },
+  {
+    id: 2,
+    value: 'More than half of path',
+    background: img1,
+  },
+  {
+    id: 1,
+    value: 'Not recorded',
+  },
+];
 
 const survey = {
   id: -1,
@@ -31,11 +74,20 @@ const survey = {
 
     habitat: {
       id: 'habitat',
-      label: 'habitat',
+      type: 'radio',
       options: habitatValues,
       remote: {
         id: -1,
         values: habitatValues,
+      },
+    },
+
+    'flower-cover': {
+      id: 'flower-cover',
+      options: flowerCoverValues,
+      remote: {
+        id: -1,
+        values: flowerCoverValues,
       },
     },
   },
@@ -50,6 +102,7 @@ const survey = {
       attrs: {
         location: null,
         habitat: null,
+        'flower-cover': null,
       },
     });
 

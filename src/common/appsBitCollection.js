@@ -11,6 +11,7 @@ export { default as RouteWithModels } from '@bit/flumens.apps.route-with-models'
 export { default as ModelLocation } from '@bit/flumens.apps.model-location-map';
 export { default as InfoButton } from '@bit/flumens.apps.info-button';
 export { default as InfoMessage } from '@bit/flumens.apps.info-message';
+export { default as Attr } from '@bit/flumens.apps.attr';
 
 export * from '@bit/flumens.apps.utils.location';
 

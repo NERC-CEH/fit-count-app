@@ -189,3 +189,43 @@ msgstr "Next"
 # Survey content
 msgid "of"
 msgstr "of"
+
+# Survey habitat info message
+msgid "Select <1>habitat</1> that is the best match."
+msgstr "Select <1>habitat</1> that is the best match."
+
+# Survey habitat radio input
+msgid "Garden"
+msgstr "Garden"
+
+# Survey habitat radio input
+msgid "School Ground"
+msgstr "School Ground"
+
+# Survey habitat radio input
+msgid "Parklands with trees"
+msgstr "Parklands with trees"
+
+# Survey habitat radio input
+msgid "Churchyard"
+msgstr "Churchyard"
+
+# Survey flower-cover radio input
+msgid "What is the target flower <1>cover</1>."
+msgstr "What is the target flower <1>cover</1>."
+
+# Survey flower-cover radio input
+msgid "Less than half of 50x50cm patch"
+msgstr "Less than half of 50x50cm patch"
+
+# Survey flower-cover radio input
+msgid "Half of path"
+msgstr "Half of path"
+
+# Survey flower-cover radio input
+msgid "More than half of path"
+msgstr "More than half of path"
+
+# Survey flower-cover radio input
+msgid "Not recorded"
+msgstr "Not recorded"

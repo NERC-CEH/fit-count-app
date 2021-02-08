@@ -1,8 +1,13 @@
 #survey-footer {
+  padding: 20px;
+  background: var(--ion-page-background);
+
+  &::before {
+    content: none;
+  }
+
   .next-button {
     z-index: 24;
-    position: absolute;
-    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
     --ion-background-color: var(--ion-color-secondary);

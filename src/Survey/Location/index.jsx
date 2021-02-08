@@ -8,11 +8,12 @@ import {
   alert,
   InfoMessage,
 } from '@apps';
-import { NavContext } from '@ionic/react';
+import { NavContext, IonFooter } from '@ionic/react';
 import { locationOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
+import './styles.scss';
 
 function showDeleteSurveyAlertMessage() {
   const deleteSurvey = resolve => {
@@ -69,7 +70,7 @@ class Location extends ModelLocation {
     const location = sample.attrs.location || {};
 
     return (
-      <Page id="location">
+      <Page id="survey-location-page">
         <Header
           surveyProgressIndex={1}
           onCancel={this.deleteSubSampleOrSurvey}
@@ -96,7 +97,9 @@ class Location extends ModelLocation {
           />
         </Main>
 
-        <Footer isEnabled={this.isValueValid()} link="habitat" />
+        <IonFooter>
+          <Footer isEnabled={this.isValueValid()} link="habitat" />
+        </IonFooter>
       </Page>
     );
   }

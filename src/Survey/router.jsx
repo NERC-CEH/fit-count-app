@@ -6,6 +6,7 @@ import StartNewSurvey from './StartNewSurvey';
 import survey from './config';
 import Location from './Location';
 import Habitat from './Habitat';
+import FlowerCover from './FlowerCover';
 
 const baseURL = `/survey/new`;
 
@@ -21,6 +22,7 @@ const routes = [
   [`${baseURL}`, StartNewSurvey.with(survey), true],
   [`${baseURL}/:smpId/location`, ModelLocationWrap],
   [`${baseURL}/:smpId/habitat`, Habitat],
+  [`${baseURL}/:smpId/flower-cover`, FlowerCover],
 ];
 
 export default RouteWithModels.fromArray(savedSamples, routes);

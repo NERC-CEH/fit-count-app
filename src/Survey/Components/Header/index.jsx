@@ -24,7 +24,7 @@ function CustomHeader({ onCancel, surveyProgressIndex, backButtonLabel }) {
           <BackButton onCancel={onCancel} backButtonLabel={backButtonLabel} />
         </IonButtons>
 
-        <IonTitle>
+        <IonTitle mode="ios">
           <b>{surveyProgressIndex}</b>{' '}
           <span>
             <T>of</T> {SURVEY_STEP_COUNT}
