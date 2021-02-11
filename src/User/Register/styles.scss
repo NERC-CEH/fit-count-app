@@ -1,0 +1,88 @@
+#user-register {
+  ion-toolbar {
+    position: fixed;
+    --ion-toolbar-background: transparent;
+
+    ion-back-button {
+      color: var(--ion-color-light-contrast);
+    }
+  }
+
+  ion-content {
+    --padding-top: 40px; // header
+    --padding-bottom: 40px;
+  }
+
+  ion-list,
+  ion-item {
+    --background: transparent;
+    background: transparent;
+  }
+
+  ion-item {
+    &:last-of-type {
+      ion-labelw {
+        font-size: 16px;
+      }
+      ion-label.ios {
+        font-size: 17px;
+      }
+    }
+  }
+
+  ion-content {
+    ion-icon {
+      color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 1);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.4em;
+      font-weight: 500;
+      margin-bottom: 50px;
+    }
+
+    .terms-info-text {
+      display: block;
+      padding: 20px 20px 10px;
+      text-align: center;
+      font-size: 0.85em;
+      color: var(--ion-color-dark);
+    }
+
+    ion-button[type='submit'] {
+      margin-bottom: 50px;
+    }
+
+    .signin-button {
+      font-size: 0.85em;
+      text-align: center;
+    }
+  }
+}
+
+.user-register-alert-styles .alert-wrapper {
+  width: 100% !important;
+
+  .alert-tappable {
+    overflow: hidden;
+    height: none;
+    display: contents;
+
+    .alert-button-inner {
+      height: initial;
+      padding: 10px 0px;
+      border-bottom: 1px solid lightgray;
+    }
+
+    &:last-of-type {
+      .alert-button-inner {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .alert-radio-label {
+    white-space: normal;
+  }
+}

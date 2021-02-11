@@ -18,6 +18,9 @@ import {
   heartOutline,
   languageOutline,
   globeOutline,
+  personAddOutline,
+  personOutline,
+  exitOutline,
 } from 'ionicons/icons';
 import languages from 'common/languages';
 import countries from 'common/countries';
@@ -30,10 +33,22 @@ class MenuComponent extends React.Component {
     config: PropTypes.object.isRequired,
     language: PropTypes.string.isRequired,
     country: PropTypes.string.isRequired,
+    isLoggedIn: PropTypes.bool.isRequired,
+    user: PropTypes.object.isRequired,
+    logOut: PropTypes.func.isRequired,
   });
 
   render() {
-    const { onToggle, sendAnalytics, config, language, country } = this.props;
+    const {
+      onToggle,
+      sendAnalytics,
+      config,
+      language,
+      country,
+      isLoggedIn,
+      user,
+      logOut,
+    } = this.props;
     const baseURL = config.backend.url;
 
     const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
@@ -44,6 +59,32 @@ class MenuComponent extends React.Component {
     return (
       <Main>
         <IonList lines="full">
+          <IonItemDivider>User</IonItemDivider>
+          <div className="rounded">
+            {isLoggedIn && (
+              <IonItem detail id="logout-button" onClick={logOut}>
+                <IonIcon icon={exitOutline} size="small" slot="start" />
+                <T>Logout</T>
+                {': '}
+                {user.fullName}
+              </IonItem>
+            )}
+
+            {!isLoggedIn && (
+              <IonItem routerLink="/user/login" detail>
+                <IonIcon icon={personOutline} size="small" slot="start" />
+                <T>Login</T>
+              </IonItem>
+            )}
+
+            {!isLoggedIn && (
+              <IonItem routerLink="/user/register" detail>
+                <IonIcon icon={personAddOutline} size="small" slot="start" />
+                <T>Register</T>
+              </IonItem>
+            )}
+          </div>
+
           <IonItemDivider>
             <T>Info</T>
           </IonItemDivider>

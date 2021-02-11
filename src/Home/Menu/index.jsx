@@ -1,10 +1,20 @@
 import React from 'react';
 import appModel from 'models/app';
+import PropTypes from 'prop-types';
+import exact from 'prop-types-exact';
 import config from 'common/config';
 import { observer } from 'mobx-react';
-import { Page } from '@apps';
+import { Page, alert } from '@apps';
 import { Trans as T } from 'react-i18next';
-import { IonFooter, IonTitle, IonHeader, IonToolbar } from '@ionic/react';
+import {
+  IonFooter,
+  IonTitle,
+  IonHeader,
+  IonToolbar,
+  IonItem,
+  IonLabel,
+  IonCheckbox,
+} from '@ionic/react';
 import flumensLogo from 'common/images/flumens.svg';
 import Main from './Main';
 import './styles.scss';
@@ -14,8 +24,59 @@ const onToggle = (setting, checked) => {
   appModel.save();
 };
 
-const MenuController = () => {
+function showLogoutConfirmationDialog(callback) {
+  let deleteData = true;
+
+  const onCheckboxChange = e => {
+    deleteData = e.detail.checked;
+  };
+
+  alert({
+    header: 'Logout',
+    message: (
+      <>
+        Are you sure you want to logout?
+        <br />
+        <br />
+        <IonItem lines="none" className="log-out-checkbox">
+          <IonLabel>Discard local data</IonLabel>
+          <IonCheckbox checked onIonChange={onCheckboxChange} />
+        </IonItem>
+      </>
+    ),
+    buttons: [
+      {
+        text: 'Cancel',
+        role: 'cancel',
+        cssClass: 'secondary',
+      },
+      {
+        text: 'Logout',
+        cssClass: 'primary',
+        handler: () => callback(deleteData),
+      },
+    ],
+  });
+}
+
+const MenuController = ({ userModel, savedSamples }) => {
   const { sendAnalytics, language, country } = appModel.attrs;
+
+  function logOut() {
+    const onReset = async reset => {
+      if (reset) {
+        // appModel.attrs['draftId:area'] = null; // TODO:
+        await savedSamples.resetDefaults();
+      }
+
+      appModel.save();
+      userModel.logOut();
+    };
+
+    showLogoutConfirmationDialog(onReset);
+  }
+
+  const isLoggedIn = !!userModel.attrs.id;
 
   return (
     <Page id="home-menu">
@@ -33,6 +94,9 @@ const MenuController = () => {
         config={config}
         language={language}
         country={country}
+        isLoggedIn={isLoggedIn}
+        user={userModel.attrs}
+        logOut={logOut}
       />
 
       <IonFooter>
@@ -47,5 +111,10 @@ const MenuController = () => {
     </Page>
   );
 };
+
+MenuController.propTypes = exact({
+  userModel: PropTypes.object.isRequired,
+  savedSamples: PropTypes.array.isRequired,
+});
 
 export default observer(MenuController);

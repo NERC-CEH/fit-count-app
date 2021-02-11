@@ -229,3 +229,180 @@ msgstr "More than half of path"
 # Survey flower-cover radio input
 msgid "Not recorded"
 msgstr "Not recorded"
+
+# User registration page
+msgid "Create a free account"
+msgstr "Create a free account"
+
+# User registration page
+msgid "Full name"
+msgstr "Full name"
+
+# User registration page
+msgid "Email"
+msgstr "Email"
+
+# User registration page
+msgid "Password"
+msgstr "Password"
+
+
+# User registration page
+msgid "Your identification experience"
+msgstr "Your identification experience"
+
+# User registration page
+msgid "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and Conditions</6>"
+msgstr "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and Conditions</6>"
+
+# User registration page
+msgid "Sign Up"
+msgstr "Sign Up"
+
+# User registration page
+msgid "I am already a member"
+msgstr "I am already a member"
+
+# User registration page
+msgid "Sign In"
+msgstr "Sign In"
+
+# User registration page
+msgid "How did you hear about us?"
+msgstr "How did you hear about us?"
+
+# User registration page
+msgid "Identification experience"
+msgstr "Identification experience"
+
+# User registration page
+msgid "Please fill in"
+msgstr "Please fill in"
+
+# User registration page
+msgid "Direct from PoMS (website, Twitter etc.)"
+msgstr "Direct from PoMS (website, Twitter etc.)"
+
+# User registration page
+msgid "British Trust for Ornithology"
+msgstr "British Trust for Ornithology"
+
+# User registration page
+msgid "Bumblebee Conservation Trust"
+msgstr "Bumblebee Conservation Trust"
+
+# User registration page
+msgid "Butterfly Conservation"
+msgstr "Butterfly Conservation"
+
+# User registration page
+msgid "Buglife"
+msgstr "Buglife"
+
+# User registration page
+msgid "GrowWild UK"
+msgstr "GrowWild UK"
+
+# User registration page
+msgid "Jersey Biodiversity Centre"
+msgstr "Jersey Biodiversity Centre"
+
+# User registration page
+msgid "National Plant Monitoring Scheme"
+msgstr "National Plant Monitoring Scheme"
+
+# User registration page
+msgid "Not sure, or from multiple sources"
+msgstr "Not sure, or from multiple sources"
+
+# User registration page
+msgid "Peterborough Big Bee Count"
+msgstr "Peterborough Big Bee Count"
+
+# User registration page
+msgid "Other"
+msgstr "Other"
+
+# User registration page
+msgid "I am new to identifying wildlife"
+msgstr "I am new to identifying wildlife"
+
+# User registration page
+msgid "I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects"
+msgstr "I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects"
+
+# User registration page
+msgid "I am familiar with recognising the main groups of pollinating insect"
+msgstr "I am familiar with recognising the main groups of pollinating insect"
+
+# User registration page
+msgid "I am confident in identifying the commonly-occurring pollinating insects to species level"
+msgstr "I am confident in identifying the commonly-occurring pollinating insects to species level"
+
+# User registration page
+msgid "Not stated"
+msgstr "Not stated"
+
+# User registration page
+msgid "Select"
+msgstr "Select"
+
+# User login page
+msgid "Welcome back"
+msgstr "Welcome back"
+
+# User login page
+msgid "Sign in to your account to start"
+msgstr "Sign in to your account to start"
+
+# User login page
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+# User login page
+msgid "email is a required field"
+msgstr "email is a required field"
+
+# User login page
+msgid "password is a required field"
+msgstr "password is a required field"
+
+# User reset page
+msgid "Enter your email address to request a password reset."
+msgstr "Enter your email address to request a password reset."
+
+# User reset page
+msgid "Reset"
+msgstr "Reset"
+
+# User reset page
+msgid "email must be a valid email"
+msgstr "email must be a valid email"
+
+# Upload user register form message
+msgid "Please wait..."
+msgstr "Please wait..."
+
+# Successful register alert message
+msgid "OK, got it"
+msgstr "OK, got it"
+
+# Successful register alert message
+msgid "Welcome aboard"
+msgstr "Welcome aboard"
+
+# Successful register alert message
+msgid "Before starting any surveys please check your email and click on the verification link."
+msgstr "Before starting any surveys please check your email and click on the verification link."
+
+# Settings page label
+msgid "Logout"
+msgstr "Logout"
+
+# Settings page label
+msgid "Login"
+msgstr "Login"
+
+# Settings page label
+msgid "Register"
+msgstr "Register"

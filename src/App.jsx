@@ -9,6 +9,7 @@ import OnBoardingScreens from './Info/onBoardingScreens';
 import Home from './Home';
 import Info from './Info/router';
 import Settings from './Settings/router';
+import User from './User/router';
 import Survey from './Survey/router';
 
 const HomeRedirect = () => {
@@ -23,6 +24,7 @@ const App = () => (
           <IonRouterOutlet id="main">
             <Route exact path="/" component={HomeRedirect} />
             <Route path="/home" component={Home} />
+            {User}
             {Info}
             {Survey}
             {Settings}
