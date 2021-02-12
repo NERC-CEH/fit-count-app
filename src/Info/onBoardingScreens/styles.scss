@@ -19,7 +19,7 @@
       ion-button {
         border-radius: 50%;
         background: #ffffffe0;
-        color: #4d380a;
+        color: (--ion-color-dark);
         height: 40px;
         width: 40px;
         margin: 10px;
@@ -44,12 +44,12 @@
         min-height: 35%;
         -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
         box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        background-color: rgba(62, 62, 62, 0.6);
+        background-color: rgba(255, 255, 255, 0.85);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(3px);
         bottom: 0;
         padding-bottom: 50px;
-        border-radius: 20px 20px 0 0;
+        border-radius: 10px 10px 0 0;
       }
     }
 
@@ -82,7 +82,7 @@
       ion-button {
         font-size: 1.2rem;
         font-weight: 500;
-        color: #e8ea3a;
+        color: var(--ion-color-primary);
       }
     }
 
@@ -99,14 +99,14 @@
       color: var(--ion-color-light);
       padding: 0 20px;
       font-weight: bold;
-      color: #e8ea3a;
+      color: var(--ion-color-primary);
     }
 
     p {
       font-size: 1.15rem;
       margin-bottom: 5px;
       text-align: left;
-      color: white;
+      color: var(--ion-color-dark);
       max-width: 80%;
       margin: 20px auto;
     }
@@ -120,7 +120,7 @@
 
       .swiper-pagination-bullet-active {
         opacity: 0.8;
-        --bullet-background-active: #e8ea3a;
+        --bullet-background-active: var(--ion-color-primary);
       }
     }
   }
