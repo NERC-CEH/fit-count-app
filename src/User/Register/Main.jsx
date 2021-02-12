@@ -26,6 +26,7 @@ const optionsHeardFrom = [
   'Bumblebee Conservation Trust',
   'Butterfly Conservation',
   'Buglife',
+  'Earthwatch',
   'GrowWild UK',
   'Jersey Biodiversity Centre',
   'National Plant Monitoring Scheme',
@@ -114,7 +115,7 @@ class Component extends React.Component {
 
             <SelectWithValidation
               icon={helpCircleOutline}
-              placeholder="How did you hear about us?"
+              placeholder="How did you hear about FIT Counts?"
               name="heardFrom"
               options={optionsHeardFrom}
               {...formikProps}

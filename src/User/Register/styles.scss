@@ -17,11 +17,17 @@
   ion-item {
     --background: transparent;
     background: transparent;
+
+    ion-icon {
+      &:first-of-type:not(:last-child) {
+        margin-right: 25px; // gives more space to text
+      }
+    }
   }
 
   ion-item {
     &:last-of-type {
-      ion-labelw {
+      ion-label.md {
         font-size: 16px;
       }
       ion-label.ios {
