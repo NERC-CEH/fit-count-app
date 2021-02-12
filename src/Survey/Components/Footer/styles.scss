@@ -17,10 +17,12 @@
     --border-radius: 5px;
     border-radius: 5px;
     color: white;
+    box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
   }
 
   .disable {
     --background: var(--ion-color-medium);
+    box-shadow: none;
     opacity: 0.6;
   }
 }
