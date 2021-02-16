@@ -15,9 +15,9 @@ import {
 import Log from 'helpers/log';
 import { arrowForward, closeOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
-import './images/first.jpg';
-import './images/second.jpg';
-import './images/third.jpg';
+import first from './images/first.jpg';
+import second from './images/second.jpg';
+import third from './images/third.jpg';
 import './styles.scss';
 
 const SplashScreen = ({ appModel }) => {
@@ -65,7 +65,10 @@ const SplashScreen = ({ appModel }) => {
           onIonSlidesDidLoad={onIonSlidesDidLoadWrap}
         >
           <IonSlide className="first">
-            <div className="slide-header">
+            <div
+              className="slide-header"
+              style={{ backgroundImage: `url(${first})` }}
+            >
               <div className="message-blur-container">
                 <div className="message">
                   <h2>Lorrum ipsum</h2>
@@ -80,7 +83,10 @@ const SplashScreen = ({ appModel }) => {
           </IonSlide>
 
           <IonSlide className="second">
-            <div className="slide-header">
+            <div
+              className="slide-header"
+              style={{ backgroundImage: `url(${second})` }}
+            >
               <div className="message-blur-container">
                 <div className="message">
                   <h2>Lorrum ipsum</h2>
@@ -95,7 +101,10 @@ const SplashScreen = ({ appModel }) => {
           </IonSlide>
 
           <IonSlide className="third">
-            <div className="slide-header">
+            <div
+              className="slide-header"
+              style={{ backgroundImage: `url(${third})` }}
+            >
               <div className="message-blur-container">
                 <div className="message">
                   <h2>Lorrum ipsum</h2>

@@ -3,14 +3,18 @@ import { Page, Main } from '@apps';
 import { IonItem, IonItemGroup, IonLabel, IonRouterLink } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import appLogo from './appLogo.png';
-import './homePageBackground.jpg';
+import homePageBackground from './homePageBackground.jpg';
 import './styles.scss';
+
+const style = {
+  backgroundImage: `url(${homePageBackground})`,
+};
 
 function Home() {
   return (
     <Page id="home-info">
       <Main>
-        <div className="app-home-background">
+        <div className="app-home-background" style={style}>
           <div className="app-logo-wrapper">
             <img className="app-logo" src={appLogo} alt="appLogo" />
           </div>
