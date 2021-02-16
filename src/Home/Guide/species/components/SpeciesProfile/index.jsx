@@ -126,7 +126,7 @@ class SpeciesProfile extends React.Component {
   render() {
     const { species } = this.props;
 
-    if (!species.images) {
+    if (typeof species.id === 'number' || !species.images.length) {
       wip();
       return null;
     }
