@@ -1,90 +1,54 @@
 [
   {
-    "id": 1,
-    "sortId": 1,
-    "commonName": "Beetles",
-    "scientificName": "scientificName1",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "beetles",
+    "sort": 1,
+    "name": "Beetles"
   },
   {
-    "id": 2,
-    "sortId": 2,
-    "commonName": "Bumblebees",
-    "scientificName": "scientificName2",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "bumblebees",
+    "sort": 2,
+    "name": "Bumblebees"
   },
   {
-    "id": 3,
-    "sortId": 3,
-    "commonName": "Butterflies and moths",
-    "scientificName": "scientificName3",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "butterfliesAndMoths",
+    "sort": 3,
+    "name": "Butterflies and moths",
+    "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees."
   },
   {
-    "id": 4,
-    "sortId": 4,
-    "commonName": "Honeybees",
-    "scientificName": "scientificName4",
-    "attributes": [
-      "Long thin antennae, often angled to form an ‘elbow’ shape",
-      "Eyes covering the sides of the head",
-      "Hind legs broad and flattened",
-      "Abdomen can vary from mostly dark to mostly orange",
-      "Long narrow cell in veins at edge of wing",
-      "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs (6). Male honeybees (drones) are similar but have much larger eyes."
-    ],
-    "type": "insects",
-    "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. "
+    "id": "honeybees",
+    "sort": 4,
+    "name": "Honeybees",
+    "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees."
   },
   {
-    "id": 5,
-    "sortId": 5,
-    "commonName": "Hoverflies",
-    "scientificName": "scientificName5",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "hoverflies",
+    "sort": 5,
+    "name": "Hoverflies"
   },
   {
-    "id": 6,
-    "sortId": 6,
-    "commonName": "Other flies",
-    "scientificName": "scientificName6",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "otherFlies",
+    "sort": 6,
+    "name": "Other flies"
   },
   {
-    "id": 7,
-    "sortId": 7,
-    "commonName": "Other insects",
-    "scientificName": "scientificName7",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "otherInsects",
+    "sort": 7,
+    "name": "Other insects"
   },
   {
-    "id": 8,
-    "sortId": 8,
-    "commonName": "Small insects (<3mm)",
-    "scientificName": "scientificName8",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "smallInsects",
+    "sort": 8,
+    "name": "Small insects (<3mm)"
   },
   {
-    "id": 9,
-    "sortId": 9,
-    "commonName": "Solitary bees",
-    "scientificName": "scientificName9",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "solitaryBees",
+    "sort": 9,
+    "name": "Solitary bees"
   },
   {
-    "id": 10,
-    "sortId": 10,
-    "commonName": "Wasps",
-    "scientificName": "scientificName10",
-    "attributes": ["lorum ipsum"],
-    "type": "insects"
+    "id": "wasps",
+    "sort": 10,
+    "name": "Wasps"
   }
 ]

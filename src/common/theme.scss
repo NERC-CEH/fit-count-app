@@ -80,6 +80,7 @@
 
 ion-toolbar {
   --min-height: 54px;
+  --ion-page-background: #f4f5f8;
 }
 
 .sc-ion-back-button-ios-h {
@@ -227,4 +228,12 @@ ion-item.empty {
 
 a {
   text-decoration: none;
+}
+
+body {
+  background-color: var(--ion-page-background);
+}
+
+ion-content {
+  --background: var(--ion-page-background);
 }

@@ -1,114 +1,72 @@
 [
   {
     "id": 1,
-    "sortId": 1,
-    "commonName": "Bramble",
-    "scientificName": "scientificName1",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 1,
+    "name": "Bramble"
   },
   {
     "id": 2,
-    "sortId": 2,
-    "commonName": "Buddleja",
-    "scientificName": "scientificName2",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 2,
+    "name": "Buddleja"
   },
   {
     "id": 3,
-    "sortId": 3,
-    "commonName": "Buttercup",
-    "scientificName": "scientificName3",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 3,
+    "name": "Buttercup"
   },
   {
     "id": 4,
-    "sortId": 4,
-    "commonName": "Dandelion",
-    "scientificName": "scientificName4",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 4,
+    "name": "Dandelion"
   },
   {
     "id": 5,
-    "sortId": 5,
-    "commonName": "Hawthorn",
-    "scientificName": "scientificName5",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 5,
+    "name": "Hawthorn"
   },
   {
     "id": 6,
-    "sortId": 6,
-    "commonName": "Heather",
-    "scientificName": "scientificName6",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 6,
+    "name": "Heather"
   },
   {
     "id": 7,
-    "sortId": 7,
-    "commonName": "Hogweed",
-    "scientificName": "scientificName7",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 7,
+    "name": "Hogweed"
   },
   {
     "id": 8,
-    "sortId": 8,
-    "commonName": "Ivy\n",
-    "scientificName": "scientificName8",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 8,
+    "name": "Ivy"
   },
   {
     "id": 9,
-    "sortId": 9,
-    "commonName": "Knapweed",
-    "scientificName": "scientificName9",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 9,
+    "name": "Knapweed"
   },
   {
     "id": 10,
-    "sortId": 10,
-    "commonName": "Lavender",
-    "scientificName": "scientificName10",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 10,
+    "name": "Lavender"
   },
   {
     "id": 11,
-    "sortId": 11,
-    "commonName": "Ragwort",
-    "scientificName": "scientificName11",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 11,
+    "name": "Ragwort"
   },
   {
     "id": 12,
-    "sortId": 12,
-    "commonName": "Thistle",
-    "scientificName": "scientificName12",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 12,
+    "name": "Thistle"
   },
   {
     "id": 13,
-    "sortId": 13,
-    "commonName": "White Clover\n",
-    "scientificName": "scientificName13",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 13,
+    "name": "White Clover"
   },
   {
     "id": 14,
-    "sortId": 14,
-    "commonName": "White Dead-nettle\n",
-    "scientificName": "scientificName14",
-    "attributes": "lorum ipsum",
-    "type": "flower"
+    "sort": 14,
+    "name": "White Dead-nettle"
   }
 ]

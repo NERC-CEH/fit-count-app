@@ -15,6 +15,7 @@ export { default as Attr } from '@bit/flumens.apps.attr';
 export { default as InputWithValidation } from '@bit/flumens.apps.input-with-validation';
 export { default as ToggleWithValidation } from '@bit/flumens.apps.toggle-with-validation';
 export { default as SelectWithValidation } from '@bit/flumens.apps.select-with-validation';
+export { default as Gallery } from '@bit/flumens.apps.gallery';
 
 export * from '@bit/flumens.apps.utils.location';
 

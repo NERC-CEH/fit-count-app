@@ -406,3 +406,35 @@ msgstr "Login"
 # Settings page label
 msgid "Register"
 msgstr "Register"
+
+# ID guide honeybees species profile
+msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
+msgstr "Long thin antennae, often angled to form an ‘elbow’ shape"
+
+# ID guide honeybees species profile
+msgid "Eyes covering the sides of the head"
+msgstr "Eyes covering the sides of the head"
+
+# ID guide honeybees species profile
+msgid "Hind legs broad and flattened"
+msgstr "Hind legs broad and flattened"
+
+# ID guide honeybees species profile
+msgid "Abdomen can vary from mostly dark to mostly orange"
+msgstr "Abdomen can vary from mostly dark to mostly orange"
+
+# ID guide honeybees species profile
+msgid "Long narrow cell in veins at edge of wing"
+msgstr "Long narrow cell in veins at edge of wing"
+
+# ID guide honeybees species profile
+msgid "Description"
+msgstr "Description"
+
+# ID guide honeybees species profile
+msgid "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs"
+msgstr "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs"
+
+# ID guide honeybees species profile
+msgid "Extra information"
+msgstr "Extra information"

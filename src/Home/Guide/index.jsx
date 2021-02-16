@@ -16,9 +16,8 @@ import {
 import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T } from 'react-i18next';
 import flowersData from 'common/data/flowers.json';
-import insectsData from 'common/data/insects.json';
+import insectsData from 'common/data';
 import SpeciesProfile from './species/components/SpeciesProfile';
-import 'common/images/species/insects';
 import './styles.scss';
 
 class Guide extends React.Component {
@@ -44,17 +43,14 @@ class Guide extends React.Component {
     });
   };
 
-  getGridCell = ({ commonName, scientificName, id, type }) => {
-    const onClick = () => this.showSpeciesModal(id, commonName);
+  getGridCell = ({ name, id, thumbnail }) => {
+    const onClick = () => this.showSpeciesModal(id, name);
 
-    const name = commonName || scientificName;
-
-    const image =
-      type === 'insects' ? <IonImg src={`/images/${id}_insect.png`} /> : null;
+    const image = thumbnail && <IonImg src={thumbnail} />;
 
     return (
       <IonCol
-        key={commonName}
+        key={name}
         className="species-list-item"
         onClick={onClick}
         size="6"
@@ -68,7 +64,7 @@ class Guide extends React.Component {
   };
 
   hideSpeciesModal = () => {
-    this.setState({ showModal: false });
+    this.setState({ species: null });
   };
 
   getListGrid = flowersOrInsectsData => {
@@ -116,7 +112,7 @@ class Guide extends React.Component {
           {showingInsects && this.getListGrid(insectsData)}
           {showingFlowers && this.getListGrid(flowersData)}
 
-          <IonModal isOpen={this.state.showModal}>
+          <IonModal isOpen={!!this.state.species} backdropDismiss={false}>
             <ModalHeader
               title={this.state.speciesName}
               onClose={this.hideSpeciesModal}

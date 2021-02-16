@@ -1,0 +1,17 @@
+[
+  {
+    "groupId": "honeybees",
+    "picture": "Honeybees_1.jpg",
+    "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_2": "Eyes covering the sides of the head",
+    "caption_3": "Hind legs broad and flattened",
+    "caption_4": "Abdomen can vary from mostly dark to mostly orange",
+    "caption_5": "Long narrow cell in veins at edge of wing"
+  },
+  {
+    "groupId": "honeybees",
+    "picture": "Honeybees_2.jpg",
+    "caption_1": "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs",
+    "extraText": "Male honeybees (drones) are similar but have much larger eyes."
+  }
+]

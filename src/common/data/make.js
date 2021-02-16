@@ -33,6 +33,7 @@ const fetchAndSave = async sheet => {
 const getData = async () => {
   await fetchAndSave('insects');
   await fetchAndSave('flowers');
+  await fetchAndSave('photos');
 
   console.log('All done! 🚀');
 };
