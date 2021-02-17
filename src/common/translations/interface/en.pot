@@ -438,3 +438,23 @@ msgstr "Most of the honeybees you see will be workers, which are female, and col
 # ID guide honeybees species profile
 msgid "Extra information"
 msgstr "Extra information"
+
+# My surveys page content
+msgid "My Surveys"
+msgstr "My Surveys"
+
+# My surveys page content
+msgid "Pending"
+msgstr "Pending"
+
+# My surveys page content
+msgid "Uploaded"
+msgstr "Uploaded"
+
+# My surveys page content
+msgid "<0>You have no finished surveys.</0>"
+msgstr "<0>You have no finished surveys.</0>"
+
+# My surveys page content
+msgid "No uploaded surveys"
+msgstr "No uploaded surveys"

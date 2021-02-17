@@ -15,17 +15,22 @@ import {
   homeOutline,
   informationCircleOutline,
   menuOutline,
+  layersOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
+import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
 import Home from './Home';
 import About from './About';
 import Menu from './Menu';
 import Guide from './Guide';
+import Surveys from './UserSurveys';
 import './styles.scss';
 
 const MenuWrap = () => (
   <Menu userModel={userModel} savedSamples={savedSamples} />
 );
+
+const UserSurveys = () => <Surveys savedSamples={savedSamples} />;
 
 const HomeComponent = () => {
   return (
@@ -34,6 +39,7 @@ const HomeComponent = () => {
         <IonRouterOutlet>
           <Redirect exact path="/home" to="/home/info" />
           <Route path="/home/info" component={Home} exact />
+          <Route path="/home/surveys" component={UserSurveys} exact />
           <Route path="/home/about" component={About} exact />
           <Route path="/home/guide" component={Guide} exact />
           <Route path="/home/menu" render={MenuWrap} exact />
@@ -47,17 +53,25 @@ const HomeComponent = () => {
             </IonLabel>
           </IonTabButton>
 
-          <IonTabButton tab="home/about " href="/home/about">
-            <IonIcon icon={informationCircleOutline} />
+          <IonTabButton tab="/home/surveys" href="/home/surveys">
+            <IonIcon icon={layersOutline} />
             <IonLabel>
-              <T>About</T>
+              <T>My Surveys</T>
             </IonLabel>
+            <PendingSurveysBadge savedSamples={savedSamples} />
           </IonTabButton>
 
           <IonTabButton tab="home/guide " href="/home/guide">
             <IonIcon icon={bookOutline} />
             <IonLabel>
               <T>ID Guide</T>
+            </IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="home/about " href="/home/about">
+            <IonIcon icon={informationCircleOutline} />
+            <IonLabel>
+              <T>About</T>
             </IonLabel>
           </IonTabButton>
 

@@ -1,0 +1,27 @@
+.survey-list-item {
+  border-radius: 10px;
+  margin-bottom: 6px;
+  background: white;
+  --border-style: none;
+
+  ion-toolbar {
+    --ion-toolbar-background: transparent;
+
+    ion-segment {
+      width: 80%;
+      margin: auto;
+
+      ion-segment-button {
+        color: var(--ion-color-light);
+        ion-badge {
+          color: red;
+        }
+      }
+    }
+  }
+
+  ion-item {
+    --padding-start: 0;
+    --border-style: none;
+  }
+}

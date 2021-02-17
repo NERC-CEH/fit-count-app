@@ -10,6 +10,10 @@ const defaults = {
   country: null,
 
   showedWelcome: false,
+
+  // tips
+  showSurveysDeleteTip: true,
+  showSurveyUploadTip: true,
 };
 
 const appModel = new AppModel(genericStore, 'app', defaults);

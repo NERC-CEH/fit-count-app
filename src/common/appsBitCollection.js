@@ -16,6 +16,8 @@ export { default as InputWithValidation } from '@bit/flumens.apps.input-with-val
 export { default as ToggleWithValidation } from '@bit/flumens.apps.toggle-with-validation';
 export { default as SelectWithValidation } from '@bit/flumens.apps.select-with-validation';
 export { default as Gallery } from '@bit/flumens.apps.gallery';
+export { default as InfoBackgroundMessage } from '@bit/flumens.apps.info-background-message';
+export { default as date } from '@bit/flumens.apps.date';
 
 export * from '@bit/flumens.apps.utils.location';
 
