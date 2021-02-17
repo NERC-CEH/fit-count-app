@@ -185,13 +185,6 @@ ion-header ion-toolbar ion-button[fill='solid'] {
   --padding-start: 15px;
 }
 
-ion-item-divider[mode='ios'] {
-  font-weight: 400;
-  padding: 5px;
-  padding-left: 10px;
-  background: #f1f1f1;
-}
-
 ion-item.empty {
   width: 80%;
   max-width: 250px;
@@ -226,14 +219,76 @@ ion-item.empty {
   }
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   background-color: var(--ion-page-background);
 }
 
 ion-content {
   --background: var(--ion-page-background);
+}
+
+div.rounded {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  ion-item:last-of-type {
+    --border-style: none;
+  }
+}
+
+ion-item.rounded {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  --border-style: none;
+}
+
+ion-item-divider {
+  border: 0;
+  font-weight: 400;
+}
+
+ion-list,
+ion-item-divider {
+  background: transparent !important;
+}
+
+ion-list {
+  padding: 0px 10px !important;
+}
+
+h1 {
+  color: var(--ion-color-primary);
+}
+
+.apps-section * {
+  --background: transparent;
+}
+
+.apps-section .apps-section-h {
+  margin: 20px auto 10px;
+  color: var(--ion-color-primary);
+}
+
+a {
+  color: var(--ion-color-secondary);
+  text-decoration: none;
+}
+
+.info-background-message ion-button {
+  margin-left: 10px;
+
+  color: var(--ion-color-medium);
+  --border-color: var(--ion-color-medium);
+}
+
+.info-background-message {
+  border-radius: 15px;
+
+  --background: #fff !important;
+
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.05),
+    0 2px 9px 0 rgba(62, 57, 107, 0.05);
 }

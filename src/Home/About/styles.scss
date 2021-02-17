@@ -1,10 +1,27 @@
 #about {
-  ion-col {
-    padding: 25px 10px;
-    margin: auto;
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-    ion-img {
+  .rounded {
+    --background-color: #fff !important;
+    background: #fff !important;
+  }
+
+  .list-background {
+    background-color: #fff;
+
+    border-radius: 15px;
+    padding: 0 !important;
+
+    ion-col {
+      padding: 25px 10px;
       margin: auto;
+
+      ion-img {
+        margin: auto;
+      }
     }
   }
 }

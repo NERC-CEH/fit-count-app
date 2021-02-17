@@ -18,7 +18,7 @@ const getCountriesOptions = () => {
     country1.label.localeCompare(country2.label);
 
   const getCountry = ({ value, label }) => (
-    <IonItem key={value}>
+    <IonItem key={value} className="rounded">
       <IonLabel>
         <T>{label}</T>
       </IonLabel>

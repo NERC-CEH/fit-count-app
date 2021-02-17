@@ -1,12 +1,27 @@
 #home-menu {
-  ion-footer {
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  ion-list {
+    padding: 0 10px !important;
+  }
+
+  .exception-rounded {
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+    --border-style: none;
+  }
+
+  .info-message {
+    --background: transparent;
+
+    padding: 0px -0px 50px;
+  }
+
+  .flumens-section {
     padding: 15px 0 10px;
-    border-top: 1px
-      var(
-        --ion-item-border-color,
-        var(--ion-border-color, var(--ion-color-step-250, #c8c7cc))
-      )
-      solid;
 
     div {
       text-align: center;
@@ -18,7 +33,7 @@
     }
 
     img {
-      width: 40%;
+      width: 30%;
     }
   }
 }

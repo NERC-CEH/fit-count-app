@@ -1,16 +1,7 @@
 import React from 'react';
 import appModel from 'models/app';
 import { Page, Main, Section } from '@apps';
-import {
-  IonList,
-  IonImg,
-  IonRow,
-  IonGrid,
-  IonCol,
-  IonHeader,
-  IonTitle,
-  IonToolbar,
-} from '@ionic/react';
+import { IonList, IonImg, IonRow, IonGrid, IonCol } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import { funders, partners } from './parntersAndFunders';
 import './styles.scss';
@@ -34,7 +25,7 @@ const getSponsorsGrid = sponsorsOrFunders => {
   const sponsorsColumns = sponsorsOrFunders.filter(byCountry).map(getSponsor);
 
   return (
-    <IonList>
+    <IonList className="list-background">
       <IonGrid>
         <IonRow>{sponsorsColumns}</IonRow>
       </IonGrid>
@@ -44,15 +35,11 @@ const getSponsorsGrid = sponsorsOrFunders => {
 
 const About = () => (
   <Page id="about">
-    <IonHeader>
-      <IonToolbar>
-        <IonTitle>
-          <T>About</T>
-        </IonTitle>
-      </IonToolbar>
-    </IonHeader>
-
     <Main>
+      <h1>
+        <T>About</T>
+      </h1>
+
       <Section>
         <P>
           The FIT Count is part of the Pollinator Monitoring Scheme (PoMS)
@@ -77,13 +64,19 @@ const About = () => (
           </a>
         </P>
 
-        <H>Partners:</H>
+        <br />
 
-        {getSponsorsGrid(partners)}
+        <div className="rounded">
+          <H>Partners:</H>
 
-        <H>Funders:</H>
+          {getSponsorsGrid(partners)}
+        </div>
 
-        {getSponsorsGrid(funders)}
+        <div className="rounded">
+          <H>Funders:</H>
+
+          {getSponsorsGrid(funders)}
+        </div>
       </Section>
     </Main>
   </Page>

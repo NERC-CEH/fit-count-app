@@ -28,7 +28,7 @@ function SelectLanguage({ appModel }) {
   const alphabetically = ([, l1], [, l2]) => l1.localeCompare(l2);
 
   const languageEntries = ([value, language]) => (
-    <IonItem key={value}>
+    <IonItem key={value} className="rounded">
       <IonLabel>{language}</IonLabel>
       <IonRadio value={value} />
     </IonItem>

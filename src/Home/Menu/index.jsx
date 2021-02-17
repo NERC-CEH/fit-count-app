@@ -5,17 +5,7 @@ import exact from 'prop-types-exact';
 import config from 'common/config';
 import { observer } from 'mobx-react';
 import { Page, alert } from '@apps';
-import { Trans as T } from 'react-i18next';
-import {
-  IonFooter,
-  IonTitle,
-  IonHeader,
-  IonToolbar,
-  IonItem,
-  IonLabel,
-  IonCheckbox,
-} from '@ionic/react';
-import flumensLogo from 'common/images/flumens.svg';
+import { IonItem, IonLabel, IonCheckbox } from '@ionic/react';
 import Main from './Main';
 import './styles.scss';
 
@@ -80,14 +70,6 @@ const MenuController = ({ userModel, savedSamples }) => {
 
   return (
     <Page id="home-menu">
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>
-            <T>Menu</T>
-          </IonTitle>
-        </IonToolbar>
-      </IonHeader>
-
       <Main
         sendAnalytics={sendAnalytics}
         onToggle={onToggle}
@@ -98,16 +80,6 @@ const MenuController = ({ userModel, savedSamples }) => {
         user={userModel.attrs}
         logOut={logOut}
       />
-
-      <IonFooter>
-        <div>
-          <a href="https://flumens.io">
-            <img src={flumensLogo} alt="flumens-logo" />
-          </a>
-
-          <p className="app-version">{`App version: v${config.version} (${config.build})`}</p>
-        </div>
-      </IonFooter>
     </Page>
   );
 };
