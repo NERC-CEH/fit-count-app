@@ -23,24 +23,28 @@ const funders = [
     images: Defra,
     alt: 'SponsorLogo',
     width: '130px',
+    type: 'funders',
   },
   {
     url: 'https://gov.wales/',
     images: WelchGov,
     alt: 'SponsorLogo',
     width: '100px',
+    type: 'funders',
   },
   {
     url: 'https://jncc.gov.uk/',
     images: JNCC,
     alt: 'SponsorLogo',
     width: '130px',
+    type: 'funders',
   },
   {
     url: 'https://www.gov.scot/',
     images: ScotGov,
     alt: 'SponsorLogo',
     width: '130px',
+    type: 'funders',
   },
 ];
 

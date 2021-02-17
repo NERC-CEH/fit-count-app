@@ -17,8 +17,10 @@ import './styles.scss';
 
 const { H, P } = Section;
 
-const byLanguage = obj =>
-  obj.country ? obj.country === appModel.attrs.country : true;
+const byCountry = obj =>
+  obj.country
+    ? appModel.attrs.country === 'CYP' || obj.type === 'funders'
+    : appModel.attrs.country !== 'CYP' || obj.type === 'funders';
 
 const getSponsor = ({ images, url, width, alt }) => (
   <IonCol key={images}>
@@ -29,7 +31,7 @@ const getSponsor = ({ images, url, width, alt }) => (
 );
 
 const getSponsorsGrid = sponsorsOrFunders => {
-  const sponsorsColumns = sponsorsOrFunders.filter(byLanguage).map(getSponsor);
+  const sponsorsColumns = sponsorsOrFunders.filter(byCountry).map(getSponsor);
 
   return (
     <IonList>
