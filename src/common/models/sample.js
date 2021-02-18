@@ -20,6 +20,8 @@ class AppSample extends Sample {
 
     this.gpsExtensionInit();
   }
+
+  isDisabled = () => this.isUploaded();
 }
 
 export default AppSample;
