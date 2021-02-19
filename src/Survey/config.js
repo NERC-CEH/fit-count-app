@@ -5,6 +5,11 @@ import img1 from './FlowerCover/images/Group.png';
 import img2 from './FlowerCover/images/Group2.png';
 import img3 from './FlowerCover/images/Group3.png';
 
+import individualFlowerTypeImage from './FlowerCount/individualFlowerType.png';
+import headTypeImage from './FlowerCount/headType.png';
+import umbelTypeImage from './FlowerCount/umbelType.png';
+import spikeTypeImage from './FlowerCount/spikeType.png';
+
 const habitatValues = [
   {
     id: -1,
@@ -97,6 +102,29 @@ const flowerSelectionValues = [
   },
 ];
 
+const flowerCountValues = [
+  {
+    id: -1,
+    value: 'Individual Flower',
+    icon: individualFlowerTypeImage,
+  },
+  {
+    id: -1,
+    value: 'Head',
+    icon: headTypeImage,
+  },
+  {
+    id: -1,
+    value: 'Umbel',
+    icon: umbelTypeImage,
+  },
+  {
+    id: -1,
+    value: 'Spike',
+    icon: spikeTypeImage,
+  },
+];
+
 const survey = {
   id: -1,
   name: 'survey',
@@ -164,6 +192,25 @@ const survey = {
       skipValueTranslation: true,
   },
 
+    'flower-count': {
+      type: 'radio',
+      options: flowerCountValues,
+      remote: {
+        id: -1,
+        values: flowerCountValues,
+      },
+    },
+
+    'flower-count-number': {
+      type: 'slider',
+      options: flowerSelectionValues,
+      max: 200,
+      min: 0,
+      step: 1,
+      skipValueTranslation: true,
+    },
+  },
+
   create(Sample) {
     const sample = new Sample({
       metadata: {
@@ -175,8 +222,8 @@ const survey = {
         location: null,
         habitat: null,
         'flower-cover': null,
-        'flower-selection': null,
-        'flower-selection-manual-entry': null,
+        'flower-count': null,
+        'flower-count-number': 0,
       },
     });
 
