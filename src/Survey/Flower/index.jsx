@@ -13,47 +13,45 @@ import {
 } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
 import Media from 'models/media';
-import { IonItemDivider, IonFooter } from '@ionic/react';
-import { Trans as T, withTranslation } from 'react-i18next';
+import { IonItemDivider, IonFooter, IonLifeCycleContext } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
 @observer
-class FlowerSelection extends React.Component {
+class Flower extends React.Component {
+  static contextType = IonLifeCycleContext;
+
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
-    t: PropTypes.func.isRequired,
     match: PropTypes.object, // eslint-disable-line
     history: PropTypes.object, // eslint-disable-line
     location: PropTypes.object, // eslint-disable-line
     isDisabled: PropTypes.bool, // eslint-disable-line
-    i18n: PropTypes.object, // eslint-disable-line
-    tReady: PropTypes.bool, // eslint-disable-line
   });
+
+  contentRef = React.createRef();
 
   onValueChange = value => {
     const { sample } = this.props;
-    sample.attrs['flower-selection'] = value;
+    sample.attrs.flower = value;
     sample.save();
   };
 
   getManualEntry = () => {
-    const { sample, t } = this.props;
+    const { sample } = this.props;
 
-    const value = sample.attrs['flower-selection'];
+    const value = sample.attrs.flower;
 
-    if (value === t('Other')) {
+    if (value === 'Other') {
       return (
         <>
           <IonItemDivider mode="ios" className="survey-divider">
             <T>I know the species</T>
           </IonItemDivider>
 
-          <MenuAttrItemFromModel
-            model={sample}
-            attr="flower-selection-manual-entry"
-          />
+          <MenuAttrItemFromModel model={sample} attr="flower-manual-entry" />
         </>
       );
     }
@@ -62,11 +60,20 @@ class FlowerSelection extends React.Component {
   };
 
   isValueValid = () => {
-    const { t } = this.props;
+    const { sample } = this.props;
 
-    return this.props.sample.attrs['flower-selection'] !== t('Other')
-      ? !!this.props.sample.attrs['flower-selection']
-      : !!this.props.sample.attrs['flower-selection-manual-entry'];
+    const { flower } = sample.attrs;
+    const flowerManualEntry = sample.attrs['flower-manual-entry'];
+
+    return flower !== 'Other' ? !!flower : !!flowerManualEntry;
+  };
+
+  componentDidUpdate = () => {
+    const { sample } = this.props;
+
+    if (sample.attrs.flower === 'Other') {
+      this.contentRef.current.scrollToBottom();
+    }
   };
 
   render() {
@@ -74,15 +81,15 @@ class FlowerSelection extends React.Component {
 
     const surveyConfig = sample.getSurvey();
 
-    const value = sample.attrs['flower-selection'];
+    const value = sample.attrs.flower;
 
     return (
-      <Page id="survey-flower-selection-page">
+      <Page id="survey-flower-page">
         <Header surveyProgressIndex={3} backButtonLabel="Habitat" />
 
-        <Main>
+        <Main ref={this.contentRef} fullscreen="true">
           <InfoMessage icon={informationCircleOutline}>
-            <b>Which</b> target flower have you chosen?
+            Which target <b>flower</b> have you chosen?
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
@@ -96,7 +103,7 @@ class FlowerSelection extends React.Component {
           />
 
           <Attr
-            attrConfig={surveyConfig.attrs['flower-selection']}
+            attrConfig={surveyConfig.attrs.flower}
             onValueChange={this.onValueChange}
             initialVal={value}
             model={sample}
@@ -114,4 +121,4 @@ class FlowerSelection extends React.Component {
   }
 }
 
-export default withTranslation()(FlowerSelection);
+export default Flower;

@@ -182,8 +182,7 @@ const survey = {
       },
     },
 
-    'flower-selection': {
-      id: 'flower-selection',
+    flower: {
       type: 'radio',
       options: flowerSelectionValues,
       remote: {
@@ -192,14 +191,13 @@ const survey = {
       },
     },
 
-    'flower-selection-manual-entry': {
-      id: 'flower-selection-manual-entry',
+    'flower-manual-entry': {
       label: 'Manual Entry',
       icon: flowerOutline,
       placeholder: 'Todo:',
       type: 'textarea',
       skipValueTranslation: true,
-  },
+    },
 
     'flower-count': {
       type: 'radio',
@@ -231,6 +229,8 @@ const survey = {
         location: null,
         habitat: null,
         'flower-cover': null,
+        flower: null,
+        'flower-manual-entry': null,
         'flower-count': null,
         'flower-count-number': 0,
       },

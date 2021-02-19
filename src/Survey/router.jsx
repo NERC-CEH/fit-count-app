@@ -7,6 +7,7 @@ import survey from './config';
 import Location from './Location';
 import Habitat from './Habitat';
 import FlowerCover from './FlowerCover';
+import Flower from './Flower';
 import FlowerCount from './FlowerCount';
 
 const baseURL = `/survey/new`;
@@ -24,6 +25,8 @@ const routes = [
   [`${baseURL}/:smpId/location`, ModelLocationWrap],
   [`${baseURL}/:smpId/habitat`, Habitat],
   [`${baseURL}/:smpId/flower-cover`, FlowerCover],
+  [`${baseURL}/:smpId/flower`, Flower],
+  [`${baseURL}/:smpId/flower/:attr`, Attr],
   [`${baseURL}/:smpId/flower-count`, FlowerCount],
 ];
 
