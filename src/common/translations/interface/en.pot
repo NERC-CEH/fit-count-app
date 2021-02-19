@@ -458,3 +458,71 @@ msgstr "<0>You have no finished surveys.</0>"
 # My surveys page content
 msgid "No uploaded surveys"
 msgstr "No uploaded surveys"
+
+# Survey species selection page species list
+msgid "<0>Which</0> target flower have you chosen?"
+msgstr "<0>Which</0> target flower have you chosen?"
+
+# Survey species selection page species list
+msgid "Please add species image"
+msgstr "Please add species image"
+
+# Survey species selection page species list
+msgid "No photo has been added."
+msgstr "No photo has been added."
+
+# Survey species selection page info message
+msgid "Press <1></1> to add."
+msgstr "Press <1></1> to add."
+
+# Survey species selection page species list
+msgid "Dandelion"
+msgstr "Dandelion"
+
+# Survey species selection page species list
+msgid "Buttercup"
+msgstr "Buttercup"
+
+# Survey species selection page species list
+msgid "White Dead-nettle"
+msgstr "White Dead-nettle"
+
+# Survey species selection page species list
+msgid "Hawthorn"
+msgstr "Hawthorn"
+
+# Survey species selection page species list
+msgid "Lavender"
+msgstr "Lavender"
+
+# Survey species selection page species list
+msgid "Knapweed"
+msgstr "Knapweed"
+
+# Survey species selection page species list
+msgid "Hogweed"
+msgstr "Hogweed"
+
+# Survey species selection page species list
+msgid "White Clover"
+msgstr "White Clover"
+
+# Survey species selection page species list
+msgid "Ragwort"
+msgstr "Ragwort"
+
+# Survey species selection page species list
+msgid "Thistle"
+msgstr "Thistle"
+
+# Survey species selection page species list
+msgid "Ivy"
+msgstr "Ivy"
+
+# Survey species selection page divider label
+msgid "I know the species"
+msgstr "I know the species"
+
+# Survey species selection page label
+msgid "Manual Entry"
+msgstr "Manual Entry"

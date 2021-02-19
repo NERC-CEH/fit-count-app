@@ -18,6 +18,8 @@ export { default as SelectWithValidation } from '@bit/flumens.apps.select-with-v
 export { default as Gallery } from '@bit/flumens.apps.gallery';
 export { default as InfoBackgroundMessage } from '@bit/flumens.apps.info-background-message';
 export { default as date } from '@bit/flumens.apps.date';
+export { default as PhotoPicker } from '@bit/flumens.apps.photo-picker';
+export { default as MenuAttrItemFromModel } from '@bit/flumens.apps.menu-attr-item-from-model';
 
 export * from '@bit/flumens.apps.utils.location';
 

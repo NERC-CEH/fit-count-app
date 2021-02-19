@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+import { flowerOutline } from 'ionicons/icons';
 import img1 from './FlowerCover/images/Group.png';
 import img2 from './FlowerCover/images/Group2.png';
 import img3 from './FlowerCover/images/Group3.png';
@@ -40,6 +43,57 @@ const flowerCoverValues = [
   {
     id: 1,
     value: 'Not recorded',
+  },
+];
+
+const flowerSelectionValues = [
+  {
+    id: -1,
+    value: 'Dandelion',
+  },
+  {
+    id: -1,
+    value: 'Buttercup',
+  },
+  {
+    id: -1,
+    value: 'White Dead-nettle',
+  },
+  {
+    id: -1,
+    value: 'Hawthorn',
+  },
+  {
+    id: -1,
+    value: 'Lavender',
+  },
+  {
+    id: -1,
+    value: 'Knapweed',
+  },
+  {
+    id: -1,
+    value: 'Hogweed',
+  },
+  {
+    id: -1,
+    value: 'White Clover',
+  },
+  {
+    id: -1,
+    value: 'Ragwort',
+  },
+  {
+    id: -1,
+    value: 'Thistle',
+  },
+  {
+    id: -1,
+    value: 'Ivy',
+  },
+  {
+    id: -1,
+    value: 'Other',
   },
 ];
 
@@ -90,6 +144,24 @@ const survey = {
         values: flowerCoverValues,
       },
     },
+
+    'flower-selection': {
+      id: 'flower-selection',
+      type: 'radio',
+      options: flowerSelectionValues,
+      remote: {
+        id: -1,
+        values: flowerSelectionValues,
+      },
+    },
+
+    'flower-selection-manual-entry': {
+      id: 'flower-selection-manual-entry',
+      label: 'Manual Entry',
+      icon: flowerOutline,
+      placeholder: 'Todo:',
+      type: 'textarea',
+      skipValueTranslation: true,
   },
 
   create(Sample) {
@@ -103,6 +175,8 @@ const survey = {
         location: null,
         habitat: null,
         'flower-cover': null,
+        'flower-selection': null,
+        'flower-selection-manual-entry': null,
       },
     });
 
