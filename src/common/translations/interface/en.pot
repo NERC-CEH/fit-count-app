@@ -191,8 +191,8 @@ msgid "of"
 msgstr "of"
 
 # Survey habitat info message
-msgid "Select <1>habitat</1> that is the best match."
-msgstr "Select <1>habitat</1> that is the best match."
+msgid "<0>Select <1>habitat</1> that is the best match.</0>"
+msgstr "<0>Select <1>habitat</1> that is the best match.</0>"
 
 # Survey habitat radio input
 msgid "Garden"
@@ -211,8 +211,8 @@ msgid "Churchyard"
 msgstr "Churchyard"
 
 # Survey flower-cover radio input
-msgid "What is the target flower <1>cover</1>."
-msgstr "What is the target flower <1>cover</1>."
+msgid "<0>What is the target flower <1>cover</1>.</0>"
+msgstr "<0>What is the target flower <1>cover</1>.</0>"
 
 # Survey flower-cover radio input
 msgid "Less than half of 50x50cm patch"
@@ -246,6 +246,9 @@ msgstr "Email"
 msgid "Password"
 msgstr "Password"
 
+# User registration page
+msgid "How did you hear about FIT Counts?"
+msgstr "How did you hear about FIT Counts?"
 
 # User registration page
 msgid "Your identification experience"
@@ -298,6 +301,10 @@ msgstr "Butterfly Conservation"
 # User registration page
 msgid "Buglife"
 msgstr "Buglife"
+
+# User registration page
+msgid "Earthwatch"
+msgstr "Earthwatch"
 
 # User registration page
 msgid "GrowWild UK"
@@ -526,3 +533,71 @@ msgstr "I know the species"
 # Survey species selection page label
 msgid "Manual Entry"
 msgstr "Manual Entry"
+
+# Survey flower count page divider label
+msgid "Number"
+msgstr "Number"
+
+# Survey flower count    page info message
+msgid "What is the <1>number</1> and <3>type</3> of flowers in patch?"
+msgstr "What is the <1>number</1> and <3>type</3> of flowers in patch?"
+
+# Survey flower count page divider label
+msgid "Type"
+msgstr "Type"
+
+# Survey flower count page content
+msgid "Individual Flower"
+msgstr "Individual Flower"
+
+# Survey flower count page content
+msgid "Head"
+msgstr "Head"
+
+# Survey flower count page content
+msgid "Umbel"
+msgstr "Umbel"
+
+# Survey flower count page content
+msgid "Spike"
+msgstr "Spike"
+
+# My surveys page content
+msgid "Today"
+msgstr "Today"
+
+# My surveys page content
+msgid "Record"
+msgstr "Record"
+
+# My surveys page content
+msgid "Delete"
+msgstr "Delete"
+
+# My surveys page content
+msgid "Yesterday"
+msgstr "Yesterday"
+
+# My surveys page content info background message
+msgid "To delete any surveys swipe it to the left."
+msgstr "To delete any surveys swipe it to the left."
+
+# My surveys page content info background message button
+msgid "Hide"
+msgstr "Hide"
+
+# My surveys page content info background message
+msgid "You have no finished surveys."
+msgstr "You have no finished surveys."
+
+# Add Photo message
+msgid "Choose a method to upload a photo"
+msgstr "Choose a method to upload a photo"
+
+# Add Photo message
+msgid "Gallery"
+msgstr "Gallery"
+
+# Add Photo message
+msgid "Camera"
+msgstr "Camera"
