@@ -2,10 +2,6 @@
   padding: 20px;
   background: var(--ion-page-background);
 
-  &::before {
-    content: none;
-  }
-
   .next-button {
     z-index: 24;
     left: 50%;
@@ -18,11 +14,5 @@
     border-radius: 5px;
     color: white;
     box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
-  }
-
-  .disable {
-    --background: var(--ion-color-medium);
-    box-shadow: none;
-    opacity: 0.6;
   }
 }
