@@ -1,4 +1,10 @@
 #survey-location-page {
+  .info-message {
+    ion-label {
+      padding: 0 !important;
+    }
+  }
+
   #survey-footer {
     position: absolute;
     bottom: 0;

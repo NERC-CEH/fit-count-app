@@ -2,9 +2,8 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main, InfoMessage } from '@apps';
+import { Page, Attr, Main } from '@apps';
 import { IonFooter } from '@ionic/react';
-import { informationCircleOutline } from 'ionicons/icons';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
@@ -30,17 +29,13 @@ class Habitat extends React.Component {
 
     const surveyConfig = sample.getSurvey();
 
-    const value = sample.attrs.habitat || null;
+    const value = sample.attrs.habitat;
 
     return (
       <Page id="survey-habitat-page">
         <Header surveyProgressIndex={2} backButtonLabel="Location" />
 
         <Main>
-          <InfoMessage icon={informationCircleOutline}>
-            Select <b>habitat</b> that is the best match.
-          </InfoMessage>
-
           <Attr
             attrConfig={surveyConfig.attrs.habitat}
             onValueChange={this.onValueChange}
@@ -50,7 +45,7 @@ class Habitat extends React.Component {
         </Main>
 
         <IonFooter no-border>
-          <Footer isEnabled={this.isValueValid()} link="flower-cover" />
+          <Footer isEnabled={this.isValueValid()} link="flower" />
         </IonFooter>
       </Page>
     );

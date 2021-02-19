@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { flowerOutline } from 'ionicons/icons';
-import img1 from './FlowerCover/images/Group.png';
-import img2 from './FlowerCover/images/Group2.png';
-import img3 from './FlowerCover/images/Group3.png';
+import flowerCoverLargeGroupImage from './FlowerCover/images/groupLarge.png';
+import flowerCoverMediumGroupImage from './FlowerCover/images/groupMedium.png';
+import flowerCoverSmallGroupImage from './FlowerCover/images/groupSmall.png';
 
 import individualFlowerTypeImage from './FlowerCount/individualFlowerType.png';
 import headTypeImage from './FlowerCount/headType.png';
@@ -31,22 +31,22 @@ const habitatValues = [
 
 const flowerCoverValues = [
   {
-    id: 0,
+    id: -1,
     value: 'Less than half of 50x50cm patch',
-    background: img3,
+    icon: flowerCoverSmallGroupImage,
   },
   {
-    id: 1,
+    id: -1,
     value: 'Half of path',
-    background: img2,
+    icon: flowerCoverMediumGroupImage,
   },
   {
-    id: 2,
+    id: -1,
     value: 'More than half of path',
-    background: img1,
+    icon: flowerCoverLargeGroupImage,
   },
   {
-    id: 1,
+    id: -1,
     value: 'Not recorded',
   },
 ];
@@ -155,8 +155,12 @@ const survey = {
     },
 
     habitat: {
-      id: 'habitat',
       type: 'radio',
+      info: (
+        <>
+          Select <b>habitat</b> that is the best match.
+        </>
+      ),
       options: habitatValues,
       remote: {
         id: -1,
@@ -165,7 +169,12 @@ const survey = {
     },
 
     'flower-cover': {
-      id: 'flower-cover',
+      type: 'radio',
+      info: (
+        <>
+          What is the target flower <b>cover</b>.
+        </>
+      ),
       options: flowerCoverValues,
       remote: {
         id: -1,
