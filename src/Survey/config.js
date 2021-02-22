@@ -5,10 +5,10 @@ import flowerCoverLargeGroupImage from './FlowerCover/images/groupLarge.png';
 import flowerCoverMediumGroupImage from './FlowerCover/images/groupMedium.png';
 import flowerCoverSmallGroupImage from './FlowerCover/images/groupSmall.png';
 
-import individualFlowerTypeImage from './FlowerCount/individualFlowerType.png';
-import headTypeImage from './FlowerCount/headType.png';
-import umbelTypeImage from './FlowerCount/umbelType.png';
-import spikeTypeImage from './FlowerCount/spikeType.png';
+import individualFlowerTypeImage from './FlowerCount/images/individualFlowerType.png';
+import headTypeImage from './FlowerCount/images/headType.png';
+import umbelTypeImage from './FlowerCount/images/umbelType.png';
+import spikeTypeImage from './FlowerCount/images/spikeType.png';
 
 const habitatValues = [
   {
