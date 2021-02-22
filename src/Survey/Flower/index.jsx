@@ -13,7 +13,7 @@ import {
 } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
 import Media from 'models/media';
-import { IonItemDivider, IonFooter, IonLifeCycleContext } from '@ionic/react';
+import { IonItemDivider, IonFooter } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
@@ -21,8 +21,6 @@ import './styles.scss';
 
 @observer
 class Flower extends React.Component {
-  static contextType = IonLifeCycleContext;
-
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
     match: PropTypes.object, // eslint-disable-line
@@ -46,13 +44,13 @@ class Flower extends React.Component {
 
     if (value === 'Other') {
       return (
-        <>
+        <div className="manual-entry-wrapper">
           <IonItemDivider mode="ios" className="survey-divider">
             <T>I know the species</T>
           </IonItemDivider>
 
           <MenuAttrItemFromModel model={sample} attr="flower-manual-entry" />
-        </>
+        </div>
       );
     }
 
@@ -72,7 +70,7 @@ class Flower extends React.Component {
     const { sample } = this.props;
 
     if (sample.attrs.flower === 'Other') {
-      this.contentRef.current.scrollToBottom();
+      this.contentRef.current.scrollToBottom(500);
     }
   };
 

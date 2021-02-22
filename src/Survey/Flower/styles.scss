@@ -19,6 +19,15 @@
     margin-bottom: 25px;
   }
 
+  .manual-entry-wrapper {
+    min-height: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
   ion-footer {
     &::before {
       content: none;
