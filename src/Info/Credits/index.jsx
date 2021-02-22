@@ -12,46 +12,66 @@ const Credits = () => (
         <P>
           We are grateful for all the people that helped to create this app:
         </P>
+
         <P skipTranslation>
           <ul>
-            <li>Claire Carvell (UKCEH)</li>
-            <li>Martin Harvey (UKCEH)</li>
-            <li>Nadine Mitschunas (UKCEH)</li>
-            <li>Karolis Kazlauskis (Flumens)</li>
-            <li>Vilius Stankaitis (Flumens)</li>
+            <li>
+              <b>Claire Carvell</b> (UKCEH)
+            </li>
+            <li>
+              <b>Martin Harvey</b> (UKCEH)
+            </li>
+            <li>
+              <b>Nadine Mitschunas</b>(UKCEH)
+            </li>
+            <li>
+              <b>Karolis Kazlauskis</b> (Flumens)
+            </li>
+            <li>
+              <b>Vilius Stankaitis</b> (Flumens)
+            </li>
           </ul>
         </P>
-        <H>Graphics</H>
-        <P>
-          Icons made by{' '}
-          <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
-            Freepik
-          </a>{' '}
-          from
-          <br />
-          <br />
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
-        </P>
-        <P>
-          App guide illustrations made by
-          <br />
-          <br />
-          <a href="https://www.divulgare.net/" title="Divulgare">
-            www.divulgare.net
-          </a>
-          <br />
-          <br />
-          <a href="https://flic.kr/p/2k2HaKk" title="Flic">
-            https://flic.kr/p/2k2HaKk
-          </a>
-          <br />
-          <br />
-          <a href="hhttp://www.clker.com/" title="Clker">
-            http://www.clker.com/
-          </a>
-        </P>
+
+        <div className="list-background">
+          <H>Graphics:</H>
+
+          <P>
+            Icons made by{' '}
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+              Freepik
+            </a>{' '}
+            from
+            <br />
+            <br />
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </P>
+
+          <P>
+            App guide illustrations made by:
+            <ul>
+              <li>
+                <a href="https://www.divulgare.net/" title="Divulgare">
+                  www.divulgare.net
+                </a>
+              </li>
+
+              <li>
+                <a href="https://flic.kr/p/2k2HaKk" title="Flic">
+                  https://flic.kr/p/2k2HaKk
+                </a>
+              </li>
+
+              <li>
+                <a href="hhttp://www.clker.com/" title="Clker">
+                  http://www.clker.com/
+                </a>
+              </li>
+            </ul>
+          </P>
+        </div>
       </Section>
     </Main>
   </Page>
