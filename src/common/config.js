@@ -1,7 +1,7 @@
 import { Plugins, FilesystemDirectory } from '@capacitor/core';
 import { isPlatform } from '@ionic/react';
 
-const backendUrl = process.env.APP_BACKEND_URL || 'https://TODO:';
+const backendUrl = process.env.APP_BACKEND_URL || 'https://fitcount.ceh.ac.uk';
 
 const isTestEnv = process.env.NODE_ENV === 'test';
 
