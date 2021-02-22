@@ -33,6 +33,10 @@
       margin: 10px;
       --background-active: none;
       --color-activated: none;
+
+      ion-img {
+        padding: 10px;
+      }
     }
 
     ion-radio-group .item-radio-checked:not(.radio-input-default-option) {
