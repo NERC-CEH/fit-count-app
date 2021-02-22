@@ -93,7 +93,7 @@ class Flower extends React.Component {
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Please add species image</T>
+            <T>Photos</T>
           </IonItemDivider>
 
           <PhotoPicker
@@ -101,7 +101,9 @@ class Flower extends React.Component {
             ImageClass={Media}
             dataDirPath={config.dataPath}
           />
-
+          <IonItemDivider mode="ios" className="survey-divider">
+            <T>Species</T>
+          </IonItemDivider>
           <Attr
             attrConfig={surveyConfig.attrs.flower}
             onValueChange={this.onValueChange}
