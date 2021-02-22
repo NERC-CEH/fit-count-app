@@ -14,7 +14,6 @@ import {
 } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import OnlineStatus from './components/OnlineStatus';
-import ErrorMessage from './components/ErrorMessage';
 import './styles.scss';
 
 function deleteSurvey(sample) {
@@ -55,13 +54,15 @@ function getSampleInfo(sample) {
 }
 
 const Survey = ({ sample }) => {
+  const survey = sample.getSurvey();
+
+  const href = `/${survey.name}/new/${sample.cid}/location`;
+
   const deleteSurveyWrap = () => deleteSurvey(sample);
 
   return (
     <IonItemSliding class="survey-list-item">
-      <ErrorMessage sample={sample} />
-
-      <IonItem detail>
+      <IonItem routerLink={href} detail>
         {getSampleInfo(sample)}
         <OnlineStatus sample={sample} />
       </IonItem>
