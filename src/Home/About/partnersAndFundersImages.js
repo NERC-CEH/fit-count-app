@@ -102,14 +102,14 @@ const partners = [
     images: pMSKY,
     alt: 'SponsorLogo',
     width: '130px',
-    country: 'CYP',
+    forCyprus: true,
   },
   {
     url: 'https://www.gov.uk/government/groups/the-darwin-initiative',
     images: darvinInitiative,
     alt: 'SponsorLogo',
     width: '130px',
-    country: 'CYP',
+    forCyprus: true,
   },
 ];
 

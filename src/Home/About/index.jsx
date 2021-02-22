@@ -3,15 +3,22 @@ import appModel from 'models/app';
 import { Page, Main, Section } from '@apps';
 import { IonList, IonImg, IonRow, IonGrid, IonCol } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-import { funders, partners } from './parntersAndFunders';
+import { funders, partners } from './partnersAndFundersImages';
 import './styles.scss';
 
 const { H, P } = Section;
 
-const byCountry = obj =>
-  obj.country
-    ? appModel.attrs.country === 'CYP' || obj.type === 'funders'
-    : appModel.attrs.country !== 'CYP' || obj.type === 'funders';
+const byCountry = partnersAndFundersParameter => {
+  const isInCyprus = appModel.attrs.country === 'CYP';
+
+  const isFunderType = partnersAndFundersParameter.type === 'funders';
+
+  if (isFunderType) {
+    return true;
+  }
+
+  return partnersAndFundersParameter.forCyprus ? isInCyprus : !isInCyprus;
+};
 
 const getSponsor = ({ images, url, width, alt }) => (
   <IonCol key={images}>
@@ -63,8 +70,6 @@ const About = () => (
             www.ceh.ac.uk/pollinator-monitoring to update
           </a>
         </P>
-
-        <br />
 
         <div className="rounded">
           <H>Partners:</H>

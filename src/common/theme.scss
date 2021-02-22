@@ -234,8 +234,8 @@ h1 {
 }
 
 .apps-section .apps-section-h {
-  margin: 20px auto 10px;
   color: var(--ion-color-primary);
+  --inner-border-width: 0;
 }
 
 a {
