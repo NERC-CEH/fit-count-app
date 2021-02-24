@@ -7,6 +7,7 @@ import { informationCircleOutline } from 'ionicons/icons';
 import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 import './styles.scss';
 
 class NumberFlower extends React.Component {
@@ -73,6 +74,8 @@ class NumberFlower extends React.Component {
             model={sample}
           />
         </Main>
+
+        <Footer isEnabled={this.isValueValid()} link="insect-count" />
       </Page>
     );
   }

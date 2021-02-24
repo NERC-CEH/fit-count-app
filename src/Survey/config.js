@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import insectGroups from 'common/data';
 import { flowerOutline } from 'ionicons/icons';
+
 import flowerCoverLargeGroupImage from './FlowerCover/images/groupLarge.png';
 import flowerCoverMediumGroupImage from './FlowerCover/images/groupMedium.png';
 import flowerCoverSmallGroupImage from './FlowerCover/images/groupSmall.png';
@@ -194,7 +196,7 @@ const survey = {
     'flower-manual-entry': {
       label: 'Manual Entry',
       icon: flowerOutline,
-      placeholder: 'Todo:',
+      placeholder: 'Enter the species name',
       type: 'textarea',
       skipValueTranslation: true,
     },
@@ -218,7 +220,26 @@ const survey = {
     },
   },
 
-  create(Sample) {
+  occ: {
+    attrs: {
+      taxon: {
+        id: 'taxa_taxon_list_id',
+        remote: { values: taxon => taxon.warehouse_id },
+        count: 0,
+      },
+    },
+
+    create(Occurrence, taxon) {
+      return new Occurrence({
+        attrs: {
+          taxon,
+          count: 0,
+        },
+      });
+    },
+  },
+
+  create(Sample, Occurrence) {
     const sample = new Sample({
       metadata: {
         survey: survey.name,
@@ -235,6 +256,14 @@ const survey = {
         'flower-count-number': 0,
       },
     });
+
+    const createOccurrence = insect => {
+      const taxon = JSON.parse(JSON.stringify(insect));
+      const occ = survey.occ.create(Occurrence, taxon);
+      sample.occurrences.push(occ);
+    };
+
+    insectGroups.forEach(createOccurrence);
 
     sample.startGPS();
 
