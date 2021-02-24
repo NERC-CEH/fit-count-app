@@ -127,11 +127,87 @@ const flowerCountValues = [
   },
 ];
 
+const flowerPatchValues = [
+  {
+    id: -1,
+    value: 'In a larger patch of the same flower',
+  },
+  {
+    id: -1,
+    value: 'In a larger patch of many different flowers',
+  },
+  {
+    id: -1,
+    value: 'More or less isolated',
+  },
+  {
+    id: -1,
+    value: 'Not recorded',
+  },
+];
+
+const weatherSkyValues = [
+  {
+    id: -1,
+    value: 'All or mostly blue',
+  },
+  {
+    id: -1,
+    value: 'Half blue and half cloud',
+  },
+  {
+    id: -1,
+    value: 'All or mostly cloud',
+  },
+  {
+    id: -1,
+    value: 'Not recorded',
+  },
+];
+
+const weatherShadeValues = [
+  {
+    id: -1,
+    value: 'Entirely in sunshine',
+  },
+  {
+    id: -1,
+    value: 'Partly in sun and partly shaded',
+  },
+  {
+    id: -1,
+    value: 'Entirely shaded',
+  },
+  {
+    id: -1,
+    value: 'Not recorded',
+  },
+];
+
+const weatherWindValues = [
+  {
+    id: -1,
+    value: 'Leaves still/moving occasionally',
+  },
+  {
+    id: -1,
+    value: 'Leaves moving gently all the time',
+  },
+  {
+    id: -1,
+    value: 'Leaves moving strongly',
+  },
+  {
+    id: -1,
+    value: 'Not recorded',
+  },
+];
+
 const survey = {
   id: -1,
   name: 'survey',
 
-  SURVEY_STEP_COUNT: 11,
+  SURVEY_STEP_COUNT: 10,
 
   attrs: {
     location: {
@@ -218,6 +294,62 @@ const survey = {
       step: 1,
       skipValueTranslation: true,
     },
+
+    'flower-patch': {
+      type: 'radio',
+      info: (
+        <>
+          Is your 50x50cm patch of <b>target flowers</b>:
+        </>
+      ),
+      options: flowerPatchValues,
+      remote: {
+        id: -1,
+        values: flowerPatchValues,
+      },
+    },
+
+    'weather-sky': {
+      type: 'radio',
+      info: (
+        <>
+          What is the <b>sky</b> above your location?
+        </>
+      ),
+      options: weatherSkyValues,
+      remote: {
+        id: -1,
+        values: weatherSkyValues,
+      },
+    },
+
+    'weather-shade': {
+      type: 'radio',
+      info: (
+        <>
+          Was it <b>sun</b> or <b>shade</b> during the count?
+        </>
+      ),
+      options: weatherShadeValues,
+      remote: {
+        id: -1,
+        values: weatherShadeValues,
+      },
+    },
+
+    'weather-wind': {
+      type: 'radio',
+      info: (
+        <>
+          What is the <b>wind</b> strength?
+        </>
+      ),
+      options: weatherWindValues,
+      remote: {
+        id: -1,
+        values: weatherWindValues,
+      },
+    },
   },
 
   occ: {
@@ -254,6 +386,10 @@ const survey = {
         'flower-manual-entry': null,
         'flower-count': null,
         'flower-count-number': 0,
+        'flower-patch': null,
+        'weather-sky': null,
+        'weather-shade': null,
+        'weather-wind': null,
       },
     });
 

@@ -9,7 +9,11 @@ import Habitat from './Habitat';
 import FlowerCover from './FlowerCover';
 import Flower from './Flower';
 import FlowerCount from './FlowerCount';
+import FlowerPatch from './FlowerPatch';
 import InsectCount from './InsectCount';
+import WeatherSky from './WeatherSky';
+import WeatherShade from './WeatherShade';
+import WeatherWind from './WeatherWind';
 
 const baseURL = `/survey/new`;
 
@@ -29,7 +33,11 @@ const routes = [
   [`${baseURL}/:smpId/flower`, Flower],
   [`${baseURL}/:smpId/flower/:attr`, Attr],
   [`${baseURL}/:smpId/flower-count`, FlowerCount],
+  [`${baseURL}/:smpId/flower-patch`, FlowerPatch],
   [`${baseURL}/:smpId/insect-count`, InsectCount],
+  [`${baseURL}/:smpId/weather-sky`, WeatherSky],
+  [`${baseURL}/:smpId/weather-shade`, WeatherShade],
+  [`${baseURL}/:smpId/weather-wind`, WeatherWind],
 ];
 
 export default RouteWithModels.fromArray(savedSamples, routes);

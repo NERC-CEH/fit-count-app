@@ -11,6 +11,9 @@ import Footer from '../Components/Footer';
 import './styles.scss';
 
 const PAGE_INDEX = 5;
+
+const NEXT_PAGE = 'flower-patch';
+
 class NumberFlower extends React.Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
@@ -76,7 +79,7 @@ class NumberFlower extends React.Component {
           />
         </Main>
 
-        <Footer isEnabled={this.isValueValid()} link="insect-count" />
+        <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
       </Page>
     );
   }

@@ -8,11 +8,11 @@ import Main from 'common/Components/Species';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
-const PAGE_INDEX = 6;
+const PAGE_INDEX = 7;
+
+const NEXT_PAGE = 'weather-sky';
 
 function InsectCount({ sample }) {
-  const nextPage = 'todo:';
-
   function isValueValid() {
     return true;
   }
@@ -31,11 +31,11 @@ function InsectCount({ sample }) {
 
   return (
     <Page id="survey-insect-count-page">
-      <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Flower" />
+      <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Patch" />
       <Main onSelect={onSelect} sample={sample} />
 
       <IonFooter>
-        <Footer isEnabled={isValueValid()} link={nextPage} />
+        <Footer isEnabled={isValueValid()} link={NEXT_PAGE} />
       </IonFooter>
     </Page>
   );
