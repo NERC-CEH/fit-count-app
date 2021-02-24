@@ -15,6 +15,8 @@ import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import './styles.scss';
 
+const PAGE_INDEX = 1;
+
 function showDeleteSurveyAlertMessage() {
   const deleteSurvey = resolve => {
     alert({
@@ -72,7 +74,7 @@ class Location extends ModelLocation {
     return (
       <Page id="survey-location-page">
         <Header
-          surveyProgressIndex={1}
+          surveyProgressIndex={PAGE_INDEX}
           onCancel={this.deleteSubSampleOrSurvey}
           backButtonLabel="Cancel"
         />

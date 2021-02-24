@@ -8,6 +8,8 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
+const PAGE_INDEX = 4;
+
 const NEXT_PAGE = 'flower-count';
 
 class FlowerCover extends React.Component {
@@ -41,7 +43,7 @@ class FlowerCover extends React.Component {
 
     return (
       <Page id="survey-flower-cover-page">
-        <Header surveyProgressIndex={4} backButtonLabel="Selection" />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Selection" />
 
         <Main>
           <Attr

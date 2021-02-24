@@ -8,6 +8,8 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
+const PAGE_INDEX = 2;
+
 const NEXT_PAGE = 'flower';
 
 class Habitat extends React.Component {
@@ -41,7 +43,7 @@ class Habitat extends React.Component {
 
     return (
       <Page id="survey-habitat-page">
-        <Header surveyProgressIndex={2} backButtonLabel="Location" />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Location" />
 
         <Main>
           <Attr

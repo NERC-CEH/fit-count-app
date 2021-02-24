@@ -19,6 +19,8 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
+const PAGE_INDEX = 3;
+
 @observer
 class Flower extends React.Component {
   static propTypes = exact({
@@ -87,7 +89,7 @@ class Flower extends React.Component {
 
     return (
       <Page id="survey-flower-page">
-        <Header surveyProgressIndex={3} backButtonLabel="Habitat" />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Habitat" />
 
         <Main ref={this.contentRef} fullscreen="true">
           <InfoMessage icon={informationCircleOutline}>

@@ -8,8 +8,9 @@ import Main from 'common/Components/Species';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
+const PAGE_INDEX = 6;
+
 function InsectCount({ sample }) {
-  const pageIndex = 6;
   const nextPage = 'todo:';
 
   function isValueValid() {
@@ -30,7 +31,7 @@ function InsectCount({ sample }) {
 
   return (
     <Page id="survey-insect-count-page">
-      <Header surveyProgressIndex={pageIndex} backButtonLabel="Flower" />
+      <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Flower" />
       <Main onSelect={onSelect} sample={sample} />
 
       <IonFooter>
