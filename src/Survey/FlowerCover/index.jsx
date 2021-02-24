@@ -3,11 +3,16 @@ import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Main, Attr } from '@apps';
+import { NavContext } from '@ionic/react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
+const NEXT_PAGE = 'flower-count';
+
 class FlowerCover extends React.Component {
+  static contextType = NavContext;
+
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
     match: PropTypes.object, // eslint-disable-line
@@ -19,6 +24,10 @@ class FlowerCover extends React.Component {
     const { sample } = this.props;
     sample.attrs['flower-cover'] = value;
     sample.save();
+
+    const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
+
+    setTimeout(navigateToNextPage, 50);
   };
 
   isValueValid = () => !!this.props.sample.attrs['flower-cover'];
@@ -43,7 +52,7 @@ class FlowerCover extends React.Component {
           />
         </Main>
 
-        <Footer isEnabled={this.isValueValid()} link="flower-count" />
+        <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
       </Page>
     );
   }
