@@ -22,7 +22,7 @@ const Credits = () => (
               <b>Martin Harvey</b> (UKCEH)
             </li>
             <li>
-              <b>Nadine Mitschunas</b>(UKCEH)
+              <b>Nadine Mitschunas</b> (UKCEH)
             </li>
             <li>
               <b>Karolis Kazlauskis</b> (Flumens)
