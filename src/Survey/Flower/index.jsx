@@ -63,7 +63,11 @@ class Flower extends React.Component {
     const { flower } = sample.attrs;
     const flowerManualEntry = sample.attrs['flower-manual-entry'];
 
-    return flower !== 'Other' ? !!flower : !!flowerManualEntry;
+    const hasSpeciesSet = flower !== 'Other' ? !!flower : !!flowerManualEntry;
+
+    const hasPhoto = !!sample.media.length;
+
+    return hasSpeciesSet && hasPhoto;
   };
 
   componentDidUpdate = () => {
