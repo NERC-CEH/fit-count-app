@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import { date as dateHelp } from '@apps';
 import insectGroups from 'common/data';
 import { flowerOutline } from 'ionicons/icons';
 
@@ -29,6 +30,19 @@ const habitatValues = [
     id: -1,
     value: 'Churchyard',
   },
+  {
+    id: -1,
+    value: 'Grassy verge or hedgerow edge',
+  },
+  { id: -1, value: 'Grassland with wild flowers (e.g. meadow)' },
+  { id: -1, value: 'Amenity grassland (usually mown short)' },
+  { id: -1, value: 'Farm crops or grassy pasture' },
+  { id: -1, value: 'Upland moorland' },
+  { id: -1, value: 'Lowland heath' },
+  { id: -1, value: 'Waste ground' },
+  { id: -1, value: 'School grounds Farm crops or grassy pastures' },
+  { id: -1, value: 'Woodland' },
+  { id: -1, value: 'Other' },
 ];
 
 const flowerCoverValues = [
@@ -203,11 +217,18 @@ const weatherWindValues = [
   },
 ];
 
+const dateTimeFormat = new Intl.DateTimeFormat('en-GB', {
+  hour: 'numeric',
+  minute: 'numeric',
+});
+
 const survey = {
   id: -1,
   name: 'survey',
 
   SURVEY_STEP_COUNT: 10,
+
+  DEFAULT_SURVEY_TIME: 10,
 
   attrs: {
     location: {
@@ -230,6 +251,20 @@ const survey = {
           return `${lat.toFixed(7)}, ${lon.toFixed(7)}`;
         },
       },
+    },
+
+    date: {
+      values(date) {
+        return dateHelp.print(date);
+      },
+      isValid: val => val && val.toString() !== 'Invalid Date',
+      type: 'date',
+      max: () => new Date(),
+    },
+
+    surveyStartTime: {
+      id: -1,
+      values: date => dateTimeFormat.format(new Date(date)),
     },
 
     habitat: {
@@ -376,6 +411,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        pausedTime: 0,
       },
 
       attrs: {
