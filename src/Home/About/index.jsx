@@ -59,7 +59,7 @@ const About = () => (
         </P>
 
         <P>
-          PoMSaims to provide much-needed data on the state of the UK’s insect
+          PoMS aims to provide much-needed data on the state of the UK’s insect
           pollinators, especially wild bees and hoverflies, and the role they
           fulfil in supporting farming and wildlife.
         </P>
