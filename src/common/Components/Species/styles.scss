@@ -97,10 +97,8 @@
   }
 
   .swiper-pagination-bullets {
-    position: absolute;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
+    right: unset !important;
+    margin-left: 5px;
 
     .swiper-pagination-bullet {
       opacity: 1;
