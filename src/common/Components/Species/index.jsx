@@ -57,12 +57,18 @@ class SpeciesMainComponent extends React.Component {
 
     const selectSpecies = () => onSelect(sp);
 
+    const viewSpecies = e => {
+      e.preventDefault();
+      e.stopPropagation();
+      wip();
+    };
+
     return (
       <IonCol key={i} className="species-tile" size="6" onClick={selectSpecies}>
         {this.getOccurrenceCount(sp)}
 
         <div className="container">
-          <div className="info-box" onClick={wip}>
+          <div className="info-box" onClick={viewSpecies}>
             <IonIcon icon={informationCircleOutline} />
           </div>
 
