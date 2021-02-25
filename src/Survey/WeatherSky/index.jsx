@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main } from '@apps';
-import { IonFooter, NavContext } from '@ionic/react';
+import { NavContext } from '@ionic/react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
@@ -54,9 +54,7 @@ class WeatherSky extends React.Component {
           />
         </Main>
 
-        <IonFooter no-border>
-          <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
-        </IonFooter>
+        <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
       </Page>
     );
   }

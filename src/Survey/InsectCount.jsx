@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page } from '@apps';
 import { observer } from 'mobx-react';
-import { IonFooter } from '@ionic/react';
 import Main from 'common/Components/Species';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -34,9 +33,7 @@ function InsectCount({ sample }) {
       <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Patch" />
       <Main onSelect={onSelect} sample={sample} />
 
-      <IonFooter>
         <Footer isEnabled={isValueValid()} link={NEXT_PAGE} />
-      </IonFooter>
     </Page>
   );
 }

@@ -8,7 +8,7 @@ import {
   alert,
   InfoMessage,
 } from '@apps';
-import { NavContext, IonFooter } from '@ionic/react';
+import { NavContext } from '@ionic/react';
 import { locationOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import Footer from '../Components/Footer';
@@ -99,9 +99,7 @@ class Location extends ModelLocation {
           />
         </Main>
 
-        <IonFooter>
-          <Footer isEnabled={this.isValueValid()} link="habitat" />
-        </IonFooter>
+        <Footer isEnabled={this.isValueValid()} link="habitat" />
       </Page>
     );
   }

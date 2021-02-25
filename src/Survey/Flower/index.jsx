@@ -13,7 +13,7 @@ import {
 } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
 import Media from 'models/media';
-import { IonItemDivider, IonFooter } from '@ionic/react';
+import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
@@ -119,9 +119,7 @@ class Flower extends React.Component {
           {this.getManualEntry()}
         </Main>
 
-        <IonFooter no-border>
           <Footer isEnabled={this.isValueValid()} link="flower-cover" />
-        </IonFooter>
       </Page>
     );
   }
