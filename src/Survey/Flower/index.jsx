@@ -119,7 +119,7 @@ class Flower extends React.Component {
           {this.getManualEntry()}
         </Main>
 
-          <Footer isEnabled={this.isValueValid()} link="flower-cover" />
+        <Footer isEnabled={this.isValueValid()} link="flower-cover" />
       </Page>
     );
   }

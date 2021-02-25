@@ -33,7 +33,7 @@ function InsectCount({ sample }) {
       <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Patch" />
       <Main onSelect={onSelect} sample={sample} />
 
-        <Footer isEnabled={isValueValid()} link={NEXT_PAGE} />
+      <Footer isEnabled={isValueValid()} link={NEXT_PAGE} />
     </Page>
   );
 }
