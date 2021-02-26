@@ -194,21 +194,57 @@ msgstr "of"
 msgid "<0>Select <1>habitat</1> that is the best match.</0>"
 msgstr "<0>Select <1>habitat</1> that is the best match.</0>"
 
-# Survey habitat radio input
+# Survey habitat page values
 msgid "Garden"
 msgstr "Garden"
 
-# Survey habitat radio input
+# Survey habitat page values
 msgid "School Ground"
 msgstr "School Ground"
 
-# Survey habitat radio input
+# Survey habitat page values
 msgid "Parklands with trees"
 msgstr "Parklands with trees"
 
-# Survey habitat radio input
+# Survey habitat page values
 msgid "Churchyard"
 msgstr "Churchyard"
+
+# Survey habitat page values
+msgid "Grassy verge or hedgerow edge"
+msgstr "Grassy verge or hedgerow edge"
+
+# Survey habitat page values
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Grassland with wild flowers (e.g. meadow)"
+
+# Survey habitat page values
+msgid "Amenity grassland (usually mown short)"
+msgstr "Amenity grassland (usually mown short)"
+
+# Survey habitat page values
+msgid "Farm crops or grassy pasture"
+msgstr "Farm crops or grassy pasture"
+
+# Survey habitat page values
+msgid "Upland moorland"
+msgstr "Upland moorland"
+
+# Survey habitat page values
+msgid "Lowland heath"
+msgstr "Lowland heath"
+
+# Survey habitat page values
+msgid "Waste ground"
+msgstr "Waste ground"
+
+# Survey habitat page values
+msgid "School grounds Farm crops or grassy pastures"
+msgstr "School grounds Farm crops or grassy pastures"
+
+# Survey habitat page values
+msgid "Woodland"
+msgstr "Woodland"
 
 # Survey flower-cover radio input
 msgid "<0>What is the target flower <1>cover</1>.</0>"
@@ -613,3 +649,91 @@ msgstr "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
 # Credits page content
 msgid "App guide illustrations made by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
 msgstr "App guide illustrations made by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+
+# Survey flower page info message
+msgid "Which target <1>flower</1> have you chosen?"
+msgstr "Which target <1>flower</1> have you chosen?"
+
+# Survey flower page section divider
+msgid "Photos"
+msgstr "Photos"
+
+# Survey flower page section divider
+msgid "Species"
+msgstr "Species"
+
+# Survey flower patch page values
+msgid "In a larger patch of the same flower"
+msgstr "In a larger patch of the same flower"
+
+# Survey flower patch page values
+msgid "In a larger patch of many different flowers"
+msgstr "In a larger patch of many different flowers"
+
+# Survey flower patch page values
+msgid "More or less isolated"
+msgstr "More or less isolated"
+
+# Survey flower patch page values
+msgid "<0>Is your 50x50cm patch of <1>target flowers</1>:</0>"
+msgstr "<0>Is your 50x50cm patch of <1>target flowers</1>:</0>"
+
+# Survey weather sky page values
+msgid "All or mostly blue"
+msgstr "All or mostly blue"
+
+# Survey weather sky page values
+msgid "Half blue and half cloud"
+msgstr "Half blue and half cloud"
+
+# Survey weather sky page values
+msgid "All or mostly cloud"
+msgstr "All or mostly cloud"
+
+# Survey weather sky page info message
+msgid "<0>What is the <1>sky</1> above your location?</0>"
+msgstr "<0>What is the <1>sky</1> above your location?</0>"
+
+# Survey weather shade page values
+msgid "Entirely in sunshine"
+msgstr "Entirely in sunshine"
+
+# Survey weather shade page values
+msgid "Partly in sun and partly shaded"
+msgstr "Partly in sun and partly shaded"
+
+# Survey weather shade page values
+msgid "Entirely shaded"
+msgstr "Entirely shaded"
+
+# Survey weather shade page info message
+msgid "<0>Was it <1>sun</1> or <3>shade</3> during the count?</0>"
+msgstr "<0>Was it <1>sun</1> or <3>shade</3> during the count?</0>"
+
+# Survey weather wind page values
+msgid "Leaves still/moving occasionally"
+msgstr "Leaves still/moving occasionally"
+
+# Survey weather wind page values
+msgid "Leaves moving gently all the time"
+msgstr "Leaves moving gently all the time"
+
+# Survey weather wind page values
+msgid "Leaves moving strongly"
+msgstr "Leaves moving strongly"
+
+# Survey weather wind page info message
+msgid "<0>What is the <1>wind</1> strength?</0>"
+msgstr "<0>What is the <1>wind</1> strength?</0>"
+
+# Survey insect count page counter button label
+msgid "Paused"
+msgstr "Paused"
+
+# Survey insect count page counter button label
+msgid "Time's up!"
+msgstr "Time's up!"
+
+# Survey insect count page counter warning message
+msgid "Time expire!"
+msgstr "Time expire!"
