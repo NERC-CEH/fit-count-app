@@ -13,40 +13,4 @@
   div.rounded {
     padding: 0 10px;
   }
-
-  ion-footer {
-    &::before {
-      content: none;
-    }
-  }
-
-  ion-content {
-    --background: var(--ion-page-background);
-  }
-
-  ion-list {
-    background: transparent !important;
-    ion-item {
-      --border-style: none;
-      border-radius: 15px;
-      --border-radius: 15px;
-      margin: 10px;
-      --background-active: none;
-      --color-activated: none;
-
-      ion-img {
-        padding: 10px;
-      }
-    }
-
-    ion-radio-group .item-radio-checked:not(.radio-input-default-option) {
-      --background: var(--ion-color-primary-tint);
-      color: var(--ion-color-light);
-      box-shadow: 1px 1px 6px 0px #bc49905d;
-
-      ion-radio {
-        --color-checked: var(--ion-color-secondary-tint);
-      }
-    }
-  }
 }

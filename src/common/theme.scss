@@ -283,3 +283,26 @@ ion-item-divider.survey-divider {
   margin: 20px 0 5px 0px;
   color: #28a6ff;
 }
+
+.radio-input-attr {
+  ion-list {
+    background: transparent !important;
+    ion-item {
+      --color-activated: #000;
+      --border-radius: 15px;
+      --border-style: none;
+      border-radius: 15px;
+      margin: 10px;
+    }
+
+    ion-radio-group .item-radio-checked:not(.radio-input-default-option) {
+      --background: var(--ion-color-primary-tint);
+      --color: #fff;
+      --color-activated: #fff;
+
+      ion-radio {
+        --color-checked: var(--ion-color-secondary-tint);
+      }
+    }
+  }
+}

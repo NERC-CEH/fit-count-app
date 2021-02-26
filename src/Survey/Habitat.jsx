@@ -4,15 +4,14 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main } from '@apps';
 import { NavContext } from '@ionic/react';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import './styles.scss';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
-const PAGE_INDEX = 6;
+const PAGE_INDEX = 2;
 
-const NEXT_PAGE = 'insect-count';
+const NEXT_PAGE = 'flower';
 
-class FlowerPatch extends React.Component {
+class Habitat extends React.Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -24,7 +23,7 @@ class FlowerPatch extends React.Component {
 
   onValueChange = value => {
     const { sample } = this.props;
-    sample.attrs['flower-patch'] = value;
+    sample.attrs.habitat = value;
     sample.save();
 
     const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
@@ -32,22 +31,23 @@ class FlowerPatch extends React.Component {
     setTimeout(navigateToNextPage, 50);
   };
 
-  isValueValid = () => !!this.props.sample.attrs['flower-patch'];
+  isValueValid = () => !!this.props.sample.attrs.habitat;
 
   render() {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
 
-    const value = sample.attrs['flower-patch'];
+    const value = sample.attrs.habitat;
 
     return (
-      <Page id="survey-flower-patch-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Count" />
+      <Page id="survey-habitat-page">
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Location" />
 
         <Main>
           <Attr
-            attrConfig={surveyConfig.attrs['flower-patch']}
+            className="survey-radio-list  "
+            attrConfig={surveyConfig.attrs.habitat}
             onValueChange={this.onValueChange}
             initialVal={value}
             model={sample}
@@ -60,4 +60,4 @@ class FlowerPatch extends React.Component {
   }
 }
 
-export default observer(FlowerPatch);
+export default observer(Habitat);

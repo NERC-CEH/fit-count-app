@@ -4,15 +4,14 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main } from '@apps';
 import { NavContext } from '@ionic/react';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import './styles.scss';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
-const PAGE_INDEX = 9;
+const PAGE_INDEX = 8;
 
-const NEXT_PAGE = 'weather-wind';
+const NEXT_PAGE = 'weather-shade';
 
-class WeatherShade extends React.Component {
+class WeatherSky extends React.Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -24,7 +23,7 @@ class WeatherShade extends React.Component {
 
   onValueChange = value => {
     const { sample } = this.props;
-    sample.attrs['weather-shade'] = value;
+    sample.attrs['weather-sky'] = value;
     sample.save();
 
     const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
@@ -32,22 +31,22 @@ class WeatherShade extends React.Component {
     setTimeout(navigateToNextPage, 50);
   };
 
-  isValueValid = () => !!this.props.sample.attrs['weather-shade'];
+  isValueValid = () => !!this.props.sample.attrs['weather-sky'];
 
   render() {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
 
-    const value = sample.attrs['weather-shade'];
+    const value = sample.attrs['weather-sky'];
 
     return (
-      <Page id="survey-weather-shade-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Sky" />
+      <Page id="survey-weather-sky-page">
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Insect" />
 
         <Main>
           <Attr
-            attrConfig={surveyConfig.attrs['weather-shade']}
+            attrConfig={surveyConfig.attrs['weather-sky']}
             onValueChange={this.onValueChange}
             initialVal={value}
             model={sample}
@@ -60,4 +59,4 @@ class WeatherShade extends React.Component {
   }
 }
 
-export default observer(WeatherShade);
+export default observer(WeatherSky);

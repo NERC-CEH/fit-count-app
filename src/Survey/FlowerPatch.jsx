@@ -4,15 +4,14 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main } from '@apps';
 import { NavContext } from '@ionic/react';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import './styles.scss';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
-const PAGE_INDEX = 2;
+const PAGE_INDEX = 6;
 
-const NEXT_PAGE = 'flower';
+const NEXT_PAGE = 'insect-count';
 
-class Habitat extends React.Component {
+class FlowerPatch extends React.Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -24,7 +23,7 @@ class Habitat extends React.Component {
 
   onValueChange = value => {
     const { sample } = this.props;
-    sample.attrs.habitat = value;
+    sample.attrs['flower-patch'] = value;
     sample.save();
 
     const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
@@ -32,22 +31,23 @@ class Habitat extends React.Component {
     setTimeout(navigateToNextPage, 50);
   };
 
-  isValueValid = () => !!this.props.sample.attrs.habitat;
+  isValueValid = () => !!this.props.sample.attrs['flower-patch'];
 
   render() {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
 
-    const value = sample.attrs.habitat;
+    const value = sample.attrs['flower-patch'];
 
     return (
-      <Page id="survey-habitat-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Location" />
+      <Page id="survey-flower-patch-page">
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Count" />
 
         <Main>
           <Attr
-            attrConfig={surveyConfig.attrs.habitat}
+            className="survey-radio-list"
+            attrConfig={surveyConfig.attrs['flower-patch']}
             onValueChange={this.onValueChange}
             initialVal={value}
             model={sample}
@@ -60,4 +60,4 @@ class Habitat extends React.Component {
   }
 }
 
-export default observer(Habitat);
+export default observer(FlowerPatch);

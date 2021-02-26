@@ -4,12 +4,14 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main } from '@apps';
 import { NavContext } from '@ionic/react';
-import Header from '../Components/Header';
-import './styles.scss';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
-const PAGE_INDEX = 10;
+const PAGE_INDEX = 9;
 
-class WeatherWind extends React.Component {
+const NEXT_PAGE = 'weather-wind';
+
+class WeatherShade extends React.Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -21,34 +23,40 @@ class WeatherWind extends React.Component {
 
   onValueChange = value => {
     const { sample } = this.props;
-    sample.attrs['weather-wind'] = value;
+    sample.attrs['weather-shade'] = value;
     sample.save();
+
+    const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
+
+    setTimeout(navigateToNextPage, 50);
   };
 
-  isValueValid = () => !!this.props.sample.attrs['weather-wind'];
+  isValueValid = () => !!this.props.sample.attrs['weather-shade'];
 
   render() {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
 
-    const value = sample.attrs['weather-wind'];
+    const value = sample.attrs['weather-shade'];
 
     return (
-      <Page id="survey-weather-wind-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Shade" />
+      <Page id="survey-weather-shade-page">
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Sky" />
 
         <Main>
           <Attr
-            attrConfig={surveyConfig.attrs['weather-wind']}
+            attrConfig={surveyConfig.attrs['weather-shade']}
             onValueChange={this.onValueChange}
             initialVal={value}
             model={sample}
           />
         </Main>
+
+        <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
       </Page>
     );
   }
 }
 
-export default observer(WeatherWind);
+export default observer(WeatherShade);

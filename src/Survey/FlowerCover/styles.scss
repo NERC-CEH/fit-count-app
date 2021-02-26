@@ -1,19 +1,6 @@
 #survey-flower-cover-page {
-  ion-content {
-    --background: var(--ion-page-background);
-  }
-
   ion-list {
-    background: transparent !important;
     ion-item {
-      --border-style: none;
-      border-radius: 15px;
-      --border-radius: 15px;
-      margin: 10px;
-      --backgrond-active: none;
-      --color-activated: none;
-      --padding-start: 0;
-
       .flower-cover-imageProfile {
         position: relative;
         min-width: 25%;
@@ -38,20 +25,6 @@
       ion-label {
         white-space: normal;
         margin-left: 10px;
-      }
-    }
-
-    ion-radio-group .item-radio-checked:not(.radio-input-default-option) {
-      --background: var(--ion-color-primary-tint);
-      color: var(--ion-color-light);
-      box-shadow: 1px 1px 6px 0px #bc49905d;
-
-      .flower-cover-imageProfile {
-        background-color: #ececec62;
-      }
-
-      ion-radio {
-        --color-checked: var(--ion-color-secondary-tint);
       }
     }
   }
