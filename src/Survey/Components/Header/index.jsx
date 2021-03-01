@@ -14,7 +14,12 @@ import surveyConfig from '../../config';
 import BackButton from './BackButton';
 import './styles.scss';
 
-function CustomHeader({ onCancel, surveyProgressIndex, backButtonLabel }) {
+function SurveyHeader({
+  onCancel,
+  surveyProgressIndex,
+  backButtonLabel,
+  rightSlot,
+}) {
   const { SURVEY_STEP_COUNT } = surveyConfig;
 
   return (
@@ -35,15 +40,18 @@ function CustomHeader({ onCancel, surveyProgressIndex, backButtonLabel }) {
           color="secondary"
           value={surveyProgressIndex / SURVEY_STEP_COUNT}
         />
+
+        {rightSlot}
       </IonToolbar>
     </IonHeader>
   );
 }
 
-CustomHeader.propTypes = exact({
+SurveyHeader.propTypes = exact({
   surveyProgressIndex: PropTypes.number.isRequired,
   backButtonLabel: PropTypes.string.isRequired,
   onCancel: PropTypes.func,
+  rightSlot: PropTypes.object,
 });
 
-export default observer(CustomHeader);
+export default observer(SurveyHeader);

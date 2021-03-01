@@ -12,7 +12,7 @@
     align-items: start;
 
     ion-grid {
-      padding: 0 15px;
+      padding: 15px 20px;
 
       .species-tile {
         padding: 0;
@@ -30,6 +30,10 @@
           right: 0;
           z-index: 10000;
           font-size: 1.4em;
+        }
+
+        .disabled {
+          background: var(--ion-color-medium);
         }
 
         .container {
@@ -56,7 +60,7 @@
           }
 
           ion-img {
-            padding: 40px;
+            padding: 30px;
           }
 
           ion-label {
@@ -67,7 +71,7 @@
             font-weight: 600;
             text-align: center;
             color: var(--ion-color-primary);
-            padding-bottom: 5px;
+            padding: 5px;
           }
 
           overflow: hidden;
@@ -93,6 +97,15 @@
           }
         }
       }
+    }
+  }
+
+  ion-slide {
+    height: inherit !important;
+
+    ion-item {
+      width: 100%;
+      --inner-border-width: 0;
     }
   }
 

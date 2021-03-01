@@ -11,12 +11,12 @@ import {
   IonSlides,
   IonSlide,
   IonBadge,
-  IonItem,
   IonImg,
 } from '@ionic/react';
 import { Main, toast } from '@apps';
-import { informationCircleOutline, timeOutline } from 'ionicons/icons';
+import { informationCircleOutline } from 'ionicons/icons';
 import species from 'common/data/index';
+import clsx from 'clsx';
 import './styles.scss';
 
 const wip = () => toast.warn('Sorry, this is still WIP.');
@@ -94,7 +94,10 @@ class SpeciesMainComponent extends React.Component {
     }
 
     return (
-      <IonBadge color="secondary" className="badge">
+      <IonBadge
+        color="secondary"
+        className={clsx('badge', sample.hasCountdownTimedOut() && 'disabled')}
+      >
         {count}
       </IonBadge>
     );
@@ -118,15 +121,6 @@ class SpeciesMainComponent extends React.Component {
 
     return (
       <Main className="species-list">
-        <div className="rounded">
-          <IonItem disabled>
-            <IonIcon icon={timeOutline} slot="start" />
-
-            <IonLabel className="ion-text-wrap">Duration</IonLabel>
-            <IonLabel slot="end">WIP</IonLabel>
-          </IonItem>
-        </div>
-
         <IonSlides
           pager="true"
           onIonSlidesDidLoad={fixIonicSlideBug}

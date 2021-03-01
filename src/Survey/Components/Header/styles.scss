@@ -9,4 +9,25 @@
       font-weight: 300;
     }
   }
+
+  #countdown {
+    padding: 0 5px;
+    margin: 0;
+  }
+
+  ion-item {
+    --background: transparent;
+    --color: white;
+    --inner-border-width: 0;
+
+    ion-label {
+      width: 300px;
+      font-weight: bold;
+      font-size: 1.2em;
+
+      span.warn {
+        color: var(--ion-color-warning);
+      }
+    }
+  }
 }

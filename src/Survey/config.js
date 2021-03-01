@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import { date as dateHelp } from '@apps';
 import insectGroups from 'common/data';
 import { flowerOutline } from 'ionicons/icons';
 
@@ -228,7 +227,7 @@ const survey = {
 
   SURVEY_STEP_COUNT: 10,
 
-  DEFAULT_SURVEY_TIME: 10,
+  DEFAULT_SURVEY_TIME: 1 * 60 * 1000, // 10 min
 
   attrs: {
     location: {
@@ -251,15 +250,6 @@ const survey = {
           return `${lat.toFixed(7)}, ${lon.toFixed(7)}`;
         },
       },
-    },
-
-    date: {
-      values(date) {
-        return dateHelp.print(date);
-      },
-      isValid: val => val && val.toString() !== 'Invalid Date',
-      type: 'date',
-      max: () => new Date(),
     },
 
     surveyStartTime: {
@@ -411,10 +401,12 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
-        pausedTime: 0,
+        pausedTotalTime: 0, // ms
+        pausedStartTime: null,
       },
 
       attrs: {
+        surveyStartTime: null,
         location: null,
         habitat: null,
         'flower-cover': null,
@@ -437,6 +429,7 @@ const survey = {
 
     insectGroups.forEach(createOccurrence);
 
+    sample.startVibrateCounter();
     sample.startGPS();
 
     return sample;
