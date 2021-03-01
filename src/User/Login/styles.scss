@@ -16,10 +16,7 @@
   ion-item {
     --background: transparent;
     background: transparent;
-
-    &:first-of-type:not(:last-child) {
-      margin-right: 25px; // gives more space to text
-    }
+    padding: 0 !important;
   }
 
   ion-content {
