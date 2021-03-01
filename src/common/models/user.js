@@ -24,6 +24,10 @@ class UserModel extends DrupalUserModel {
     email: Yup.string().required('Please fill in'),
     password: Yup.string().required('Please fill in'),
   });
+
+  hasLogIn() {
+    return !!this.attrs.email;
+  }
 }
 
 const defaults = {

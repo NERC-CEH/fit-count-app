@@ -5,6 +5,7 @@ import { NavContext } from '@ionic/react';
 import Sample from 'models/sample';
 import Occurrence from 'models/occurrence';
 import savedSamples from 'models/savedSamples';
+import userModel from 'models/user';
 
 async function getNewSample(survey) {
   const sample = await survey.create(Sample, Occurrence);
@@ -19,6 +20,11 @@ function StartNewSurvey({ match, survey }) {
   const context = useContext(NavContext);
 
   const createSample = async () => {
+    if (!userModel.hasLogIn()) {
+      context.navigate(`/user/login`, 'none', 'replace');
+      return;
+    }
+
     const sample = await getNewSample(survey);
 
     const url = `${match.url}/${sample.cid}/location`;
