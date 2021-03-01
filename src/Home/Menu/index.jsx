@@ -50,7 +50,7 @@ function showLogoutConfirmationDialog(callback) {
 }
 
 const MenuController = ({ userModel, savedSamples }) => {
-  const { sendAnalytics, language, country } = appModel.attrs;
+  const { sendAnalytics, language } = appModel.attrs;
 
   function logOut() {
     const onReset = async reset => {
@@ -75,7 +75,7 @@ const MenuController = ({ userModel, savedSamples }) => {
         onToggle={onToggle}
         config={config}
         language={language}
-        country={country}
+        // country={country}
         isLoggedIn={isLoggedIn}
         user={userModel.attrs}
         logOut={logOut}

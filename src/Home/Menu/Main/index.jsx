@@ -17,13 +17,13 @@ import {
   shareSocialOutline,
   heartOutline,
   languageOutline,
-  globeOutline,
+  // globeOutline,
   personAddOutline,
   personOutline,
   exitOutline,
 } from 'ionicons/icons';
 import languages from 'common/languages';
-import countries from 'common/countries';
+// import countries from 'common/countries';
 import flumensLogo from 'common/images/flumens.svg';
 
 @observer
@@ -33,7 +33,7 @@ class MenuComponent extends React.Component {
     sendAnalytics: PropTypes.bool.isRequired,
     config: PropTypes.object.isRequired,
     language: PropTypes.string.isRequired,
-    country: PropTypes.string.isRequired,
+    // country: PropTypes.string.isRequired,
     isLoggedIn: PropTypes.bool.isRequired,
     user: PropTypes.object.isRequired,
     logOut: PropTypes.func.isRequired,
@@ -45,7 +45,7 @@ class MenuComponent extends React.Component {
       sendAnalytics,
       config,
       language,
-      country,
+      // country,
       isLoggedIn,
       user,
       logOut,
@@ -54,8 +54,8 @@ class MenuComponent extends React.Component {
 
     const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
 
-    const countryName = ({ value }) => value === country;
-    const selectedCountries = countries.find(countryName) || {};
+    // const countryName = ({ value }) => value === country;
+    // const selectedCountries = countries.find(countryName) || {};
 
     return (
       <Main>
@@ -121,12 +121,12 @@ class MenuComponent extends React.Component {
               skipValueTranslation
             />
 
-            <MenuAttrItem
+            {/* <MenuAttrItem
               routerLink="/settings/country"
               value={selectedCountries.label}
               label="Country"
               icon={globeOutline}
-            />
+            /> */}
 
             <IonItem className="exception-rounded">
               <IonIcon icon={shareSocialOutline} size="small" slot="start" />
