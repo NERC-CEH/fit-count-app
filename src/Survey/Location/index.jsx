@@ -1,5 +1,7 @@
 import React from 'react';
 import { observer } from 'mobx-react';
+import PropTypes from 'prop-types';
+import exact from 'prop-types-exact';
 import {
   Page,
   ModelLocation,
@@ -49,6 +51,12 @@ function showDeleteSurveyAlertMessage() {
 class Location extends ModelLocation {
   static contextType = NavContext;
 
+  static propTypes = exact({
+    model: PropTypes.object.isRequired,
+    onGPSClick: PropTypes.func.isRequired,
+    mapProviderOptions: PropTypes.object,
+  });
+
   deleteSubSampleOrSurvey = async () => {
     const { sample } = this.props;
     const discard = await showDeleteSurveyAlertMessage();
@@ -64,12 +72,12 @@ class Location extends ModelLocation {
 
   navigateNext = () => this.context.navigate('habitat');
 
-  isValueValid = () => !!this.props.sample.attrs.location;
+  isValueValid = () => !!this.props.model.attrs.location;
 
   render() {
-    const { mapProviderOptions, sample } = this.props;
+    const { mapProviderOptions, model } = this.props;
 
-    const location = sample.attrs.location || {};
+    const location = model.attrs.location || {};
 
     return (
       <Page id="survey-location-page">
@@ -79,19 +87,18 @@ class Location extends ModelLocation {
           backButtonLabel="Cancel"
         />
 
-        <InfoMessage icon={locationOutline}>
-          Use the map to zoom in and tap on your <b>location</b>.
-          <InfoButton label="Read more" header="Location" skipTranslation>
-            This is attribute page info example.
-            <br />
-            <br />
-            We can put any text or illustrations in it.
-          </InfoButton>
-        </InfoMessage>
-
         <Main>
+          <InfoMessage icon={locationOutline}>
+            Use the map to zoom in and tap on your <b>location</b>.
+            <InfoButton label="Read more" header="Location" skipTranslation>
+              This is attribute page info example.
+              <br />
+              <br />
+              We can put any text or illustrations in it.
+            </InfoButton>
+          </InfoMessage>
           <ModelLocation.Map
-            sample={sample}
+            model={model}
             location={location}
             setLocation={this.setLocation}
             mapProviderOptions={mapProviderOptions}

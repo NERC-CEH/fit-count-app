@@ -19,9 +19,9 @@ const baseURL = `/survey/new`;
 
 const ModelLocationWrap = props => (
   <Location
+    model={props.sample} // eslint-disable-line
     mapProviderOptions={config.map}
     onGPSClick={ModelLocation.utils.onGPSClick}
-    {...props}
   />
 );
 
