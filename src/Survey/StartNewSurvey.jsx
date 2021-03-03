@@ -73,7 +73,7 @@ function StartNewSurvey({ match, survey, location }) {
     // eslint-disable-next-line
     (async () => {
       if (!userModel.hasLogIn()) {
-        context.navigate(`/user/login`, 'none', 'replace');
+        context.navigate(`/user/register`, 'none', 'replace');
         return;
       }
 
