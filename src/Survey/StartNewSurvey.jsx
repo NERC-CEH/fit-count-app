@@ -35,13 +35,8 @@ async function showDraftAlert() {
   return new Promise(alertWrap);
 }
 
-async function getNewSample(survey, draftIdKey, params) {
-  const toParam = (agg, v) => {
-    const [key, val] = v.split('=');
-    return { ...agg, [key]: val };
-  };
-  const options = params.replace('?', '').split('&').reduce(toParam, {});
-  const sample = await survey.create(Sample, Occurrence, options);
+async function getNewSample(survey, draftIdKey) {
+  const sample = await survey.create(Sample, Occurrence);
   await sample.save();
 
   savedSamples.push(sample);
