@@ -81,11 +81,7 @@ class Location extends ModelLocation {
 
     return (
       <Page id="survey-location-page">
-        <Header
-          surveyProgressIndex={PAGE_INDEX}
-          onCancel={this.deleteSubSampleOrSurvey}
-          backButtonLabel="Cancel"
-        />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Home" />
 
         <Main>
           <InfoMessage icon={locationOutline}>
