@@ -27,4 +27,14 @@
     overflow: hidden;
     margin: 0 auto;
   }
+
+  .radio-input-attr {
+    ion-label {
+      padding-left: 10px;
+    }
+
+    ion-img {
+      padding: 0;
+    }
+  }
 }

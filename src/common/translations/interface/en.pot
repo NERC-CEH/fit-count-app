@@ -539,6 +539,18 @@ msgid "Lavender"
 msgstr "Lavender"
 
 # Survey species selection page species list
+msgid "Bramble"
+msgstr "Bramble"
+
+# Survey species selection page species list
+msgid "Buddleja"
+msgstr "Buddleja"
+
+# Survey species selection page species list
+msgid "Heather"
+msgstr "Heather"
+
+# Survey species selection page species list
 msgid "Knapweed"
 msgstr "Knapweed"
 

@@ -12,6 +12,21 @@ import headTypeImage from './FlowerCount/images/headType.png';
 import umbelTypeImage from './FlowerCount/images/umbelType.png';
 import spikeTypeImage from './FlowerCount/images/spikeType.png';
 
+import bramble from './Flower/images/bramble.jpg';
+import buddleja from './Flower/images/buddleja.jpg';
+import buttercup from './Flower/images/buttercup.jpg';
+import dandelion from './Flower/images/dandelion.jpg';
+import hawthorn from './Flower/images/hawthorn.jpg';
+import heather from './Flower/images/heather.jpg';
+import hogweed from './Flower/images/hogweed.jpg';
+import ivy from './Flower/images/ivy.jpg';
+import knapweed from './Flower/images/knapweed.jpg';
+import lavender from './Flower/images/lavender.jpg';
+import ragwort from './Flower/images/ragwort.jpg';
+import thistle from './Flower/images/thistle.jpg';
+import whiteClover from './Flower/images/whiteClover.jpg';
+import whiteDeadNettle from './Flower/images/whiteWeadNettle.jpg';
+
 const habitatValues = [
   {
     id: -1,
@@ -69,47 +84,73 @@ const flowerCoverValues = [
 const flowerSelectionValues = [
   {
     id: -1,
+    value: 'Bramble',
+    icon: bramble,
+  },
+  {
+    id: -1,
+    value: 'Buddleja',
+    icon: buddleja,
+  },
+  {
+    id: -1,
+    value: 'Heather',
+    icon: heather,
+  },
+  {
+    id: -1,
     value: 'Dandelion',
+    icon: dandelion,
   },
   {
     id: -1,
     value: 'Buttercup',
+    icon: buttercup,
   },
   {
     id: -1,
     value: 'White Dead-nettle',
+    icon: whiteDeadNettle,
   },
   {
     id: -1,
     value: 'Hawthorn',
+    icon: hawthorn,
   },
   {
     id: -1,
     value: 'Lavender',
+    icon: lavender,
   },
   {
     id: -1,
     value: 'Knapweed',
+    icon: knapweed,
   },
   {
     id: -1,
     value: 'Hogweed',
+    icon: hogweed,
   },
   {
     id: -1,
     value: 'White Clover',
+    icon: whiteClover,
   },
   {
     id: -1,
     value: 'Ragwort',
+    icon: ragwort,
   },
   {
     id: -1,
     value: 'Thistle',
+    icon: thistle,
   },
   {
     id: -1,
     value: 'Ivy',
+    icon: ivy,
   },
   {
     id: -1,
