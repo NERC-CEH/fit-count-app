@@ -3,37 +3,96 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { NavContext } from '@ionic/react';
 import Sample from 'models/sample';
+import { alert } from '@apps';
+import appModel from 'models/app';
+import userModel from 'models/user';
 import Occurrence from 'models/occurrence';
 import savedSamples from 'models/savedSamples';
-import userModel from 'models/user';
 
-async function getNewSample(survey) {
-  const sample = await survey.create(Sample, Occurrence);
+async function showDraftAlert() {
+  const alertWrap = resolve => {
+    alert({
+      header: 'Draft',
+      message: 'Previous survey draft exists, would you like to continue it?',
+      backdropDismiss: false,
+      buttons: [
+        {
+          text: 'Discard',
+          handler: () => {
+            resolve(false);
+          },
+        },
+        {
+          text: 'Continue',
+          cssClass: 'primary',
+          handler: () => {
+            resolve(true);
+          },
+        },
+      ],
+    });
+  };
+  return new Promise(alertWrap);
+}
+
+async function getNewSample(survey, draftIdKey, params) {
+  const toParam = (agg, v) => {
+    const [key, val] = v.split('=');
+    return { ...agg, [key]: val };
+  };
+  const options = params.replace('?', '').split('&').reduce(toParam, {});
+  const sample = await survey.create(Sample, Occurrence, options);
   await sample.save();
 
   savedSamples.push(sample);
+  appModel.attrs[draftIdKey] = sample.cid;
+  await appModel.save();
 
   return sample;
 }
 
-function StartNewSurvey({ match, survey }) {
+async function getDraft(draftIdKey) {
+  const draftID = appModel.attrs[draftIdKey];
+  if (draftID) {
+    const byId = ({ cid }) => cid === draftID;
+    const draftSample = savedSamples.find(byId);
+    if (draftSample) {
+      const continueDraftRecord = await showDraftAlert();
+      if (continueDraftRecord) {
+        return draftSample;
+      }
+
+      draftSample.destroy();
+    }
+  }
+
+  return null;
+}
+
+function StartNewSurvey({ match, survey, location }) {
   const context = useContext(NavContext);
 
-  const createSample = async () => {
-    if (!userModel.hasLogIn()) {
-      context.navigate(`/user/login`, 'none', 'replace');
-      return;
-    }
+  const draftIdKey = `draftId:${survey.name}`;
 
-    const sample = await getNewSample(survey);
+  const pickDraftOrCreateSampleWrap = () => {
+    // eslint-disable-next-line
+    (async () => {
+      if (!userModel.hasLogIn()) {
+        context.navigate(`/user/login`, 'none', 'replace');
+        return;
+      }
 
-    const url = `${match.url}/${sample.cid}/location`;
+      let sample = await getDraft(draftIdKey);
+      if (!sample) {
+        sample = await getNewSample(survey, draftIdKey, location.search);
+      }
 
-    context.navigate(url, 'none', 'replace');
+      const url = `${match.url}/${sample.cid}/location`;
+      context.navigate(url, 'none', 'replace');
+    })();
   };
 
-  const pickDraftOrCreateSampleWrap = () => createSample(); // effects don't like async
-  useEffect(pickDraftOrCreateSampleWrap, []);
+  useEffect(pickDraftOrCreateSampleWrap, [match.url]);
 
   return null;
 }

@@ -11,6 +11,9 @@ const defaults = {
 
   showedWelcome: false,
 
+  // draft survey pointers
+  'draftId:point': null,
+
   // tips
   showSurveysDeleteTip: true,
   showSurveyUploadTip: true,
