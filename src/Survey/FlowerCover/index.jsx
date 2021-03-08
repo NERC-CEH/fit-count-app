@@ -9,9 +9,9 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
-const PAGE_INDEX = 4;
+const PAGE_INDEX = 5;
 
-const NEXT_PAGE = 'flower-count';
+const NEXT_PAGE = 'flower-patch';
 
 class FlowerCover extends React.Component {
   static contextType = NavContext;
@@ -44,7 +44,7 @@ class FlowerCover extends React.Component {
 
     return (
       <Page id="survey-flower-cover-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Selection" />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Count" />
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>

@@ -10,9 +10,9 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
 
-const PAGE_INDEX = 5;
+const PAGE_INDEX = 4;
 
-const NEXT_PAGE = 'flower-patch';
+const NEXT_PAGE = 'flower-cover';
 
 class NumberFlower extends React.Component {
   static propTypes = exact({
@@ -49,7 +49,7 @@ class NumberFlower extends React.Component {
 
     return (
       <Page id="survey-flower-count-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Cover" />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Flower" />
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>

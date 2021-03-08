@@ -43,7 +43,7 @@ class FlowerPatch extends React.Component {
 
     return (
       <Page id="survey-flower-patch-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Count" />
+        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Cover" />
 
         <Main>
           <InfoMessage icon={locationOutline}>
