@@ -62,17 +62,17 @@ const habitatValues = [
 const flowerCoverValues = [
   {
     id: -1,
-    value: 'Less than half of 50x50cm patch',
+    value: 'Less than half',
     icon: flowerCoverSmallGroupImage,
   },
   {
     id: -1,
-    value: 'Half of path',
+    value: 'Half of patch',
     icon: flowerCoverMediumGroupImage,
   },
   {
     id: -1,
-    value: 'More than half of path',
+    value: 'More than half of patch',
     icon: flowerCoverLargeGroupImage,
   },
   {
@@ -316,11 +316,6 @@ const survey = {
 
     'flower-cover': {
       type: 'radio',
-      info: (
-        <>
-          What is the target flower <b>cover</b>.
-        </>
-      ),
       options: flowerCoverValues,
       remote: {
         id: -1,

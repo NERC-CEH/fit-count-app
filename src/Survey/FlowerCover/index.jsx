@@ -2,7 +2,8 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Main, Attr } from '@apps';
+import { Page, Main, Attr, InfoMessage, InfoButton } from '@apps';
+import { informationCircleOutline } from 'ionicons/icons';
 import { NavContext } from '@ionic/react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
@@ -46,6 +47,15 @@ class FlowerCover extends React.Component {
         <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Selection" />
 
         <Main>
+          <InfoMessage icon={informationCircleOutline}>
+            What is the target <b>flower cover</b> in your 50x50 cm patch?
+            <InfoButton label="READ MORE" header="Flower Cover">
+              <p>
+                Estimate how much of your 50×50 cm patch is occupied by the
+                target flowers (but not by the leaves of the target plant).
+              </p>
+            </InfoButton>
+          </InfoMessage>
           <Attr
             attrConfig={surveyConfig.attrs['flower-cover']}
             onValueChange={this.onValueChange}
@@ -53,7 +63,6 @@ class FlowerCover extends React.Component {
             model={sample}
           />
         </Main>
-
         <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
       </Page>
     );

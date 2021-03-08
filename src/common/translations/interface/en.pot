@@ -258,21 +258,25 @@ msgstr "Farm crops or grassy pastures"
 msgid "Woodland"
 msgstr "Woodland"
 
-# Survey flower-cover radio input
-msgid "<0>What is the target flower <1>cover</1>.</0>"
-msgstr "<0>What is the target flower <1>cover</1>.</0>"
+# Survey flower-cover info message
+msgid "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate how much of your 50×50 cm patch is occupied by the target flowers (but not by the leaves of the target plant).</p></3>"
+msgstr "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate how much of your 50×50 cm patch is occupied by the target flowers (but not by the leaves of the target plant).</p></3>"
+
+# Survey flower-cover info message header
+msgid "Flower Cover"
+msgstr "Flower Cover"
 
 # Survey flower-cover radio input
-msgid "Less than half of 50x50cm patch"
-msgstr "Less than half of 50x50cm patch"
+msgid "Less than half"
+msgstr "Less than half"
 
 # Survey flower-cover radio input
-msgid "Half of path"
-msgstr "Half of path"
+msgid "Half of patch"
+msgstr "Half of patch"
 
 # Survey flower-cover radio input
-msgid "More than half of path"
-msgstr "More than half of path"
+msgid "More than half of patch"
+msgstr "More than half of patch"
 
 # Survey flower-cover radio input
 msgid "Not recorded"
