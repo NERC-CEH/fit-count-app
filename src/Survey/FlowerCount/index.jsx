@@ -54,7 +54,7 @@ class NumberFlower extends React.Component {
         <Main>
           <InfoMessage icon={informationCircleOutline}>
             What are the <b>number</b> and <b>type</b> of flowers in your patch?
-            <InfoButton label="READ MORE" header="Flower Count">
+            <InfoButton label="READ MORE" header="Info">
               <p>
                 The number of flowers in a patch can strongly relate to the
                 number of insect visitors recorded, so it is important to

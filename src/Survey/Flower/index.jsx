@@ -118,7 +118,7 @@ class Flower extends React.Component {
         <Main ref={this.contentRef} fullscreen="true">
           <InfoMessage icon={informationCircleOutline}>
             Which target <b>flower</b> have you chosen?
-            <InfoButton label="READ MORE" header="Flower">
+            <InfoButton label="READ MORE" header="Info">
               <p>
                 Where possible please choose a patch of flowers from one of the
                 target flower groups in the list.

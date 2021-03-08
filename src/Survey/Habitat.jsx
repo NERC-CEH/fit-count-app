@@ -109,7 +109,7 @@ class Habitat extends React.Component {
         <Main ref={this.contentRef}>
           <InfoMessage icon={informationCircleOutline}>
             Select one <b>habitat</b> that is the best match.
-            <InfoButton label="READ MORE" header="Habitat">
+            <InfoButton label="READ MORE" header="Info">
               <p>
                 Select the habitat that best describes the 50x50 cm patch chosen
                 for your count.

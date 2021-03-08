@@ -49,7 +49,7 @@ class FlowerCover extends React.Component {
         <Main>
           <InfoMessage icon={informationCircleOutline}>
             What is the target <b>flower cover</b> in your 50x50 cm patch?
-            <InfoButton label="READ MORE" header="Flower Cover">
+            <InfoButton label="READ MORE" header="Info">
               <p>
                 Estimate how much of your 50×50 cm patch is occupied by the
                 target flowers (but not by the leaves of the target plant).

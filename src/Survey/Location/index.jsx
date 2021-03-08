@@ -86,7 +86,7 @@ class Location extends ModelLocation {
         <Main>
           <InfoMessage icon={locationOutline}>
             Use the map to zoom in and tap on your <b>location</b>.
-            <InfoButton label="Read more" header="Location" skipTranslation>
+            <InfoButton label="Read more" header="Info" skipTranslation>
               This is attribute page info example.
               <br />
               <br />

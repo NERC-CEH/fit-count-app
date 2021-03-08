@@ -48,7 +48,7 @@ class FlowerPatch extends React.Component {
         <Main>
           <InfoMessage icon={locationOutline}>
             Is your 50x50cm patch of <b>target flowers</b> growing:
-            <InfoButton label="READ MORE" header="Flower patch">
+            <InfoButton label="READ MORE" header="Info">
               <p>
                 The surroundings of a flower patch can affect its attractiveness
                 to insects.
