@@ -11,21 +11,11 @@
     --inner-border-width: 0;
   }
 
-  ion-item.photo-picker,
-  .menu-attr-item {
+  ion-item.photo-picker {
     --inner-border-width: 0;
     --border-radius: 15px;
     padding: 0 10px;
     margin-bottom: 25px;
-  }
-
-  .manual-entry-wrapper {
-    min-height: 25%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    margin: 0 auto;
   }
 
   .radio-input-attr {

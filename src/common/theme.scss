@@ -310,3 +310,19 @@ ion-item-divider.survey-divider {
 .alert-wrapper .alert-message {
   text-align: left;
 }
+
+.record-manual-entry-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 25%;
+  overflow: hidden;
+  margin: 0 auto;
+
+  .menu-attr-item {
+    --inner-border-width: 0;
+    --border-radius: 15px;
+    padding: 0 10px;
+    margin-bottom: 25px;
+  }
+}

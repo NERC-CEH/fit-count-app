@@ -46,7 +46,7 @@ class Flower extends React.Component {
 
     if (value === 'Other') {
       return (
-        <div className="manual-entry-wrapper">
+        <div className="record-manual-entry-wrapper">
           <IonItemDivider mode="ios" className="survey-divider">
             <T>I know the species</T>
           </IonItemDivider>
