@@ -2,7 +2,7 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main, InfoMessage } from '@apps';
+import { Page, Attr, Main, InfoMessage, InfoButton } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
 import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
@@ -53,7 +53,47 @@ class NumberFlower extends React.Component {
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>
-            What is the <b>number</b> and <b>type</b> of flowers in patch?
+            What are the <b>number</b> and <b>type</b> of flowers in your patch?
+            <InfoButton label="READ MORE" header="Flower Count">
+              <p>
+                The number of flowers in a patch can strongly relate to the
+                number of insect visitors recorded, so it is important to
+                provide this information! Only count flowers that are reasonably
+                fresh and likely to attract insects – ‘dead-head’ flowers and
+                seedheads should not be counted.
+              </p>
+
+              <p>
+                Flowers need to be counted in different ways depending on their
+                structure.
+              </p>
+
+              <p>
+                If you have chosen a target flower from our list, the flower
+                type is shown by default.
+              </p>
+
+              <p>If you have chosen “Other” target flower, please count:</p>
+              <ul>
+                <li>
+                  <b>Individual flowers</b> - each flower counts as one unit
+                </li>
+                <li>
+                  <b>Flower heads</b> (where there are lots of tiny flowers
+                  within a larger flower head, e.g. dandelion or daisy) – each
+                  flower head counts as one unit
+                </li>
+                <li>
+                  <b>Umbels</b> (for flowers that have small flowers grouped
+                  into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – each
+                  umbel counts as one unit
+                </li>
+                <li>
+                  <b>Spikes</b> (where a number of small flowers are arranged
+                  along a stem, e.g. lavender) – each spike counts as one unit
+                </li>
+              </ul>
+            </InfoButton>
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
