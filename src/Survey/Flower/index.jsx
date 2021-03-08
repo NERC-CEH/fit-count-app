@@ -38,6 +38,8 @@ class Flower extends React.Component {
     const { sample } = this.props;
     sample.attrs.flower = value;
 
+    this.setFlowerType(value);
+
     if (sample.attrs.flower === 'Other') {
       return;
     }
@@ -85,6 +87,21 @@ class Flower extends React.Component {
     if (sample.attrs.flower === 'Other') {
       this.contentRef.current.scrollToBottom(500);
     }
+  };
+
+  setFlowerType = selectedFlowerName => {
+    const { sample } = this.props;
+
+    const surveyConfig = sample.getSurvey();
+
+    const flowersOptions = surveyConfig.attrs.flower.options;
+
+    const byFlowerName = flower => flower.value === selectedFlowerName;
+
+    const flower = flowersOptions.find(byFlowerName);
+
+    sample.attrs['flower-count'] = flower.type;
+    sample.save();
   };
 
   render() {
