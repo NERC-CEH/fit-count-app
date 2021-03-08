@@ -363,11 +363,6 @@ const survey = {
 
     'flower-patch': {
       type: 'radio',
-      info: (
-        <>
-          Is your 50x50cm patch of <b>target flowers</b>:
-        </>
-      ),
       options: flowerPatchValues,
       remote: {
         id: -1,

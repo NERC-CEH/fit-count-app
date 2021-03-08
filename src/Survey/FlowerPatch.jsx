@@ -2,7 +2,8 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main } from '@apps';
+import { Page, Attr, Main, InfoButton, InfoMessage } from '@apps';
+import { locationOutline } from 'ionicons/icons';
 import { NavContext } from '@ionic/react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -45,6 +46,21 @@ class FlowerPatch extends React.Component {
         <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Count" />
 
         <Main>
+          <InfoMessage icon={locationOutline}>
+            Is your 50x50cm patch of <b>target flowers</b> growing:
+            <InfoButton label="READ MORE" header="Flower patch">
+              <p>
+                The surroundings of a flower patch can affect its attractiveness
+                to insects.
+              </p>
+
+              <p>
+                Please indicate the situation that best describes the area
+                around your flower patch (roughly within 5 metres).
+              </p>
+            </InfoButton>
+          </InfoMessage>
+
           <Attr
             className="survey-radio-list"
             attrConfig={surveyConfig.attrs['flower-patch']}
@@ -53,7 +69,6 @@ class FlowerPatch extends React.Component {
             model={sample}
           />
         </Main>
-
         <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
       </Page>
     );

@@ -686,9 +686,21 @@ msgstr "In a larger patch of many different flowers"
 msgid "More or less isolated"
 msgstr "More or less isolated"
 
-# Survey flower patch page values
-msgid "<0>Is your 50x50cm patch of <1>target flowers</1>:</0>"
-msgstr "<0>Is your 50x50cm patch of <1>target flowers</1>:</0>"
+# Survey flower patch "Read more" alert message
+msgid "Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The surroundings of a flower patch can affect its attractiveness to insects.</p><p>Please indicate the situation that best describes the area around your flower patch (roughly within 5 metres).</p></3>"
+msgstr "Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The surroundings of a flower patch can affect its attractiveness to insects.</p><p>Please indicate the situation that best describes the area around your flower patch (roughly within 5 metres).</p></3>"
+
+# Survey flower patch info button label
+msgid "READ MORE"
+msgstr "READ MORE"
+
+# Survey flower patch "Read more" alert header text
+msgid "Flower patch"
+msgstr "Flower patch"
+
+# Survey flower patch "Read more" alert button text
+msgid "Got it"
+msgstr "Got it"
 
 # Survey weather sky page values
 msgid "All or mostly blue"
