@@ -1,25 +1,13 @@
 #survey-flower-cover-page {
   ion-list {
     ion-item {
-      .flower-cover-imageProfile {
-        position: relative;
-        min-width: 25%;
-        max-width: 25%;
-        height: 100%;
-        background-color: #6f6f6f21;
+      ion-img {
+        width: 25%;
+        max-width: 100px;
         padding: 5px;
-
-        img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-
-        .placeholder {
-          width: 100%;
-          height: 20vh;
-          background: #f1f1f1;
-        }
+        border: 2px solid #bb107a;
+        margin-left: 15px;
+        border-radius: 5px;
       }
 
       ion-label {
