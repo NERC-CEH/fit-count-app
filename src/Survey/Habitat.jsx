@@ -36,6 +36,11 @@ class Habitat extends React.Component {
     const { sample } = this.props;
 
     sample.attrs.habitat = value;
+
+    if (sample.attrs.habitat === 'Other') {
+      return null;
+    }
+
     sample.attrs['habitat-manual-entry'] = null;
     sample.save();
 

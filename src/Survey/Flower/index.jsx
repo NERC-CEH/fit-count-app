@@ -37,6 +37,12 @@ class Flower extends React.Component {
   onValueChange = value => {
     const { sample } = this.props;
     sample.attrs.flower = value;
+
+    if (sample.attrs.flower === 'Other') {
+      return;
+    }
+
+    sample.attrs['flower-manual-entry'] = null;
     sample.save();
   };
 
