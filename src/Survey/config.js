@@ -367,7 +367,7 @@ const survey = {
     'flower-count-number': {
       type: 'slider',
       options: flowerSelectionValues,
-      max: 200,
+      max: 3000,
       min: 0,
       step: 1,
       skipValueTranslation: true,
