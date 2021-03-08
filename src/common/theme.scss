@@ -324,5 +324,10 @@ ion-item-divider.survey-divider {
     --border-radius: 15px;
     padding: 0 10px;
     margin-bottom: 25px;
+
+    ion-label[slot='end'] {
+      max-width: 80px;
+      margin: auto;
+    }
   }
 }
