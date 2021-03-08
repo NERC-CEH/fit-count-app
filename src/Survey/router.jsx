@@ -29,6 +29,7 @@ const routes = [
   [`${baseURL}`, StartNewSurvey.with(survey), true],
   [`${baseURL}/:smpId/location`, ModelLocationWrap],
   [`${baseURL}/:smpId/habitat`, Habitat],
+  [`${baseURL}/:smpId/habitat/:attr`, Attr],
   [`${baseURL}/:smpId/flower-cover`, FlowerCover],
   [`${baseURL}/:smpId/flower`, Flower],
   [`${baseURL}/:smpId/flower/:attr`, Attr],

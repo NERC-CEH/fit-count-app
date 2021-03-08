@@ -2,8 +2,15 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main } from '@apps';
-import { NavContext } from '@ionic/react';
+import {
+  Page,
+  Attr,
+  Main,
+  MenuAttrItemFromModel,
+} from '@apps';
+import { informationCircleOutline } from 'ionicons/icons';
+import { NavContext, IonItemDivider } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -21,17 +28,65 @@ class Habitat extends React.Component {
     location: PropTypes.object, // eslint-disable-line
   });
 
+  contentRef = React.createRef();
+
   onValueChange = value => {
     const { sample } = this.props;
+
     sample.attrs.habitat = value;
+    sample.attrs['habitat-manual-entry'] = null;
     sample.save();
 
+    if (sample.attrs.habitat !== 'Other') {
     const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
 
     setTimeout(navigateToNextPage, 50);
+    }
+
+    return null;
   };
 
-  isValueValid = () => !!this.props.sample.attrs.habitat;
+  getManualEntry = () => {
+    const { sample } = this.props;
+
+    const habitatValue = sample.attrs.habitat;
+
+    if (habitatValue === 'Other') {
+      return (
+        <div className="record-manual-entry-wrapper">
+          <IonItemDivider mode="ios" className="survey-divider">
+            <T>Other</T>
+          </IonItemDivider>
+
+          <MenuAttrItemFromModel
+            model={sample}
+            attr="habitat-manual-entry"
+            skipValueTranslation
+          />
+        </div>
+      );
+    }
+
+    return null;
+  };
+
+  isValueValid = () => {
+    const { sample } = this.props;
+    const { habitat } = sample.attrs;
+    const habitatManualEntry = sample.attrs['habitat-manual-entry'];
+
+    const hasHabitat = habitat !== 'Other' ? !!habitat : !!habitatManualEntry;
+
+    return hasHabitat;
+  };
+
+  componentDidUpdate = () => {
+    const { sample } = this.props;
+
+    if (sample.attrs.habitat === 'Other') {
+      this.contentRef.current.scrollToBottom(500);
+    }
+  };
 
   render() {
     const { sample } = this.props;
@@ -44,14 +99,15 @@ class Habitat extends React.Component {
       <Page id="survey-habitat-page">
         <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Location" />
 
-        <Main>
+        <Main ref={this.contentRef}>
           <Attr
-            className="survey-radio-list  "
             attrConfig={surveyConfig.attrs.habitat}
             onValueChange={this.onValueChange}
             initialVal={value}
             model={sample}
           />
+
+          {this.getManualEntry()}
         </Main>
 
         <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
