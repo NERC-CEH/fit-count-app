@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import insectGroups from 'common/data';
-import { flowerOutline, pinOutline } from 'ionicons/icons';
+import habitatIcon from 'common/images/habitatIcon.svg';
+import flowerIcon from 'common/images/flowerIcon.svg';
 
 import flowerCoverLargeGroupImage from './FlowerCover/images/groupLarge.png';
 import flowerCoverMediumGroupImage from './FlowerCover/images/groupMedium.png';
@@ -322,7 +323,7 @@ const survey = {
     },
     'habitat-manual-entry': {
       label: 'Other habitat',
-      icon: pinOutline,
+      icon: habitatIcon,
       placeholder:
         'Please type in the name of the habitat you have chosen then go back to the habitat page',
       type: 'textarea',
@@ -348,7 +349,7 @@ const survey = {
 
     'flower-manual-entry': {
       label: 'Other flower name',
-      icon: flowerOutline,
+      icon: flowerIcon,
       placeholder:
         'Please type in the name of the target flower you have chosen then go back to the target flower page',
       type: 'textarea',
