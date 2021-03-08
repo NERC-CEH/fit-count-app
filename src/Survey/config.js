@@ -338,9 +338,10 @@ const survey = {
     },
 
     'flower-manual-entry': {
-      label: 'Manual Entry',
+      label: 'Other flower name',
       icon: flowerOutline,
-      placeholder: 'Enter the species name',
+      placeholder:
+        'Please type in the name of the target flower you have chosen then go back to the target flower page',
       type: 'textarea',
       skipValueTranslation: true,
     },

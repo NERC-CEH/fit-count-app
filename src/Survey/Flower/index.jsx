@@ -10,6 +10,7 @@ import {
   PhotoPicker,
   MenuAttrItemFromModel,
   InfoMessage,
+  InfoButton,
 } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
 import Media from 'models/media';
@@ -94,6 +95,32 @@ class Flower extends React.Component {
         <Main ref={this.contentRef} fullscreen="true">
           <InfoMessage icon={informationCircleOutline}>
             Which target <b>flower</b> have you chosen?
+            <InfoButton label="READ MORE" header="Flower">
+              <p>
+                Where possible please choose a patch of flowers from one of the
+                target flower groups in the list.
+              </p>
+              <p>
+                If none of these is available at your location you can choose
+                another flower that is attracting insects and select “Other”,
+                then type in the name.
+              </p>
+
+              <p>
+                Your target flower can be growing in a patch all of the same
+                flower, or among different flower species.
+              </p>
+
+              <p>
+                For each FIT Count, please upload one or two photos of your
+                target flower.
+              </p>
+
+              <p>
+                This allows us to double-check the flower species used for the
+                counts.
+              </p>
+            </InfoButton>
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
@@ -106,7 +133,7 @@ class Flower extends React.Component {
             dataDirPath={config.dataPath}
           />
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Species</T>
+            <T>Target flower chosen</T>
           </IonItemDivider>
           <Attr
             attrConfig={surveyConfig.attrs.flower}

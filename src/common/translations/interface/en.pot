@@ -586,13 +586,25 @@ msgstr "Thistle"
 msgid "Ivy"
 msgstr "Ivy"
 
+# Survey species selection page read more message
+msgid "Which target <1>flower</1> have you chosen?<3><p>Where possible please choose a patch of flowers from one of the target flower groups in the list.</p><p>If none of these is available at your location you can choose another flower that is attracting insects and select “Other”, then type in the name.</p><p>Your target flower can be growing in a patch all of the same flower, or among different flower species.</p><p>For each FIT Count, please upload one or two photos of your target flower.</p><p>This allows us to double-check the flower species used for the counts.</p></3>"
+msgstr "Which target <1>flower</1> have you chosen?<3><p>Where possible please choose a patch of flowers from one of the target flower groups in the list.</p><p>If none of these is available at your location you can choose another flower that is attracting insects and select “Other”, then type in the name.</p><p>Your target flower can be growing in a patch all of the same flower, or among different flower species.</p><p>For each FIT Count, please upload one or two photos of your target flower.</p><p>This allows us to double-check the flower species used for the counts.</p></3>"
+
+# Survey species selection page read more header
+msgid "Flower"
+msgstr "Flower"
+
 # Survey species selection page divider label
 msgid "I know the species"
 msgstr "I know the species"
 
 # Survey species selection page label
-msgid "Manual Entry"
-msgstr "Manual Entry"
+msgid "Other flower name"
+msgstr "Other flower name"
+
+# Survey species manual entry placeholder
+msgid "Please type in the name of the target flower you have chosen then go back to the target flower page"
+msgstr "Please type in the name of the target flower you have chosen then go back to the target flower page"
 
 # Survey flower count page divider label
 msgid "Number"
@@ -683,8 +695,8 @@ msgid "Photos"
 msgstr "Photos"
 
 # Survey flower page section divider
-msgid "Species"
-msgstr "Species"
+msgid "Target flower chosen"
+msgstr "Target flower chosen"
 
 # Survey flower patch page values
 msgid "In a larger patch of the same flower"
