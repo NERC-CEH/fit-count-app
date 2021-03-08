@@ -6,6 +6,8 @@ import {
   Page,
   Attr,
   Main,
+  InfoMessage,
+  InfoButton,
   MenuAttrItemFromModel,
 } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
@@ -38,9 +40,9 @@ class Habitat extends React.Component {
     sample.save();
 
     if (sample.attrs.habitat !== 'Other') {
-    const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
+      const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
 
-    setTimeout(navigateToNextPage, 50);
+      setTimeout(navigateToNextPage, 50);
     }
 
     return null;
@@ -100,6 +102,21 @@ class Habitat extends React.Component {
         <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Location" />
 
         <Main ref={this.contentRef}>
+          <InfoMessage icon={informationCircleOutline}>
+            Select one <b>habitat</b> that is the best match.
+            <InfoButton label="READ MORE" header="Habitat">
+              <p>
+                Select the habitat that best describes the 50x50 cm patch chosen
+                for your count.
+              </p>
+
+              <p>
+                If not listed here, please select “Other” and type in a short
+                description of the habitat.
+              </p>
+            </InfoButton>
+          </InfoMessage>
+
           <Attr
             attrConfig={surveyConfig.attrs.habitat}
             onValueChange={this.onValueChange}

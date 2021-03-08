@@ -34,11 +34,11 @@ const habitatValues = [
   },
   {
     id: -1,
-    value: 'School Ground',
+    value: 'School Grounds',
   },
   {
     id: -1,
-    value: 'Parklands with trees',
+    value: 'Parkland with trees',
   },
   {
     id: -1,
@@ -53,8 +53,8 @@ const habitatValues = [
   { id: -1, value: 'Farm crops or grassy pasture' },
   { id: -1, value: 'Upland moorland' },
   { id: -1, value: 'Lowland heath' },
-  { id: -1, value: 'Waste ground' },
-  { id: -1, value: 'School grounds Farm crops or grassy pastures' },
+  { id: -1, value: 'Waste ground or brownfield site' },
+  { id: -1, value: 'Farm crops or grassy pastures' },
   { id: -1, value: 'Woodland' },
   { id: -1, value: 'Other' },
 ];
@@ -300,11 +300,6 @@ const survey = {
 
     habitat: {
       type: 'radio',
-      info: (
-        <>
-          Select <b>habitat</b> that is the best match.
-        </>
-      ),
       options: habitatValues,
       remote: {
         id: -1,

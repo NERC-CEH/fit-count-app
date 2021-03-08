@@ -191,20 +191,32 @@ msgid "of"
 msgstr "of"
 
 # Survey habitat info message
-msgid "<0>Select <1>habitat</1> that is the best match.</0>"
-msgstr "<0>Select <1>habitat</1> that is the best match.</0>"
+msgid "Select one <1>habitat</1> that is the best match.<3><p>Select the habitat that best describes the 50x50 cm patch chosen for your count.</p><p>If not listed here, please select “Other” and type in a short description of the habitat.</p></3>"
+msgstr "Select one <1>habitat</1> that is the best match.<3><p>Select the habitat that best describes the 50x50 cm patch chosen for your count.</p><p>If not listed here, please select “Other” and type in a short description of the habitat.</p></3>"
+
+# Survey habitat page other placeholder text
+msgid "Please type in the name of the habitat you have chosen then go back to the habitat page"
+msgstr "Please type in the name of the habitat you have chosen then go back to the habitat page"
+
+# Survey habitat page other header label
+msgid "Habitat"
+msgstr "Habitat"
+
+# Survey habitat page divider label
+msgid "Other habitat"
+msgstr "Other habitat"
 
 # Survey habitat page values
 msgid "Garden"
 msgstr "Garden"
 
 # Survey habitat page values
-msgid "School Ground"
-msgstr "School Ground"
+msgid "School Grounds"
+msgstr "School Grounds"
 
 # Survey habitat page values
-msgid "Parklands with trees"
-msgstr "Parklands with trees"
+msgid "Parkland with trees"
+msgstr "Parkland with trees"
 
 # Survey habitat page values
 msgid "Churchyard"
@@ -235,12 +247,12 @@ msgid "Lowland heath"
 msgstr "Lowland heath"
 
 # Survey habitat page values
-msgid "Waste ground"
-msgstr "Waste ground"
+msgid "Waste ground or brownfield site"
+msgstr "Waste ground or brownfield site"
 
 # Survey habitat page values
-msgid "School grounds Farm crops or grassy pastures"
-msgstr "School grounds Farm crops or grassy pastures"
+msgid "Farm crops or grassy pastures"
+msgstr "Farm crops or grassy pastures"
 
 # Survey habitat page values
 msgid "Woodland"
