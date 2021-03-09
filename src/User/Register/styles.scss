@@ -78,7 +78,6 @@
 
     .alert-button-inner {
       height: initial;
-      padding: 10px 0px;
       border-bottom: 1px solid lightgray;
     }
 
@@ -88,8 +87,11 @@
       }
     }
   }
+  .alert-radio-group {
+    max-height: 80%;
 
-  .alert-radio-label {
-    white-space: normal;
+    .alert-radio-label {
+      white-space: normal;
+    }
   }
 }
