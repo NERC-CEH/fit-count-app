@@ -178,9 +178,13 @@ msgstr "Delete Survey"
 msgid "Warning - This will discard the survey information you have entered so far."
 msgstr "Warning - This will discard the survey information you have entered so far."
 
-# Survey content
-msgid "Use the map to zoom in and tap on your <1>location</1>.<3>This is attribute page info example.<br/><br/>We can put any text or illustrations in it.</3>"
-msgstr "Use the map to zoom in and tap on your <1>location</1>.<3>This is attribute page info example.<br/><br/>We can put any text or illustrations in it.</3>"
+# Survey Location page info message
+msgid "Use the map to zoom in and tap on your <1>location</1>.<3><p>Your location can be anywhere where there are flowers to attract pollinating insects, where you have permission to be, and where it is safe to go.</p><p>A garden or park, farm or nature reserve are all great locations for FIT Counts.</p><p>Please zoom in to find the spot that best matches your location.</p><p>Your count results will be visible to others at the 1 km square level via the UKPoMS website.</p></3>"
+msgstr "Use the map to zoom in and tap on your <1>location</1>.<3><p>Your location can be anywhere where there are flowers to attract pollinating insects, where you have permission to be, and where it is safe to go.</p><p>A garden or park, farm or nature reserve are all great locations for FIT Counts.</p><p>Please zoom in to find the spot that best matches your location.</p><p>Your count results will be visible to others at the 1 km square level via the UKPoMS website.</p></3>"
+
+# Survey Location alert messag
+msgid "Please select more accurate location"
+msgstr "Please select more accurate location"
 
 # Survey content
 msgid "Next"

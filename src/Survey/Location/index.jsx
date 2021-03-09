@@ -87,10 +87,22 @@ class Location extends ModelLocation {
           <InfoMessage icon={locationOutline}>
             Use the map to zoom in and tap on your <b>location</b>.
             <InfoButton label="Read more" header="Info" skipTranslation>
-              This is attribute page info example.
-              <br />
-              <br />
-              We can put any text or illustrations in it.
+              <p>
+                Your location can be anywhere where there are flowers to attract
+                pollinating insects, where you have permission to be, and where
+                it is safe to go.
+              </p>
+              <p>
+                A garden or park, farm or nature reserve are all great locations
+                for FIT Counts.
+              </p>
+              <p>
+                Please zoom in to find the spot that best matches your location.
+              </p>
+              <p>
+                Your count results will be visible to others at the 1 km square
+                level via the UKPoMS website.
+              </p>
             </InfoButton>
           </InfoMessage>
           <ModelLocation.Map
