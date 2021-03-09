@@ -116,7 +116,9 @@ class SpeciesMainComponent extends React.Component {
   };
 
   render() {
-    const speciesPerSlide = species.reduce(intoChunksOfSix, []);
+    const bySortId = (a, b) => a.sort - b.sort;
+    const speciesPerSlide = species.sort(bySortId).reduce(intoChunksOfSix, []);
+
     const speciesSlides = speciesPerSlide.map(this.getSpeciesSlide);
 
     return (

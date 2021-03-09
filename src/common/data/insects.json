@@ -1,25 +1,24 @@
 [
   {
     "id": "beetles",
-    "sort": 1,
+    "sort": 8,
     "name": "Beetles"
   },
   {
     "id": "bumblebees",
-    "sort": 2,
+    "sort": 1,
     "name": "Bumblebees"
   },
   {
     "id": "butterfliesAndMoths",
-    "sort": 3,
+    "sort": 7,
     "name": "Butterflies and moths",
     "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees."
   },
   {
     "id": "honeybees",
-    "sort": 4,
-    "name": "Honeybees",
-    "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees."
+    "sort": 2,
+    "name": "Honeybees"
   },
   {
     "id": "hoverflies",
@@ -33,22 +32,22 @@
   },
   {
     "id": "otherInsects",
-    "sort": 7,
+    "sort": 10,
     "name": "Other insects"
   },
   {
     "id": "smallInsects",
-    "sort": 8,
+    "sort": 9,
     "name": "Small insects (<3mm)"
   },
   {
     "id": "solitaryBees",
-    "sort": 9,
+    "sort": 3,
     "name": "Solitary bees"
   },
   {
     "id": "wasps",
-    "sort": 10,
+    "sort": 4,
     "name": "Wasps"
   }
 ]
