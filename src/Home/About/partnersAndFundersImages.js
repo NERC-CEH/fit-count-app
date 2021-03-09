@@ -50,6 +50,12 @@ const funders = [
 
 const partners = [
   {
+    url: 'https://www.ceh.ac.uk/',
+    images: Ceh,
+    alt: 'SponsorLogo',
+    width: '130px',
+  },
+  {
     url: 'https://www.nhm.ac.uk/',
     images: Nhm,
     alt: 'SponsorLogo',
@@ -70,12 +76,6 @@ const partners = [
   {
     url: 'http://www.hymettus.org.uk/',
     images: Hymettus,
-    alt: 'SponsorLogo',
-    width: '130px',
-  },
-  {
-    url: 'https://www.ceh.ac.uk/',
-    images: Ceh,
     alt: 'SponsorLogo',
     width: '130px',
   },
