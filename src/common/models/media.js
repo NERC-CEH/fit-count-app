@@ -1,16 +1,14 @@
 import { Media } from '@apps';
+import { isPlatform } from '@ionic/react';
 import Log from 'helpers/log';
-import config from 'common/config';
 import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
 
 const { Filesystem } = Plugins;
 
 export default class AppMedia extends Media {
   async destroy(silent) {
-    Log('MediaModel: destroying.');
-
     // remove from internal storage
-    if (!Capacitor.isNative || window.testing) {
+    if (!isPlatform('hybrid') || window.testing) {
       if (!this.parent) {
         return null;
       }
@@ -51,13 +49,13 @@ export default class AppMedia extends Media {
   }
 
   getURL() {
-    const { data: name } = this.attrs;
+    const { data: name, path } = this.attrs;
 
-    if (!Capacitor.isNative || window.testing) {
+    if (!isPlatform('hybrid') || process.env.NODE_ENV === 'test') {
       return name;
     }
 
-    return Capacitor.convertFileSrc(`${config.dataPath}/${name}`);
+    return Capacitor.convertFileSrc(`${path}/${name}`);
   }
 
   // eslint-disable-next-line class-methods-use-this
