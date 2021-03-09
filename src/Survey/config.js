@@ -324,8 +324,9 @@ const survey = {
     'habitat-manual-entry': {
       label: 'Other habitat',
       icon: habitatIcon,
-      placeholder:
+      info:
         'Please type in the name of the habitat you have chosen then go back to the habitat page',
+      placeholder: 'Other habitat',
       type: 'textarea',
     },
 
@@ -350,8 +351,9 @@ const survey = {
     'flower-manual-entry': {
       label: 'Other flower name',
       icon: flowerIcon,
-      placeholder:
+      info:
         'Please type in the name of the target flower you have chosen then go back to the target flower page',
+      placeholder: 'Other flower name',
       type: 'textarea',
       skipValueTranslation: true,
     },
