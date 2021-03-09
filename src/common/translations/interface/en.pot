@@ -783,8 +783,8 @@ msgid "Leaves moving strongly"
 msgstr "Leaves moving strongly"
 
 # Survey weather wind page info message
-msgid "<0>What is the <1>wind</1> strength?</0>"
-msgstr "<0>What is the <1>wind</1> strength?</0>"
+msgid "<0>What was the <1>wind</1> strength?</0>"
+msgstr "<0>What was the <1>wind</1> strength?</0>"
 
 # Survey insect count page counter button label
 msgid "Paused"

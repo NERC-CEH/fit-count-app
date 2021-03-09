@@ -415,7 +415,7 @@ const survey = {
       type: 'radio',
       info: (
         <>
-          What is the <b>wind</b> strength?
+          What was the <b>wind</b> strength?
         </>
       ),
       options: weatherWindValues,
