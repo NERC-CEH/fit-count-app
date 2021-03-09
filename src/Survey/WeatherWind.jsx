@@ -3,10 +3,14 @@ import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main } from '@apps';
+import appModel from 'models/app';
 import { NavContext } from '@ionic/react';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 const PAGE_INDEX = 10;
+
+const NEXT_PAGE = '/home/surveys';
 
 class WeatherWind extends React.Component {
   static contextType = NavContext;
@@ -18,13 +22,35 @@ class WeatherWind extends React.Component {
     location: PropTypes.object, // eslint-disable-line
   });
 
+  _processDraft = async () => {
+    const { sample } = this.props;
+
+    appModel.attrs['draftId:survey'] = null;
+    await appModel.save();
+
+    sample.metadata.saved = true;
+    sample.save();
+  };
+
+  onFinish = async () => {
+    const { sample } = this.props;
+
+    if (!sample.metadata.saved) {
+      await this._processDraft();
+    }
+  };
+
   onValueChange = value => {
     const { sample } = this.props;
     sample.attrs['weather-wind'] = value;
     sample.save();
+
+    this.onFinish();
   };
 
-  isValueValid = () => !!this.props.sample.attrs['weather-wind'];
+  isValueValid = () =>
+    !!this.props.sample.attrs['weather-wind'] &&
+    !!this.props.sample.metadata.saved;
 
   render() {
     const { sample } = this.props;
@@ -45,6 +71,11 @@ class WeatherWind extends React.Component {
             model={sample}
           />
         </Main>
+        <Footer
+          isEnabled={this.isValueValid()}
+          title="Save my count"
+          link={NEXT_PAGE}
+        />
       </Page>
     );
   }

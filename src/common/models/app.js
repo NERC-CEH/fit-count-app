@@ -12,7 +12,7 @@ const defaults = {
   showedWelcome: false,
 
   // draft survey pointers
-  'draftId:point': null,
+  'draftId:survey': null,
 
   // tips
   showSurveysDeleteTip: true,
