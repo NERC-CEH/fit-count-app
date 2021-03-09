@@ -49,26 +49,35 @@ const About = () => (
 
       <Section>
         <P>
-          The FIT Count is part of the Pollinator Monitoring Scheme (PoMS)
-          within the UK Pollinator Monitoring and Research Partnership,
-          co-ordinated by the Centre for Ecology & Hydrology (CEH). It is
-          jointly funded by Defra, the Welsh and Scottish Governments, JNCC and
-          project partners, including CEH, the Bumblebee Conservation Trust,
-          Butterfly Conservation, British Trust for Ornithology, Hymettus, the
-          University of Reading and University of Leeds.
+          The Flower-Insect Timed Count (FIT Count) is a 10-minute survey
+          designed to collect new data on numbers of flower-visiting insects.
+        </P>
+        <P>
+          FIT Counts are suitable for all, in urban or rural locations, and can
+          be done at any time between the beginning of April and end of
+          September.
+        </P>
+        <P>
+          Wild pollinators may have declined in the UK by more than 30% since
+          1980, but we need much more data to be able to track changes in
+          abundance. You can help by doing a FIT Count, maybe even repeating it
+          over the season. You don’t need to identify the insects to species
+          level, only to within broad groups e.g. bumblebees, hoverflies,
+          butterflies & moths, wasps
+        </P>
+        <P>
+          The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS),
+          within the UK Pollinator Monitoring and Research Partnership which
+          comprises the UK Centre for Ecology & Hydrology (UKCEH), Bumblebee
+          Conservation Trust, Butterfly Conservation, British Trust for
+          Ornithology, Hymettus, Reading University, University of Leeds and
+          Natural History Museum. PoMS is jointly funded by Defra, the Welsh and
+          Scottish Governments, Daera, JNCC and project partners.
         </P>
 
         <P>
-          PoMS aims to provide much-needed data on the state of the UK’s insect
-          pollinators, especially wild bees and hoverflies, and the role they
-          fulfil in supporting farming and wildlife.
-        </P>
-
-        <P>
-          For further information about PoMSgo to:{' '}
-          <a href="https://www.ceh.ac.uk/pollinator-monitoring">
-            www.ceh.ac.uk/pollinator-monitoring to update
-          </a>
+          For further information about PoMS go to:{' '}
+          <a href="https://ukpoms.org.uk">ukpoms.org.uk</a>
         </P>
 
         <div className="rounded">

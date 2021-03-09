@@ -3,6 +3,7 @@ import Defra from './images/funders/Defra-logo.jpg';
 import JNCC from './images/funders/JNCCLogo.jpg';
 import ScotGov from './images/funders/Scot_Gov_logo.jpg';
 import WelchGov from './images/funders/Welsh_Gov.jpg';
+import DAERA from './images/funders/DAERA.jpg';
 
 // partners
 import BBCT_CMYK from './images/partners/BBCT_CMYK.jpg';
@@ -44,6 +45,13 @@ const funders = [
     images: ScotGov,
     alt: 'SponsorLogo',
     width: '130px',
+    type: 'funders',
+  },
+  {
+    url: 'http://www.daera-ni.gov.uk/',
+    images: DAERA,
+    alt: 'SponsorLogo',
+    width: '225px',
     type: 'funders',
   },
 ];
