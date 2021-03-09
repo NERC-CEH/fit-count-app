@@ -38,7 +38,7 @@ class Habitat extends React.Component {
     sample.attrs.habitat = value;
 
     if (sample.attrs.habitat === 'Other') {
-      return null;
+      return;
     }
 
     sample.attrs['habitat-manual-entry'] = null;
@@ -49,8 +49,6 @@ class Habitat extends React.Component {
 
       setTimeout(navigateToNextPage, 50);
     }
-
-    return null;
   };
 
   getManualEntry = () => {
