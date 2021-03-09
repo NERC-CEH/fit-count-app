@@ -1,15 +1,6 @@
 #guide {
-  ion-toolbar {
-    --ion-toolbar-background: transparent;
-
-    ion-segment {
-      width: 80%;
-      margin: auto;
-
-      ion-segment-button {
-        color: var(--ion-color-dark);
-      }
-    }
+  h1 {
+    text-align: center;
   }
 
   .species-list-item {

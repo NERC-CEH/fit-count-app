@@ -1,21 +1,7 @@
 import React from 'react';
-import {
-  IonHeader,
-  IonToolbar,
-  IonButtons,
-  IonMenuButton,
-  IonCol,
-  IonGrid,
-  IonRow,
-  IonModal,
-  IonLabel,
-  IonSegmentButton,
-  IonSegment,
-  IonImg,
-} from '@ionic/react';
+import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
 import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T } from 'react-i18next';
-import flowersData from 'common/data/flowers.json';
 import insectsData from 'common/data';
 import SpeciesProfile from './species/components/SpeciesProfile';
 import './styles.scss';
@@ -24,17 +10,13 @@ class Guide extends React.Component {
   state = {
     showModal: false,
     species: null,
-    segment: 'insects',
     speciesName: null,
   };
 
   showSpeciesModal = (id, commonName) => {
     const speciesById = specie => specie.id === id;
 
-    const { segment } = this.state;
-
-    const flowersOrInsectsData =
-      segment === 'insects' ? insectsData : flowersData;
+    const flowersOrInsectsData = insectsData; // flowers will not be included
 
     this.setState({
       showModal: true,
@@ -77,40 +59,15 @@ class Guide extends React.Component {
     );
   };
 
-  onSegmentClick = e => this.setState({ segment: e.detail.value });
-
   render() {
-    const { segment } = this.state;
-
-    const showingFlowers = segment === 'flowers';
-    const showingInsects = segment === 'insects';
-
     return (
       <Page id="guide">
-        <IonHeader className="ion-no-border">
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonMenuButton />
-            </IonButtons>
-            <IonSegment onIonChange={this.onSegmentClick} value={segment}>
-              <IonSegmentButton value="insects" checked={showingInsects}>
-                <IonLabel className="ion-text-wrap">
-                  <T>Insects</T>
-                </IonLabel>
-              </IonSegmentButton>
-
-              <IonSegmentButton value="flowers" checked={showingFlowers}>
-                <IonLabel className="ion-text-wrap">
-                  <T>Flowers</T>
-                </IonLabel>
-              </IonSegmentButton>
-            </IonSegment>
-          </IonToolbar>
-        </IonHeader>
-
         <Main>
-          {showingInsects && this.getListGrid(insectsData)}
-          {showingFlowers && this.getListGrid(flowersData)}
+          <h1>
+            <T>Insects</T>
+          </h1>
+
+          {this.getListGrid(insectsData)}
 
           <IonModal isOpen={!!this.state.species} backdropDismiss={false}>
             <ModalHeader
