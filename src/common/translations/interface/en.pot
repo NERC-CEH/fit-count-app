@@ -99,8 +99,8 @@ msgid "Share app crash data so we can make the app more reliable."
 msgstr "Share app crash data so we can make the app more reliable."
 
 # Credits page content
-msgid "We are grateful for all the people that helped to create this app:"
-msgstr "We are grateful for all the people that helped to create this app:"
+msgid "We are grateful to all the people who helped to create this app:"
+msgstr "We are grateful to all the people who helped to create this app:"
 
 # Onboarding Page button label
 msgid "Got it!"
@@ -797,3 +797,7 @@ msgstr "Time's up!"
 # Survey insect count page counter warning message
 msgid "Time expire!"
 msgstr "Time expire!"
+
+# Credit page
+msgid "FIT Count logo"
+msgstr "FIT Count logo"

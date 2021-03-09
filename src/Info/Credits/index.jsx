@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, Page, Main, Section } from '@apps';
+import { Trans as T } from 'react-i18next';
 import './styles.scss';
 
 const { H, P } = Section;
@@ -9,9 +10,7 @@ const Credits = () => (
     <Header title="Credits" />
     <Main>
       <Section>
-        <P>
-          We are grateful for all the people that helped to create this app:
-        </P>
+        <P>We are grateful to all the people who helped to create this app:</P>
 
         <P skipTranslation>
           <ul>
@@ -25,6 +24,9 @@ const Credits = () => (
               <b>Nadine Mitschunas</b> (UKCEH)
             </li>
             <li>
+              <b>David Roy</b> (UKCEH)
+            </li>
+            <li>
               <b>Karolis Kazlauskis</b> (Flumens)
             </li>
             <li>
@@ -35,6 +37,9 @@ const Credits = () => (
 
         <div className="list-background">
           <H>Graphics:</H>
+          <P skipTranslation>
+            <T>FIT Count logo</T>: <b>Heather Harris</b> (UKCEH)
+          </P>
 
           <P>
             Icons made by{' '}
@@ -48,7 +53,6 @@ const Credits = () => (
               www.flaticon.com
             </a>
           </P>
-
           <P>
             App guide illustrations made by:
             <ul>
