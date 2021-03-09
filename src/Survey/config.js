@@ -401,7 +401,7 @@ const survey = {
       type: 'radio',
       info: (
         <>
-          Was it <b>sun</b> or <b>shade</b> during the count?
+          How much <b>sun</b> fell on your patch during the FIT Count; was it:
         </>
       ),
       options: weatherShadeValues,

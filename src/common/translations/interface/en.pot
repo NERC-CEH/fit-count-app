@@ -767,8 +767,8 @@ msgid "Entirely shaded"
 msgstr "Entirely shaded"
 
 # Survey weather shade page info message
-msgid "<0>Was it <1>sun</1> or <3>shade</3> during the count?</0>"
-msgstr "<0>Was it <1>sun</1> or <3>shade</3> during the count?</0>"
+msgid "<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
+msgstr "<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
 
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
