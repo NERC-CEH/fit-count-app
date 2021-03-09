@@ -58,9 +58,13 @@ class NumberFlower extends React.Component {
               <p>
                 The number of flowers in a patch can strongly relate to the
                 number of insect visitors recorded, so it is important to
-                provide this information! Only count flowers that are reasonably
-                fresh and likely to attract insects – ‘dead-head’ flowers and
-                seedheads should not be counted.
+                provide this information!
+              </p>
+
+              <p>
+                Only count flowers that are reasonably fresh and likely to
+                attract insects – ‘dead-head’ flowers and seedheads should not
+                be counted.
               </p>
 
               <p>
