@@ -16,5 +16,13 @@
     color: white;
     box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
     font-weight: bold;
+
+    ion-icon {
+      margin: 0;
+    }
+  }
+
+  .finish-button {
+    text-transform: uppercase;
   }
 }
