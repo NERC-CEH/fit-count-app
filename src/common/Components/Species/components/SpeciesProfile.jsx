@@ -6,8 +6,14 @@ import {
   IonSlides,
   IonSlide,
   IonLifeCycleContext,
-  IonCardContent,
+  IonIcon,
+  IonHeader,
+  IonToolbar,
+  IonButtons,
+  IonButton,
+  IonTitle,
 } from '@ionic/react';
+import { arrowBack } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import ImageWithBackground from 'common/Components/ImageWithBackground';
 import './styles.scss';
@@ -43,8 +49,7 @@ class SpeciesProfile extends React.Component {
       });
 
     if (Number.isInteger(showGallery)) {
-      const getImageSource = src => src;
-
+      const getImageSource = ({ src }) => src;
       items = species.images.map(getImageSource);
       initialSlide = showGallery;
     }
@@ -153,12 +158,23 @@ class SpeciesProfile extends React.Component {
     captureKey1[0].localeCompare(captureKey2[0]);
 
   render() {
-    const { species } = this.props;
+    const { species, hideProfile } = this.props;
 
     const { activeSlide } = this.state;
 
     return (
       <>
+        <IonHeader className="species-modal-header">
+          <IonToolbar>
+            <IonButtons slot="start">
+              <IonButton onClick={hideProfile}>
+                <IonIcon slot="icon-only" icon={arrowBack} />
+              </IonButton>
+            </IonButtons>
+            <IonTitle>{species.name}</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+
         {this.getFullScreenPhotoViewer()}
 
         <Main id="species-profile">
@@ -167,11 +183,9 @@ class SpeciesProfile extends React.Component {
           <div className="species-captions">
             {this.getIntroText(species.images[activeSlide])}
             <ol>{this.getCaption(species.images[activeSlide])}</ol>
-          </div>
 
-          <IonCardContent>
             {this.getDescription(species.images[activeSlide])}
-          </IonCardContent>
+          </div>
         </Main>
       </>
     );
@@ -179,6 +193,7 @@ class SpeciesProfile extends React.Component {
 }
 
 SpeciesProfile.propTypes = exact({
+  hideProfile: PropTypes.func.isRequired,
   species: PropTypes.object,
 });
 

@@ -9,6 +9,7 @@
   .swiper-pagination {
     position: relative;
     top: 3px;
+    padding: 10px !important;
 
     .swiper-pagination-bullet {
       opacity: 0.5;
@@ -21,8 +22,8 @@
   }
 
   .species-captions {
-    margin-bottom: 20px;
     padding: 0px 10px;
+    margin-bottom: 20px;
   }
 
   ol {
@@ -58,6 +59,7 @@
     margin: 30px auto 15px;
     max-height: 22px;
     color: var(--ion-color-primary);
+    font-size: 1.2em;
   }
 
   .species-card-content {

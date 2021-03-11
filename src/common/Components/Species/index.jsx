@@ -12,14 +12,15 @@ import {
   IonSlide,
   IonBadge,
   IonImg,
+  IonModal,
 } from '@ionic/react';
-import { Main, toast } from '@apps';
+import { Main } from '@apps';
 import { informationCircleOutline } from 'ionicons/icons';
 import species from 'common/data/index';
 import clsx from 'clsx';
-import './styles.scss';
+import SpeciesProfile from './components/SpeciesProfile';
 
-const wip = () => toast.warn('Sorry, this is still WIP.');
+import './styles.scss';
 
 const fixIonicSlideBug = e => {
   // TODO: remove once bug is fixed
@@ -48,7 +49,15 @@ class SpeciesMainComponent extends React.Component {
     onSelect: PropTypes.func,
   });
 
+  state = {
+    species: null,
+  };
+
   slideRef = React.createRef();
+
+  hideSpeciesModal = () => {
+    this.setState({ species: null });
+  };
 
   getSpeciesTile = (sp, i) => {
     const { onSelect } = this.props;
@@ -60,7 +69,7 @@ class SpeciesMainComponent extends React.Component {
     const viewSpecies = e => {
       e.preventDefault();
       e.stopPropagation();
-      wip();
+      this.setState({ species: sp });
     };
 
     return (
@@ -130,6 +139,13 @@ class SpeciesMainComponent extends React.Component {
         >
           {speciesSlides}
         </IonSlides>
+
+        <IonModal isOpen={!!this.state.species} backdropDismiss={false}>
+          <SpeciesProfile
+            species={this.state.species}
+            hideProfile={this.hideSpeciesModal}
+          />
+        </IonModal>
       </Main>
     );
   }
