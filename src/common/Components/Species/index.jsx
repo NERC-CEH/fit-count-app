@@ -135,7 +135,10 @@ class SpeciesMainComponent extends React.Component {
         <IonSlides
           pager="true"
           onIonSlidesDidLoad={fixIonicSlideBug}
-          options={{ direction: 'vertical' }}
+          options={{
+            direction: 'vertical',
+            spaceBetween: -100,
+          }}
         >
           {speciesSlides}
         </IonSlides>

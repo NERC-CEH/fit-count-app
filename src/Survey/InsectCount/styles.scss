@@ -1,0 +1,16 @@
+#survey-insect-count-page {
+  ion-slide:not(.swiper-slide-active) {
+    opacity: 0.3;
+  }
+
+  ion-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    #survey-footer {
+      background: transparent;
+    }
+  }
+}
