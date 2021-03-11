@@ -49,7 +49,7 @@ class SpeciesProfile extends React.Component {
       });
 
     if (Number.isInteger(showGallery)) {
-      const getImageSource = ({ src }) => src;
+      const getImageSource = src => src;
       items = species.images.map(getImageSource);
       initialSlide = showGallery;
     }
