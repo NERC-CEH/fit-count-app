@@ -139,7 +139,7 @@ class MenuComponent extends React.Component {
               />
             </IonItem>
 
-            <InfoMessage>
+            <InfoMessage color="medium">
               Share app crash data so we can make the app more reliable.
             </InfoMessage>
           </div>
