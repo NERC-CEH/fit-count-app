@@ -3,6 +3,9 @@ import { isPlatform } from '@ionic/react';
 
 const backendUrl = process.env.APP_BACKEND_URL || 'https://fitcount.ceh.ac.uk';
 
+const indiciaUrl =
+  process.env.APP_BACKEND_INDICIA_URL || 'https://warehouse1.indicia.org.uk';
+
 const isTestEnv = process.env.NODE_ENV === 'test';
 
 const CONFIG = {
@@ -16,16 +19,22 @@ const CONFIG = {
 
   sentryDNS: !isTestEnv && process.env.APP_SENTRY_KEY,
 
-  backend: {
-    url: backendUrl,
-    clientId: process.env.APP_BACKEND_CLIENT_ID,
-    clientPass: process.env.APP_BACKEND_CLIENT_PASS,
-  },
-
   map: {
     mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY,
     mapboxOsmId: 'cehapps/ckghr3uxz01xb19udplq7wi6x',
     mapboxSatelliteId: 'cehapps/cipqvo0c0000jcknge1z28ejp',
+  },
+
+  backend: {
+    url: backendUrl,
+    clientId: process.env.APP_BACKEND_CLIENT_ID,
+    clientPass: process.env.APP_BACKEND_CLIENT_PASS,
+
+    mediaUrl: `${indiciaUrl}/upload/`,
+
+    indicia: {
+      url: indiciaUrl,
+    },
   },
 };
 
