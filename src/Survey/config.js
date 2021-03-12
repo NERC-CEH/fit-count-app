@@ -293,6 +293,11 @@ const survey = {
   DEFAULT_SURVEY_TIME: 1 * 60 * 1000, // 10 min
 
   attrs: {
+    recorder: {
+      remote: {
+        id: 127,
+      },
+    },
     location: {
       id: 'location',
       remote: {
@@ -307,7 +312,7 @@ const survey = {
 
     surveyStartTime: {
       remote: {
-        id: isProd ? 1544 : 1516,
+        id: isProd ? 1056 : 1516,
         values: date => dateTimeFormat.format(new Date(date)),
       },
     },
@@ -316,7 +321,7 @@ const survey = {
       type: 'radio',
       options: habitatValues,
       remote: {
-        id: isProd ? 1536 : 1508,
+        id: isProd ? 1048 : 1508,
         values: habitatValues,
       },
     },
@@ -328,7 +333,7 @@ const survey = {
       placeholder: 'Other habitat',
       type: 'textarea',
       remote: {
-        id: isProd ? 1537 : 1509,
+        id: isProd ? 1049 : 1509,
       },
     },
 
@@ -336,7 +341,7 @@ const survey = {
       type: 'radio',
       options: flowerCoverValues,
       remote: {
-        id: isProd ? 1540 : 1512,
+        id: isProd ? 1052 : 1512,
         values: flowerCoverValues,
       },
     },
@@ -345,7 +350,7 @@ const survey = {
       type: 'radio',
       options: flowerSelectionValues,
       remote: {
-        id: isProd ? 1538 : 1510,
+        id: isProd ? 1050 : 1510,
         values: flowerSelectionValues,
       },
     },
@@ -359,7 +364,7 @@ const survey = {
       type: 'textarea',
       skipValueTranslation: true,
       remote: {
-        id: isProd ? 1539 : 1511,
+        id: isProd ? 1051 : 1511,
       },
     },
 
@@ -367,20 +372,19 @@ const survey = {
       type: 'radio',
       options: flowerCountValues,
       remote: {
-        id: isProd ? 1542 : 1514,
+        id: isProd ? 1054 : 1514,
         values: flowerCountValues,
       },
     },
 
     'flower-count-number': {
       type: 'slider',
-      options: flowerSelectionValues,
       max: 3000,
       min: 0,
       step: 1,
       skipValueTranslation: true,
       remote: {
-        id: isProd ? 1541 : 1513,
+        id: isProd ? 1053 : 1513,
       },
     },
 
@@ -388,7 +392,7 @@ const survey = {
       type: 'radio',
       options: flowerPatchValues,
       remote: {
-        id: isProd ? 1543 : 1515,
+        id: isProd ? 1055 : 1515,
         values: flowerPatchValues,
       },
     },
@@ -402,7 +406,7 @@ const survey = {
       ),
       options: weatherSkyValues,
       remote: {
-        id: isProd ? 1545 : 1517,
+        id: isProd ? 1057 : 1517,
         values: weatherSkyValues,
       },
     },
@@ -416,7 +420,7 @@ const survey = {
       ),
       options: weatherShadeValues,
       remote: {
-        id: isProd ? 1549 : 1519,
+        id: isProd ? 1061 : 1519,
         values: weatherShadeValues,
       },
     },
@@ -430,7 +434,7 @@ const survey = {
       ),
       options: weatherWindValues,
       remote: {
-        id: isProd ? 1546 : 1518,
+        id: isProd ? 1058 : 1518,
         values: weatherWindValues,
       },
     },
@@ -439,9 +443,15 @@ const survey = {
   occ: {
     attrs: {
       taxon: {
-        id: 'taxa_taxon_list_id',
-        remote: { values: taxon => taxon.warehouse_id },
-        count: 0,
+        remote: {
+          id: 'taxa_taxon_list_id',
+          values: taxon => taxon.warehouse_id,
+        },
+      },
+      count: {
+        remote: {
+          id: isProd ? 666 : 841,
+        },
       },
     },
 
