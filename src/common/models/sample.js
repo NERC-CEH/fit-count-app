@@ -1,4 +1,6 @@
 import { Sample } from '@apps';
+import config from 'common/config';
+import userModel from './user';
 import GPSExtension from './sampleGPSExt';
 import Media from './media';
 import surveyConfig from '../../Survey/config';
@@ -15,6 +17,12 @@ class AppSample extends Sample {
 
   constructor(...args) {
     super(...args);
+
+    this.remote.url = `${config.backend.indicia.url}/index.php/services/rest`;
+    // eslint-disable-next-line
+    this.remote.headers = async () => ({
+      Authorization: `Bearer ${await userModel.getAccessToken()}`,
+    });
 
     Object.assign(this, GPSExtension);
     this.survey = surveyConfig;
