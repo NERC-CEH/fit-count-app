@@ -9,13 +9,14 @@ import './styles.scss';
 import { flagOutline, chevronForwardOutline } from 'ionicons/icons';
 
 function Footer(props) {
-  const { isEnabled, link, title } = props;
+  const { isEnabled, link, title, onClick } = props;
 
-  const navigateTo = isEnabled ? link : false;
+  const navigateTo = isEnabled && link ? link : false;
 
   const footerTitle = title || 'Next';
 
-  const icon = title ? flagOutline : chevronForwardOutline;
+  const isFinish = !!onClick;
+  const icon = isFinish ? flagOutline : chevronForwardOutline;
 
   return (
     <IonFooter className="ion-no-border">
@@ -24,6 +25,7 @@ function Footer(props) {
           lines="none"
           className={clsx('next-button', title && 'finish-button')}
           routerLink={navigateTo}
+          onClick={onClick}
           disabled={!isEnabled}
           mode="md"
         >
@@ -39,7 +41,8 @@ function Footer(props) {
 
 Footer.propTypes = exact({
   isEnabled: PropTypes.bool.isRequired,
-  link: PropTypes.string.isRequired,
+  link: PropTypes.string,
+  onClick: PropTypes.func,
   title: PropTypes.string,
 });
 
