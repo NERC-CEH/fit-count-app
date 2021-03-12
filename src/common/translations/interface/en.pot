@@ -775,3 +775,11 @@ msgstr "Read our ‘how-to’ guide, check out the insect ID guide, and you’re
 # Onboarding content
 msgid "Let's start the count!"
 msgstr "Let's start the count!"
+
+# User authentication toast message
+msgid "Sorry"
+msgstr "Sorry"
+
+# User authentication toast message
+msgid "The user credentials were incorrect."
+msgstr "The user credentials were incorrect."

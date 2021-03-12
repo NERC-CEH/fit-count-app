@@ -287,10 +287,6 @@ msgid "Waste ground or brownfield site"
 msgstr "Tir gwastraff neu safle tir llwyd"
 
 # Survey habitat page values
-msgid "Farm crops or grassy pastures"
-msgstr "Cnydau fferm neu dir pori glaswelltog"
-
-# Survey habitat page values
 msgid "Woodland"
 msgstr "Coetir"
 
@@ -752,6 +748,18 @@ msgid "Graphics:"
 msgstr "Graffeg:"
 
 # Credits page content
+msgid "Team members of the following projects"
+msgstr ""
+
+# Credits page content
+msgid "Photos of flowers and insects by:"
+msgstr ""
+
+# Credits page content
+msgid "Thanks to the following for additional photos"
+msgstr ""
+
+# Credits page content
 msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
 msgstr "Eiconau gan <2>Freepik</2> o <br/><br/><7>www.flaticon.com</7>"
 
@@ -768,8 +776,8 @@ msgid "Which target <1>flower</1> have you chosen?"
 msgstr "Pa <1>flodyn</1> targed ydych chi wedi'i ddewis?"
 
 # Survey flower page section divider
-msgid "Photos"
-msgstr "Lluniau"
+msgid "Photo of your target flower"
+msgstr ""
 
 # Survey flower page section divider
 msgid "Target flower chosen"
@@ -886,4 +894,37 @@ msgstr ""
 
 # Toast message after successful login
 msgid "Successfully logged in"
+msgstr ""
+
+# Onboarding content
+msgid ""
+"Pollinators are important!<br/>Help us monitor them with a Flower-Insect "
+"Timed Count"
+msgstr ""
+
+# Onboarding content
+msgid ""
+"<0><0>Wait for good weather! </0><1>Find a patch of target "
+"flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects"
+" that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you "
+"when your ten minutes is up</4><5>Save your count, and upload it to the "
+"website</5></0>"
+msgstr ""
+
+# Onboarding content
+msgid ""
+"Read our ‘how-to’ guide, check out the insect ID guide, and you’re ready to "
+"get started!"
+msgstr ""
+
+# Onboarding content
+msgid "Let's start the count!"
+msgstr ""
+
+# User authentication toast message
+msgid "Sorry"
+msgstr ""
+
+# User authentication toast message
+msgid "The user credentials were incorrect."
 msgstr ""
