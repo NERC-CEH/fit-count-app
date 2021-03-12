@@ -18,8 +18,6 @@ import { arrowForward, closeOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';
 import first from './images/first.jpg';
-import second from './images/second.jpg';
-import third from './images/third.jpg';
 import './styles.scss';
 
 const SplashScreen = ({ appModel }) => {
@@ -92,43 +90,38 @@ const SplashScreen = ({ appModel }) => {
           </IonSlide>
 
           <IonSlide className="second">
-            <div
-              className="slide-header"
-              style={{ backgroundImage: `url(${second})` }}
-            >
-              <div className="message-blur-container">
-                <div className="message">
-                  <h2>Lorrum ipsum</h2>
-                  <p>
-                    Vero eos et accusamus et iusto odio dignissimos ducimus qui
-                    blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas m.
-                  </p>
-                </div>
+            <div className="slide-header">
+              <div className="app-logo-wrapper-no-background">
+                <img className="app-logo" src={appLogo} alt="appLogo" />
               </div>
-            </div>
-          </IonSlide>
 
-          <IonSlide className="third">
-            <div
-              className="slide-header"
-              style={{ backgroundImage: `url(${third})` }}
-            >
-              <div className="message-blur-container">
-                <div className="message">
-                  <h2>Lorrum ipsum</h2>
-                  <p>
-                    Vero eos et accusamus et iusto odio dignissimos ducimus qui
-                    blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas m.
-                  </p>
+              <div className="message">
+                <T>
+                  <ol>
+                    <li>Wait for good weather! </li>
+                    <li>Find a patch of target flowers</li>
+                    <li>Count the flowers in your patch</li>
+                    <li>
+                      Count <b>all</b> insects that <b>land</b> on the{' '}
+                      <b>target flowers</b>
+                    </li>
+                    <li>The app will tell you when your ten minutes is up</li>
+                    <li>Save your count, and upload it to the website</li>
+                  </ol>
+                </T>
 
-                  <IonButton fill="clear" onClick={exit}>
-                    <T>Got it!</T>
-                    <IonIcon slot="end" icon={arrowForward} />
-                  </IonButton>
-                </div>
+                <p className="message-text">
+                  <T>
+                    Read our ‘how-to’ guide, check out the insect ID guide, and
+                    you’re ready to get started!
+                  </T>
+                </p>
               </div>
+
+              <IonButton fill="clear" onClick={exit}>
+                <T>Let's start the count!</T>
+                <IonIcon slot="end" icon={arrowForward} />
+              </IonButton>
             </div>
           </IonSlide>
         </IonSlides>

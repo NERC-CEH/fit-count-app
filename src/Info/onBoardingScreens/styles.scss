@@ -72,7 +72,6 @@
         background-color: #ffffff47;
         position: absolute;
         width: 100%;
-        box-shadow: 0 0 1rem 0 rgba(187, 16, 122, 0.2);
         background-color: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(5px);
 
@@ -91,23 +90,55 @@
 
     ion-slide.second {
       @include slide;
+      // background: linear-gradient(262deg, #ff7854, #fd267d);
+      background: linear-gradient(359deg, #fffcfe, #f9e8ef);
+      .app-logo-wrapper-no-background {
+        position: relative;
+        width: 100%;
 
-      .slide-header {
-        background-position: 20%;
+        img {
+          display: block;
+          padding: 20px;
+          max-width: 90%;
+          margin: 0 auto;
+        }
       }
-    }
 
-    ion-slide.third {
-      @include slide;
-
-      .slide-header {
-        background-position: center;
+      ol {
+        list-style: none;
+        counter-reset: steps;
+        padding: 0px 15px;
+        text-align: left;
+        margin: 0;
       }
-
-      ion-button {
-        font-size: 1.2rem;
-        font-weight: 500;
+      ol li {
+        counter-increment: steps;
+        margin: 15px auto;
+        font-size: 1.1em;
+      }
+      ol li::before {
+        content: counter(steps);
+        margin-right: 0.5rem;
+        background: #ffffff;
         color: var(--ion-color-primary);
+        border: 2px solid var(--ion-color-primary-tint);
+        height: 1.4rem;
+        width: 1.4rem;
+        border-radius: 50%;
+        display: inline-grid;
+        place-items: center;
+        line-height: 1.4rem;
+      }
+      ol ol li::before {
+        background: darkorchid;
+      }
+
+      .message-text {
+        color: var(--ion-color-dark);
+        text-align: left;
+      }
+      ion-button {
+        font-size: 1.3em;
       }
     }
 
@@ -128,11 +159,11 @@
     }
 
     p {
-      font-size: 1.15rem;
+      font-size: 1.1em;
       margin-bottom: 5px;
       text-align: left;
       color: var(--ion-color-primary-contrast);
-      padding: 25px;
+      padding: 15px;
       margin: 0;
       text-align: center;
     }
