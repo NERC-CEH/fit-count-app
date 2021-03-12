@@ -649,8 +649,8 @@ msgid "Which target <1>flower</1> have you chosen?"
 msgstr "Which target <1>flower</1> have you chosen?"
 
 # Survey flower page section divider
-msgid "Photos"
-msgstr "Photos"
+msgid "Photo of your target flower"
+msgstr "Photo of your target flower"
 
 # Survey flower page section divider
 msgid "Target flower chosen"

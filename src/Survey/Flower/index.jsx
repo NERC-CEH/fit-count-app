@@ -147,7 +147,7 @@ class Flower extends React.Component {
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Photos</T>
+            <T>Photo of your target flower</T>
           </IonItemDivider>
 
           <PhotoPicker
