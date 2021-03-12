@@ -1,0 +1,35 @@
+#manual {
+  ol {
+    list-style: none;
+    counter-reset: steps;
+    padding: 0px;
+    text-align: left;
+    margin: 0;
+  }
+  ol li {
+    counter-increment: steps;
+    margin: 25px auto;
+    font-size: 1.1em;
+  }
+  ol li::before {
+    content: counter(steps);
+    margin-right: 0.5rem;
+    background: #ffffff;
+    color: var(--ion-color-primary);
+    border: 2px solid var(--ion-color-primary-tint);
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.6rem;
+  }
+  ol ol li::before {
+    background: var(--ion-color-primary-tint);
+  }
+
+  a {
+    display: block;
+    margin: 20px 0px;
+  }
+}

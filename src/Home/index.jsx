@@ -24,6 +24,7 @@ import About from './About';
 import Menu from './Menu';
 import Guide from './Guide';
 import Surveys from './UserSurveys';
+import Manual from './Manual';
 import './styles.scss';
 
 const MenuWrap = () => (
@@ -41,6 +42,7 @@ const HomeComponent = () => {
           <Route path="/home/info" component={Home} exact />
           <Route path="/home/surveys" component={UserSurveys} exact />
           <Route path="/home/about" component={About} exact />
+          <Route path="/home/manual" component={Manual} exact />
           <Route path="/home/guide" component={Guide} exact />
           <Route path="/home/menu" render={MenuWrap} exact />
         </IonRouterOutlet>
@@ -72,6 +74,13 @@ const HomeComponent = () => {
             <IonIcon icon={informationCircleOutline} />
             <IonLabel>
               <T>About</T>
+            </IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="home/manual" href="/home/manual">
+            <IonIcon icon={informationCircleOutline} />
+            <IonLabel>
+              <T>How To</T>
             </IonLabel>
           </IonTabButton>
 

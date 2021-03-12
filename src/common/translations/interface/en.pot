@@ -783,3 +783,63 @@ msgstr "Sorry"
 # User authentication toast message
 msgid "The user credentials were incorrect."
 msgstr "The user credentials were incorrect."
+
+# How To page content
+msgid "How To"
+msgstr "How To"
+
+# How To page content
+msgid "FIT Count quick guide"
+msgstr "FIT Count quick guide"
+
+# How To page content
+msgid "FIT Counts take about 10–15 minutes, during which you are asked to count every insect that lands on the flowers of your chosen target flower species."
+msgstr "FIT Counts take about 10–15 minutes, during which you are asked to count every insect that lands on the flowers of your chosen target flower species."
+
+# How To page content
+msgid "You can complete a FIT Count in good weather between 1 April and 30 September."
+msgstr "You can complete a FIT Count in good weather between 1 April and 30 September."
+
+# How To page content
+msgid ""Good weather" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+msgstr ""Good weather" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+
+# How To page content
+msgid "Choose just one type of flower as your target flower - where possible use one of the FIT Count target flowers, but if you can't find one from the list you can choose a different flower as the target."
+msgstr "Choose just one type of flower as your target flower - where possible use one of the FIT Count target flowers, but if you can't find one from the list you can choose a different flower as the target."
+
+# How To page content
+msgid "Mark out a 50 × 50 cm patch containing your target."
+msgstr "Mark out a 50 × 50 cm patch containing your target."
+
+# How To page content
+msgid "Count the number of individual flowers for your target species that are within your patch."
+msgstr "Count the number of individual flowers for your target species that are within your patch."
+
+# How To page content
+msgid "Using the timer in the app, spend ten minutes counting all insects that land on the target flowers (ignore other flowers, and do your best to count each individual insect once only!)."
+msgstr "Using the timer in the app, spend ten minutes counting all insects that land on the target flowers (ignore other flowers, and do your best to count each individual insect once only!)."
+
+# How To page content
+msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as "other insects"."
+msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as "other insects"."
+
+# How To page content
+msgid "Fill in some simple weather details."
+msgstr "Fill in some simple weather details."
+
+# How To page content
+msgid "Save your count, and upload it to the website."
+msgstr "Save your count, and upload it to the website."
+
+# How To page content
+msgid "Further information and guides are available at"
+msgstr "Further information and guides are available at"
+
+# How To page content
+msgid "Good weather is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+msgstr "Good weather is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+
+# How To page content
+msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
+msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
