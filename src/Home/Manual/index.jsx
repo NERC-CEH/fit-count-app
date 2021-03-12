@@ -1,6 +1,7 @@
 import React from 'react';
 import { Page, Main, Section } from '@apps';
 import { Trans as T } from 'react-i18next';
+import appLogo from 'common/images/appLogo.png';
 import './styles.scss';
 
 const { P } = Section;
@@ -8,9 +9,14 @@ const { P } = Section;
 const Manual = () => (
   <Page id="manual">
     <Main>
+      <div className="app-logo-wrapper-no-background">
+        <img className="app-logo" src={appLogo} alt="appLogo" />
+      </div>
+
       <h1>
         <T>FIT Count quick guide</T>
       </h1>
+
       <Section>
         <P skipTranslation>
           <ol>

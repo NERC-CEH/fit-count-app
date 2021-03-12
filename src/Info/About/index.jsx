@@ -2,6 +2,7 @@ import React from 'react';
 import appModel from 'models/app';
 import { Page, Main, Section, Header } from '@apps';
 import { IonList, IonImg, IonRow, IonGrid, IonCol } from '@ionic/react';
+import appLogo from 'common/images/appLogo.png';
 import { funders, partners } from './partnersAndFundersImages';
 import './styles.scss';
 
@@ -44,6 +45,10 @@ const About = () => (
     <Header title="About" />
 
     <Main>
+      <div className="app-logo-wrapper-no-background">
+        <img className="app-logo" src={appLogo} alt="appLogo" />
+      </div>
+
       <Section>
         <P>
           The Flower-Insect Timed Count (FIT Count) is a 10-minute survey
