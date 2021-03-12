@@ -28,168 +28,176 @@ import thistle from './Flower/images/thistle.jpg';
 import whiteClover from './Flower/images/whiteClover.jpg';
 import whiteDeadNettle from './Flower/images/whiteWeadNettle.jpg';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const habitatValues = [
   {
-    id: -1,
+    id: isProd ? 13557 : 17828,
     value: 'Garden',
   },
   {
-    id: -1,
+    id: isProd ? 13558 : 17829,
     value: 'School Grounds',
   },
   {
-    id: -1,
+    id: isProd ? 13559 : 17830,
     value: 'Parkland with trees',
   },
   {
-    id: -1,
+    id: isProd ? 13560 : 17831,
     value: 'Churchyard',
   },
   {
-    id: -1,
+    id: isProd ? 13561 : 17832,
     value: 'Grassy verge or hedgerow edge',
   },
-  { id: -1, value: 'Grassland with wild flowers (e.g. meadow)' },
-  { id: -1, value: 'Amenity grassland (usually mown short)' },
-  { id: -1, value: 'Farm crops or grassy pasture' },
-  { id: -1, value: 'Upland moorland' },
-  { id: -1, value: 'Lowland heath' },
-  { id: -1, value: 'Waste ground or brownfield site' },
-  { id: -1, value: 'Woodland' },
-  { id: -1, value: 'Other' },
+  {
+    id: isProd ? 13562 : 17833,
+    value: 'Grassland with wild flowers (e.g. meadow)',
+  },
+  {
+    id: isProd ? 13563 : 17834,
+    value: 'Amenity grassland (usually mown short)',
+  },
+  { id: isProd ? 13564 : 17835, value: 'Farm crops or grassy pasture' },
+  { id: isProd ? 13565 : 17836, value: 'Upland moorland' },
+  { id: isProd ? 13566 : 17837, value: 'Lowland heath' },
+  { id: isProd ? 13567 : 17838, value: 'Waste ground or brownfield site' },
+  { id: isProd ? 13568 : 17839, value: 'Woodland' },
+  { id: isProd ? 13569 : 17840, value: 'Other' },
 ];
 
 const flowerCoverValues = [
   {
-    id: -1,
+    id: isProd ? 13576 : 17856,
     value: 'Less than half',
     icon: flowerCoverSmallGroupImage,
   },
   {
-    id: -1,
+    id: isProd ? 13577 : 17857,
     value: 'Half of patch',
     icon: flowerCoverMediumGroupImage,
   },
   {
-    id: -1,
+    id: isProd ? 13578 : 17858,
     value: 'More than half of patch',
     icon: flowerCoverLargeGroupImage,
   },
   {
-    id: -1,
+    id: isProd ? 13603 : 17859,
     value: 'Not recorded',
   },
 ];
 
 const flowerSelectionValues = [
   {
-    id: -1,
+    id: isProd ? 13571 : 17841,
     value: 'Bramble',
     icon: bramble,
     type: 'Individual Flower',
   },
   {
-    id: -1,
+    id: isProd ? 13607 : 17842,
     value: 'Buddleja',
     icon: buddleja,
     type: 'Spike',
   },
   {
-    id: -1,
+    id: isProd ? 13608 : 17846,
     value: 'Heather',
     icon: heather,
     type: 'Spike',
   },
   {
-    id: -1,
+    id: isProd ? 13570 : 17844,
     value: 'Dandelion',
     icon: dandelion,
     type: 'Head',
   },
   {
-    id: -1,
+    id: isProd ? 14100 : 17843,
     value: 'Buttercup',
     icon: buttercup,
     type: 'Individual Flower',
   },
   {
-    id: -1,
+    id: isProd ? 13574 : 17854,
     value: 'White Dead-nettle',
     icon: whiteDeadNettle,
     type: 'Spike',
   },
   {
-    id: -1,
+    id: isProd ? 13572 : 17845,
     value: 'Hawthorn',
     icon: hawthorn,
     type: 'Individual Flower',
   },
   {
-    id: -1,
+    id: isProd ? 13611 : 17850,
     value: 'Lavender',
     icon: lavender,
     type: 'Spike',
   },
   {
-    id: -1,
+    id: isProd ? 13610 : 17849,
     value: 'Knapweed',
     icon: knapweed,
     type: 'Head',
   },
   {
-    id: -1,
+    id: isProd ? 13609 : 17847,
     value: 'Hogweed',
     icon: hogweed,
     type: 'Umbel',
   },
   {
-    id: -1,
+    id: isProd ? 13573 : 17853,
     value: 'White Clover',
     icon: whiteClover,
     type: 'Head',
   },
   {
-    id: -1,
+    id: isProd ? 13612 : 17851,
     value: 'Ragwort',
     icon: ragwort,
     type: 'Head',
   },
   {
-    id: -1,
+    id: isProd ? 13613 : 17852,
     value: 'Thistle',
     icon: thistle,
     type: 'Head',
   },
   {
-    id: -1,
+    id: isProd ? 14064 : 17848,
     value: 'Ivy',
     icon: ivy,
     type: 'Head',
   },
   {
-    id: -1,
+    id: isProd ? 13575 : 17855,
     value: 'Other',
   },
 ];
 
 const flowerCountValues = [
   {
-    id: -1,
+    id: isProd ? 13579 : 17860,
     value: 'Individual Flower',
     icon: individualFlowerTypeImage,
   },
   {
-    id: -1,
+    id: isProd ? 13580 : 17861,
     value: 'Head',
     icon: headTypeImage,
   },
   {
-    id: -1,
+    id: isProd ? 13581 : 17862,
     value: 'Umbel',
     icon: umbelTypeImage,
   },
   {
-    id: -1,
+    id: isProd ? 13582 : 17863,
     value: 'Spike',
     icon: spikeTypeImage,
   },
@@ -197,76 +205,76 @@ const flowerCountValues = [
 
 const flowerPatchValues = [
   {
-    id: -1,
+    id: isProd ? 13583 : 17864,
     value: 'In a larger patch of the same flower',
   },
   {
-    id: -1,
+    id: isProd ? 13584 : 17865,
     value: 'In a larger patch of many different flowers',
   },
   {
-    id: -1,
+    id: isProd ? 13585 : 17866,
     value: 'More or less isolated',
   },
   {
-    id: -1,
+    id: isProd ? 13604 : 17867,
     value: 'Not recorded',
   },
 ];
 
 const weatherSkyValues = [
   {
-    id: -1,
+    id: isProd ? 13586 : 17868,
     value: 'All or mostly blue',
   },
   {
-    id: -1,
+    id: isProd ? 13587 : 17869,
     value: 'Half blue and half cloud',
   },
   {
-    id: -1,
+    id: isProd ? 13588 : 17870,
     value: 'All or mostly cloud',
   },
   {
-    id: -1,
+    id: isProd ? 13605 : 17871,
     value: 'Not recorded',
   },
 ];
 
 const weatherShadeValues = [
   {
-    id: -1,
+    id: isProd ? 13750 : 17876,
     value: 'Entirely in sunshine',
   },
   {
-    id: -1,
+    id: isProd ? 13751 : 17877,
     value: 'Partly in sun and partly shaded',
   },
   {
-    id: -1,
+    id: isProd ? 13752 : 17878,
     value: 'Entirely shaded',
   },
   {
-    id: -1,
+    id: isProd ? 13753 : 17879,
     value: 'Not recorded',
   },
 ];
 
 const weatherWindValues = [
   {
-    id: -1,
+    id: isProd ? 13589 : 17872,
     value: 'Leaves still/moving occasionally',
   },
   {
-    id: -1,
+    id: isProd ? 13590 : 17873,
     value: 'Leaves moving gently all the time',
   },
   {
-    id: -1,
+    id: isProd ? 13591 : 17874,
     value: 'Leaves moving strongly',
   },
   {
-    id: -1,
+    id: isProd ? 13606 : 17875,
     value: 'Not recorded',
   },
 ];
@@ -277,7 +285,7 @@ const dateTimeFormat = new Intl.DateTimeFormat('en-GB', {
 });
 
 const survey = {
-  id: -1,
+  id: isProd ? 641 : 599,
   name: 'survey',
 
   SURVEY_STEP_COUNT: 10,
@@ -289,17 +297,7 @@ const survey = {
       id: 'location',
       remote: {
         id: 'entered_sref',
-        values(location, submission) {
-          const { accuracy, source, gridref } = location;
-
-          const keys = survey.attrs;
-          const locationAttributes = {
-            [keys.location_source.remote.id]: source,
-            [keys.location_gridref.remote.id]: gridref,
-            [keys.location_accuracy.remote.id]: accuracy,
-          };
-          Object.assign(submission.values, locationAttributes);
-
+        values(location) {
           const lat = parseFloat(location.latitude);
           const lon = parseFloat(location.longitude);
           return `${lat.toFixed(7)}, ${lon.toFixed(7)}`;
@@ -308,15 +306,17 @@ const survey = {
     },
 
     surveyStartTime: {
-      id: -1,
-      values: date => dateTimeFormat.format(new Date(date)),
+      remote: {
+        id: isProd ? 1544 : 1516,
+        values: date => dateTimeFormat.format(new Date(date)),
+      },
     },
 
     habitat: {
       type: 'radio',
       options: habitatValues,
       remote: {
-        id: -1,
+        id: isProd ? 1536 : 1508,
         values: habitatValues,
       },
     },
@@ -327,13 +327,16 @@ const survey = {
         'Please type in the name of the habitat you have chosen then go back to the habitat page',
       placeholder: 'Other habitat',
       type: 'textarea',
+      remote: {
+        id: isProd ? 1537 : 1509,
+      },
     },
 
     'flower-cover': {
       type: 'radio',
       options: flowerCoverValues,
       remote: {
-        id: -1,
+        id: isProd ? 1540 : 1512,
         values: flowerCoverValues,
       },
     },
@@ -342,7 +345,7 @@ const survey = {
       type: 'radio',
       options: flowerSelectionValues,
       remote: {
-        id: -1,
+        id: isProd ? 1538 : 1510,
         values: flowerSelectionValues,
       },
     },
@@ -355,13 +358,16 @@ const survey = {
       placeholder: 'Other flower name',
       type: 'textarea',
       skipValueTranslation: true,
+      remote: {
+        id: isProd ? 1539 : 1511,
+      },
     },
 
     'flower-count': {
       type: 'radio',
       options: flowerCountValues,
       remote: {
-        id: -1,
+        id: isProd ? 1542 : 1514,
         values: flowerCountValues,
       },
     },
@@ -373,13 +379,16 @@ const survey = {
       min: 0,
       step: 1,
       skipValueTranslation: true,
+      remote: {
+        id: isProd ? 1541 : 1513,
+      },
     },
 
     'flower-patch': {
       type: 'radio',
       options: flowerPatchValues,
       remote: {
-        id: -1,
+        id: isProd ? 1543 : 1515,
         values: flowerPatchValues,
       },
     },
@@ -393,7 +402,7 @@ const survey = {
       ),
       options: weatherSkyValues,
       remote: {
-        id: -1,
+        id: isProd ? 1545 : 1517,
         values: weatherSkyValues,
       },
     },
@@ -407,7 +416,7 @@ const survey = {
       ),
       options: weatherShadeValues,
       remote: {
-        id: -1,
+        id: isProd ? 1549 : 1519,
         values: weatherShadeValues,
       },
     },
@@ -421,7 +430,7 @@ const survey = {
       ),
       options: weatherWindValues,
       remote: {
-        id: -1,
+        id: isProd ? 1546 : 1518,
         values: weatherWindValues,
       },
     },
