@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import { date } from '@apps';
+import userModel from 'models/user';
 import insectGroups from 'common/data';
 import habitatIcon from 'common/images/habitatIcon.svg';
 import flowerIcon from 'common/images/flowerIcon.svg';
@@ -293,6 +295,11 @@ const survey = {
   DEFAULT_SURVEY_TIME: 1 * 60 * 1000, // 10 min
 
   attrs: {
+    date: {
+      remote: {
+        values: d => date.print(d, false),
+      },
+    },
     recorder: {
       remote: {
         id: 127,
@@ -445,7 +452,7 @@ const survey = {
       taxon: {
         remote: {
           id: 'taxa_taxon_list_id',
-          values: taxon => taxon.warehouse_id,
+          values: taxon => taxon.warehouseId,
         },
       },
       count: {
@@ -475,6 +482,7 @@ const survey = {
       },
 
       attrs: {
+        recorder: userModel.attrs.fullName,
         surveyStartTime: null,
         location: null,
         habitat: null,

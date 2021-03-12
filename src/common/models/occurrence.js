@@ -10,4 +10,17 @@ export default class AppOccurrence extends Occurrence {
   validateRemote() {
     return null;
   }
+
+  _hasZeroCount() {
+    return !this.attrs.count;
+  }
+
+  getSubmission() {
+    if (this._hasZeroCount()) {
+      // skip the occurrence from submission
+      return null;
+    }
+
+    return super.getSubmission();
+  }
 }
