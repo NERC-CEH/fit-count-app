@@ -320,7 +320,7 @@ const survey = {
     surveyStartTime: {
       remote: {
         id: isProd ? 1056 : 1516,
-        values: date => dateTimeFormat.format(new Date(date)),
+        values: value => dateTimeFormat.format(new Date(value)),
       },
     },
 
