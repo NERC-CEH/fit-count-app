@@ -72,6 +72,22 @@
     ion-slide.first {
       @include slide;
 
+      .app-logo-wrapper {
+        background-color: #ffffff47;
+        position: absolute;
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(187, 16, 122, 0.2);
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(5px);
+
+        img {
+          display: block;
+          padding: 30px;
+          max-width: 90%;
+          margin: 0 auto;
+        }
+      }
+
       .slide-header {
         background-position: center;
       }

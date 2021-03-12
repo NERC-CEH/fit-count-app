@@ -16,6 +16,7 @@ import {
 import Log from 'helpers/log';
 import { arrowForward, closeOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
+import appLogo from 'common/images/appLogo.png';
 import first from './images/first.jpg';
 import second from './images/second.jpg';
 import third from './images/third.jpg';
@@ -72,6 +73,10 @@ const SplashScreen = ({ appModel }) => {
               className="slide-header"
               style={{ backgroundImage: `url(${first})` }}
             >
+              <div className="app-logo-wrapper">
+                <img className="app-logo" src={appLogo} alt="appLogo" />
+              </div>
+
               <div className="message-blur-container">
                 <div className="message">
                   <h2>Lorrum ipsum</h2>
