@@ -12,7 +12,6 @@ class UserModel extends DrupalUserModel {
     email: Yup.string().email().required('Please fill in'),
     password: Yup.string().required('Please fill in'),
     fullName: Yup.string().required('Please fill in'),
-    heardFrom: Yup.string().required('Please fill in'),
     identificationExperience: Yup.string().required('Please fill in'),
   });
 

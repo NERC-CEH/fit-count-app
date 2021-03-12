@@ -24,25 +24,38 @@ msgstr ""
 
 # About page content
 msgid ""
-"The FIT Count is part of the Pollinator Monitoring Scheme (PoMS) within the "
-"UK Pollinator Monitoring and Research Partnership, co-ordinated by the "
-"Centre for Ecology & Hydrology (CEH). It is jointly funded by Defra, the "
-"Welsh and Scottish Governments, JNCC and project partners, including CEH, "
-"the Bumblebee Conservation Trust, Butterfly Conservation, British Trust for "
-"Ornithology, Hymettus, the University of Reading and University of Leeds."
+"The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
+"collect new data on numbers of flower-visiting insects."
 msgstr ""
 
 # About page content
 msgid ""
-"PoMSaims to provide much-needed data on the state of the UK’s insect "
-"pollinators, especially wild bees and hoverflies, and the role they fulfil "
-"in supporting farming and wildlife."
+"FIT Counts are suitable for all, in urban or rural locations, and can be "
+"done at any time between the beginning of April and end of September."
 msgstr ""
 
 # About page content
 msgid ""
-"For further information about PoMSgo to: <2>www.ceh.ac.uk/pollinator-"
-"monitoring to update</2>"
+"Wild pollinators may have declined in the UK by more than 30% since 1980, "
+"but we need much more data to be able to track changes in abundance. You can"
+" help by doing a FIT Count, maybe even repeating it over the season. You "
+"don’t need to identify the insects to species level, only to within broad "
+"groups e.g. bumblebees, hoverflies, butterflies & moths, wasps"
+msgstr ""
+
+# About page content
+msgid ""
+"The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS), within "
+"the UK Pollinator Monitoring and Research Partnership which comprises the UK"
+" Centre for Ecology & Hydrology (UKCEH), Bumblebee Conservation Trust, "
+"Butterfly Conservation, British Trust for Ornithology, Hymettus, Reading "
+"University, University of Leeds and Natural History Museum. PoMS is jointly "
+"funded by Defra, the Welsh and Scottish Governments, Daera, JNCC and project"
+" partners."
+msgstr ""
+
+# About page content
+msgid "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
 msgstr ""
 
 # About page content
@@ -90,7 +103,7 @@ msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
 
 # Credits page content
-msgid "We are grateful for all the people that helped to create this app:"
+msgid "We are grateful to all the people who helped to create this app:"
 msgstr ""
 
 # Onboarding Page button label
@@ -127,4 +140,692 @@ msgstr ""
 
 # Country page content
 msgid "United Kingdom"
+msgstr ""
+
+# Home page toolbar label
+msgid "Home"
+msgstr ""
+
+# Home page button label
+msgid "Start Survey"
+msgstr ""
+
+# Start survey alert message
+msgid "Discard"
+msgstr ""
+
+# Start survey alert button label
+msgid "Continue"
+msgstr ""
+
+# Start survey alert button label
+msgid "Draft"
+msgstr ""
+
+# Start survey alert button message
+msgid "Previous survey draft exists, would you like to continue it?"
+msgstr ""
+
+# Survey content
+msgid "Use the map to zoom in and tap on your <1>location</1>."
+msgstr ""
+
+# Survey content
+msgid "Cancel"
+msgstr ""
+
+# Survey content
+msgid "Delete Survey"
+msgstr ""
+
+# Survey content
+msgid ""
+"Warning - This will discard the survey information you have entered so far."
+msgstr ""
+
+# Survey Location page info message
+msgid ""
+"Use the map to zoom in and tap on your <1>location</1>.<3><p>Your location "
+"can be anywhere where there are flowers to attract pollinating insects, "
+"where you have permission to be, and where it is safe to go.</p><p>A garden "
+"or park, farm or nature reserve are all great locations for FIT "
+"Counts.</p><p>Please zoom in to find the spot that best matches your "
+"location.</p><p>Your count results will be visible to others at the 1 km "
+"square level via the UKPoMS website.</p></3>"
+msgstr ""
+
+# Survey Location alert messag
+msgid "Please select a more accurate location"
+msgstr ""
+
+# Survey content
+msgid "Next"
+msgstr ""
+
+# Survey content
+msgid "of"
+msgstr ""
+
+# Survey habitat info message
+msgid ""
+"Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
+"that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
+"listed here, please select “Other” and type in a short description of the "
+"habitat.</p></3>"
+msgstr ""
+
+# Survey habitat page other placeholder text
+msgid ""
+"Please type in the name of the habitat you have chosen then go back to the "
+"habitat page"
+msgstr ""
+
+# Survey habitat page other header label
+msgid "Habitat"
+msgstr ""
+
+# Survey habitat page divider label
+msgid "Other habitat"
+msgstr ""
+
+# Survey habitat page values
+msgid "Garden"
+msgstr ""
+
+# Survey habitat page values
+msgid "School Grounds"
+msgstr ""
+
+# Survey habitat page values
+msgid "Parkland with trees"
+msgstr ""
+
+# Survey habitat page values
+msgid "Churchyard"
+msgstr ""
+
+# Survey habitat page values
+msgid "Grassy verge or hedgerow edge"
+msgstr ""
+
+# Survey habitat page values
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr ""
+
+# Survey habitat page values
+msgid "Amenity grassland (usually mown short)"
+msgstr ""
+
+# Survey habitat page values
+msgid "Farm crops or grassy pasture"
+msgstr ""
+
+# Survey habitat page values
+msgid "Upland moorland"
+msgstr ""
+
+# Survey habitat page values
+msgid "Lowland heath"
+msgstr ""
+
+# Survey habitat page values
+msgid "Waste ground or brownfield site"
+msgstr ""
+
+# Survey habitat page values
+msgid "Farm crops or grassy pastures"
+msgstr ""
+
+# Survey habitat page values
+msgid "Woodland"
+msgstr ""
+
+# Survey flower-cover info message
+msgid ""
+"What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
+" how much of your 50×50 cm patch is occupied by the target flowers (but not "
+"by the leaves of the target plant).</p></3>"
+msgstr ""
+
+# Survey flower-cover info message header
+msgid "Flower Cover"
+msgstr ""
+
+# Survey flower-cover radio input
+msgid "Less than half"
+msgstr ""
+
+# Survey flower-cover radio input
+msgid "Half of patch"
+msgstr ""
+
+# Survey flower-cover radio input
+msgid "More than half of patch"
+msgstr ""
+
+# Survey flower-cover radio input
+msgid "Not recorded"
+msgstr ""
+
+# User registration page
+msgid "Create a free account"
+msgstr ""
+
+# User registration page
+msgid "Full name"
+msgstr ""
+
+# User registration page
+msgid "Email"
+msgstr ""
+
+# User registration page
+msgid "Password"
+msgstr ""
+
+# User registration page
+msgid "How did you hear about FIT Counts?"
+msgstr ""
+
+# User registration page
+msgid "Your identification experience"
+msgstr ""
+
+# User registration page
+msgid ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+msgstr ""
+
+# User registration page
+msgid "Sign Up"
+msgstr ""
+
+# User registration page
+msgid "I am already a member"
+msgstr ""
+
+# User registration page
+msgid "Sign In"
+msgstr ""
+
+# User registration page
+msgid "How did you hear about us?"
+msgstr ""
+
+# User registration page
+msgid "Identification experience"
+msgstr ""
+
+# User registration page
+msgid "Please fill in"
+msgstr ""
+
+# User registration page
+msgid "I am new to identifying wildlife"
+msgstr ""
+
+# User registration page
+msgid ""
+"I am familiar with identifying some wildlife groups (e.g. birds or "
+"butterflies) but not most pollinating insects"
+msgstr ""
+
+# User registration page
+msgid "I am familiar with recognising the main groups of pollinating insect"
+msgstr ""
+
+# User registration page
+msgid ""
+"I am confident in identifying the commonly-occurring pollinating insects to "
+"species level"
+msgstr ""
+
+# User registration page
+msgid "Not stated"
+msgstr ""
+
+# User registration page
+msgid "Select"
+msgstr ""
+
+# User login page
+msgid "Welcome back"
+msgstr ""
+
+# User login page
+msgid "Sign in to your account to start"
+msgstr ""
+
+# User login page
+msgid "Forgot password?"
+msgstr ""
+
+# User login page
+msgid "email is a required field"
+msgstr ""
+
+# User login page
+msgid "password is a required field"
+msgstr ""
+
+# User reset page
+msgid "Enter your email address to request a password reset."
+msgstr ""
+
+# User reset page
+msgid "Reset"
+msgstr ""
+
+# User reset page
+msgid "email must be a valid email"
+msgstr ""
+
+# Upload user register form message
+msgid "Please wait..."
+msgstr ""
+
+# Successful register alert message
+msgid "OK, got it"
+msgstr ""
+
+# Successful register alert message
+msgid "Welcome aboard"
+msgstr ""
+
+# Successful register alert message
+msgid ""
+"Before starting any surveys please check your email and click on the "
+"verification link."
+msgstr ""
+
+# Settings page label
+msgid "Logout"
+msgstr ""
+
+# Settings page label
+msgid "Login"
+msgstr ""
+
+# Settings page label
+msgid "Register"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Eyes covering the sides of the head"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Hind legs broad and flattened"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Abdomen can vary from mostly dark to mostly orange"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Long narrow cell in veins at edge of wing"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Description"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
+msgstr ""
+
+# ID guide honeybees species profile
+msgid "Extra information"
+msgstr ""
+
+# My surveys page content
+msgid "My Surveys"
+msgstr ""
+
+# My surveys page content
+msgid "Pending"
+msgstr ""
+
+# My surveys page content
+msgid "Uploaded"
+msgstr ""
+
+# My surveys page content
+msgid "<0>You have no finished surveys.</0>"
+msgstr ""
+
+# My surveys page content
+msgid "No uploaded surveys"
+msgstr ""
+
+# Survey species selection page species list
+msgid "<0>Which</0> target flower have you chosen?"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Please add species image"
+msgstr ""
+
+# Survey species selection page species list
+msgid "No photo has been added."
+msgstr ""
+
+# Survey species selection page info message
+msgid "Press <1></1> to add."
+msgstr ""
+
+# Survey species selection page species list
+msgid "Dandelion"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Buttercup"
+msgstr ""
+
+# Survey species selection page species list
+msgid "White Dead-nettle"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Hawthorn"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Lavender"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Bramble"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Buddleja"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Heather"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Knapweed"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Hogweed"
+msgstr ""
+
+# Survey species selection page species list
+msgid "White Clover"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Ragwort"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Thistle"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Ivy"
+msgstr ""
+
+# Survey species selection page read more message
+msgid ""
+"Which target <1>flower</1> have you chosen?<3><p>Where possible please "
+"choose a patch of flowers from one of the target flower groups in the "
+"list.</p><p>If none of these is available at your location you can choose "
+"another flower that is attracting insects and select “Other”, then type in "
+"the name.</p><p>Your target flower can be growing in a patch all of the same"
+" flower, or among different flower species.</p><p>For each FIT Count, please"
+" upload one or two photos of your target flower.</p><p>This allows us to "
+"double-check the flower species used for the counts.</p></3>"
+msgstr ""
+
+# Survey species selection page read more header
+msgid "Flower"
+msgstr ""
+
+# Survey species selection page divider label
+msgid "I know the species"
+msgstr ""
+
+# Survey species selection page label
+msgid "Other flower name"
+msgstr ""
+
+# Survey species manual entry placeholder
+msgid ""
+"Please type in the name of the target flower you have chosen then go back to"
+" the target flower page"
+msgstr ""
+
+# Survey flower count page divider label
+msgid "Number"
+msgstr ""
+
+# Survey flower count page info message
+msgid ""
+"What are the <1>number</1> and <3>type</3> of flowers in your "
+"patch?<5><p>The number of flowers in a patch can strongly relate to the "
+"number of insect visitors recorded, so it is important to provide this "
+"information!</p><p>Only count flowers that are reasonably fresh and likely "
+"to attract insects – ‘dead-head’ flowers and seedheads should not be "
+"counted.</p><p>Flowers need to be counted in different ways depending on "
+"their structure.</p><p>If you have chosen a target flower from our list, the"
+" flower type is shown by default.</p><p>If you have chosen “Other” target "
+"flower, please count:</p><5><0><0>Individual flowers</0> - each flower "
+"counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny "
+"flowers within a larger flower head, e.g. dandelion or daisy) – each flower "
+"head counts as one unit</1><2><0>Umbels</0> (for flowers that have small "
+"flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – "
+"each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small "
+"flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
+" unit</3></5></5>"
+msgstr ""
+
+# Survey flower count page info header
+msgid "Flower Count"
+msgstr ""
+
+# Survey flower count page divider label
+msgid "Type"
+msgstr ""
+
+# Survey flower count page content
+msgid "Individual Flower"
+msgstr ""
+
+# Survey flower count page content
+msgid "Head"
+msgstr ""
+
+# Survey flower count page content
+msgid "Umbel"
+msgstr ""
+
+# Survey flower count page content
+msgid "Spike"
+msgstr ""
+
+# My surveys page content
+msgid "Today"
+msgstr ""
+
+# My surveys page content
+msgid "Record"
+msgstr ""
+
+# My surveys page content
+msgid "Delete"
+msgstr ""
+
+# My surveys page content
+msgid "Yesterday"
+msgstr ""
+
+# My surveys page content info background message
+msgid "To delete any surveys swipe it to the left."
+msgstr ""
+
+# My surveys page content info background message button
+msgid "Hide"
+msgstr ""
+
+# My surveys page content info background message
+msgid "You have no finished surveys."
+msgstr ""
+
+# Add Photo message
+msgid "Choose a method to upload a photo"
+msgstr ""
+
+# Add Photo message
+msgid "Gallery"
+msgstr ""
+
+# Add Photo message
+msgid "Camera"
+msgstr ""
+
+# Credits page content
+msgid "Graphics:"
+msgstr ""
+
+# Credits page content
+msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
+msgstr ""
+
+# Credits page content
+msgid ""
+"App guide illustrations made "
+"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+msgstr ""
+
+# Survey flower page info message
+msgid "Which target <1>flower</1> have you chosen?"
+msgstr ""
+
+# Survey flower page section divider
+msgid "Photos"
+msgstr ""
+
+# Survey flower page section divider
+msgid "Target flower chosen"
+msgstr ""
+
+# Survey flower patch page values
+msgid "In a larger patch of the same flower"
+msgstr ""
+
+# Survey flower patch page values
+msgid "In a larger patch of many different flowers"
+msgstr ""
+
+# Survey flower patch page values
+msgid "More or less isolated"
+msgstr ""
+
+# Survey flower patch "Read more" alert message
+msgid ""
+"Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
+"surroundings of a flower patch can affect its attractiveness to "
+"insects.</p><p>Please indicate the situation that best describes the area "
+"around your flower patch (roughly within 5 metres).</p></3>"
+msgstr ""
+
+# Survey flower patch info button label
+msgid "READ MORE"
+msgstr ""
+
+# Survey flower patch "Read more" alert header text
+msgid "Flower patch"
+msgstr ""
+
+# Survey flower patch "Read more" alert button text
+msgid "Got it"
+msgstr ""
+
+# Survey weather sky page values
+msgid "All or mostly blue"
+msgstr ""
+
+# Survey weather sky page values
+msgid "Half blue and half cloud"
+msgstr ""
+
+# Survey weather sky page values
+msgid "All or mostly cloud"
+msgstr ""
+
+# Survey weather sky page info message
+msgid "<0>What is the <1>sky</1> above your location?</0>"
+msgstr ""
+
+# Survey weather shade page values
+msgid "Entirely in sunshine"
+msgstr ""
+
+# Survey weather shade page values
+msgid "Partly in sun and partly shaded"
+msgstr ""
+
+# Survey weather shade page values
+msgid "Entirely shaded"
+msgstr ""
+
+# Survey weather shade page info message
+msgid ""
+"<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
+msgstr ""
+
+# Survey weather wind page values
+msgid "Leaves still/moving occasionally"
+msgstr ""
+
+# Survey weather wind page values
+msgid "Leaves moving gently all the time"
+msgstr ""
+
+# Survey weather wind page values
+msgid "Leaves moving strongly"
+msgstr ""
+
+# Survey weather wind page info message
+msgid "<0>What was the <1>wind</1> strength?</0>"
+msgstr ""
+
+# Survey weather wind page button label
+msgid "Save my count"
+msgstr ""
+
+# Survey insect count page counter button label
+msgid "Paused"
+msgstr ""
+
+# Survey insect count page counter button label
+msgid "Time's up!"
+msgstr ""
+
+# Survey insect count page counter warning message
+msgid "Time expire!"
+msgstr ""
+
+# My Records page info message
+msgid "Please do not forget to upload any pending surveys!"
+msgstr ""
+
+# Credit page
+msgid "FIT Count logo"
+msgstr ""
+
+# Toast message after successful login
+msgid "Successfully logged in"
 msgstr ""

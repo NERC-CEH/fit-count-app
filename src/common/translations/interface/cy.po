@@ -1,7 +1,11 @@
 # 
+# Translators:
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,119 +16,874 @@ msgstr ""
 
 # Button title
 msgid "Back"
-msgstr ""
+msgstr "Nôl"
 
 # App toolbar label
 msgid "Menu"
-msgstr ""
+msgstr "Dewislen"
 
 # App toolbar label
 msgid "About"
+msgstr "Ynghylch"
+
+# About page content
+msgid ""
+"The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
+"collect new data on numbers of flower-visiting insects."
 msgstr ""
 
 # About page content
 msgid ""
-"The FIT Count is part of the Pollinator Monitoring Scheme (PoMS) within the "
-"UK Pollinator Monitoring and Research Partnership, co-ordinated by the "
-"Centre for Ecology & Hydrology (CEH). It is jointly funded by Defra, the "
-"Welsh and Scottish Governments, JNCC and project partners, including CEH, "
-"the Bumblebee Conservation Trust, Butterfly Conservation, British Trust for "
-"Ornithology, Hymettus, the University of Reading and University of Leeds."
+"FIT Counts are suitable for all, in urban or rural locations, and can be "
+"done at any time between the beginning of April and end of September."
 msgstr ""
 
 # About page content
 msgid ""
-"PoMSaims to provide much-needed data on the state of the UK’s insect "
-"pollinators, especially wild bees and hoverflies, and the role they fulfil "
-"in supporting farming and wildlife."
+"Wild pollinators may have declined in the UK by more than 30% since 1980, "
+"but we need much more data to be able to track changes in abundance. You can"
+" help by doing a FIT Count, maybe even repeating it over the season. You "
+"don’t need to identify the insects to species level, only to within broad "
+"groups e.g. bumblebees, hoverflies, butterflies & moths, wasps"
 msgstr ""
 
 # About page content
 msgid ""
-"For further information about PoMSgo to: <2>www.ceh.ac.uk/pollinator-"
-"monitoring to update</2>"
+"The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS), within "
+"the UK Pollinator Monitoring and Research Partnership which comprises the UK"
+" Centre for Ecology & Hydrology (UKCEH), Bumblebee Conservation Trust, "
+"Butterfly Conservation, British Trust for Ornithology, Hymettus, Reading "
+"University, University of Leeds and Natural History Museum. PoMS is jointly "
+"funded by Defra, the Welsh and Scottish Governments, Daera, JNCC and project"
+" partners."
+msgstr ""
+
+# About page content
+msgid "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
 msgstr ""
 
 # About page content
 msgid "Partners:"
-msgstr ""
+msgstr "Partneriaid:"
 
 # About page content
 msgid "Funders:"
-msgstr ""
+msgstr "Cyllidwyr:"
 
 # Menu page content
 msgid "Info"
-msgstr ""
+msgstr "Gwybodaeth"
 
 # Menu page content
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polisi Preifatrwydd"
 
 # Menu page content
 msgid "Credits"
-msgstr ""
+msgstr "Cydnabyddiaeth"
 
 # Menu page content
 msgid "Settings"
-msgstr ""
+msgstr "Gosodiadau"
 
 # Menu page content
 msgid "Cymraeg"
-msgstr ""
+msgstr "Cymraeg"
 
 # Menu page content
 msgid "Language"
-msgstr ""
+msgstr "Iaith"
 
 # Menu page content
 msgid "Country"
-msgstr ""
+msgstr "Gwlad"
 
 # Menu page content
 msgid "Share App Analytics"
-msgstr ""
+msgstr "Rhannu Data Dadansoddi'r Ap"
 
 # Menu page content
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
+"Rhannwch ddata'r ap am chwalfeydd i'n helpu i wneud yr ap yn fwy dibynadwy."
 
 # Credits page content
-msgid "We are grateful for all the people that helped to create this app:"
+msgid "We are grateful to all the people who helped to create this app:"
 msgstr ""
 
 # Onboarding Page button label
 msgid "Got it!"
-msgstr ""
+msgstr "Deall!"
 
 # ID Guide toolbar label
 msgid "ID Guide"
-msgstr ""
+msgstr "Canllaw Adnabod"
 
 # ID Guide segment label
 msgid "Insects"
-msgstr ""
+msgstr "Pryfed"
 
 # ID Guide segment label
 msgid "Flowers"
-msgstr ""
+msgstr "Blodau"
 
 # Country page content
 msgid "Argentina"
-msgstr ""
+msgstr "Yr Ariannin"
 
 # Country page content
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 # Country page content
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 # Country page content
 msgid "Cyprus"
-msgstr ""
+msgstr "Cyprus"
 
 # Country page content
 msgid "United Kingdom"
+msgstr "Y Deyrnas Unedig"
+
+# Home page toolbar label
+msgid "Home"
+msgstr "Hafan"
+
+# Home page button label
+msgid "Start Survey"
+msgstr "Dechrau'r Arolwg"
+
+# Start survey alert message
+msgid "Discard"
+msgstr "Diddymu"
+
+# Start survey alert button label
+msgid "Continue"
+msgstr "Parhau"
+
+# Start survey alert button label
+msgid "Draft"
+msgstr "Drafft"
+
+# Start survey alert button message
+msgid "Previous survey draft exists, would you like to continue it?"
+msgstr "Mae drafft blaenorol o'r arolwg yn bodoli. Hoffech chi barhau ag ef?"
+
+# Survey content
+msgid "Use the map to zoom in and tap on your <1>location</1>."
+msgstr ""
+"Defnyddiwch y map i weld yn agosach a thapiwch ar eich <1>lleoliad</1>."
+
+# Survey content
+msgid "Cancel"
+msgstr "Canslo"
+
+# Survey content
+msgid "Delete Survey"
+msgstr "Dileu'r Arolwg"
+
+# Survey content
+msgid ""
+"Warning - This will discard the survey information you have entered so far."
+msgstr ""
+"Rhybudd - Bydd hyn yn diddymu rhywfaint o'r wybodaeth rydych chi wedi'i rhoi"
+" yn yr arolwg hyd yma."
+
+# Survey Location page info message
+msgid ""
+"Use the map to zoom in and tap on your <1>location</1>.<3><p>Your location "
+"can be anywhere where there are flowers to attract pollinating insects, "
+"where you have permission to be, and where it is safe to go.</p><p>A garden "
+"or park, farm or nature reserve are all great locations for FIT "
+"Counts.</p><p>Please zoom in to find the spot that best matches your "
+"location.</p><p>Your count results will be visible to others at the 1 km "
+"square level via the UKPoMS website.</p></3>"
+msgstr ""
+
+# Survey Location alert messag
+msgid "Please select a more accurate location"
+msgstr ""
+
+# Survey content
+msgid "Next"
+msgstr "Nesaf"
+
+# Survey content
+msgid "of"
+msgstr "o"
+
+# Survey habitat info message
+msgid ""
+"Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
+"that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
+"listed here, please select “Other” and type in a short description of the "
+"habitat.</p></3>"
+msgstr ""
+"Dewiswch un <1>cynefin</1> sy'n cyd-fynd orau.<3><p>Dewiswch y cynefin sy'n "
+"disgrifio orau y llain 50x50 cm a ddewiswyd ar gyfer eich cyfrif "
+"chi.</p><p>Os nad yw wedi'i restru yma, dewiswch “Arall” a theipio "
+"disgrifiad byr o'r cynefin.</p></3>"
+
+# Survey habitat page other placeholder text
+msgid ""
+"Please type in the name of the habitat you have chosen then go back to the "
+"habitat page"
+msgstr ""
+"Teipiwch enw'r cynefin rydych wedi'i ddewis yna ewch yn ôl i dudalen y "
+"cynefin"
+
+# Survey habitat page other header label
+msgid "Habitat"
+msgstr "Cynefin"
+
+# Survey habitat page divider label
+msgid "Other habitat"
+msgstr "Cynefin arall"
+
+# Survey habitat page values
+msgid "Garden"
+msgstr "Gardd"
+
+# Survey habitat page values
+msgid "School Grounds"
+msgstr "Tir Ysgol"
+
+# Survey habitat page values
+msgid "Parkland with trees"
+msgstr "Tir parc gyda choed"
+
+# Survey habitat page values
+msgid "Churchyard"
+msgstr "Mynwent eglwys"
+
+# Survey habitat page values
+msgid "Grassy verge or hedgerow edge"
+msgstr "Ymyl ffordd glaswelltog neu ymyl gwrych"
+
+# Survey habitat page values
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Glaswelltir gyda blodau gwyllt (e.e. gweirglodd/dôl)"
+
+# Survey habitat page values
+msgid "Amenity grassland (usually mown short)"
+msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
+
+# Survey habitat page values
+msgid "Farm crops or grassy pasture"
+msgstr "Cnydau fferm neu dir pori glaswelltog"
+
+# Survey habitat page values
+msgid "Upland moorland"
+msgstr "Rhostir yr ucheldir"
+
+# Survey habitat page values
+msgid "Lowland heath"
+msgstr "Gweundir yr iseldir"
+
+# Survey habitat page values
+msgid "Waste ground or brownfield site"
+msgstr "Tir gwastraff neu safle tir llwyd"
+
+# Survey habitat page values
+msgid "Farm crops or grassy pastures"
+msgstr "Cnydau fferm neu dir pori glaswelltog"
+
+# Survey habitat page values
+msgid "Woodland"
+msgstr "Coetir"
+
+# Survey flower-cover info message
+msgid ""
+"What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
+" how much of your 50×50 cm patch is occupied by the target flowers (but not "
+"by the leaves of the target plant).</p></3>"
+msgstr ""
+"Beth yw'r targed ar gyfer <1>cyfradd y blodau ar yr wyneb</1> yn eich llain "
+"50x50 cm?<3><p>Amcangyfrifwch faint o'ch llain 50×50 cm sydd wedi'i "
+"orchuddio gan y blodau targed (ond nid gan ddail y planhigyn "
+"targed).</p></3>"
+
+# Survey flower-cover info message header
+msgid "Flower Cover"
+msgstr "Blodau ar yr Wyneb"
+
+# Survey flower-cover radio input
+msgid "Less than half"
+msgstr "Llai na hanner"
+
+# Survey flower-cover radio input
+msgid "Half of patch"
+msgstr "Hanner y llain"
+
+# Survey flower-cover radio input
+msgid "More than half of patch"
+msgstr "Dros hanner y llain"
+
+# Survey flower-cover radio input
+msgid "Not recorded"
+msgstr "Heb ei gofnodi"
+
+# User registration page
+msgid "Create a free account"
+msgstr "Creu cyfrif am ddim"
+
+# User registration page
+msgid "Full name"
+msgstr "Enw llawn"
+
+# User registration page
+msgid "Email"
+msgstr "E-bost"
+
+# User registration page
+msgid "Password"
+msgstr "Cyfrinair"
+
+# User registration page
+msgid "How did you hear about FIT Counts?"
+msgstr "Sut wnaethoch chi glywed am Gyfrifon FIT?"
+
+# User registration page
+msgid "Your identification experience"
+msgstr "Eich profiad o adnabod"
+
+# User registration page
+msgid ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+msgstr ""
+"Drwy glicio Cofrestru, rydych yn cytuno i'n <2>Polisi Preifatrwydd</2> a'n "
+"<6>Telerau ac Amodau</6>"
+
+# User registration page
+msgid "Sign Up"
+msgstr "Cofrestru"
+
+# User registration page
+msgid "I am already a member"
+msgstr "Rwy'n aelod eisoes"
+
+# User registration page
+msgid "Sign In"
+msgstr "Mewngofnodi"
+
+# User registration page
+msgid "How did you hear about us?"
+msgstr "Sut wnaethoch chi glywed amdanom ni?"
+
+# User registration page
+msgid "Identification experience"
+msgstr "Profiad o adnabod"
+
+# User registration page
+msgid "Please fill in"
+msgstr "Llenwch"
+
+# User registration page
+msgid "I am new to identifying wildlife"
+msgstr "Rwy'n newydd i adnabod bywyd gwyllt"
+
+# User registration page
+msgid ""
+"I am familiar with identifying some wildlife groups (e.g. birds or "
+"butterflies) but not most pollinating insects"
+msgstr ""
+"Rwy'n gyfarwydd ag adnabod rhai grwpiau bywyd gwyllt (e.e. adar neu loÿnnod "
+"byw) ond nid y rhan fwyaf o bryfed peillio"
+
+# User registration page
+msgid "I am familiar with recognising the main groups of pollinating insect"
+msgstr "Rwy'n gyfarwydd ag adnabod y prif grwpiau o bryfed peillio"
+
+# User registration page
+msgid ""
+"I am confident in identifying the commonly-occurring pollinating insects to "
+"species level"
+msgstr "Rwy'n hyderus yn adnabod y rhywogaethau o bryfed peillio cyffredin"
+
+# User registration page
+msgid "Not stated"
+msgstr "Heb ei ddatgan"
+
+# User registration page
+msgid "Select"
+msgstr "Dewiswch"
+
+# User login page
+msgid "Welcome back"
+msgstr "Croeso nôl"
+
+# User login page
+msgid "Sign in to your account to start"
+msgstr "Mewngofnodwch i'ch cyfrif er mwyn dechrau"
+
+# User login page
+msgid "Forgot password?"
+msgstr "Wedi anghofio'ch cyfrinair?"
+
+# User login page
+msgid "email is a required field"
+msgstr "Mae'n rhaid rhoi e-bost"
+
+# User login page
+msgid "password is a required field"
+msgstr "Mae'n rhaid rhoi cyfrinair"
+
+# User reset page
+msgid "Enter your email address to request a password reset."
+msgstr "Rhowch eich cyfeiriad e-bost i wneud cais i ailosod eich cyfrinair."
+
+# User reset page
+msgid "Reset"
+msgstr "Ailosod"
+
+# User reset page
+msgid "email must be a valid email"
+msgstr "Rhaid i'r e-bost fod yn un dilys"
+
+# Upload user register form message
+msgid "Please wait..."
+msgstr "Un foment..."
+
+# Successful register alert message
+msgid "OK, got it"
+msgstr "Iawn, deall"
+
+# Successful register alert message
+msgid "Welcome aboard"
+msgstr "Croeso!"
+
+# Successful register alert message
+msgid ""
+"Before starting any surveys please check your email and click on the "
+"verification link."
+msgstr ""
+"Cyn dechrau unrhyw arolygon, edrychwch yn eich e-bost a chlicio ar y ddolen "
+"ddilysu."
+
+# Settings page label
+msgid "Logout"
+msgstr "Allgofnodi"
+
+# Settings page label
+msgid "Login"
+msgstr "Mewngofnodi"
+
+# Settings page label
+msgid "Register"
+msgstr "Cofrestru"
+
+# ID guide honeybees species profile
+msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
+msgstr "Teimlyddion hir a thenau, ar ongl yn aml fel siâp 'penelin'"
+
+# ID guide honeybees species profile
+msgid "Eyes covering the sides of the head"
+msgstr "Llygaid yn gorchuddio ochrau'r pen"
+
+# ID guide honeybees species profile
+msgid "Hind legs broad and flattened"
+msgstr "Coesau cefn yn llydan ac wedi'u gwastadu"
+
+# ID guide honeybees species profile
+msgid "Abdomen can vary from mostly dark to mostly orange"
+msgstr "Gall yr abdomen amrywio o bennaf dywyll i bennaf oren"
+
+# ID guide honeybees species profile
+msgid "Long narrow cell in veins at edge of wing"
+msgstr "Cell hir a chul yn y gwythiennau ar ymyl yr adain"
+
+# ID guide honeybees species profile
+msgid "Description"
+msgstr "Disgrifiad"
+
+# ID guide honeybees species profile
+msgid ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
+msgstr ""
+"Gweithwyr, sy'n fenywaidd, fydd y rhan fwyaf o'r gwenyn mêl a welwch, ac "
+"maent yn casglu paill yn belen wedi'i gwlychu ar y tu allan i'r coesau ôl"
+
+# ID guide honeybees species profile
+msgid "Extra information"
+msgstr "Gwybodaeth ychwanegol"
+
+# My surveys page content
+msgid "My Surveys"
+msgstr "Fy Arolygon"
+
+# My surveys page content
+msgid "Pending"
+msgstr "I'w cyflwyno"
+
+# My surveys page content
+msgid "Uploaded"
+msgstr "Wedi'u cyflwyno"
+
+# My surveys page content
+msgid "<0>You have no finished surveys.</0>"
+msgstr "<0>Nid oes arolygon wedi'u cwblhau gyda chi.</0>"
+
+# My surveys page content
+msgid "No uploaded surveys"
+msgstr "Dim arolygon wedi'u cyflwyno"
+
+# Survey species selection page species list
+msgid "<0>Which</0> target flower have you chosen?"
+msgstr "<0>Pa</0> flodyn targed ydych chi wedi'i ddewis?"
+
+# Survey species selection page species list
+msgid "Please add species image"
+msgstr "Rhowch lun o'r rhywogaeth"
+
+# Survey species selection page species list
+msgid "No photo has been added."
+msgstr "Nid oes llun wedi'i ychwanegu."
+
+# Survey species selection page info message
+msgid "Press <1></1> to add."
+msgstr "Pwyswch <1></1> i ychwanegu."
+
+# Survey species selection page species list
+msgid "Dandelion"
+msgstr "Dant y llew"
+
+# Survey species selection page species list
+msgid "Buttercup"
+msgstr "Blodyn menyn"
+
+# Survey species selection page species list
+msgid "White Dead-nettle"
+msgstr "Marddanhadlen wen"
+
+# Survey species selection page species list
+msgid "Hawthorn"
+msgstr "Draenen wen"
+
+# Survey species selection page species list
+msgid "Lavender"
+msgstr "Lafant"
+
+# Survey species selection page species list
+msgid "Bramble"
+msgstr "Miaren"
+
+# Survey species selection page species list
+msgid "Buddleja"
+msgstr "Buddleja"
+
+# Survey species selection page species list
+msgid "Heather"
+msgstr "Grug"
+
+# Survey species selection page species list
+msgid "Knapweed"
+msgstr "Y Bengaled"
+
+# Survey species selection page species list
+msgid "Hogweed"
+msgstr "Efwr"
+
+# Survey species selection page species list
+msgid "White Clover"
+msgstr "Meillionen wen"
+
+# Survey species selection page species list
+msgid "Ragwort"
+msgstr "Llysiau'r gingroen"
+
+# Survey species selection page species list
+msgid "Thistle"
+msgstr "Ysgall"
+
+# Survey species selection page species list
+msgid "Ivy"
+msgstr "Iorwg"
+
+# Survey species selection page read more message
+msgid ""
+"Which target <1>flower</1> have you chosen?<3><p>Where possible please "
+"choose a patch of flowers from one of the target flower groups in the "
+"list.</p><p>If none of these is available at your location you can choose "
+"another flower that is attracting insects and select “Other”, then type in "
+"the name.</p><p>Your target flower can be growing in a patch all of the same"
+" flower, or among different flower species.</p><p>For each FIT Count, please"
+" upload one or two photos of your target flower.</p><p>This allows us to "
+"double-check the flower species used for the counts.</p></3>"
+msgstr ""
+"Pa un o'r <1>blodau</1> targed ydych chi wedi'i ddewis?<3><p>Lle bo modd, "
+"dewiswch lain o flodau o un o'r grwpiau blodau yn y rhestr.</p><p>Os nad oes"
+" yr un o'r rhain ar gael yn eich lleoliad, gallwch ddewis blodyn arall sy'n "
+"denu pryfed a dewis “Arall”, yna deipio'r enw.</p><p>Gall eich blodyn targed"
+" fod yn tyfu mewn llain sy'n cynnwys dim ond y blodyn hwnnw, neu gymysgedd o"
+" wahanol rywogaethau o flodau.</p><p>Ar gyfer pob Cyfrif FIT, llwythwch un "
+"neu ddau o luniau i fyny o'ch blodyn targed.</p><p>Mae hyn yn caniatáu i ni "
+"wirio'r rhywogaethau o flodau a ddefnyddiwyd ar gyfer y cyfrif.</p></3>"
+
+# Survey species selection page read more header
+msgid "Flower"
+msgstr "Blodyn"
+
+# Survey species selection page divider label
+msgid "I know the species"
+msgstr "Dw i'n gwybod beth yw'r rhywogaeth"
+
+# Survey species selection page label
+msgid "Other flower name"
+msgstr "Blodyn arall ar y blodyn"
+
+# Survey species manual entry placeholder
+msgid ""
+"Please type in the name of the target flower you have chosen then go back to"
+" the target flower page"
+msgstr ""
+"Teipiwch enw'r blodyn targed rydych chi wedi'i ddewis yna ewch yn ôl i'r "
+"dudalen blodyn targed"
+
+# Survey flower count page divider label
+msgid "Number"
+msgstr "Nifer"
+
+# Survey flower count page info message
+msgid ""
+"What are the <1>number</1> and <3>type</3> of flowers in your "
+"patch?<5><p>The number of flowers in a patch can strongly relate to the "
+"number of insect visitors recorded, so it is important to provide this "
+"information!</p><p>Only count flowers that are reasonably fresh and likely "
+"to attract insects – ‘dead-head’ flowers and seedheads should not be "
+"counted.</p><p>Flowers need to be counted in different ways depending on "
+"their structure.</p><p>If you have chosen a target flower from our list, the"
+" flower type is shown by default.</p><p>If you have chosen “Other” target "
+"flower, please count:</p><5><0><0>Individual flowers</0> - each flower "
+"counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny "
+"flowers within a larger flower head, e.g. dandelion or daisy) – each flower "
+"head counts as one unit</1><2><0>Umbels</0> (for flowers that have small "
+"flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – "
+"each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small "
+"flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
+" unit</3></5></5>"
+msgstr ""
+"Beth yw <1>nifer</1> a <3>math</3> y blodau yn eich llain?<5><p>Gall "
+"cysylltiad cryf fod rhwng nifer y blodau mewn llain a nifer y pryfed a "
+"gofnodir, felly mae'n bwysig rhoi'r wybodaeth hon!</p><p>Dim ond y blodau "
+"sy'n gymharol ffres ac sy'n debygol o ddenu pryfed y dylech chi eu cyfrif – "
+"ni ddylid cyfrif blodau marw na phennau hadau.</p><p>Mae angen cyfrif blodau"
+" mewn gwahanol ffyrdd, yn dibynnu ar eu strwythur.</p><p>Os ydych chi wedi "
+"dewis blodyn targed o'n rhestr, caiff y math o flodyn ei ddangos yn "
+"ddiofyn.</p><p>Os ydych wedi dewis blodyn targed “Arall”, "
+"cyfrifwch:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
+"uned</0><1><0>Pennau blodau</0> (lle mae llawer o flodau bychain o fewn pen "
+"blodyn mwy, e.e. dant y llew neu lygad y dydd) – mae pob pen blodyn yn "
+"cyfrif fel un uned</1><2><0>Wmbelau</0> (ar gyfer blodau ble mae blodau "
+"bychain wedi'u grwpio mewn ‘wmbelau’, fel ymbarél tu chwith allan, e.e. "
+"efwr) – mae pob wmbel yn cyfrif fel un uned</2><3><0>Pigynnau</0> (lle mae "
+"nifer o flodau bychain wedi'u trefnu ar hyd coesyn, e.e. lafant) – mae pob "
+"pigyn yn cyfrif fel un uned</3></5></5> "
+
+# Survey flower count page info header
+msgid "Flower Count"
+msgstr "Cyfrif Blodau"
+
+# Survey flower count page divider label
+msgid "Type"
+msgstr "Math"
+
+# Survey flower count page content
+msgid "Individual Flower"
+msgstr "Blodyn unigol"
+
+# Survey flower count page content
+msgid "Head"
+msgstr "Pen blodyn"
+
+# Survey flower count page content
+msgid "Umbel"
+msgstr "Wmbel"
+
+# Survey flower count page content
+msgid "Spike"
+msgstr "Pigyn"
+
+# My surveys page content
+msgid "Today"
+msgstr "Heddiw"
+
+# My surveys page content
+msgid "Record"
+msgstr "Cofnod"
+
+# My surveys page content
+msgid "Delete"
+msgstr "Dileu"
+
+# My surveys page content
+msgid "Yesterday"
+msgstr "Ddoe"
+
+# My surveys page content info background message
+msgid "To delete any surveys swipe it to the left."
+msgstr "Llusgwch arolwg i'r chwith i'w ddileu."
+
+# My surveys page content info background message button
+msgid "Hide"
+msgstr "Cuddio"
+
+# My surveys page content info background message
+msgid "You have no finished surveys."
+msgstr "Nid oes arolygon wedi'u cwblhau gyda chi."
+
+# Add Photo message
+msgid "Choose a method to upload a photo"
+msgstr "Dewiswch ddull i lwytho llun i fyny"
+
+# Add Photo message
+msgid "Gallery"
+msgstr "Oriel"
+
+# Add Photo message
+msgid "Camera"
+msgstr "Camera"
+
+# Credits page content
+msgid "Graphics:"
+msgstr "Graffeg:"
+
+# Credits page content
+msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
+msgstr "Eiconau gan <2>Freepik</2> o <br/><br/><7>www.flaticon.com</7>"
+
+# Credits page content
+msgid ""
+"App guide illustrations made "
+"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+msgstr ""
+"Darluniadau canllaw'r ap "
+"gan:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+
+# Survey flower page info message
+msgid "Which target <1>flower</1> have you chosen?"
+msgstr "Pa <1>flodyn</1> targed ydych chi wedi'i ddewis?"
+
+# Survey flower page section divider
+msgid "Photos"
+msgstr "Lluniau"
+
+# Survey flower page section divider
+msgid "Target flower chosen"
+msgstr "Blodyn targed wedi'i ddewis"
+
+# Survey flower patch page values
+msgid "In a larger patch of the same flower"
+msgstr "Mewn llain mwy o'r un blodyn"
+
+# Survey flower patch page values
+msgid "In a larger patch of many different flowers"
+msgstr "Mewn llain mwy o nifer o wahanol flodau"
+
+# Survey flower patch page values
+msgid "More or less isolated"
+msgstr "Ar ei ben ei hun fwy neu lai"
+
+# Survey flower patch "Read more" alert message
+msgid ""
+"Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
+"surroundings of a flower patch can affect its attractiveness to "
+"insects.</p><p>Please indicate the situation that best describes the area "
+"around your flower patch (roughly within 5 metres).</p></3>"
+msgstr ""
+"Ydy'ch llain 50x50cm chi o <1>flodau targed</1> yn tyfu:<3><p>Gall yr hyn "
+"sy'n amgylchynu llain o flodau effeithio ar pa mor ddylanwadol ydyw i "
+"bryfed.</p><p>Nodwch y sefyllfa sy'n disgrifio'r ardal o amgylch eich llain "
+"blodau chi orau (o fewn tua 5 metr).</p></3>"
+
+# Survey flower patch info button label
+msgid "READ MORE"
+msgstr "DARLLEN MWY"
+
+# Survey flower patch "Read more" alert header text
+msgid "Flower patch"
+msgstr "Llain blodau"
+
+# Survey flower patch "Read more" alert button text
+msgid "Got it"
+msgstr "Deall"
+
+# Survey weather sky page values
+msgid "All or mostly blue"
+msgstr "Hollol las neu las yn bennaf"
+
+# Survey weather sky page values
+msgid "Half blue and half cloud"
+msgstr "Hanner glas a hanner cymylau"
+
+# Survey weather sky page values
+msgid "All or mostly cloud"
+msgstr "Cymylau'n unig neu'n bennaf"
+
+# Survey weather sky page info message
+msgid "<0>What is the <1>sky</1> above your location?</0>"
+msgstr "<0>Sut mae'r <1>awyr</1> uwch ben eich lleoliad?</0>"
+
+# Survey weather shade page values
+msgid "Entirely in sunshine"
+msgstr "Yn yr haul yn llwyr"
+
+# Survey weather shade page values
+msgid "Partly in sun and partly shaded"
+msgstr "Rhannol yn yr haul a rhannol yn y cysgod"
+
+# Survey weather shade page values
+msgid "Entirely shaded"
+msgstr "Yn y cysgod yn llwyr"
+
+# Survey weather shade page info message
+msgid ""
+"<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
+msgstr ""
+
+# Survey weather wind page values
+msgid "Leaves still/moving occasionally"
+msgstr "Y dail yn llonydd/yn symud weithiau"
+
+# Survey weather wind page values
+msgid "Leaves moving gently all the time"
+msgstr "Y dail yn symud yn ysgafn yr holl amser"
+
+# Survey weather wind page values
+msgid "Leaves moving strongly"
+msgstr "Y dail yn symud yn arw"
+
+# Survey weather wind page info message
+msgid "<0>What was the <1>wind</1> strength?</0>"
+msgstr ""
+
+# Survey weather wind page button label
+msgid "Save my count"
+msgstr ""
+
+# Survey insect count page counter button label
+msgid "Paused"
+msgstr "Yn oedi"
+
+# Survey insect count page counter button label
+msgid "Time's up!"
+msgstr "Amser ar ben!"
+
+# Survey insect count page counter warning message
+msgid "Time expire!"
+msgstr "Amser ar ben!"
+
+# My Records page info message
+msgid "Please do not forget to upload any pending surveys!"
+msgstr ""
+
+# Credit page
+msgid "FIT Count logo"
+msgstr ""
+
+# Toast message after successful login
+msgid "Successfully logged in"
 msgstr ""

@@ -13,7 +13,6 @@ async function onRegister(userModel, details, onSuccess, t) {
   const {
     fullName,
     password,
-    heardFrom,
     happyToBeContacted,
     identificationExperience,
   } = details;
@@ -22,7 +21,6 @@ async function onRegister(userModel, details, onSuccess, t) {
 
   const otherDetails = {
     field_full_name: [{ value: fullName.trim() }],
-    field_heard_from: [{ value: heardFrom }],
     field_identification_experience: [{ value: identificationExperience }],
     field_happy_to_be_contacted: [{ value: happyToBeContacted }],
   };

@@ -325,54 +325,6 @@ msgid "Please fill in"
 msgstr "Please fill in"
 
 # User registration page
-msgid "Direct from PoMS (website, Twitter etc.)"
-msgstr "Direct from PoMS (website, Twitter etc.)"
-
-# User registration page
-msgid "British Trust for Ornithology"
-msgstr "British Trust for Ornithology"
-
-# User registration page
-msgid "Bumblebee Conservation Trust"
-msgstr "Bumblebee Conservation Trust"
-
-# User registration page
-msgid "Butterfly Conservation"
-msgstr "Butterfly Conservation"
-
-# User registration page
-msgid "Buglife"
-msgstr "Buglife"
-
-# User registration page
-msgid "Earthwatch"
-msgstr "Earthwatch"
-
-# User registration page
-msgid "GrowWild UK"
-msgstr "GrowWild UK"
-
-# User registration page
-msgid "Jersey Biodiversity Centre"
-msgstr "Jersey Biodiversity Centre"
-
-# User registration page
-msgid "National Plant Monitoring Scheme"
-msgstr "National Plant Monitoring Scheme"
-
-# User registration page
-msgid "Not sure, or from multiple sources"
-msgstr "Not sure, or from multiple sources"
-
-# User registration page
-msgid "Peterborough Big Bee Count"
-msgstr "Peterborough Big Bee Count"
-
-# User registration page
-msgid "Other"
-msgstr "Other"
-
-# User registration page
 msgid "I am new to identifying wildlife"
 msgstr "I am new to identifying wildlife"
 

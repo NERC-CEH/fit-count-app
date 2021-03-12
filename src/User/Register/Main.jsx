@@ -20,21 +20,6 @@ import {
 } from '@apps';
 import config from 'common/config';
 
-const optionsHeardFrom = [
-  'Direct from PoMS (website, Twitter etc.)',
-  'British Trust for Ornithology',
-  'Bumblebee Conservation Trust',
-  'Butterfly Conservation',
-  'Buglife',
-  'Earthwatch',
-  'GrowWild UK',
-  'Jersey Biodiversity Centre',
-  'National Plant Monitoring Scheme',
-  'Not sure, or from multiple sources',
-  'Peterborough Big Bee Count',
-  'Other',
-];
-
 const optionsIdentificationExperience = [
   'I am new to identifying wildlife',
   'I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects',
@@ -115,18 +100,6 @@ class Component extends React.Component {
 
             <SelectWithValidation
               icon={helpCircleOutline}
-              placeholder="How did you hear about FIT Counts?"
-              name="heardFrom"
-              options={optionsHeardFrom}
-              {...formikProps}
-              interfaceProps={{
-                cssClass: 'user-register-alert-styles',
-              }}
-              {...formikProps}
-            />
-
-            <SelectWithValidation
-              icon={helpCircleOutline}
               placeholder="Identification experience"
               name="identificationExperience"
               options={optionsIdentificationExperience}
@@ -182,7 +155,7 @@ class Component extends React.Component {
         <Formik
           validationSchema={schema}
           onSubmit={onSubmit}
-          initialValues={{ happyToBeContacted: true }}
+          initialValues={{ happyToBeContacted: false }}
         >
           {registrationForm}
         </Formik>
