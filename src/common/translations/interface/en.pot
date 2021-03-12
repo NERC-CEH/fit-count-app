@@ -241,10 +241,6 @@ msgid "Waste ground or brownfield site"
 msgstr "Waste ground or brownfield site"
 
 # Survey habitat page values
-msgid "Farm crops or grassy pastures"
-msgstr "Farm crops or grassy pastures"
-
-# Survey habitat page values
 msgid "Woodland"
 msgstr "Woodland"
 

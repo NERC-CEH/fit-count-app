@@ -55,7 +55,6 @@ const habitatValues = [
   { id: -1, value: 'Upland moorland' },
   { id: -1, value: 'Lowland heath' },
   { id: -1, value: 'Waste ground or brownfield site' },
-  { id: -1, value: 'Farm crops or grassy pastures' },
   { id: -1, value: 'Woodland' },
   { id: -1, value: 'Other' },
 ];
