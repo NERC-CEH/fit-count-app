@@ -92,17 +92,6 @@
       @include slide;
       // background: linear-gradient(262deg, #ff7854, #fd267d);
       background: linear-gradient(359deg, #fffcfe, #f9e8ef);
-      .app-logo-wrapper-no-background {
-        position: relative;
-        width: 100%;
-
-        img {
-          display: block;
-          padding: 20px;
-          max-width: 90%;
-          margin: 0 auto;
-        }
-      }
 
       ol {
         list-style: none;
