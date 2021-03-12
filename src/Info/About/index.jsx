@@ -1,8 +1,7 @@
 import React from 'react';
 import appModel from 'models/app';
-import { Page, Main, Section } from '@apps';
+import { Page, Main, Section, Header } from '@apps';
 import { IonList, IonImg, IonRow, IonGrid, IonCol } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
 import { funders, partners } from './partnersAndFundersImages';
 import './styles.scss';
 
@@ -42,11 +41,9 @@ const getSponsorsGrid = sponsorsOrFunders => {
 
 const About = () => (
   <Page id="about">
-    <Main>
-      <h1>
-        <T>About</T>
-      </h1>
+    <Header title="About" />
 
+    <Main>
       <Section>
         <P>
           The Flower-Insect Timed Count (FIT Count) is a 10-minute survey

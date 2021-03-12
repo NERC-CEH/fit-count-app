@@ -21,6 +21,7 @@ import {
   personAddOutline,
   personOutline,
   exitOutline,
+  informationCircleOutline,
 } from 'ionicons/icons';
 import languages from 'common/languages';
 // import countries from 'common/countries';
@@ -94,6 +95,14 @@ class MenuComponent extends React.Component {
             <T>Info</T>
           </IonItemDivider>
           <div className="rounded">
+            <IonItem routerLink="/info/about" detail>
+              <IonIcon
+                icon={informationCircleOutline}
+                size="small"
+                slot="start"
+              />
+              <T>About</T>
+            </IonItem>
             <IonItem
               href={`${baseURL}/privacy-policy`}
               detail
