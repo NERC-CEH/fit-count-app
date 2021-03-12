@@ -11,6 +11,7 @@ import {
   IonToolbar,
   IonButtons,
   IonIcon,
+  IonFooter,
 } from '@ionic/react';
 import Log from 'helpers/log';
 import { arrowForward, closeOutline } from 'ionicons/icons';
@@ -42,6 +43,8 @@ const SplashScreen = ({ appModel }) => {
     // https://github.com/ionic-team/ionic/issues/19638
     e.target.update();
   };
+
+  const slideNext = () => slideRef.current.swiper.slideNext();
 
   return (
     <Page id="welcome-page">
@@ -124,6 +127,18 @@ const SplashScreen = ({ appModel }) => {
           </IonSlide>
         </IonSlides>
       </Main>
+
+      <IonFooter className="ion-no-border">
+        <IonToolbar>
+          <IonButtons slot="end">
+            {showSkip && (
+              <IonButton color="none" onClick={slideNext}>
+                <IonIcon icon={arrowForward} />
+              </IonButton>
+            )}
+          </IonButtons>
+        </IonToolbar>
+      </IonFooter>
     </Page>
   );
 };

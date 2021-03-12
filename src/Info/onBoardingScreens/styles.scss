@@ -29,6 +29,22 @@
     }
   }
 
+  ion-footer {
+    ion-toolbar {
+      --background: transparent;
+      --border-color: transparent;
+
+      ion-button {
+        border-radius: 50%;
+        background: #ffffffcf;
+        color: var(--ion-color-dark);
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+      }
+    }
+  }
+
   ion-slides {
     position: fixed !important;
     top: 0;
