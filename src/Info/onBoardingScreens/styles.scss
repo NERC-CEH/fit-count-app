@@ -55,17 +55,13 @@
 
     ion-slide {
       .message-blur-container {
-        position: absolute;
+        position: relative;
+        top: 70%;
         width: 100%;
-        min-height: 35%;
-        -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        background-color: rgba(255, 255, 255, 0.85);
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(3px);
-        bottom: 0;
-        padding-bottom: 50px;
-        border-radius: 10px 10px 0 0;
+        background-color: (var(--ion-color-primary-tint));
+        max-width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
       }
     }
 
@@ -135,9 +131,10 @@
       font-size: 1.15rem;
       margin-bottom: 5px;
       text-align: left;
-      color: var(--ion-color-dark);
-      max-width: 80%;
-      margin: 20px auto;
+      color: var(--ion-color-primary-contrast);
+      padding: 25px;
+      margin: 0;
+      text-align: center;
     }
 
     .swiper-pagination-bullets {

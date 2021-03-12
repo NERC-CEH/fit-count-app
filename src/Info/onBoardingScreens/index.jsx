@@ -79,11 +79,12 @@ const SplashScreen = ({ appModel }) => {
 
               <div className="message-blur-container">
                 <div className="message">
-                  <h2>Lorrum ipsum</h2>
                   <p>
-                    Vero eos et accusamus et iusto odio dignissimos ducimus qui
-                    blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas m.
+                    <T>
+                      Pollinators are important!
+                      <br />
+                      Help us monitor them with a Flower-Insect Timed Count
+                    </T>
                   </p>
                 </div>
               </div>

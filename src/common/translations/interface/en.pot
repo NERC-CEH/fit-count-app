@@ -759,3 +759,7 @@ msgstr "FIT Count logo"
 # Toast message after successful login
 msgid "Successfully logged in"
 msgstr "Successfully logged in"
+
+# Onboarding content
+msgid "Pollinators are important!<br/>Help us monitor them with a Flower-Insect Timed Count"
+msgstr "Pollinators are important!<br/>Help us monitor them with a Flower-Insect Timed Count"
