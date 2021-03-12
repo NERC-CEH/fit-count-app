@@ -625,6 +625,18 @@ msgid "Graphics:"
 msgstr "Graphics:"
 
 # Credits page content
+msgid "Team members of the following projects"
+msgstr "Team members of the following projects"
+
+# Credits page content
+msgid "Photos of flowers and insects by:"
+msgstr "Photos of flowers and insects by:"
+
+# Credits page content
+msgid "Thanks to the following for additional photos"
+msgstr "Thanks to the following for additional photos"
+
+# Credits page content
 msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
 msgstr "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
 

@@ -13,7 +13,7 @@ const Credits = () => (
         <P>We are grateful to all the people who helped to create this app:</P>
 
         <P skipTranslation>
-          <ul>
+          <ul className="disable-bullet-points">
             <li>
               <b>Claire Carvell</b> (UKCEH)
             </li>
@@ -35,10 +35,42 @@ const Credits = () => (
           </ul>
         </P>
 
+        <P skipTranslation>
+          <T>Team members of the following projects</T>:
+          <ul>
+            <li>UK Pollinator Monitoring Scheme (UK PoMS)</li>
+            <li>
+              Safeguarding pollinators and pollination services in a changing
+              world (SURPASS2)
+            </li>
+            <li>Pollinator Monitoring Scheme – Kýpros (PoMS-Ký)</li>
+          </ul>
+        </P>
+
         <div className="list-background">
           <H>Graphics:</H>
           <P skipTranslation>
-            <T>FIT Count logo</T>: <b>Heather Harris</b> (UKCEH)
+            <T>FIT Count logo</T>: Heather Harris (UKCEH)
+          </P>
+
+          <P skipTranslation>
+            <T>Photos of flowers and insects by:</T>
+            <ul>
+              <li>Martin Harvey</li>
+              <li>Nadine Mitschunas</li>
+            </ul>
+          </P>
+
+          <P skipTranslation>
+            <T>Thanks to the following for additional photos</T>:
+            <ul>
+              <li>Aiwok via Wikimedia (solitary bee)</li>
+              <li>Gail Hampshire via Wikimedia (solitary wasp)</li>
+              <li>Gilles San Martin vias Wikispecies (Buddleja)</li>
+              <li>Malcolm Storey via BioImages (honeybee)</li>
+              <li>Peter O'Connor via Flickr CC (Hogweed)</li>
+              <li>Trounce via Wikimedia (wasp)</li>
+            </ul>
           </P>
 
           <P>
