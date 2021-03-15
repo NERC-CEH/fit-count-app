@@ -818,10 +818,6 @@ msgid "Using the timer in the app, spend ten minutes counting all insects that l
 msgstr "Using the timer in the app, spend ten minutes counting all insects that land on the target flowers (ignore other flowers, and do your best to count each individual insect once only!)."
 
 # How To page content
-msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as "other insects"."
-msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as "other insects"."
-
-# How To page content
 msgid "Fill in some simple weather details."
 msgstr "Fill in some simple weather details."
 
@@ -833,15 +829,414 @@ msgstr "Save your count, and upload it to the website."
 msgid "Further information and guides are available at"
 msgstr "Further information and guides are available at"
 
-
 # How To page content
 msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
 msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
 
-# Context term
+# How To page content
 msgid "\"Good weather\" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
 msgstr "\"Good weather\" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
 
-# Context term
+# Bumblebee screen 1 content
 msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\"."
 msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\"."
+
+# Bumblebee screen 1 content
+msgid "Very hairy / fluffy bees"
+msgstr "Very hairy / fluffy bees"
+
+# Bumblebee screen 1 content
+msgid "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers"
+msgstr "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers"
+
+# Bumblebee screen 1 content
+msgid "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over"
+msgstr "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over"
+
+# Bumblebee screen 1 content
+msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
+msgstr "Eyes cover the sides of the head, with lots of hair between the eyes"
+
+# Bumblebee screen 1 content
+msgid "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees."
+msgstr "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees."
+
+# Bumblebee screen 1 content
+msgid "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK."
+msgstr "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK."
+
+# Bumblebee screen 2 content
+msgid "Queen and worker bumblebees collect pollen into a moistened ball on the outside of the hind legs"
+msgstr "Queen and worker bumblebees collect pollen into a moistened ball on the outside of the hind legs"
+
+# Bumblebee screen 2 content
+msgid "This bumblebee is one of the species that are more-or-less ginger-coloured all over"
+msgstr "This bumblebee is one of the species that are more-or-less ginger-coloured all over"
+
+# Bumblebee screen 2 content
+msgid "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar."
+msgstr "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar."
+
+# Honeybees screen 1 content
+msgid "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. "
+msgstr "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. "
+
+# Honeybees screen 1 content
+msgid "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild."
+msgstr "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild."
+
+# Honeybees screen 2 content
+msgid "Male honeybees (drones) are similar but have much larger eyes."
+msgstr "Male honeybees (drones) are similar but have much larger eyes."
+
+# Solitary bees screen 1 content
+msgid "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. "
+msgstr "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. "
+
+# Solitary bees screen 1 content
+msgid "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
+
+# Solitary bees screen 1 content
+msgid "Usually quite elongate in shape (but there is lots of variety)"
+msgstr "Usually quite elongate in shape (but there is lots of variety)"
+
+# Solitary bees screen 1 content
+msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
+msgstr "Usually hairy, but often less densely covered in hairs than bumblebees"
+
+# Solitary bees screen 1 content
+msgid "Colours usually more subdued and less contrasting than bumblebees"
+msgstr "Colours usually more subdued and less contrasting than bumblebees"
+
+# Solitary bees screen 1 content
+msgid "Long antennae, often held straight out in front"
+msgstr "Long antennae, often held straight out in front"
+
+# Solitary bees screen 1 content
+msgid "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees"
+msgstr "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees"
+
+# Solitary bees screen 2 content
+msgid "Some solitary bees collect dry pollen into a pollen basket at the base of the hind legs (see the mining bee on the left above)"
+msgstr "Some solitary bees collect dry pollen into a pollen basket at the base of the hind legs (see the mining bee on the left above)"
+
+# Solitary bees screen 2 content
+msgid "Others have the pollen basket underneath their abdomen (see the leafcutter bee on the right above)"
+msgstr "Others have the pollen basket underneath their abdomen (see the leafcutter bee on the right above)"
+
+# Solitary bees screen 2 content
+msgid "Solitary bees generally nest in burrows or holes. One large group, the mining bees, dig burrows into soil. Another group, including the mason bees and leafcutter bees, make use of holes in wood, plants or walls."
+msgstr "Solitary bees generally nest in burrows or holes. One large group, the mining bees, dig burrows into soil. Another group, including the mason bees and leafcutter bees, make use of holes in wood, plants or walls."
+
+# Solitary bees screen 3 content
+msgid "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above."
+msgstr "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above."
+
+# Solitary bees screen 3 content
+msgid "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!"
+msgstr "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!"
+
+# Solitary bees screen 3 content
+msgid "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+msgstr "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+
+# Solitary bees screen 3 content
+msgid "The nomad bees (genus Nomada) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
+msgstr "The nomad bees (genus Nomada) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
+
+# Solitary bees screen 3 content
+msgid "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at around 4mm long"
+msgstr "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at around 4mm long"
+
+# Solitary bees screen 3 content
+msgid "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
+msgstr "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
+
+# Wasps screen 1 content
+msgid "Long antennae (distinguishes them from most flies)"
+msgstr "Long antennae (distinguishes them from most flies)"
+
+# Wasps screen 1 content
+msgid "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees"
+msgstr "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees"
+
+# Wasps screen 1 content
+msgid "Social wasps and some of the solitary species have bold back and yellow stripes"
+msgstr "Social wasps and some of the solitary species have bold back and yellow stripes"
+
+# Wasps screen 1 content
+msgid "Some wasps have their wings rolled up when at rest"
+msgstr "Some wasps have their wings rolled up when at rest"
+
+# Wasps screen 1 content
+msgid "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+msgstr "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+
+# Wasps screen 1 content
+msgid "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above."
+msgstr "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above."
+
+# Wasps screen 2 content
+msgid "Many solitary wasps have a distinctive broad, boxy head shape"
+msgstr "Many solitary wasps have a distinctive broad, boxy head shape"
+
+# Wasps screen 2 content
+msgid "Some have typical black and yellow wasp stripes"
+msgstr "Some have typical black and yellow wasp stripes"
+
+# Wasps screen 2 content
+msgid "Others may be black and red, or all black as in this example"
+msgstr "Others may be black and red, or all black as in this example"
+
+# Wasps screen 2 content
+msgid "There is a lot of variation in size, shape and markings among the solitary wasps. They are usually not obviously hairy, and since they do not collect pollen they have no pollen basket (although pollen may become stuck to their bodies)."
+msgstr "There is a lot of variation in size, shape and markings among the solitary wasps. They are usually not obviously hairy, and since they do not collect pollen they have no pollen basket (although pollen may become stuck to their bodies)."
+
+# Wasps screen 2 content
+msgid "Solitary wasps generally nest in burrows or holes, in a similar manner to the solitary bees."
+msgstr "Solitary wasps generally nest in burrows or holes, in a similar manner to the solitary bees."
+
+# Wasps screen 3 content
+msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
+msgstr "Many parasitic wasps are very long and thin, with a tiny wasp waist"
+
+# Wasps screen 3 content
+msgid "The majority of species have very long antennae, made up of lots of individual segments"
+msgstr "The majority of species have very long antennae, made up of lots of individual segments"
+
+# Wasps screen 3 content
+msgid "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in some species this is very long"
+msgstr "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in some species this is very long"
+
+# Wasps screen 3 content
+msgid "Colours are usually a mix of black and red or yellow – some species are all-black"
+msgstr "Colours are usually a mix of black and red or yellow – some species are all-black"
+
+# Wasps screen 3 content
+msgid "There are many different parasitic wasps, some of which visit flowers for nectar. Two examples are shown above."
+msgstr "There are many different parasitic wasps, some of which visit flowers for nectar. Two examples are shown above."
+
+# Wasps screen 3 content
+msgid "Parasitic wasps lay their eggs into other invertebrates, or their nests, and the larvae of the wasps consume the host invertebrate."
+msgstr "Parasitic wasps lay their eggs into other invertebrates, or their nests, and the larvae of the wasps consume the host invertebrate."
+
+# Hoverflies screen 1 content
+msgid "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females"
+msgstr "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females"
+
+# Hoverflies screen 1 content
+msgid "Most hoverflies have much shorter antennae than bees and wasps"
+msgstr "Most hoverflies have much shorter antennae than bees and wasps"
+
+# Hoverflies screen 1 content
+msgid "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing"
+msgstr "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing"
+
+# Hoverflies screen 1 content
+msgid "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns"
+msgstr "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns"
+
+# Hoverflies screen 1 content
+msgid "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)"
+msgstr "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)"
+
+# Hoverflies screen 1 content
+msgid "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. "
+msgstr "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. "
+
+# Hoverflies screen 1 content
+msgid "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK."
+
+# Hoverflies screen 2 content
+msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
+msgstr "Drone-fly hoverflies have much shorter antennae than honeybees"
+
+# Hoverflies screen 2 content
+msgid "The eyes cover more of the head"
+msgstr "The eyes cover more of the head"
+
+# Hoverflies screen 2 content
+msgid "The back legs are much narrower than the broad flattened legs of honeybees"
+msgstr "The back legs are much narrower than the broad flattened legs of honeybees"
+
+# Hoverflies screen 2 content
+msgid "The typical ‘false margin’ wing vein is present"
+msgstr "The typical ‘false margin’ wing vein is present"
+
+# Hoverflies screen 2 content
+msgid "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip of the wing"
+msgstr "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip of the wing"
+
+# Hoverflies screen 2 content
+msgid "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above."
+msgstr "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above."
+
+# Hoverflies screen 2 content
+msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae"
+msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae"
+
+# Hoverflies screen 3 content
+msgid "A few species have extended ‘noses’ – this one is Rhingia campestris, a widespread species with a distinctive grey and orange colour"
+msgstr "A few species have extended ‘noses’ – this one is Rhingia campestris, a widespread species with a distinctive grey and orange colour"
+
+# Hoverflies screen 3 content
+msgid "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!"
+msgstr "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!"
+
+# Hoverflies screen 3 content
+msgid "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies"
+msgstr "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies"
+
+# Other flies screen 1 content
+msgid "This is a dance fly (family Empididae)"
+msgstr "This is a dance fly (family Empididae)"
+
+# Other flies screen 1 content
+msgid "Many dance flies have a long thin proboscis under the head"
+msgstr "Many dance flies have a long thin proboscis under the head"
+
+# Other flies screen 1 content
+msgid "Many dance flies have a distinctly humped thorax"
+msgstr "Many dance flies have a distinctly humped thorax"
+
+# Other flies screen 1 content
+msgid "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on hogweed and related flowers"
+msgstr "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on hogweed and related flowers"
+
+# Other flies screen 1 content
+msgid "The abdomen is broader and flatter than in hoverflies"
+msgstr "The abdomen is broader and flatter than in hoverflies"
+
+# Other flies screen 1 content
+msgid "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing"
+msgstr "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing"
+
+# Other flies screen 1 content
+msgid "There are many different flies that you may see visiting flowers – for PoMS all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
+msgstr "There are many different flies that you may see visiting flowers – for PoMS all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
+
+# Other flies screen 2 content
+msgid "This is a parasitic fly from family Tachinidae"
+msgstr "This is a parasitic fly from family Tachinidae"
+
+# Other flies screen 2 content
+msgid "It has prominent bristles on the abdomen"
+msgstr "It has prominent bristles on the abdomen"
+
+# Other flies screen 2 content
+msgid "This is the Yellow Dung-fly (family Scathophagidae)"
+msgstr "This is the Yellow Dung-fly (family Scathophagidae)"
+
+# Other flies screen 2 content
+msgid "It has bristles on the body and legs, and the males in particular have fluffy yellow hairs on the body"
+msgstr "It has bristles on the body and legs, and the males in particular have fluffy yellow hairs on the body"
+
+# Other flies screen 2 content
+msgid "Some of the larger flies that you will see on flowers are from ‘calypterate’ families, most of which are rather rounded insects with obvious bristles on the legs and body."
+msgstr "Some of the larger flies that you will see on flowers are from ‘calypterate’ families, most of which are rather rounded insects with obvious bristles on the legs and body."
+
+# Butterflies and moths 1 screen content
+msgid "Small Tortoiseshell butterfly"
+msgstr "Small Tortoiseshell butterfly"
+
+# Butterflies and moths 1 screen content
+msgid "Common Blue butterfly"
+msgstr "Common Blue butterfly"
+
+# Butterflies and moths 1 screen content
+msgid "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
+msgstr "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
+
+# Butterflies and moths 1 screen content
+msgid "For PoMS there is no need to distinguish between butterflies and moths – they are all counted in the same category."
+msgstr "For PoMS there is no need to distinguish between butterflies and moths – they are all counted in the same category."
+
+# Butterflies and moths 2 screen content
+msgid "Six-spot Burnet moth (a macro-moth)"
+msgstr "Six-spot Burnet moth (a macro-moth)"
+
+# Butterflies and moths 2 screen content
+msgid "Nettle-tap moth (a micro-moth)"
+msgstr "Nettle-tap moth (a micro-moth)"
+
+# Butterflies and moths 2 screen content
+msgid "A range of day-flying moths can be seen visiting flowers. Some of these are quite large (“macro-moths”) and colourful, and some are very small (“micro-moths”). All moths have patterns and colours produced by the tiny scales on their wings."
+msgstr "A range of day-flying moths can be seen visiting flowers. Some of these are quite large (“macro-moths”) and colourful, and some are very small (“micro-moths”). All moths have patterns and colours produced by the tiny scales on their wings."
+
+# Beetles 1 screen content
+msgid "Beetles have forewings that have become hardened and act as covers for the softer hindwings and abdomen"
+msgstr "Beetles have forewings that have become hardened and act as covers for the softer hindwings and abdomen"
+
+# Beetles 1 screen content
+msgid "Beetles have chewing mouthparts"
+msgstr "Beetles have chewing mouthparts"
+
+# Beetles 1 screen content
+msgid "This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which the males have distinctive thickened hind legs"
+msgstr "This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which the males have distinctive thickened hind legs"
+
+# Beetles 1 screen content
+msgid "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen."
+msgstr "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen."
+
+# Beetles 2 screen content
+msgid "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer"
+msgstr "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer"
+
+# Beetles 2 screen content
+msgid "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae live in decaying wood"
+msgstr "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae live in decaying wood"
+
+# Beetles 2 screen content
+msgid "Above are two more examples of beetles that regularly visit flowers."
+msgstr "Above are two more examples of beetles that regularly visit flowers."
+
+# Small insect 1 screen content
+msgid "This example shows a flower with many pollen beetles (family Nitidulidae) – other “small insects” may include tiny flies and parasitic wasps"
+msgstr "This example shows a flower with many pollen beetles (family Nitidulidae) – other “small insects” may include tiny flies and parasitic wasps"
+
+# Small insect 1 screen content
+msgid "This category is for any insects under 3mm long. These can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category."
+msgstr "This category is for any insects under 3mm long. These can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category."
+
+# Other insect 1 screen content
+msgid "Other insects you may see include sawflies, which come in a variety of colours and sizes - some look rather like wasps"
+msgstr "Other insects you may see include sawflies, which come in a variety of colours and sizes - some look rather like wasps"
+
+# Other insect 1 screen content
+msgid "They do not have a “wasp waist” – there is no gap between the abdomen and thorax"
+msgstr "They do not have a “wasp waist” – there is no gap between the abdomen and thorax"
+
+# Other insect 1 screen content
+msgid "Sawflies are not hairy and do not have a pollen basket"
+msgstr "Sawflies are not hairy and do not have a pollen basket"
+
+# Other insect 1 screen content
+msgid "They are usually quite slow-moving, with a weaker flight than bees or wasps"
+msgstr "They are usually quite slow-moving, with a weaker flight than bees or wasps"
+
+# Other insect 1 screen content
+msgid "This category is for any insects that don’t fit into the other insect groups, and can also be used for any insects that you can’t identify into a group at all. Please count all the insects you see, and use “other insects” for any that you don’t recognise. For example, sawflies are counted as “other insects”. Sawflies are related to bees and wasps but there are a number of differences."
+msgstr "This category is for any insects that don’t fit into the other insect groups, and can also be used for any insects that you can’t identify into a group at all. Please count all the insects you see, and use “other insects” for any that you don’t recognise. For example, sawflies are counted as “other insects”. Sawflies are related to bees and wasps but there are a number of differences."
+
+# Other insect 2 screen content
+msgid "True bugs have wings that overlap, so there is no clear midline along the abdomen – the wings form a X-shape"
+msgstr "True bugs have wings that overlap, so there is no clear midline along the abdomen – the wings form a X-shape"
+
+# Other insect 2 screen content
+msgid "Some bugs have a more-or-less triangular “scutellum” covering part of the abdomen, and adding to the X-shape effect"
+msgstr "Some bugs have a more-or-less triangular “scutellum” covering part of the abdomen, and adding to the X-shape effect"
+
+# Other insect 2 screen content
+msgid "True bugs have sucking mouthparts, with a long proboscis or rostrum (but this is usually hidden away underneath the bug)"
+msgstr "True bugs have sucking mouthparts, with a long proboscis or rostrum (but this is usually hidden away underneath the bug)"
+
+# Other insect 2 screen content
+msgid "Some bugs are very colourful, while others are shades or green or brown"
+msgstr "Some bugs are very colourful, while others are shades or green or brown"
+
+# Other insect 2 screen content
+msgid "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles."
+msgstr "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles.

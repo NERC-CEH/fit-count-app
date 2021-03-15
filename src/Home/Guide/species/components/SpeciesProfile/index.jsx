@@ -124,7 +124,9 @@ class SpeciesProfile extends React.Component {
 
     return (
       <>
-        <div className="species-card-content">{extraText}</div>
+        <div className="species-card-content">
+          <T>{extraText}</T>
+        </div>
       </>
     );
   };
@@ -136,7 +138,9 @@ class SpeciesProfile extends React.Component {
 
     return (
       <>
-        <div className="species-card-content">{introText}</div>
+        <div className="species-card-content">
+          <T>{introText}</T>
+        </div>
       </>
     );
   };
