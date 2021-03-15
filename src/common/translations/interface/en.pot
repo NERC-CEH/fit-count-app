@@ -800,9 +800,6 @@ msgstr "FIT Counts take about 10–15 minutes, during which you are asked to cou
 msgid "You can complete a FIT Count in good weather between 1 April and 30 September."
 msgstr "You can complete a FIT Count in good weather between 1 April and 30 September."
 
-# How To page content
-msgid ""Good weather" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
-msgstr ""Good weather" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
 
 # How To page content
 msgid "Choose just one type of flower as your target flower - where possible use one of the FIT Count target flowers, but if you can't find one from the list you can choose a different flower as the target."
@@ -836,10 +833,15 @@ msgstr "Save your count, and upload it to the website."
 msgid "Further information and guides are available at"
 msgstr "Further information and guides are available at"
 
-# How To page content
-msgid "Good weather is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
-msgstr "Good weather is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
 
 # How To page content
 msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
 msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
+
+# Context term
+msgid "\"Good weather\" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+msgstr "\"Good weather\" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+
+# Context term
+msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\"."
+msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\"."

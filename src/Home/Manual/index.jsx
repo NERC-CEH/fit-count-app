@@ -35,8 +35,8 @@ const Manual = () => (
             </li>
             <li>
               <T>
-                Good weather is dry, and with temperature at least 13°C in sunny
-                conditions, or at least 15°C when cloudy.
+                "Good weather" is dry, and with temperature at least 13°C in
+                sunny conditions, or at least 15°C when cloudy.
               </T>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Manual = () => (
               <T>
                 Identify the insects into their broad groups (bumblebees,
                 hoverflies etc.) – any that you don't recognise should be
-                counted as other insects.
+                counted as "other insects".
               </T>
             </li>
             <li>
