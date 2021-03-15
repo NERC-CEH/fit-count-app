@@ -77,7 +77,7 @@ msgstr ""
 
 # About page content
 msgid "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
-msgstr ""
+msgstr "I gael rhagor o wybodaeth am PoMS ewch i: <2>ukpoms.org.uk</2>"
 
 # About page content
 msgid "Partners:"
@@ -126,7 +126,7 @@ msgstr ""
 
 # Credits page content
 msgid "We are grateful to all the people who helped to create this app:"
-msgstr ""
+msgstr "Rydyn ni'n ddiolchgar i bawb a helpodd i greu'r ap hwn:"
 
 # Onboarding Page button label
 msgid "Got it!"
@@ -138,7 +138,7 @@ msgstr "Canllaw Adnabod"
 
 # ID Guide segment label
 msgid "Insect Groups"
-msgstr ""
+msgstr "Grwpiau Pryfed"
 
 # ID Guide segment label
 msgid "Flowers"
@@ -218,10 +218,17 @@ msgid ""
 "location.</p><p>Your count results will be visible to others at the 1 km "
 "square level via the UKPoMS website.</p></3>"
 msgstr ""
+"Defnyddiwch y map i weld yn agosach a thapiwch ar eich "
+"<1>lleoliad</1>.<3><p>Gall eich lleoliad fod unrhyw le ble mae blodau i "
+"ddenu pryfed peillio, ble mae gennych ganiatâd i fod, a ble mae'n ddiogel "
+"mynd iddo.</p><p>Mae gardd neu barc, fferm neu warchodfa natur i gyd yn "
+"lleoliadau da iawn ar gyfer Cyfrifon FIT.</p><p>Chwyddwch y map i weld y man"
+" sy'n cyfateb orau i'ch lleoliad chi.</p><p>Bydd pobl eraill yn gallu gweld "
+"canlyniadau eich cyfrif ar y lefel 1 km sgwâr drwy wefan UKPoMS.</p></3>"
 
 # Survey Location alert messag
 msgid "Please select a more accurate location"
-msgstr ""
+msgstr "Dewiswch leoliad mwy manwl"
 
 # Survey content
 msgid "Next"
@@ -960,23 +967,26 @@ msgstr "Roedd manylion y defnyddiwr yn anghywir."
 
 # How To page content
 msgid "How To"
-msgstr ""
+msgstr "Sut i Wneud"
 
 # How To page content
 msgid "FIT Count quick guide"
-msgstr ""
+msgstr "Canllaw cyflym i'r Cyfrif FIT"
 
 # How To page content
 msgid ""
 "FIT Counts take about 10–15 minutes, during which you are asked to count "
 "every insect that lands on the flowers of your chosen target flower species."
 msgstr ""
+"Mae Cyfrifon FIT yn cymryd tua 10-15 munud i'w cwblhau, ac yn ystod yr amser"
+" hwn mae gofyn i chi gyfrif pob pryfyn sy'n glanio ar y blodau a ddewisoch "
+"fel rhywogaeth darged o flodau."
 
 # How To page content
 msgid ""
 "You can complete a FIT Count in good weather between 1 April and 30 "
 "September."
-msgstr ""
+msgstr "Gallwch wneud Cyfrif FIT mewn tywydd da rhwng 1 Ebrill a 30 Medi."
 
 # How To page content
 msgid ""
@@ -984,16 +994,21 @@ msgid ""
 "one of the FIT Count target flowers, but if you can't find one from the list"
 " you can choose a different flower as the target."
 msgstr ""
+"Dewiswch ddim ond un math o flodyn fel blodyn targed - lle bo modd "
+"defnyddiwch un o flodau targed y Cyfrif FIT, ond os na allwch ddod o hyd i "
+"un o'r rhestr, gallwch ddewis blodyn gwahanol fel targed."
 
 # How To page content
 msgid "Mark out a 50 × 50 cm patch containing your target."
-msgstr ""
+msgstr "Marciwch lain 50 x 50 cm yn cynnwys eich targed."
 
 # How To page content
 msgid ""
 "Count the number of individual flowers for your target species that are "
 "within your patch."
 msgstr ""
+"Cyfrifwch nifer y blodau unigol o'ch rhywogaeth darged sydd o fewn eich "
+"llain chi."
 
 # How To page content
 msgid ""
@@ -1001,62 +1016,80 @@ msgid ""
 " on the target flowers (ignore other flowers, and do your best to count each"
 " individual insect once only!)."
 msgstr ""
+"Gan ddefnyddio'r amserydd yn yr ap, treuliwch ddeng munud yn cyfrif pob "
+"pryfyn sy'n glanio ar y blodau targed (anwybyddwch flodau eraill, a gwnewch "
+"eich gorau i gyfrif pob un pryfyn unigol unwaith yn unig!)"
 
 # How To page content
 msgid "Fill in some simple weather details."
-msgstr ""
+msgstr "Rhowch fanylion syml am y tywydd."
 
 # How To page content
 msgid "Save your count, and upload it to the website."
-msgstr ""
+msgstr "Arbedwch eich cyfrif a'i lwytho i fyny i'r wefan."
 
 # How To page content
 msgid "Further information and guides are available at"
-msgstr ""
+msgstr "Mae rhagor o wybodaeth a canllawiau i'w cael yn"
 
 # How To page content
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as other insects."
 msgstr ""
+"Rhannwch y pryfed yn ôl eu grwpiau bras (cacwn, pryfed hofran, ayb.) – "
+"dylech gyfrif unrhyw rai na allwch eu hadnabod fel pryfed eraill."
 
 # How To page content
 msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
 msgstr ""
+"\"Tywydd da\" yw tywydd sych ble mae'r tymheredd yn 13°C o leiaf pan mae'n "
+"heulog, neu'n 15°C o leiaf pan mae'n gymylog."
 
 # Bumblebee screen 1 content
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
+"Rhannwch y pryfed yn ôl eu grwpiau bras (cacwn, pryfed hofran, ayb.) – "
+"dylech gyfrif unrhyw rai na allwch eu hadnabod fel \"pryfed eraill\"."
 
 # Bumblebee screen 1 content
 msgid "Very hairy / fluffy bees"
-msgstr ""
+msgstr "Gwenyn blewog / fflwffog iawn"
 
 # Bumblebee screen 1 content
 msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
 msgstr ""
+"Siâp crwn, globylog bron, gyda'r gynffon wedi'i 'phlygu oddi tani' yn aml "
+"wrth ymweld â blodau"
 
 # Bumblebee screen 1 content
 msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
 msgstr ""
+"Mae gan lawer o rywogaethau fandiau lliw gwrthgyferbyniol syml (melyn, gwyn,"
+" du), a gall eraill fod yn oren drostynt i gyd"
 
 # Bumblebee screen 1 content
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
+"Mae'r llygaid yn gorchuddio ochrau'r pen, ac mae llawer o flew rhwng y "
+"llygaid"
 
 # Bumblebee screen 1 content
 msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
+"Mae cacwn yn wenyn blewog a chrwn iawn. Mae'r frenhines yn un o'n gwenyn "
+"mwyaf; gall y gweithwyr fod yn eithaf bach, ond maent yn fwy na'r rhan fwyaf"
+" o wenyn unig."
 
 # Bumblebee screen 1 content
 msgid ""
@@ -1069,80 +1102,105 @@ msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
 msgstr ""
+"Mae brenhines a gweithwyr y cacwn yn casglu paill yn belen, yn gwlychu'r "
+"belen ac yn ei chario ar du allan eu coesau ôl"
 
 # Bumblebee screen 2 content
 msgid ""
 "This bumblebee is one of the species that are more-or-less ginger-coloured "
 "all over"
 msgstr ""
+"Mae'r gacynen hon yn aelod o'r rhywogaeth sydd fwy neu lai yn oren drostynt "
+"i gyd"
 
 # Bumblebee screen 2 content
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
 msgstr ""
+"Mae cacwn gwrywaidd yn debyg o ran edrychiad i'r benywod, ond mae eu "
+"teimlyddion ychydig yn hirach, ac nid ydynt yn casglu paill. Maent yn ymweld"
+" â blodau i fwydo ar neithdar."
 
 # Honeybees screen 1 content
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
 msgstr ""
+"Mae gwenyn mêl yn fwy na'r rhan fwyaf (ond nid pob un) o wenyn unig, ac "
+"maent yn llai na'r rhan fwyaf o gacwn."
 
 # Honeybees screen 1 content
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"Dim ond un rhywogaeth o wenyn mêl sydd i'w chael yn y Deyrnas Unedig. Maent "
+"yn nythu mewn cychod gwenyn gwneud, ac mae ambell i nyth yn sefydlu yn y "
+"gwyllt."
 
 # Honeybees screen 2 content
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
+"Mae gwenyn mêl gwrywaidd (gwenyn gormes) yn debyg ond mae eu llygaid yn "
+"llawer mwy."
 
 # Solitary bees screen 1 content
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
+"Mae gwenyn unig yn llai crwn na chacwn, ac mae'r rhan fwyaf yn llai na "
+"chacwn a gwenyn mêl hefyd."
 
 # Solitary bees screen 1 content
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
+"Mae gwenyn unig yn hedfan yn actif rhwng blodau, a weithiau maent yn gorwedd"
+" yn yr haul. Nid yw'r rhan fwyaf o rywogaethau yn hofran. Mae tua 250 o "
+"rywogaethau yn y Deyrnas Unedig."
 
 # Solitary bees screen 1 content
 msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr ""
+msgstr "Fel arfer yn eithaf hir ei siâp (ond maent yn amrywio'n fawr)"
 
 # Solitary bees screen 1 content
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr ""
+msgstr "Fel arfer y flewog, ond yn aml mae'r blew yn llai trwchus na chacwn"
 
 # Solitary bees screen 1 content
 msgid "Colours usually more subdued and less contrasting than bumblebees"
-msgstr ""
+msgstr "Lliwiau fel arfer yn wannach na chacwn gyda llai o wrthgyferbyniad"
 
 # Solitary bees screen 1 content
 msgid "Long antennae, often held straight out in front"
-msgstr ""
+msgstr "Teimlyddion hir, yn aml yn pwyntio'n syth allan"
 
 # Solitary bees screen 1 content
 msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
 msgstr ""
+"Yn llai na brenhines cacwn, ond mae'r rhai unig mwyaf yn fwy na gweithwyr "
+"cacwn bach"
 
 # Solitary bees screen 2 content
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
 msgstr ""
+"Mae rhai gwenyn unig yn casglu paill sych mewn basged paill ar waelod y "
+"coesau ôl (gweler y wenynen durio uchod ar y chwith)"
 
 # Solitary bees screen 2 content
 msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
 msgstr ""
+"Mae gan eraill fasged baill o dan yr abdomen (gweler y wenynen ddeildorrol "
+"uchod ar y dde)"
 
 # Solitary bees screen 2 content
 msgid ""
@@ -1150,18 +1208,26 @@ msgid ""
 "mining bees, dig burrows into soil. Another group, including the mason bees "
 "and leafcutter bees, make use of holes in wood, plants or walls."
 msgstr ""
+"Ar y cyfan mae gwenyn unig yn nythu mewn tyllau. Mae un grŵp mawr, y gwenyn "
+"turio, yn gwneud tyllau yn y pridd. Mae grŵp arall, yn cynnwys y saerwenyn "
+"a'r gwenyn deildorrol, yn defnyddio tyllau mewn pren, planhigion neu waliau."
 
 # Solitary bees screen 3 content
 msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
 msgstr ""
+"Ymysg y rhywogaethau niferus o wenyn unig, mae llawer o amrywiaeth o ran "
+"maint, lliw a pha mor flewog maen nhw. Mae rhai enghreifftiau i'w gweld "
+"isod."
 
 # Solitary bees screen 3 content
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
 msgstr ""
+"Does dim angen i chi adnabod y rhywogaethau unigol i wneud Cyfrif FIT. Mae "
+"pob un yn cael ei gyfrif fel “gwenynen unig”!"
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1587,4 +1653,29 @@ msgid ""
 "True bugs do not often visit flowers but you may encounter them "
 "occasionally, and if so they are counted in the “other insects” category. "
 "They are sometimes confused with beetles."
+msgstr ""
+
+# Survey Start Count alert message
+msgid "The timer will now start!"
+msgstr ""
+
+# Survey Start Count alert message
+msgid ""
+"Count every insect that lands on the target flowers (count each individual "
+"once)."
+msgstr ""
+
+# Survey Start Count alert message
+msgid ""
+"Tap the insect images to increase your count (minus buttons will decrease "
+"the count)."
+msgstr ""
+
+# Survey Start Count alert message
+msgid ""
+"If you don't know which insect group, add to the \"Other insects\" category"
+msgstr ""
+
+# Survey Start Count alert message
+msgid "Start Count"
 msgstr ""

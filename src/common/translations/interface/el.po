@@ -1501,3 +1501,28 @@ msgid ""
 "occasionally, and if so they are counted in the “other insects” category. "
 "They are sometimes confused with beetles."
 msgstr ""
+
+# Survey Start Count alert message
+msgid "The timer will now start!"
+msgstr ""
+
+# Survey Start Count alert message
+msgid ""
+"Count every insect that lands on the target flowers (count each individual "
+"once)."
+msgstr ""
+
+# Survey Start Count alert message
+msgid ""
+"Tap the insect images to increase your count (minus buttons will decrease "
+"the count)."
+msgstr ""
+
+# Survey Start Count alert message
+msgid ""
+"If you don't know which insect group, add to the \"Other insects\" category"
+msgstr ""
+
+# Survey Start Count alert message
+msgid "Start Count"
+msgstr ""
