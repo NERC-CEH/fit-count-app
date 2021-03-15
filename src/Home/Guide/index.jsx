@@ -50,7 +50,11 @@ class Guide extends React.Component {
   };
 
   getListGrid = flowersOrInsectsData => {
-    const speciesColumns = flowersOrInsectsData.map(this.getGridCell);
+    const bySortId = (a, b) => a.sort - b.sort;
+
+    const speciesColumns = flowersOrInsectsData
+      .sort(bySortId)
+      .map(this.getGridCell);
 
     return (
       <IonGrid>
