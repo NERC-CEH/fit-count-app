@@ -2,7 +2,7 @@
   {
     "id": "honeybees",
     "picture": "Honeybee_1.jpg",
-    "intro_text": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. Look out for:",
+    "intro_text": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. ",
     "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
     "caption_2": "Eyes covering the sides of the head",
     "caption_3": "Hind legs broad and flattened",
@@ -19,7 +19,7 @@
   {
     "id": "bumblebees",
     "picture": "Bumblebee_1.jpg",
-    "intro_text": "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees. Look out for:",
+    "intro_text": "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees.",
     "caption_1": "Very hairy / fluffy bees",
     "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
     "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
@@ -37,13 +37,13 @@
   {
     "id": "solitaryBees",
     "picture": "Solitary_bees_1.jpg",
-    "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. Look out for:",
+    "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. ",
     "caption_1": "Usually quite elongate in shape (but there is lots of variety)",
     "caption_2": "Usually hairy, but often less densely covered in hairs than bumblebees",
     "caption_3": "Colours usually more subdued and less contrasting than bumblebees",
     "caption_4": "Long antennae, often held straight out in front",
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
-    "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 275 species in the UK."
+    "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
   },
   {
     "id": "solitaryBees",
@@ -55,8 +55,8 @@
   {
     "id": "solitaryBees",
     "picture": "Solitary_bees_3.jpg",
-    "intro_text": "Among the 275 species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Here are some examples:",
-    "caption_1": "The Ashy Mining Bee (Andrena cineraria) has black and grey stripes",
+    "intro_text": "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above.",
+    "caption_1": "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes",
     "caption_2": "The nomad bees (genus Nomada) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours",
     "caption_3": "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at around 4mm long",
     "caption_4": "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen",
@@ -65,7 +65,7 @@
   {
     "id": "wasps",
     "picture": "Wasps_1.jpg",
-    "intro_text": "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above. Look out for:",
+    "intro_text": "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above. ",
     "caption_1": "Long antennae (distinguishes them from most flies)",
     "caption_2": "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees",
     "caption_3": "Social wasps and some of the solitary species have bold back and yellow stripes",
@@ -84,7 +84,7 @@
   {
     "id": "wasps",
     "picture": "Wasps_3.jpg",
-    "intro_text": "There are many different parasitic wasps, some of which visit flowers for nectar. Here are two examples:",
+    "intro_text": "There are many different parasitic wasps, some of which visit flowers for nectar. Two examples are shown above.",
     "caption_1": "Many parasitic wasps are very long and thin, with a tiny wasp waist",
     "caption_2": "The majority of species have very long antennae, made up of lots of individual segments",
     "caption_3": "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in some species this is very long",
@@ -94,7 +94,7 @@
   {
     "id": "hoverflies",
     "picture": "Hoverflies_1.jpg",
-    "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. Look out for:",
+    "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. ",
     "caption_1": "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females",
     "caption_2": "Most hoverflies have much shorter antennae than bees and wasps",
     "caption_3": "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing",
@@ -105,7 +105,7 @@
   {
     "id": "hoverflies",
     "picture": "Hoverflies_2.jpg",
-    "intro_text": "One group of hoverflies (in genus Eristalis) is known as “drone-flies” because of their close resemblance to honeybees. Drone-fly hoverflies have a much more hovering flight than honybees, and there are a number of differences to look out for:",
+    "intro_text": "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above.",
     "caption_1": "Drone-fly hoverflies have much shorter antennae than honeybees",
     "caption_2": "The eyes cover more of the head",
     "caption_3": "The back legs are much narrower than the broad flattened legs of honeybees",
@@ -115,8 +115,8 @@
   {
     "id": "hoverflies",
     "picture": "Hoverflies_3.jpg",
-    "intro_text": "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Here are some examples.",
-    "caption_1": "The Hornet Hoverfly (Volucella zonaria) is our largest hoverfly and is a good mimic of hornets, but note the short antennae",
+    "intro_text": "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above.",
+    "caption_1": "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae",
     "caption_2": "A few species have extended ‘noses’ – this one is Rhingia campestris, a widespread species with a distinctive grey and orange colour",
     "caption_3": "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies"
@@ -128,7 +128,7 @@
     "caption_1": "This is a dance fly (family Empididae)",
     "caption_2": "Many dance flies have a long thin proboscis under the head",
     "caption_3": "Many dance flies have a distinctly humped thorax",
-    "caption_4": "This is a soldierfly, the Broad Centurion (Chloromyia formosa), often seen on hogweed and related flowers",
+    "caption_4": "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on hogweed and related flowers",
     "caption_5": "The abdomen is broader and flatter than in hoverflies",
     "caption_6": "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing"
   },
@@ -167,8 +167,8 @@
   {
     "id": "beetles",
     "picture": "Beetles_2.jpg",
-    "intro_text": "Two more examples of beetles that visit flowers:",
-    "caption_1": "Red soldier beetle (Rhagonycha fulva) with black tips to wing cases – very abundant on flowers in mid-summer",
+    "intro_text": "Above are two more examples of beetles that regularly visit flowers.",
+    "caption_1": "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer",
     "caption_2": "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae live in decaying wood"
   },
   {

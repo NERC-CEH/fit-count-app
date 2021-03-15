@@ -129,9 +129,6 @@ class SpeciesProfile extends React.Component {
 
     return (
       <>
-        <h3>
-          <T>Description</T>:
-        </h3>
         <div className="species-card-content">{extraText}</div>
       </>
     );
@@ -165,13 +162,13 @@ class SpeciesProfile extends React.Component {
           {this.getSlides()}
 
           <div className="species-captions">
-            {this.getIntroText(species.images[activeSlide])}
             <ol>{this.getCaption(species.images[activeSlide])}</ol>
-          </div>
+            {this.getIntroText(species.images[activeSlide])}
 
-          <IonCardContent>
+            <br />
+
             {this.getDescription(species.images[activeSlide])}
-          </IonCardContent>
+          </div>
         </Main>
       </>
     );

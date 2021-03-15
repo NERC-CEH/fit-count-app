@@ -97,8 +97,8 @@ msgid "ID Guide"
 msgstr "ID Guide"
 
 # ID Guide segment label
-msgid "Insects"
-msgstr "Insects"
+msgid "Insect Groups"
+msgstr "Insect Groups"
 
 # ID Guide segment label
 msgid "Flowers"
