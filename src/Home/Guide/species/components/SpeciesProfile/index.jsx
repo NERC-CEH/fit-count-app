@@ -2,12 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Main, Gallery } from '@apps';
-import {
-  IonSlides,
-  IonSlide,
-  IonLifeCycleContext,
-  IonCardContent,
-} from '@ionic/react';
+import { IonSlides, IonSlide, IonLifeCycleContext } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import ImageWithBackground from 'common/Components/ImageWithBackground';
 import './styles.scss';
