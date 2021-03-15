@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-filename-extension */
-import React from 'react';
 import { date } from '@apps';
 import userModel from 'models/user';
 import insectGroups from 'common/data';
@@ -326,7 +325,9 @@ const survey = {
 
     habitat: {
       type: 'radio',
-      options: habitatValues,
+      componentProps: {
+        options: habitatValues,
+      },
       remote: {
         id: isProd ? 1048 : 1508,
         values: habitatValues,
@@ -337,7 +338,9 @@ const survey = {
       icon: habitatIcon,
       info:
         'Please type in the name of the habitat you have chosen then go back to the habitat page',
-      placeholder: 'Other habitat',
+      componentProps: {
+        placeholder: 'Other habitat',
+      },
       type: 'textarea',
       remote: {
         id: isProd ? 1049 : 1509,
@@ -346,7 +349,9 @@ const survey = {
 
     'flower-cover': {
       type: 'radio',
-      options: flowerCoverValues,
+      componentProps: {
+        options: flowerCoverValues,
+      },
       remote: {
         id: isProd ? 1052 : 1512,
         values: flowerCoverValues,
@@ -355,7 +360,9 @@ const survey = {
 
     flower: {
       type: 'radio',
-      options: flowerSelectionValues,
+      componentProps: {
+        options: flowerSelectionValues,
+      },
       remote: {
         id: isProd ? 1050 : 1510,
         values: flowerSelectionValues,
@@ -363,13 +370,14 @@ const survey = {
     },
 
     'flower-manual-entry': {
+      type: 'textarea',
       label: 'Other flower name',
       icon: flowerIcon,
       info:
         'Please type in the name of the target flower you have chosen then go back to the target flower page',
-      placeholder: 'Other flower name',
-      type: 'textarea',
-      skipValueTranslation: true,
+      componentProps: {
+        placeholder: 'Other flower name',
+      },
       remote: {
         id: isProd ? 1051 : 1511,
       },
@@ -377,7 +385,9 @@ const survey = {
 
     'flower-count': {
       type: 'radio',
-      options: flowerCountValues,
+      componentProps: {
+        options: flowerCountValues,
+      },
       remote: {
         id: isProd ? 1054 : 1514,
         values: flowerCountValues,
@@ -386,9 +396,11 @@ const survey = {
 
     'flower-count-number': {
       type: 'slider',
-      max: 3000,
-      min: 0,
-      step: 1,
+      componentProps: {
+        max: 3000,
+        min: 0,
+        step: 1,
+      },
       skipValueTranslation: true,
       remote: {
         id: isProd ? 1053 : 1513,
@@ -397,7 +409,9 @@ const survey = {
 
     'flower-patch': {
       type: 'radio',
-      options: flowerPatchValues,
+      componentProps: {
+        options: flowerPatchValues,
+      },
       remote: {
         id: isProd ? 1055 : 1515,
         values: flowerPatchValues,
@@ -406,12 +420,9 @@ const survey = {
 
     'weather-sky': {
       type: 'radio',
-      info: (
-        <>
-          What is the <b>sky</b> above your location?
-        </>
-      ),
-      options: weatherSkyValues,
+      componentProps: {
+        options: weatherSkyValues,
+      },
       remote: {
         id: isProd ? 1057 : 1517,
         values: weatherSkyValues,
@@ -420,12 +431,9 @@ const survey = {
 
     'weather-shade': {
       type: 'radio',
-      info: (
-        <>
-          How much <b>sun</b> fell on your patch during the FIT Count; was it:
-        </>
-      ),
-      options: weatherShadeValues,
+      componentProps: {
+        options: weatherShadeValues,
+      },
       remote: {
         id: isProd ? 1061 : 1519,
         values: weatherShadeValues,
@@ -434,12 +442,9 @@ const survey = {
 
     'weather-wind': {
       type: 'radio',
-      info: (
-        <>
-          What was the <b>wind</b> strength?
-        </>
-      ),
-      options: weatherWindValues,
+      componentProps: {
+        options: weatherWindValues,
+      },
       remote: {
         id: isProd ? 1058 : 1518,
         values: weatherWindValues,

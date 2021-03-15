@@ -42,6 +42,8 @@ class NumberFlower extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
+    const attr = surveyConfig.attrs['flower-count-number'];
+    const flowerCountAttr = surveyConfig.attrs['flower-count'];
 
     const value = sample.attrs['flower-count'];
 
@@ -105,10 +107,10 @@ class NumberFlower extends React.Component {
           </IonItemDivider>
 
           <Attr
-            attrConfig={surveyConfig.attrs['flower-count-number']}
-            onValueChange={this.onValueChangeSlider}
-            initialVal={valueSlider}
-            model={sample}
+            component={attr.type}
+            componentProps={attr.componentProps}
+            onChange={this.onValueChangeSlider}
+            value={valueSlider}
           />
 
           <IonItemDivider mode="ios" className="survey-divider">
@@ -116,10 +118,10 @@ class NumberFlower extends React.Component {
           </IonItemDivider>
 
           <Attr
-            attrConfig={surveyConfig.attrs['flower-count']}
-            onValueChange={this.onValueChange}
-            initialVal={value}
-            model={sample}
+            component={flowerCountAttr.type}
+            componentProps={flowerCountAttr.componentProps}
+            onChange={this.onValueChange}
+            value={value}
           />
         </Main>
 

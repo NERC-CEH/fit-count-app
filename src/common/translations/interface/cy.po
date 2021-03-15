@@ -855,10 +855,6 @@ msgstr "Hanner glas a hanner cymylau"
 msgid "All or mostly cloud"
 msgstr "Cymylau'n unig neu'n bennaf"
 
-# Survey weather sky page info message
-msgid "<0>What is the <1>sky</1> above your location?</0>"
-msgstr "<0>Sut mae'r <1>awyr</1> uwch ben eich lleoliad?</0>"
-
 # Survey weather shade page values
 msgid "Entirely in sunshine"
 msgstr "Yn yr haul yn llwyr"
@@ -871,13 +867,6 @@ msgstr "Yn rhannol yn yr haul a rhannol yn y cysgod"
 msgid "Entirely shaded"
 msgstr "Yn y cysgod yn llwyr"
 
-# Survey weather shade page info message
-msgid ""
-"<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
-msgstr ""
-"<0>Faint o <1>haul</1> oedd ar eich llain chi yn y stod y Cyfrif FIT? Oedd y"
-" llain:</0>"
-
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
 msgstr "Y dail yn llonydd/yn symud weithiau"
@@ -889,10 +878,6 @@ msgstr "Y dail yn symud yn ysgafn yr holl amser"
 # Survey weather wind page values
 msgid "Leaves moving strongly"
 msgstr "Y dail yn symud yn arw"
-
-# Survey weather wind page info message
-msgid "<0>What was the <1>wind</1> strength?</0>"
-msgstr "<0>Beth oedd cryfder y <1>gwynt</1>?</0>"
 
 # Survey weather wind page button label
 msgid "Save my count"
@@ -1655,27 +1640,35 @@ msgid ""
 "They are sometimes confused with beetles."
 msgstr ""
 
-# Survey Start Count alert message
-msgid "The timer will now start!"
+# From survey pages
+msgid "Other"
 msgstr ""
 
-# Survey Start Count alert message
-msgid ""
-"Count every insect that lands on the target flowers (count each individual "
-"once)."
+# From survey pages
+msgid "Are you sure you want to remove this photo?"
 msgstr ""
 
-# Survey Start Count alert message
-msgid ""
-"Tap the insect images to increase your count (minus buttons will decrease "
-"the count)."
+# From survey pages
+msgid "Note: it will remain in the gallery."
 msgstr ""
 
-# Survey Start Count alert message
-msgid ""
-"If you don't know which insect group, add to the \"Other insects\" category"
+# From survey pages
+msgid "Oops! Something, went wrong."
 msgstr ""
 
-# Survey Start Count alert message
-msgid "Start Count"
+# From survey pages
+msgid "This is the error event id: {{eventId}}"
 msgstr ""
+
+# From survey pages
+msgid "What is the <1>sky</1> above your location?"
+msgstr "Sut mae'r <1>awyr</1> uwch ben eich lleoliad?"
+
+# From survey pages
+msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
+"Faint o <1>haul</1> oedd ar eich llain chi yn y stod y Cyfrif FIT? Oedd y"
+" llain:"
+
+# From survey pages
+msgid "What was the <1>wind</1> strength?"
+msgstr "Beth oedd cryfder y <1>gwynt</1>?"

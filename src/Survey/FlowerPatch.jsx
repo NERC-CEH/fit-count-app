@@ -38,6 +38,7 @@ class FlowerPatch extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
+    const attr = surveyConfig.attrs['flower-patch'];
 
     const value = sample.attrs['flower-patch'];
 
@@ -63,10 +64,10 @@ class FlowerPatch extends React.Component {
 
           <Attr
             className="survey-radio-list"
-            attrConfig={surveyConfig.attrs['flower-patch']}
-            onValueChange={this.onValueChange}
-            initialVal={value}
-            model={sample}
+            component={attr.type}
+            componentProps={attr.componentProps}
+            onChange={this.onValueChange}
+            value={value}
           />
         </Main>
         <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />

@@ -696,10 +696,6 @@ msgstr "Half blue and half cloud"
 msgid "All or mostly cloud"
 msgstr "All or mostly cloud"
 
-# Survey weather sky page info message
-msgid "<0>What is the <1>sky</1> above your location?</0>"
-msgstr "<0>What is the <1>sky</1> above your location?</0>"
-
 # Survey weather shade page values
 msgid "Entirely in sunshine"
 msgstr "Entirely in sunshine"
@@ -712,9 +708,6 @@ msgstr "Partly in sun and partly shaded"
 msgid "Entirely shaded"
 msgstr "Entirely shaded"
 
-# Survey weather shade page info message
-msgid "<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
-msgstr "<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
 
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
@@ -728,9 +721,6 @@ msgstr "Leaves moving gently all the time"
 msgid "Leaves moving strongly"
 msgstr "Leaves moving strongly"
 
-# Survey weather wind page info message
-msgid "<0>What was the <1>wind</1> strength?</0>"
-msgstr "<0>What was the <1>wind</1> strength?</0>"
 
 # Survey weather wind page button label
 msgid "Save my count"
@@ -1239,4 +1229,36 @@ msgstr "Some bugs are very colourful, while others are shades or green or brown"
 
 # Other insect 2 screen content
 msgid "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles."
-msgstr "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles.
+msgstr "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles."
+
+# From survey pages
+msgid "Other"
+msgstr "Other"
+
+# From survey pages
+msgid "Are you sure you want to remove this photo?"
+msgstr "Are you sure you want to remove this photo?"
+
+# From survey pages
+msgid "Note: it will remain in the gallery."
+msgstr "Note: it will remain in the gallery."
+
+# From survey pages
+msgid "Oops! Something, went wrong."
+msgstr "Oops! Something, went wrong."
+
+# From survey pages
+msgid "This is the error event id: {{eventId}}"
+msgstr "This is the error event id: {{eventId}}"
+
+# From survey pages
+msgid "What is the <1>sky</1> above your location?"
+msgstr "What is the <1>sky</1> above your location?"
+
+# From survey pages
+msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
+msgstr "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
+
+# From survey pages
+msgid "What was the <1>wind</1> strength?"
+msgstr "What was the <1>wind</1> strength?"

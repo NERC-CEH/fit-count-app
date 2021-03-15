@@ -773,10 +773,6 @@ msgstr ""
 msgid "All or mostly cloud"
 msgstr ""
 
-# Survey weather sky page info message
-msgid "<0>What is the <1>sky</1> above your location?</0>"
-msgstr ""
-
 # Survey weather shade page values
 msgid "Entirely in sunshine"
 msgstr ""
@@ -789,11 +785,6 @@ msgstr ""
 msgid "Entirely shaded"
 msgstr ""
 
-# Survey weather shade page info message
-msgid ""
-"<0>How much <1>sun</1> fell on your patch during the FIT Count; was it:</0>"
-msgstr ""
-
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
 msgstr ""
@@ -804,10 +795,6 @@ msgstr ""
 
 # Survey weather wind page values
 msgid "Leaves moving strongly"
-msgstr ""
-
-# Survey weather wind page info message
-msgid "<0>What was the <1>wind</1> strength?</0>"
 msgstr ""
 
 # Survey weather wind page button label
@@ -1502,27 +1489,34 @@ msgid ""
 "They are sometimes confused with beetles."
 msgstr ""
 
-# Survey Start Count alert message
-msgid "The timer will now start!"
+# From survey pages
+msgid "Other"
 msgstr ""
 
-# Survey Start Count alert message
-msgid ""
-"Count every insect that lands on the target flowers (count each individual "
-"once)."
+# From survey pages
+msgid "Are you sure you want to remove this photo?"
 msgstr ""
 
-# Survey Start Count alert message
-msgid ""
-"Tap the insect images to increase your count (minus buttons will decrease "
-"the count)."
+# From survey pages
+msgid "Note: it will remain in the gallery."
 msgstr ""
 
-# Survey Start Count alert message
-msgid ""
-"If you don't know which insect group, add to the \"Other insects\" category"
+# From survey pages
+msgid "Oops! Something, went wrong."
 msgstr ""
 
-# Survey Start Count alert message
-msgid "Start Count"
+# From survey pages
+msgid "This is the error event id: {{eventId}}"
+msgstr ""
+
+# From survey pages
+msgid "What is the <1>sky</1> above your location?"
+msgstr ""
+
+# From survey pages
+msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
+msgstr ""
+
+# From survey pages
+msgid "What was the <1>wind</1> strength?"
 msgstr ""

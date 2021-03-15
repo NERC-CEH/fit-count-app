@@ -39,6 +39,7 @@ class FlowerCover extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
+    const attr = surveyConfig.attrs['flower-cover'];
 
     const value = sample.attrs['flower-cover'];
 
@@ -56,11 +57,12 @@ class FlowerCover extends React.Component {
               </p>
             </InfoButton>
           </InfoMessage>
+
           <Attr
-            attrConfig={surveyConfig.attrs['flower-cover']}
-            onValueChange={this.onValueChange}
-            initialVal={value}
-            model={sample}
+            component={attr.type}
+            componentProps={attr.componentProps}
+            onChange={this.onValueChange}
+            value={value}
           />
         </Main>
         <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />

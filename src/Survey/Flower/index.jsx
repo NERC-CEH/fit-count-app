@@ -94,7 +94,7 @@ class Flower extends React.Component {
 
     const surveyConfig = sample.getSurvey();
 
-    const flowersOptions = surveyConfig.attrs.flower.options;
+    const flowersOptions = surveyConfig.attrs.flower.componentProps.options;
 
     const byFlowerName = flower => flower.value === selectedFlowerName;
 
@@ -108,6 +108,7 @@ class Flower extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
+    const attr = surveyConfig.attrs.flower;
 
     const value = sample.attrs.flower;
 
@@ -149,20 +150,19 @@ class Flower extends React.Component {
           <IonItemDivider mode="ios" className="survey-divider">
             <T>Photo of your target flower</T>
           </IonItemDivider>
-
           <PhotoPicker
             model={sample}
             ImageClass={Media}
             dataDirPath={config.dataPath}
           />
+
           <IonItemDivider mode="ios" className="survey-divider">
             <T>Target flower chosen</T>
           </IonItemDivider>
           <Attr
-            attrConfig={surveyConfig.attrs.flower}
-            onValueChange={this.onValueChange}
-            initialVal={value}
-            model={sample}
+            component={attr.type}
+            componentProps={attr.componentProps}
+            onChange={this.onValueChange}
             value={value}
           />
 

@@ -97,6 +97,7 @@ class Habitat extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
+    const attr = surveyConfig.attrs.habitat;
 
     const value = sample.attrs.habitat;
 
@@ -121,10 +122,10 @@ class Habitat extends React.Component {
           </InfoMessage>
 
           <Attr
-            attrConfig={surveyConfig.attrs.habitat}
-            onValueChange={this.onValueChange}
-            initialVal={value}
-            model={sample}
+            component={attr.type}
+            componentProps={attr.componentProps}
+            onChange={this.onValueChange}
+            value={value}
           />
 
           {this.getManualEntry()}

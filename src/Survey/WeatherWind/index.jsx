@@ -2,9 +2,10 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main } from '@apps';
+import { Page, Attr, Main, InfoMessage } from '@apps';
 import appModel from 'models/app';
 import { NavContext, IonButton } from '@ionic/react';
+import { informationCircleOutline } from 'ionicons/icons';
 import CustomAlert from '../Components/CustomAlert';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
@@ -67,6 +68,7 @@ class WeatherWind extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
+    const attr = surveyConfig.attrs['weather-wind'];
 
     const value = sample.attrs['weather-wind'];
 
@@ -75,11 +77,15 @@ class WeatherWind extends React.Component {
         <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Shade" />
 
         <Main>
+          <InfoMessage icon={informationCircleOutline}>
+            What was the <b>wind</b> strength?
+          </InfoMessage>
+
           <Attr
-            attrConfig={surveyConfig.attrs['weather-wind']}
-            onValueChange={this.onValueChange}
-            initialVal={value}
-            model={sample}
+            component={attr.type}
+            componentProps={attr.componentProps}
+            onChange={this.onValueChange}
+            value={value}
           />
         </Main>
         <Footer
