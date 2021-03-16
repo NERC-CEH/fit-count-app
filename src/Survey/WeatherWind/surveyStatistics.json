@@ -1,0 +1,32 @@
+[
+  {
+    "month": 4,
+    "month_name": "April",
+    "average": 4.32
+  },
+  {
+    "month": 5,
+    "month_name": "May",
+    "average": 6.05
+  },
+  {
+    "month": 6,
+    "month_name": "June",
+    "average": 13.03
+  },
+  {
+    "month": 7,
+    "month_name": "July",
+    "average": 14.7
+  },
+  {
+    "month": 8,
+    "month_name": "August",
+    "average": 12.44
+  },
+  {
+    "month": 9,
+    "month_name": "September",
+    "average": 11.24
+  }
+]

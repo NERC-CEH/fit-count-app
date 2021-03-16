@@ -2,9 +2,11 @@
   .custom-alert {
     text-align: center;
 
-    h1 {
-      padding: 0 30px;
+    h3 {
+      padding: 20px 30px;
       color: var(--ion-color-dark);
+      text-align: left;
+      margin: 0;
     }
 
     .center {
@@ -15,6 +17,7 @@
       padding: 10px;
 
       ion-icon {
+        margin-top: 20px;
         color: var(--ion-color-success-shade);
         font-size: 6em;
       }
@@ -25,55 +28,35 @@
       p {
         text-align: center;
         font-size: 1.2em;
-        padding: 0 10px;
-      }
-      ul {
-        background-color: var(--ion-color-light);
-        padding: 10px 20px 10px 30px;
-        text-align: left;
-
-        li {
-          margin-bottom: 10px;
-        }
-
-        li::marker {
-          color: var(--ion-color-primary);
-          font-size: 1.2em;
-        }
+        padding: 20px 20px;
+        margin-top: 5% 0 0 0;
+        background: var(--ion-color-light);
       }
 
-      .next-button {
-        --background: var(--ion-color-secondary);
-        --background-activated: none;
-        --color: white;
-        --border-radius: 5px;
-        width: 80%;
-        border-radius: 5px;
-        color: white;
-        box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
-        font-weight: bold;
-        margin: 30px auto;
+      .button-wrapper {
+        margin: 15% 0px 10% 0px;
 
-        ion-label {
+        .next-button {
+          --background: var(--ion-color-secondary);
+          --background-activated: none;
+          --color: white;
+          --border-radius: 5px;
+          width: 80%;
+          border-radius: 5px;
           color: white;
-          text-align: center;
+          box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
+          font-weight: bold;
+          margin: 10px auto;
+
+          ion-label {
+            color: white;
+            text-align: center;
+          }
         }
-      }
 
-      .next-button-home {
-        --background: var(--ion-color-medium);
-        --background-activated: none;
-        --color: white;
-        --border-radius: 5px;
-        width: 80%;
-        border-radius: 5px;
-        color: white;
-        box-shadow: 0 0 5px rgba(146, 148, 156, 0.9);
-        font-weight: bold;
-        margin: 30px auto;
-
-        ion-label {
-          text-align: center;
+        .home {
+          --background: var(--ion-color-medium-tint);
+          box-shadow: 0 0 5px rgba(146, 148, 156, 0.9);
         }
       }
     }

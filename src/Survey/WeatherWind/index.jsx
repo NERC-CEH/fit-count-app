@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -7,6 +7,7 @@ import { Page, Attr, Main, InfoMessage } from '@apps';
 import appModel from 'models/app';
 import { NavContext, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { checkmarkOutline, informationCircleOutline } from 'ionicons/icons';
+import surveyStatistics from './surveyStatistics.json';
 import CustomAlert from '../Components/CustomAlert';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
@@ -14,54 +15,7 @@ import './styles.scss';
 
 const PAGE_INDEX = 10;
 
-const monthNames = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-];
-
-const insectsPerMonthData = [
-  {
-    month: 4,
-    month_name: 'April',
-    average: 4.32,
-  },
-  {
-    month: 5,
-    month_name: 'May',
-    average: 6.05,
-  },
-  {
-    month: 6,
-    month_name: 'June',
-    average: 13.03,
-  },
-  {
-    month: 7,
-    month_name: 'July',
-    average: 14.7,
-  },
-  {
-    month: 8,
-    month_name: 'August',
-    average: 12.44,
-  },
-  {
-    month: 9,
-    month_name: 'September',
-    average: 11.24,
-  },
-];
-
+@observer
 class WeatherWind extends React.Component {
   static contextType = NavContext;
 
@@ -70,6 +24,9 @@ class WeatherWind extends React.Component {
     match: PropTypes.object, // eslint-disable-line
     history: PropTypes.object, // eslint-disable-line
     location: PropTypes.object, // eslint-disable-line
+    i18n: PropTypes.object, // eslint-disable-line
+    tReady: PropTypes.bool, // eslint-disable-line
+    t: PropTypes.func,
   });
 
   state = { showThanks: false };
@@ -113,41 +70,47 @@ class WeatherWind extends React.Component {
 
   isValueValid = () => !!this.props.sample.attrs['weather-wind'];
 
-  setNumberOfOccurences = () => {
+  getNumberOfOccurences = () => {
     const { sample } = this.props;
 
-    const byExistingOccurrences = occ => occ.attrs.count;
-    const addOccurrences = (acc, occ) => acc + occ.attrs.count;
+    const hasAbundance = occ => occ.attrs.count;
+    const addUpOccurrencesCounts = (acc, occ) => acc + occ.attrs.count;
 
     return sample.occurrences
-      .filter(byExistingOccurrences)
-      .reduce(addOccurrences, 0);
+      .filter(hasAbundance)
+      .reduce(addUpOccurrencesCounts, 0);
   };
 
-  setAverageInsectCount = month => {
+  getAverageInsectCount = month => {
     const byMonth = obj => obj.month_name === month;
 
-    const insectsData = insectsPerMonthData.find(byMonth);
+    const insectsData = surveyStatistics.find(byMonth);
 
     if (!insectsData) {
-      return 0;
+      return null;
     }
 
-    return insectsData.average;
+    return parseFloat(insectsData.average).toFixed(0);
   };
 
   render() {
-    const { sample } = this.props;
+    const { sample, t } = this.props;
 
     const surveyConfig = sample.getSurvey();
     const attr = surveyConfig.attrs['weather-wind'];
     const value = sample.attrs['weather-wind'];
 
-    const numberOfOccurrences = this.setNumberOfOccurences();
+    const numberOfOccurrences = this.getNumberOfOccurences();
 
-    const month = monthNames[new Date().getMonth()];
+    const englishFormat = Intl.DateTimeFormat('en', { month: 'long' });
 
-    const expectedNumberOfOccurrences = this.setAverageInsectCount();
+    const englishMonth = englishFormat.format(
+      new Date(sample.metadata.created_on)
+    );
+
+    const month = t(englishMonth);
+
+    const averageInsectCountForThisMonth = this.getAverageInsectCount(month);
 
     return (
       <Page id="survey-weather-wind-page">
@@ -177,39 +140,46 @@ class WeatherWind extends React.Component {
               <IonIcon icon={checkmarkOutline} />
             </div>
 
-            <h1>
+            <h3>
               <T>
                 Thanks for completing your FIT Count - all results help us to
-                monitor insect population
+                monitor insect populations.
               </T>
-            </h1>
+            </h3>
 
-            <p>
-              <T>
-                You counted <b>{{ numberOfOccurrences }} </b>insects altogether
-                - the UK average for <b>{{ month }}</b> is{' '}
-                <b>{{ expectedNumberOfOccurrences }}</b> insects per count.
-              </T>
-            </p>
-            <IonItem
-              color="secondary"
-              onClick={this.uploadSurvey}
-              className="next-button"
-            >
-              <IonLabel>
-                <T>Upload</T>
-              </IonLabel>
-            </IonItem>
+            {!!averageInsectCountForThisMonth && (
+              <p>
+                <T>
+                  You counted <b>{{ numberOfOccurrences }} </b>insect(s)
+                  altogether - the UK average for <b>{{ month }}</b> is{' '}
+                  <b>{{ averageInsectCountForThisMonth }}</b> insects per count.
+                </T>
+              </p>
+            )}
 
-            <IonItem
-              color="medium"
-              onClick={this.goHome}
-              className="next-button-home"
-            >
-              <IonLabel>
-                <T>Go Home</T>
-              </IonLabel>
-            </IonItem>
+            <div className="button-wrapper">
+              <IonItem
+                color="secondary"
+                onClick={this.uploadSurvey}
+                className="next-button"
+                lines="none"
+              >
+                <IonLabel>
+                  <T>Upload</T>
+                </IonLabel>
+              </IonItem>
+
+              <IonItem
+                color="medium"
+                onClick={this.goHome}
+                className="next-button home"
+                lines="none"
+              >
+                <IonLabel>
+                  <T>Go Home</T>
+                </IonLabel>
+              </IonItem>
+            </div>
           </CustomAlert>
         )}
       </Page>
@@ -217,4 +187,4 @@ class WeatherWind extends React.Component {
   }
 }
 
-export default observer(WeatherWind);
+export default withTranslation()(WeatherWind);
