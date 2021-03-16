@@ -98,7 +98,7 @@ class Location extends ModelLocation {
         <Main>
           <InfoMessage icon={locationOutline}>
             Use the map to zoom in and tap on your <b>location</b>.
-            <InfoButton label="Read more" header="Info" skipTranslation>
+            <InfoButton label="READ MORE" header="Info">
               <p>
                 Your location can be anywhere where there are flowers to attract
                 pollinating insects, where you have permission to be, and where
