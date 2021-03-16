@@ -1,5 +1,6 @@
-import { observer } from 'mobx-react';
 import React from 'react';
+import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import {
@@ -12,13 +13,11 @@ import {
   IonSlide,
   IonBadge,
   IonImg,
-  IonModal,
 } from '@ionic/react';
 import { Main } from '@apps';
-import { informationCircleOutline } from 'ionicons/icons';
+import { removeOutline } from 'ionicons/icons';
 import species from 'common/data/index';
 import clsx from 'clsx';
-import SpeciesProfile from './components/SpeciesProfile';
 
 import './styles.scss';
 
@@ -47,43 +46,34 @@ class SpeciesMainComponent extends React.Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
     onSelect: PropTypes.func,
+    onDecreaseCount: PropTypes.func,
   });
-
-  state = {
-    species: null,
-  };
 
   slideRef = React.createRef();
 
-  hideSpeciesModal = () => {
-    this.setState({ species: null });
-  };
-
   getSpeciesTile = (sp, i) => {
-    const { onSelect } = this.props;
+    const { onSelect, onDecreaseCount } = this.props;
 
     const { name, thumbnail } = sp;
 
     const selectSpecies = () => onSelect(sp);
 
-    const viewSpecies = e => {
-      e.preventDefault();
-      e.stopPropagation();
-      this.setState({ species: sp });
-    };
+    const decreaseCount = e => onDecreaseCount(e, sp);
 
     return (
       <IonCol key={i} className="species-tile" size="6" onClick={selectSpecies}>
         {this.getOccurrenceCount(sp)}
 
         <div className="container">
-          <div className="info-box" onClick={viewSpecies}>
-            <IonIcon icon={informationCircleOutline} />
+          <div className="info-box" onClick={decreaseCount}>
+            <IonIcon icon={removeOutline} color="danger" />
           </div>
 
           <IonImg src={thumbnail} />
 
-          <IonLabel>{name}</IonLabel>
+          <IonLabel>
+            <T>{name}</T>
+          </IonLabel>
         </div>
       </IonCol>
     );
@@ -142,13 +132,6 @@ class SpeciesMainComponent extends React.Component {
         >
           {speciesSlides}
         </IonSlides>
-
-        <IonModal isOpen={!!this.state.species} backdropDismiss={false}>
-          <SpeciesProfile
-            species={this.state.species}
-            hideProfile={this.hideSpeciesModal}
-          />
-        </IonModal>
       </Main>
     );
   }

@@ -54,6 +54,21 @@ function InsectCount({ sample }) {
     occurrence.save();
   }
 
+  function onDecreaseCount(e, species) {
+    const bySpeciesId = occ => occ.attrs.taxon.id === species.id;
+    const occurrence = sample.occurrences.find(bySpeciesId);
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (occurrence.attrs.count <= 0) {
+      return;
+    }
+
+    occurrence.attrs.count -= 1;
+    occurrence.save();
+  }
+
   const getCountDownClock = () => {
     const startTime = new Date(sample.attrs.surveyStartTime).getTime();
 
@@ -101,7 +116,11 @@ function InsectCount({ sample }) {
         rightSlot={clock}
       />
 
-      <Main onSelect={onSelect} sample={sample} />
+      <Main
+        onSelect={onSelect}
+        onDecreaseCount={onDecreaseCount}
+        sample={sample}
+      />
 
       {hasCountdownTimedOut && <Footer isEnabled link={NEXT_PAGE} />}
 

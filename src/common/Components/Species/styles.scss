@@ -51,7 +51,7 @@
             // TODO: remove once real pics are available
             width: 100%;
             height: 100%;
-            --ionicon-stroke-width: 5px;
+            --ionicon-stroke-width: 2em;
             z-index: 1;
 
             svg path {
@@ -78,21 +78,22 @@
 
           .info-box {
             position: absolute;
-            right: 0;
             top: 0;
-            height: 100%;
-            width: 100%;
-            background: #fffffff0;
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-            box-shadow: 0 0 20px 9px #e6e6e6;
+            height: 40%;
+            width: 40%;
+            left: 0;
+            background: #ff002217;
+            border-radius: 0 0 100% 0;
+            box-shadow: 0 0 10px 2px #848484;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             ion-icon {
-              width: 30%;
-              height: 30%;
-              margin-top: 55%;
-              margin-left: 40%;
-              --ionicon-stroke-width: 20;
+              width: 50%;
+              height: 50%;
+              margin-left: -20%;
+              margin-top: -20%;
             }
           }
         }
