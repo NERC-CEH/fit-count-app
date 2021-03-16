@@ -6,28 +6,31 @@ import { IonLabel } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import clsx from 'clsx';
 
-function CountdownRenderer({ minutes, seconds, completed }) {
-  const showMinutesAndSeconds = `${zeroPad(minutes)}:${zeroPad(seconds)}`;
-  const remainingTimeIsLessThan3minutes = minutes < 3;
+function CountdownClock({ isPaused, countdown, onComplete, hasStarted }) {
+  function renderer({ minutes, seconds, completed }) {
+    const showMinutesAndSeconds = `${zeroPad(minutes)}:${zeroPad(seconds)}`;
+    const remainingTimeIsLessThan3minutes = minutes < 3;
 
-  if (completed) {
-    return <T>Time's up!</T>;
+    if (completed) {
+      return <T>Time's up!</T>;
+    }
+
+    return (
+      <span className={clsx(remainingTimeIsLessThan3minutes && 'warn')}>
+        {showMinutesAndSeconds}
+      </span>
+    );
   }
 
-  return (
-    <span className={clsx(remainingTimeIsLessThan3minutes && 'warn')}>
-      {showMinutesAndSeconds}
-    </span>
-  );
-}
+  if (!hasStarted) {
+    const minutes = new Date(countdown).getMinutes();
+    const seconds = new Date(countdown).getSeconds();
 
-CountdownRenderer.propTypes = exact({
-  minutes: PropTypes.number.isRequired,
-  seconds: PropTypes.number.isRequired,
-  completed: PropTypes.bool.isRequired,
-});
+    const showMinutesAndSeconds = `${zeroPad(minutes)}:${zeroPad(seconds)}`;
 
-function CountdownClock({ isPaused, countdown, onComplete }) {
+    return <span>{showMinutesAndSeconds}</span>;
+  }
+
   return (
     <IonLabel id="countdown" slot="end">
       {isPaused ? (
@@ -37,7 +40,7 @@ function CountdownClock({ isPaused, countdown, onComplete }) {
       ) : (
         <Countdown
           date={countdown}
-          renderer={CountdownRenderer}
+          renderer={renderer}
           onComplete={onComplete}
         />
       )}
@@ -49,6 +52,7 @@ CountdownClock.propTypes = exact({
   onComplete: PropTypes.func.isRequired,
   isPaused: PropTypes.bool,
   countdown: PropTypes.number,
+  hasStarted: PropTypes.bool,
 });
 
 export default CountdownClock;

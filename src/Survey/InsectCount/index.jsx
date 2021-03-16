@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page } from '@apps';
@@ -10,6 +10,7 @@ import Header from 'Survey/Components/Header';
 import Footer from 'Survey/Components/Footer';
 import surveyConfig from 'Survey/config';
 import CountdownClock from 'Survey/Components/CountdownClock';
+import IntroAlert from './Components/IntroAlert';
 import './styles.scss';
 
 const PAGE_INDEX = 7;
@@ -31,6 +32,8 @@ function toggleTimer(sample) {
 }
 
 function InsectCount({ sample }) {
+  const hasCountStarted = !!sample.attrs.surveyStartTime;
+
   const [hasCountdownTimedOut, setCountdownTimedOut] = useState(
     sample.hasCountdownTimedOut()
   );
@@ -43,7 +46,7 @@ function InsectCount({ sample }) {
       throw new Error('An occurrence for species is missing.', species);
     }
 
-    if (hasCountdownTimedOut) {
+    if (sample.isDisabled()) {
       return;
     }
 
@@ -78,33 +81,31 @@ function InsectCount({ sample }) {
           countdown={countdown}
           isPaused={isPaused}
           onComplete={setCountdownTimedOutWrap}
+          hasStarted={hasCountStarted}
         />
       </IonItem>
     );
   };
 
   const setSurveyStartTime = () => {
-    if (sample.attrs.surveyStartTime) {
-      return;
-    }
-
     sample.attrs.surveyStartTime = new Date(); // eslint-disable-line
     sample.save();
   };
 
-  useEffect(setSurveyStartTime);
-
+  const clock = getCountDownClock();
   return (
     <Page id="survey-insect-count-page">
       <Header
         surveyProgressIndex={PAGE_INDEX}
         backButtonLabel="Patch"
-        rightSlot={getCountDownClock()}
+        rightSlot={clock}
       />
 
       <Main onSelect={onSelect} sample={sample} />
 
       {hasCountdownTimedOut && <Footer isEnabled link={NEXT_PAGE} />}
+
+      {!hasCountStarted && <IntroAlert onContinue={setSurveyStartTime} />}
     </Page>
   );
 }
