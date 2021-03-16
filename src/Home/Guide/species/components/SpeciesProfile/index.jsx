@@ -151,6 +151,10 @@ class SpeciesProfile extends React.Component {
   render() {
     const { species } = this.props;
 
+    if (!species) {
+      return null;
+    }
+
     const { activeSlide } = this.state;
 
     return (
