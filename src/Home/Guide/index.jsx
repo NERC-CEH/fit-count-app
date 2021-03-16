@@ -39,7 +39,9 @@ class Guide extends React.Component {
       >
         <div className="species-label">
           <div className="species-wrapper">{image}</div>
-          <div>{name}</div>
+          <div>
+            <T>{name}</T>
+          </div>
         </div>
       </IonCol>
     );
@@ -77,7 +79,6 @@ class Guide extends React.Component {
             <ModalHeader
               title={this.state.speciesName}
               onClose={this.hideSpeciesModal}
-              skipTranslation
             />
             {this.state.showModal && (
               <SpeciesProfile species={this.state.species} />

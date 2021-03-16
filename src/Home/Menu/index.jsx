@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trans as T } from 'react-i18next';
 import appModel from 'models/app';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -25,11 +26,13 @@ function showLogoutConfirmationDialog(callback) {
     header: 'Logout',
     message: (
       <>
-        Are you sure you want to logout?
+        <T>Are you sure you want to logout?</T>
         <br />
         <br />
         <IonItem lines="none" className="log-out-checkbox">
-          <IonLabel>Discard local data</IonLabel>
+          <IonLabel>
+            <T>Discard local data</T>
+          </IonLabel>
           <IonCheckbox checked onIonChange={onCheckboxChange} />
         </IonItem>
       </>

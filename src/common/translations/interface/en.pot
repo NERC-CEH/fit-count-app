@@ -895,6 +895,23 @@ msgstr "Usually quite elongate in shape (but there is lots of variety)"
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
 msgstr "Usually hairy, but often less densely covered in hairs than bumblebees"
 
+# Context term
+msgid "The timer will now start!"
+msgstr "The timer will now start!"
+
+# Context term
+msgid "Count every insect that lands on the target flowers (count each individual once)."
+msgstr "Count every insect that lands on the target flowers (count each individual once)."
+
+# Context term
+msgid "Tap the insect images to increase your count (minus buttons will decrease the count)"
+msgstr "Tap the insect images to increase your count (minus buttons will decrease the count)"
+
+# Context term
+msgid "Start Count"
+msgstr "Start Count"
+
+
 # Solitary bees screen 1 content
 msgid "Colours usually more subdued and less contrasting than bumblebees"
 msgstr "Colours usually more subdued and less contrasting than bumblebees"
@@ -1236,10 +1253,6 @@ msgid "Other"
 msgstr "Other"
 
 # From survey pages
-msgid "Are you sure you want to remove this photo?"
-msgstr "Are you sure you want to remove this photo?"
-
-# From survey pages
 msgid "Note: it will remain in the gallery."
 msgstr "Note: it will remain in the gallery."
 
@@ -1266,3 +1279,111 @@ msgstr "What was the <1>wind</1> strength?"
 # Button label
 msgid "Upload"
 msgstr "Upload"
+
+# Context term
+msgid "If you don't know which insect group, add to the \"Other insects\" category."
+msgstr "If you don't know which insect group, add to the \"Other insects\" category."
+
+# Logout message
+msgid "Are you sure you want to logout?"
+msgstr "Are you sure you want to logout?"
+
+# Logout message
+msgid "Discard local data"
+msgstr "Discard local data"
+
+# Id guide label
+msgid "Bumblebees"
+msgstr "Bumblebees"
+
+# Id guide label
+msgid "Honeybees"
+msgstr "Honeybees"
+
+# Id guide label
+msgid "Solitary bees"
+msgstr "Solitary bees"
+
+# Id guide label
+msgid "Wasps"
+msgstr "Wasps"
+
+# Id guide label
+msgid "Hoverflies"
+msgstr "Hoverflies"
+
+# Id guide label
+msgid "Other flies"
+msgstr "Other flies"
+
+# Id guide label
+msgid "Butterflies and moths"
+msgstr "Butterflies and moths"
+
+# Id guide label
+msgid "Beetles"
+msgstr "Beetles"
+
+# Id guide label
+msgid "Small insects (<3mm)"
+msgstr "Small insects (<3mm)"
+
+# Id guide label
+msgid "Other insects"
+msgstr "Other insects"
+
+# Survey back button label
+msgid "Insect"
+msgstr "Insect"
+
+# Survey back button label
+msgid "Location"
+msgstr "Location"
+
+# Survey back button label
+msgid "Count"
+msgstr "Count"
+
+# Survey back button label
+msgid "Cover"
+msgstr "Cover"
+
+# Survey back button label
+msgid "Patch"
+msgstr "Patch"
+
+# Survey back button label
+msgid "Sky"
+msgstr "Sky"
+
+# Survey back button label
+msgid "Shade"
+msgstr "Shade"
+
+# Alert message at the end of survey
+msgid "Thanks for completing your FIT Count - all results help us to monitor insect population"
+msgstr "Thanks for completing your FIT Count - all results help us to monitor insect population"
+
+# Alert message at the end of survey
+msgid "You counted {{numberOfOccurrences}} insects altogether - the UK average for {{month}} is {{expectedNumberOfOccurrences}} insects per count."
+msgstr "You counted {{numberOfOccurrences}} insects altogether - the UK average for {{month}} is {{expectedNumberOfOccurrences}} insects per count."
+
+# Alert message at the end of survey
+msgid "Go Home"
+msgstr "Go Home"
+
+# Settings page divider label
+msgid "User"
+msgstr "User"
+
+# User registration identification experience button label
+msgid "Done"
+msgstr "Done"
+
+# User registration "Happy to be contacted" label
+msgid "Happy to be contacted"
+msgstr "Happy to be contacted"
+
+# Delete survey alert message
+msgid "Are you sure you want to delete this survey?"
+msgstr "Are you sure you want to delete this survey?"

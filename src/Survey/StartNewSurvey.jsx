@@ -4,6 +4,7 @@ import exact from 'prop-types-exact';
 import { NavContext } from '@ionic/react';
 import Sample from 'models/sample';
 import { alert } from '@apps';
+import { Trans as T } from 'react-i18next';
 import appModel from 'models/app';
 import userModel from 'models/user';
 import Occurrence from 'models/occurrence';
@@ -13,7 +14,9 @@ async function showDraftAlert() {
   const alertWrap = resolve => {
     alert({
       header: 'Draft',
-      message: 'Previous survey draft exists, would you like to continue it?',
+      message: (
+        <T>Previous survey draft exists, would you like to continue it?</T>
+      ),
       backdropDismiss: false,
       buttons: [
         {

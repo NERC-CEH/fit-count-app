@@ -19,7 +19,7 @@ import './styles.scss';
 function deleteSurvey(sample) {
   alert({
     header: 'Delete',
-    message: 'Are you sure you want to delete this survey?',
+    message: <T>Are you sure you want to delete this survey?</T>,
     buttons: [
       {
         text: 'Cancel',

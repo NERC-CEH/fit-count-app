@@ -65,7 +65,9 @@ class MenuComponent extends React.Component {
         </h1>
 
         <IonList lines="full">
-          <IonItemDivider>User</IonItemDivider>
+          <IonItemDivider>
+            <T>User</T>
+          </IonItemDivider>
           <div className="rounded">
             {isLoggedIn && (
               <IonItem detail id="logout-button" onClick={logOut}>
