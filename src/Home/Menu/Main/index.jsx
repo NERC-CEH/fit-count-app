@@ -161,7 +161,9 @@ class MenuComponent extends React.Component {
                 <img src={flumensLogo} alt="flumens-logo" />
               </a>
 
-              <p className="app-version">{`App version: v${config.version} (${config.build})`}</p>
+              <p className="app-version">
+                <T>App version</T>: {`v${config.version} (${config.build})`}
+              </p>
             </div>
           </div>
         </IonList>
