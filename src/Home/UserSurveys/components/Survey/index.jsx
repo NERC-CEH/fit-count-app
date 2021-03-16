@@ -56,15 +56,28 @@ function getSampleInfo(sample) {
 const Survey = ({ sample }) => {
   const survey = sample.getSurvey();
 
-  const href = `/${survey.name}/new/${sample.cid}/location`;
+  const { synchronising } = sample.remote;
+
+  const href = !synchronising && `/${survey.name}/new/${sample.cid}/location`;
 
   const deleteSurveyWrap = () => deleteSurvey(sample);
+  const onUpload = e => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const invalids = sample.validateRemote();
+    if (sample.remote.synchronising || invalids) {
+      return;
+    }
+
+    sample.saveRemote();
+  };
 
   return (
     <IonItemSliding class="survey-list-item">
-      <IonItem routerLink={href} detail>
+      <IonItem routerLink={href} detail={!synchronising}>
         {getSampleInfo(sample)}
-        <OnlineStatus sample={sample} />
+        <OnlineStatus sample={sample} onUpload={onUpload} />
       </IonItem>
 
       <IonItemOptions side="end">

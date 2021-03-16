@@ -1262,3 +1262,7 @@ msgstr "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 # From survey pages
 msgid "What was the <1>wind</1> strength?"
 msgstr "What was the <1>wind</1> strength?"
+
+# Button label
+msgid "Upload"
+msgstr "Upload"

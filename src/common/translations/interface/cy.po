@@ -1,11 +1,12 @@
 # 
 # Translators:
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2021
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1666,9 +1667,12 @@ msgstr "Sut mae'r <1>awyr</1> uwch ben eich lleoliad?"
 
 # From survey pages
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
-"Faint o <1>haul</1> oedd ar eich llain chi yn y stod y Cyfrif FIT? Oedd y"
-" llain:"
+msgstr ""
 
 # From survey pages
 msgid "What was the <1>wind</1> strength?"
 msgstr "Beth oedd cryfder y <1>gwynt</1>?"
+
+# Button label
+msgid "Upload"
+msgstr ""

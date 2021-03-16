@@ -1520,3 +1520,7 @@ msgstr ""
 # From survey pages
 msgid "What was the <1>wind</1> strength?"
 msgstr ""
+
+# Button label
+msgid "Upload"
+msgstr ""
