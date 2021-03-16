@@ -1361,12 +1361,12 @@ msgid "Shade"
 msgstr "Shade"
 
 # Alert message at the end of survey
-msgid "Thanks for completing your FIT Count - all results help us to monitor insect population"
-msgstr "Thanks for completing your FIT Count - all results help us to monitor insect population"
+msgid "Thanks for completing your FIT Count - all results help us to monitor insect populations."
+msgstr "Thanks for completing your FIT Count - all results help us to monitor insect populations."
 
 # Alert message at the end of survey
-msgid "You counted <1>{{numberOfOccurrences}} </1>insects altogether - the UK average for <3>{{month}}</3> is <6>{{expectedNumberOfOccurrences}}</6> insects per count."
-msgstr "You counted <1>{{numberOfOccurrences}} </1>insects altogether - the UK average for <3>{{month}}</3> is <6>{{expectedNumberOfOccurrences}}</6> insects per count."
+msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> insects per count."
+msgstr "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> insects per count."
 
 # Alert message at the end of survey
 msgid "Go Home"
@@ -1387,3 +1387,55 @@ msgstr "Happy to be contacted"
 # Delete survey alert message
 msgid "Are you sure you want to delete this survey?"
 msgstr "Are you sure you want to delete this survey?"
+
+# App version
+msgid "App version"
+msgstr "App version"
+
+# Month name
+msgid "January"
+msgstr "January"
+
+# Month name
+msgid "February"
+msgstr "February"
+
+# Month name
+msgid "March"
+msgstr "March"
+
+# Month name
+msgid "April"
+msgstr "April"
+
+# Month name
+msgid "May"
+msgstr "May"
+
+# Month name
+msgid "June"
+msgstr "June"
+
+# Month name
+msgid "July"
+msgstr "July"
+
+# Month name
+msgid "August"
+msgstr "August"
+
+# Month name
+msgid "September"
+msgstr "September"
+
+# Month name
+msgid "October"
+msgstr "October"
+
+# Month name
+msgid "November"
+msgstr "November"
+
+# Month name
+msgid "December"
+msgstr "December"

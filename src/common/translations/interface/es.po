@@ -1625,13 +1625,14 @@ msgstr ""
 # Alert message at the end of survey
 msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
-" population"
+" populations."
 msgstr ""
 
 # Alert message at the end of survey
 msgid ""
-"You counted {{numberOfOccurrences}} insects altogether - the UK average for "
-"{{month}} is {{expectedNumberOfOccurrences}} insects per count."
+"You counted <1>{{numberOfOccurrences}} </1>insects altogether - the UK "
+"average for <3>{{month}}</3> is <6>{{expectedNumberOfOccurrences}}</6> "
+"insects per count."
 msgstr ""
 
 # Alert message at the end of survey
@@ -1652,4 +1653,56 @@ msgstr ""
 
 # Delete survey alert message
 msgid "Are you sure you want to delete this survey?"
+msgstr ""
+
+# App version
+msgid "App version"
+msgstr ""
+
+# Month name
+msgid "January"
+msgstr ""
+
+# Month name
+msgid "February"
+msgstr ""
+
+# Month name
+msgid "March"
+msgstr ""
+
+# Month name
+msgid "April"
+msgstr ""
+
+# Month name
+msgid "May"
+msgstr ""
+
+# Month name
+msgid "June"
+msgstr ""
+
+# Month name
+msgid "July"
+msgstr ""
+
+# Month name
+msgid "August"
+msgstr ""
+
+# Month name
+msgid "September"
+msgstr ""
+
+# Month name
+msgid "October"
+msgstr ""
+
+# Month name
+msgid "November"
+msgstr ""
+
+# Month name
+msgid "December"
 msgstr ""
