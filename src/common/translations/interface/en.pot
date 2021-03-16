@@ -1365,8 +1365,8 @@ msgid "Thanks for completing your FIT Count - all results help us to monitor ins
 msgstr "Thanks for completing your FIT Count - all results help us to monitor insect population"
 
 # Alert message at the end of survey
-msgid "You counted {{numberOfOccurrences}} insects altogether - the UK average for {{month}} is {{expectedNumberOfOccurrences}} insects per count."
-msgstr "You counted {{numberOfOccurrences}} insects altogether - the UK average for {{month}} is {{expectedNumberOfOccurrences}} insects per count."
+msgid "You counted <1>{{numberOfOccurrences}} </1>insects altogether - the UK average for <3>{{month}}</3> is <6>{{expectedNumberOfOccurrences}}</6> insects per count."
+msgstr "You counted <1>{{numberOfOccurrences}} </1>insects altogether - the UK average for <3>{{month}}</3> is <6>{{expectedNumberOfOccurrences}}</6> insects per count."
 
 # Alert message at the end of survey
 msgid "Go Home"
