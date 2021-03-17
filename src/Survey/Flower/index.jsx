@@ -21,6 +21,7 @@ import Footer from '../Components/Footer';
 import './styles.scss';
 
 const PAGE_INDEX = 3;
+const NEXT_PAGE = 'flower-count';
 
 @observer
 class Flower extends React.Component {
@@ -162,7 +163,7 @@ class Flower extends React.Component {
           {this.getManualEntry()}
         </Main>
 
-        <Footer isEnabled={this.isValueValid()} link="flower-count" />
+        {this.isValueValid() && <Footer link={NEXT_PAGE} />}
       </Page>
     );
   }

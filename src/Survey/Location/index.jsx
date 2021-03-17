@@ -126,7 +126,7 @@ class Location extends ModelLocation {
           />
         </Main>
 
-        <Footer isEnabled={this.isValueValid()} link="habitat" />
+        {this.isValueValid() && <Footer link="habitat" />}
       </Page>
     );
   }

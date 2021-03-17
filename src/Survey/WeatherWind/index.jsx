@@ -131,11 +131,10 @@ class WeatherWind extends React.Component {
             value={value}
           />
         </Main>
-        <Footer
-          isEnabled={this.isValueValid()}
-          title="Save my count"
-          onClick={this.onFinish}
-        />
+
+        {this.isValueValid() && (
+          <Footer title="Save my count" onClick={this.onFinish} />
+        )}
 
         {this.state.showThanks && (
           <CustomAlert>

@@ -65,7 +65,8 @@ class FlowerCover extends React.Component {
             value={value}
           />
         </Main>
-        <Footer isEnabled={this.isValueValid()} link={NEXT_PAGE} />
+
+        {this.isValueValid() && <Footer link={NEXT_PAGE} />}
       </Page>
     );
   }

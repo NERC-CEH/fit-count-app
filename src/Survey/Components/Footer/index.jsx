@@ -9,9 +9,9 @@ import './styles.scss';
 import { flagOutline, chevronForwardOutline } from 'ionicons/icons';
 
 function Footer(props) {
-  const { isEnabled, link, title, onClick } = props;
+  const { link, title, onClick } = props;
 
-  const navigateTo = isEnabled && link ? link : false;
+  const navigateTo = link || false;
 
   const footerTitle = title || 'Next';
 
@@ -26,7 +26,6 @@ function Footer(props) {
           className={clsx('next-button', title && 'finish-button')}
           routerLink={navigateTo}
           onClick={onClick}
-          disabled={!isEnabled}
           mode="md"
         >
           <IonIcon slot="end" color="light" icon={icon} />
@@ -40,7 +39,6 @@ function Footer(props) {
 }
 
 Footer.propTypes = exact({
-  isEnabled: PropTypes.bool.isRequired,
   link: PropTypes.string,
   onClick: PropTypes.func,
   title: PropTypes.string,
