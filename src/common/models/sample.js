@@ -1,4 +1,4 @@
-import { Sample } from '@apps';
+import { Sample, showInvalidsMessage } from '@apps';
 import config from 'common/config';
 import userModel from './user';
 import GPSExtension from './sampleGPSExt';
@@ -61,6 +61,20 @@ class AppSample extends Sample {
       .filter(hasAbundance)
       .reduce(addUpOccurrencesCounts, 0);
   };
+
+  upload() {
+    if (this.remote.synchronising) {
+      return;
+    }
+
+    const invalids = this.validateRemote();
+    if (invalids) {
+      showInvalidsMessage(invalids);
+      return;
+    }
+
+    this.saveRemote();
+  }
 }
 
 Sample.prototype = Object.assign(Sample.prototype, VibrateExtension);

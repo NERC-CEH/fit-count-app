@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { alert, date } from '@apps';
+import { alert, date, device, toast } from '@apps';
+import userModel from 'models/user';
 import { observer } from 'mobx-react';
 import {
   IonItem,
@@ -10,11 +11,12 @@ import {
   IonItemOptions,
   IonItemOption,
   IonBadge,
-  IonAvatar,
 } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
+import { Trans as T, useTranslation } from 'react-i18next';
 import OnlineStatus from './components/OnlineStatus';
 import './styles.scss';
+
+const { warn } = toast;
 
 function deleteSurvey(sample) {
   alert({
@@ -62,6 +64,7 @@ function getSampleInfo(sample) {
 }
 
 const Survey = ({ sample }) => {
+  const { t } = useTranslation();
   const survey = sample.getSurvey();
 
   const { synchronising } = sample.remote;
@@ -71,16 +74,21 @@ const Survey = ({ sample }) => {
     !synchronising && !uploaded && `/${survey.name}/new/${sample.cid}/location`;
 
   const deleteSurveyWrap = () => deleteSurvey(sample);
-  const onUpload = e => {
+  const onUpload = async e => {
     e.preventDefault();
     e.stopPropagation();
 
-    const invalids = sample.validateRemote();
-    if (sample.remote.synchronising || invalids) {
+    if (!device.isOnline()) {
+      warn(t('Looks like you are offline!'));
       return;
     }
 
-    sample.saveRemote();
+    const isActivated = await userModel.checkActivation();
+    if (!isActivated) {
+      return;
+    }
+
+    sample.upload();
   };
 
   return (

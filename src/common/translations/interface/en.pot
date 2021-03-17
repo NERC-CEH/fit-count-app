@@ -1447,3 +1447,15 @@ msgstr "Insects"
 # A label part of user surveys page 
 msgid "Survey"
 msgstr "Survey"
+
+# Survey upload process alert message
+msgid "Sorry, your account hasn't been verified yet or is blocked."
+msgstr "Sorry, your account hasn't been verified yet or is blocked."
+
+# Survey upload process alert message
+msgid "Please log in first."
+msgstr "Please log in first."
+
+# Survey upload process alert message
+msgid "Looks like you are offline!"
+msgstr "Looks like you are offline!"

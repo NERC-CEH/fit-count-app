@@ -3,8 +3,9 @@ import { withTranslation, Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main, InfoMessage } from '@apps';
+import { Page, Attr, Main, InfoMessage, device, toast } from '@apps';
 import appModel from 'models/app';
+import userModel from 'models/user';
 import { NavContext, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { checkmarkOutline, informationCircleOutline } from 'ionicons/icons';
 import surveyStatistics from './surveyStatistics.json';
@@ -12,6 +13,8 @@ import CustomAlert from '../Components/CustomAlert';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
+
+const { warn } = toast;
 
 const PAGE_INDEX = 10;
 
@@ -45,9 +48,20 @@ class WeatherWind extends React.Component {
     this.context.navigate('/home/surveys', 'root');
   };
 
-  uploadSurvey = () => {
-    const { sample } = this.props;
-    sample.saveRemote();
+  uploadSurvey = async () => {
+    const { sample, t } = this.props;
+
+    if (!device.isOnline()) {
+      warn(t('Looks like you are offline!'));
+      return;
+    }
+
+    const isActivated = await userModel.checkActivation();
+    if (!isActivated) {
+      return;
+    }
+
+    sample.upload();
 
     this.goHome();
   };
