@@ -13,6 +13,7 @@ import {
   IonSlide,
   IonBadge,
   IonImg,
+  IonButton,
 } from '@ionic/react';
 import { Main } from '@apps';
 import { removeOutline } from 'ionicons/icons';
@@ -60,14 +61,18 @@ class SpeciesMainComponent extends React.Component {
 
     const decreaseCount = e => onDecreaseCount(e, sp);
 
+    const count = this.getOccurrenceCount(sp);
+
     return (
       <IonCol key={i} className="species-tile" size="6" onClick={selectSpecies}>
-        {this.getOccurrenceCount(sp)}
+        {count}
 
         <div className="container">
-          <div className="info-box" onClick={decreaseCount}>
-            <IonIcon icon={removeOutline} color="danger" />
-          </div>
+          {!!count && (
+            <IonButton className="count-decrement" onClick={decreaseCount}>
+              <IonIcon icon={removeOutline} color="danger" />
+            </IonButton>
+          )}
 
           <IonImg src={thumbnail} />
 

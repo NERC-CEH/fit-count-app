@@ -78,24 +78,23 @@
 
           overflow: hidden;
 
-          .info-box {
+          .count-decrement {
             position: absolute;
             top: 0;
             height: 40%;
             width: 40%;
             left: 0;
-            background: #ff002217;
+            --background: #ff002217;
+            --background-activated: #ff00224f;
             border-radius: 0 0 100% 0;
-            box-shadow: 0 0 10px 2px #848484;
             display: flex;
             align-items: center;
             justify-content: center;
+            --border-radius: 0 0 50%;
+            margin: 0;
 
             ion-icon {
-              width: 50%;
-              height: 50%;
-              margin-left: -20%;
-              margin-top: -20%;
+              --ionicon-stroke-width: 3em;
             }
           }
         }
