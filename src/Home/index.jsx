@@ -6,19 +6,17 @@ import {
   IonTabs,
   IonTabButton,
   IonIcon,
-  IonLabel,
   IonTabBar,
   IonRouterOutlet,
 } from '@ionic/react';
 import {
-  bookOutline,
   homeOutline,
   informationCircleOutline,
   menuOutline,
   layersOutline,
 } from 'ionicons/icons';
-import { Trans as T } from 'react-i18next';
 import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
+import flyIcon from 'common/images/fly.svg';
 import Home from './Home';
 import Menu from './Menu';
 import Guide from './Guide';
@@ -48,38 +46,24 @@ const HomeComponent = () => {
         <IonTabBar slot="bottom" className="home-tab-bar">
           <IonTabButton tab="home/info " href="/home/info">
             <IonIcon icon={homeOutline} />
-            <IonLabel>
-              <T>Home</T>
-            </IonLabel>
-          </IonTabButton>
-
-          <IonTabButton tab="/home/surveys" href="/home/surveys">
-            <IonIcon icon={layersOutline} />
-            <IonLabel>
-              <T>My Surveys</T>
-            </IonLabel>
-            <PendingSurveysBadge savedSamples={savedSamples} />
-          </IonTabButton>
-
-          <IonTabButton tab="home/guide " href="/home/guide">
-            <IonIcon icon={bookOutline} />
-            <IonLabel>
-              <T>ID Guide</T>
-            </IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="home/manual" href="/home/manual">
             <IonIcon icon={informationCircleOutline} />
-            <IonLabel>
-              <T>How To</T>
-            </IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="home/guide " href="/home/guide">
+            <IonIcon icon={flyIcon} />
+          </IonTabButton>
+
+          <IonTabButton tab="/home/surveys" href="/home/surveys">
+            <IonIcon icon={layersOutline} />
+
+            <PendingSurveysBadge savedSamples={savedSamples} />
           </IonTabButton>
 
           <IonTabButton tab="home/menu " href="/home/menu">
             <IonIcon icon={menuOutline} />
-            <IonLabel>
-              <T>Menu</T>
-            </IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
