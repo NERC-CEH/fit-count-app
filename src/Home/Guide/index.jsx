@@ -20,7 +20,6 @@ class Guide extends React.Component {
   });
 
   state = {
-    showModal: false,
     species: null,
     speciesName: null,
   };
@@ -31,7 +30,6 @@ class Guide extends React.Component {
     const flowersOrInsectsData = insectsData; // flowers will not be included
 
     this.setState({
-      showModal: true,
       species: flowersOrInsectsData.find(speciesById),
       speciesName: commonName,
     });
@@ -95,7 +93,7 @@ class Guide extends React.Component {
               onClose={this.hideSpeciesModal}
               skipTranslation
             />
-            {this.state.showModal && (
+            {!!this.state.species && (
               <SpeciesProfile species={this.state.species} />
             )}
           </IonModal>
