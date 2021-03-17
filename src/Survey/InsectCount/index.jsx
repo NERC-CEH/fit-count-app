@@ -5,11 +5,11 @@ import { Page } from '@apps';
 import { observer } from 'mobx-react';
 import { IonItem } from '@ionic/react';
 import { pauseOutline, playOutline } from 'ionicons/icons';
-import Main from 'common/Components/Species';
 import Header from 'Survey/Components/Header';
 import Footer from 'Survey/Components/Footer';
 import surveyConfig from 'Survey/config';
 import CountdownClock from 'Survey/Components/CountdownClock';
+import Main from './Components/Species';
 import IntroAlert from './Components/IntroAlert';
 import './styles.scss';
 

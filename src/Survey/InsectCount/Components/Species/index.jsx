@@ -91,6 +91,10 @@ class SpeciesMainComponent extends React.Component {
 
     const occurrence = sample.occurrences.find(bySpeciesId);
 
+    if (!occurrence) {
+      return null;
+    }
+
     const { count } = occurrence.attrs;
 
     if (count <= 0) {
