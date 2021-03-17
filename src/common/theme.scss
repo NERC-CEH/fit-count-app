@@ -71,6 +71,15 @@
   --ion-item-border-color: rgb(0, 0, 0, 0.2);
 }
 
+html.ios.plt-hybrid #status-bar-background {
+  background: #13010b;
+  width: 100vw;
+  height: env(safe-area-inset-top);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
 .ios,
 .md {
   --ion-toolbar-background: var(--ion-color-primary);
