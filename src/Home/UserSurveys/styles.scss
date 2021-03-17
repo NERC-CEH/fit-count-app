@@ -8,12 +8,6 @@
 
     ion-toolbar {
       --ion-toolbar-background: var(--ion-page-background);
-
-      ion-segment {
-        width: 80%;
-        margin: auto;
-      }
-
       color: var(--ion-background-page);
     }
   }
