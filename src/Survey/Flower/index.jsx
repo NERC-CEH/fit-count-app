@@ -41,6 +41,7 @@ class Flower extends React.Component {
     this.setFlowerType(value);
 
     if (sample.attrs.flower === 'Other') {
+      this.contentRef.current.scrollToBottom(500);
       return;
     }
 
@@ -79,14 +80,6 @@ class Flower extends React.Component {
     const hasPhoto = !!sample.media.length;
 
     return hasSpeciesSet && hasPhoto;
-  };
-
-  componentDidUpdate = () => {
-    const { sample } = this.props;
-
-    if (sample.attrs.flower === 'Other') {
-      this.contentRef.current.scrollToBottom(500);
-    }
   };
 
   setFlowerType = selectedFlowerName => {
