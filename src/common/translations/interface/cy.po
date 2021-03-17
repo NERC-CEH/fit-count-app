@@ -915,8 +915,8 @@ msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
 msgstr ""
-"<0>Mae peillwyr yn bwysig!</0><br/>Helpwch ni i'w monitro gyda Chyfrif Blodau-"
-"Pryfed wedi'i Amseru"
+"<0>Mae peillwyr yn bwysig!</0><br/>Helpwch ni i'w monitro gyda Chyfrif "
+"Blodau-Pryfed wedi'i Amseru"
 
 # Onboarding content
 msgid ""
@@ -2001,4 +2001,8 @@ msgstr ""
 
 # Survey upload process alert message
 msgid "Looks like you are offline!"
+msgstr ""
+
+# Survey remove photo alert message
+msgid "Are you sure you want to remove this photo?"
 msgstr ""

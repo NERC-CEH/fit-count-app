@@ -1440,11 +1440,11 @@ msgstr "November"
 msgid "December"
 msgstr "December"
 
-# A label part of user surveys page 
+# A label part of user surveys page
 msgid "Insects"
 msgstr "Insects"
 
-# A label part of user surveys page 
+# A label part of user surveys page
 msgid "Survey"
 msgstr "Survey"
 
@@ -1459,3 +1459,7 @@ msgstr "Please log in first."
 # Survey upload process alert message
 msgid "Looks like you are offline!"
 msgstr "Looks like you are offline!"
+
+# Survey remove photo alert message
+msgid "Are you sure you want to remove this photo?"
+msgstr "Are you sure you want to remove this photo?"

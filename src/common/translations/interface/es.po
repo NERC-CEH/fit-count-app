@@ -1726,3 +1726,7 @@ msgstr ""
 # Survey upload process alert message
 msgid "Looks like you are offline!"
 msgstr ""
+
+# Survey remove photo alert message
+msgid "Are you sure you want to remove this photo?"
+msgstr ""
