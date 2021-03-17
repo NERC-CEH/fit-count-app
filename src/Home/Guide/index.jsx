@@ -19,6 +19,8 @@ class Guide extends React.Component {
     t: PropTypes.func,
   });
 
+  modal = React.createRef();
+
   state = {
     species: null,
     speciesName: null,
@@ -57,7 +59,11 @@ class Guide extends React.Component {
     );
   };
 
-  hideSpeciesModal = () => {
+  dismissModal = () => {
+    this.modal.current.dismiss();
+  };
+
+  dismissModalCleanup = () => {
     this.setState({ species: null });
   };
 
@@ -87,10 +93,15 @@ class Guide extends React.Component {
 
           {this.getListGrid(insectsData)}
 
-          <IonModal isOpen={!!this.state.species} backdropDismiss={false}>
+          <IonModal
+            ref={this.modal}
+            isOpen={!!this.state.species}
+            backdropDismiss={false}
+            onDidDismiss={this.dismissModalCleanup}
+          >
             <ModalHeader
               title={t(this.state.speciesName)}
-              onClose={this.hideSpeciesModal}
+              onClose={this.dismissModal}
               skipTranslation
             />
             {!!this.state.species && (
