@@ -912,10 +912,10 @@ msgstr "Wedi mewngofnodi'n llwyddiannus"
 
 # Onboarding content
 msgid ""
-"Pollinators are important!<br/>Help us monitor them with a Flower-Insect "
-"Timed Count"
+"<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
+"Insect Timed Count"
 msgstr ""
-"Mae peillwyr yn bwysig!<br/>Helpwch ni i'w monitro gyda Chyfrif Blodau-"
+"<0>Mae peillwyr yn bwysig!</0><br/>Helpwch ni i'w monitro gyda Chyfrif Blodau-"
 "Pryfed wedi'i Amseru"
 
 # Onboarding content
@@ -934,8 +934,8 @@ msgstr ""
 
 # Onboarding content
 msgid ""
-"Read our ‘how-to’ guide, check out the insect ID guide, and you’re ready to "
-"get started!"
+"Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
+" get started!"
 msgstr ""
 "Darllenwch ein canllaw arweiniol ar gyfer yr arolwg, edrychwch ar y canllaw "
 "i adnabod pryfed, ac rydych chi'n barod i fynd!"

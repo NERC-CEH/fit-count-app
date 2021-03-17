@@ -7,21 +7,20 @@ import {
   IonSlides,
   IonSlide,
   IonButton,
-  IonHeader,
   IonToolbar,
   IonButtons,
   IonIcon,
   IonFooter,
 } from '@ionic/react';
 import Log from 'helpers/log';
-import { arrowForward, closeOutline } from 'ionicons/icons';
+import { arrowForward, checkmarkOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';
 import first from './images/first.jpg';
 import './styles.scss';
 
 const SplashScreen = ({ appModel }) => {
-  const [showSkip, setShowSkip] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
 
   function exit() {
     Log('Info:Welcome:Controller: exit.');
@@ -32,8 +31,8 @@ const SplashScreen = ({ appModel }) => {
   const slideRef = useRef(null);
 
   const handleSlideChangeStart = async () => {
-    const isEnd = await slideRef.current.isEnd();
-    setShowSkip(!isEnd);
+    const isThisLastSlide = await slideRef.current.isEnd();
+    setIsEnd(isThisLastSlide);
   };
 
   const onIonSlidesDidLoadWrap = e => {
@@ -43,22 +42,16 @@ const SplashScreen = ({ appModel }) => {
     e.target.update();
   };
 
-  const slideNext = () => slideRef.current.swiper.slideNext();
+  const slideNextOrClose = async () => {
+    if (!isEnd) {
+      slideRef.current.swiper.slideNext();
+      return;
+    }
 
+    exit();
+  };
   return (
     <Page id="welcome-page">
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonButtons slot="end">
-            {showSkip && (
-              <IonButton color="none" onClick={exit}>
-                <IonIcon icon={closeOutline} color="dark" />
-              </IonButton>
-            )}
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
-
       <Main>
         <IonSlides
           pager
@@ -74,55 +67,46 @@ const SplashScreen = ({ appModel }) => {
               <div className="app-logo-wrapper">
                 <img className="app-logo" src={appLogo} alt="appLogo" />
               </div>
+            </div>
 
-              <div className="message-blur-container">
-                <div className="message">
-                  <p>
-                    <T>
-                      Pollinators are important!
-                      <br />
-                      Help us monitor them with a Flower-Insect Timed Count
-                    </T>
-                  </p>
-                </div>
+            <div className="message-container">
+              <div className="message">
+                <p>
+                  <T>
+                    <b>Pollinators are important!</b>
+                    <br />
+                    Help us monitor them with a Flower-Insect Timed Count
+                  </T>
+                </p>
               </div>
             </div>
           </IonSlide>
 
           <IonSlide className="second">
-            <div className="slide-header">
-              <div className="app-logo-wrapper-no-background">
-                <img className="app-logo" src={appLogo} alt="appLogo" />
-              </div>
+            <h1>
+              <T>How To</T>
+            </h1>
 
-              <div className="message">
-                <T>
-                  <ol>
-                    <li>Wait for good weather! </li>
-                    <li>Find a patch of target flowers</li>
-                    <li>Count the flowers in your patch</li>
-                    <li>
-                      Count <b>all</b> insects that <b>land</b> on the{' '}
-                      <b>target flowers</b>
-                    </li>
-                    <li>The app will tell you when your ten minutes is up</li>
-                    <li>Save your count, and upload it to the website</li>
-                  </ol>
-                </T>
+            <T>
+              <ol>
+                <li>Wait for good weather! </li>
+                <li>Find a patch of target flowers</li>
+                <li>Count the flowers in your patch</li>
+                <li>
+                  Count <b>all</b> insects that <b>land</b> on the{' '}
+                  <b>target flowers</b>
+                </li>
+                <li>The app will tell you when your ten minutes is up</li>
+                <li>Save your count, and upload it to the website</li>
+              </ol>
+            </T>
 
-                <p className="message-text">
-                  <T>
-                    Read our ‘how-to’ guide, check out the insect ID guide, and
-                    you’re ready to get started!
-                  </T>
-                </p>
-              </div>
-
-              <IonButton fill="clear" onClick={exit}>
-                <T>Let's start the count!</T>
-                <IonIcon slot="end" icon={arrowForward} />
-              </IonButton>
-            </div>
+            <p className="read-more-text">
+              <T>
+                Read our full ‘how-to’ guide, check out insect ID pages, and
+                you’re ready to get started!
+              </T>
+            </p>
           </IonSlide>
         </IonSlides>
       </Main>
@@ -130,11 +114,9 @@ const SplashScreen = ({ appModel }) => {
       <IonFooter className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="end">
-            {showSkip && (
-              <IonButton color="none" onClick={slideNext}>
-                <IonIcon icon={arrowForward} />
-              </IonButton>
-            )}
+            <IonButton onClick={slideNextOrClose}>
+              <IonIcon icon={isEnd ? checkmarkOutline : arrowForward} />
+            </IonButton>
           </IonButtons>
         </IonToolbar>
       </IonFooter>

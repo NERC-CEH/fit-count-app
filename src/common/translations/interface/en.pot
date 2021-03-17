@@ -751,16 +751,16 @@ msgid "Successfully logged in"
 msgstr "Successfully logged in"
 
 # Onboarding content
-msgid "Pollinators are important!<br/>Help us monitor them with a Flower-Insect Timed Count"
-msgstr "Pollinators are important!<br/>Help us monitor them with a Flower-Insect Timed Count"
+msgid "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-Insect Timed Count"
+msgstr "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-Insect Timed Count"
 
 # Onboarding content
 msgid "<0><0>Wait for good weather! </0><1>Find a patch of target flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you when your ten minutes is up</4><5>Save your count, and upload it to the website</5></0>"
 msgstr "<0><0>Wait for good weather! </0><1>Find a patch of target flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you when your ten minutes is up</4><5>Save your count, and upload it to the website</5></0>"
 
 # Onboarding content
-msgid "Read our ‘how-to’ guide, check out the insect ID guide, and you’re ready to get started!"
-msgstr "Read our ‘how-to’ guide, check out the insect ID guide, and you’re ready to get started!"
+msgid "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to get started!"
+msgstr "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to get started!"
 
 # Onboarding content
 msgid "Let's start the count!"

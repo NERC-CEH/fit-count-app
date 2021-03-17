@@ -827,8 +827,8 @@ msgstr ""
 
 # Onboarding content
 msgid ""
-"Pollinators are important!<br/>Help us monitor them with a Flower-Insect "
-"Timed Count"
+"<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
+"Insect Timed Count"
 msgstr ""
 
 # Onboarding content
@@ -842,8 +842,8 @@ msgstr ""
 
 # Onboarding content
 msgid ""
-"Read our ‘how-to’ guide, check out the insect ID guide, and you’re ready to "
-"get started!"
+"Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
+" get started!"
 msgstr ""
 
 # Onboarding content

@@ -5,7 +5,7 @@ import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { observer } from 'mobx-react';
 import CountriesSelectRequire from 'common/Components/CountriesSelectRequire';
-import OnBoardingScreens from './Info/onBoardingScreens';
+import OnBoardingScreens from './Info/OnBoardingScreens';
 import Home from './Home';
 import Info from './Info/router';
 import Settings from './Settings/router';
