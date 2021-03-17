@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { setupConfig, isPlatform } from '@ionic/react';
 import appModel from 'models/app';
+import userModel from 'models/user';
 import savedSamples from 'models/savedSamples';
 import { Plugins, StatusBarStyle } from '@capacitor/core';
 import i18n from 'i18next';
@@ -35,6 +36,7 @@ setupConfig({
 
 async function init() {
   await appModel._init;
+  await userModel._init;
   await savedSamples._init;
 
   if (!appModel.attrs.language) {
@@ -51,6 +53,7 @@ async function init() {
     environment: config.environment,
     build: config.build,
     release: config.version,
+    userId: userModel.attrs.id,
     tags: {
       'app.appSession': appModel.attrs.appSession,
     },
