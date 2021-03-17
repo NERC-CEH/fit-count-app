@@ -1981,3 +1981,11 @@ msgstr "Tachwedd"
 # Month name
 msgid "December"
 msgstr "Rhagfyr"
+
+# A label part of user surveys page
+msgid "Insects"
+msgstr "Pryfed"
+
+# A label part of user surveys page
+msgid "Survey"
+msgstr "Arolwg"

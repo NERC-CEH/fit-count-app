@@ -21,8 +21,31 @@
     --padding-start: 0;
     --border-style: none;
 
-    ion-label h2 {
-      font-weight: 600;
+    .count {
+      margin: 5px 15px;
+
+      .number {
+        background: #edeced;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 auto;
+      }
+
+      .label {
+        font-size: 0.6em;
+        text-align: center;
+      }
+    }
+
+    ion-label {
+      margin-left: 5px;
+
+      h2 {
+        font-weight: 600;
+      }
     }
   }
 }

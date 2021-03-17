@@ -52,6 +52,15 @@ class AppSample extends Sample {
   hasCountdown2MinutesLeft = () => {
     return this.hasCountdownTimedOut(2000);
   };
+
+  getInsectCount = () => {
+    const hasAbundance = occ => occ.attrs.count;
+    const addUpOccurrencesCounts = (acc, occ) => acc + occ.attrs.count;
+
+    return this.occurrences
+      .filter(hasAbundance)
+      .reduce(addUpOccurrencesCounts, 0);
+  };
 }
 
 Sample.prototype = Object.assign(Sample.prototype, VibrateExtension);

@@ -37,10 +37,16 @@ function deleteSurvey(sample) {
 
 function getSampleInfo(sample) {
   const prettyDate = date.print(sample.attrs.date);
+  const insectCount = sample.getInsectCount();
 
   return (
     <>
-      <IonAvatar />
+      <div className="count">
+        <div className="number">{insectCount}</div>
+        <div className="label">
+          <T>Insects</T>
+        </div>
+      </div>
 
       <IonLabel position="stacked" mode="ios" color="dark">
         <IonLabel class="ion-text-wrap">

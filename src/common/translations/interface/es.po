@@ -1706,3 +1706,11 @@ msgstr ""
 # Month name
 msgid "December"
 msgstr ""
+
+# A label part of user surveys page
+msgid "Insects"
+msgstr ""
+
+# A label part of user surveys page
+msgid "Survey"
+msgstr ""

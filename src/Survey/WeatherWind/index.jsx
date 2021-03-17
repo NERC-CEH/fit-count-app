@@ -70,17 +70,6 @@ class WeatherWind extends React.Component {
 
   isValueValid = () => !!this.props.sample.attrs['weather-wind'];
 
-  getNumberOfOccurences = () => {
-    const { sample } = this.props;
-
-    const hasAbundance = occ => occ.attrs.count;
-    const addUpOccurrencesCounts = (acc, occ) => acc + occ.attrs.count;
-
-    return sample.occurrences
-      .filter(hasAbundance)
-      .reduce(addUpOccurrencesCounts, 0);
-  };
-
   getAverageInsectCount = month => {
     const byMonth = obj => obj.month_name === month;
 
@@ -100,7 +89,7 @@ class WeatherWind extends React.Component {
     const attr = surveyConfig.attrs['weather-wind'];
     const value = sample.attrs['weather-wind'];
 
-    const numberOfOccurrences = this.getNumberOfOccurences();
+    const numberOfOccurrences = sample.getInsectCount();
 
     const englishFormat = Intl.DateTimeFormat('en', { month: 'long' });
 
