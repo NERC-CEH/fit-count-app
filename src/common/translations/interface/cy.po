@@ -1267,7 +1267,7 @@ msgstr ""
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
-msgstr "Teimlyddion hir (sy'n wahanol i'r rhan fwyaf o bryfed)"
+msgstr "Teimlyddion hir (sy'n wahanol i'r rhan fwyaf o glêr)"
 
 # Wasps screen 1 content
 msgid ""
@@ -1424,7 +1424,7 @@ msgid ""
 msgstr ""
 "Fel arfer nid yw pryfed hofran mor flewog â gwenyn (ond mae rhai "
 "eithriadau!), ac fel arfer does ganddyn nhw ddim gwrych amlwg ar eu cyrff "
-"(mae rhai mathau eraill o bryfed yn amlwg wrychog)"
+"(mae rhai mathau eraill o glêr yn amlwg wrychog)"
 
 # Hoverflies screen 1 content
 msgid ""
@@ -1549,14 +1549,20 @@ msgid ""
 "other flies have. Two examples of “other flies” are shown above and two on "
 "the next screen."
 msgstr ""
+"Byddwch yn gweld nifer o wahanol fathau o glêr yn ymweld â'r blodau fwy na "
+"thebyg – ar gyfer PoMS dim ond eu gwahanu'n “bryfed hofran” a “phob cleren "
+"arall” mae angen i chi wneud! Peidiwch ag anghofio bod pryfed hofran yn "
+"gallu hofran, rhywbeth y gall rhai clêr eraill ei wneud, ond dim llawer "
+"ohonynt. Mae dwy enghraifft o “glêr eraill” i'w gweld uchod a dwy ar y sgrin"
+" nesaf."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
-msgstr ""
+msgstr "Cleren barasitig yw hon o'r teulu Tachinidae"
 
 # Other flies screen 2 content
 msgid "It has prominent bristles on the abdomen"
-msgstr ""
+msgstr "Mae ganddo wrych amlwg ar ei abdomen"
 
 # Other flies screen 2 content
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
@@ -1567,6 +1573,8 @@ msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
 msgstr ""
+"Mae ganddo wrych ar ei gorff a'i goesau, ac mae gan y gwrywod yn arbennig "
+"flew melyn fflwffog ar eu cyrff"
 
 # Other flies screen 2 content
 msgid ""
@@ -1574,6 +1582,9 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body."
 msgstr ""
+"Mae rhai o'r clêr mwy a welwch ar flodau o deuluoedd ‘calypterate’, a'r rhan"
+" fwyaf o'r rhain yn bryfed eithaf crwn a chanddynt wrych amlwg ar eu coesau "
+"a'u cyrff."
 
 # Butterflies and moths 1 screen content
 msgid "Small Tortoiseshell butterfly"
@@ -1581,7 +1592,7 @@ msgstr ""
 
 # Butterflies and moths 1 screen content
 msgid "Common Blue butterfly"
-msgstr ""
+msgstr "Y Glesyn Cyffredin"
 
 # Butterflies and moths 1 screen content
 msgid ""
@@ -1590,12 +1601,19 @@ msgid ""
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
+"Rydym yn gyfarwydd iawn â gweld pili-palod yn ymweld â blodau. Efallai ein "
+"bod yn sylwi ar wyfynod yn llai aml ond maen nhw hefyd yn ymweld â blodau'n "
+"rheolaidd, naill ai yn ystod y dydd neu yn y nos. Mae rhai gwyfynod (gweler "
+"y sgrin nesaf) yn eithaf bach ac maen bosib y byddwch yn anghofio amdanynt "
+"fel mathau eraill o bryfed."
 
 # Butterflies and moths 1 screen content
 msgid ""
 "For PoMS there is no need to distinguish between butterflies and moths – "
 "they are all counted in the same category."
 msgstr ""
+"Ar gyfer PoMS, does dim angen gwahaniaethu rhwng pili-palod a gwyfynod – "
+"maen nhw i gyd yn cael eu cyfrif o fewn yr un grŵp."
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
@@ -1612,16 +1630,22 @@ msgid ""
 "moths”). All moths have patterns and colours produced by the tiny scales on "
 "their wings."
 msgstr ""
+"Gellir gweld amrywiaeth o wyfynod sy'n hedfan yn y dydd yn ymweld â blodau. "
+"Mae rhai o'r rhain yn eithaf mawr (“gwyfynod mawr”) a lliwgar, ac mae rhai "
+"yn fach iawn (“gwyfynod bach”). Mae gan yr holl wyfynod batrymau a lliwiau "
+"sy'n cael eu cynhyrchu gan y cennau pitw bach ar eu hadenydd."
 
 # Beetles 1 screen content
 msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
 msgstr ""
+"Mae gan chwilod adenydd blaen sydd wedi caledu ac sy'n gweithio fel gorchudd"
+" ar gyfer yr adenydd cefn caletach a'r abdomen"
 
 # Beetles 1 screen content
 msgid "Beetles have chewing mouthparts"
-msgstr ""
+msgstr "Mae gan chwilod rannau cnoi yn eu cegau"
 
 # Beetles 1 screen content
 msgid ""
@@ -1636,6 +1660,10 @@ msgid ""
 " colour, but can be recognised as beetles by the hard wing cases covering "
 "their abdomen."
 msgstr ""
+"Cymharol brin yw'r rhywogaethau o chwilod sy'n ymweld â blodau, gall y rhai "
+"sy'n gwneud fod yn helaeth iawn. Mae'r gwahanol rywogaethau'n amrywio'n fawr"
+" o ran eu maint, eu siâp a'u lliw, ond ellir eu hadnabod fel chwilod "
+"oherwydd y cistiau adenydd caled sy'n gorchuddio'r abdomen."
 
 # Beetles 2 screen content
 msgid ""
@@ -1651,13 +1679,16 @@ msgstr ""
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
-msgstr ""
+msgstr "Uchod mae dwy enghraifft o chwilen sy'n ymweld â blodau'n aml."
 
 # Small insect 1 screen content
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
 msgstr ""
+"Mae'r enghraifft hon yn dangos blodyn â nifer o chwilod paill (o'r teulu "
+"Nitidulidae) – gall “pryfed bychain” eraill gynnwys clêr pitw bach a gwenyn "
+"meirch parasitig"
 
 # Small insect 1 screen content
 msgid ""
@@ -1666,27 +1697,38 @@ msgid ""
 "other insects visiting the flowers). Just count them (or estimate them if "
 "there is a large number) and assign them all to this category."
 msgstr ""
+"Mae'r categori hwn ar gyfer unrhyw bryfed sy'n llai na 3mm o hyd. Gall fod "
+"yn anodd gwybod pa grŵp i roi'r rhain ynddo heb edrych yn agos iawn arnynt "
+"(a fyddai'n tarfu ar bryfed eraill sy'n ymweld â'r blodau). Cyfrwch nhw (neu"
+" ddyfalu eu nifer os oes nifer fawr) a rhowch nhw i gyd yn y categori hwn."
 
 # Other insect 1 screen content
 msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
+"Ymysg y pryfed eraill y gallech eu gweld mae'r llifbrif, sy'n dod mewn "
+"amrywiaeth o feintiau a lliwiau - mae rhai yn edrych yn eithaf tebyg i wenyn"
+" meirch"
 
 # Other insect 1 screen content
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
+"Nid oes canol main ganddynt fel gwenyn meirch – nid oes bwlch rhwng yr "
+"abdomen a'r thoracs"
 
 # Other insect 1 screen content
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr ""
+msgstr "Nid yw'r llifbryf yn flewog ac nid oes ganddo fasged paill"
 
 # Other insect 1 screen content
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
+"Maen nhw'n symud yn eithaf araf fel arfer, ac yn hedfan yn fwy gwan na "
+"gwenyn neu wenyn meirch"
 
 # Other insect 1 screen content
 msgid ""
@@ -1697,6 +1739,12 @@ msgid ""
 "“other insects”. Sawflies are related to bees and wasps but there are a "
 "number of differences."
 msgstr ""
+"Mae'r categori hwn ar gyfer unrhyw bryfed sydd ddim yn ffitio yn y grwpiau "
+"eraill o bryfed, a gellir ei ddefnyddio hefyd ar gyfer unrhyw bryfed na "
+"allwch eu rhoi mewn grŵp o gwbl. Cyfrifwch bob pryf a welwch, a defnyddio "
+"\"pryfed eraill\" ar gyfer unrhyw rai nad ydych chi'n eu hadnabod. Er "
+"enghraifft, caiff y llifbryf ei gyfrif fel \"pryfed eraill\". Mae'r llifbryf"
+" yn perthyn i'r gwenyn a'r gwenyn meirch, ond mae nifer o wahaniaethau."
 
 # Other insect 2 screen content
 msgid ""
@@ -1730,19 +1778,19 @@ msgstr ""
 
 # From survey pages
 msgid "Other"
-msgstr ""
+msgstr "Arall"
 
 # From survey pages
 msgid "Note: it will remain in the gallery."
-msgstr ""
+msgstr "Noder: bydd yn aros yn yr oriel."
 
 # From survey pages
 msgid "Oops! Something, went wrong."
-msgstr ""
+msgstr "Wps! Mae rhywbeth wedi mynd o'i le."
 
 # From survey pages
 msgid "This is the error event id: {{eventId}}"
-msgstr ""
+msgstr "Dyma rif adnabod yr achos o wall: {{eventId}}"
 
 # From survey pages
 msgid "What is the <1>sky</1> above your location?"
@@ -1751,6 +1799,7 @@ msgstr "Sut mae'r <1>awyr</1> uwch ben eich lleoliad?"
 # From survey pages
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 msgstr ""
+"Faint o <1>haul</1> oedd ar eich llain yn ystod y Cyfrif FIT? Oedd y llain:"
 
 # From survey pages
 msgid "What was the <1>wind</1> strength?"
@@ -1758,72 +1807,74 @@ msgstr "Beth oedd cryfder y <1>gwynt</1>?"
 
 # Button label
 msgid "Upload"
-msgstr ""
+msgstr "Llwytho i fyny"
 
 # Context term
 msgid ""
 "If you don't know which insect group, add to the \"Other insects\" category."
 msgstr ""
+"Os nad ydych chi'n gwybod pa grŵp o bryfed, rhowch yn y catogri \"Pryfed "
+"eraill\"."
 
 # Logout message
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "Ydych chi'n sicr eich bod am allgofnodi?"
 
 # Logout message
 msgid "Discard local data"
-msgstr ""
+msgstr "Diddymu'r data lleol"
 
 # Id guide label
 msgid "Bumblebees"
-msgstr ""
+msgstr "Cacwn"
 
 # Id guide label
 msgid "Honeybees"
-msgstr ""
+msgstr "Gwenyn mêl"
 
 # Id guide label
 msgid "Solitary bees"
-msgstr ""
+msgstr "Gwenyn unig"
 
 # Id guide label
 msgid "Wasps"
-msgstr ""
+msgstr "Gwenyn meirch"
 
 # Id guide label
 msgid "Hoverflies"
-msgstr ""
+msgstr "Pryfed hofran"
 
 # Id guide label
 msgid "Other flies"
-msgstr ""
+msgstr "Clêr eraill"
 
 # Id guide label
 msgid "Butterflies and moths"
-msgstr ""
+msgstr "Pili-palod a gwyfynod"
 
 # Id guide label
 msgid "Beetles"
-msgstr ""
+msgstr "Chwilod"
 
 # Id guide label
 msgid "Small insects (<3mm)"
-msgstr ""
+msgstr "Pryfed bychain (<3mm)"
 
 # Id guide label
 msgid "Other insects"
-msgstr ""
+msgstr "Pryfed eraill"
 
 # Survey back button label
 msgid "Insect"
-msgstr ""
+msgstr "Pryfed"
 
 # Survey back button label
 msgid "Location"
-msgstr ""
+msgstr "Lleoliad"
 
 # Survey back button label
 msgid "Count"
-msgstr ""
+msgstr "Cyfrif"
 
 # Survey back button label
 msgid "Cover"
@@ -1831,97 +1882,102 @@ msgstr ""
 
 # Survey back button label
 msgid "Patch"
-msgstr ""
+msgstr "Llain"
 
 # Survey back button label
 msgid "Sky"
-msgstr ""
+msgstr "Awyr"
 
 # Survey back button label
 msgid "Shade"
-msgstr ""
+msgstr "Cysgod"
 
 # Alert message at the end of survey
 msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
 " populations."
 msgstr ""
+"Diolch am gwblhau eich Cyfrif FIT - mae'r holl ganlyniadau'n ein helpu ni i "
+"fonitro poblogaethau pryfed."
 
 # Alert message at the end of survey
 msgid ""
-"You counted <1>{{numberOfOccurrences}} </1>insects altogether - the UK "
-"average for <3>{{month}}</3> is <6>{{expectedNumberOfOccurrences}}</6> "
+"You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
+"average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
 "insects per count."
 msgstr ""
+"Fe gyfroch chi <1>{{numberOfOccurrences}} </1>o bryfed i gyd - cyfartaledd y"
+" Deyrnas Unedig ar gyfer mis <3>{{month}}</3> yw "
+"<6>{{averageInsectCountForThisMonth}}</6> o bryfed y cyfrif."
 
 # Alert message at the end of survey
 msgid "Go Home"
-msgstr ""
+msgstr "Mynd Adref"
 
 # Settings page divider label
 msgid "User"
-msgstr ""
+msgstr "Defnyddiwr"
 
 # User registration identification experience button label
 msgid "Done"
-msgstr ""
+msgstr "Wedi gorffen"
 
 # User registration "Happy to be contacted" label
 msgid "Happy to be contacted"
-msgstr ""
+msgstr "Yn hapus i chi gysylltu â fi"
 
 # Delete survey alert message
 msgid "Are you sure you want to delete this survey?"
-msgstr ""
+msgstr "Ydych chi'n sicr eich bod am ddileu'r arolwg hwn?"
 
 # App version
 msgid "App version"
-msgstr ""
+msgstr "Fersiwn yr ap"
 
 # Month name
 msgid "January"
-msgstr ""
+msgstr "Ionawr"
 
 # Month name
 msgid "February"
-msgstr ""
+msgstr "Chwefror"
 
 # Month name
 msgid "March"
-msgstr ""
+msgstr "Mawrth"
 
 # Month name
 msgid "April"
-msgstr ""
+msgstr "Ebrill"
 
 # Month name
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 # Month name
 msgid "June"
-msgstr ""
+msgstr "Mehefin"
 
 # Month name
 msgid "July"
-msgstr ""
+msgstr "Gorffennaf"
 
 # Month name
 msgid "August"
-msgstr ""
+msgstr "Awst"
 
 # Month name
 msgid "September"
-msgstr ""
+msgstr "Medi"
 
 # Month name
 msgid "October"
-msgstr ""
+msgstr "Hydref"
 
 # Month name
 msgid "November"
-msgstr ""
+msgstr "Tachwedd"
 
 # Month name
 msgid "December"
-msgstr ""
+msgstr "Rhagfyr"
