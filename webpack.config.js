@@ -9,10 +9,7 @@ const required = [
   'APP_BACKEND_CLIENT_PASS',
 ];
 
-const development = {
-  APP_BACKEND_URL: '',
-  APP_BACKEND_INDICIA_URL: '',
-};
+const development = {};
 
 appConfig.plugins.unshift(
   new webpack.EnvironmentPlugin(required),
