@@ -121,7 +121,7 @@ class UserSurveyComponent extends React.Component {
     }
 
     return (
-      <IonBadge color="light" slot="end">
+      <IonBadge color="medium" slot="end">
         {uploadedSurveys.length}
       </IonBadge>
     );
