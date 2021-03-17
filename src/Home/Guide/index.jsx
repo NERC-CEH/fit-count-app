@@ -1,12 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import exact from 'prop-types-exact';
 import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
 import { Page, Main, ModalHeader } from '@apps';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import insectsData from 'common/data';
 import SpeciesProfile from './species/components/SpeciesProfile';
 import './styles.scss';
 
 class Guide extends React.Component {
+  static propTypes = exact({
+    history: PropTypes.object, // eslint-disable-line
+    location: PropTypes.object, // eslint-disable-line
+    staticContext: PropTypes.object, // eslint-disable-line
+    i18n: PropTypes.object, // eslint-disable-line
+    tReady: PropTypes.bool, // eslint-disable-line
+    match: PropTypes.object, // eslint-disable-line
+    t: PropTypes.func,
+  });
+
   state = {
     showModal: false,
     species: null,
@@ -26,6 +38,8 @@ class Guide extends React.Component {
   };
 
   getGridCell = ({ name, id, thumbnail }) => {
+    const { t } = this.props;
+
     const onClick = () => this.showSpeciesModal(id, name);
 
     const image = thumbnail && <IonImg src={thumbnail} />;
@@ -39,9 +53,7 @@ class Guide extends React.Component {
       >
         <div className="species-label">
           <div className="species-wrapper">{image}</div>
-          <div>
-            <T>{name}</T>
-          </div>
+          <div>{t(name)}</div>
         </div>
       </IonCol>
     );
@@ -66,6 +78,8 @@ class Guide extends React.Component {
   };
 
   render() {
+    const { t } = this.props;
+
     return (
       <Page id="guide">
         <Main>
@@ -77,8 +91,9 @@ class Guide extends React.Component {
 
           <IonModal isOpen={!!this.state.species} backdropDismiss={false}>
             <ModalHeader
-              title={this.state.speciesName}
+              title={t(this.state.speciesName)}
               onClose={this.hideSpeciesModal}
+              skipTranslation
             />
             {this.state.showModal && (
               <SpeciesProfile species={this.state.species} />
@@ -90,4 +105,4 @@ class Guide extends React.Component {
   }
 }
 
-export default Guide;
+export default withTranslation()(Guide);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react';
-import { Trans as T } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import {
@@ -46,6 +46,13 @@ const intoChunksOfSix = (slidesArray, item, index) => {
 class SpeciesMainComponent extends React.Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
+    history: PropTypes.object, // eslint-disable-line
+    location: PropTypes.object, // eslint-disable-line
+    staticContext: PropTypes.object, // eslint-disable-line
+    i18n: PropTypes.object, // eslint-disable-line
+    tReady: PropTypes.bool, // eslint-disable-line
+    match: PropTypes.object, // eslint-disable-line
+    t: PropTypes.func,
     onSelect: PropTypes.func,
     onDecreaseCount: PropTypes.func,
   });
@@ -53,7 +60,7 @@ class SpeciesMainComponent extends React.Component {
   slideRef = React.createRef();
 
   getSpeciesTile = (sp, i) => {
-    const { onSelect, onDecreaseCount } = this.props;
+    const { onSelect, onDecreaseCount, t } = this.props;
 
     const { name, thumbnail } = sp;
 
@@ -76,9 +83,7 @@ class SpeciesMainComponent extends React.Component {
 
           <IonImg src={thumbnail} />
 
-          <IonLabel>
-            <T>{name}</T>
-          </IonLabel>
+          <IonLabel>{t(name)}</IonLabel>
         </div>
       </IonCol>
     );
@@ -146,4 +151,4 @@ class SpeciesMainComponent extends React.Component {
   }
 }
 
-export default SpeciesMainComponent;
+export default withTranslation()(SpeciesMainComponent);
