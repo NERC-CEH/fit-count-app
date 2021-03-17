@@ -43,8 +43,10 @@ function getSampleInfo(sample) {
       <IonAvatar />
 
       <IonLabel position="stacked" mode="ios" color="dark">
-        <IonLabel class="ion-text-wrap" color="danger">
-          <T>Record</T>
+        <IonLabel class="ion-text-wrap">
+          <h2>
+            <T>Survey</T>
+          </h2>
         </IonLabel>
         <IonLabel class="ion-text-wrap">{prettyDate}</IonLabel>
       </IonLabel>

@@ -20,5 +20,9 @@
   ion-item {
     --padding-start: 0;
     --border-style: none;
+
+    ion-label h2 {
+      font-weight: 600;
+    }
   }
 }
