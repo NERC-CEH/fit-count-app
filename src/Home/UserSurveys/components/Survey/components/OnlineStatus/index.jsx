@@ -27,8 +27,10 @@ const UsersSurveys = ({ onUpload, sample }) => {
   }
 
   return (
-    <IonButton class="survey-status-upload" onClick={onUpload}>
-      <T>Upload</T>
+    <IonButton class="survey-status-upload" onClick={onUpload} fill="outline">
+      <IonLabel>
+        <T>Upload</T>
+      </IonLabel>
     </IonButton>
   );
 };

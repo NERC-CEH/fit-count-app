@@ -9,6 +9,10 @@
     ion-toolbar {
       --ion-toolbar-background: var(--ion-page-background);
       color: var(--ion-background-page);
+
+      ion-segment-button > ion-label.ios {
+        padding: 5px;
+      }
     }
   }
 

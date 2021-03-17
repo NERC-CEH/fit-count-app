@@ -22,7 +22,7 @@
     --border-style: none;
 
     .count {
-      margin: 5px 15px;
+      margin: 10px 15px;
 
       .number {
         background: #edeced;
@@ -42,6 +42,9 @@
 
     ion-label {
       margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       h2 {
         font-weight: 600;

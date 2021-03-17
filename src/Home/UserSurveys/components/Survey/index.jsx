@@ -48,7 +48,7 @@ function getSampleInfo(sample) {
         </div>
       </div>
 
-      <IonLabel position="stacked" mode="ios" color="dark">
+      <IonLabel mode="ios" color="dark">
         <IonLabel class="ion-text-wrap">
           <h2>
             <T>Survey</T>
