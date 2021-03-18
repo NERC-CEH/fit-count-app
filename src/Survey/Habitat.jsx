@@ -45,7 +45,10 @@ class Habitat extends React.Component {
     sample.save();
 
     if (sample.attrs.habitat !== 'Other') {
-      const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
+      const navigateToNextPage = () =>
+        this.context.navigate(NEXT_PAGE, undefined, undefined, undefined, {
+          unmount: true,
+        });
 
       setTimeout(navigateToNextPage, 50);
     }

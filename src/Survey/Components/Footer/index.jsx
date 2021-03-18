@@ -25,6 +25,7 @@ function Footer(props) {
           lines="none"
           className={clsx('next-button', title && 'finish-button')}
           routerLink={navigateTo}
+          routerOptions={{ unmount: true }}
           onClick={onClick}
           mode="md"
         >

@@ -27,7 +27,10 @@ class WeatherSky extends React.Component {
     sample.attrs['weather-sky'] = value;
     sample.save();
 
-    const navigateToNextPage = () => this.context.navigate(NEXT_PAGE);
+    const navigateToNextPage = () =>
+      this.context.navigate(NEXT_PAGE, undefined, undefined, undefined, {
+        unmount: true,
+      });
 
     setTimeout(navigateToNextPage, 50);
   };
