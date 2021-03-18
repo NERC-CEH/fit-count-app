@@ -1463,3 +1463,7 @@ msgstr "Looks like you are offline!"
 # Survey remove photo alert message
 msgid "Are you sure you want to remove this photo?"
 msgstr "Are you sure you want to remove this photo?"
+
+# Failed to upload image message
+msgid "Sorry, we couldn't get the image."
+msgstr "Sorry, we couldn't get the image."
