@@ -7,13 +7,11 @@ import {
   ModelLocation,
   Main,
   InfoButton,
-  alert,
   InfoMessage,
   toast,
 } from '@apps';
 import { NavContext } from '@ionic/react';
 import { locationOutline } from 'ionicons/icons';
-import { Trans as T } from 'react-i18next';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import './styles.scss';
@@ -21,35 +19,6 @@ import './styles.scss';
 const { warn } = toast;
 
 const PAGE_INDEX = 1;
-
-function showDeleteSurveyAlertMessage() {
-  const deleteSurvey = resolve => {
-    alert({
-      header: 'Delete Survey',
-      message: (
-        <T>
-          Warning - This will discard the survey information you have entered so
-          far.
-        </T>
-      ),
-      buttons: [
-        {
-          text: 'Cancel',
-          role: 'cancel',
-          cssClass: 'secondary',
-          handler: () => resolve(false),
-        },
-        {
-          text: 'Discard',
-          cssClass: 'primary',
-          handler: () => resolve(true),
-        },
-      ],
-    });
-  };
-
-  return new Promise(deleteSurvey);
-}
 
 class Location extends ModelLocation {
   static contextType = NavContext;
@@ -59,21 +28,6 @@ class Location extends ModelLocation {
     onGPSClick: PropTypes.func.isRequired,
     mapProviderOptions: PropTypes.object,
   });
-
-  deleteSubSampleOrSurvey = async () => {
-    const { sample } = this.props;
-    const discard = await showDeleteSurveyAlertMessage();
-
-    if (!discard) {
-      return;
-    }
-
-    await sample.destroy();
-
-    this.context.navigate('/home/info', 'root');
-  };
-
-  navigateNext = () => this.context.navigate('habitat');
 
   isValueValid = () => {
     const { location } = this.props.model.attrs;
