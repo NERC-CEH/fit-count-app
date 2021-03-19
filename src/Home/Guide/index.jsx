@@ -88,7 +88,7 @@ class Guide extends React.Component {
       <Page id="guide">
         <Main>
           <h1>
-            <T>Insect Groups</T>
+            <T>Pollinator Groups</T>
           </h1>
 
           {this.getListGrid(insectsData)}

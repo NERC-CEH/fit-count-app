@@ -1467,3 +1467,7 @@ msgstr "Are you sure you want to remove this photo?"
 # Failed to upload image message
 msgid "Sorry, we couldn't get the image."
 msgstr "Sorry, we couldn't get the image."
+
+# ID guide title
+msgid "Pollinator Groups"
+msgstr "Pollinator Groups"
