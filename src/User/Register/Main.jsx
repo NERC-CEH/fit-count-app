@@ -18,7 +18,7 @@ import {
   ToggleWithValidation,
   SelectWithValidation,
 } from '@apps';
-import config from 'common/config';
+import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 
 const optionsIdentificationExperience = [
   'I am new to identifying wildlife',
@@ -121,11 +121,13 @@ class Component extends React.Component {
             <div className="terms-info-text">
               <T>
                 By clicking Sign Up, you agree to our{' '}
-                <IonRouterLink href={`${config.backend.url}/privacy-notice`}>
+                <IonRouterLink
+                  href={getURLSpecificToLanguage('privacy-notice')}
+                >
                   Privacy Policy
                 </IonRouterLink>{' '}
                 and{' '}
-                <IonRouterLink href={`${config.backend.url}/terms_of_use`}>
+                <IonRouterLink href={getURLSpecificToLanguage('terms')}>
                   Terms and Conditions
                 </IonRouterLink>
               </T>

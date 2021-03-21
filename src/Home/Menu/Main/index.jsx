@@ -26,6 +26,7 @@ import {
 import languages from 'common/languages';
 // import countries from 'common/countries';
 import flumensLogo from 'common/images/flumens.svg';
+import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 
 @observer
 class MenuComponent extends React.Component {
@@ -51,7 +52,6 @@ class MenuComponent extends React.Component {
       user,
       logOut,
     } = this.props;
-    const baseURL = config.backend.url;
 
     const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
 
@@ -106,7 +106,7 @@ class MenuComponent extends React.Component {
               <T>About</T>
             </IonItem>
             <IonItem
-              href={`${baseURL}/privacy-policy`}
+              href={getURLSpecificToLanguage('privacy-notice')}
               detail
               detailIcon={openOutline}
             >
