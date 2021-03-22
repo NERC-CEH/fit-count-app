@@ -9,9 +9,9 @@
   }
 
   .exception-rounded {
-    border-radius: 0 0 15px 15px;
-    overflow: hidden;
+    --border-radius: 0 0 15px 15px;
     --border-style: none;
+    overflow: hidden;
   }
 
   .info-message {
