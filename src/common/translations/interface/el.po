@@ -1734,3 +1734,11 @@ msgstr ""
 # Failed to upload image message
 msgid "Sorry, we couldn't get the image."
 msgstr ""
+
+# ID guide title
+msgid "Pollinator Groups"
+msgstr ""
+
+# Menu page label
+msgid "Terms and Conditions"
+msgstr ""
