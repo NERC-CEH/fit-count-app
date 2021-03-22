@@ -90,6 +90,12 @@ function MenuComponent({
             />
             <T>About</T>
           </IonItem>
+
+          <IonItem routerLink="/info/credits" detail>
+            <IonIcon icon={heartOutline} size="small" slot="start" />
+            <T>Credits</T>
+          </IonItem>
+
           <IonItem
             href={getURLSpecificToLanguage('privacy-notice')}
             detail
@@ -98,9 +104,14 @@ function MenuComponent({
             <IonIcon icon={lockClosedOutline} size="small" slot="start" />
             <T>Privacy Policy</T>
           </IonItem>
-          <IonItem routerLink="/info/credits" detail>
-            <IonIcon icon={heartOutline} size="small" slot="start" />
-            <T>Credits</T>
+
+          <IonItem
+            href={getURLSpecificToLanguage('terms')}
+            detail
+            detailIcon={openOutline}
+          >
+            <IonIcon icon={lockClosedOutline} size="small" slot="start" />
+            <T>Terms and Conditions</T>
           </IonItem>
         </div>
 

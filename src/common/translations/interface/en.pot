@@ -1471,3 +1471,7 @@ msgstr "Sorry, we couldn't get the image."
 # ID guide title
 msgid "Pollinator Groups"
 msgstr "Pollinator Groups"
+
+# Menu page label
+msgid "Terms and Conditions"
+msgstr "Terms and Conditions"
