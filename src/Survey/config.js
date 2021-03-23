@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-filename-extension */
+import * as Yup from 'yup';
 import { date } from '@apps';
 import userModel from 'models/user';
 import insectGroups from 'common/data';
@@ -33,6 +34,28 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const DEFAULT_SURVEY_TIME = 10 * 60 * 1000; // 10min
 const DEV_SURVEY_TIME = 1 * 60 * 1000; // 1min
+
+const fixedLocationSchema = Yup.object().shape({
+  latitude: Yup.number().required(),
+  longitude: Yup.number().required(),
+  accuracy: Yup.number().max(50).required(),
+});
+
+const validateLocation = val => {
+  try {
+    fixedLocationSchema.validateSync(val);
+    return true;
+  } catch (e) {
+    return false;
+  }
+};
+
+export const verifyLocationSchema = Yup.mixed().test(
+  'location',
+  'Please select a more accurate location',
+  validateLocation
+);
+
 const habitatValues = [
   {
     id: isProd ? 13557 : 17828,
@@ -518,6 +541,47 @@ const survey = {
     sample.startGPS();
 
     return sample;
+  },
+
+  verify(_, sample) {
+    try {
+      const sampleSchema = Yup.object().shape({
+        media: Yup.array().min(1, 'Please add at least 1 image').required(),
+
+        attrs: Yup.object().shape({
+          location: verifyLocationSchema,
+
+          'habitat-manual-entry': Yup.string().when('habitat', {
+            is: val => val === 'Other',
+            then: Yup.string()
+              .nullable()
+              .required('Habitat "Other" is a required field'),
+            otherwise: Yup.string().nullable(),
+          }),
+
+          'flower-manual-entry': Yup.string().when('flower', {
+            is: val => val === 'Other',
+            then: Yup.string()
+              .nullable()
+              .required('Flower "Other" is a required field.'),
+            otherwise: Yup.string().nullable(),
+          }),
+
+          'flower-count-number': Yup.number()
+            .min(1, 'Flower number must be greater than or equal to 1')
+            .required(),
+
+          'flower-count': Yup.string()
+            .nullable()
+            .required('Flower type is a required field'),
+        }),
+      });
+
+      sampleSchema.validateSync(sample, { abortEarly: false });
+    } catch (attrError) {
+      return attrError;
+    }
+    return null;
   },
 };
 

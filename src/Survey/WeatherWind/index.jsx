@@ -3,7 +3,15 @@ import { withTranslation, Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main, InfoMessage, device, toast } from '@apps';
+import {
+  Page,
+  Attr,
+  Main,
+  InfoMessage,
+  device,
+  toast,
+  showInvalidsMessage,
+} from '@apps';
 import appModel from 'models/app';
 import userModel from 'models/user';
 import { NavContext, IonItem, IonIcon, IonLabel } from '@ionic/react';
@@ -71,6 +79,11 @@ class WeatherWind extends React.Component {
 
     if (!sample.metadata.saved) {
       await this._processDraft();
+    }
+    const invalids = sample.validateRemote();
+    if (invalids) {
+      showInvalidsMessage(invalids);
+      return;
     }
 
     this.setState({ showThanks: true });
