@@ -32,7 +32,7 @@ class Location extends ModelLocation {
   isValueValid = () => {
     const { location } = this.props.model.attrs;
 
-    if (location && location.source === 'map' && location.accuracy >= 50) {
+    if (location && location.source === 'map' && location.accuracy >= 500) {
       warn('Please select a more accurate location');
       return false;
     }
