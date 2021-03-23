@@ -31,6 +31,8 @@ import whiteDeadNettle from './Flower/images/whiteWeadNettle.jpg';
 
 const isProd = process.env.NODE_ENV === 'production';
 
+const DEFAULT_SURVEY_TIME = 10 * 60 * 1000; // 10min
+const DEV_SURVEY_TIME = 1 * 60 * 1000; // 1min
 const habitatValues = [
   {
     id: isProd ? 13557 : 17828,
@@ -291,7 +293,7 @@ const survey = {
 
   SURVEY_STEP_COUNT: 10,
 
-  DEFAULT_SURVEY_TIME: 1 * 60 * 1000, // 10 min
+  DEFAULT_SURVEY_TIME: isProd ? DEFAULT_SURVEY_TIME : DEV_SURVEY_TIME,
 
   attrs: {
     date: {
