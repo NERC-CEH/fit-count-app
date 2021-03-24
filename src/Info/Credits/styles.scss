@@ -1,9 +1,20 @@
 #credits.ion-page ion-content {
-  ul.disable-bullet-points {
-    list-style-type: none;
-    padding: 0;
+  ul {
     li {
-      margin: 10px 0;
+      a {
+        display: block;
+        padding: 0px 0px 10px 0px;
+      }
+
+      margin-bottom: 10px;
+    }
+  }
+
+  ion-grid {
+    text-align: center;
+
+    img {
+      max-width: 40vw;
     }
   }
 
