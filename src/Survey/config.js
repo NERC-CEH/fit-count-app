@@ -38,7 +38,6 @@ const DEV_SURVEY_TIME = 1 * 60 * 1000; // 1min
 const fixedLocationSchema = Yup.object().shape({
   latitude: Yup.number().required(),
   longitude: Yup.number().required(),
-  accuracy: Yup.number().max(50).required(),
 });
 
 const validateLocation = val => {
@@ -52,7 +51,6 @@ const validateLocation = val => {
 
 export const verifyLocationSchema = Yup.mixed().test(
   'location',
-  'Please select a more accurate location',
   validateLocation
 );
 
@@ -546,7 +544,7 @@ const survey = {
   verify(_, sample) {
     try {
       const sampleSchema = Yup.object().shape({
-        media: Yup.array().min(1, 'Please add at least 1 image').required(),
+        media: Yup.array().min(1, 'Please add at least 1 photo.').required(),
 
         attrs: Yup.object().shape({
           location: verifyLocationSchema,
@@ -555,7 +553,7 @@ const survey = {
             is: val => val === 'Other',
             then: Yup.string()
               .nullable()
-              .required('Habitat "Other" is a required field'),
+              .required('Habitat "Other" is a required field.'),
             otherwise: Yup.string().nullable(),
           }),
 
@@ -568,12 +566,12 @@ const survey = {
           }),
 
           'flower-count-number': Yup.number()
-            .min(1, 'Flower number must be greater than or equal to 1')
+            .min(1, 'Flower number is a required field.')
             .required(),
 
           'flower-count': Yup.string()
             .nullable()
-            .required('Flower type is a required field'),
+            .required('Flower type is a required field.'),
         }),
       });
 
