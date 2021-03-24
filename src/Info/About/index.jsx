@@ -1,44 +1,10 @@
 import React from 'react';
-import appModel from 'models/app';
 import { Page, Main, Section, Header } from '@apps';
 import { IonList, IonImg, IonRow, IonGrid, IonCol } from '@ionic/react';
 import appLogo from 'common/images/appLogo.png';
-import { funders, partners } from './partnersAndFundersImages';
 import './styles.scss';
 
-const { H, P } = Section;
-
-const byCountry = partnersAndFundersParameter => {
-  const isInCyprus = appModel.attrs.country === 'CYP';
-
-  const isFunderType = partnersAndFundersParameter.type === 'funders';
-
-  if (isFunderType) {
-    return true;
-  }
-
-  return partnersAndFundersParameter.forCyprus ? isInCyprus : !isInCyprus;
-};
-
-const getSponsor = ({ images, url, width, alt }) => (
-  <IonCol key={images}>
-    <a href={url}>
-      <IonImg src={images} style={{ width }} alt={alt} />
-    </a>
-  </IonCol>
-);
-
-const getSponsorsGrid = sponsorsOrFunders => {
-  const sponsorsColumns = sponsorsOrFunders.filter(byCountry).map(getSponsor);
-
-  return (
-    <IonList className="list-background">
-      <IonGrid>
-        <IonRow>{sponsorsColumns}</IonRow>
-      </IonGrid>
-    </IonList>
-  );
-};
+const { P } = Section;
 
 const About = () => (
   <Page id="about">
@@ -81,18 +47,6 @@ const About = () => (
           For further information about PoMS go to:{' '}
           <a href="https://ukpoms.org.uk">ukpoms.org.uk</a>
         </P>
-
-        <div className="rounded">
-          <H>Partners:</H>
-
-          {getSponsorsGrid(partners)}
-        </div>
-
-        <div className="rounded">
-          <H>Funders:</H>
-
-          {getSponsorsGrid(funders)}
-        </div>
       </Section>
     </Main>
   </Page>
