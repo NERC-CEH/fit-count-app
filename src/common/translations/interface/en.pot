@@ -24,30 +24,6 @@ msgstr "About"
 msgid "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to collect new data on numbers of flower-visiting insects."
 msgstr "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to collect new data on numbers of flower-visiting insects."
 
-# About page content
-msgid "FIT Counts are suitable for all, in urban or rural locations, and can be done at any time between the beginning of April and end of September."
-msgstr "FIT Counts are suitable for all, in urban or rural locations, and can be done at any time between the beginning of April and end of September."
-
-# About page content
-msgid "Wild pollinators may have declined in the UK by more than 30% since 1980, but we need much more data to be able to track changes in abundance. You can help by doing a FIT Count, maybe even repeating it over the season. You don’t need to identify the insects to species level, only to within broad groups e.g. bumblebees, hoverflies, butterflies & moths, wasps"
-msgstr "Wild pollinators may have declined in the UK by more than 30% since 1980, but we need much more data to be able to track changes in abundance. You can help by doing a FIT Count, maybe even repeating it over the season. You don’t need to identify the insects to species level, only to within broad groups e.g. bumblebees, hoverflies, butterflies & moths, wasps"
-
-# About page content
-msgid "The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS), within the UK Pollinator Monitoring and Research Partnership which comprises the UK Centre for Ecology & Hydrology (UKCEH), Bumblebee Conservation Trust, Butterfly Conservation, British Trust for Ornithology, Hymettus, Reading University, University of Leeds and Natural History Museum. PoMS is jointly funded by Defra, the Welsh and Scottish Governments, Daera, JNCC and project partners."
-msgstr "The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS), within the UK Pollinator Monitoring and Research Partnership which comprises the UK Centre for Ecology & Hydrology (UKCEH), Bumblebee Conservation Trust, Butterfly Conservation, British Trust for Ornithology, Hymettus, Reading University, University of Leeds and Natural History Museum. PoMS is jointly funded by Defra, the Welsh and Scottish Governments, Daera, JNCC and project partners."
-
-# About page content
-msgid "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
-msgstr "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
-
-# About page content
-msgid "Partners:"
-msgstr "Partners:"
-
-# About page content
-msgid "Funders:"
-msgstr "Funders:"
-
 # Menu page content
 msgid "Info"
 msgstr "Info"
@@ -637,8 +613,8 @@ msgid "Thanks to the following for additional photos"
 msgstr "Thanks to the following for additional photos"
 
 # Credits page content
-msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
-msgstr "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
+msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
+msgstr "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
 
 # Credits page content
 msgid "App guide illustrations made by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
@@ -1493,8 +1469,8 @@ msgid "The FIT Count was originally developed through the UK Pollinator Monitori
 msgstr "The FIT Count was originally developed through the UK Pollinator Monitoring Scheme (PoMS). Similar methods are now being adopted in other countries, and this app is used by a wide range of pollinator monitoring projects:"
 
 # About page content
-msgid "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted here: <2>https://fitcount.ceh.ac.uk/contact</2>"
-msgstr "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted here: <2>https://fitcount.ceh.ac.uk/contact</2>"
+msgid "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <2>here</2>."
+msgstr "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <2>here</2>."
 
 # Credits page content
 msgid "This app has been created by the"

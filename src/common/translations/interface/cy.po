@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Vilius Stankaitis <vilius@flumens.io>, 2021
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # Karolis, 2021
+# Vilius Stankaitis <vilius@flumens.io>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,58 +36,6 @@ msgstr ""
 "Mae'r Cyfrif Plodau-Pryfed wedi'i Amseru (Cyfrif FIT) yn arolwg 10 munud "
 "sydd wedi'i ddylunio i gasglu data newydd ar niferoedd pryfed sy'n ymweld â "
 "blodau."
-
-# About page content
-msgid ""
-"FIT Counts are suitable for all, in urban or rural locations, and can be "
-"done at any time between the beginning of April and end of September."
-msgstr ""
-"Mae Cyfrifon FIT yn addas i bawb, mewn lleoliadau trefol neu gefn gwlad, a "
-"gellir eu gwneud unrhyw adeg rhwng dechrau Ebrill a diwedd Medi."
-
-# About page content
-msgid ""
-"Wild pollinators may have declined in the UK by more than 30% since 1980, "
-"but we need much more data to be able to track changes in abundance. You can"
-" help by doing a FIT Count, maybe even repeating it over the season. You "
-"don’t need to identify the insects to species level, only to within broad "
-"groups e.g. bumblebees, hoverflies, butterflies & moths, wasps"
-msgstr ""
-"Efallai bod peillwyr gwyllt wedi gostwng yn y Deyrnas Unedig gan dros 30% "
-"ers 1980, ond mae angen llawer mwy o ddata arnom er mwyn gallu olrhain y "
-"newidiadau yn eu helaethrwydd. Gallwch chi helpu drwy wneud Cyfrif FIT, ac "
-"efallai y gallwch ei wneud nifer o weithiau drwy'r tymor hyd yn oed . Does "
-"dim angen i chi allu enwi'r union rywogaethau o bryfed, dim ond eu rhoi mewn"
-" grwpiau bras, e.e. cacwn, pryfed hofran, pili-palod a gwyfynod, gwenyn "
-"meirch"
-
-# About page content
-msgid ""
-"The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS), within "
-"the UK Pollinator Monitoring and Research Partnership which comprises the UK"
-" Centre for Ecology & Hydrology (UKCEH), Bumblebee Conservation Trust, "
-"Butterfly Conservation, British Trust for Ornithology, Hymettus, Reading "
-"University, University of Leeds and Natural History Museum. PoMS is jointly "
-"funded by Defra, the Welsh and Scottish Governments, Daera, JNCC and project"
-" partners."
-msgstr ""
-"Mae'r Cyfrif FIT yn rhan o'r Cynllun Monitro Peillwyr (PoMS) y Deyrnas "
-"Unedig, o fewn Partneriaeth Monitro ac Ymchwil Peillwyr y DU, sy'n cynnwys "
-"Canolfan Ecoleg a Hydroleg y DU (UKCEH), Bumblebee Conservation Trust, "
-"Butterfly Conservation, British Trust for Ornithology, Hymettus, Prifysgol "
-"Reading, Prifysgol Leeds, a'r Amgueddfa Astudiaethau Natur."
-
-# About page content
-msgid "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
-msgstr "I gael rhagor o wybodaeth am PoMS ewch i: <2>ukpoms.org.uk</2>"
-
-# About page content
-msgid "Partners:"
-msgstr "Partneriaid:"
-
-# About page content
-msgid "Funders:"
-msgstr "Cyllidwyr:"
 
 # Menu page content
 msgid "Info"
@@ -786,8 +734,8 @@ msgid "Thanks to the following for additional photos"
 msgstr "Diolch i'r canlynol am ffotograffau ychwanegol"
 
 # Credits page content
-msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
-msgstr "Eiconau gan <2>Freepik</2> o <br/><br/><7>www.flaticon.com</7>"
+msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
+msgstr "Eiconau gan <2>Freepik</2> o <6>www.flaticon.com</6>"
 
 # Credits page content
 msgid ""
@@ -2051,7 +1999,7 @@ msgstr ""
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
-"and can be contacted here: <2>https://fitcount.ceh.ac.uk/contact</2>"
+"and can be contacted <2>here</2>."
 msgstr ""
 
 # Credits page content

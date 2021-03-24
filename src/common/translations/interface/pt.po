@@ -28,44 +28,6 @@ msgid ""
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
 
-# About page content
-msgid ""
-"FIT Counts are suitable for all, in urban or rural locations, and can be "
-"done at any time between the beginning of April and end of September."
-msgstr ""
-
-# About page content
-msgid ""
-"Wild pollinators may have declined in the UK by more than 30% since 1980, "
-"but we need much more data to be able to track changes in abundance. You can"
-" help by doing a FIT Count, maybe even repeating it over the season. You "
-"don’t need to identify the insects to species level, only to within broad "
-"groups e.g. bumblebees, hoverflies, butterflies & moths, wasps"
-msgstr ""
-
-# About page content
-msgid ""
-"The FIT Count is part of the UK Pollinator Monitoring Scheme (PoMS), within "
-"the UK Pollinator Monitoring and Research Partnership which comprises the UK"
-" Centre for Ecology & Hydrology (UKCEH), Bumblebee Conservation Trust, "
-"Butterfly Conservation, British Trust for Ornithology, Hymettus, Reading "
-"University, University of Leeds and Natural History Museum. PoMS is jointly "
-"funded by Defra, the Welsh and Scottish Governments, Daera, JNCC and project"
-" partners."
-msgstr ""
-
-# About page content
-msgid "For further information about PoMS go to: <2>ukpoms.org.uk</2>"
-msgstr ""
-
-# About page content
-msgid "Partners:"
-msgstr ""
-
-# About page content
-msgid "Funders:"
-msgstr ""
-
 # Menu page content
 msgid "Info"
 msgstr ""
@@ -708,7 +670,7 @@ msgid "Thanks to the following for additional photos"
 msgstr ""
 
 # Credits page content
-msgid "Icons made by <2>Freepik</2> from<br/><br/><7>www.flaticon.com</7>"
+msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
 msgstr ""
 
 # Credits page content
@@ -1775,7 +1737,7 @@ msgstr ""
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
-"and can be contacted here: <2>https://fitcount.ceh.ac.uk/contact</2>"
+"and can be contacted <2>here</2>."
 msgstr ""
 
 # Credits page content
