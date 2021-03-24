@@ -4,25 +4,18 @@
     text-align: center;
   }
 
-  div.rounded {
-    --background-color: #fff !important;
-    background: #fff !important;
-    margin-top: 10px;
+  a {
+    display: block;
+    padding: 0px 0px 10px 0px;
   }
 
-  .list-background {
-    background-color: #fff;
+  ion-icon {
+    margin-bottom: -3px;
+  }
 
-    border-radius: 15px;
-    padding: 0 !important;
-
-    ion-col {
-      padding: 25px 10px;
-      margin: auto;
-
-      ion-img {
-        margin: auto;
-      }
+  ul {
+    li {
+      margin-bottom: 10px;
     }
   }
 }
