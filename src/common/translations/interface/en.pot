@@ -537,8 +537,8 @@ msgid "Flower"
 msgstr "Flower"
 
 # Survey species selection page divider label
-msgid "I know the species"
-msgstr "I know the species"
+msgid "Please add the name of the flower"
+msgstr "Please add the name of the flower"
 
 # Survey species selection page label
 msgid "Other flower name"
@@ -1475,3 +1475,59 @@ msgstr "Pollinator Groups"
 # Menu page label
 msgid "Terms and Conditions"
 msgstr "Terms and Conditions"
+
+# Survey required label
+msgid "required"
+msgstr "required"
+
+# About page content
+msgid "FIT Counts are suitable for all, in urban or rural locations, and can be done at any time during the FIT Count season – see the quick guide <2></2> for the season in your country."
+msgstr "FIT Counts are suitable for all, in urban or rural locations, and can be done at any time during the FIT Count season – see the quick guide <2></2> for the season in your country."
+
+# About page content
+msgid "An increasing amount of evidence suggests that pollinator species diversity has declined in many parts of the world, with the strongest evidence coming from Europe and North America. Less is known about changes in pollinator abundance, and we need much more data to be able to track this. You can help by doing a FIT Count, maybe even repeating it over the season. You don’t need to identify the insects to species level, only to within broad groups e.g. bumblebees, hoverflies, butterflies & moths, wasps."
+msgstr "An increasing amount of evidence suggests that pollinator species diversity has declined in many parts of the world, with the strongest evidence coming from Europe and North America. Less is known about changes in pollinator abundance, and we need much more data to be able to track this. You can help by doing a FIT Count, maybe even repeating it over the season. You don’t need to identify the insects to species level, only to within broad groups e.g. bumblebees, hoverflies, butterflies & moths, wasps."
+
+# About page content
+msgid "The FIT Count was originally developed through the UK Pollinator Monitoring Scheme (PoMS). Similar methods are now being adopted in other countries, and this app is used by a wide range of pollinator monitoring projects:"
+msgstr "The FIT Count was originally developed through the UK Pollinator Monitoring Scheme (PoMS). Similar methods are now being adopted in other countries, and this app is used by a wide range of pollinator monitoring projects:"
+
+# About page content
+msgid "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted here: <2>https://fitcount.ceh.ac.uk/contact</2>"
+msgstr "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted here: <2>https://fitcount.ceh.ac.uk/contact</2>"
+
+# Credits page content
+msgid "This app has been created by the"
+msgstr "This app has been created by the"
+
+# Credits page content
+msgid "with technical development by"
+msgstr "with technical development by"
+
+# Credits page content
+msgid "App development has been supported by the funders and partners of these pollinator projects around the world"
+msgstr "App development has been supported by the funders and partners of these pollinator projects around the world"
+
+# Survey validation message
+msgid "Please add at least 1 photo."
+msgstr "Please add at least 1 photo."
+
+# Survey validation message
+msgid "Flower number is a required field."
+msgstr "Flower number is a required field."
+
+# Survey validation message
+msgid "Flower type is a required field."
+msgstr "Flower type is a required field."
+
+# Survey validation message
+msgid "Survey incomplete"
+msgstr "Survey incomplete"
+
+# Survey validation message
+msgid "Habitat \"Other\" is a required field."
+msgstr "Habitat \"Other\" is a required field."
+
+# Survey validation message
+msgid "Flower \"Other\" is a required field."
+msgstr "Flower \"Other\" is a required field."
