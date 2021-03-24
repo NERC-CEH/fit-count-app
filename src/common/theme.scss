@@ -10,7 +10,7 @@
   --ion-color-secondary-rgb: 244, 169, 1;
   --ion-color-secondary-contrast: #000000;
   --ion-color-secondary-contrast-rgb: 0, 0, 0;
-  --ion-color-secondary-shade: #d79501;
+  --ion-color-secondary-shade: #b07902;
   --ion-color-secondary-tint: #f5b21a;
 
   --ion-color-tertiary: #5260ff;
@@ -246,7 +246,6 @@ h1 {
 
 .apps-section .apps-section-h {
   color: var(--ion-color-primary);
-  --inner-border-width: 0;
 }
 
 a {
@@ -292,7 +291,12 @@ ion-textarea {
 
 ion-item-divider.survey-divider {
   margin: 20px 0 5px 0px;
-  color: #28a6ff;
+  color: var(--ion-color-dark);
+}
+
+ion-item-divider span {
+  color: var(--ion-color-warning-shade);
+  display: inline;
 }
 
 .radio-input-attr {

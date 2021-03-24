@@ -15,6 +15,7 @@ import { NavContext, IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import RequiredLabel from './Components/RequiredLabel';
 
 const PAGE_INDEX = 2;
 
@@ -59,11 +60,15 @@ class Habitat extends React.Component {
 
     const habitatValue = sample.attrs.habitat;
 
+    const isMissing = !sample.attrs['habitat-manual-entry'];
+
     if (habitatValue === 'Other') {
       return (
         <div className="record-manual-entry-wrapper">
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Other</T>
+            <div>
+              <T>Other</T> {isMissing && <RequiredLabel />}
+            </div>
           </IonItemDivider>
 
           <MenuAttrItemFromModel

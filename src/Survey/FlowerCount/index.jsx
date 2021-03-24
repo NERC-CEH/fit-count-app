@@ -8,6 +8,7 @@ import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import RequiredLabel from '../Components/RequiredLabel';
 import './styles.scss';
 
 const PAGE_INDEX = 4;
@@ -45,9 +46,9 @@ class NumberFlower extends React.Component {
     const attr = surveyConfig.attrs['flower-count-number'];
     const flowerCountAttr = surveyConfig.attrs['flower-count'];
 
-    const value = sample.attrs['flower-count'];
+    const flowerType = sample.attrs['flower-count'];
 
-    const valueSlider = sample.attrs['flower-count-number'];
+    const flowerNumber = sample.attrs['flower-count-number'];
 
     return (
       <Page id="survey-flower-count-page">
@@ -103,25 +104,29 @@ class NumberFlower extends React.Component {
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Number</T>
+            <div>
+              <T>Number</T> {!flowerNumber && <RequiredLabel />}
+            </div>
           </IonItemDivider>
 
           <Attr
             component={attr.type}
             componentProps={attr.componentProps}
             onChange={this.onValueChangeSlider}
-            value={valueSlider}
+            value={flowerNumber}
           />
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Type</T>
+            <div>
+              <T>Type</T> {!flowerType && <RequiredLabel />}
+            </div>
           </IonItemDivider>
 
           <Attr
             component={flowerCountAttr.type}
             componentProps={flowerCountAttr.componentProps}
             onChange={this.onValueChange}
-            value={value}
+            value={flowerType}
           />
         </Main>
 

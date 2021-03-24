@@ -18,6 +18,7 @@ import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import RequiredLabel from '../Components/RequiredLabel';
 import './styles.scss';
 
 const PAGE_INDEX = 3;
@@ -55,11 +56,16 @@ class Flower extends React.Component {
 
     const value = sample.attrs.flower;
 
+    const isMissing = !sample.attrs['flower-manual-entry'];
+
     if (value === 'Other') {
       return (
         <div className="record-manual-entry-wrapper">
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>I know the species</T>
+            <div>
+              <T>Please add the name of the flower</T>{' '}
+              {isMissing && <RequiredLabel />}
+            </div>
           </IonItemDivider>
 
           <MenuAttrItemFromModel model={sample} attr="flower-manual-entry" />
@@ -106,6 +112,11 @@ class Flower extends React.Component {
 
     const value = sample.attrs.flower;
 
+    const flowerManualEntry = sample.attrs['flower-manual-entry'];
+
+    const isMissingFlower = value === 'Other' ? !!value : !!flowerManualEntry;
+
+    const isMissingPhoto = !sample.media.length;
     return (
       <Page id="survey-flower-page">
         <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Habitat" />
@@ -142,7 +153,10 @@ class Flower extends React.Component {
           </InfoMessage>
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Photo of your target flower</T>
+            <div>
+              <T>Photo of your target flower</T>{' '}
+              {isMissingPhoto && <RequiredLabel />}
+            </div>
           </IonItemDivider>
           <PhotoPicker
             model={sample}
@@ -151,7 +165,9 @@ class Flower extends React.Component {
           />
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <T>Target flower chosen</T>
+            <div>
+              <T>Target flower chosen</T> {isMissingFlower && <RequiredLabel />}
+            </div>
           </IonItemDivider>
           <Attr
             component={attr.type}
