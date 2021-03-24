@@ -31,21 +31,22 @@ const Credits = () => (
 
         <ul>
           <li>
-            UK Pollinator Monitoring Scheme (UK PoMS){' '}
-            <a href="http://ukpoms.org.uk">http://ukpoms.org.uk</a>
-          </li>
-
-          <li>
-            Pollinator Monitoring Scheme Kýpros: PoMS-Ký{' '}
-            <a href="https://www.ris-ky.info/poms-ky">
-              https://www.ris-ky.info/poms-ky
+            <a href="http://ukpoms.org.uk">
+              UK Pollinator Monitoring Scheme (UK PoMS)
             </a>
           </li>
 
           <li>
-            Safeguarding pollinators and pollination services in a changing
-            world (SURPASS2){' '}
-            <a href="https://bee-surpass.org">https://bee-surpass.org</a>
+            <a href="https://www.ris-ky.info/poms-ky">
+              Pollinator Monitoring Scheme Kýpros: PoMS-Ký
+            </a>
+          </li>
+
+          <li>
+            <a href="https://bee-surpass.org">
+              Safeguarding pollinators and pollination services in a changing
+              world (SURPASS2)
+            </a>
           </li>
         </ul>
 
@@ -57,13 +58,13 @@ const Credits = () => (
                   <img src={pomsLogo} />
                 </a>
               </IonCol>
-            </IonRow>
-            <IonRow>
               <IonCol>
                 <a href="https://www.ris-ky.info/poms-ky">
                   <img src={pMSkyLogo} />
                 </a>
               </IonCol>
+            </IonRow>
+            <IonRow>
               <IonCol>
                 <a href="https://bee-surpass.org">
                   <img src={surpassLogo} />
@@ -103,9 +104,7 @@ const Credits = () => (
           <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
             Freepik
           </a>{' '}
-          from
-          <br />
-          <br />
+          from{' '}
           <a href="https://www.flaticon.com/" title="Flaticon">
             www.flaticon.com
           </a>
