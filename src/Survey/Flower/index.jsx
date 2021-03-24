@@ -114,7 +114,7 @@ class Flower extends React.Component {
 
     const flowerManualEntry = sample.attrs['flower-manual-entry'];
 
-    const isMissingFlower = value === 'Other' ? !!value : !!flowerManualEntry;
+    const isMissingFlower = value !== 'Other' ? !!value : !!flowerManualEntry;
 
     const isMissingPhoto = !sample.media.length;
     return (
@@ -166,7 +166,8 @@ class Flower extends React.Component {
 
           <IonItemDivider mode="ios" className="survey-divider">
             <div>
-              <T>Target flower chosen</T> {isMissingFlower && <RequiredLabel />}
+              <T>Target flower chosen</T>{' '}
+              {!isMissingFlower && <RequiredLabel />}
             </div>
           </IonItemDivider>
           <Attr
