@@ -46,32 +46,29 @@ const About = () => (
 
         <ul>
           <li>
-            UK Pollinator Monitoring Scheme{' '}
-            <a href="https://ukpoms.org.uk">ukpoms.org.uk</a>
+            <a href="https://ukpoms.org.uk">UK Pollinator Monitoring Scheme</a>
           </li>
           <li>
-            Pollinator Monitoring Scheme Kýpros: PoMS-Ký
             <a href="https://www.ris-ky.info/poms-ky">
-              https://www.ris-ky.info/poms-ky
+              Pollinator Monitoring Scheme Kýpros: PoMS-Ký
             </a>
           </li>
           <li>
-            Safeguarding Pollinators and Pollination Services in South America:
-            SURPASS2{' '}
-            <a href="https://bee-surpass.org">https://bee-surpass.org</a>
+            <a href="https://bee-surpass.org">
+              {' '}
+              Safeguarding Pollinators and Pollination Services in South
+              America: SURPASS2
+            </a>
           </li>
           <li>
-            All-Ireland Pollinator Plan:{' '}
-            <a href="https://pollinators.ie">https://pollinators.ie</a>
+            <a href="https://pollinators.ie">All-Ireland Pollinator Plan</a>
           </li>
         </ul>
 
         <P>
           The FIT Count project is supported by the UK Centre for Ecology &
-          Hydrology and can be contacted here:{' '}
-          <a href="https://fitcount.ceh.ac.uk/contact">
-            https://fitcount.ceh.ac.uk/contact
-          </a>
+          Hydrology and can be contacted{' '}
+          <a href="https://fitcount.ceh.ac.uk/contact">here</a>.
         </P>
       </Section>
     </Main>
