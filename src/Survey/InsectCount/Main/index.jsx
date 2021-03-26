@@ -30,8 +30,10 @@ const fixIonicSlideBug = e => {
   e.target.update();
 };
 
+const MAX_SPECIES_PER_SLIDE = 6;
+
 const intoChunksOfSix = (slidesArray, item, index) => {
-  const slideIndex = Math.floor(index / 6);
+  const slideIndex = Math.floor(index / MAX_SPECIES_PER_SLIDE);
 
   if (!slidesArray[slideIndex]) {
     slidesArray[slideIndex] = []; // eslint-disable-line
@@ -61,6 +63,15 @@ class SpeciesMainComponent extends React.Component {
 
   getSpeciesTile = (sp, i) => {
     const { onSelect, onDecreaseCount, t } = this.props;
+
+    const isFiller = !sp;
+    if (isFiller) {
+      return (
+        <IonCol key={i} className="species-tile-filler">
+          <div className="container" />
+        </IonCol>
+      );
+    }
 
     const { name, thumbnail } = sp;
 
@@ -117,7 +128,11 @@ class SpeciesMainComponent extends React.Component {
   };
 
   getSpeciesSlide = (slideSpecies, slideIndex) => {
-    const speciesTiles = slideSpecies.map(this.getSpeciesTile);
+    const fillerCount = MAX_SPECIES_PER_SLIDE - slideSpecies.length;
+
+    const speciesTiles = [...slideSpecies, ...new Array(fillerCount)].map(
+      this.getSpeciesTile
+    );
 
     return (
       <IonSlide key={slideIndex}>
@@ -141,7 +156,8 @@ class SpeciesMainComponent extends React.Component {
           onIonSlidesDidLoad={fixIonicSlideBug}
           options={{
             direction: 'vertical',
-            spaceBetween: -100,
+            centeredSlides: true,
+            slidesPerView: 'auto',
           }}
         >
           {speciesSlides}
