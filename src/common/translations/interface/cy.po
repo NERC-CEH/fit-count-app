@@ -1,13 +1,13 @@
 # 
 # Translators:
-# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # Karolis, 2021
 # Vilius Stankaitis <vilius@flumens.io>, 2021
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2021\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
-"Mae'r Cyfrif Plodau-Pryfed wedi'i Amseru (Cyfrif FIT) yn arolwg 10 munud "
+"Mae'r Cyfrif Blodau-Pryfed wedi'i Amseru (Cyfrif FIT) yn arolwg 10 munud "
 "sydd wedi'i ddylunio i gasglu data newydd ar niferoedd pryfed sy'n ymweld â "
 "blodau."
 
@@ -155,8 +155,8 @@ msgstr "Dileu'r Arolwg"
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
-"Rhybudd - Bydd hyn yn diddymu rhywfaint o'r wybodaeth rydych chi wedi'i rhoi"
-" yn yr arolwg hyd yma."
+"Rhybudd - Bydd hyn yn diddymu'r wybodaeth rydych chi wedi'i rhoi yn yr "
+"arolwg hyd yma."
 
 # Survey Location page info message
 msgid ""
@@ -195,7 +195,7 @@ msgid ""
 "listed here, please select “Other” and type in a short description of the "
 "habitat.</p></3>"
 msgstr ""
-"Dewiswch un <1>cynefin</1> sy'n cyd-fynd orau.<3><p>Dewiswch y cynefin sy'n "
+"Dewiswch un <1>cynefin</1> sy'n cyfateb orau.<3><p>Dewiswch y cynefin sy'n "
 "disgrifio orau y llain 50x50 cm a ddewiswyd ar gyfer eich cyfrif "
 "chi.</p><p>Os nad yw wedi'i restru yma, dewiswch “Arall” a theipio "
 "disgrifiad byr o'r cynefin.</p></3>"
@@ -234,11 +234,11 @@ msgstr "Mynwent eglwys"
 
 # Survey habitat page values
 msgid "Grassy verge or hedgerow edge"
-msgstr "Ymyl ffordd glaswelltog neu ymyl gwrych"
+msgstr "Ymyl glaswelltog neu ymyl gwrych"
 
 # Survey habitat page values
 msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Glaswelltir gyda blodau gwyllt (e.e. gweirglodd/dôl)"
+msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
 
 # Survey habitat page values
 msgid "Amenity grassland (usually mown short)"
@@ -250,11 +250,11 @@ msgstr "Cnydau fferm neu dir pori glaswelltog"
 
 # Survey habitat page values
 msgid "Upland moorland"
-msgstr "Rhostir yr ucheldir"
+msgstr "Rhostir ucheldir"
 
 # Survey habitat page values
 msgid "Lowland heath"
-msgstr "Gweundir yr iseldir"
+msgstr "Gweundir iseldir"
 
 # Survey habitat page values
 msgid "Waste ground or brownfield site"
@@ -270,10 +270,9 @@ msgid ""
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
 "by the leaves of the target plant).</p></3>"
 msgstr ""
-"Beth yw'r targed ar gyfer <1>cyfradd y blodau ar yr wyneb</1> yn eich llain "
-"50x50 cm?<3><p>Amcangyfrifwch faint o'ch llain 50×50 cm sydd wedi'i "
-"orchuddio gan y blodau targed (ond nid gan ddail y planhigyn "
-"targed).</p></3>"
+"Beth yw cyfradd y <1>blodau targed ar yr wyneb</1> yn eich llain 50x50 "
+"cm?<3><p>Amcangyfrifwch faint o'ch llain 50×50 cm sydd wedi'i orchuddio gan "
+"y blodau targed (ond nid gan ddail y planhigyn targed).</p></3>"
 
 # Survey flower-cover info message header
 msgid "Flower Cover"
@@ -455,7 +454,7 @@ msgstr "Llygaid yn gorchuddio ochrau'r pen"
 
 # ID guide honeybees species profile
 msgid "Hind legs broad and flattened"
-msgstr "Coesau cefn yn llydan ac wedi'u gwastadu"
+msgstr "Y coesau ôl yn llydan ac yn fflat"
 
 # ID guide honeybees species profile
 msgid "Abdomen can vary from mostly dark to mostly orange"
@@ -585,13 +584,14 @@ msgid ""
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
 "Pa un o'r <1>blodau</1> targed ydych chi wedi'i ddewis?<3><p>Lle bo modd, "
-"dewiswch lain o flodau o un o'r grwpiau blodau yn y rhestr.</p><p>Os nad oes"
-" yr un o'r rhain ar gael yn eich lleoliad, gallwch ddewis blodyn arall sy'n "
-"denu pryfed a dewis “Arall”, yna deipio'r enw.</p><p>Gall eich blodyn targed"
-" fod yn tyfu mewn llain sy'n cynnwys dim ond y blodyn hwnnw, neu gymysgedd o"
-" wahanol rywogaethau o flodau.</p><p>Ar gyfer pob Cyfrif FIT, llwythwch un "
-"neu ddau o luniau i fyny o'ch blodyn targed.</p><p>Mae hyn yn caniatáu i ni "
-"wirio'r rhywogaethau o flodau a ddefnyddiwyd ar gyfer y cyfrif.</p></3>"
+"dewiswch lain o flodau o un o'r grwpiau o flodau targed yn y "
+"rhestr.</p><p>Os nad oes yr un o'r rhain ar gael yn eich lleoliad, gallwch "
+"ddewis blodyn arall sy'n denu pryfed a chlicio “Arall”, yna deipio'r "
+"enw.</p><p>Gall eich blodyn targed fod yn tyfu mewn llain sy'n cynnwys dim "
+"ond y math hwnnw o flodyn, neu gymysgedd o wahanol rywogaethau o "
+"flodau.</p><p>Ar gyfer pob Cyfrif FIT, llwythwch un neu ddau o luniau i fyny"
+" o'ch blodyn targed.</p><p>Mae hyn yn caniatáu i ni wirio'r rhywogaethau o "
+"flodau a ddefnyddir ar gyfer y cyfrifon.</p></3>"
 
 # Survey species selection page read more header
 msgid "Flower"
@@ -599,19 +599,19 @@ msgstr "Blodyn"
 
 # Survey species selection page divider label
 msgid "Please add the name of the flower"
-msgstr ""
+msgstr "Rhowch enw'r blodyn"
 
 # Survey species selection page label
 msgid "Other flower name"
-msgstr "Blodyn arall ar y blodyn"
+msgstr "Enw arall ar y blodyn"
 
 # Survey species manual entry placeholder
 msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
 msgstr ""
-"Teipiwch enw'r blodyn targed rydych chi wedi'i ddewis yna ewch yn ôl i'r "
-"dudalen blodyn targed"
+"Teipiwch enw'r blodyn targed rydych chi wedi'i ddewis yna ewch yn ôl i "
+"dudalen y blodyn targed"
 
 # Survey flower count page divider label
 msgid "Number"
@@ -643,10 +643,10 @@ msgstr ""
 "ni ddylid cyfrif blodau marw na phennau hadau.</p><p>Mae angen cyfrif blodau"
 " mewn gwahanol ffyrdd, yn dibynnu ar eu strwythur.</p><p>Os ydych chi wedi "
 "dewis blodyn targed o'n rhestr, caiff y math o flodyn ei ddangos yn "
-"ddiofyn.</p><p>Os ydych wedi dewis blodyn targed “Arall”, "
+"ddiofyn.</p><p>Os ydych chi wedi dewis blodyn targed “Arall”, "
 "cyfrifwch:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
 "uned</0><1><0>Pennau blodau</0> (lle mae llawer o flodau bychain o fewn pen "
-"blodyn mwy, e.e. dant y llew neu lygad y dydd) – mae pob pen blodyn yn "
+"blodyn mwy, e.e. dant y llew neu lygad y dydd) – mae pob pen blodau yn "
 "cyfrif fel un uned</1><2><0>Wmbelau</0> (ar gyfer blodau ble mae blodau "
 "bychain wedi'u grwpio mewn ‘wmbelau’, fel ymbarél tu chwith allan, e.e. "
 "efwr) – mae pob wmbel yn cyfrif fel un uned</2><3><0>Pigynnau</0> (lle mae "
@@ -667,7 +667,7 @@ msgstr "Blodyn unigol"
 
 # Survey flower count page content
 msgid "Head"
-msgstr "Pen blodyn"
+msgstr "Pen blodau"
 
 # Survey flower count page content
 msgid "Umbel"
@@ -755,7 +755,7 @@ msgstr "Ffotograff o'ch blodyn targed"
 
 # Survey flower page section divider
 msgid "Target flower chosen"
-msgstr "Blodyn targed wedi'i ddewis"
+msgstr "Blodyn targed a ddewiswyd"
 
 # Survey flower patch page values
 msgid "In a larger patch of the same flower"
@@ -777,9 +777,9 @@ msgid ""
 "around your flower patch (roughly within 5 metres).</p></3>"
 msgstr ""
 "Ydy'ch llain 50x50cm chi o <1>flodau targed</1> yn tyfu:<3><p>Gall yr hyn "
-"sy'n amgylchynu llain o flodau effeithio ar pa mor ddylanwadol ydyw i "
-"bryfed.</p><p>Nodwch y sefyllfa sy'n disgrifio'r ardal o amgylch eich llain "
-"blodau chi orau (o fewn tua 5 metr).</p></3>"
+"sy'n amgylchynu llain o flodau effeithio ar ba mor atyniadol ydyw i "
+"bryfed.</p><p>Nodwch y sefyllfa sy'n disgrifio orau yr ardal o amgylch eich "
+"llain blodau chi (o fewn tua 5 metr).</p></3>"
 
 # Survey flower patch info button label
 msgid "READ MORE"
@@ -795,27 +795,27 @@ msgstr "Deall"
 
 # Survey weather sky page values
 msgid "All or mostly blue"
-msgstr "Hollol las neu las yn bennaf"
+msgstr "I gyd neu'r rhan fwyaf yn las"
 
 # Survey weather sky page values
 msgid "Half blue and half cloud"
-msgstr "Hanner glas a hanner cymylau"
+msgstr "Hanner yn las a hanner yn gymylog"
 
 # Survey weather sky page values
 msgid "All or mostly cloud"
-msgstr "Cymylau'n unig neu'n bennaf"
+msgstr "Yn gwbl neu'n bennaf gymylog"
 
 # Survey weather shade page values
 msgid "Entirely in sunshine"
-msgstr "Yn yr haul yn llwyr"
+msgstr "Yn gyfan gwbl yn yr haul"
 
 # Survey weather shade page values
 msgid "Partly in sun and partly shaded"
-msgstr "Yn rhannol yn yr haul a rhannol yn y cysgod"
+msgstr "Rhannol yn yr haul a rhannol yn y cysgod"
 
 # Survey weather shade page values
 msgid "Entirely shaded"
-msgstr "Yn y cysgod yn llwyr"
+msgstr "Yn gyfan gwbl yn y cysgod"
 
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
@@ -823,15 +823,15 @@ msgstr "Y dail yn llonydd/yn symud weithiau"
 
 # Survey weather wind page values
 msgid "Leaves moving gently all the time"
-msgstr "Y dail yn symud yn ysgafn yr holl amser"
+msgstr "Y dail yn symud yn ysgafn drwy'r amser"
 
 # Survey weather wind page values
 msgid "Leaves moving strongly"
-msgstr "Y dail yn symud yn arw"
+msgstr "Y dail yn symud yn sylweddol"
 
 # Survey weather wind page button label
 msgid "Save my count"
-msgstr "Cadw fy nghyfrif i"
+msgstr "Cadw fy nghyfrif"
 
 # Survey insect count page counter button label
 msgid "Paused"
@@ -848,7 +848,7 @@ msgstr "Amser ar ben!"
 # My Records page info message
 msgid "Please do not forget to upload any pending surveys!"
 msgstr ""
-"Peidiwch anghofio llwytho unrhyw arolygon i fyny sydd heb eu cyflwyno!"
+"Peidiwch anghofio llwytho unrhyw arolygon i fyny sydd heb eu cyflwyno eto!"
 
 # Credit page
 msgid "FIT Count logo"
@@ -885,8 +885,8 @@ msgid ""
 "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
 " get started!"
 msgstr ""
-"Darllenwch ein canllaw arweiniol ar gyfer yr arolwg, edrychwch ar y canllaw "
-"i adnabod pryfed, ac rydych chi'n barod i fynd!"
+"Darllenwch ein canllaw arweiniol llawn ar gyfer yr arolwg, edrychwch ar ein "
+"tudalennau adnabod pryfed, ac rydych chi'n barod i fynd!"
 
 # Onboarding content
 msgid "Let's start the count!"
@@ -965,7 +965,7 @@ msgstr "Arbedwch eich cyfrif a'i lwytho i fyny i'r wefan."
 
 # How To page content
 msgid "Further information and guides are available at"
-msgstr "Mae rhagor o wybodaeth a canllawiau i'w cael yn"
+msgstr "Mae rhagor o wybodaeth a chanllawiau i'w cael yn"
 
 # How To page content
 msgid ""
@@ -1460,15 +1460,15 @@ msgstr ""
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
-msgstr ""
+msgstr "Pryf dawnsio yw hwn (teulu'r Empididae)"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a long thin proboscis under the head"
-msgstr ""
+msgstr "Mae gan lawer o bryfed dawnsio drwnc hir a main o dan y pen"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a distinctly humped thorax"
-msgstr ""
+msgstr "Mae gan lawer o bryfed dawnsio thoracs cefngrwm amlwg"
 
 # Other flies screen 1 content
 msgid ""
@@ -1515,7 +1515,7 @@ msgstr "Mae ganddo wrych amlwg ar ei abdomen"
 
 # Other flies screen 2 content
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
-msgstr ""
+msgstr "Cleren Felen y Dom yw hon (teulu'r Scathophagidae)"
 
 # Other flies screen 2 content
 msgid ""
@@ -1537,7 +1537,7 @@ msgstr ""
 
 # Butterflies and moths 1 screen content
 msgid "Small Tortoiseshell butterfly"
-msgstr ""
+msgstr "Trilliw bach"
 
 # Butterflies and moths 1 screen content
 msgid "Common Blue butterfly"
@@ -1566,7 +1566,7 @@ msgstr ""
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
-msgstr ""
+msgstr "Bwrned chwe smotyn (gwyfyn mawr)"
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
@@ -1827,7 +1827,7 @@ msgstr "Cyfrif"
 
 # Survey back button label
 msgid "Cover"
-msgstr ""
+msgstr "Gorchudd"
 
 # Survey back button label
 msgid "Patch"
@@ -1942,34 +1942,35 @@ msgstr "Arolwg"
 # Survey upload process alert message
 msgid "Sorry, your account hasn't been verified yet or is blocked."
 msgstr ""
+"Yn anffodus, nid yw eich cyfrif wedi'i wirio eto, neu mae wedi'i atal."
 
 # Survey upload process alert message
 msgid "Please log in first."
-msgstr ""
+msgstr "Mewngofnodwch yn gyntaf."
 
 # Survey upload process alert message
 msgid "Looks like you are offline!"
-msgstr ""
+msgstr "Dydych chi ddim i weld ar-lein!"
 
 # Survey remove photo alert message
 msgid "Are you sure you want to remove this photo?"
-msgstr ""
+msgstr "Ydych chi'n siŵr eich bod am ddileu'r llun hwn?"
 
 # Failed to upload image message
 msgid "Sorry, we couldn't get the image."
-msgstr ""
+msgstr "Yn anffodus, doedd hi ddim yn bosib i ni gael y ddelwedd."
 
 # ID guide title
 msgid "Pollinator Groups"
-msgstr ""
+msgstr "Grwpiau Peillwyr"
 
 # Menu page label
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Telerau ac Amodau"
 
 # Survey required label
 msgid "required"
-msgstr ""
+msgstr "gofynnol"
 
 # About page content
 msgid ""
@@ -1977,6 +1978,9 @@ msgid ""
 "done at any time during the FIT Count season – see the quick guide <2></2> "
 "for the season in your country."
 msgstr ""
+"Mae Cyfrifon FIT yn addas i bawb, mewn lleoliadau trefol neu gefn gwlad, a "
+"gellir eu gwneud unrhyw adeg yn ystod y tymor Cyfrifon FIT – gweler y "
+"canllaw cyflym <2></2> i weld y tymor yn eich gwlad chi."
 
 # About page content
 msgid ""
@@ -1988,6 +1992,14 @@ msgid ""
 "need to identify the insects to species level, only to within broad groups "
 "e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 msgstr ""
+"Mae mwyfwy o dystiolaeth yn awgrymu bod yr amrywiaeth mewn rhywogaethau "
+"peillwyr wedi gostwng mewn sawl rhan o'r byd, ac mae'r dystiolaeth gryfaf yn"
+" dod o Ewrop a Gogledd America. Rydym yn gwybod llai am newidiadau yn "
+"helaethrwydd peillwyr, ac mae angen llawer mwy o ddata er mwyn olrhain hyn. "
+"Gallwch ein helpu drwy wneud Cyfrif FIT, ac efallai ei ail-wneud ar hyd y "
+"tymor. Does dim angen i chi enwi'r union rywogaeth o bryfed, dim ond enwi'r "
+"grwpiau bras, e.e. cacwn, pryfed hofran, pili-palod a gwyfynod, gwenyn "
+"meirch."
 
 # About page content
 msgid ""
@@ -1995,47 +2007,55 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
+"Datblygwyd y Cyfrif FIT yn wreiddiol drwy gyfrwng Cynllun Monitro Pryfed "
+"Peillio y DU (PoMS). Mae dulliau tebyg bellach yn cael eu defnyddio mewn "
+"gwledydd eraill, ac mae'r ap hwn yn cael ei ddefnyddio gan amrywiaeth eang o"
+" brosiectau monitro peillwyr:"
 
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
 "and can be contacted <2>here</2>."
 msgstr ""
+"Mae'r prosiect Cyfrif FIT yn cael ei gefnogi gan Ganolfan Ecoleg a Hydroleg "
+"y DU, a gellir cysylltu â'r prosiect <2>yma</2>."
 
 # Credits page content
 msgid "This app has been created by the"
-msgstr ""
+msgstr "Crëwyd yr ap hwn gan y "
 
 # Credits page content
 msgid "with technical development by"
-msgstr ""
+msgstr "gyda gwaith datblygu technegol gan "
 
 # Credits page content
 msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
 msgstr ""
+"Mae'r gwaith o ddatblygu'r ap wedi'i gefnogi gan gyllidwyr a phartneriaid y "
+"prosiectau peillwyr hyn o ar draws y byd"
 
 # Survey validation message
 msgid "Please add at least 1 photo."
-msgstr ""
+msgstr "Rhowch un ffotograff o leiaf."
 
 # Survey validation message
 msgid "Flower number is a required field."
-msgstr ""
+msgstr "Mae'n rhaid rhoi nifer y blodau."
 
 # Survey validation message
 msgid "Flower type is a required field."
-msgstr ""
+msgstr "Mae'n rhaid rhoi'r math o flodyn."
 
 # Survey validation message
 msgid "Survey incomplete"
-msgstr ""
+msgstr "Arolwg heb ei gwblhau"
 
 # Survey validation message
 msgid "Habitat \"Other\" is a required field."
-msgstr ""
+msgstr "Mae'n rhaid rhoi'r math \"Arall\" o gynefin."
 
 # Survey validation message
 msgid "Flower \"Other\" is a required field."
-msgstr ""
+msgstr "Mae'n rhaid rhoi'r math \"Arall\" o flodyn."
