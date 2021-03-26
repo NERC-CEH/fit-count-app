@@ -9,8 +9,8 @@ import Header from 'Survey/Components/Header';
 import Footer from 'Survey/Components/Footer';
 import surveyConfig from 'Survey/config';
 import CountdownClock from 'Survey/Components/CountdownClock';
-import Main from './Components/Species';
 import IntroAlert from './Components/IntroAlert';
+import Main from './Main';
 import './styles.scss';
 
 const PAGE_INDEX = 7;
