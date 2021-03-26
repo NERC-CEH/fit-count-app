@@ -4,7 +4,7 @@ import { Header, Page, Main, Section } from '@apps';
 import { Trans as T } from 'react-i18next';
 import surpassLogo from './images/SURPASS_logo.png';
 import pomsLogo from './images/PoMS_Logo_WithStrap_Positive_Black.png';
-import pMSkyLogo from './images/p-MS-ky.png';
+import pMSkyLogo from './images/PoMSKy.png';
 import './styles.scss';
 
 const { H, P } = Section;
@@ -58,6 +58,8 @@ const Credits = () => (
                   <img src={pomsLogo} />
                 </a>
               </IonCol>
+            </IonRow>
+            <IonRow>
               <IonCol>
                 <a href="https://www.ris-ky.info/poms-ky">
                   <img src={pMSkyLogo} />
