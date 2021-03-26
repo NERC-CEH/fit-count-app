@@ -73,6 +73,10 @@ class AppSample extends Sample {
       return;
     }
 
+    if (this.isGPSRunning()) {
+      this.stopGPS();
+    }
+
     this.saveRemote();
   }
 }
