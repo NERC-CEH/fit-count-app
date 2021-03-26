@@ -101,11 +101,12 @@
   ion-slide.second {
     @include slide;
     background: linear-gradient(359deg, #fff, #f9e8ef);
-    justify-content: space-evenly;
+    justify-content: start;
     width: 320px;
     max-height: calc(100% - 54px); // - footer
     overflow: scroll;
     margin-bottom: 100px;
+    padding-top: 20px;
 
     ol {
       list-style: none;
