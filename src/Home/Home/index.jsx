@@ -13,7 +13,7 @@ const style = {
 function Home() {
   return (
     <Page id="home-info">
-      <Main>
+      <Main forceOverscroll="false">
         <div className="app-home-background" style={style}>
           <div className="app-logo-wrapper">
             <img className="app-logo" src={appLogo} alt="appLogo" />
