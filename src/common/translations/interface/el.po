@@ -1777,3 +1777,11 @@ msgstr ""
 # Survey validation message
 msgid "Flower \"Other\" is a required field."
 msgstr ""
+
+# Menu path adress
+msgid "privacy-notice"
+msgstr ""
+
+# Menu path adress
+msgid "terms"
+msgstr ""

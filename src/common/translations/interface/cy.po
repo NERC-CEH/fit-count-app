@@ -1,9 +1,9 @@
-# 
+#
 # Translators:
 # Karolis, 2021
 # Vilius Stankaitis <vilius@flumens.io>, 2021
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
@@ -222,7 +222,7 @@ msgstr "Gardd"
 
 # Survey habitat page values
 msgid "School Grounds"
-msgstr "Tir Ysgol"
+msgstr "Tir ysgol"
 
 # Survey habitat page values
 msgid "Parkland with trees"
@@ -644,7 +644,7 @@ msgstr ""
 " mewn gwahanol ffyrdd, yn dibynnu ar eu strwythur.</p><p>Os ydych chi wedi "
 "dewis blodyn targed o'n rhestr, caiff y math o flodyn ei ddangos yn "
 "ddiofyn.</p><p>Os ydych chi wedi dewis blodyn targed “Arall”, "
-"cyfrifwch:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
+"cyfrwch:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
 "uned</0><1><0>Pennau blodau</0> (lle mae llawer o flodau bychain o fewn pen "
 "blodyn mwy, e.e. dant y llew neu lygad y dydd) – mae pob pen blodau yn "
 "cyfrif fel un uned</1><2><0>Wmbelau</0> (ar gyfer blodau ble mae blodau "
@@ -1087,25 +1087,25 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
-"Mae gwenyn unig yn llai crwn na chacwn, ac mae'r rhan fwyaf yn llai na "
-"chacwn a gwenyn mêl hefyd."
+"Mae gwenyn unig yn llai crwn na chacwn, ac mae'r rhan fwyaf yn llai eu maint"
+" na chacwn a gwenyn mêl hefyd."
 
 # Solitary bees screen 1 content
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
-"Mae gwenyn unig yn hedfan yn actif rhwng blodau, a weithiau maent yn gorwedd"
-" yn yr haul. Nid yw'r rhan fwyaf o rywogaethau yn hofran. Mae tua 250 o "
-"rywogaethau yn y Deyrnas Unedig."
+"Mae gwenyn unig yn hedfan yn actif rhwng blodau, a weithiau maent yn "
+"gorweddian yn yr haul. Nid yw'r rhan fwyaf o rywogaethau yn hofran. Mae tua "
+"250 o rywogaethau yn y Deyrnas Unedig."
 
 # Solitary bees screen 1 content
 msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr "Fel arfer yn eithaf hir ei siâp (ond maent yn amrywio'n fawr)"
+msgstr "Fel arfer yn eithaf hir eu siâp (ond maent yn amrywio'n fawr)"
 
 # Solitary bees screen 1 content
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr "Fel arfer y flewog, ond yn aml mae'r blew yn llai trwchus na chacwn"
+msgstr "Fel arfer yn flewog, ond yn aml mae'r blew yn llai trwchus na chacwn"
 
 # Context term
 msgid "The timer will now start!"
@@ -1133,7 +1133,7 @@ msgstr "Dechrau Cyfrif"
 
 # Solitary bees screen 1 content
 msgid "Colours usually more subdued and less contrasting than bumblebees"
-msgstr "Lliwiau fel arfer yn wannach na chacwn gyda llai o wrthgyferbyniad"
+msgstr "Y lliwiau fel arfer yn wannach na chacwn gyda llai o wrthgyferbyniad"
 
 # Solitary bees screen 1 content
 msgid "Long antennae, often held straight out in front"
@@ -1144,8 +1144,8 @@ msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
 msgstr ""
-"Yn llai na brenhines cacwn, ond mae'r rhai unig mwyaf yn fwy na gweithwyr "
-"cacwn bach"
+"Yn llai na brenhines cacwn, ond mae'r mwyaf o'r rhai unig yn fwy na "
+"gweithwyr cacwn bach"
 
 # Solitary bees screen 2 content
 msgid ""
@@ -1160,7 +1160,7 @@ msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
 msgstr ""
-"Mae gan eraill fasged baill o dan yr abdomen (gweler y wenynen ddeildorrol "
+"Mae gan eraill fasged paill o dan yr abdomen (gweler y wenynen ddeildorrol "
 "uchod ar y dde)"
 
 # Solitary bees screen 2 content
@@ -1180,7 +1180,7 @@ msgid ""
 msgstr ""
 "Ymysg y rhywogaethau niferus o wenyn unig, mae llawer o amrywiaeth o ran "
 "maint, lliw a pha mor flewog maen nhw. Mae rhai enghreifftiau i'w gweld "
-"isod."
+"uchod."
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1188,7 +1188,7 @@ msgid ""
 "all get counted as “solitary bees”!"
 msgstr ""
 "Does dim angen i chi adnabod y rhywogaethau unigol i wneud Cyfrif FIT. Mae "
-"pob un yn cael ei gyfrif fel “gwenynen unig”!"
+"pob un yn cael ei chyfrif fel “gwenynen unig”!"
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1223,8 +1223,8 @@ msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
 msgstr ""
-"Mae rhywfaint o flew ar y corff, ond fel arfer mae mae'r blew ar wenyn "
-"meirch yn llawer llai trwchus nag ar wenyn"
+"Mae rhywfaint o flew ar y corff, ond fel arfer mae'r blew ar wenyn meirch yn"
+" llawer llai trwchus a fflwffog nag ar wenyn"
 
 # Wasps screen 1 content
 msgid ""
@@ -1256,8 +1256,7 @@ msgstr ""
 
 # Wasps screen 2 content
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
-msgstr ""
-"Mae gan lawer o wenyn meirch unig siâp pen llydan nodweddiadol fel bocs."
+msgstr "Mae gan lawer o wenyn meirch unig siâp pen llydan amlwg fel bocs"
 
 # Wasps screen 2 content
 msgid "Some have typical black and yellow wasp stripes"
@@ -1308,7 +1307,7 @@ msgid ""
 "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
 "some species this is very long"
 msgstr ""
-"Gall benywod y gwnenyn meirch parasitig fod â wyddodydd miniog y mae'n ei "
+"Gall fod gan fenyw y gwnenyn meirch parasitig wyddodydd miniog y mae'n ei "
 "ddefnyddio i ddodwy ei hwyau – mewn rhai rhywogaethau mae hwn yn hir iawn"
 
 # Wasps screen 3 content
@@ -1408,7 +1407,7 @@ msgstr ""
 
 # Hoverflies screen 2 content
 msgid "The typical ‘false margin’ wing vein is present"
-msgstr "Mae'r wythïen ‘ymyl ffug’ nodweddiadol i'w gweld"
+msgstr "Mae'r wythïen ‘ymyl ffug’ nodweddiadol i'w gweld ar yr adain"
 
 # Hoverflies screen 2 content
 msgid ""
@@ -1456,7 +1455,7 @@ msgid ""
 msgstr ""
 "Mae rhai pryfed hofran yn fach ac yn bennaf ddu eu lliw, ond mae ganddynt y "
 "gwythiennau nodweddiadol ar eu hadenydd (os gallwch fynd yn ddigon agos i'w "
-"gweld nhw) ac wrth hedfan maen nhw'n edrych fel pryfed hofran nodweddiadol"
+"gweld nhw) ac wrth hedfan maen nhw'n hofran fel pryfed hofran nodweddiadol"
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
@@ -1511,7 +1510,7 @@ msgstr "Cleren barasitig yw hon o'r teulu Tachinidae"
 
 # Other flies screen 2 content
 msgid "It has prominent bristles on the abdomen"
-msgstr "Mae ganddo wrych amlwg ar ei abdomen"
+msgstr "Mae ganddi wrych amlwg ar ei habdomen"
 
 # Other flies screen 2 content
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
@@ -1522,7 +1521,7 @@ msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
 msgstr ""
-"Mae ganddo wrych ar ei gorff a'i goesau, ac mae gan y gwrywod yn arbennig "
+"Mae ganddi wrych ar ei chorff a'i choesau, ac mae gan y gwrywod yn arbennig "
 "flew melyn fflwffog ar eu cyrff"
 
 # Other flies screen 2 content
@@ -1531,13 +1530,13 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body."
 msgstr ""
-"Mae rhai o'r clêr mwy a welwch ar flodau o deuluoedd ‘calypterate’, a'r rhan"
-" fwyaf o'r rhain yn bryfed eithaf crwn a chanddynt wrych amlwg ar eu coesau "
-"a'u cyrff."
+"Mae rhai o'r clêr mwy a welwch ar flodau yn perthyn i deuluoedd y "
+"‘calypterate’, a'r rhan fwyaf o'r rhain yn bryfed eithaf crwn a chanddynt "
+"wrych amlwg ar eu coesau a'u cyrff."
 
 # Butterflies and moths 1 screen content
 msgid "Small Tortoiseshell butterfly"
-msgstr "Trilliw bach"
+msgstr "Trilliw Bach"
 
 # Butterflies and moths 1 screen content
 msgid "Common Blue butterfly"
@@ -1590,7 +1589,7 @@ msgid ""
 "softer hindwings and abdomen"
 msgstr ""
 "Mae gan chwilod adenydd blaen sydd wedi caledu ac sy'n gweithio fel gorchudd"
-" ar gyfer yr adenydd cefn caletach a'r abdomen"
+" ar gyfer yr adenydd ôl caletach a'r abdomen"
 
 # Beetles 1 screen content
 msgid "Beetles have chewing mouthparts"
@@ -1609,10 +1608,11 @@ msgid ""
 " colour, but can be recognised as beetles by the hard wing cases covering "
 "their abdomen."
 msgstr ""
-"Cymharol brin yw'r rhywogaethau o chwilod sy'n ymweld â blodau, gall y rhai "
-"sy'n gwneud fod yn helaeth iawn. Mae'r gwahanol rywogaethau'n amrywio'n fawr"
-" o ran eu maint, eu siâp a'u lliw, ond ellir eu hadnabod fel chwilod "
-"oherwydd y cistiau adenydd caled sy'n gorchuddio'r abdomen."
+"Cymharol brin yw'r rhywogaethau o chwilod sy'n ymweld â blodau, ond mae'r "
+"rhai sy'n gwneud yn gallu bod yn doreithiog iawn. Mae'r gwahanol "
+"rywogaethau'n amrywio'n fawr o ran eu maint, eu siâp a'u lliw, ond gellir eu"
+" hadnabod fel chwilod oherwydd y cistiau adenydd caled sy'n gorchuddio'r "
+"abdomen."
 
 # Beetles 2 screen content
 msgid ""
@@ -1690,9 +1690,9 @@ msgid ""
 msgstr ""
 "Mae'r categori hwn ar gyfer unrhyw bryfed sydd ddim yn ffitio yn y grwpiau "
 "eraill o bryfed, a gellir ei ddefnyddio hefyd ar gyfer unrhyw bryfed na "
-"allwch eu rhoi mewn grŵp o gwbl. Cyfrifwch bob pryf a welwch, a defnyddio "
+"allwch eu rhoi mewn grŵp o gwbl. Cyfrwch bob pryf a welwch, a defnyddio "
 "\"pryfed eraill\" ar gyfer unrhyw rai nad ydych chi'n eu hadnabod. Er "
-"enghraifft, caiff y llifbryf ei gyfrif fel \"pryfed eraill\". Mae'r llifbryf"
+"enghraifft, caiff llifbryfed eu cyfrif fel \"pryfed eraill\". Mae'r llifbryf"
 " yn perthyn i'r gwenyn a'r gwenyn meirch, ond mae nifer o wahaniaethau."
 
 # Other insect 2 screen content
@@ -1815,7 +1815,7 @@ msgstr "Pryfed eraill"
 
 # Survey back button label
 msgid "Insect"
-msgstr "Pryfed"
+msgstr "Pryf"
 
 # Survey back button label
 msgid "Location"
@@ -1995,11 +1995,11 @@ msgstr ""
 "Mae mwyfwy o dystiolaeth yn awgrymu bod yr amrywiaeth mewn rhywogaethau "
 "peillwyr wedi gostwng mewn sawl rhan o'r byd, ac mae'r dystiolaeth gryfaf yn"
 " dod o Ewrop a Gogledd America. Rydym yn gwybod llai am newidiadau yn "
-"helaethrwydd peillwyr, ac mae angen llawer mwy o ddata er mwyn olrhain hyn. "
-"Gallwch ein helpu drwy wneud Cyfrif FIT, ac efallai ei ail-wneud ar hyd y "
-"tymor. Does dim angen i chi enwi'r union rywogaeth o bryfed, dim ond enwi'r "
-"grwpiau bras, e.e. cacwn, pryfed hofran, pili-palod a gwyfynod, gwenyn "
-"meirch."
+"helaethrwydd peillwyr, ac mae angen llawer mwy o ddata er mwyn gallu olrhain"
+" hyn. Gallwch ein helpu drwy wneud Cyfrif FIT, ac efallai ei ail-wneud ar "
+"hyd y tymor. Does dim angen i chi enwi'r union rywogaethau o bryfed, dim ond"
+" eu rhoi mewn grwpiau bras, e.e. cacwn, pryfed hofran, pili-palod a "
+"gwyfynod, gwenyn meirch."
 
 # About page content
 msgid ""
@@ -2007,10 +2007,10 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
-"Datblygwyd y Cyfrif FIT yn wreiddiol drwy gyfrwng Cynllun Monitro Pryfed "
-"Peillio y DU (PoMS). Mae dulliau tebyg bellach yn cael eu defnyddio mewn "
-"gwledydd eraill, ac mae'r ap hwn yn cael ei ddefnyddio gan amrywiaeth eang o"
-" brosiectau monitro peillwyr:"
+"Datblygwyd y Cyfrif FIT yn wreiddiol drwy Gynllun Monitro Peillwyr y DU "
+"(PoMS). Mae dulliau tebyg bellach yn cael eu defnyddio mewn gwledydd eraill,"
+" ac mae'r ap hwn yn cael ei ddefnyddio gan amrywiaeth eang o brosiectau "
+"monitro peillwyr:"
 
 # About page content
 msgid ""
@@ -2034,7 +2034,7 @@ msgid ""
 "pollinator projects around the world"
 msgstr ""
 "Mae'r gwaith o ddatblygu'r ap wedi'i gefnogi gan gyllidwyr a phartneriaid y "
-"prosiectau peillwyr hyn o ar draws y byd"
+"prosiectau peillwyr hyn ar draws y byd"
 
 # Survey validation message
 msgid "Please add at least 1 photo."
@@ -2054,8 +2054,8 @@ msgstr "Arolwg heb ei gwblhau"
 
 # Survey validation message
 msgid "Habitat \"Other\" is a required field."
-msgstr "Mae'n rhaid rhoi'r math \"Arall\" o gynefin."
+msgstr "Mae'n rhaid rhoi math \"Arall\" o gynefin."
 
 # Survey validation message
 msgid "Flower \"Other\" is a required field."
-msgstr "Mae'n rhaid rhoi'r math \"Arall\" o flodyn."
+msgstr "Mae'n rhaid rhoi math \"Arall\" o flodyn."
