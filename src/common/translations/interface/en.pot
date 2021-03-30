@@ -1061,8 +1061,8 @@ msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly an
 msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae"
 
 # Hoverflies screen 3 content
-msgid "A few species have extended ‘noses’ – this one is Rhingia campestris, a widespread species with a distinctive grey and orange colour"
-msgstr "A few species have extended ‘noses’ – this one is Rhingia campestris, a widespread species with a distinctive grey and orange colour"
+msgid "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour"
+msgstr "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour"
 
 # Hoverflies screen 3 content
 msgid "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!"

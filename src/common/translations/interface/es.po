@@ -1239,8 +1239,8 @@ msgstr ""
 
 # Hoverflies screen 3 content
 msgid ""
-"A few species have extended ‘noses’ – this one is Rhingia campestris, a "
-"widespread species with a distinctive grey and orange colour"
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
 msgstr ""
 
 # Hoverflies screen 3 content

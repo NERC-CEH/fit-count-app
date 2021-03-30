@@ -1,13 +1,13 @@
-#
+# 
 # Translators:
 # Karolis, 2021
-# Vilius Stankaitis <vilius@flumens.io>, 2021
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2021
-#
+# Vilius Stankaitis <vilius@flumens.io>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
+"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1433,11 +1433,11 @@ msgstr ""
 
 # Hoverflies screen 3 content
 msgid ""
-"A few species have extended ‘noses’ – this one is Rhingia campestris, a "
-"widespread species with a distinctive grey and orange colour"
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
 msgstr ""
-"Mae gan rai rhywogaethau ‘drwynau’ hir – Rhingia campestris yw hwn, sy'n "
-"rhywogaeth gyffredin a chanddi liw llwyd ac oren unigryw"
+"Mae gan rai rhywogaethau ‘drwynau’ hir – <i>Rhingia campestris</i> yw hwn, "
+"sy'n rhywogaeth gyffredin a chanddi liw llwyd ac oren unigryw"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -2059,3 +2059,11 @@ msgstr "Mae'n rhaid rhoi math \"Arall\" o gynefin."
 # Survey validation message
 msgid "Flower \"Other\" is a required field."
 msgstr "Mae'n rhaid rhoi math \"Arall\" o flodyn."
+
+# Menu path adress
+msgid "privacy-notice"
+msgstr "hysbysiad-preifatrwydd"
+
+# Menu path adress
+msgid "terms"
+msgstr "telerau"
