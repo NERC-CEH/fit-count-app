@@ -13,7 +13,7 @@ const extension = {
       const isTimeout = this.hasCountdownTimedOut();
 
       if (isTimeout && !this._timeoutVibrated) {
-        isPlatform('hybrid') && Haptics.vibrate();
+        isPlatform('hybrid') && !this.metadata.deleted && Haptics.vibrate();
         Log('SampleModel:Vibrate: start.');
         this._timeoutVibrated = true;
         this.stopVibrateCounter();
@@ -21,7 +21,7 @@ const extension = {
 
       const isBelow2mins = this.hasCountdown2MinutesLeft();
       if (isBelow2mins && !this._below2minsVibrated) {
-        isPlatform('hybrid') && Haptics.vibrate();
+        isPlatform('hybrid') && !this.metadata.deleted && Haptics.vibrate();
         Log('SampleModel:Vibrate: stop.');
 
         this._below2minsVibrated = true;
