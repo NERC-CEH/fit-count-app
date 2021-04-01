@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Karolis, 2021
-# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # Vilius Stankaitis <vilius@flumens.io>, 2021
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2021\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -643,8 +643,8 @@ msgstr ""
 "ni ddylid cyfrif blodau marw na phennau hadau.</p><p>Mae angen cyfrif blodau"
 " mewn gwahanol ffyrdd, yn dibynnu ar eu strwythur.</p><p>Os ydych chi wedi "
 "dewis blodyn targed o'n rhestr, caiff y math o flodyn ei ddangos yn "
-"ddiofyn.</p><p>Os ydych chi wedi dewis blodyn targed “Arall”, "
-"cyfrwch:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
+"ddiofyn.</p><p>Os ydych chi wedi dewis blodyn targed “Arall”, cyfrwch fel "
+"hyn:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
 "uned</0><1><0>Pennau blodau</0> (lle mae llawer o flodau bychain o fewn pen "
 "blodyn mwy, e.e. dant y llew neu lygad y dydd) – mae pob pen blodau yn "
 "cyfrif fel un uned</1><2><0>Wmbelau</0> (ar gyfer blodau ble mae blodau "
@@ -1022,9 +1022,9 @@ msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
-"Mae cacwn yn wenyn blewog a chrwn iawn. Mae'r frenhines yn un o'n gwenyn "
-"mwyaf; gall y gweithwyr fod yn eithaf bach, ond maent yn fwy na'r rhan fwyaf"
-" o wenyn unig."
+"Mae cacwn ('bumblebee' yn Saesneg) yn wenyn blewog a chrwn iawn. Mae'r "
+"frenhines yn un o'n gwenyn mwyaf; gall y gweithwyr fod yn eithaf bach, ond "
+"maent yn fwy na'r rhan fwyaf o wenyn unig."
 
 # Bumblebee screen 1 content
 msgid ""
@@ -1194,6 +1194,8 @@ msgstr ""
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
+"Mae gan y math hwn o Wenynen Durio, <i>Andrena cineraria</i>, streipiau du a"
+" llwyd"
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1201,18 +1203,26 @@ msgid ""
 "bee-like hairs on part of their body, and most are similar in shape and with"
 " a mix of black, red and yellow colours"
 msgstr ""
+"Gall gwenyn yn y genws Nomada edrych yn debyg iawn i wenyn meirch, ond mae "
+"ganddynt flew tebyg i flew gwenyn ar ran o'u corff, ac mae'r rhan fwyaf yn "
+"debyg o ran siâp ac mae ganddynt gymysgedd o liwiau du, coch a melyn."
 
 # Solitary bees screen 3 content
 msgid ""
 "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at"
 " around 4mm long"
 msgstr ""
+"Mae'r wenynen hon o'r genws Chelostoma yn un o'r gwenyn unig lleiaf ac yn "
+"tua 4mm o hyd"
 
 # Solitary bees screen 3 content
 msgid ""
 "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when "
 "fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
+"Ddiwedd yr haf mae'r wenynen hon, Colletes hederae, yn ymweld â blodau iorwg"
+" – pan maent yn ffres mae gan y gwenyn hyn streipiau du a melyn clir ar yr "
+"abdomen"
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
@@ -1379,8 +1389,9 @@ msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
 msgstr ""
-"Mae pryfed hofran yn ehedwyr actif a chwim iawn, ac fe'i gwelir yn aml yn "
-"hofran, fel y byddech yn ei ddisgwyl yn ôl yr enw."
+"Math o glêr yw pryfed hofran, yn perthyn i urdd Diptera. Mae pryfed hofran "
+"yn ehedwyr actif a chwim iawn, ac fe'i gwelir yn aml yn hofran, fel y "
+"byddech yn ei ddisgwyl yn ôl yr enw."
 
 # Hoverflies screen 1 content
 msgid ""
@@ -1394,6 +1405,8 @@ msgstr ""
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr ""
+"Mae gan bryfed hofran yn y genws Eristalis, sy'n debyg i wenyn gormes, "
+"deimlyddion llawer byrrach na gwenyn mêl"
 
 # Hoverflies screen 2 content
 msgid "The eyes cover more of the head"
@@ -1414,6 +1427,8 @@ msgid ""
 "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
 " of the wing"
 msgstr ""
+"Mae gan bryfed hofran yn y genws hwn 'ddolen' nodweddiadol yn y wythïen ger "
+"pen yr adain"
 
 # Hoverflies screen 2 content
 msgid ""
@@ -1430,6 +1445,8 @@ msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
+"Y math hwn o bryf hofran, <i>Volucella zonaria</i> yw'n pryf hofran mwyaf ac"
+" mae'n dda am efelychu gwenyn meirch mawr, ond sylwch ar y teimlyddion byr"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1453,9 +1470,10 @@ msgid ""
 "wing veins (if you can get close enough to see them) and in flight will "
 "hover like typical hoverflies"
 msgstr ""
-"Mae rhai pryfed hofran yn fach ac yn bennaf ddu eu lliw, ond mae ganddynt y "
-"gwythiennau nodweddiadol ar eu hadenydd (os gallwch fynd yn ddigon agos i'w "
-"gweld nhw) ac wrth hedfan maen nhw'n hofran fel pryfed hofran nodweddiadol"
+"Mae rhai pryfed hofran yn fach ac yn bennaf dywyll eu lliw, ond mae ganddynt"
+" y gwythiennau nodweddiadol ar eu hadenydd (os gallwch fynd yn ddigon agos "
+"i'w gweld nhw) ac wrth hedfan maen nhw'n hofran fel pryfed hofran "
+"nodweddiadol"
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
@@ -1497,12 +1515,13 @@ msgid ""
 "other flies have. Two examples of “other flies” are shown above and two on "
 "the next screen."
 msgstr ""
-"Byddwch yn gweld nifer o wahanol fathau o glêr yn ymweld â'r blodau fwy na "
-"thebyg – ar gyfer PoMS dim ond eu gwahanu'n “bryfed hofran” a “phob cleren "
-"arall” mae angen i chi wneud! Peidiwch ag anghofio bod pryfed hofran yn "
-"gallu hofran, rhywbeth y gall rhai clêr eraill ei wneud, ond dim llawer "
-"ohonynt. Mae dwy enghraifft o “glêr eraill” i'w gweld uchod a dwy ar y sgrin"
-" nesaf."
+"Math o bryfed sy'n perthyn i urdd Diptera yw clêr. Byddwch yn gweld nifer o "
+"wahanol fathau o glêr yn ymweld â'r blodau fwy na thebyg, yn cynnwys pryfed "
+"dawnsio, pryfed milwrol a phryfed hofran. Ar gyfer PoMS dim ond eu gwahanu'n"
+" “bryfed hofran” a “chlêr” eraill mae angen i chi wneud! Peidiwch ag "
+"anghofio bod pryfed hofran yn gallu hofran, rhywbeth y gall rhai clêr eraill"
+" ei wneud, ond dim llawer ohonynt. Mae dwy enghraifft o “glêr” eraill i'w "
+"gweld uchod a dwy ar y sgrin nesaf."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
@@ -1569,7 +1588,7 @@ msgstr "Bwrned chwe smotyn (gwyfyn mawr)"
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
-msgstr ""
+msgstr "Gwyfyn o'r genws Anthophila (gwyfyn bach)"
 
 # Butterflies and moths 2 screen content
 msgid ""
@@ -1589,7 +1608,7 @@ msgid ""
 "softer hindwings and abdomen"
 msgstr ""
 "Mae gan chwilod adenydd blaen sydd wedi caledu ac sy'n gweithio fel gorchudd"
-" ar gyfer yr adenydd ôl caletach a'r abdomen"
+" ar gyfer yr adenydd ôl mwy meddal a'r abdomen"
 
 # Beetles 1 screen content
 msgid "Beetles have chewing mouthparts"
@@ -1600,6 +1619,8 @@ msgid ""
 "This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which "
 "the males have distinctive thickened hind legs"
 msgstr ""
+"Chwilen o'r enw Oedemera nobilis yw hon, ac mae gan y gwrywod goesau ôl tew "
+"amlwg"
 
 # Beetles 1 screen content
 msgid ""
@@ -1619,12 +1640,16 @@ msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
 msgstr ""
+"Chwilen o'r enw <i>Rhagonycha fulva</i> gyda'r pig ar gas ei hadenydd yn ddu"
+" – toreithiog iawn ar flodau ganol yr haf"
 
 # Beetles 2 screen content
 msgid ""
 "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae"
 " live in decaying wood"
 msgstr ""
+"Chwilen fawr o'r enw Rutpela maculata – mae'r larfâu'n byw mewn pren sy'n "
+"pydru"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
@@ -1700,23 +1725,30 @@ msgid ""
 "True bugs have wings that overlap, so there is no clear midline along the "
 "abdomen – the wings form a X-shape"
 msgstr ""
+"Mae gan bryfed yn urdd Hemiptera ('true bugs' yn Saesneg) adenydd sy'n "
+"gorgyffwrdd, felly nid oes llinell ganol glir ar hyd yr abdomen – mae'r "
+"adenydd yn creu siâp X."
 
 # Other insect 2 screen content
 msgid ""
 "Some bugs have a more-or-less triangular “scutellum” covering part of the "
 "abdomen, and adding to the X-shape effect"
 msgstr ""
+"Mae gan rai aelodau o'r grŵp hwn \"sgwtelwm\" trionglog yn gorchuddio rhan "
+"o'r abdomen, ac sy'n ychwanegu at effaith y siâp X"
 
 # Other insect 2 screen content
 msgid ""
 "True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
 "this is usually hidden away underneath the bug)"
 msgstr ""
+"Mae gan aelodau'r grŵp hwn rannau sugno yn eu cegau, a thrwnc neu rostrwm "
+"hir (ond fel arfer mae wedi'i guddio o dan y pryfyn)"
 
 # Other insect 2 screen content
 msgid ""
 "Some bugs are very colourful, while others are shades or green or brown"
-msgstr ""
+msgstr "Mae rhai yn lliwgar iawn, ac eraill yn wyrdd neu'n frown"
 
 # Other insect 2 screen content
 msgid ""
@@ -1724,6 +1756,9 @@ msgid ""
 "occasionally, and if so they are counted in the “other insects” category. "
 "They are sometimes confused with beetles."
 msgstr ""
+"Nid yw pryfed yn urdd Hemiptera yn ymweld yn aml â blodau, ond efallai y "
+"gwelwch nhw weithiau, ac os gwnewch chi, rhowch nhw yn y categori \"pryfed "
+"eraill\". Weithiau mae pobl yn drysu rhwng y rhain a chwilod."
 
 # From survey pages
 msgid "Other"
@@ -1795,7 +1830,7 @@ msgstr "Pryfed hofran"
 
 # Id guide label
 msgid "Other flies"
-msgstr "Clêr eraill"
+msgstr "Clêr"
 
 # Id guide label
 msgid "Butterflies and moths"
@@ -1997,9 +2032,9 @@ msgstr ""
 " dod o Ewrop a Gogledd America. Rydym yn gwybod llai am newidiadau yn "
 "helaethrwydd peillwyr, ac mae angen llawer mwy o ddata er mwyn gallu olrhain"
 " hyn. Gallwch ein helpu drwy wneud Cyfrif FIT, ac efallai ei ail-wneud ar "
-"hyd y tymor. Does dim angen i chi enwi'r union rywogaethau o bryfed, dim ond"
-" eu rhoi mewn grwpiau bras, e.e. cacwn, pryfed hofran, pili-palod a "
-"gwyfynod, gwenyn meirch."
+"hyd y tymor hyd yn oed. Does dim angen i chi enwi'r union rywogaethau o "
+"bryfed, dim ond eu rhoi mewn grwpiau bras, e.e. cacwn, pryfed hofran, pili-"
+"palod a gwyfynod, gwenyn meirch."
 
 # About page content
 msgid ""
