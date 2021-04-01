@@ -5,8 +5,26 @@
     }
   }
 
+  .location-name-attr {
+    --ion-toolbar-background: white;
+    color: var(--ion-color-primary);
+    border-top: 1px solid #afafaf;
+
+    ion-spinner {
+      color: var(--ion-color-primary);
+    }
+    ion-input {
+      --placeholder-color: black;
+      --placeholder-font-weight: 300;
+
+      color: black;
+      font-size: 1em;
+      margin-top: 0.2em;
+    }
+  }
+
   #location-page-content {
-    height: calc(100% - 73px);
+    height: calc(100% - 73px - 54px);
   }
 
   #survey-footer {

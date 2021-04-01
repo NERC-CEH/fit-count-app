@@ -2102,3 +2102,7 @@ msgstr "hysbysiad-preifatrwydd"
 # Menu path adress
 msgid "terms"
 msgstr "telerau"
+
+# Location name search on a map
+msgid "Search for a location..."
+msgstr ""

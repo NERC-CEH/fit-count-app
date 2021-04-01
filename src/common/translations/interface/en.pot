@@ -1515,3 +1515,7 @@ msgstr "privacy-notice"
 # Menu path adress
 msgid "terms"
 msgstr "terms"
+
+# Location name search on a map
+msgid "Search for a location..."
+msgstr "Search for a location..."

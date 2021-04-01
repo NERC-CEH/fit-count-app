@@ -1785,3 +1785,7 @@ msgstr ""
 # Menu path adress
 msgid "terms"
 msgstr ""
+
+# Location name search on a map
+msgid "Search for a location..."
+msgstr ""

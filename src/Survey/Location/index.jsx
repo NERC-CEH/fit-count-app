@@ -1,7 +1,5 @@
 import React from 'react';
 import { observer } from 'mobx-react';
-import PropTypes from 'prop-types';
-import exact from 'prop-types-exact';
 import {
   Page,
   ModelLocation,
@@ -10,8 +8,7 @@ import {
   InfoMessage,
   toast,
 } from '@apps';
-import { NavContext } from '@ionic/react';
-import { locationOutline } from 'ionicons/icons';
+import { locationOutline, searchOutline } from 'ionicons/icons';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import './styles.scss';
@@ -21,27 +18,37 @@ const { warn } = toast;
 const PAGE_INDEX = 1;
 
 class Location extends ModelLocation {
-  static contextType = NavContext;
+  mapRef = React.createRef();
 
-  static propTypes = exact({
-    model: PropTypes.object.isRequired,
-    onGPSClick: PropTypes.func.isRequired,
-    mapProviderOptions: PropTypes.object,
-  });
+  isValueValid = () => this.props.model.attrs.location;
 
-  isValueValid = () => {
-    const { location } = this.props.model.attrs;
+  setLocation = location => {
+    const { model } = this.state;
 
     if (location && location.source === 'map' && location.accuracy >= 500) {
       warn('Please select a more accurate location');
-      return false;
+      return;
     }
 
-    return !!location;
+    model.isGPSRunning() && model.stopGPS();
+    model.attrs.location = { ...model.attrs.location, ...location };
+
+    model.save();
+  };
+
+  onLocationNameSearch = ({ target }, geocoded) => {
+    if (geocoded) {
+      this.setState({ locationName: '' });
+      const [l1, l2] = geocoded.center;
+      this.mapRef.current.setView([l2, l1], 13);
+      return;
+    }
+
+    this.setState({ locationName: target.value });
   };
 
   render() {
-    const { mapProviderOptions, model } = this.props;
+    const { mapProviderOptions, model, geocodingParams } = this.props;
 
     const location = model.attrs.location || {};
 
@@ -71,7 +78,20 @@ class Location extends ModelLocation {
               </p>
             </InfoButton>
           </InfoMessage>
+
+          <ModelLocation.Header.LocationName
+            value={this.state.locationName}
+            onChange={this.onLocationNameSearch}
+            geocodingParams={geocodingParams}
+            icon={searchOutline}
+            placeholder="Search for a location..."
+            inputProps={{
+              autofocus: false,
+            }}
+          />
+
           <ModelLocation.Map
+            ref={this.mapRef}
             model={model}
             location={location}
             setLocation={this.setLocation}

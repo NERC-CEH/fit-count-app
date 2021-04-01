@@ -22,6 +22,9 @@ const ModelLocationWrap = props => (
     model={props.sample} // eslint-disable-line
     mapProviderOptions={config.map}
     onGPSClick={ModelLocation.utils.onGPSClick}
+    geocodingParams={{
+      access_token: config.map.mapboxApiKey,
+    }}
   />
 );
 
