@@ -24,6 +24,8 @@ const CONFIG = {
 
   sentryDNS: !isTestEnv && process.env.APP_SENTRY_KEY,
 
+  feedbackEmail: 'poms%40ceh.ac.uk',
+
   map: {
     mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY,
     mapboxOsmId: 'cehapps/ckghr3uxz01xb19udplq7wi6x',

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import userModel from 'models/user';
+import appModel from 'models/app';
 import savedSamples from 'models/savedSamples';
 import {
   IonTabs,
@@ -30,6 +31,8 @@ const MenuWrap = () => (
 
 const UserSurveys = () => <Surveys savedSamples={savedSamples} />;
 
+const GuideWrap = () => <Guide appModel={appModel} />;
+
 const HomeComponent = () => {
   return (
     <>
@@ -39,7 +42,7 @@ const HomeComponent = () => {
           <Route path="/home/info" component={Home} exact />
           <Route path="/home/surveys" component={UserSurveys} exact />
           <Route path="/home/manual" component={Manual} exact />
-          <Route path="/home/guide" component={Guide} exact />
+          <Route path="/home/guide" render={GuideWrap} exact />
           <Route path="/home/menu" render={MenuWrap} exact />
         </IonRouterOutlet>
 

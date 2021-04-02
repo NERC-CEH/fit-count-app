@@ -37,3 +37,4 @@ export { default as Sample } from '@bit/flumens.apps.models.sample';
 export { default as Media } from '@bit/flumens.apps.models.media';
 export { default as Occurrence } from '@bit/flumens.apps.models.occurrence';
 export { default as DrupalUserModel } from '@bit/flumens.apps.models.drupal-user-model';
+export { default as UserFeedbackRequest } from '@bit/flumens.apps.user-feedback-request';

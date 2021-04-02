@@ -9,6 +9,7 @@ const defaults = {
   language: null,
   country: 'UK',
 
+  feedbackGiven: false,
   showedWelcome: false,
 
   // draft survey pointers

@@ -1789,3 +1789,35 @@ msgstr ""
 # Location name search on a map
 msgid "Search for a location..."
 msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "Enjoying the app?"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "Not really"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "Yes!"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "Would you mind giving us some feedback?"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "No, thanks"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "OK, sure"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "How about a rating on the App Store then?"
+msgstr ""
+
+# Asking user for a feedback on app stores
+msgid "How about a rating on the Play Store then?"
+msgstr ""

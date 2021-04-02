@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
+import { observer } from 'mobx-react';
 import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
-import { Page, Main, ModalHeader } from '@apps';
+import { Page, Main, ModalHeader, UserFeedbackRequest } from '@apps';
+import config from 'common/config';
 import { withTranslation, Trans as T } from 'react-i18next';
 import insectsData from 'common/data';
 import SpeciesProfile from './species/components/SpeciesProfile';
@@ -10,6 +12,7 @@ import './styles.scss';
 
 class Guide extends React.Component {
   static propTypes = exact({
+    appModel: PropTypes.object.isRequired,
     history: PropTypes.object, // eslint-disable-line
     location: PropTypes.object, // eslint-disable-line
     staticContext: PropTypes.object, // eslint-disable-line
@@ -81,8 +84,27 @@ class Guide extends React.Component {
     );
   };
 
+  onFeedbackDone = () => {
+    const { appModel } = this.props;
+    appModel.attrs.feedbackGiven = true;
+    appModel.save();
+  };
+
+  shouldShowFeedback = () => {
+    const { appModel } = this.props;
+
+    const { feedbackGiven, appSession } = appModel.attrs;
+    if (feedbackGiven) {
+      return false;
+    }
+
+    return appSession > 5;
+  };
+
   render() {
     const { t } = this.props;
+
+    const showFeedback = this.shouldShowFeedback();
 
     return (
       <Page id="guide">
@@ -90,6 +112,17 @@ class Guide extends React.Component {
           <h1>
             <T>Pollinator Groups</T>
           </h1>
+
+          {showFeedback && (
+            <IonRow className="user-feedback-row">
+              <IonCol size="12">
+                <UserFeedbackRequest
+                  email={config.feedbackEmail}
+                  onFeedbackDone={this.onFeedbackDone}
+                />
+              </IonCol>
+            </IonRow>
+          )}
 
           {this.getListGrid(insectsData)}
 
@@ -114,4 +147,4 @@ class Guide extends React.Component {
   }
 }
 
-export default withTranslation()(Guide);
+export default withTranslation()(observer(Guide));
