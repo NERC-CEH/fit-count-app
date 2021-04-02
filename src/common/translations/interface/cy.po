@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Karolis, 2021
 # Vilius Stankaitis <vilius@flumens.io>, 2021
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2021
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1199,30 +1199,31 @@ msgstr ""
 
 # Solitary bees screen 3 content
 msgid ""
-"The nomad bees (genus Nomada) can look very similar to wasps, but they have "
-"bee-like hairs on part of their body, and most are similar in shape and with"
-" a mix of black, red and yellow colours"
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours"
 msgstr ""
-"Gall gwenyn yn y genws Nomada edrych yn debyg iawn i wenyn meirch, ond mae "
-"ganddynt flew tebyg i flew gwenyn ar ran o'u corff, ac mae'r rhan fwyaf yn "
-"debyg o ran siâp ac mae ganddynt gymysgedd o liwiau du, coch a melyn."
+"Gall gwenyn yn y genws <i>Nomada</i> edrych yn debyg iawn i wenyn meirch, "
+"ond mae ganddynt flew tebyg i flew gwenyn ar ran o'u corff, ac mae'r rhan "
+"fwyaf yn debyg o ran siâp ac mae ganddynt gymysgedd o liwiau du, coch a "
+"melyn."
 
 # Solitary bees screen 3 content
 msgid ""
-"This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at"
-" around 4mm long"
+"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
+"bees, at around 4mm long"
 msgstr ""
-"Mae'r wenynen hon o'r genws Chelostoma yn un o'r gwenyn unig lleiaf ac yn "
-"tua 4mm o hyd"
+"Mae'r wenynen hon o'r genws <i>Chelostoma</i> yn un o'r gwenyn unig lleiaf "
+"ac yn tua 4mm o hyd"
 
 # Solitary bees screen 3 content
 msgid ""
-"In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when "
-"fresh these bees have clear black and yellow stripes on the abdomen"
+"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
+"when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
-"Ddiwedd yr haf mae'r wenynen hon, Colletes hederae, yn ymweld â blodau iorwg"
-" – pan maent yn ffres mae gan y gwenyn hyn streipiau du a melyn clir ar yr "
-"abdomen"
+"Ddiwedd yr haf mae'r wenynen hon, <i>Colletes hederae</i>, yn ymweld â "
+"blodau iorwg – pan maent yn ffres mae gan y gwenyn hyn streipiau du a melyn "
+"clir ar yr abdomen"
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
@@ -1405,8 +1406,8 @@ msgstr ""
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr ""
-"Mae gan bryfed hofran yn y genws Eristalis, sy'n debyg i wenyn gormes, "
-"deimlyddion llawer byrrach na gwenyn mêl"
+"Mae gan bryfed hofran yn y genws <i>Eristalis</i>, sy'n debyg i wenyn "
+"gormes, deimlyddion llawer byrrach na gwenyn mêl"
 
 # Hoverflies screen 2 content
 msgid "The eyes cover more of the head"
@@ -1588,7 +1589,7 @@ msgstr "Bwrned chwe smotyn (gwyfyn mawr)"
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
-msgstr "Gwyfyn o'r genws Anthophila (gwyfyn bach)"
+msgstr "Gwyfyn o'r genws <i>Anthophila</i> (gwyfyn bach)"
 
 # Butterflies and moths 2 screen content
 msgid ""
@@ -1616,11 +1617,11 @@ msgstr "Mae gan chwilod rannau cnoi yn eu cegau"
 
 # Beetles 1 screen content
 msgid ""
-"This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which "
-"the males have distinctive thickened hind legs"
+"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
+"which the males have distinctive thickened hind legs"
 msgstr ""
-"Chwilen o'r enw Oedemera nobilis yw hon, ac mae gan y gwrywod goesau ôl tew "
-"amlwg"
+"Chwilen o'r enw <i>Oedemera nobilis</i> yw hon, ac mae gan y gwrywod goesau "
+"ôl tew amlwg"
 
 # Beetles 1 screen content
 msgid ""
@@ -1645,11 +1646,11 @@ msgstr ""
 
 # Beetles 2 screen content
 msgid ""
-"Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae"
-" live in decaying wood"
+"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
+" larvae live in decaying wood"
 msgstr ""
-"Chwilen fawr o'r enw Rutpela maculata – mae'r larfâu'n byw mewn pren sy'n "
-"pydru"
+"Chwilen fawr o'r enw <i>Rutpela maculata</i> – mae'r larfâu'n byw mewn pren "
+"sy'n pydru"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."

@@ -925,16 +925,16 @@ msgid "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes
 msgstr "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 
 # Solitary bees screen 3 content
-msgid "The nomad bees (genus Nomada) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
-msgstr "The nomad bees (genus Nomada) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
+msgid "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
+msgstr "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
 
 # Solitary bees screen 3 content
-msgid "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at around 4mm long"
-msgstr "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at around 4mm long"
+msgid "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary bees, at around 4mm long"
+msgstr "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary bees, at around 4mm long"
 
 # Solitary bees screen 3 content
-msgid "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
-msgstr "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
+msgid "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
+msgstr "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
@@ -1157,8 +1157,8 @@ msgid "Beetles have chewing mouthparts"
 msgstr "Beetles have chewing mouthparts"
 
 # Beetles 1 screen content
-msgid "This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which the males have distinctive thickened hind legs"
-msgstr "This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which the males have distinctive thickened hind legs"
+msgid "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in which the males have distinctive thickened hind legs"
+msgstr "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in which the males have distinctive thickened hind legs"
 
 # Beetles 1 screen content
 msgid "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen."
@@ -1169,8 +1169,8 @@ msgid "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing case
 msgstr "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer"
 
 # Beetles 2 screen content
-msgid "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae live in decaying wood"
-msgstr "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae live in decaying wood"
+msgid "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood"
+msgstr "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."

@@ -57,9 +57,9 @@
     "picture": "Solitary_bees_3.jpg",
     "intro_text": "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above.",
     "caption_1": "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes",
-    "caption_2": "The nomad bees (genus Nomada) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours",
-    "caption_3": "This scissor bee (genus Chelostoma) is one of the smallest solitary bees, at around 4mm long",
-    "caption_4": "In late summer the Ivy Bee (Colletes hederae) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen",
+    "caption_2": "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours",
+    "caption_3": "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary bees, at around 4mm long",
+    "caption_4": "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen",
     "extraText": "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!"
   },
   {
@@ -162,14 +162,14 @@
     "intro_text": "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen.",
     "caption_1": "Beetles have forewings that have become hardened and act as covers for the softer hindwings and abdomen",
     "caption_2": "Beetles have chewing mouthparts",
-    "caption_3": "This beetle is the Thick-kneed Flower Beetle (Oedemera nobilis), in which the males have distinctive thickened hind legs"
+    "caption_3": "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in which the males have distinctive thickened hind legs"
   },
   {
     "id": "beetles",
     "picture": "Beetles_2.jpg",
     "intro_text": "Above are two more examples of beetles that regularly visit flowers.",
     "caption_1": "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer",
-    "caption_2": "Black and yellow longhorn beetle (Rutpela maculata), a large beetle – larvae live in decaying wood"
+    "caption_2": "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood"
   },
   {
     "id": "smallInsects",
