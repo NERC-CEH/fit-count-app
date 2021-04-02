@@ -9,14 +9,14 @@ import clsx from 'clsx';
 function CountdownClock({ isPaused, countdown, onComplete, hasStarted }) {
   function renderer({ minutes, seconds, completed }) {
     const showMinutesAndSeconds = `${zeroPad(minutes)}:${zeroPad(seconds)}`;
-    const remainingTimeIsLessThan3minutes = minutes < 3;
+    const remainingTimeIsLessThan2minutes = minutes < 2;
 
     if (completed) {
       return <T>Time's up!</T>;
     }
 
     return (
-      <span className={clsx(remainingTimeIsLessThan3minutes && 'warn')}>
+      <span className={clsx(remainingTimeIsLessThan2minutes && 'warn')}>
         {showMinutesAndSeconds}
       </span>
     );
