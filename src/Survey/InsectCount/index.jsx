@@ -3,15 +3,18 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page } from '@apps';
 import { observer } from 'mobx-react';
-import { IonItem } from '@ionic/react';
+import { IonItem, isPlatform } from '@ionic/react';
 import { pauseOutline, playOutline } from 'ionicons/icons';
 import Header from 'Survey/Components/Header';
 import Footer from 'Survey/Components/Footer';
 import surveyConfig from 'Survey/config';
 import CountdownClock from 'Survey/Components/CountdownClock';
+import { Plugins, HapticsImpactStyle } from '@capacitor/core';
 import IntroAlert from './Components/IntroAlert';
 import Main from './Main';
 import './styles.scss';
+
+const { Haptics } = Plugins;
 
 const PAGE_INDEX = 7;
 
@@ -49,6 +52,8 @@ function InsectCount({ sample }) {
     if (sample.isDisabled()) {
       return;
     }
+
+    isPlatform('hybrid') && Haptics.impact({ style: HapticsImpactStyle.Light });
 
     occurrence.attrs.count += 1;
     occurrence.save();
