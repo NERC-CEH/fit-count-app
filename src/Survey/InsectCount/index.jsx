@@ -113,6 +113,7 @@ function InsectCount({ sample }) {
   };
 
   const clock = getCountDownClock();
+
   return (
     <Page id="survey-insect-count-page">
       <Header
