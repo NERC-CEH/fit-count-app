@@ -1,7 +1,7 @@
 export default {
   en: 'English',
   // es: 'Español',
-  // el: 'Eλληνικά',
+  el: 'Eλληνικά',
   // pt: 'Português',
   cy: 'Cymraeg',
 };
