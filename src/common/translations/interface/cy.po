@@ -2106,36 +2106,36 @@ msgstr "telerau"
 
 # Location name search on a map
 msgid "Search for a location..."
-msgstr ""
+msgstr "Lleoliad..."
 
 # Asking user for a feedback on app stores
 msgid "Enjoying the app?"
-msgstr ""
+msgstr "‘Dych chi’n mwynhau’r ap?"
 
 # Asking user for a feedback on app stores
 msgid "Not really"
-msgstr ""
+msgstr "Dim rili"
 
 # Asking user for a feedback on app stores
 msgid "Yes!"
-msgstr ""
+msgstr "Ydw!"
 
 # Asking user for a feedback on app stores
 msgid "Would you mind giving us some feedback?"
-msgstr ""
+msgstr "Fyddech chi’n meddwl rhoi tipyn o adborth i ni?"
 
 # Asking user for a feedback on app stores
 msgid "No, thanks"
-msgstr ""
+msgstr "Dim diolch"
 
 # Asking user for a feedback on app stores
 msgid "OK, sure"
-msgstr ""
+msgstr "Iawn, siwr"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the App Store then?"
-msgstr ""
+msgstr "Beth am raddio ni ar App Store wedyn?"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
-msgstr ""
+msgstr "Beth am raddio ni ar Play Store wedyn?"
