@@ -3,6 +3,7 @@ import * as Yup from 'yup';
 import { date } from '@apps';
 import userModel from 'models/user';
 import insectGroups from 'common/data';
+import habitatValues from 'common/data/habitats.json';
 import habitatIcon from 'common/images/habitatIcon.svg';
 import flowerIcon from 'common/images/flowerIcon.svg';
 
@@ -53,43 +54,6 @@ export const verifyLocationSchema = Yup.mixed().test(
   'location',
   validateLocation
 );
-
-const habitatValues = [
-  {
-    id: isProd ? 13557 : 17828,
-    value: 'Garden',
-  },
-  {
-    id: isProd ? 13558 : 17829,
-    value: 'School Grounds',
-  },
-  {
-    id: isProd ? 13559 : 17830,
-    value: 'Parkland with trees',
-  },
-  {
-    id: isProd ? 13560 : 17831,
-    value: 'Churchyard',
-  },
-  {
-    id: isProd ? 13561 : 17832,
-    value: 'Grassy verge or hedgerow edge',
-  },
-  {
-    id: isProd ? 13562 : 17833,
-    value: 'Grassland with wild flowers (e.g. meadow)',
-  },
-  {
-    id: isProd ? 13563 : 17834,
-    value: 'Amenity grassland (usually mown short)',
-  },
-  { id: isProd ? 13564 : 17835, value: 'Farm crops or grassy pasture' },
-  { id: isProd ? 13565 : 17836, value: 'Upland moorland' },
-  { id: isProd ? 13566 : 17837, value: 'Lowland heath' },
-  { id: isProd ? 13567 : 17838, value: 'Waste ground or brownfield site' },
-  { id: isProd ? 13568 : 17839, value: 'Woodland' },
-  { id: isProd ? 13569 : 17840, value: 'Other' },
-];
 
 const flowerCoverValues = [
   {
