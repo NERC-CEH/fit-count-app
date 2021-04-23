@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Vilius Stankaitis <vilius@flumens.io>, 2021
-# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # Karolis, 2021
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/116172/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -902,7 +902,7 @@ msgstr "Roedd manylion y defnyddiwr yn anghywir."
 
 # How To page content
 msgid "How To"
-msgstr "Sut i Wneud"
+msgstr "Canllaw Cyflym"
 
 # How To page content
 msgid "FIT Count quick guide"
@@ -1516,13 +1516,11 @@ msgid ""
 "but not many other flies have. Two examples of “other flies” are shown above"
 " and two on the next screen."
 msgstr ""
-"Math o bryfed sy'n perthyn i urdd Diptera yw clêr. Byddwch yn gweld nifer o "
-"wahanol fathau o glêr yn ymweld â'r blodau fwy na thebyg, yn cynnwys pryfed "
-"dawnsio, pryfed milwrol a phryfed hofran. Ar gyfer FIT Count dim ond eu "
-"gwahanu'n “bryfed hofran” a “chlêr” eraill mae angen i chi wneud! Peidiwch "
-"ag anghofio bod pryfed hofran yn gallu hofran, rhywbeth y gall rhai clêr "
-"eraill ei wneud, ond dim llawer ohonynt. Mae dwy enghraifft o “glêr” eraill "
-"i'w gweld uchod a dwy ar y sgrin nesaf."
+"Gallwch weld nifer o wahanol fathau o glêr yn ymweld â blodau – ar gyfer y "
+"Cyfrif FIT dim ond eu gwahanu'n “bryfed hofran” a “chlêr” eraill mae angen i"
+" chi wneud! Peidiwch ag anghofio bod pryfed hofran yn gallu hofran, rhywbeth"
+" y gall rhai clêr eraill ei wneud, ond dim llawer ohonynt. Mae dwy "
+"enghraifft o “glêr” eraill i'w gweld uchod a dwy ar y sgrin nesaf."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
@@ -1580,8 +1578,8 @@ msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
 msgstr ""
-"Ar gyfer FIT Count, does dim angen gwahaniaethu rhwng pili-palod a gwyfynod "
-"– maen nhw i gyd yn cael eu cyfrif o fewn yr un grŵp."
+"Ar gyfer y Cyfrif FIT, does dim angen gwahaniaethu rhwng pili-palod a "
+"gwyfynod – maen nhw i gyd yn cael eu cyfrif o fewn yr un categori."
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
@@ -2106,15 +2104,15 @@ msgstr "telerau"
 
 # Location name search on a map
 msgid "Search for a location..."
-msgstr "Lleoliad..."
+msgstr "Chwiliwch am leoliad..."
 
 # Asking user for a feedback on app stores
 msgid "Enjoying the app?"
-msgstr "‘Dych chi’n mwynhau’r ap?"
+msgstr "Ydych chi’n mwynhau’r ap?"
 
 # Asking user for a feedback on app stores
 msgid "Not really"
-msgstr "Dim rili"
+msgstr "Dim felly"
 
 # Asking user for a feedback on app stores
 msgid "Yes!"
@@ -2122,7 +2120,7 @@ msgstr "Ydw!"
 
 # Asking user for a feedback on app stores
 msgid "Would you mind giving us some feedback?"
-msgstr "Fyddech chi’n meddwl rhoi tipyn o adborth i ni?"
+msgstr "Fyddech chi’n fodlon rhoi rhywfaint o adborth i ni?"
 
 # Asking user for a feedback on app stores
 msgid "No, thanks"
@@ -2130,18 +2128,20 @@ msgstr "Dim diolch"
 
 # Asking user for a feedback on app stores
 msgid "OK, sure"
-msgstr "Iawn, siwr"
+msgstr "Dim problem"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the App Store then?"
-msgstr "Beth am raddio ni ar App Store wedyn?"
+msgstr "Beth am adael sgôr i ni yn yr App Store te?"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
-msgstr "Beth am raddio ni ar Play Store wedyn?"
+msgstr "Beth am adael sgôr i ni yn y Play Store te?"
 
 # Shown when tapping an uploaded survey
 msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
 msgstr ""
+"I weld eich data Cyfrif FIT ar ôl i chi ei lwytho i fyny, ewch i wefan y "
+"prosiect ar gyfer eich gwlad chi, os oes un ar gael (e.e. <2>UK PoMS</2>)"
