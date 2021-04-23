@@ -37,6 +37,24 @@ function deleteSurvey(sample) {
   });
 }
 
+const uploadedSurveyMessage = () => {
+  alert({
+    message: (
+      <T>
+        To view your FIT Count data after uploading please visit the project
+        website for your country, where available (e.g.{' '}
+        <a href="http://ukpoms.org.uk/">UK PoMS</a>)
+      </T>
+    ),
+    buttons: [
+      {
+        text: 'OK, got it',
+        role: 'cancel',
+      },
+    ],
+  });
+};
+
 function getSampleInfo(sample) {
   const prettyDate = date.print(sample.attrs.date);
   const insectCount = sample.getInsectCount();
@@ -91,9 +109,15 @@ const Survey = ({ sample }) => {
     sample.upload();
   };
 
+  const onClick = uploaded ? uploadedSurveyMessage : undefined;
+
   return (
     <IonItemSliding class="survey-list-item">
-      <IonItem routerLink={href} detail={!synchronising && !uploaded}>
+      <IonItem
+        routerLink={href}
+        onClick={onClick}
+        detail={!synchronising && !uploaded}
+      >
         {getSampleInfo(sample)}
         <OnlineStatus sample={sample} onUpload={onUpload} />
       </IonItem>

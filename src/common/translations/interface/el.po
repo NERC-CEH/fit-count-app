@@ -2180,3 +2180,9 @@ msgstr "Τι θα λέγατε για μια βαθμολογία στο App Sto
 # Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
 msgstr "Τι θα λέγατε για μια βαθμολογία στο Play Store;"
+
+# Shown when tapping an uploaded survey
+msgid ""
+"To view your FIT Count data after uploading please visit the project website"
+" for your country, where available (e.g. <2>UK PoMS</2>)"
+msgstr ""

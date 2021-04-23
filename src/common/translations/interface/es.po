@@ -1821,3 +1821,9 @@ msgstr ""
 # Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
 msgstr ""
+
+# Shown when tapping an uploaded survey
+msgid ""
+"To view your FIT Count data after uploading please visit the project website"
+" for your country, where available (e.g. <2>UK PoMS</2>)"
+msgstr ""
