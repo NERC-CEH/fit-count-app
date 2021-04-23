@@ -24,6 +24,7 @@ const ModelLocationWrap = props => (
     onGPSClick={ModelLocation.utils.onGPSClick}
     geocodingParams={{
       access_token: config.map.mapboxApiKey,
+      types: 'locality,place,district,neighborhood,region,postcode',
     }}
   />
 );
