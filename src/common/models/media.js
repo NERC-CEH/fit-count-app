@@ -1,6 +1,7 @@
 import { Media } from '@apps';
 import { isPlatform } from '@ionic/react';
 import Log from 'helpers/log';
+import config from 'common/config';
 import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
 
 const { Filesystem } = Plugins;
@@ -49,13 +50,13 @@ export default class AppMedia extends Media {
   }
 
   getURL() {
-    const { data: name, path } = this.attrs;
+    const { data: name } = this.attrs;
 
     if (!isPlatform('hybrid') || process.env.NODE_ENV === 'test') {
       return name;
     }
 
-    return Capacitor.convertFileSrc(`${path}/${name}`);
+    return Capacitor.convertFileSrc(`${config.dataPath}/${name}`);
   }
 
   // eslint-disable-next-line class-methods-use-this
