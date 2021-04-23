@@ -1097,8 +1097,8 @@ msgid "The wing venation is different to hoverflies, with no ‘false margin’ 
 msgstr "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing"
 
 # Other flies screen 1 content
-msgid "There are many different flies that you may see visiting flowers – for PoMS all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
-msgstr "There are many different flies that you may see visiting flowers – for PoMS all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
+msgid "There are many different flies that you may see visiting flowers – for the FIT Count all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
+msgstr "There are many different flies that you may see visiting flowers – for the FIT Count all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
@@ -1133,8 +1133,8 @@ msgid "Butterflies are very familiar flower visitors. Moths are perhaps less fre
 msgstr "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
 
 # Butterflies and moths 1 screen content
-msgid "For PoMS there is no need to distinguish between butterflies and moths – they are all counted in the same category."
-msgstr "For PoMS there is no need to distinguish between butterflies and moths – they are all counted in the same category."
+msgid "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category."
+msgstr "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category."
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"

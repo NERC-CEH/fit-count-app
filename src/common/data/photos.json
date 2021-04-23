@@ -124,7 +124,7 @@
   {
     "id": "otherFlies",
     "picture": "Other flies_1.jpg",
-    "intro_text": "There are many different flies that you may see visiting flowers – for PoMS all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen.",
+    "intro_text": "There are many different flies that you may see visiting flowers – for the FIT Count all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen.",
     "caption_1": "This is a dance fly (family Empididae)",
     "caption_2": "Many dance flies have a long thin proboscis under the head",
     "caption_3": "Many dance flies have a distinctly humped thorax",
@@ -147,7 +147,7 @@
     "intro_text": "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect.",
     "caption_1": "Small Tortoiseshell butterfly",
     "caption_2": "Common Blue butterfly",
-    "extraText": "For PoMS there is no need to distinguish between butterflies and moths – they are all counted in the same category."
+    "extraText": "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category."
   },
   {
     "id": "butterfliesAndMoths",

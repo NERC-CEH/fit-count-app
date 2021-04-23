@@ -1551,18 +1551,12 @@ msgstr ""
 
 # Other flies screen 1 content
 msgid ""
-"There are many different flies that you may see visiting flowers – for PoMS "
-"all you need to do is separate them into “hoverflies” and all “other flies”!"
-" Don’t forget that hoverflies can hover, an ability that some but not many "
-"other flies have. Two examples of “other flies” are shown above and two on "
-"the next screen."
+"There are many different flies that you may see visiting flowers – for the "
+"FIT Count all you need to do is separate them into “hoverflies” and all "
+"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
+"but not many other flies have. Two examples of “other flies” are shown above"
+" and two on the next screen."
 msgstr ""
-"Υπάρχουν πολλά διαφορετικά είδη μύγας τα οποία μπορεί να συναντήσετε κατά τη"
-" διάρκεια μιας καταμέτρησης. Το μόνο που χρειάζεται είναι να μπορείτε να τα "
-"διακρίνεται από οι  “ Συρφίδες ” και να τα καταμετρήσετε ως \"Άλλες μύγες\"!"
-" Μην ξεχνάτε ότι οι  συρφίδες  μπορούν να αιωρούνται, μια ικανότητα που "
-"έχουν μερικά αλλά όχι όλα τα είδη μύγας. Πιο πάνω μπορείτε να δείτε δύο "
-"παραδείγματα από την κατηγορία \" Άλλες μύγες \""
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
@@ -1617,11 +1611,9 @@ msgstr ""
 
 # Butterflies and moths 1 screen content
 msgid ""
-"For PoMS there is no need to distinguish between butterflies and moths – "
-"they are all counted in the same category."
+"For the FIT Count there is no need to distinguish between butterflies and "
+"moths – they are all counted in the same category."
 msgstr ""
-"Για το Poms-Ký δεν χρειάζεται να γίνει διάκριση μεταξύ πεταλούδων και "
-"σκώρων- όλα θα καταμετρώνται στην ίδια κατηγορία"
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
