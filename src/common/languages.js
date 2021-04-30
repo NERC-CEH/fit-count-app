@@ -1,11 +1,17 @@
 import { isPlatform } from '@ionic/react';
 
-const demoOnly = !isPlatform('hybrid');
-
-export default {
+const languages = {
   en: 'English',
-  // es: 'Español',
-  el: demoOnly && 'Eλληνικά',
-  // pt: 'Português',
   cy: 'Cymraeg',
 };
+
+const isDemo = !isPlatform('hybrid');
+if (isDemo) {
+  Object.assign(languages, {
+    // es: 'Español',
+    el: 'Eλληνικά',
+    // pt: 'Português',
+  });
+}
+
+export default languages;
