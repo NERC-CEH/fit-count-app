@@ -457,7 +457,6 @@ const survey = {
     create(Occurrence, taxon) {
       return new Occurrence({
         attrs: {
-          sensitivity_precision: 1000,
           taxon,
           count: 0,
         },
@@ -475,6 +474,7 @@ const survey = {
       },
 
       attrs: {
+        privacy_precision: 1000,
         recorder: userModel.attrs.fullName,
         surveyStartTime: null,
         location: null,

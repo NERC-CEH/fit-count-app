@@ -1,6 +1,6 @@
 {
   "name": "uk.ac.ceh.fit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "webpack serve --progress --watch --content-base build --port 8000",
     "build": "NODE_ENV=production webpack",
