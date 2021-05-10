@@ -1233,8 +1233,8 @@ msgid "Note: it will remain in the gallery."
 msgstr "Note: it will remain in the gallery."
 
 # From survey pages
-msgid "Oops! Something, went wrong."
-msgstr "Oops! Something, went wrong."
+msgid "Oops! Something went wrong."
+msgstr "Oops! Something went wrong."
 
 # From survey pages
 msgid "This is the error event id: {{eventId}}"

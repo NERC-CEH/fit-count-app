@@ -1768,7 +1768,7 @@ msgid "Note: it will remain in the gallery."
 msgstr "Noder: bydd yn aros yn yr oriel."
 
 # From survey pages
-msgid "Oops! Something, went wrong."
+msgid "Oops! Something went wrong."
 msgstr "Wps! Mae rhywbeth wedi mynd o'i le."
 
 # From survey pages

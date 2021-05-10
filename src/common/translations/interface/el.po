@@ -1797,7 +1797,7 @@ msgid "Note: it will remain in the gallery."
 msgstr "Σημείωση: θα παραμείνει στη συλλογή."
 
 # From survey pages
-msgid "Oops! Something, went wrong."
+msgid "Oops! Something went wrong."
 msgstr "Ωχ! κάτι πήγε στραβά."
 
 # From survey pages

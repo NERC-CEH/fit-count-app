@@ -1480,7 +1480,7 @@ msgid "Note: it will remain in the gallery."
 msgstr ""
 
 # From survey pages
-msgid "Oops! Something, went wrong."
+msgid "Oops! Something went wrong."
 msgstr ""
 
 # From survey pages
