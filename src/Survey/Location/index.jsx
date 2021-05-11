@@ -58,7 +58,8 @@ class Location extends ModelLocation {
 
         <Main>
           <InfoMessage icon={locationOutline}>
-            Use the map to zoom in and tap on your <b>location</b>.
+            Enable your GPS to set your location, or use the map to zoom in and
+            tap on your <b>location</b>.
             <InfoButton label="READ MORE" header="Info">
               <p>
                 Your location can be anywhere where there are flowers to attract
@@ -71,6 +72,12 @@ class Location extends ModelLocation {
               </p>
               <p>
                 Please zoom in to find the spot that best matches your location.
+              </p>
+              <p>
+                Make sure you have the GPS turned on and permissions granted. If
+                you are conducting a FIT Count offline or without a network
+                connection, the app will not find your location on the map, but
+                your GPS should record this for uploading later.
               </p>
               <p>
                 Your count results will be visible to others at the 1 km square
