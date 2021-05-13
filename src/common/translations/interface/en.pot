@@ -220,6 +220,38 @@ msgstr "Waste ground or brownfield site"
 msgid "Woodland"
 msgstr "Woodland"
 
+# Survey habitat page values
+msgid "Botanical Garden"
+msgstr "Botanical Garden"
+
+# Survey habitat page values
+msgid "Forest"
+msgstr "Forest"
+
+# Survey habitat page values
+msgid "Cultivation"
+msgstr "Cultivation"
+
+# Survey habitat page values
+msgid "Salt marsh"
+msgstr "Salt marsh"
+
+# Survey habitat page values
+msgid "Freshwater wetland"
+msgstr "Freshwater wetland"
+
+# Survey habitat page values
+msgid "Dry shrub"
+msgstr "Dry shrub"
+
+# Survey habitat page values
+msgid "Acacia stands"
+msgstr "Acacia stands"
+
+# Survey habitat page values
+msgid "Roadside verges"
+msgstr "Roadside verges"
+
 # Survey flower-cover info message
 msgid "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate how much of your 50×50 cm patch is occupied by the target flowers (but not by the leaves of the target plant).</p></3>"
 msgstr "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate how much of your 50×50 cm patch is occupied by the target flowers (but not by the leaves of the target plant).</p></3>"
@@ -503,6 +535,62 @@ msgstr "Thistle"
 # Survey species selection page species list
 msgid "Ivy"
 msgstr "Ivy"
+
+# Survey species selection page species list
+msgid "Fennel"
+msgstr "Fennel"
+
+# Survey species selection page species list
+msgid "Myrtle"
+msgstr "Myrtle"
+
+# Survey species selection page species list
+msgid "Olive"
+msgstr "Olive"
+
+# Survey species selection page species list
+msgid "White Mustard"
+msgstr "White Mustard"
+
+# Survey species selection page species list
+msgid "Rock-roses"
+msgstr "Rock-roses"
+
+# Survey species selection page species list
+msgid "Anemone"
+msgstr "Anemone"
+
+# Survey species selection page species list
+msgid "Chrysanthemum"
+msgstr "Chrysanthemum"
+
+# Survey species selection page species list
+msgid "Tree Tobacco"
+msgstr "Tree Tobacco"
+
+# Survey species selection page species list
+msgid "Spanish Jasmine"
+msgstr "Spanish Jasmine"
+
+# Survey species selection page species list
+msgid "Common Lantana"
+msgstr "Common Lantana"
+
+# Survey species selection page species list
+msgid "Acacia"
+msgstr "Acacia"
+
+# Survey species selection page species list
+msgid "Bermuda buttercup"
+msgstr "Bermuda buttercup"
+
+# Survey species selection page species list
+msgid "African Boxthorn"
+msgstr "African Boxthorn"
+
+# Survey species selection page species list
+msgid "Blue Plumbago"
+msgstr "Blue Plumbago"
 
 # Survey species selection page read more message
 msgid "Which target <1>flower</1> have you chosen?<3><p>Where possible please choose a patch of flowers from one of the target flower groups in the list.</p><p>If none of these is available at your location you can choose another flower that is attracting insects and select “Other”, then type in the name.</p><p>Your target flower can be growing in a patch all of the same flower, or among different flower species.</p><p>For each FIT Count, please upload one or two photos of your target flower.</p><p>This allows us to double-check the flower species used for the counts.</p></3>"

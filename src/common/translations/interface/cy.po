@@ -272,6 +272,38 @@ msgstr "Tir gwastraff neu safle tir llwyd"
 msgid "Woodland"
 msgstr "Coetir"
 
+# Survey habitat page values
+msgid "Botanical Garden"
+msgstr ""
+
+# Survey habitat page values
+msgid "Forest"
+msgstr ""
+
+# Survey habitat page values
+msgid "Cultivation"
+msgstr ""
+
+# Survey habitat page values
+msgid "Salt marsh"
+msgstr ""
+
+# Survey habitat page values
+msgid "Freshwater wetland"
+msgstr ""
+
+# Survey habitat page values
+msgid "Dry shrub"
+msgstr ""
+
+# Survey habitat page values
+msgid "Acacia stands"
+msgstr ""
+
+# Survey habitat page values
+msgid "Roadside verges"
+msgstr ""
+
 # Survey flower-cover info message
 msgid ""
 "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
@@ -579,6 +611,62 @@ msgstr "Ysgall"
 # Survey species selection page species list
 msgid "Ivy"
 msgstr "Iorwg"
+
+# Survey species selection page species list
+msgid "Fennel"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Myrtle"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Olive"
+msgstr ""
+
+# Survey species selection page species list
+msgid "White Mustard"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Rock-roses"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Anemone"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Chrysanthemum"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Tree Tobacco"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Spanish Jasmine"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Common Lantana"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Acacia"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Bermuda buttercup"
+msgstr ""
+
+# Survey species selection page species list
+msgid "African Boxthorn"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Blue Plumbago"
+msgstr ""
 
 # Survey species selection page read more message
 msgid ""
