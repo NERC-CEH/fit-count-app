@@ -1024,6 +1024,10 @@ msgstr ""
 "χρόνου, κυρίως Άνοιξη και αρχές Καλοκαιριού, όταν ο καιρός είναι καλός, και "
 "όποτε υπάρχουν ανθοφόρα φυτά."
 
+# How To page content (non-UK)
+msgid "You can complete a FIT Count in good weather at any time of year."
+msgstr "Οι μετρήσεις FIT μπορούν να πραγματοποιηθούν καθ’όλη τη διάρκεια του χρόνου, όταν ο καιρός είναι καλός, όποτε βρίσκετε ανθοφόρα φυτά."
+
 # How To page content
 msgid ""
 "Choose just one type of flower as your target flower - where possible use "

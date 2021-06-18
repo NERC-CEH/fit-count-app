@@ -1019,6 +1019,10 @@ msgid ""
 "September."
 msgstr "Gallwch wneud Cyfrif FIT mewn tywydd da rhwng 1 Ebrill a 30 Medi."
 
+# How To page content (non-UK)
+msgid "You can complete a FIT Count in good weather at any time of year."
+msgstr ""
+
 # How To page content
 msgid ""
 "Choose just one type of flower as your target flower - where possible use "

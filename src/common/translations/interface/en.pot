@@ -854,6 +854,9 @@ msgstr "FIT Counts take about 10–15 minutes, during which you are asked to cou
 msgid "You can complete a FIT Count in good weather between 1 April and 30 September."
 msgstr "You can complete a FIT Count in good weather between 1 April and 30 September."
 
+# How To page content (non-UK)
+msgid "You can complete a FIT Count in good weather at any time of year."
+msgstr "You can complete a FIT Count in good weather at any time of year."
 
 # How To page content
 msgid "Choose just one type of flower as your target flower - where possible use one of the FIT Count target flowers, but if you can't find one from the list you can choose a different flower as the target."
