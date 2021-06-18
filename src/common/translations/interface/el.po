@@ -1,12 +1,13 @@
 # 
 # Translators:
-# Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
 # Karolis, 2021
+# POMS CYPRUS <pomscyprus@gmail.com>, 2021
+# Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021\n"
 "Language-Team: Greek (https://www.transifex.com/ceh/teams/116172/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,9 +33,8 @@ msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
-"Η Χρονομετρημένη Καταμέτρηση Φυτών-Εντόμων (FIT Count), δημιουργήθηκε με "
-"σκοπό τη συλλογή δεδομένων για τους επικονιαστές της Κύπρου, και έχει "
-"διάρκεια 10 λεπτά."
+"Η Χρονομετρημένη Καταμέτρηση Φυτών-Εντόμων (FIT Count), έχεις ως σκοπό τη "
+"συλλογή δεδομένων για τους επικονιαστές, διαρκεί 10 λεπτά."
 
 # Menu page content
 msgid "Info"
@@ -66,8 +66,7 @@ msgstr "Χώρα"
 
 # Menu page content
 msgid "Share App Analytics"
-msgstr ""
-"Ενημερώστε μας για τυχόν σφάλματα της εφαρμογής για να την βελτιώσουμε"
+msgstr "Ενημερώστε μας για τυχόν σφάλματα της εφαρμογής "
 
 # Menu page content
 msgid "Share app crash data so we can make the app more reliable."
@@ -77,9 +76,7 @@ msgstr ""
 
 # Credits page content
 msgid "We are grateful to all the people who helped to create this app:"
-msgstr ""
-"Θα θέλαμε να ευχαριστήσουμε όλους όσους βοήθησαν στη δημιουργία αυτής της "
-"εφαρμογής:"
+msgstr "Ευχαριστούμε όλους όσους βοήθησαν στη δημιουργία αυτής της εφαρμογής:"
 
 # Onboarding Page button label
 msgid "Got it!"
@@ -144,8 +141,8 @@ msgstr "Προηγούμενη καταγραφή σε εξέλιξη, θα θέ
 # Survey content
 msgid "Use the map to zoom in and tap on your <1>location</1>."
 msgstr ""
-"Χρησιμοποιήστε το χάρτη, κάντε μεγέθυνση και πατήστε στην <1> τοποθεσία σας "
-"</1>."
+"Χρησιμοποιήστε το χάρτη, κάνετε μεγέθυνση και πατήστε στην <1> τοποθεσία σας"
+" </1>."
 
 # Survey content
 msgid "Cancel"
@@ -159,8 +156,7 @@ msgstr "Διαγράψετε την καταγραφή"
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
-"Προειδοποίηση - Αυτό θα απορρίψει τα δεδομένα που έχετε εισαγάγει μέχρι "
-"τώρα."
+"Προειδοποίηση - Αυτό θα απορρίψει τα δεδομένα που έχετε εισαγει μέχρι τώρα."
 
 # Survey Location page info message
 msgid ""
@@ -176,18 +172,17 @@ msgid ""
 "results will be visible to others at the 1 km square level via the UKPoMS "
 "website.</p></3>"
 msgstr ""
-"Κάντε μεγέθυνση στον χάρτη και πατήστε στην <1> τοποθεσία σας </1>. <3> <p> "
-"Αυτή μπορεί να είναι οπουδήποτε, αρκεί να υπάρχουν άνθη για να προσελκύουν "
-"επικονιαστές, να έχετε πρόσβαση και να είναι ασφαλής για να πάτε. </p> <p> "
-"Το πάρκο, ο κήπος, μια καλλιεργούμενη ή μια φυσική περιοχή, είναι "
-"εξαιρετικές τοποθεσίες για να κάνετε FIT Counts. </p> <p> Κάντε μεγέθυνση "
-"στο σημείο που βρίσκεστε. </p> <p> Τα αποτελέσματα από τις καταγραφές που θα"
-" κάνετε, θα είναι ορατά σε άλλους, σε επίπεδο 1 km², μέσω της ιστοσελίδας "
-"του Ris-ký </p> </3>"
+"Βρείτε την τοποθεσία σας στο χάρτη με GPS  <1> τοποθεσία  </1>. <3> <p> Η "
+"τοποθεσία αυτή μπορεί να είναι οπουδήποτε, αρκεί να υπάρχουν άνθη για τους "
+"επικονιαστές, να είναι ασφαλής και προσβάσιμη. </p> <p> Ένα πάρκο, ο κήπος "
+"σας, μια καλλιέργεια ή μια φυσική περιοχή, είναι εξαιρετικές τοποθεσίες για "
+"να κάνετε FIT Counts. </p> <p> Κάντε μεγέθυνση στο σημείο που βρίσκεστε. "
+"</p> <p> Τα αποτελέσματα από τις καταγραφές που θα κάνετε, θα είναι ορατά σε"
+" άλλους, σε επίπεδο 1 km², μέσω της ιστοσελίδας του Ris-ký </p> </3>"
 
 # Survey Location alert messag
 msgid "Please select a more accurate location"
-msgstr "Επιλέξτε μια πιο ακριβή τοποθεσία"
+msgstr "Επιλέξτε την τοποθεσία με ακρίβεια"
 
 # Survey content
 msgid "Next"
@@ -204,11 +199,11 @@ msgid ""
 "listed here, please select “Other” and type in a short description of the "
 "habitat.</p></3>"
 msgstr ""
-"Επιλέξτε έναν <1> βιότοπο </1> ο οποίος θεωρείτε ότι είναι κατάλληλος. <3> "
-"<p> Διαλέξτε τον τύπο βιοτόπου που περιγράφει καλύτερα την περιοχή 50x50 cm,"
-" που επιλέξατε. </p> <p> Εάν η περιοχή που επιλέξατε δεν ταιριάζει με κάποιο"
-" από τους προτεινόμενους βιότοπους, επιλέξτε “Άλλο” και περιγράψτε τον εν "
-"συντομία. </p> </3>"
+"Επιλέξτε ένα <1> βιότοπο </1> ο οποίος θεωρείται κατάλληλος. <3> <p> "
+"Διαλέξτε το βιότοπο που περιγράφει καλύτερα την περιοχή 50x50 cm, που "
+"επιλέξατε με το πλαίσιο. </p> <p> Εάν η περιοχή που επιλέξατε δεν ταιριάζει "
+"με κάποιο από τους προτεινόμενους βιότοπους, επιλέξτε “Άλλο” και δώστε μία "
+"σύντομη περιγραφή. </p> </3>"
 
 # Survey habitat page other placeholder text
 msgid ""
@@ -276,35 +271,35 @@ msgstr "Φυτοφράκτες"
 
 # Survey habitat page values
 msgid "Botanical Garden"
-msgstr ""
+msgstr "Βοτανικός Κήπος"
 
 # Survey habitat page values
 msgid "Forest"
-msgstr ""
+msgstr "Δάσος"
 
 # Survey habitat page values
 msgid "Cultivation"
-msgstr ""
+msgstr "Καλλιέργεια"
 
 # Survey habitat page values
 msgid "Salt marsh"
-msgstr ""
+msgstr "Αλυκή"
 
 # Survey habitat page values
 msgid "Freshwater wetland"
-msgstr ""
+msgstr "Υδροβιότοπος γλυκού νερού"
 
 # Survey habitat page values
 msgid "Dry shrub"
-msgstr ""
+msgstr "Θαμνώνας"
 
 # Survey habitat page values
 msgid "Acacia stands"
-msgstr ""
+msgstr "Ακακίες"
 
 # Survey habitat page values
 msgid "Roadside verges"
-msgstr ""
+msgstr "Περιθώρια δρόμων"
 
 # Survey flower-cover info message
 msgid ""
@@ -313,8 +308,8 @@ msgid ""
 "by the leaves of the target plant).</p></3>"
 msgstr ""
 "Τι ποσοστό του πλαισίου 50x50 cm καλύπτεται από το <1> φυτό-στόχο </1> ; <3>"
-" <p> Υπολογίστε το ποσοστό του πλαισίου 50x50 cm, το οποίο καλύπτετε από το "
-"φυτό-στόχο (μόνο τα άνθη). </p> </3>"
+" <p> Υπολογίστε το ποσοστό του πλαισίου 50x50 cm, το οποίο καλύπτεται από το"
+" φυτό-στόχο (μόνο τα άνθη). </p> </3>"
 
 # Survey flower-cover info message header
 msgid "Flower Cover"
@@ -346,7 +341,7 @@ msgstr "Πλήρες όνομα "
 
 # User registration page
 msgid "Email"
-msgstr "Hλεκτρονική Διεύθυνση (email)"
+msgstr "Hλεκτρονική Διεύθυνση email"
 
 # User registration page
 msgid "Password"
@@ -366,7 +361,7 @@ msgid ""
 " Conditions</6>"
 msgstr ""
 "Κάνοντας κλικ στην Εγγραφή, αποδέχεστε την <2> Πολιτική Απορρήτου </2> και "
-"τους <6> Όρους και Προϋποθέσεις </6>"
+"τους <6> Όροι και Προϋποθέσεις </6>"
 
 # User registration page
 msgid "Sign Up"
@@ -382,7 +377,7 @@ msgstr "Είσοδος"
 
 # User registration page
 msgid "How did you hear about us?"
-msgstr "Πως άκουσες για εμάς?"
+msgstr "Πως έμαθες για εμάς?"
 
 # User registration page
 msgid "Identification experience"
@@ -401,23 +396,22 @@ msgid ""
 "I am familiar with identifying some wildlife groups (e.g. birds or "
 "butterflies) but not most pollinating insects"
 msgstr ""
-"Είμαι εξοικειωμένος με την αναγνώριση ορισμένων ταξινομικών ομάδων άγριας "
-"ζωής (π.χ. πουλιών ή πεταλούδων) αλλά όχι των περισσότερων επικονιαστικών "
-"εντόμων"
+"Είμαι εξοικειωμένος με την αναγνώριση άγριας ζωής ( π.χ. πουλιά και "
+"πεταλούδες) αλλά όχι με τους τα περισσότερα έντομα επικονιαστές"
 
 # User registration page
 msgid "I am familiar with recognising the main groups of pollinating insect"
 msgstr ""
 "Είμαι εξοικειωμένος με την αναγνώριση των κύριων ταξινομικών ομάδων εντόμων "
-"επικονιαστικών"
+"επικονιαστών"
 
 # User registration page
 msgid ""
 "I am confident in identifying the commonly-occurring pollinating insects to "
 "species level"
 msgstr ""
-"Είμαι βέβαιος για την αναγνώριση των πιο κοινών εντόμων επικονιαστών σε "
-"επίπεδο είδους"
+"Είμαι καλός/η στην αναγνώριση των πιο κοινών εντόμων επικονιαστών σε επίπεδο"
+" είδους"
 
 # User registration page
 msgid "Not stated"
@@ -449,7 +443,7 @@ msgstr "Ο κωδικός πρόσβασης είναι υποχρεωτικό �
 
 # User reset page
 msgid "Enter your email address to request a password reset."
-msgstr "Εισαγάγετε το email σας για να ζητήσετε επαναφορά κωδικού πρόσβασης."
+msgstr "Εισάγετε το email σας για να ζητήσετε επαναφορά κωδικού πρόσβασης."
 
 # User reset page
 msgid "Reset"
@@ -476,8 +470,8 @@ msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
 msgstr ""
-"Πριν ξεκινήσετε την καταγραφή, ελέγξτε το email σας και κάντε κλικ στο "
-"σύνδεσμο επαλήθευσης."
+"Πριν ξεκινήσετε την καταγραφή, ελέγξτε το email σας και πατήστε στο σύνδεσμο"
+" επαλήθευσης."
 
 # Settings page label
 msgid "Logout"
@@ -510,7 +504,8 @@ msgstr "Η κοιλιά μπορεί να διαφέρει, από σκούρα 
 # ID guide honeybees species profile
 msgid "Long narrow cell in veins at edge of wing"
 msgstr ""
-"Έχει ένα μακρύ και στενό κύτταρο στις φλέβες, στην άκρη του πρόσθιου φτερού"
+"Έχει ένα μακρύ και στενό κύτταρο στις φλέβες, στην άκρη της πρόσθιας "
+"πτέρυγας"
 
 # ID guide honeybees species profile
 msgid "Description"
@@ -522,7 +517,7 @@ msgid ""
 " pollen into a moistened ball on the outside of the hind legs"
 msgstr ""
 "Οι περισσότερες μέλισσες που συναντάμε είναι εργάτριες, είναι θηλυκές, και "
-"συλλέγουν γύρη δημιουργώντας μια βρεγμένη μπάκα στα πίσω πόδια"
+"συλλέγουν γύρη που τοποθετείται σε μορφή σβόλων στα πίσω πόδια"
 
 # ID guide honeybees species profile
 msgid "Extra information"
@@ -546,7 +541,7 @@ msgstr "<0> Δεν έχετε ολοκληρώσει τις καταγραφές
 
 # My surveys page content
 msgid "No uploaded surveys"
-msgstr "Δεν έχουν φορτωθεί οι καταγραφές"
+msgstr "Δεν έχουν φορτώσει οι καταγραφές"
 
 # Survey species selection page species list
 msgid "<0>Which</0> target flower have you chosen?"
@@ -622,59 +617,59 @@ msgstr "Πλουμπάγο η ωτοειδής, Blue Plumbago, Plumbago auricula
 
 # Survey species selection page species list
 msgid "Fennel"
-msgstr ""
+msgstr "Μάραθος"
 
 # Survey species selection page species list
 msgid "Myrtle"
-msgstr ""
+msgstr "Μυρτιά"
 
 # Survey species selection page species list
 msgid "Olive"
-msgstr ""
+msgstr "Ελιά"
 
 # Survey species selection page species list
 msgid "White Mustard"
-msgstr ""
+msgstr " Λαψάνα ή Σινάπι"
 
 # Survey species selection page species list
 msgid "Rock-roses"
-msgstr ""
+msgstr "Λαδανιά ή Ξισταριά"
 
 # Survey species selection page species list
 msgid "Anemone"
-msgstr ""
+msgstr "Ανεμώνη"
 
 # Survey species selection page species list
 msgid "Chrysanthemum"
-msgstr ""
+msgstr "Μαργαρίτα ή Χρυσάνθεμο"
 
 # Survey species selection page species list
 msgid "Tree Tobacco"
-msgstr ""
+msgstr "Γιατρός"
 
 # Survey species selection page species list
 msgid "Spanish Jasmine"
-msgstr ""
+msgstr "Γιασεμί το μεγανθές"
 
 # Survey species selection page species list
 msgid "Common Lantana"
-msgstr ""
+msgstr "Λαντάνα"
 
 # Survey species selection page species list
 msgid "Acacia"
-msgstr ""
+msgstr "Ακακία"
 
 # Survey species selection page species list
 msgid "Bermuda buttercup"
-msgstr ""
+msgstr "Ξινάκι ή Οξαλίδα"
 
 # Survey species selection page species list
 msgid "African Boxthorn"
-msgstr ""
+msgstr "Φραμός Αρκοτομαθκιά"
 
 # Survey species selection page species list
 msgid "Blue Plumbago"
-msgstr ""
+msgstr "Πλουμπάγο η ωτοειδής"
 
 # Survey species selection page read more message
 msgid ""
@@ -977,8 +972,8 @@ msgid ""
 "when your ten minutes is up</4><5>Save your count, and upload it to the "
 "website</5></0>"
 msgstr ""
-"<0> <0> Περιμένετε να κάνει καλό καιρό! </0> <1> Βρείτε ένα σημείο το οποίο "
-"έχει φυτά-στόχο και τοποθετείστε το πλαίσιο </1> <2> Μετρήστε τα άνθη μέσα "
+"<0> <0> ¨Εχει ήλιο και δεν φυσάει; </0> <1> Βρείτε ένα σημείο το οποίο έχει "
+"φυτά-στόχο και τοποθετείστε το πλαίσιο σας  </1> <2> Μετρήστε τα άνθη μέσα "
 "στο πλαίσιο </2> <3> Καταμετρήσετε <1> όλα </1> τα έντομα που <3> "
 "προσγειώνονται </3> στο <6> φυτό-στόχο </6> </3> <4> Αποθηκεύστε την "
 "καταμέτρησή σας και ανεβάστε την στο website </5> </0>"
@@ -1041,9 +1036,7 @@ msgstr ""
 
 # How To page content
 msgid "Mark out a 50 × 50 cm patch containing your target."
-msgstr ""
-"Μαρκάρετε μια περιοχή 50 x 50 cm, με ένα πλαίσιο, για να οριοθετήσετε την "
-"περιοχή."
+msgstr "Οριοθετείστε μια περιοχή 50 x 50 cm, χρησιμοποιώντας ένα πλαίσιο"
 
 # How To page content
 msgid ""
@@ -1059,9 +1052,9 @@ msgid ""
 " on the target flowers (ignore other flowers, and do your best to count each"
 " individual insect once only!)."
 msgstr ""
-"Αφιερώστε 10 λεπτά για να καταμετρήσετε όλα τα έντομα που προσγειώνονται στο"
-" φυτό-στόχο (αγνοήστε άλλα φυτά εντός του πλαισίου). Χρησιμοποιήστε το "
-"χρονόμετρο της εφαρμογής. Μετρήστε κάθε μεμονωμένο έντομο μόνο μια φορά."
+"Αφιερώστε 10 λεπτά για να μετρήσετε τα έντομα που προσγειώνονται στο φυτό-"
+"στόχο (αγνοείστε άλλα είδη φυτών εντός του πλαισίου). Χρησιμοποιήστε το "
+"χρονόμετρο της εφαρμογής. Μετρήστε κάθε έντομο μόνο μια φορά."
 
 # How To page content
 msgid "Fill in some simple weather details."
@@ -1080,24 +1073,25 @@ msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as other insects."
 msgstr ""
-"Η αναγνώριση των εντόμων γίνεται σε επίπεδο ταξινομικής ομάδας (βομβίνος, "
+"Η αναγνώριση των εντόμων γίνεται σε επίπεδο ευρύτερης  ομάδας (βομβίνος, "
 "μέλισσα, πεταλούδα κλπ.)- εάν το έντομο δεν υπάγεται σε κάποια από τις "
-"προτεινόμενες κατηγορίες, καταμετρήστε το ως «Άλλο έντομο» "
+"προτεινόμενες ομάδες, τοποθετείστε το στην κατηγορία  «Άλλο έντομο» "
 
 # How To page content
 msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
 msgstr ""
-"Ως «Καλός καιρός» εννοούμε, τον ξηρό καιρό με θερμοκρασία τουλάχιστον 13 ˚C "
-"σε ηλιόλουστες συνθήκες ή τουλάχιστον 15 ˚C όταν είναι νεφελώδη καιρό."
+"Καλός καιρός θεωρείται μία μέρα που δεν βρέχει ή φυσάει πολύ με θερμοκρασία "
+"τουλάχιστον 13 ˚C σε ηλιόλουστες συνθήκες ή τουλάχιστον 15 ˚C όταν είναι "
+"νεφελώδη καιρό."
 
 # Bumblebee screen 1 content
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
-"Η αναγνώριση των εντόμων γίνεται σε επίπεδο ταξινομικής ομάδας (βομβίνος, "
+"Η αναγνώριση των εντόμων γίνεται σε επίπεδο ευρύτερης ομάδας (βομβίνος, "
 "μέλισσα, πεταλούδα κλπ.)- εάν το έντομο δεν υπάγεται σε κάποια από τις "
 "προτεινόμενες κατηγορίες, καταμετρήστε το ως «Άλλο έντομο» "
 
@@ -1132,44 +1126,39 @@ msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
-"Οι βομβίνοι είναι πολύ στρογγυλεμένες, τριχωτές μέλισσες. Οι βασίλισσες "
-"είναι από τις πιο μεγάλες σε μέγεθος μέλισσες στο νησί. Οι εργάτριες μπορεί "
-"να είναι αρκετά μικρές, αλλά μεγαλύτερες από τις περισσότερες μοναχικές "
-"μέλισσες."
+"Οι βομβίνοι είναι στρογγυλωπές  τριχωτές μέλισσες. Οι βασίλισσες βομβίνοι "
+"είναι από τις πιο μεγάλες σε μέγεθος μέλισσες. Οι εργάτριες μπορεί να είναι "
+"μικρές σε μέγεθος, αλλά μεγαλύτερες από τις περισσότερες μοναχικές μέλισσες."
 
 # Bumblebee screen 1 content
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
-"Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο (βόμβο) κατά τη διάρκεια της "
-"πτήσης τους. Δεν αιωρούνται. Μέχρι σήμερα έχουν καταγραφεί 2 είδη στην "
-"Κύπρο."
+"Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο βόμβο κατά τη διάρκεια της "
+"πτήσης τους. Δεν αιωρούνται. ¨Εχουν καταγραφεί 2 είδη στην Κύπρο."
 
 # Bumblebee screen 2 content
 msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
 msgstr ""
-"Η βασίλισσα και οι εργάτριες συλλέγουν γύρη, δημιουργώντας μια βρεγμένη "
-"μπάλα στο πίσω τους πόδι"
+"Η βασίλισσα και οι εργάτριες συλλέγουν γύρη, και την αποθηκεύουν σαν ένα "
+"υγρό σβόλο στα πίσω πόδια"
 
 # Bumblebee screen 2 content
 msgid ""
 "This bumblebee is one of the species that are more-or-less ginger-coloured "
 "all over"
-msgstr ""
-"Αυτός ο βομβίνος είναι ένα από τα είδη που έχουν λίγο πολύ κοκκινωπό χρώμα "
-"παντού "
+msgstr "Αυτός ο βομβίνος έχει κοκκινωπό χρώμα σχεδόν ομοιόμορφα"
 
 # Bumblebee screen 2 content
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
 msgstr ""
-"Οι αρσενικοί βομβίνοι μοιάζουν με τους θηλυκούς, όμως έχουν ελαφρώς "
-"μεγαλύτερες κεραίες και δεν συλλέγουν γύρη. Επισκέπτονται άνθη για να "
-"τραφούν με νέκταρ."
+"Οι αρσενικοί βομβίνοι μοιάζουν με τους θηλυκούς. ¨Εχουν ελαφρώς μεγαλύτερες "
+"κεραίες και δεν συλλέγουν γύρη. Επισκέπτονται άνθη για να τραφούν με νέκταρ."
 
 # Honeybees screen 1 content
 msgid ""
@@ -1186,7 +1175,7 @@ msgid ""
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
 "Υπάρχει μόνο ένα είδος μελιτοφόρων μελισσών στην Κύπρο. Φωλιάζουν σε "
-"τεχνητές κυψέλες. Περιστασιακά μπορεί να δημιουργήσουν αποικίες στη φύση"
+"τεχνητές κυψέλες. Περιστασιακά δημιουργούν αποικίες στη φύση."
 
 # Honeybees screen 2 content
 msgid "Male honeybees (drones) are similar but have much larger eyes."
@@ -1199,7 +1188,7 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
-"Οι μοναχικές μέλισσες είναι λιγότερο στρογγυλεμένες από τους βομβίνους, και "
+"Οι μοναχικές μέλισσες είναι λιγότερο στρογγυλωπές από τους βομβίνους, και "
 "πιο μικρές από τις μελιτοφόρες μέλισσες και τους βομβίνους."
 
 # Solitary bees screen 1 content
@@ -1207,13 +1196,12 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
-"Οι μοναχικές μέλισσες πετούν ανάμεσα στα λουλούδια, και ορισμένες φορές θα "
-"απολαύουν το ήλιο. Τα περισσότερα είδη δεν αιωρούνται. Υπάρχουν περίπου 369 "
-"είδη στην Κύπρο."
+"Οι μοναχικές μέλισσες πετούν ανάμεσα στα λουλούδια κι απολαμβάνουν τον ήλιο."
+" Τα περισσότερα είδη δεν αιωρούνται. Υπάρχουν περίπου 369 είδη στην Κύπρο."
 
 # Solitary bees screen 1 content
 msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr "Συνήθως έχουν αρκετά επίμηκες σχήμα (υπάρχει ποικιλότητα)"
+msgstr "Συνήθως έχουν αρκετά επίμηκες σχήμα (υπάρχει ποικιλία)"
 
 # Solitary bees screen 1 content
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
@@ -1238,7 +1226,7 @@ msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
 msgstr ""
-"Αγγίξτε τα εικονίδια των εντόμων για να αυξήσετε τον αριθμό των "
+"Πιέστε στα εικονίδια των εντόμων για να αυξήσετε τον αριθμό των "
 "καταμετρημένων εντόμων (πλην για μειώση του αριθμού)"
 
 # Context term
@@ -1285,18 +1273,17 @@ msgid ""
 "and leafcutter bees, make use of holes in wood, plants or walls."
 msgstr ""
 "Οι μοναχικές μέλισσες, φωλιάζουν συνήθως σε λαγούμια ή τρύπες. Οι εδαφόβιες "
-"μέλισσες σκάβουν τρύπες στο έδαφος. Από την άλλη οι μέλισσες ξυλοκόποι και "
-"οι μέλισσες φυλλοκόπτες χρησιμοποιούν τρύπες σε ξύλο, φυτά ή τοίχους για να "
-"φωλιάσουν. "
+"μέλισσες σε τρύπες στο έδαφος. Οι μέλισσες ξυλοκόποι και οι μέλισσες "
+"φυλλοκόπτες φωλιάζουν σε τρύπες σε ξύλο, φυτά ή τοίχους."
 
 # Solitary bees screen 3 content
 msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
 msgstr ""
-"Υπάρχει μεγάλη ποικιλότητα στο χρώμα, το μέγεθος και την πυκνότητα στο "
-"τρίχωμα, στα διαφορετικά γένη των μοναχικών μελισσών. Ορισμένα παραδείγματα "
-"φαίνονται πιο πάνω."
+"Υπάρχει μεγάλη ποικιλία στο χρώμα, το μέγεθος και την πυκνότητα στο τρίχωμα "
+"στα διαφορετικά γένη των μοναχικών μελισσών. Ορισμένα παραδείγματα φαίνονται"
+" πιο πάνω."
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1312,7 +1299,7 @@ msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
 "Οι μέλισσες του εδάφους (<i> Andrena haemorrhoa </i>) έχουν κοκκινωπό "
-"τρίχωμα στον θώρακα και τα πίσω πόδια."
+"τρίχωμα στον θώρακα και στα πίσω πόδια."
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1469,13 +1456,13 @@ msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
 msgstr ""
-"Έχουν μεγάλα μάτια. Στα αρσενικά άτομα καλύπτουν ολόκληρη την κεφαλή, στα "
-"θηλυκά υπάρχει ένα μικρό κενό μεταξύ των ματιών στην κορυφή του κεφαλιού "
+"Έχουν μεγάλους οφθαλμούς. Στα αρσενικά καλύπτουν ολόκληρη την κεφαλή, στα "
+"θηλυκά υπάρχει ένα μικρό κενό μεταξύ των οφθαλμών στην κορυφή του κεφαλιού. "
 
 # Hoverflies screen 1 content
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
-"Οι περισσότερες συρφίδες έχουν πολύ μικρότερες κεραίες σε σύγκριση με τις "
+"Οι περισσότερες συρφίδες έχουν πολύ πιο κοντές κεραίες σε σύγκριση με τις "
 "μέλισσες και τις σφήκες"
 
 # Hoverflies screen 1 content
@@ -1509,7 +1496,7 @@ msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
 msgstr ""
-"Οι συρφίδες είναι πολύ δραστήρια και ευέλικτα πετούμενα, συχνά αιωρούνται "
+"Οι συρφίδες είναι πολύ δραστήρια και ευέλικτα έντομα, συχνά αιωρούνται "
 "(hover), όπως υποδηλώνει και το όνομά τους στα αγγλικά (hoverflies)."
 
 # Hoverflies screen 1 content
@@ -1518,18 +1505,17 @@ msgid ""
 "pollen baskets. There are about 285 species of hoverfly in the UK."
 msgstr ""
 "Τρέφονται με νέκταρ και γύρη, αλλά δεν συλλέγουν νέκταρ και δεν έχουν "
-"καλαθάκι γύρης. Μέχρι στιγμής υπάρχουν καταγεγραμμένα περίπου 52 είδη στην "
-"Κύπρο."
+"καλαθάκι γύρης. Υπάρχουν καταγεγραμμένα περίπου 52 είδη στην Κύπρο."
 
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr ""
-"Οι Drone-fly συρφίδες μιμούνται τις μέλισσες αλλά έχουν πολύ μικρότερες "
+"Οι Drone-fly συρφίδες μιμούνται τις μέλισσες αλλά έχουν πολύ πιο κοντές "
 "κεραίες από τις μέλισσες"
 
 # Hoverflies screen 2 content
 msgid "The eyes cover more of the head"
-msgstr "Τα μάτια καλύπτουν το μεγαλύτερο μέρος της κεφαλής"
+msgstr "Οι οφθαλμοί καλύπτουν το μεγαλύτερο μέρος της κεφαλής"
 
 # Hoverflies screen 2 content
 msgid ""
@@ -1540,7 +1526,7 @@ msgstr ""
 
 # Hoverflies screen 2 content
 msgid "The typical ‘false margin’ wing vein is present"
-msgstr "Τα φτερά τους έχουν το χαρακτηριστικό ‘περιθώριο’"
+msgstr "Οι πτέρυγες τους έχουν το χαρακτηριστικό ‘περιθώριο’"
 
 # Hoverflies screen 2 content
 msgid ""
@@ -1548,7 +1534,7 @@ msgid ""
 " of the wing"
 msgstr ""
 "Οι Drone-fly συρφίδες έχουν ένα χαρακτηριστικό ευδιάκριτο «κύρτωμα» κοντά "
-"στην άκρη των φτερών"
+"στην άκρη των πτερύγων"
 
 # Hoverflies screen 2 content
 msgid ""
@@ -1566,24 +1552,24 @@ msgid ""
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
 "Οι Hornet συρφίδες (<i> Volucella zonaria </i>) είναι οι μεγαλύτερες σε "
-"μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες κεραίες "
-"από εκείνες"
+"μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πιο κοντές κεραίες από "
+"εκείνες"
 
 # Hoverflies screen 3 content
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
-"Αυτό είναι το <i> Syritta pipiens </i>, ένα διαδεδομένο είδος στη Κύπρο. "
-"Έχει ευδιάκριτα κίτρινα και μαύρα στίγματα "
+"Αυτό είναι το <i> Syritta pipiens </i>, ένα κοινό είδος στη Κύπρο. Έχει "
+"ευδιάκριτα κίτρινα και μαύρα στίγματα "
 
 # Hoverflies screen 3 content
 msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
-"Ορισμένα είδη μιμούνται πολύ καλά τις μέλισσες- για να βεβαιωθείτε τι είναι "
-"ελέγξτε προσεκτικά τις κεραίες"
+"Ορισμένα είδη συρφίδων μιμούνται εξαιρετικά τις μέλισσες- για να βρείτε τι "
+"έντομο είναι ελέγξτε προσεκτικά τις κεραίες"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1592,8 +1578,8 @@ msgid ""
 "hover like typical hoverflies"
 msgstr ""
 "Ορισμένα είδη είναι μικρά σε μέγεθος και έχουν σκούρο χρώμα, κοιτάξτε "
-"προσεχτικά τα φτερά τους- θα πρέπει να έχουν τις χαρακτηριστικές νευρώσεις. "
-"Επιπλέον κατά τη διάρκεια της πτήσης θα αιωρούνται. "
+"προσεχτικά τις πτέρυγες τους- θα πρέπει να έχουν τις χαρακτηριστικές "
+"νευρώσεις. Επιπλέον κατά τη διάρκεια της πτήσης θα αιωρούνται. "
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
@@ -1627,8 +1613,8 @@ msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
 msgstr ""
-"Τα φτερά διαφέρουν από εκείνα στις συρφίδες, δεν έχουν το χαρακτηριστικό "
-"’περιθώριο’"
+"Οι πτέρυγες διαφέρουν από εκείνες στις συρφίδες, δεν έχουν το χαρακτηριστικό"
+" ’περιθώριο’"
 
 # Other flies screen 1 content
 msgid ""
@@ -1638,15 +1624,15 @@ msgid ""
 "but not many other flies have. Two examples of “other flies” are shown above"
 " and two on the next screen."
 msgstr ""
-"Υπάρχουν πολλές διαφορετικές μύγες τα οποία επισκέπτονται λουλούδια - για το"
-" FIT Count διαχωρίσετε τις \"Συρφίδες\" απο τις \"Άλλες μύγες\"! Μην "
-"ξεχνάτε, οι συρφίδες  μπορούν να αιωρούνται, μια ικανότητα που έχουν μερικές"
-" αλλά όχι όλεςοι  άλλες μύγες. Δύο παραδείγματα «Άλλων μυγών» εμφανίζονται "
-"παραπάνω και δύο στην επόμενη οθόνη."
+"Υπάρχουν πολλά δίπτερα έντομα τα οποία επισκέπτονται λουλούδια - για το FIT "
+"Count διαχωρίσετε τις \"Συρφίδες\" από τα \"Αλλά Δίπτερα\"! Μην ξεχνάτε, οι "
+"συρφίδες  μπορούν να αιωρούνται, μια ικανότητα που έχουν μερικά μόνο άλλα "
+"δίπτερα. Δύο παραδείγματα «Άλλων διπτέρων» εμφανίζονται παραπάνω και δύο "
+"στην επόμενη οθόνη."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
-msgstr "Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae"
+msgstr "Αυτό είναι ένα παρασιτικό δίπτερο-μύγα της οικογένειας Tachinidae"
 
 # Other flies screen 2 content
 msgid "It has prominent bristles on the abdomen"
@@ -1947,11 +1933,11 @@ msgstr "Σφήκες"
 
 # Id guide label
 msgid "Hoverflies"
-msgstr "Συρφίδες"
+msgstr "Δίπτερα- Συρφίδες"
 
 # Id guide label
 msgid "Other flies"
-msgstr "Άλλες μύγες"
+msgstr "¨Αλλα δίπτερα "
 
 # Id guide label
 msgid "Butterflies and moths"
@@ -1959,7 +1945,7 @@ msgstr "Πεταλούδες και σκώροι"
 
 # Id guide label
 msgid "Beetles"
-msgstr "Σκαθάρια"
+msgstr "Κολεόπτερα- Σκαθάρια"
 
 # Id guide label
 msgid "Small insects (<3mm)"
@@ -2122,7 +2108,7 @@ msgstr "Ομάδες επικονιαστών"
 
 # Menu page label
 msgid "Terms and Conditions"
-msgstr "Οροι και Προϋποθέσεις"
+msgstr "'Οροι και Προϋποθέσεις"
 
 # Survey required label
 msgid "required"
@@ -2134,11 +2120,10 @@ msgid ""
 "done at any time during the FIT Count season – see the quick guide <2></2> "
 "for the season in your country."
 msgstr ""
-"Οι Χρονομετρημένες Καταγραφές Εντόμων σε άνθη (FIT Count) είναι κατάλληλες "
-"για άτομα όλων των ηλικιών και μπορούν να γίνουν καθ’όλη τη διάρκεια του "
-"χρόνου, σε αστικές ή αγροτικές περιοχές, όπου υπάρχουν ανθισμένα φυτά-"
-"περισσότερες πληροφορίες για την εποχή καταγραφής στον σύντομο οδηγό <2> "
-"</2>."
+"Οι Χρονομετρημένες Καταγραφές Εντόμων  FIT Counts είναι κατάλληλες για όλες "
+"τις ηλικίες. Μπορούν να πραγματοποιηθούν ολόχρονα, σε αστικές ή αγροτικές "
+"περιοχές, όπου υπάρχουν ανθισμένα φυτά. Περισσότερες πληροφορίες για την "
+"εποχή καταγραφής στον σύντομο οδηγό <2> </2>."
 
 # About page content
 msgid ""
@@ -2150,13 +2135,13 @@ msgid ""
 "need to identify the insects to species level, only to within broad groups "
 "e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 msgstr ""
-"H βιοποικιλότητα των επικονιαστών έχει μειωθεί σε πολλά μέρη του κόσμου, με "
-"τη μεγαλύτερη ανησυχία να στρέφετε προς την Ευρώπη και τη Βόρεια Αμερική. "
-"Δεν γνωρίζουμε πολλά σχετικά με τις αλλαγές στην αφθονία των επικονιαστών, "
-"γι αυτό χρειαζόμαστε πολύ περισσότερα δεδομένα για να μπορέσουμε να τις "
-"παρακολουθήσουμε. Μπορείτε να βοηθήσετε κάνοντας μερικά FIT Counts. Δεν "
-"χρειάζεται να προσδιορίσετε το είδος των εντόμων, αλλά την ταξινομική ομάδα "
-"στην οποία ανήκουν π.χ. βομβίνοι, συρφίδες, πεταλούδες & σκώρους, σφήκες. "
+"Όλο και περισσότερα δεδομένα δείχνουν ότι η βιοποικιλότητα των επικονιαστών "
+"απειλείται σε πολλά μέρη του κόσμου και ιδιαίτερα σε Ευρώπη και  Βόρεια "
+"Αμερική. Δεν γνωρίζουμε πολλά σχετικά με τις αλλαγές στην αφθονία των "
+"επικονιαστών και χρειαζόμαστε περισσότερα δεδομένα για να κατανοήσουμε τι "
+"συμβαίνει. Μπορείτε να βοηθήσετε κάνοντας  FIT Counts. Δεν χρειάζεται να "
+"προσδιορίσετε το είδος των επικονιαστών αλλά την ευρύτερη ομάδα στην οποία "
+"ανήκουν π.χ. βομβίνοι, συρφίδες, πεταλούδες & σκώρους, σφήκες. "
 
 # About page content
 msgid ""
@@ -2164,10 +2149,9 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
-"Το FIT Count αναπτύχθηκε αρχικά μέσω του UK Pollinator Monitoring Scheme "
-"(PoMS). Παρόμοιες μέθοδοι υιοθετούνται τώρα σε άλλες χώρες και αυτή η "
-"εφαρμογή χρησιμοποιείται από ένα ευρύ φάσμα έργων παρακολούθησης "
-"επικονιαστών:"
+"Το FIT Count αναπτύχθηκε  μέσω του UK Pollinator Monitoring Scheme (PoMS). "
+"Παρόμοιες μέθοδοι υιοθετούνται τώρα σε άλλες χώρες. Η εφαρμογή για κινητό "
+"χρησιμοποιείται σε ευρύ φάσμα έργων μελέτης επικονιαστών:"
 
 # About page content
 msgid ""
@@ -2190,8 +2174,8 @@ msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
 msgstr ""
-"Η ανάπτυξη αυτής της εφαρμογής, υποστηρίχθηκε από τους συνεργάτες και τους "
-"χρηματοδότες των πιό κάτω έργων επικονιαστών σε όλο τον κόσμο"
+"Η εφαρμογή για το κινητό, υποστηρίχθηκε από τους συνεργάτες και τους "
+"χρηματοδότες των πιο κάτω έργων μελέτης επικονιαστών από όλο τον κόσμο"
 
 # Survey validation message
 msgid "Please add at least 1 photo."
@@ -2199,11 +2183,11 @@ msgstr "Προσθέστε τουλάχιστον 1 φωτογραφία."
 
 # Survey validation message
 msgid "Flower number is a required field."
-msgstr "Ο αριθμός λουλουδιού είναι απαιτούμενο πεδίο."
+msgstr "Ο αριθμός ανθέων είναι απαιτούμενο πεδίο."
 
 # Survey validation message
 msgid "Flower type is a required field."
-msgstr "Ο τύπος λουλουδιού είναι απαιτούμενο πεδίο."
+msgstr "Ο τύπος του άνθους είναι απαιτούμενο πεδίο."
 
 # Survey validation message
 msgid "Survey incomplete"
@@ -2255,11 +2239,11 @@ msgstr "Ναί, σίγουρα"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the App Store then?"
-msgstr "Τι θα λέγατε για μια βαθμολογία στο App Store;"
+msgstr "Θα θέλατε να μας βαθμολογήσετε στο App Store;"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
-msgstr "Τι θα λέγατε για μια βαθμολογία στο Play Store;"
+msgstr "Θα θέλατε να μας βαθμολογήσετε στο Play Store;"
 
 # Shown when tapping an uploaded survey
 msgid ""
