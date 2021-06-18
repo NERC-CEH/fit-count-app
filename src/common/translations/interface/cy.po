@@ -1993,6 +1993,10 @@ msgstr ""
 " Deyrnas Unedig ar gyfer mis <3>{{month}}</3> yw "
 "<6>{{averageInsectCountForThisMonth}}</6> o bryfed y cyfrif."
 
+# Alert message at the end of survey - non UK
+msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
+msgstr ""
+
 # Alert message at the end of survey
 msgid "Go Home"
 msgstr "Mynd Adref"

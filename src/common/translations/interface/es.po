@@ -1693,6 +1693,10 @@ msgid ""
 "insects per count."
 msgstr ""
 
+# Alert message at the end of survey - non UK
+msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
+msgstr ""
+
 # Alert message at the end of survey
 msgid "Go Home"
 msgstr ""
