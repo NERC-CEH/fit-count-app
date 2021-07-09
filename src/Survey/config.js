@@ -3,7 +3,8 @@ import * as Yup from 'yup';
 import { date } from '@apps';
 import userModel from 'models/user';
 import insectGroups from 'common/data';
-import habitatValues from 'common/data/habitats.json';
+import habitats from 'common/data/habitats.json';
+import flowers from 'common/data/flowers.json';
 import habitatIcon from 'common/images/habitatIcon.svg';
 import flowerIcon from 'common/images/flowerIcon.svg';
 
@@ -15,21 +16,6 @@ import individualFlowerTypeImage from './FlowerCount/images/individualFlowerType
 import headTypeImage from './FlowerCount/images/headType.png';
 import umbelTypeImage from './FlowerCount/images/umbelType.png';
 import spikeTypeImage from './FlowerCount/images/spikeType.png';
-
-import bramble from './Flower/images/bramble.jpg';
-import buddleja from './Flower/images/buddleja.jpg';
-import buttercup from './Flower/images/buttercup.jpg';
-import dandelion from './Flower/images/dandelion.jpg';
-import hawthorn from './Flower/images/hawthorn.jpg';
-import heather from './Flower/images/heather.jpg';
-import hogweed from './Flower/images/hogweed.jpg';
-import ivy from './Flower/images/ivy.jpg';
-import knapweed from './Flower/images/knapweed.jpg';
-import lavender from './Flower/images/lavender.jpg';
-import ragwort from './Flower/images/ragwort.jpg';
-import thistle from './Flower/images/thistle.jpg';
-import whiteClover from './Flower/images/whiteClover.jpg';
-import whiteDeadNettle from './Flower/images/whiteWeadNettle.jpg';
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -77,96 +63,13 @@ const flowerCoverValues = [
   },
 ];
 
-const flowerSelectionValues = [
-  {
-    id: isProd ? 13571 : 17841,
-    value: 'Bramble',
-    icon: bramble,
-    type: 'Individual Flower',
-  },
-  {
-    id: isProd ? 13607 : 17842,
-    value: 'Buddleja',
-    icon: buddleja,
-    type: 'Spike',
-  },
-  {
-    id: isProd ? 13608 : 17846,
-    value: 'Heather',
-    icon: heather,
-    type: 'Spike',
-  },
-  {
-    id: isProd ? 13570 : 17844,
-    value: 'Dandelion',
-    icon: dandelion,
-    type: 'Head',
-  },
-  {
-    id: isProd ? 14100 : 17843,
-    value: 'Buttercup',
-    icon: buttercup,
-    type: 'Individual Flower',
-  },
-  {
-    id: isProd ? 13574 : 17854,
-    value: 'White Dead-nettle',
-    icon: whiteDeadNettle,
-    type: 'Spike',
-  },
-  {
-    id: isProd ? 13572 : 17845,
-    value: 'Hawthorn',
-    icon: hawthorn,
-    type: 'Individual Flower',
-  },
-  {
-    id: isProd ? 13611 : 17850,
-    value: 'Lavender',
-    icon: lavender,
-    type: 'Spike',
-  },
-  {
-    id: isProd ? 13610 : 17849,
-    value: 'Knapweed',
-    icon: knapweed,
-    type: 'Head',
-  },
-  {
-    id: isProd ? 13609 : 17847,
-    value: 'Hogweed',
-    icon: hogweed,
-    type: 'Umbel',
-  },
-  {
-    id: isProd ? 13573 : 17853,
-    value: 'White Clover',
-    icon: whiteClover,
-    type: 'Head',
-  },
-  {
-    id: isProd ? 13612 : 17851,
-    value: 'Ragwort',
-    icon: ragwort,
-    type: 'Head',
-  },
-  {
-    id: isProd ? 13613 : 17852,
-    value: 'Thistle',
-    icon: thistle,
-    type: 'Head',
-  },
-  {
-    id: isProd ? 14064 : 17848,
-    value: 'Ivy',
-    icon: ivy,
-    type: 'Head',
-  },
-  {
-    id: isProd ? 13575 : 17855,
-    value: 'Other',
-  },
-];
+const intoSelectValue = val => ({
+  ...val,
+  id: val.warehouseId,
+  photo: val.id,
+});
+
+const flowerSelectionValues = flowers.map(intoSelectValue);
 
 const flowerCountValues = [
   {
@@ -209,6 +112,8 @@ const flowerPatchValues = [
     value: 'Not recorded',
   },
 ];
+
+const habitatValues = habitats.map(intoSelectValue);
 
 const weatherSkyValues = [
   {
@@ -347,11 +252,9 @@ const survey = {
 
     flower: {
       type: 'radio',
-      componentProps: {
-        options: flowerSelectionValues,
-      },
+      componentProps: { options: flowerSelectionValues },
       remote: {
-        id: isProd ? 1050 : 1510,
+        id: 1050,
         values: flowerSelectionValues,
       },
     },

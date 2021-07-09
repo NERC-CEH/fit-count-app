@@ -19,6 +19,7 @@ import { Trans as T } from 'react-i18next';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import RequiredLabel from '../Components/RequiredLabel';
+import './images';
 import './styles.scss';
 
 const PAGE_INDEX = 3;

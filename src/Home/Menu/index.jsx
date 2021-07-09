@@ -58,7 +58,6 @@ const MenuController = ({ userModel, savedSamples }) => {
   function logOut() {
     const onReset = async reset => {
       if (reset) {
-        // appModel.attrs['draftId:area'] = null; // TODO:
         await savedSamples.resetDefaults();
       }
 
