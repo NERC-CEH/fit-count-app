@@ -24,8 +24,7 @@
   {
     "warehouseId": 13561,
     "value": "Grassy verge or hedgerow edge",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13562,
@@ -36,83 +35,72 @@
   {
     "warehouseId": 13563,
     "value": "Amenity grassland (usually mown short)",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13564,
     "value": "Farm crops or grassy pasture",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13565,
     "value": "Upland moorland",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13566,
     "value": "Lowland heath",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13567,
     "value": "Waste ground or brownfield site",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13568,
     "value": "Woodland",
-    "UK": true,
-    "CYP": false
+    "UK": true
   },
   {
     "warehouseId": 13569,
     "value": "Other",
     "UK": true,
-    "CYP": true
+    "CYP": true,
+    "ARG": true,
+    "BRAZIL": true,
+    "CHILE": true
   },
   {
     "value": "Botanical Garden",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Forest",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Cultivation",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Salt marsh",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Freshwater wetland",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Dry shrub",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Acacia stands",
-    "UK": false,
     "CYP": true
   },
   {
     "value": "Roadside verges",
-    "UK": false,
     "CYP": true
   }
 ]

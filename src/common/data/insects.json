@@ -78,5 +78,18 @@
     "name": "Wasps",
     "UK": true,
     "CYP": true
+  },
+  {
+    "id": "bats",
+    "name": "Bats",
+    "CHILE": true
+  },
+  {
+    "id": "hummingbirds",
+    "name": "Hummingbirds",
+    "CHILE": true
+  },
+  {
+    "id": "solitaryBees5 - check Karolis"
   }
 ]

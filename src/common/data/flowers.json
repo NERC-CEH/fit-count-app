@@ -113,6 +113,7 @@
   },
   {
     "id": "fennel",
+    "type": "Umbel",
     "sort": 15,
     "name": "Fennel",
     "scientificName": "Foeniculum vulgare",
@@ -120,6 +121,7 @@
   },
   {
     "id": "myrtle",
+    "type": "Head",
     "sort": 16,
     "name": "Myrtle",
     "scientificName": "Myrtus communis",
@@ -127,6 +129,7 @@
   },
   {
     "id": "olive",
+    "type": "Spike",
     "sort": 17,
     "name": "Olive",
     "scientificName": "Olea europaea",
@@ -134,6 +137,7 @@
   },
   {
     "id": "whiteMustard",
+    "type": "Individual Flower",
     "sort": 18,
     "name": "White Mustard",
     "scientificName": "Sinapis alba",
@@ -141,6 +145,7 @@
   },
   {
     "id": "rockRose",
+    "type": "Individual Flower",
     "sort": 19,
     "name": "Rock-roses",
     "scientificName": "Cistus spp.",
@@ -148,6 +153,7 @@
   },
   {
     "id": "anemone",
+    "type": "Individual Flower",
     "sort": 20,
     "name": "Anemone",
     "scientificName": "Anemone coronaria",
@@ -155,6 +161,7 @@
   },
   {
     "id": "chyrsanthemum",
+    "type": "Head",
     "sort": 21,
     "name": "Chrysanthemum",
     "scientificName": "Glebionis coronarium",
@@ -162,6 +169,7 @@
   },
   {
     "id": "tobacco",
+    "type": "Individual Flower",
     "sort": 22,
     "name": "Tree Tobacco",
     "scientificName": "Nicotiana glauca",
@@ -169,6 +177,7 @@
   },
   {
     "id": "jasmine",
+    "type": "Individual Flower",
     "sort": 23,
     "name": "Spanish Jasmine",
     "scientificName": "Jasminum grandiflorum",
@@ -176,6 +185,7 @@
   },
   {
     "id": "lantana",
+    "type": "Head",
     "sort": 24,
     "name": "Common Lantana",
     "scientificName": "Lantana camara",
@@ -183,6 +193,7 @@
   },
   {
     "id": "acacia",
+    "type": "Individual Flower",
     "sort": 25,
     "name": "Acacia",
     "scientificName": "Acacia saligna",
@@ -190,6 +201,7 @@
   },
   {
     "id": "bermudaButtercup",
+    "type": "Head",
     "sort": 26,
     "name": "Bermuda buttercup",
     "scientificName": "Oxalis pes-caprae",
@@ -197,6 +209,7 @@
   },
   {
     "id": "boxthorn",
+    "type": "Individual Flower",
     "sort": 27,
     "name": "African Boxthorn",
     "scientificName": "Lycium ferocissimum",
@@ -204,15 +217,37 @@
   },
   {
     "id": "plumbago",
+    "type": "Head",
     "sort": 28,
     "name": "Blue Plumbago",
     "scientificName": "Plumbago auriculata",
     "CYP": true
   },
   {
+    "id": "vipersBugloss",
+    "type": "Spike",
+    "sort": 29,
+    "name": "Narrow-leaved Viper’s bugloss",
+    "scientificName": "Echium angustifolium",
+    "CYP": true
+  },
+  {
+    "id": "milkThistle",
+    "type": "Head",
+    "sort": 30,
+    "name": "Milk thistle",
+    "scientificName": "Silybum marianum ",
+    "CYP": true
+  },
+  {
     "id": "other",
     "warehouseId": 13575,
-    "sort": 29,
-    "name": "Other"
+    "sort": 31,
+    "name": "Other",
+    "UK": true,
+    "CYP": true,
+    "ARG": true,
+    "BRAZIL": true,
+    "CHILE": true
   }
 ]
