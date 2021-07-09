@@ -40,12 +40,13 @@ class Guide extends React.Component {
     });
   };
 
-  getGridCell = ({ name, id, thumbnail }) => {
+  getGridCell = ({ name, id, UK }) => {
     const { t } = this.props;
 
-    const onClick = () => this.showSpeciesModal(id, name);
+    if (!UK) return null;
 
-    const image = thumbnail && <IonImg src={thumbnail} />;
+    const onClick = () => this.showSpeciesModal(id, name);
+    const image = <IonImg src={`/images/${id}.png`} />;
 
     return (
       <IonCol

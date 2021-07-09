@@ -26,8 +26,8 @@ class SpeciesProfile extends React.Component {
   slider = React.createRef();
 
   getFullScreenPhotoViewer = () => {
-    const { species } = this.props;
     const { showGallery } = this.state;
+    const images = this.getImages();
 
     let items = [];
     let initialSlide = 0;
@@ -39,8 +39,7 @@ class SpeciesProfile extends React.Component {
 
     if (Number.isInteger(showGallery)) {
       const getImageSource = src => src;
-
-      items = species.images.map(getImageSource);
+      items = images.map(getImageSource);
       initialSlide = showGallery;
     }
 
@@ -69,8 +68,7 @@ class SpeciesProfile extends React.Component {
   };
 
   getSlides = () => {
-    const { species } = this.props;
-    const { images } = species;
+    const images = this.getImages();
 
     const slideOpts = {
       initialSlide: 0,
@@ -145,6 +143,13 @@ class SpeciesProfile extends React.Component {
     );
   };
 
+  getImages() {
+    const { species } = this.props;
+    const { images } = species;
+    const byCountry = img => img.UK;
+    return images.filter(byCountry);
+  }
+
   byKey = (captureKey1, captureKey2) =>
     captureKey1[0].localeCompare(captureKey2[0]);
 
@@ -157,6 +162,8 @@ class SpeciesProfile extends React.Component {
 
     const { activeSlide } = this.state;
 
+    const images = this.getImages();
+
     return (
       <>
         {this.getFullScreenPhotoViewer()}
@@ -165,12 +172,12 @@ class SpeciesProfile extends React.Component {
           {this.getSlides()}
 
           <div className="species-captions">
-            <ol>{this.getCaption(species.images[activeSlide])}</ol>
-            {this.getIntroText(species.images[activeSlide])}
+            <ol>{this.getCaption(images[activeSlide])}</ol>
+            {this.getIntroText(images[activeSlide])}
 
             <br />
 
-            {this.getDescription(species.images[activeSlide])}
+            {this.getDescription(images[activeSlide])}
           </div>
         </Main>
       </>

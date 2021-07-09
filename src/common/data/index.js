@@ -1,28 +1,16 @@
 import species from './insects.json';
-import * as speciesResources from './resources';
 import speciesPhotos from './photos.json';
-
-const extendWithResources = sp => {
-  return Object.assign(sp, speciesResources[sp.id]);
-};
-
-species.forEach(extendWithResources);
+import './photos/index';
+import './thumbnails';
 
 const extendImagesWithCaptions = sp => {
   const byId = ({ id }) => id === sp.id;
   const spPhotos = Object.values(speciesPhotos).filter(byId);
 
-  if (spPhotos.length !== sp.images.length) {
-    throw new Error('Photos missing');
-  }
-
   let introText = '';
   let extraText = '';
 
-  const getPhotoWithCaptions = (img, index) => {
-    const byIndex = (_, idx) => index === idx;
-    const photo = spPhotos.find(byIndex);
-
+  const getPhotoWithCaptions = photo => {
     const getCaptions = image => {
       const byCaption = key => key.includes('caption_');
       const byAscendingOrder = (caption1, caption2) =>
@@ -39,11 +27,16 @@ const extendImagesWithCaptions = sp => {
     };
 
     const captions = getCaptions(photo);
-
-    return { src: img, captions, introText, extraText };
+    return {
+      src: `/images/${sp.id}_${photo.pictureId}.jpg`,
+      captions,
+      introText,
+      extraText,
+      ...photo,
+    };
   };
 
-  sp.images = sp.images.map(getPhotoWithCaptions); // eslint-disable-line
+  sp.images = spPhotos.map(getPhotoWithCaptions); // eslint-disable-line
 };
 
 species.forEach(extendImagesWithCaptions);
