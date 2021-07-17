@@ -112,6 +112,10 @@ class WeatherWind extends React.Component {
   render() {
     const { sample, t } = this.props;
 
+    const { country } = appModel.attrs;
+    const isUK = country === 'UK';
+    const isRestOfWorld = !isUK;
+
     const surveyConfig = sample.getSurvey();
     const attr = surveyConfig.attrs['weather-wind'];
     const value = sample.attrs['weather-wind'];
@@ -162,12 +166,21 @@ class WeatherWind extends React.Component {
               </T>
             </h3>
 
-            {!!averageInsectCountForThisMonth && (
+            {!!averageInsectCountForThisMonth && isUK && (
               <p>
                 <T>
                   You counted <b>{{ numberOfOccurrences }} </b>insect(s)
                   altogether - the UK average for <b>{{ month }}</b> is{' '}
                   <b>{{ averageInsectCountForThisMonth }}</b> insects per count.
+                </T>
+              </p>
+            )}
+
+            {isRestOfWorld && (
+              <p>
+                <T>
+                  You counted <b>{{ numberOfOccurrences }} </b>insect(s)
+                  altogether.
                 </T>
               </p>
             )}
