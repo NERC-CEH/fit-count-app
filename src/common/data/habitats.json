@@ -1,67 +1,114 @@
 [
   {
-    "id": 13557,
+    "warehouseId": 13557,
     "value": "Garden",
-    "UK": true
+    "UK": true,
+    "CYP": true
   },
   {
-    "id": 13558,
+    "warehouseId": 13558,
     "value": "School Grounds",
     "UK": true
   },
   {
-    "id": 13559,
+    "warehouseId": 13559,
     "value": "Parkland with trees",
-    "UK": true
+    "UK": true,
+    "CYP": true
   },
   {
-    "id": 13560,
+    "warehouseId": 13560,
     "value": "Churchyard",
     "UK": true
   },
   {
-    "id": 13561,
+    "warehouseId": 13561,
     "value": "Grassy verge or hedgerow edge",
     "UK": true
   },
   {
-    "id": 13562,
+    "warehouseId": 13562,
     "value": "Grassland with wild flowers (e.g. meadow)",
-    "UK": true
+    "UK": true,
+    "CYP": true
   },
   {
-    "id": 13563,
+    "warehouseId": 13563,
     "value": "Amenity grassland (usually mown short)",
     "UK": true
   },
   {
-    "id": 13564,
+    "warehouseId": 13564,
     "value": "Farm crops or grassy pasture",
     "UK": true
   },
   {
-    "id": 13565,
+    "warehouseId": 13565,
     "value": "Upland moorland",
     "UK": true
   },
   {
-    "id": 13566,
+    "warehouseId": 13566,
     "value": "Lowland heath",
     "UK": true
   },
   {
-    "id": 13567,
+    "warehouseId": 13567,
     "value": "Waste ground or brownfield site",
     "UK": true
   },
   {
-    "id": 13568,
+    "warehouseId": 13568,
     "value": "Woodland",
     "UK": true
   },
   {
-    "id": 13569,
+    "warehouseId": 13569,
     "value": "Other",
-    "UK": true
+    "UK": true,
+    "CYP": true,
+    "ARG": true,
+    "BRAZIL": true,
+    "CHILE": true
+  },
+  {
+    "warehouseId": 18785,
+    "value": "Botanical garden",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18786,
+    "value": "Forest",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18787,
+    "value": "Cultivation",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18788,
+    "value": "Salt marsh",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18789,
+    "value": "Freshwater wetland",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18790,
+    "value": "Dry shrub",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18791,
+    "value": "Acacia stands",
+    "CYP": true
+  },
+  {
+    "warehouseId": 18792,
+    "value": "Roadside verges",
+    "CYP": true
   }
 ]

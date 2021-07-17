@@ -1,0 +1,10 @@
+import './hoverflies.png?originalName';
+import './beetles.png?originalName';
+import './bumblebees.png?originalName';
+import './butterfliesAndMoths.png?originalName';
+import './honeybees.png?originalName';
+import './otherFlies.png?originalName';
+import './otherInsects.png?originalName';
+import './smallInsects.png?originalName';
+import './solitaryBees.png?originalName';
+import './wasps.png?originalName';

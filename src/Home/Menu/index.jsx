@@ -53,12 +53,11 @@ function showLogoutConfirmationDialog(callback) {
 }
 
 const MenuController = ({ userModel, savedSamples }) => {
-  const { sendAnalytics, language } = appModel.attrs;
+  const { sendAnalytics, language, country } = appModel.attrs;
 
   function logOut() {
     const onReset = async reset => {
       if (reset) {
-        // appModel.attrs['draftId:area'] = null; // TODO:
         await savedSamples.resetDefaults();
       }
 
@@ -78,7 +77,7 @@ const MenuController = ({ userModel, savedSamples }) => {
         onToggle={onToggle}
         config={config}
         language={language}
-        // country={country}
+        country={country}
         isLoggedIn={isLoggedIn}
         user={userModel.attrs}
         logOut={logOut}

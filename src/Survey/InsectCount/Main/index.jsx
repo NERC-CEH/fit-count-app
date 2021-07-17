@@ -73,7 +73,7 @@ class SpeciesMainComponent extends React.Component {
       );
     }
 
-    const { name, thumbnail } = sp;
+    const { name, id } = sp;
 
     const selectSpecies = () => onSelect(sp);
 
@@ -91,10 +91,7 @@ class SpeciesMainComponent extends React.Component {
               <IonIcon icon={removeOutline} color="danger" />
             </IonButton>
           )}
-
-          <IonImg src={thumbnail} />
-
-          <IonLabel>{t(name)}</IonLabel>
+          <IonImg src={`/images/${id}.png`} />;<IonLabel>{t(name)}</IonLabel>
         </div>
       </IonCol>
     );
@@ -144,8 +141,18 @@ class SpeciesMainComponent extends React.Component {
   };
 
   render() {
+    const { sample } = this.props;
+
     const bySortId = (a, b) => a.sort - b.sort;
-    const speciesPerSlide = species.sort(bySortId).reduce(intoChunksOfSix, []);
+    const getSpeciesProfile = occ => {
+      const byId = sp => sp.id === occ.attrs.taxon.id;
+      return species.find(byId);
+    };
+
+    const speciesPerSlide = sample.occurrences
+      .map(getSpeciesProfile)
+      .sort(bySortId)
+      .reduce(intoChunksOfSix, []);
 
     const speciesSlides = speciesPerSlide.map(this.getSpeciesSlide);
 

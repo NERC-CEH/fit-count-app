@@ -17,14 +17,14 @@ import {
   shareSocialOutline,
   heartOutline,
   languageOutline,
-  // globeOutline,
+  globeOutline,
   personAddOutline,
   personOutline,
   exitOutline,
   informationCircleOutline,
 } from 'ionicons/icons';
 import languages from 'common/languages';
-// import countries from 'common/countries';
+import countries from 'common/countries';
 import flumensLogo from 'common/images/flumens.svg';
 import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 
@@ -33,15 +33,15 @@ function MenuComponent({
   sendAnalytics,
   config,
   language,
-  // country,
+  country,
   isLoggedIn,
   user,
   logOut,
 }) {
   const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
 
-  // const countryName = ({ value }) => value === country;
-  // const selectedCountries = countries.find(countryName) || {};
+  const countryName = ({ value }) => value === country;
+  const selectedCountries = countries.find(countryName) || {};
 
   return (
     <Main>
@@ -128,13 +128,12 @@ function MenuComponent({
             routerOptions={{ unmount: true }} // Pick a new language on return
             skipValueTranslation
           />
-
-          {/* <MenuAttrItem
-              routerLink="/settings/country"
-              value={selectedCountries.label}
-              label="Country"
-              icon={globeOutline}
-            /> */}
+          <MenuAttrItem
+            routerLink="/settings/country"
+            value={selectedCountries.label}
+            label="Country"
+            icon={globeOutline}
+          />
 
           <IonItem className="exception-rounded">
             <IonIcon icon={shareSocialOutline} size="small" slot="start" />
@@ -173,7 +172,7 @@ MenuComponent.propTypes = exact({
   isLoggedIn: PropTypes.bool.isRequired,
   user: PropTypes.object.isRequired,
   logOut: PropTypes.func.isRequired,
-  // country: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
 });
 
 export default observer(MenuComponent);

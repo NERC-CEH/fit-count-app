@@ -40,12 +40,11 @@ class Guide extends React.Component {
     });
   };
 
-  getGridCell = ({ name, id, thumbnail }) => {
+  getGridCell = ({ name, id }) => {
     const { t } = this.props;
 
     const onClick = () => this.showSpeciesModal(id, name);
-
-    const image = thumbnail && <IonImg src={thumbnail} />;
+    const image = <IonImg src={`/images/${id}.png`} />;
 
     return (
       <IonCol
@@ -71,10 +70,15 @@ class Guide extends React.Component {
   };
 
   getListGrid = flowersOrInsectsData => {
+    const { appModel } = this.props;
+    const { country } = appModel.attrs;
+
     const bySortId = (a, b) => a.sort - b.sort;
+    const byCountry = sp => sp[country];
 
     const speciesColumns = flowersOrInsectsData
       .sort(bySortId)
+      .filter(byCountry)
       .map(this.getGridCell);
 
     return (
@@ -102,7 +106,7 @@ class Guide extends React.Component {
   };
 
   render() {
-    const { t } = this.props;
+    const { t, appModel } = this.props;
 
     const showFeedback = this.shouldShowFeedback();
 
@@ -138,7 +142,10 @@ class Guide extends React.Component {
               skipTranslation
             />
             {!!this.state.species && (
-              <SpeciesProfile species={this.state.species} />
+              <SpeciesProfile
+                species={this.state.species}
+                appModel={appModel}
+              />
             )}
           </IonModal>
         </Main>

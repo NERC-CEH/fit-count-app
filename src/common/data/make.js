@@ -26,11 +26,6 @@ function saveSpeciesToFile(data, sheetName) {
   return new Promise(saveSpeciesToFileWrap);
 }
 
-const fetchAndSave = async sheet => {
-  const sheetData = await fetchSheet({ drive, file, sheet });
-  saveSpeciesToFile(sheetData, sheet);
-};
-
 function checkTranslationsExist(data, keysToCheck) {
   const missing = [];
   const jsonData = po2json.parseFileSync('../translations/interface/en.pot');
@@ -38,7 +33,8 @@ function checkTranslationsExist(data, keysToCheck) {
     const checkKeyValyeExistsInTranslations = key => {
       const text = sp[key];
       if (text && !jsonData[text]) {
-        missing.push(`⛑  Missing translation:\n ${text}`);
+        missing.push(`# ${key} \nmsgid "${text}"\nmsgstr "${text}"`);
+        missing.push();
       }
     };
     keysToCheck.forEach(checkKeyValyeExistsInTranslations);
@@ -46,15 +42,25 @@ function checkTranslationsExist(data, keysToCheck) {
   data.forEach(checkExists);
 
   if (missing.length) {
-    console.error(`\n\n${missing.join('\n\n')}\n`);
+    console.warn(`\n⛑  Missing translations:\n`);
+    console.warn('\x1b[43m', `${missing.join('\n\n')}\n`, '\x1b[0m');
   }
 }
 
 const getData = async () => {
-  await fetchAndSave('insects');
-  await fetchAndSave('habitats');
-  // await fetchAndSave('flowers');
-  const sheetData = await fetchSheet({ drive, file, sheet: 'photos' });
+  let sheetData = await fetchSheet({ drive, file, sheet: 'insects' });
+  saveSpeciesToFile(sheetData, 'insects');
+  checkTranslationsExist(sheetData, ['name']);
+
+  sheetData = await fetchSheet({ drive, file, sheet: 'habitats' });
+  saveSpeciesToFile(sheetData, 'habitats');
+  checkTranslationsExist(sheetData, ['value']);
+
+  sheetData = await fetchSheet({ drive, file, sheet: 'flowers' });
+  saveSpeciesToFile(sheetData, 'flowers');
+  checkTranslationsExist(sheetData, ['name', 'type']);
+
+  sheetData = await fetchSheet({ drive, file, sheet: 'insect-guide-photos' });
   saveSpeciesToFile(sheetData, 'photos');
   checkTranslationsExist(sheetData, [
     'intro_text',

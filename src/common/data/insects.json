@@ -3,61 +3,90 @@
     "id": "beetles",
     "warehouseId": 418860,
     "sort": 8,
-    "name": "Beetles"
+    "name": "Beetles",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "bumblebees",
     "warehouseId": 418854,
     "sort": 1,
-    "name": "Bumblebees"
+    "name": "Bumblebees",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "butterfliesAndMoths",
     "warehouseId": 418859,
     "sort": 7,
     "name": "Butterflies and moths",
-    "description": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees."
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "honeybees",
     "warehouseId": 419001,
     "sort": 2,
-    "name": "Honeybees"
+    "name": "Honeybees",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "hoverflies",
     "warehouseId": 418857,
     "sort": 5,
-    "name": "Hoverflies"
+    "name": "Hoverflies",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "otherFlies",
     "warehouseId": 418858,
     "sort": 6,
-    "name": "Other flies"
+    "name": "Other flies",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "otherInsects",
     "warehouseId": 418861,
     "sort": 10,
-    "name": "Other insects"
+    "name": "Other insects",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "smallInsects",
     "warehouseId": 419076,
     "sort": 9,
-    "name": "Small insects (<3mm)"
+    "name": "Small insects (<3mm)",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "solitaryBees",
     "warehouseId": 418855,
     "sort": 3,
-    "name": "Solitary bees"
+    "name": "Solitary bees",
+    "UK": true,
+    "CYP": true
   },
   {
     "id": "wasps",
     "warehouseId": 418856,
     "sort": 4,
-    "name": "Wasps"
+    "name": "Wasps",
+    "UK": true,
+    "CYP": true
+  },
+  {
+    "id": "bats",
+    "name": "Bats",
+    "CHILE": true
+  },
+  {
+    "id": "hummingbirds",
+    "name": "Hummingbirds",
+    "CHILE": true
   }
 ]

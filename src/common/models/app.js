@@ -7,7 +7,7 @@ const defaults = {
   sendAnalytics: true,
   appSession: 0,
   language: null,
-  country: 'UK',
+  country: null,
 
   feedbackGiven: false,
   showedWelcome: false,

@@ -273,7 +273,7 @@ msgid "Woodland"
 msgstr "Coetir"
 
 # Survey habitat page values
-msgid "Botanical Garden"
+msgid "Botanical garden"
 msgstr ""
 
 # Survey habitat page values
@@ -657,7 +657,7 @@ msgid "Acacia"
 msgstr ""
 
 # Survey species selection page species list
-msgid "Bermuda buttercup"
+msgid "Bermuda Buttercup"
 msgstr ""
 
 # Survey species selection page species list
@@ -666,6 +666,14 @@ msgstr ""
 
 # Survey species selection page species list
 msgid "Blue Plumbago"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr ""
+
+# Survey species selection page species list
+msgid "Milk Thistle"
 msgstr ""
 
 # Survey species selection page read more message
@@ -1947,6 +1955,14 @@ msgstr "Pryfed bychain (<3mm)"
 msgid "Other insects"
 msgstr "Pryfed eraill"
 
+# Id guide label
+msgid "Bats"
+msgstr ""
+
+# Id guide label
+msgid "Hummingbirds"
+msgstr ""
+
 # Survey back button label
 msgid "Insect"
 msgstr "Pryf"
@@ -2249,3 +2265,157 @@ msgid ""
 msgstr ""
 "I weld eich data Cyfrif FIT ar ôl i chi ei lwytho i fyny, ewch i wefan y "
 "prosiect ar gyfer eich gwlad chi, os oes un ar gael (e.e. <2>UK PoMS</2>)"
+
+# extraText
+msgid ""
+"There is just one species of honeybee. They nest in artificial hives,with "
+"occasional colonies establishing in the wild."
+msgstr ""
+
+# extraText
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are two species in Cyprus."
+msgstr ""
+
+# extraText
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 369 species in Cyprus."
+msgstr ""
+
+# caption_1
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (bee on the left above)"
+msgstr ""
+
+# caption_2
+msgid ""
+"Others have the pollen basket underneath their abdomen (bee on the right "
+"above)"
+msgstr ""
+
+# caption_1
+msgid "Ground bees (genus  <i>Andrena <i>) have black and grey stripes"
+msgstr ""
+
+# caption_2
+msgid ""
+"Bees of the genus  <i>Nomada <i> can look very similar to wasps, but they "
+"have bee-like hairs on part of their body. Most bees of this genus are "
+"similar in shape and with a mix of black, red and yellow colours. This "
+"species is not belonging to the biodiversity of Cyprus (example from the "
+"entomofauna of UK) "
+msgstr ""
+
+# caption_3
+msgid ""
+"Bees of the genus  <i> Lasioglossum <i> are medium sized solitary bees. Some"
+" species are among the smallest in size solitary bees, at around 3mm long. "
+msgstr ""
+
+# caption_4
+msgid ""
+"Bees of the genus  <i>Colletes <i> have distinct black and yellow stripes on"
+" the abdomen. This species is not belonging to the biodiversity of Cyprus "
+"(example from the entomofauna of UK)"
+msgstr ""
+
+# caption_3
+msgid ""
+"Social wasps and some of the solitary species have bold black and yellow "
+"stripes"
+msgstr ""
+
+# extraText
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 52 species of hoverfly in Cyprus."
+msgstr ""
+
+# caption_1
+msgid ""
+"Drone-fly hoverflies have much shorter antennae than honeybees. This species"
+" is not belonging to the biodiversity of Cyprus (example from the "
+"entomofauna of Greece) "
+msgstr ""
+
+# caption_1
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae (example from the "
+"entomofauna of Greece)"
+msgstr ""
+
+# caption_2
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Eristalinus "
+"taeniops<i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
+"The compound eyes have five distinct, vertical, dark stripes. "
+msgstr ""
+
+# caption_1
+msgid "This is a dance fly (family Empididae). "
+msgstr ""
+
+# caption_1
+msgid ""
+"This is a dance fly (family Empididae). This species is not belonging to the"
+" biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr ""
+
+# caption_4
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers. This species is not belonging to the biodiversity of "
+"Cyprus (example from the entomofauna of UK)"
+msgstr ""
+
+# caption_1
+msgid ""
+"This is a parasitic fly from family Tachinidae. This species is not "
+"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr ""
+
+# caption_3
+msgid ""
+"This is the Yellow Dung-fly (family Scathophagidae). This species is not "
+"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr ""
+
+# caption_1
+msgid "Painted Lady butterfly"
+msgstr ""
+
+# caption_1
+msgid "Six-spot Burnet moth (a macro-moth) (UK example shown)"
+msgstr ""
+
+# caption_2
+msgid "Micro-moths"
+msgstr ""
+
+# caption_1
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer (UK example shown)"
+msgstr ""
+
+# caption_2
+msgid ""
+"The brown beetle with long antennae (<i>Hesperophanes sericeus<i>), is a "
+"large nocturnal species - larvae live in decaying wood "
+msgstr ""
+
+# caption_1
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) "
+"and other “small insects” which may include tiny flies and parasitic wasps"
+msgstr ""
+
+# caption_4
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps "
+"(UK example shown)"
+msgstr ""

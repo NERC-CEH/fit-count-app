@@ -1,0 +1,269 @@
+[
+  {
+    "id": "bramble",
+    "warehouseId": 13571,
+    "type": "Individual Flower",
+    "sort": 1,
+    "name": "Bramble",
+    "UK": true
+  },
+  {
+    "id": "buddleja",
+    "warehouseId": 13607,
+    "type": "Spike",
+    "sort": 2,
+    "name": "Buddleja",
+    "UK": true
+  },
+  {
+    "id": "buttercup",
+    "warehouseId": 14100,
+    "type": "Individual Flower",
+    "sort": 3,
+    "name": "Buttercup",
+    "UK": true
+  },
+  {
+    "id": "dandelion",
+    "warehouseId": 13570,
+    "type": "Head",
+    "sort": 4,
+    "name": "Dandelion",
+    "UK": true
+  },
+  {
+    "id": "hawthorn",
+    "warehouseId": 13572,
+    "type": "Individual Flower",
+    "sort": 5,
+    "name": "Hawthorn",
+    "UK": true
+  },
+  {
+    "id": "heather",
+    "warehouseId": 13608,
+    "type": "Spike",
+    "sort": 6,
+    "name": "Heather",
+    "UK": true
+  },
+  {
+    "id": "hogweed",
+    "warehouseId": 13609,
+    "type": "Umbel",
+    "sort": 7,
+    "name": "Hogweed",
+    "UK": true
+  },
+  {
+    "id": "ivy",
+    "warehouseId": 14064,
+    "type": "Head",
+    "sort": 8,
+    "name": "Ivy",
+    "UK": true
+  },
+  {
+    "id": "knapweed",
+    "warehouseId": 13610,
+    "type": "Head",
+    "sort": 9,
+    "name": "Knapweed",
+    "UK": true
+  },
+  {
+    "id": "lavender",
+    "warehouseId": 13611,
+    "type": "Spike",
+    "sort": 10,
+    "name": "Lavender",
+    "UK": true
+  },
+  {
+    "id": "ragwort",
+    "warehouseId": 13612,
+    "type": "Head",
+    "sort": 11,
+    "name": "Ragwort",
+    "UK": true
+  },
+  {
+    "id": "thistle",
+    "warehouseId": 13613,
+    "type": "Head",
+    "sort": 12,
+    "name": "Thistle",
+    "UK": true
+  },
+  {
+    "id": "whiteClover",
+    "warehouseId": 13573,
+    "type": "Head",
+    "sort": 13,
+    "name": "White Clover",
+    "UK": true
+  },
+  {
+    "id": "whiteDeadNettle",
+    "warehouseId": 13574,
+    "type": "Spike",
+    "sort": 14,
+    "name": "White Dead-nettle",
+    "UK": true
+  },
+  {
+    "id": "fennel",
+    "warehouseId": 18793,
+    "type": "Umbel",
+    "sort": 15,
+    "name": "Fennel",
+    "scientificName": "Foeniculum vulgare",
+    "CYP": true
+  },
+  {
+    "id": "myrtle",
+    "warehouseId": 18794,
+    "type": "Head",
+    "sort": 16,
+    "name": "Myrtle",
+    "scientificName": "Myrtus communis",
+    "CYP": true
+  },
+  {
+    "id": "olive",
+    "warehouseId": 18795,
+    "type": "Spike",
+    "sort": 17,
+    "name": "Olive",
+    "scientificName": "Olea europaea",
+    "CYP": true
+  },
+  {
+    "id": "whiteMustard",
+    "warehouseId": 18796,
+    "type": "Individual Flower",
+    "sort": 18,
+    "name": "White Mustard",
+    "scientificName": "Sinapis alba",
+    "CYP": true
+  },
+  {
+    "id": "rockRose",
+    "warehouseId": 18797,
+    "type": "Individual Flower",
+    "sort": 19,
+    "name": "Rock-roses",
+    "scientificName": "Cistus spp.",
+    "CYP": true
+  },
+  {
+    "id": "anemone",
+    "warehouseId": 18798,
+    "type": "Individual Flower",
+    "sort": 20,
+    "name": "Anemone",
+    "scientificName": "Anemone coronaria",
+    "CYP": true
+  },
+  {
+    "id": "chrysanthemum",
+    "warehouseId": 18799,
+    "type": "Head",
+    "sort": 21,
+    "name": "Chrysanthemum",
+    "scientificName": "Glebionis coronarium",
+    "CYP": true
+  },
+  {
+    "id": "tobacco",
+    "warehouseId": 18800,
+    "type": "Individual Flower",
+    "sort": 22,
+    "name": "Tree Tobacco",
+    "scientificName": "Nicotiana glauca",
+    "CYP": true
+  },
+  {
+    "id": "jasmine",
+    "warehouseId": 18801,
+    "type": "Individual Flower",
+    "sort": 23,
+    "name": "Spanish Jasmine",
+    "scientificName": "Jasminum grandiflorum",
+    "CYP": true
+  },
+  {
+    "id": "lantana",
+    "warehouseId": 18802,
+    "type": "Head",
+    "sort": 24,
+    "name": "Common Lantana",
+    "scientificName": "Lantana camara",
+    "CYP": true
+  },
+  {
+    "id": "acacia",
+    "warehouseId": 18803,
+    "type": "Individual Flower",
+    "sort": 25,
+    "name": "Acacia",
+    "scientificName": "Acacia saligna",
+    "CYP": true
+  },
+  {
+    "id": "bermudaButtercup",
+    "warehouseId": 18804,
+    "type": "Head",
+    "sort": 26,
+    "name": "Bermuda Buttercup",
+    "scientificName": "Oxalis pes-caprae",
+    "CYP": true
+  },
+  {
+    "id": "boxthorn",
+    "warehouseId": 18805,
+    "type": "Individual Flower",
+    "sort": 27,
+    "name": "African Boxthorn",
+    "scientificName": "Lycium ferocissimum",
+    "CYP": true
+  },
+  {
+    "id": "plumbago",
+    "warehouseId": 18806,
+    "type": "Head",
+    "sort": 28,
+    "name": "Blue Plumbago",
+    "scientificName": "Plumbago auriculata",
+    "CYP": true
+  },
+  {
+    "id": "vipersBugloss",
+    "warehouseId": 18807,
+    "type": "Spike",
+    "sort": 29,
+    "name": "Narrow-leaved Viper’s-bugloss",
+    "scientificName": "Echium angustifolium",
+    "CYP": true
+  },
+  {
+    "id": "milkThistle",
+    "warehouseId": 18808,
+    "type": "Head",
+    "sort": 30,
+    "name": "Milk Thistle",
+    "scientificName": "Silybum marianum ",
+    "CYP": true
+  },
+  {
+    "id": "other",
+    "warehouseId": 13575,
+    "sort": 31,
+    "name": "Other",
+    "UK": true,
+    "CYP": true,
+    "ARG": true,
+    "BRAZIL": true,
+    "CHILE": true
+  }
+]
