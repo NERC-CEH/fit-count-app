@@ -82,6 +82,11 @@ const Credits = () => (
         </P>
 
         <P skipTranslation>
+          <T>App design concepts</T>: Francisco E. Fontúrbel (Pontificia
+          Universidad Católica de Valparaíso)
+        </P>
+
+        <P skipTranslation>
           <T>Photos of flowers and insects by:</T>
           <ul>
             <li>Martin Harvey</li>

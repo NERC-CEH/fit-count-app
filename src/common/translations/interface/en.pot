@@ -64,6 +64,10 @@ msgstr "Share app crash data so we can make the app more reliable."
 msgid "We are grateful to all the people who helped to create this app:"
 msgstr "We are grateful to all the people who helped to create this app:"
 
+# Credits page content
+msgid "App design concepts"
+msgstr "App design concepts"
+
 # Onboarding Page button label
 msgid "Got it!"
 msgstr "Got it!"

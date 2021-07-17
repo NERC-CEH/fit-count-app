@@ -78,6 +78,10 @@ msgstr ""
 msgid "We are grateful to all the people who helped to create this app:"
 msgstr "Rydyn ni'n ddiolchgar i bawb a helpodd i greu'r ap hwn:"
 
+# Credits page content
+msgid "App design concepts"
+msgstr ""
+
 # Onboarding Page button label
 msgid "Got it!"
 msgstr "Deall!"

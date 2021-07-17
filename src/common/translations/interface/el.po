@@ -78,6 +78,10 @@ msgstr ""
 msgid "We are grateful to all the people who helped to create this app:"
 msgstr "Ευχαριστούμε όλους όσους βοήθησαν στη δημιουργία αυτής της εφαρμογής:"
 
+# Credits page content
+msgid "App design concepts"
+msgstr ""
+
 # Onboarding Page button label
 msgid "Got it!"
 msgstr "Το κατάλαβα!"
