@@ -262,6 +262,7 @@ const survey = {
           id: val.warehouseId,
           label: val.name,
           icon: val.id !== 'other' && `/images/${val.id}.jpg`,
+          value: val.name,
         });
         const countryFlowers = flowers.filter(byCountry).map(getOption);
         return { options: countryFlowers };

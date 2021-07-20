@@ -95,7 +95,7 @@ class Flower extends React.Component {
 
     const surveyConfig = sample.getSurvey();
 
-    const flowersOptions = surveyConfig.attrs.flower.componentProps.options;
+    const flowersOptions = surveyConfig.attrs.flower.componentProps().options;
 
     const byFlowerName = flower => flower.value === selectedFlowerName;
 
