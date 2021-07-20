@@ -125,10 +125,10 @@
     "id": "solitaryBees",
     "pictureId": 5,
     "intro_text": "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above.",
-    "caption_1": "Ground bees (genus  <i>Andrena <i>) have black and grey stripes",
-    "caption_2": "Bees of the genus  <i>Nomada <i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) ",
-    "caption_3": "Bees of the genus  <i> Lasioglossum <i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. ",
-    "caption_4": "Bees of the genus  <i>Colletes <i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)",
+    "caption_1": "Ground bees (genus  <i>Andrena </i>) have black and grey stripes",
+    "caption_2": "Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) ",
+    "caption_3": "Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. ",
+    "caption_4": "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)",
     "extraText": "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!",
     "CYP": true
   },
@@ -238,7 +238,7 @@
     "pictureId": 4,
     "intro_text": "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above.",
     "caption_1": "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae (example from the entomofauna of Greece)",
-    "caption_2": "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops<i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. ",
+    "caption_2": "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. ",
     "caption_3": "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies",
     "CYP": true
@@ -344,7 +344,7 @@
     "pictureId": 3,
     "intro_text": "Above are two more examples of beetles that regularly visit flowers.",
     "caption_1": "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer (UK example shown)",
-    "caption_2": "The brown beetle with long antennae (<i>Hesperophanes sericeus<i>), is a large nocturnal species - larvae live in decaying wood ",
+    "caption_2": "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a large nocturnal species - larvae live in decaying wood ",
     "CYP": true
   },
   {

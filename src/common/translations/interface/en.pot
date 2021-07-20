@@ -1692,20 +1692,20 @@ msgid "Others have the pollen basket underneath their abdomen (bee on the right 
 msgstr "Others have the pollen basket underneath their abdomen (bee on the right above)"
 
 # caption_1
-msgid "Ground bees (genus  <i>Andrena <i>) have black and grey stripes"
-msgstr "Ground bees (genus  <i>Andrena <i>) have black and grey stripes"
+  msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
+msgstr "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
 
 # caption_2
-msgid "Bees of the genus  <i>Nomada <i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) "
-msgstr "Bees of the genus  <i>Nomada <i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) "
+msgid "Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) "
+msgstr "Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) "
 
 # caption_3
-msgid "Bees of the genus  <i> Lasioglossum <i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. "
-msgstr "Bees of the genus  <i> Lasioglossum <i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. "
+msgid "Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. "
+msgstr "Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. "
 
 # caption_4
-msgid "Bees of the genus  <i>Colletes <i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr "Bees of the genus  <i>Colletes <i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgid "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 
 # caption_3
 msgid "Social wasps and some of the solitary species have bold black and yellow stripes"
@@ -1724,8 +1724,8 @@ msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly an
 msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae (example from the entomofauna of Greece)"
 
 # caption_2
-msgid "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops<i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. "
-msgstr "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops<i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. "
+msgid "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. "
+msgstr "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. "
 
 # caption_1
 msgid "This is a dance fly (family Empididae). "
@@ -1764,8 +1764,8 @@ msgid "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing case
 msgstr "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer (UK example shown)"
 
 # caption_2
-msgid "The brown beetle with long antennae (<i>Hesperophanes sericeus<i>), is a large nocturnal species - larvae live in decaying wood "
-msgstr "The brown beetle with long antennae (<i>Hesperophanes sericeus<i>), is a large nocturnal species - larvae live in decaying wood "
+msgid "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a large nocturnal species - larvae live in decaying wood "
+msgstr "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a large nocturnal species - larvae live in decaying wood "
 
 # caption_1
 msgid "This example shows a flower with many pollen beetles (family Nitidulidae) and other “small insects” which may include tiny flies and parasitic wasps"

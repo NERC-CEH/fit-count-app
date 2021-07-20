@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
-# POMS CYPRUS <pomscyprus@gmail.com>, 2021
 # Karolis, 2021
+# POMS CYPRUS <pomscyprus@gmail.com>, 2021
+# Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021\n"
 "Language-Team: Greek (https://www.transifex.com/ceh/teams/116172/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -347,7 +347,7 @@ msgstr "Πλήρες όνομα "
 
 # User registration page
 msgid "Email"
-msgstr "Hλεκτρονική Διεύθυνση (Email)"
+msgstr "Hλεκτρονική Διεύθυνση Email"
 
 # User registration page
 msgid "Password"
@@ -1139,7 +1139,7 @@ msgstr ""
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
 "Οι οφθαλμοί τους καλύπτουν τα πλαϊνά της κεφαλής, ενώ στο ενδιάμεσο των "
-"οφθαλ΄μών υπάρχουν πολλές τρίχες"
+"οφθαλμών υπάρχουν πολλές τρίχες"
 
 # Bumblebee screen 1 content
 msgid ""
@@ -1155,8 +1155,10 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
-"Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο 'βόμβο' κατά τη διάρκεια της "
-"πτήσης τους. Δεν αιωρούνται. Έχουν καταγραφεί 2 είδη στην Κύπρο."
+"Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο βόμβο κατά τη διάρκεια της "
+"πτήσης τους. Δεν αιωρούνται. Έχουν καταγραφεί 2 είδη στην Κύπρο, το Bombus "
+"niveatus (κοκκινωπή άκρη στην κοιλιά) και το Bombus terrestris (άσπρη άκρη "
+"στην κοιλιά)."
 
 # Bumblebee screen 2 content
 msgid ""
@@ -1177,7 +1179,7 @@ msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
 msgstr ""
-"Οι αρσενικοί βομβίνοι μοιάζουν με τους θηλυκούς. ¨Εχουν ελαφρώς μεγαλύτερες "
+"Οι αρσενικοί βομβίνοι μοιάζουν με τους θηλυκούς. 'Eχουν ελαφρώς μεγαλύτερες "
 "κεραίες και δεν συλλέγουν γύρη. Επισκέπτονται άνθη για να τραφούν με νέκταρ."
 
 # Honeybees screen 1 content
@@ -1260,7 +1262,7 @@ msgstr ""
 
 # Solitary bees screen 1 content
 msgid "Long antennae, often held straight out in front"
-msgstr "Έχουν μακριές κεραίες, συχνά στραμμένες ευθείς προς τα εμπρός"
+msgstr "Έχουν μακριές κεραίες, στραμμένες προς τα εμπρός"
 
 # Solitary bees screen 1 content
 msgid ""
@@ -1493,7 +1495,7 @@ msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
 msgstr ""
-"Στις πτέρυγες τους υπάρχει ένα ’περιθώριο’ - βρίσκεται παράλληλα στο σημείο "
+"Στις πτέρυγες τους υπάρχει ένα ‘περιθώριο’ - βρίσκεται παράλληλα στο σημείο "
 "που τελειώνει η πτέρυγα"
 
 # Hoverflies screen 1 content
@@ -1593,8 +1595,8 @@ msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
-"Ορισμένα είδη συρφίδων μιμούνται εξαιρετικά τις μέλισσες,- για να βρείτε τι "
-"έντομο είναι ελέγξτε προσεκτικά τις κεραίες!"
+"Ορισμένα είδη συρφίδων μιμούνται εξαιρετικά τους βομβίνους,- για να βρείτε "
+"τι έντομο είναι ελέγξτε προσεκτικά τις κεραίες!"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1609,8 +1611,7 @@ msgstr ""
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
 msgstr ""
-"Αυτή είναι μια dance fly (οικογένεια Empididae). Αυτό το είδος δεν ανήκει "
-"στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτή είναι μια dance fly (οικογένεια Empididae) (φωτογραφία από το Η.Β.)"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a long thin proboscis under the head"
@@ -1629,8 +1630,7 @@ msgid ""
 " seen on hogweed and related flowers"
 msgstr ""
 "Αυτή είναι μια soldier fly, το Broad Centurion (<i>Chloromyia formosa</i>), "
-"που συχνά εμφανίζεται στα σκιαδανθή φυτά. Αυτό το είδος δεν ανήκει στην "
-"εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"που συχνά εμφανίζεται στα σκιαδανθή φυτά (φωτογραφία από το Η.Β.)"
 
 # Other flies screen 1 content
 msgid "The abdomen is broader and flatter than in hoverflies"
@@ -1643,7 +1643,7 @@ msgid ""
 "vein parallel to the true edge of the wing"
 msgstr ""
 "Οι πτέρυγες διαφέρουν από εκείνες στις συρφίδες, δεν έχουν το χαρακτηριστικό"
-" ’περιθώριο’"
+" ‘περιθώριο’"
 
 # Other flies screen 1 content
 msgid ""
@@ -1654,16 +1654,16 @@ msgid ""
 " and two on the next screen."
 msgstr ""
 "Υπάρχουν πολλά δίπτερα έντομα τα οποία επισκέπτονται λουλούδια - για το FIT "
-"Count διαχωρίσετε τις \"Συρφίδες\" από τα \"Αλλά Δίπτερα\"! Μην ξεχνάτε, οι "
-"συρφίδες  μπορούν να αιωρούνται, μια ικανότητα που έχουν λίγα άλλα δίπτερα. "
-"Δύο παραδείγματα «Άλλων διπτέρων» εμφανίζονται παραπάνω και δύο στην επόμενη"
-" οθόνη."
+"Count να διαχωρίσετε τις \"Συρφίδες\" από τα \"Αλλά Δίπτερα\"! Μην ξεχνάτε, "
+"οι συρφίδες  μπορούν να αιωρούνται, μια ικανότητα που έχουν μόνο μερικά από "
+"τα άλλα δίπτερα. Δύο παραδείγματα «Άλλων διπτέρων» εμφανίζονται παραπάνω και"
+" δύο στην επόμενη οθόνη."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
 msgstr ""
-"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae. Αυτό το είδος "
-"δεν ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (φωτογραφία από"
+" το Η.Β.)"
 
 # Other flies screen 2 content
 msgid "It has prominent bristles on the abdomen"
@@ -1672,8 +1672,8 @@ msgstr "Έχει ευδιάκριτες, σκληρές τρίχες (ακίδε
 # Other flies screen 2 content
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
 msgstr ""
-"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae). Αυτό το είδος δεν"
-" ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae) (φωτογραφία από το"
+" Η.Β.)"
 
 # Other flies screen 2 content
 msgid ""
@@ -1728,7 +1728,7 @@ msgstr "Hippotion celerio moth (μεγάλος σε μέγεθος σκώρος)
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
-msgstr "Μικρο-σκώροι"
+msgstr "Anthophila fabriciana (μικρο-σκώροι)"
 
 # Butterflies and moths 2 screen content
 msgid ""
@@ -1786,9 +1786,9 @@ msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
 msgstr ""
-"Αυτό το καφέ σκαθάρι (<i> Hesperophanes sericeus </i>) είναι ένα μεγάλου "
-"μεγέθους σκαθάρι που κατατάσσεται στα νυχτόβια είδη- οι προνύμφες ζουν σε "
-"αποσυντιθέμενο ξύλο"
+"Αυτό το κιτρινόμαυρο σκαθάρι (<i> Chlorophorus sp. </i>) με μακριές κεραίες,"
+" είναι ένα μεγάλου μεγέθους σκαθάρι - οι προνύμφες ζουν σε αποσυντιθέμενο "
+"ξύλο"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
@@ -2335,13 +2335,13 @@ msgstr ""
 " μέλισσα φυλλοκόπτη, πάνω δεξιά)"
 
 # caption_1
-msgid "Ground bees (genus  <i>Andrena <i>) have black and grey stripes"
+msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
 msgstr ""
 "Οι μέλισσες του εδάφους (<i>γένος Andrena </i>) έχουν μαύρες και γκρι ρίγες."
 
 # caption_2
 msgid ""
-"Bees of the genus  <i>Nomada <i> can look very similar to wasps, but they "
+"Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they "
 "have bee-like hairs on part of their body. Most bees of this genus are "
 "similar in shape and with a mix of black, red and yellow colours. This "
 "species is not belonging to the biodiversity of Cyprus (example from the "
@@ -2355,8 +2355,9 @@ msgstr ""
 
 # caption_3
 msgid ""
-"Bees of the genus  <i> Lasioglossum <i> are medium sized solitary bees. Some"
-" species are among the smallest in size solitary bees, at around 3mm long. "
+"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
+"Some species are among the smallest in size solitary bees, at around 3mm "
+"long. "
 msgstr ""
 "Οι μέλισσες του γένους <i> Lasioglossum </i> είναι μεσαίου μεγέθους "
 "μοναχικές μέλισσες. Μερικά είδη είναι από τις μικρότερες μοναχικές μέλισσες "
@@ -2364,8 +2365,8 @@ msgstr ""
 
 # caption_4
 msgid ""
-"Bees of the genus  <i>Colletes <i> have distinct black and yellow stripes on"
-" the abdomen. This species is not belonging to the biodiversity of Cyprus "
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen. This species is not belonging to the biodiversity of Cyprus "
 "(example from the entomofauna of UK)"
 msgstr ""
 "Οι μέλισσες του γένους <i> Nomada </i> μοιάζουν πολύ με σφήκες, με τη "
@@ -2412,7 +2413,7 @@ msgstr ""
 # caption_2
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Eristalinus "
-"taeniops<i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
+"taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
 "The compound eyes have five distinct, vertical, dark stripes. "
 msgstr ""
 "Mερικά είδη έχουν επεκτείνει τις «μύτες». Αυτό είναι το <i> Rhingia "
@@ -2423,16 +2424,14 @@ msgstr ""
 # caption_1
 msgid "This is a dance fly (family Empididae). "
 msgstr ""
-"Αυτή είναι μια dance fly (οικογένεια Empididae). Αυτό το είδος δεν ανήκει "
-"στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτή είναι μια dance fly (οικογένεια Empididae) (φωτογραφία από το Η.Β.)"
 
 # caption_1
 msgid ""
 "This is a dance fly (family Empididae). This species is not belonging to the"
 " biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτή είναι δίπτερο οικογένειας Empididae (dance fly). Αυτό το είδος δεν "
-"ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτή είναι μια dance fly (οικογένεια Empididae) (φωτογραφία από το Η.Β.)"
 
 # caption_4
 msgid ""
@@ -2440,25 +2439,24 @@ msgid ""
 " seen on flowers. This species is not belonging to the biodiversity of "
 "Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτή είναι μια soldier fly, το Broad Centurion (Chloromyia formosa), που "
-"συχνά εμφανίζεται στα σκιαδανθή φυτά. Αυτό το είδος δεν ανήκει στην "
-"εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτή είναι μια soldier fly, το Broad Centurion (<i>Chloromyia formosa </i>),"
+" που συχνά εμφανίζεται στα σκιαδανθή φυτά (φωτογραφία από το Η.Β.)"
 
 # caption_1
 msgid ""
 "This is a parasitic fly from family Tachinidae. This species is not "
 "belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae. Αυτό το είδος "
-"δεν ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (φωτογραφία από"
+" το Η.Β.)"
 
 # caption_3
 msgid ""
 "This is the Yellow Dung-fly (family Scathophagidae). This species is not "
 "belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτό είναι το yellow dung-fly (οικογένεια Scathophagidae). Αυτό το είδος δεν"
-" ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από το Η.Β.)"
+"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae) (φωτογραφία από το"
+" Η.Β.)"
 
 # caption_1
 msgid "Painted Lady butterfly"
@@ -2482,7 +2480,7 @@ msgstr ""
 
 # caption_2
 msgid ""
-"The brown beetle with long antennae (<i>Hesperophanes sericeus<i>), is a "
+"The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
 "large nocturnal species - larvae live in decaying wood "
 msgstr ""
 
