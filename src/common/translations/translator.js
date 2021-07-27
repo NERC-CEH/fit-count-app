@@ -60,6 +60,8 @@ const newLanguageCodeWrap = ({ newValue }) => {
 
   const newLanguageCode = newValue.replace('_', '-'); // backwards compatible
   i18n.changeLanguage(newLanguageCode);
+
+  document.body.setAttribute('lang', newValue);
 };
 
 observe(appModel.attrs, 'language', newLanguageCodeWrap);
