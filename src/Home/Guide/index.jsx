@@ -108,7 +108,12 @@ class Guide extends React.Component {
   render() {
     const { t, appModel } = this.props;
 
+    const { country } = appModel.attrs;
+    const isCyprus = country === 'CYP';
     const showFeedback = this.shouldShowFeedback();
+    const { feedbackEmail, feedbackEmailCYP } = config;
+
+    const email = isCyprus ? feedbackEmailCYP : feedbackEmail;
 
     return (
       <Page id="guide">
@@ -121,7 +126,7 @@ class Guide extends React.Component {
             <IonRow className="user-feedback-row">
               <IonCol size="12">
                 <UserFeedbackRequest
-                  email={config.feedbackEmail}
+                  email={email}
                   onFeedbackDone={this.onFeedbackDone}
                 />
               </IonCol>
