@@ -1,5 +1,7 @@
 import React from 'react';
 import { Page, Main, Section, Header } from '@apps';
+import config from 'common/config';
+import appModel from 'models/app';
 import { IonIcon } from '@ionic/react';
 import { informationCircleOutline } from 'ionicons/icons';
 import appLogo from 'common/images/appLogo.png';
@@ -7,72 +9,81 @@ import './styles.scss';
 
 const { P } = Section;
 
-const About = () => (
-  <Page id="about">
-    <Header title="About" />
+const About = () => {
+  const { country } = appModel.attrs;
+  const isCyprus = country === 'CYP';
 
-    <Main>
-      <div className="app-logo-wrapper-no-background">
-        <img className="app-logo" src={appLogo} alt="appLogo" />
-      </div>
+  const { feedbackLink, feedbackLinkCYP } = config;
+  const feedback = isCyprus ? feedbackLinkCYP : feedbackLink;
 
-      <Section>
-        <P>
-          The Flower-Insect Timed Count (FIT Count) is a 10-minute survey
-          designed to collect new data on numbers of flower-visiting insects.
-        </P>
-        <P>
-          FIT Counts are suitable for all, in urban or rural locations, and can
-          be done at any time during the FIT Count season – see the quick guide{' '}
-          <IonIcon icon={informationCircleOutline} /> for the season in your
-          country.
-        </P>
-        <P>
-          An increasing amount of evidence suggests that pollinator species
-          diversity has declined in many parts of the world, with the strongest
-          evidence coming from Europe and North America. Less is known about
-          changes in pollinator abundance, and we need much more data to be able
-          to track this. You can help by doing a FIT Count, maybe even repeating
-          it over the season. You don’t need to identify the insects to species
-          level, only to within broad groups e.g. bumblebees, hoverflies,
-          butterflies & moths, wasps.
-        </P>
-        <P>
-          The FIT Count was originally developed through the UK Pollinator
-          Monitoring Scheme (PoMS). Similar methods are now being adopted in
-          other countries, and this app is used by a wide range of pollinator
-          monitoring projects:
-        </P>
+  return (
+    <Page id="about">
+      <Header title="About" />
 
-        <ul>
-          <li>
-            <a href="https://ukpoms.org.uk">UK Pollinator Monitoring Scheme</a>
-          </li>
-          <li>
-            <a href="https://www.ris-ky.info/poms-ky">
-              Pollinator Monitoring Scheme Kýpros: PoMS-Ký
-            </a>
-          </li>
-          <li>
-            <a href="https://bee-surpass.org">
-              {' '}
-              Safeguarding Pollinators and Pollination Services in South
-              America: SURPASS2
-            </a>
-          </li>
-          <li>
-            <a href="https://pollinators.ie">All-Ireland Pollinator Plan</a>
-          </li>
-        </ul>
+      <Main>
+        <div className="app-logo-wrapper-no-background">
+          <img className="app-logo" src={appLogo} alt="appLogo" />
+        </div>
 
-        <P>
-          The FIT Count project is supported by the UK Centre for Ecology &
-          Hydrology and can be contacted{' '}
-          <a href="https://fitcount.ceh.ac.uk/contact">here</a>.
-        </P>
-      </Section>
-    </Main>
-  </Page>
-);
+        <Section>
+          <P>
+            The Flower-Insect Timed Count (FIT Count) is a 10-minute survey
+            designed to collect new data on numbers of flower-visiting insects.
+          </P>
+          <P>
+            FIT Counts are suitable for all, in urban or rural locations, and
+            can be done at any time during the FIT Count season – see the quick
+            guide <IonIcon icon={informationCircleOutline} /> for the season in
+            your country.
+          </P>
+          <P>
+            An increasing amount of evidence suggests that pollinator species
+            diversity has declined in many parts of the world, with the
+            strongest evidence coming from Europe and North America. Less is
+            known about changes in pollinator abundance, and we need much more
+            data to be able to track this. You can help by doing a FIT Count,
+            maybe even repeating it over the season. You don’t need to identify
+            the insects to species level, only to within broad groups e.g.
+            bumblebees, hoverflies, butterflies & moths, wasps.
+          </P>
+          <P>
+            The FIT Count was originally developed through the UK Pollinator
+            Monitoring Scheme (PoMS). Similar methods are now being adopted in
+            other countries, and this app is used by a wide range of pollinator
+            monitoring projects:
+          </P>
+
+          <ul>
+            <li>
+              <a href="https://ukpoms.org.uk">
+                UK Pollinator Monitoring Scheme
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ris-ky.info/poms-ky">
+                Pollinator Monitoring Scheme Kýpros: PoMS-Ký
+              </a>
+            </li>
+            <li>
+              <a href="https://bee-surpass.org">
+                {' '}
+                Safeguarding Pollinators and Pollination Services in South
+                America: SURPASS2
+              </a>
+            </li>
+            <li>
+              <a href="https://pollinators.ie">All-Ireland Pollinator Plan</a>
+            </li>
+          </ul>
+
+          <P>
+            The FIT Count project is supported by the UK Centre for Ecology &
+            Hydrology and can be contacted <a href={feedback}>here</a>.
+          </P>
+        </Section>
+      </Main>
+    </Page>
+  );
+};
 
 export default About;
