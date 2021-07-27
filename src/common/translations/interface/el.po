@@ -1813,7 +1813,7 @@ msgid ""
 "other insects visiting the flowers). Just count them (or estimate them if "
 "there is a large number) and assign them all to this category."
 msgstr ""
-"Κατηγορία για έντομα με μήκος μικρότερο των <3 mm. Η αναγνώριση της ομάδας "
+"Κατηγορία για έντομα με μήκος μικρότερο των 3 mm. Η αναγνώριση της ομάδας "
 "αυτής είναι δύσκολη αν δεν γίνει παρατήρηση από κοντινή απόσταση (αυτό "
 "μπορεί να ενοχλήσει άλλα έντομα) - μετρήστε τα (ή υπολογίστε τα εάν ο "
 "αριθμός τους είναι μεγάλος) και καταγράψτε τα όλα σε αυτή την κατηγορία."
@@ -1983,7 +1983,7 @@ msgstr "Κολεόπτερα- Σκαθάρια"
 
 # Id guide label
 msgid "Small insects (<3mm)"
-msgstr "Μικρά έντομα (<3mm)"
+msgstr "Έντομα μικρότερα από 3mm"
 
 # Id guide label
 msgid "Other insects"
