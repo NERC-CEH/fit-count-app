@@ -63,15 +63,6 @@
     "UK": true
   },
   {
-    "warehouseId": 13569,
-    "value": "Other",
-    "UK": true,
-    "CYP": true,
-    "ARG": true,
-    "BRAZIL": true,
-    "CHILE": true
-  },
-  {
     "warehouseId": 18785,
     "value": "Botanical garden",
     "CYP": true
@@ -110,5 +101,14 @@
     "warehouseId": 18792,
     "value": "Roadside verges",
     "CYP": true
+  },
+  {
+    "warehouseId": 13569,
+    "value": "Other",
+    "UK": true,
+    "CYP": true,
+    "ARG": true,
+    "BRAZIL": true,
+    "CHILE": true
   }
 ]
