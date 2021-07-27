@@ -218,8 +218,12 @@ const survey = {
 
     habitat: {
       type: 'radio',
-      componentProps: {
-        options: habitatValues,
+      componentProps() {
+        const { country } = appModel.attrs;
+        const byCountry = sp => sp[country];
+        const options = habitats.filter(byCountry).map(intoSelectValue);
+
+        return { options };
       },
       remote: {
         id: isProd ? 1048 : 1508,

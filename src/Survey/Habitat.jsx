@@ -131,7 +131,7 @@ class Habitat extends React.Component {
 
           <Attr
             component={attr.type}
-            componentProps={attr.componentProps}
+            componentProps={attr.componentProps()}
             onChange={this.onValueChange}
             value={value}
           />
