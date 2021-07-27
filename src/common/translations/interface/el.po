@@ -1,13 +1,14 @@
 # 
 # Translators:
-# Karolis, 2021
 # POMS CYPRUS <pomscyprus@gmail.com>, 2021
+# Vilius Stankaitis <vilius@flumens.io>, 2021
 # Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Greek (https://www.transifex.com/ceh/teams/116172/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +35,7 @@ msgid ""
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
 "Η Χρονομετρημένη Καταμέτρηση Φυτών-Εντόμων (FIT Count), έχεις ως σκοπό τη "
-"συλλογή δεδομένων για τους επικονιαστές, Διαρκεί 10 λεπτά."
+"συλλογή δεδομένων για τους επικονιαστές. Διαρκεί 10 λεπτά."
 
 # Menu page content
 msgid "Info"
@@ -66,13 +67,13 @@ msgstr "Χώρα"
 
 # Menu page content
 msgid "Share App Analytics"
-msgstr "Ενημερώστε μας για τυχόν σφάλματα της εφαρμογής "
+msgstr "Κοινοποίηση των App Analytics"
 
 # Menu page content
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
 "Μοιραστείτε τα δεδομένα που συλλέξατε μαζί μας, για να κάνουμε την εφαρμογή "
-"πιο αξιόπιστη"
+"πιο αξιόπιστη."
 
 # Credits page content
 msgid "We are grateful to all the people who helped to create this app:"
@@ -120,11 +121,11 @@ msgstr "Ηνωμένο Βασίλειο"
 
 # Home page toolbar label
 msgid "Home"
-msgstr "Κεντρική σελίδα"
+msgstr "HΟΜΕ"
 
 # Home page button label
 msgid "Start Survey"
-msgstr "Αρχίστε την καταγραφή"
+msgstr "ΑΡΧΙΣΤΕ"
 
 # Start survey alert message
 msgid "Discard"
@@ -176,15 +177,18 @@ msgid ""
 "results will be visible to others at the 1 km square level via the UKPoMS "
 "website.</p></3>"
 msgstr ""
-"Βρείτε την τοποθεσία σας στο χάρτη με GPS  <1> τοποθεσία  </1>. <3> <p> Η "
-"τοποθεσία αυτή μπορεί να είναι οπουδήποτε, αρκεί να υπάρχουν άνθη για τους "
-"επικονιαστές, να είναι ασφαλής και προσβάσιμη. </p> <p> Ένα πάρκο, ο κήπος "
-"σας, μια καλλιέργεια ή μια φυσική περιοχή, είναι εξαιρετικές τοποθεσίες για "
-"να κάνετε FIT Counts. </p> <p> Κάντε μεγέθυνση στο σημείο που βρίσκεστε. "
-"</p> <p> Βεβαιωθείτε ότι έχετε ενεργοποιήσει το GPS  και έχετε δώσει το "
-"δικαίωμα εντοπισμού των συντεταγμένων. Τα αποτελέσματα από τις καταγραφές "
-"που θα κάνετε, θα είναι ορατά σε άλλους, σε επίπεδο 1 km², μέσω της "
-"ιστοσελίδας του Ris-ký </p> </3>"
+"Ενεργοποιήστε το GPS σας για να ορίσετε την τοποθεσία σας ή κάντε μεγέθυνση "
+"στο χάρτη και πατήστε στην <1> τοποθεσία  </1> σας. <3> <p> Η τοποθεσία αυτή"
+" μπορεί να είναι οπουδήποτε, αρκεί να υπάρχουν άνθη για τους επικονιαστές, "
+"να είναι ασφαλής και προσβάσιμη. </p> <p> Ένα πάρκο, ο κήπος σας, μια "
+"καλλιέργεια ή μια φυσική περιοχή, είναι εξαιρετικές τοποθεσίες για να κάνετε"
+" FIT Counts. </p> <p> Κάντε μεγέθυνση στο σημείο που βρίσκεστε. </p> <p> "
+"Βεβαιωθείτε ότι έχετε ενεργοποιήσει το GPS και έχετε δώσει το δικαίωμα "
+"εντοπισμού των συντεταγμένων. Εάν βρίσκεστε εκτός σύνδεσης, η εφαρμογή δεν "
+"θα βρει την τοποθεσία σας στον χάρτη. Σημειώστε τις συντεταγμένες σας και "
+"καταχωρίστε τις αργότερα. </p> <p>Τα αποτελέσματα από τις καταγραφές που θα "
+"κάνετε, θα είναι ορατά σε άλλους, σε επίπεδο 1 km², μέσω της ιστοσελίδας του"
+" Ris-ký. </p> </3>"
 
 # Survey Location alert messag
 msgid "Please select a more accurate location"
@@ -481,7 +485,7 @@ msgstr ""
 
 # Settings page label
 msgid "Logout"
-msgstr "Αποσύνδεση"
+msgstr "ΑΠΟΣΥΝΔΕΣΗ"
 
 # Settings page label
 msgid "Login"
@@ -679,11 +683,11 @@ msgstr "Πλουμπάγο η ωτοειδής"
 
 # Survey species selection page species list
 msgid "Narrow-leaved Viper’s-bugloss"
-msgstr ""
+msgstr "Έχιουμ ή Έχιο"
 
 # Survey species selection page species list
 msgid "Milk Thistle"
-msgstr ""
+msgstr "Γαϊδουράγκαθο"
 
 # Survey species selection page read more message
 msgid ""
@@ -748,9 +752,9 @@ msgid ""
 "flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
 " unit</3></5></5>"
 msgstr ""
-"<1> Πόσα </1> και τι <3> τύπο </3> έχουν τα άνθη του φυτού που επιλέξατε, "
-"μέσα στο πλαίσιο; <5> <p> Ο αριθμός των ανθέων, ενδέχεται να σχετίζετε με "
-"τον αριθμό των εντόμων που καταγράφετε, επομένως είναι σημαντικό να "
+"Τι<1> τύπο</1> έχουν τα άνθη του φυτού που επιλέξατε, και  <3> πόσα</3> "
+"είναι μέσα στο πλαίσιο; <5> <p> Ο αριθμός των ανθέων, ενδέχεται να σχετίζετε"
+" με τον αριθμό των εντόμων που καταγράφετε, επομένως είναι σημαντικό να "
 "αναφέρετε τον αριθμό των ανθέων που βρίσκονται μέσα στο πλαίσιο. </p> <p> "
 "Μετρήστε μόνο τα φρέσκα άνθη, αυτά προσελκύουν τα έντομα. </p> <p> Τα άνθη "
 "πρέπει να μετρούνται ανάλογα με τη δομή που έχουν. </p> <p> Εάν έχετε "
@@ -811,7 +815,7 @@ msgstr "Για να διαγράψετε προηγούμενες καταγρα
 
 # My surveys page content info background message button
 msgid "Hide"
-msgstr "Κρύβω"
+msgstr "Παράβλεψη "
 
 # My surveys page content info background message
 msgid "You have no finished surveys."
@@ -892,7 +896,7 @@ msgstr ""
 "Στην περιοχή 50x50 cm, όπου περιλαμβάνεται το <1> φυτό-στόχο </1> : <3> <p> "
 "Ο περιβάλλον χώρος ενδέχεται να επηρεάσει την ελκυστικότητα των εντόμων. "
 "</p> <p> Επιλέξτε την κατηγορία στην οποία ταιριάζει περισσότερο η περιοχή "
-"που βρίσκεστε (5 μέτρα γύρω από το φυτό-στόχο) </p> </3>"
+"που βρίσκεστε (5 μέτρα γύρω από το φυτό-στόχο).</p> </3>"
 
 # Survey flower patch info button label
 msgid "READ MORE"
@@ -944,7 +948,7 @@ msgstr "Έντονη κίνηση των φύλλων"
 
 # Survey weather wind page button label
 msgid "Save my count"
-msgstr "Αποθήκευση καταμέτρησης"
+msgstr "ΑΠΟΘΗΚΕΥΣΗ"
 
 # Survey insect count page counter button label
 msgid "Paused"
@@ -1078,15 +1082,15 @@ msgstr ""
 
 # How To page content
 msgid "Fill in some simple weather details."
-msgstr "Συμπληρώστε μερικά στοιχεία για τον καιρό"
+msgstr "Συμπληρώστε μερικά στοιχεία για τον καιρό."
 
 # How To page content
 msgid "Save your count, and upload it to the website."
-msgstr "Αποθηκεύστε την καταμέτρησή σας και ανεβάστε την στο website"
+msgstr "Αποθηκεύστε την καταμέτρησή σας και ανεβάστε την στο website."
 
 # How To page content
 msgid "Further information and guides are available at"
-msgstr "Περισσότερες πληροφορίες και οδηγίες διατίθενται στη διεύθυνση:"
+msgstr "Περισσότερες πληροφορίες και οδηγίες διατίθενται στη διεύθυνση"
 
 # How To page content
 msgid ""
@@ -1095,7 +1099,7 @@ msgid ""
 msgstr ""
 "Η αναγνώριση των εντόμων γίνεται σε επίπεδο ευρύτερης  ομάδας (βομβίνος, "
 "μέλισσα, πεταλούδα κλπ.)- εάν το έντομο δεν υπάγεται σε κάποια από τις "
-"προτεινόμενες ομάδες, τοποθετείστε το στην κατηγορία  «Άλλο έντομο» "
+"προτεινόμενες ομάδες, τοποθετείστε το στην κατηγορία  «Άλλο έντομο» ."
 
 # How To page content
 msgid ""
@@ -1113,7 +1117,7 @@ msgid ""
 msgstr ""
 "Η αναγνώριση των εντόμων γίνεται σε επίπεδο ευρύτερης ομάδας (βομβίνος, "
 "μέλισσα, πεταλούδα κλπ.)- εάν το έντομο δεν υπάγεται σε κάποια από τις "
-"προτεινόμενες κατηγορίες, καταμετρήστε το ως «Άλλο έντομο» "
+"προτεινόμενες κατηγορίες, καταμετρήστε το ως «Άλλο έντομο» ."
 
 # Bumblebee screen 1 content
 msgid "Very hairy / fluffy bees"
@@ -1132,8 +1136,8 @@ msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
 msgstr ""
-"Πολλά είδη έχουν απλές,  χρωματικές ζώνες με αντιθέσεις (κίτρινα, λευκά, "
-"μαύρα), ενώ άλλα μπορεί να έχουν κοκκινωπό χρώμα παντού."
+"Πολλά είδη έχουν απλές ρίγες με χρωματικές αντιθέσεις (κίτρινο, λευκό, "
+"μαύρο), ενώ άλλα μπορεί να έχουν κοκκινωπό χρώμα παντού."
 
 # Bumblebee screen 1 content
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
@@ -1155,7 +1159,7 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
-"Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο βόμβο κατά τη διάρκεια της "
+"Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο ‘βόμβο’ κατά τη διάρκεια της "
 "πτήσης τους. Δεν αιωρούνται. Έχουν καταγραφεί 2 είδη στην Κύπρο, το Bombus "
 "niveatus (κοκκινωπή άκρη στην κοιλιά) και το Bombus terrestris (άσπρη άκρη "
 "στην κοιλιά)."
@@ -1189,7 +1193,7 @@ msgid ""
 msgstr ""
 "Οι μελιτοφόρες μέλισσες είναι μεγαλύτερες σε μέγεθος από τις περισσότερες "
 "(όχι όλες) μοναχικές μέλισσες, και μικρότερες από τους περισσότερους "
-"βομβίνους"
+"βομβίνους."
 
 # Honeybees screen 1 content
 msgid ""
@@ -1228,8 +1232,8 @@ msgstr "Συνήθως έχουν αρκετά επίμηκες σχήμα (υπ
 # Solitary bees screen 1 content
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
 msgstr ""
-"Συνήθως τριχωτά, αλλά συχνά το τρίχωμα είναι λιγότερο πυκνό από ότι στους "
-"βομβίνους"
+"Συνήθως είναι τριχωτά, αλλά συχνά το τρίχωμα είναι λιγότερο πυκνό από ότι "
+"στους βομβίνους"
 
 # Context term
 msgid "The timer will now start!"
@@ -1270,7 +1274,7 @@ msgid ""
 "small worker bumblebees"
 msgstr ""
 "Μικρότερες από τη βασίλισσα βομβίνο. Οι μεγαλύτερες σε μέγεθος μοναχικές "
-"μέλισσες, είναι μεγαλύτερες από τις μικρότερες εργάτριες βομβίνους."
+"μέλισσες, είναι μεγαλύτερες από τις μικρότερες εργάτριες βομβίνους"
 
 # Solitary bees screen 2 content
 msgid ""
@@ -1278,7 +1282,7 @@ msgid ""
 "the hind legs (see the mining bee on the left above)"
 msgstr ""
 "Ορισμένες μοναχικές μέλισσες συλλέγουν ξηρή γύρη στο καλαθάκι που "
-"σχηματίζεται στα πίσω τους πόδια (δείτε την εδαφόβια μέλισσα πάνω αριστερά)"
+"σχηματίζεται στα πίσω τους πόδια (μέλισσα πάνω αριστερά)"
 
 # Solitary bees screen 2 content
 msgid ""
@@ -1312,15 +1316,15 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
 msgstr ""
-"Δεν χρειάζεται να αναγνωρίσετε το είδος που ανήκουν οι μοναχικές μέλισσες "
-"όταν κάνετε FIT Count, απλά καταγράψτε τις στην κατηγορία \"Μοναχικές "
-"μέλισσες\"!"
+"Δεν χρειάζεται να αναγνωρίσετε το είδος στο οποίο ανήκουν οι μοναχικές "
+"μέλισσες όταν κάνετε FIT Count, απλά καταγράψτε τις στην κατηγορία "
+"\"Μοναχικές μέλισσες\"!"
 
 # Solitary bees screen 3 content
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
-"Οι μέλισσες του εδάφους (<i>γένος Andrena </i>) έχουν μαύρες και γκρι ρίγες."
+"Οι μέλισσες του εδάφους (<i>γένος Andrena</i>) έχουν μαύρες και γκρι ρίγες."
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1331,8 +1335,7 @@ msgstr ""
 "Οι μέλισσες του γένους <i> Nomada </i> μοιάζουν πολύ με σφήκες, με τη "
 "διαφορά ότι έχουν τρίχες-μέλισσας. Οι περισσότερες μέλισσες αυτού του γένους"
 " έχουν όμοιο σχήμα και οι χρωματισμοί τους είναι συνδυασμοί του μαύρου, του "
-"κόκκινου και του κίτρινου. Αυτό το είδος δεν ανήκει στην εντομοπανίδα της "
-"Κύπρου (παράδειγμα από το Η.Β.)."
+"κόκκινου και του κίτρινου (παράδειγμα από το Η.Β.)"
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1348,10 +1351,8 @@ msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
-"Στα τέλη του καλοκαιριού, οι μέλισσες του γένους Colletes επισκέπτονται τα "
-"άνθη του κισσού- έχουν ευδιάκριτες μαύρες και κίτρινες ρίγες στην κοιλιά. "
-"Αυτό το είδος (<i>Colletes hederae</i>) δεν ανήκει στην εντομοπανίδα της "
-"Κύπρου (παράδειγμα από το Η.Β.)"
+"Οι μέλισσες του γένους <i> Colletes </i> έχουν ευδιάκριτες μαύρες και "
+"κίτρινες ρίγες στην κοιλιά (παράδειγμα από το Η.Β.)"
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
@@ -1363,7 +1364,7 @@ msgid ""
 "furry compared to bees"
 msgstr ""
 "Έχουν τρίχες στο σώμα, ωστόσο το τρίχωμά τους είναι λιγότερο πυκνό από των "
-"μελισσών."
+"μελισσών"
 
 # Wasps screen 1 content
 msgid ""
@@ -1433,7 +1434,7 @@ msgstr ""
 
 # Wasps screen 3 content
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
-msgstr "Πολλές παρασιτικές σφήκες είναι μεγάλες σε μέγεθος και λεπτές."
+msgstr "Πολλές παρασιτικές σφήκες είναι μεγάλες σε μέγεθος και λεπτές"
 
 # Wasps screen 3 content
 msgid ""
@@ -1441,7 +1442,7 @@ msgid ""
 "individual segments"
 msgstr ""
 "Η πλειονότητα των ειδών, έχει μεγάλες κεραίες, οι οποίες αποτελούνται από "
-"πολλά μεμονωμένα τμήματα."
+"πολλά μεμονωμένα τμήματα"
 
 # Wasps screen 3 content
 msgid ""
@@ -1514,7 +1515,7 @@ msgid ""
 msgstr ""
 "Συνήθως δεν έχουν τόσο πυκνό τρίχωμα όσο οι μέλισσες (υπάρχουν κι "
 "εξαιρέσεις), ενώ το τρίχωμά τους μπορεί να μην είναι ευδιάκριτο (υπάρχουν "
-"εξαιρέσεις). "
+"εξαιρέσεις) "
 
 # Hoverflies screen 1 content
 msgid ""
@@ -1535,8 +1536,8 @@ msgstr ""
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr ""
-"Οι Drone-fly συρφίδες έχουν πολύ μικρότερες κεραίες από τις μέλισσες. Αυτό "
-"το είδος δεν ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από την Ελλάδα)"
+"Οι Drone-fly συρφίδες έχουν πολύ μικρότερες κεραίες από τις μέλισσες "
+"(παράδειγμα από το Η.Β.)"
 
 # Hoverflies screen 2 content
 msgid "The eyes cover more of the head"
@@ -1569,34 +1570,33 @@ msgid ""
 msgstr ""
 "Πολλές συρφίδες, έχουν χαρακτηριστικά μαύρα και κίτρινα στίγματα στο κορμί "
 "τους. Υπάρχει μεγάλη ποικιλία στο σχήμα και το μέγεθος διαφορετικών ειδών "
-"συρφίδες. Μερικά παραδείγματα φαίνονται πιο πάνω."
+"συρφίδες. Ένα παραδείγμα φαίνεται πιο πάνω."
 
 # Hoverflies screen 2 content
 msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
-"Τα Hornet Hoverflies (<i>Volucella zonaria </i>) αποτελούν τις μεγαλύτερες "
-"σε μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες "
-"κεραίες από εκείνες (παράδειγμα από την Ελληνική εντομοπανίδα)"
+"Τα Hornet Hoverflies (<i>Volucella zonaria </i>)είναι από τις μεγαλύτερες σε"
+" μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες κεραίες "
+"από εκείνες (παράδειγμα από την Ελληνική εντομοπανίδα)"
 
 # Hoverflies screen 3 content
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
-"Mερικά είδη έχουν επεκτείνει τις «μύτες». Αυτό είναι το <i> Rhingia "
-"campestris </i>, δεν ανήκει στην εντομοπανίδα της Κύπρου. Ανήκει στις "
-"συρφίδες και το κυριότερο χαρακτηριστικό του είναι η ‘μύτη’ (παράδειγμα από "
-"το Η.Β.).  "
+"Mερικά είδη έχουν επεκτείνει τις «μύτες»-αυτό είναι το <i>Rhingia "
+"campestris</i>, ένα κοινό είδος με απαλό γκρι και πορτοκαλί χρώμα "
+"(παράδειγμα από από το Η.Β.)."
 
 # Hoverflies screen 3 content
 msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
-"Ορισμένα είδη συρφίδων μιμούνται εξαιρετικά τους βομβίνους,- για να βρείτε "
-"τι έντομο είναι ελέγξτε προσεκτικά τις κεραίες!"
+"Ορισμένα είδη συρφίδων μιμούνται εξαιρετικά τους βομβίνους- για να βρείτε τι"
+" έντομο είναι ελέγξτε προσεκτικά τις κεραίες!"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1606,12 +1606,12 @@ msgid ""
 msgstr ""
 "Ορισμένα είδη είναι μικρά σε μέγεθος και έχουν σκούρο χρώμα, κοιτάξτε "
 "προσεχτικά τις πτέρυγες τους- θα πρέπει να έχουν τις χαρακτηριστικές "
-"νευρώσεις. Επιπλέον κατά τη διάρκεια της πτήσης θα αιωρούνται. "
+"νευρώσεις. Επιπλέον κατά τη διάρκεια της πτήσης θα αιωρούνται"
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
 msgstr ""
-"Αυτή είναι μια dance fly (οικογένεια Empididae) (φωτογραφία από το Η.Β.)"
+"Αυτή είναι μια dance fly (οικογένεια Empididae, φωτογραφία από το Η.Β.)"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a long thin proboscis under the head"
@@ -1630,7 +1630,7 @@ msgid ""
 " seen on hogweed and related flowers"
 msgstr ""
 "Αυτή είναι μια soldier fly, το Broad Centurion (<i>Chloromyia formosa</i>), "
-"που συχνά εμφανίζεται στα σκιαδανθή φυτά (φωτογραφία από το Η.Β.)"
+"που συχνά εμφανίζεται στα σκιαδανθή φυτά (παράδειγμα από το Η.Β.)"
 
 # Other flies screen 1 content
 msgid "The abdomen is broader and flatter than in hoverflies"
@@ -1662,7 +1662,7 @@ msgstr ""
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
 msgstr ""
-"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (φωτογραφία από"
+"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (παράδειγμα από"
 " το Η.Β.)"
 
 # Other flies screen 2 content
@@ -1672,8 +1672,8 @@ msgstr "Έχει ευδιάκριτες, σκληρές τρίχες (ακίδε
 # Other flies screen 2 content
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
 msgstr ""
-"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae) (φωτογραφία από το"
-" Η.Β.)"
+"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae, παράδειγμα από το "
+"Η.Β.)"
 
 # Other flies screen 2 content
 msgid ""
@@ -1724,7 +1724,8 @@ msgstr ""
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
-msgstr "Hippotion celerio moth (μεγάλος σε μέγεθος σκώρος)"
+msgstr ""
+"Six-spot Burnet moth (μεγάλος σε μέγεθος σκώρος, παράδειγμα από το Η.Β.)"
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
@@ -1759,8 +1760,8 @@ msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
-"Αυτό το σκαθάρι είναι το Thick-kneed Flower Beetle (<i> Oedemera nobilis "
-"</i>) – τα αρσενικά έχουν παχιά πίσω πόδια"
+"Αυτό το σκαθάρι είναι το Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>)"
+" – τα αρσενικά έχουν παχιά πίσω πόδια"
 
 # Beetles 1 screen content
 msgid ""
@@ -1793,8 +1794,8 @@ msgstr ""
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
 msgstr ""
-"Πιο κάτω μπορείτε να δείτε δύο ακόμα παραδείγματα απο σκαθάρια που ενδέχεται"
-" να συναντήσετε πάνω σε άνθη"
+"Πιο πάτω μπορείτε να δείτε δύο ακόμα παραδείγματα από σκαθάρια που ενδέχεται"
+" να συναντήσετε πάνω σε άνθη."
 
 # Small insect 1 screen content
 msgid ""
@@ -1812,10 +1813,10 @@ msgid ""
 "other insects visiting the flowers). Just count them (or estimate them if "
 "there is a large number) and assign them all to this category."
 msgstr ""
-"Kατηγορία για έντομα με μήκος μικρότερο των <3 mm. Η αναγώριση της ομάδας "
-"αυτής είναι δύσκολη αν δεν γίνει με προσοχή (αυτό μπορεί να ενοχλήσει άλλα "
-"έντομα)- μετρήστε τα (ή υπολογίστε τα εάν ο αριθμός τους είναι μεγάλος) και "
-"καταγράψτε τα όλα στην κατηγορία <3mm."
+"Κατηγορία για έντομα με μήκος μικρότερο των <3 mm. Η αναγνώριση της ομάδας "
+"αυτής είναι δύσκολη αν δεν γίνει παρατήρηση από κοντινή απόσταση (αυτό "
+"μπορεί να ενοχλήσει άλλα έντομα) - μετρήστε τα (ή υπολογίστε τα εάν ο "
+"αριθμός τους είναι μεγάλος) και καταγράψτε τα όλα σε αυτή την κατηγορία."
 
 # Other insect 1 screen content
 msgid ""
@@ -1843,7 +1844,8 @@ msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
 "Συνήθως είναι αρκετά αργά και η πτήση τους είναι ασθενέστερη σε σύγκριση με "
-"εκείνη των μελισσών και των σφηκών "
+"εκείνη των μελισσών και των σφηκών (παράδειγμα από την εντομοπανίδα της "
+"Αγγλίας)"
 
 # Other insect 1 screen content
 msgid ""
@@ -1854,11 +1856,11 @@ msgid ""
 "“other insects”. Sawflies are related to bees and wasps but there are a "
 "number of differences."
 msgstr ""
-"Κατηγορία  για έντομα που δεν υπάγονται σε κάποια από τις υπόλοιπες "
+"Κατηγορία για έντομα που δεν υπάγονται σε κάποια από τις υπόλοιπες "
 "κατηγορίες ή  για έντομα που δυσκολεύεστε να αναγνωρίσετε. Μετρήστε όλα τα "
 "έντομα που βλέπετε και χρησιμοποιήστε την κατηγορία \"Άλλα έντομα\" για όσα "
 "δεν μπορείτε να αναγνωρίσετε. Τα σύμφυτα υμενόπτερα σχετίζονται με τις "
-"μέλισσες και τις σφήκες, αλλά υπάρχουν αρκετές διάφορες"
+"μέλισσες και τις σφήκες, αλλά έχουν αρκετές διάφορες."
 
 # Other insect 2 screen content
 msgid ""
@@ -1872,7 +1874,7 @@ msgid ""
 "abdomen, and adding to the X-shape effect"
 msgstr ""
 "Ορισμένα ημίπτερα έχουν περισσότερο ή λιγότερο τριγωνικό “θυρεό”- αυτό "
-"καλύπτει μέρος της κοιλιάς και προσθέτει στο εφέ του σχήματος Χ."
+"καλύπτει μέρος της κοιλιάς και προσθέτει στο εφέ του σχήματος Χ"
 
 # Other insect 2 screen content
 msgid ""
@@ -1897,7 +1899,7 @@ msgid ""
 msgstr ""
 "Τα ημίπτερα δεν επισκέπτονται συχνά τα άνθη, εάν τα συναντήσετε, "
 "καταμετρήστε τα στην κατηγορία \"Άλλα έντομα\". Μερικές φορές μπορεί να "
-"μπερδευτούν με τα σκαθάρια"
+"μπερδευτούν με τα σκαθάρια."
 
 # From survey pages
 msgid "Other"
@@ -1945,7 +1947,7 @@ msgstr "Είστε βέβαιοι ότι θέλετε να αποσυνδεθε�
 
 # Logout message
 msgid "Discard local data"
-msgstr "Απόρριψη δεδομένων αναφορικά με την τοποθεσία"
+msgstr "Απόκρυψη τοποθεσίας"
 
 # Id guide label
 msgid "Bumblebees"
@@ -2009,11 +2011,11 @@ msgstr "Καταμέτρηση"
 
 # Survey back button label
 msgid "Cover"
-msgstr "Φυτοκάλυψη"
+msgstr "ΚΑΛΥΨΗ"
 
 # Survey back button label
 msgid "Patch"
-msgstr "Μέσα στην περιοχή 50x50cm (πλαίσιο)"
+msgstr "ΣΤΟ ΠΛΑΙΣΙΟ"
 
 # Survey back button label
 msgid "Sky"
@@ -2120,7 +2122,7 @@ msgstr "Έντομα"
 
 # A label part of user surveys page
 msgid "Survey"
-msgstr "Παρακολούθηση"
+msgstr "Καταγραφή"
 
 # Survey upload process alert message
 msgid "Sorry, your account hasn't been verified yet or is blocked."
@@ -2324,15 +2326,15 @@ msgid ""
 "the hind legs (bee on the left above)"
 msgstr ""
 "Ορισμένες μοναχικές μέλισσες συλλέγουν ξηρή γύρη στο καλαθάκι που "
-"σχηματίζεται στα πίσω τους πόδια (δείτε την εδαφόβια μέλισσα πάνω αριστερά)"
+"σχηματίζεται στα πίσω τους πόδια (μέλισσα πάνω αριστερά)"
 
 # caption_2
 msgid ""
 "Others have the pollen basket underneath their abdomen (bee on the right "
 "above)"
 msgstr ""
-"Ορισμένα είδη έχουν το καλαθάκι συλλογής γύρης κάτω από την κοιλιά (δείτε τη"
-" μέλισσα φυλλοκόπτη, πάνω δεξιά)"
+"Ορισμένα είδη έχουν το καλαθάκι συλλογής γύρης κάτω από την κοιλιά (μέλισσα "
+"πάνω δεξιά)"
 
 # caption_1
 msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
@@ -2351,7 +2353,7 @@ msgstr ""
 "διαφορά ότι έχουν τρίχες-μέλισσας. Οι περισσότερες μέλισσες αυτού του γένους"
 " έχουν όμοιο σχήμα και οι χρωματισμοί τους είναι συνδυασμοί του μαύρου, του "
 "κόκκινου και του κίτρινου. Αυτό το είδος δεν ανήκει στην εντομοπανίδα της "
-"Κύπρου (παράδειγμα από το Η.Β.)."
+"Κύπρου (παράδειγμα από το Η.Β.)"
 
 # caption_3
 msgid ""
@@ -2369,11 +2371,8 @@ msgid ""
 "on the abdomen. This species is not belonging to the biodiversity of Cyprus "
 "(example from the entomofauna of UK)"
 msgstr ""
-"Οι μέλισσες του γένους <i> Nomada </i> μοιάζουν πολύ με σφήκες, με τη "
-"διαφορά ότι έχουν τρίχες-μέλισσας. Οι περισσότερες μέλισσες αυτού του γένους"
-" έχουν όμοιο σχήμα και οι χρωματισμοί τους είναι συνδυασμοί του μαύρου, του "
-"κόκκινου και του κίτρινου. Αυτό το είδος δεν ανήκει στην εντομοπανίδα της "
-"Κύπρου (παράδειγμα από το Η.Β.)."
+"Οι μέλισσες του γένους <i> Colletes </i> έχουν ευδιάκριτες μαύρες και "
+"κίτρινες ρίγες στην κοιλιά (παράδειγμα από το Η.Β.)"
 
 # caption_3
 msgid ""
@@ -2397,8 +2396,8 @@ msgid ""
 " is not belonging to the biodiversity of Cyprus (example from the "
 "entomofauna of Greece) "
 msgstr ""
-"Οι Drone-fly συρφίδες έχουν πολύ μικρότερες κεραίες από τις μέλισσες. Αυτό "
-"το είδος δεν ανήκει στην εντομοπανίδα της Κύπρου (παράδειγμα από την Ελλάδα)"
+"Οι Drone-fly συρφίδες έχουν πολύ μικρότερες κεραίες από τις μέλισσες "
+"(παράδειγμα από το Η.Β.)"
 
 # caption_1
 msgid ""
@@ -2406,7 +2405,7 @@ msgid ""
 "is a good mimic of hornets, but note the short antennae (example from the "
 "entomofauna of Greece)"
 msgstr ""
-"Τα Hornet Hoverflies (<i>Volucella zonaria </i>) αποτελούν τις μεγαλύτερες "
+"Τα Hornet Hoverflies (<i>Volucella zonaria </i>) είναι από τις μεγαλύτερες "
 "σε μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες "
 "κεραίες από εκείνες (παράδειγμα από την Ελληνική εντομοπανίδα)"
 
@@ -2416,15 +2415,14 @@ msgid ""
 "taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
 "The compound eyes have five distinct, vertical, dark stripes. "
 msgstr ""
-"Mερικά είδη έχουν επεκτείνει τις «μύτες». Αυτό είναι το <i> Rhingia "
-"campestris </i>, δεν ανήκει στην εντομοπανίδα της Κύπρου. Ανήκει στις "
-"συρφίδες και το κυριότερο χαρακτηριστικό του είναι η ‘μύτη’ (παράδειγμα από "
-"το Η.Β.).  "
+"Mερικά είδη έχουν επεκτείνει τις «μύτες»-αυτό είναι το <i>Rhingia "
+"campestris</i>, ένα κοινό είδος με απαλό γκρι και πορτοκαλί χρώμα "
+"(παράδειγμα από από το Η.Β.)."
 
 # caption_1
 msgid "This is a dance fly (family Empididae). "
 msgstr ""
-"Αυτή είναι μια dance fly (οικογένεια Empididae) (φωτογραφία από το Η.Β.)"
+"Αυτή είναι μια dance fly (οικογένεια Empididae, φωτογραφία από το Η.Β.)"
 
 # caption_1
 msgid ""
@@ -2439,15 +2437,15 @@ msgid ""
 " seen on flowers. This species is not belonging to the biodiversity of "
 "Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτή είναι μια soldier fly, το Broad Centurion (<i>Chloromyia formosa </i>),"
-" που συχνά εμφανίζεται στα σκιαδανθή φυτά (φωτογραφία από το Η.Β.)"
+"Αυτή είναι μια soldier fly, το Broad Centurion (<i>Chloromyia formosa</i>), "
+"που συχνά εμφανίζεται στα σκιαδανθή φυτά (παράδειγμα από το Η.Β.)"
 
 # caption_1
 msgid ""
 "This is a parasitic fly from family Tachinidae. This species is not "
 "belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (φωτογραφία από"
+"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (παράδειγμα από"
 " το Η.Β.)"
 
 # caption_3
@@ -2455,7 +2453,7 @@ msgid ""
 "This is the Yellow Dung-fly (family Scathophagidae). This species is not "
 "belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae) (φωτογραφία από το"
+"Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae, παράδειγμα  από το"
 " Η.Β.)"
 
 # caption_1
@@ -2464,7 +2462,8 @@ msgstr ""
 
 # caption_1
 msgid "Six-spot Burnet moth (a macro-moth) (UK example shown)"
-msgstr "Hippotion celerio moth (μεγάλος σε μέγεθος σκώρος)"
+msgstr ""
+"Six-spot Burnet moth (μεγάλος σε μέγεθος σκώρος, παράδειγμα από το Η.Β.)"
 
 # caption_2
 msgid "Micro-moths"
@@ -2475,14 +2474,17 @@ msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer (UK example shown)"
 msgstr ""
-"Τα κόκκινα σκαθάρια (<i> Rhagonycha fulva </i>) έχουν μαύρες άκρες στα "
-"έλυτρα- είναι πολυάριθμα πάνω στα λουλούδια προς τα μέσα του καλοκαιριού "
+"Τα κόκκινα σκαθάρια (<i>Rhagonycha fulva</i>) έχουν μαύρες άκρες στα έλυτρα-"
+" είναι πολυάριθμα πάνω στα λουλούδια προς τα μέσα του καλοκαιριού "
 
 # caption_2
 msgid ""
 "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
 "large nocturnal species - larvae live in decaying wood "
 msgstr ""
+"Αυτό το κιτρινόμαυρο σκαθάρι (<i>Chlorophorus sp.</i>) με μακριές κεραίες, "
+"είναι ένα μεγάλου μεγέθους σκαθάρι - οι προνύμφες ζουν σε αποσυντιθέμενο "
+"ξύλο."
 
 # caption_1
 msgid ""
@@ -2499,4 +2501,5 @@ msgid ""
 "(UK example shown)"
 msgstr ""
 "Συνήθως είναι αρκετά αργά και η πτήση τους είναι ασθενέστερη σε σύγκριση με "
-"εκείνη των μελισσών και των σφηκών "
+"εκείνη των μελισσών και των σφηκών (παράδειγμα από την εντομοπανίδα της "
+"Αγγλίας)"
