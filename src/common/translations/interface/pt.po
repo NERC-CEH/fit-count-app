@@ -2102,3 +2102,70 @@ msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps "
 "(UK example shown)"
 msgstr ""
+
+# caption_2
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours (UK example shown) "
+msgstr ""
+
+# caption_4
+msgid ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen (UK example shown)"
+msgstr ""
+
+# caption_1
+msgid ""
+"Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
+"shown) "
+msgstr ""
+
+# caption_1
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
+"hoverfly species and is a good mimic of hornets, but note the short antennae"
+" (example from Greece shown) "
+msgstr ""
+
+# caption_2
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour (UK example "
+"shown"
+msgstr ""
+
+# caption_1
+msgid "This is a dance fly (family Empididae, photo from the UK)"
+msgstr ""
+
+# caption_4
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers (UK example shown)"
+msgstr ""
+
+# caption_1
+msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
+msgstr ""
+
+# caption_3
+msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
+msgstr ""
+
+# caption_1
+msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
+msgstr ""
+
+# caption_1
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer "
+msgstr ""
+
+# caption_2
+msgid ""
+"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
+"– larvae live in decaying wood"
+msgstr ""
