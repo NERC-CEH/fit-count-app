@@ -2,13 +2,13 @@
 # Translators:
 # POMS CYPRUS <pomscyprus@gmail.com>, 2021
 # Vilius Stankaitis <vilius@flumens.io>, 2021
-# Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
 # Karolis, 2021
+# Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021\n"
 "Language-Team: Greek (https://www.transifex.com/ceh/teams/116172/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,7 +81,7 @@ msgstr "Ευχαριστούμε όλους όσους βοήθησαν στη �
 
 # Credits page content
 msgid "App design concepts"
-msgstr ""
+msgstr "App design concepts"
 
 # Onboarding Page button label
 msgid "Got it!"
@@ -121,11 +121,11 @@ msgstr "Ηνωμένο Βασίλειο"
 
 # Home page toolbar label
 msgid "Home"
-msgstr "HΟΜΕ"
+msgstr "Home"
 
 # Home page button label
 msgid "Start Survey"
-msgstr "ΑΡΧΙΣΤΕ"
+msgstr "Αρχίστε"
 
 # Start survey alert message
 msgid "Discard"
@@ -351,7 +351,7 @@ msgstr "Πλήρες όνομα "
 
 # User registration page
 msgid "Email"
-msgstr "Hλεκτρονική Διεύθυνση Email"
+msgstr "Hλεκτρονική Διεύθυνση (Email)"
 
 # User registration page
 msgid "Password"
@@ -387,7 +387,7 @@ msgstr "Είσοδος"
 
 # User registration page
 msgid "How did you hear about us?"
-msgstr "Πως μάθατε για εμάς?"
+msgstr "Πως μάθατε για εμάς;"
 
 # User registration page
 msgid "Identification experience"
@@ -485,7 +485,7 @@ msgstr ""
 
 # Settings page label
 msgid "Logout"
-msgstr "ΑΠΟΣΥΝΔΕΣΗ"
+msgstr "Αποσύνδεση"
 
 # Settings page label
 msgid "Login"
@@ -571,39 +571,39 @@ msgstr "Πατήστε <1> </1> για προσθήκη."
 
 # Survey species selection page species list
 msgid "Dandelion"
-msgstr "Αναθρήκα, Fennel, Foeniculum vulgare"
+msgstr "Πικραλίδα"
 
 # Survey species selection page species list
 msgid "Buttercup"
-msgstr "Μερσινιά, Myrtle, Myrtus communis"
+msgstr "Bατράχιο"
 
 # Survey species selection page species list
 msgid "White Dead-nettle"
-msgstr "Ελιά, Olive, Olea europaea"
+msgstr "Νεκρός-Τσουκνίδα λευκή"
 
 # Survey species selection page species list
 msgid "Hawthorn"
-msgstr "Λαψάνα, White Mustard, Sinapis alba"
+msgstr "Κράταιγος"
 
 # Survey species selection page species list
 msgid "Lavender"
-msgstr "Ξισταριές, Rock-roses, Cistus spp."
+msgstr "Λεβάντα"
 
 # Survey species selection page species list
 msgid "Bramble"
-msgstr "Ανεμώνη, Anemone, Anemone coronaria"
+msgstr "Βάτος"
 
 # Survey species selection page species list
 msgid "Buddleja"
-msgstr "Χρυσάνθεμο, Chrysanthemum, Glebionis coronarium"
+msgstr "Βουδλέια Δαβίδειος"
 
 # Survey species selection page species list
 msgid "Heather"
-msgstr "Γιατρός, Tree Tobacco, Nicotiana glauca"
+msgstr "Ερείκη"
 
 # Survey species selection page species list
 msgid "Knapweed"
-msgstr "Γιασεμί το μεγανθές, Spanish Jasmine, Jasminum grandiflorum"
+msgstr "Κενταύρια"
 
 # Survey species selection page species list
 msgid "Hogweed"
@@ -611,19 +611,19 @@ msgstr "Λαντάνα η καμάρα, Common Lantana, Lantana camara "
 
 # Survey species selection page species list
 msgid "White Clover"
-msgstr "Ακακία, Acacia, Acacia saligna "
+msgstr "Λευκό τριφύλλι"
 
 # Survey species selection page species list
 msgid "Ragwort"
-msgstr "Ξινάκι, Bermuda buttercup, Oxalis pes-caprae "
+msgstr "Ιακώβαιο"
 
 # Survey species selection page species list
 msgid "Thistle"
-msgstr "Φραμός Αρκοτομαθκιά, African Boxthon, Lycium ferocissimum "
+msgstr "Γαϊδουράγκαθο"
 
 # Survey species selection page species list
 msgid "Ivy"
-msgstr "Πλουμπάγο η ωτοειδής, Blue Plumbago, Plumbago auriculata "
+msgstr "Κισσός"
 
 # Survey species selection page species list
 msgid "Fennel"
@@ -900,7 +900,7 @@ msgstr ""
 
 # Survey flower patch info button label
 msgid "READ MORE"
-msgstr "ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ"
+msgstr "Διαβάστε περισσότερα"
 
 # Survey flower patch "Read more" alert header text
 msgid "Flower patch"
@@ -948,7 +948,7 @@ msgstr "Έντονη κίνηση των φύλλων"
 
 # Survey weather wind page button label
 msgid "Save my count"
-msgstr "ΑΠΟΘΗΚΕΥΣΗ"
+msgstr "Αποθήκευση"
 
 # Survey insect count page counter button label
 msgid "Paused"
@@ -1014,7 +1014,7 @@ msgstr "Λυπάμαι"
 
 # User authentication toast message
 msgid "The user credentials were incorrect."
-msgstr "Οι πληροφορίες για το χρήστη είναι λανθασμένες"
+msgstr "Οι πληροφορίες για το χρήστη είναι λανθασμένες."
 
 # How To page content
 msgid "How To"
@@ -1060,7 +1060,7 @@ msgstr ""
 
 # How To page content
 msgid "Mark out a 50 × 50 cm patch containing your target."
-msgstr "Οριοθετείστε μια περιοχή 50 x 50 cm, χρησιμοποιώντας ένα πλαίσιο"
+msgstr "Οριοθετείστε μια περιοχή 50 x 50 cm, χρησιμοποιώντας ένα πλαίσιο."
 
 # How To page content
 msgid ""
@@ -1099,7 +1099,7 @@ msgid ""
 msgstr ""
 "Η αναγνώριση των εντόμων γίνεται σε επίπεδο ευρύτερης  ομάδας (βομβίνος, "
 "μέλισσα, πεταλούδα κλπ.)- εάν το έντομο δεν υπάγεται σε κάποια από τις "
-"προτεινόμενες ομάδες, τοποθετείστε το στην κατηγορία  «Άλλο έντομο» ."
+"προτεινόμενες ομάδες, τοποθετείστε το στην κατηγορία  «Άλλο έντομο»."
 
 # How To page content
 msgid ""
@@ -1117,7 +1117,7 @@ msgid ""
 msgstr ""
 "Η αναγνώριση των εντόμων γίνεται σε επίπεδο ευρύτερης ομάδας (βομβίνος, "
 "μέλισσα, πεταλούδα κλπ.)- εάν το έντομο δεν υπάγεται σε κάποια από τις "
-"προτεινόμενες κατηγορίες, καταμετρήστε το ως «Άλλο έντομο» ."
+"προτεινόμενες κατηγορίες, καταμετρήστε το ως «Άλλο έντομο»."
 
 # Bumblebee screen 1 content
 msgid "Very hairy / fluffy bees"
@@ -1137,7 +1137,7 @@ msgid ""
 "blacks), others can be ginger all over"
 msgstr ""
 "Πολλά είδη έχουν απλές ρίγες με χρωματικές αντιθέσεις (κίτρινο, λευκό, "
-"μαύρο), ενώ άλλα μπορεί να έχουν κοκκινωπό χρώμα παντού."
+"μαύρο), ενώ άλλα μπορεί να έχουν κοκκινωπό χρώμα παντού"
 
 # Bumblebee screen 1 content
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
@@ -1223,7 +1223,7 @@ msgid ""
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
 "Οι μοναχικές μέλισσες πετούν ανάμεσα στα λουλούδια κι απολαμβάνουν τον ήλιο."
-" Τα περισσότερα είδη δεν αιωρούνται. Υπάρχουν περίπου 369 είδη στην Κύπρο."
+" Τα περισσότερα είδη δεν αιωρούνται. Υπάρχουν περίπου 250 είδη στο Η.Β."
 
 # Solitary bees screen 1 content
 msgid "Usually quite elongate in shape (but there is lots of variety)"
@@ -1483,7 +1483,7 @@ msgid ""
 "small gap between the eyes at the top of the head in females"
 msgstr ""
 "Έχουν μεγάλους οφθαλμούς. Στα αρσενικά καλύπτουν ολόκληρη την κεφαλή, στα "
-"θηλυκά υπάρχει ένα μικρό κενό μεταξύ των οφθαλμών στην κορυφή του κεφαλιού. "
+"θηλυκά υπάρχει ένα μικρό κενό μεταξύ των οφθαλμών στην κορυφή του κεφαλιού"
 
 # Hoverflies screen 1 content
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
@@ -1530,8 +1530,8 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
 msgstr ""
-"Τρέφονται με νέκταρ και γύρη, αλλά δεν συλλέγουν νέκταρ και δεν έχουν "
-"καλαθάκι γύρης. Υπάρχουν καταγεγραμμένα περίπου 52 είδη στην Κύπρο."
+"Οι συρφίδες τρέφονται με νέκταρ και γύρη, αλλά δεν συλλέγουν νέκταρ και δεν "
+"έχουν καλαθάκι γύρης. Υπάρχουν καταγεγραμμένα περίπου 285 είδη στο Η.Β."
 
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
@@ -1577,9 +1577,9 @@ msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
-"Τα Hornet Hoverflies (<i>Volucella zonaria </i>)είναι από τις μεγαλύτερες σε"
-" μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες κεραίες "
-"από εκείνες (παράδειγμα από την Ελληνική εντομοπανίδα)"
+"Τα Hornet Hoverflies (<i>Volucella zonaria </i>) είναι από τις μεγαλύτερες "
+"σε μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες "
+"κεραίες από εκείνες (παράδειγμα από την Ελληνική εντομοπανίδα)"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1588,7 +1588,7 @@ msgid ""
 msgstr ""
 "Mερικά είδη έχουν επεκτείνει τις «μύτες»-αυτό είναι το <i>Rhingia "
 "campestris</i>, ένα κοινό είδος με απαλό γκρι και πορτοκαλί χρώμα "
-"(παράδειγμα από από το Η.Β.)."
+"(παράδειγμα από από το Η.Β.)"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1617,12 +1617,11 @@ msgstr ""
 msgid "Many dance flies have a long thin proboscis under the head"
 msgstr ""
 "Τα είδη της οικογένειας Empididae έχουν μια μακριά και λεπτή προβοσκίδα κάτω"
-" από το κεφάλι τους."
+" από το κεφάλι τους"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a distinctly humped thorax"
-msgstr ""
-"Πολλές dance flies έχουν μια ευδιάκριτη κύρτωση (καμπούρα) στο θώρακα."
+msgstr "Πολλές dance flies έχουν μια ευδιάκριτη κύρτωση (καμπούρα) στο θώρακα"
 
 # Other flies screen 1 content
 msgid ""
@@ -1681,7 +1680,7 @@ msgid ""
 "fluffy yellow hairs on the body"
 msgstr ""
 "Έχει  σκληρές τρίχες (ακίδες) στο σώμα και στα πόδια, τα αρσενικά έχουν "
-"πυκνές κίτρινες τρίχες στο σώμα τους."
+"πυκνές κίτρινες τρίχες στο σώμα τους"
 
 # Other flies screen 2 content
 msgid ""
@@ -1991,11 +1990,11 @@ msgstr "Άλλα έντομα"
 
 # Id guide label
 msgid "Bats"
-msgstr ""
+msgstr "Νυχτερίδες"
 
 # Id guide label
 msgid "Hummingbirds"
-msgstr ""
+msgstr "Κολιμπρί"
 
 # Survey back button label
 msgid "Insect"
@@ -2011,11 +2010,11 @@ msgstr "Καταμέτρηση"
 
 # Survey back button label
 msgid "Cover"
-msgstr "ΚΑΛΥΨΗ"
+msgstr "Κάλυψη"
 
 # Survey back button label
 msgid "Patch"
-msgstr "ΣΤΟ ΠΛΑΙΣΙΟ"
+msgstr "Στο πλαίσιο"
 
 # Survey back button label
 msgid "Sky"
@@ -2038,7 +2037,10 @@ msgid ""
 "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
 "insects per count."
-msgstr "Μετρήσατε συνολικά <1> {{numberOfOccurrences}} </1> έντομο/α."
+msgstr ""
+"Μετρήσατε συνολικά <1> {{numberOfOccurrences}} </1> έντομο/α - ο μέσος όρος "
+"στο Ηνωμένο Βασίλειο για το(ν) {{month}} είναι "
+"{{averageInsectCountForThisMonth}} έντομα ανά μέτρηση. "
 
 # Alert message at the end of survey - non UK
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
@@ -2294,7 +2296,7 @@ msgid ""
 " for your country, where available (e.g. <2>UK PoMS</2>)"
 msgstr ""
 "Για να δείτε τα δεδομένα του FIT Count σας μετά τη φόρτωση, επισκεφθείτε την"
-" ιστοσεχίδα μας (π.χ. <2> PoMS-Ký </2>)"
+" ιστοσελίδα μας (π.χ. <2>Ris-ký</2>)"
 
 # extraText
 msgid ""
@@ -2352,8 +2354,7 @@ msgstr ""
 "Οι μέλισσες του γένους <i> Nomada </i> μοιάζουν πολύ με σφήκες, με τη "
 "διαφορά ότι έχουν τρίχες-μέλισσας. Οι περισσότερες μέλισσες αυτού του γένους"
 " έχουν όμοιο σχήμα και οι χρωματισμοί τους είναι συνδυασμοί του μαύρου, του "
-"κόκκινου και του κίτρινου. Αυτό το είδος δεν ανήκει στην εντομοπανίδα της "
-"Κύπρου (παράδειγμα από το Η.Β.)"
+"κόκκινου και του κίτρινου (παράδειγμα από το Η.Β.)"
 
 # caption_3
 msgid ""
@@ -2422,7 +2423,7 @@ msgstr ""
 # caption_1
 msgid "This is a dance fly (family Empididae). "
 msgstr ""
-"Αυτή είναι μια dance fly (οικογένεια Empididae, φωτογραφία από το Η.Β.)"
+"Αυτή είναι μια dance fly (οικογένεια Empididae, φωτογραφία από το Η.Β.)."
 
 # caption_1
 msgid ""
@@ -2458,7 +2459,7 @@ msgstr ""
 
 # caption_1
 msgid "Painted Lady butterfly"
-msgstr ""
+msgstr "Painted Lady butterfly"
 
 # caption_1
 msgid "Six-spot Burnet moth (a macro-moth) (UK example shown)"
@@ -2484,7 +2485,7 @@ msgid ""
 msgstr ""
 "Αυτό το κιτρινόμαυρο σκαθάρι (<i>Chlorophorus sp.</i>) με μακριές κεραίες, "
 "είναι ένα μεγάλου μεγέθους σκαθάρι - οι προνύμφες ζουν σε αποσυντιθέμενο "
-"ξύλο."
+"ξύλο"
 
 # caption_1
 msgid ""
