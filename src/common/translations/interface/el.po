@@ -2502,8 +2502,7 @@ msgid ""
 "(UK example shown)"
 msgstr ""
 "Συνήθως είναι αρκετά αργά και η πτήση τους είναι ασθενέστερη σε σύγκριση με "
-"εκείνη των μελισσών και των σφηκών (παράδειγμα από την εντομοπανίδα της "
-"Αγγλίας)"
+"εκείνη των μελισσών και των σφηκών (παράδειγμα από το Η.Β.)"
 
 # caption_2
 msgid ""
@@ -2511,18 +2510,26 @@ msgid ""
 "they have bee-like hairs on part of their body, and most are similar in "
 "shape and with a mix of black, red and yellow colours (UK example shown) "
 msgstr ""
+"Οι μέλισσες του γένους <i>Nomada</i> μοιάζουν πολύ με σφήκες, με τη διαφορά "
+"ότι έχουν τρίχες-μέλισσας. Οι περισσότερες μέλισσες αυτού του γένους έχουν "
+"όμοιο σχήμα και οι χρωματισμοί τους είναι συνδυασμοί του μαύρου, του "
+"κόκκινου και του κίτρινου (παράδειγμα από το Η.Β.)"
 
 # caption_4
 msgid ""
 "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
 "on the abdomen (UK example shown)"
 msgstr ""
+"Οι μέλισσες του γένους <i>Colletes</i> έχουν ευδιάκριτες μαύρες και κίτρινες"
+" ρίγες στην κοιλιά (παράδειγμα από το Η.Β.)"
 
 # caption_1
 msgid ""
 "Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
 "shown) "
 msgstr ""
+"Οι Drone-fly συρφίδες έχουν πολύ μικρότερες κεραίες από τις μέλισσες "
+"(παράδειγμα από το Η.Β.)"
 
 # caption_1
 msgid ""
@@ -2530,6 +2537,9 @@ msgid ""
 "hoverfly species and is a good mimic of hornets, but note the short antennae"
 " (example from Greece shown) "
 msgstr ""
+"Οι Hornet Hoverfly (<i>Volucella zonaria</i>) είναι από τις μεγαλύτερες σε "
+"μέγεθος συρφίδες. Μιμούνται τις σφήκες, αλλά έχουν πολύ μικρότερες κεραίες "
+"από εκείνες (παράδειγμα από Ελληνική εντομοπανίδα)"
 
 # caption_2
 msgid ""
@@ -2537,37 +2547,51 @@ msgid ""
 " a widespread species with a distinctive grey and orange colour (UK example "
 "shown"
 msgstr ""
+"Mερικά είδη έχουν επεκτείνει τις «μύτες». Αυτό είναι το <i>Rhingia "
+"campestris</i>, ένα ευρέως διαδεδομένο είδος με διακριτικό γκρι και "
+"πορτοκαλί χρώμα  (παράδειγμα από Ελληνική εντομοπανίδα)."
 
 # caption_1
 msgid "This is a dance fly (family Empididae, photo from the UK)"
 msgstr ""
+"Αυτή είναι μια dance fly (οικογένεια Empididae, παράδειγμα από το Η.Β.)"
 
 # caption_4
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on flowers (UK example shown)"
 msgstr ""
+"Αυτή είναι μια soldier μύγα, το Broad Centurion (<i>Chloromyia formosa</i>),"
+" που συχνά εμφανίζεται στα σκιαδανθή φυτά (παράδειγμα από το Η.Β.)"
 
 # caption_1
 msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
 msgstr ""
+"Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae (παράδειγμα από"
+" το Η.Β.)"
 
 # caption_3
 msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
 msgstr ""
+"Αυτό είναι το κίτρινο dung-fly (οικογένεια Scathophagidae, παράδειγμα από το"
+" Η.Β.)"
 
 # caption_1
 msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
-msgstr ""
+msgstr "Ο σκώρος Six-spot Burnet (μεγάλος σε μέγεθος, παράδειγμα από Η.Β.)"
 
 # caption_1
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer "
 msgstr ""
+"Τα κόκκινα σκαθάρια (<i>Rhagonycha fulva</i>) έχουν μαύρες άκρες στα έλυτρα-"
+" είναι πολυάριθμα πάνω στα λουλούδια προς τα μέσα του καλοκαιριού "
 
 # caption_2
 msgid ""
 "Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
 "– larvae live in decaying wood"
 msgstr ""
+"Το κιτρινόμαυρο σκαθάρι (<i>Chlorophorus sp.</i>) είναι μεγάλο σε μεγέθος "
+"και έχει μακριές κεραίες, οι προνύμφες ζουν σε αποσυντιθέμενο ξύλο"
