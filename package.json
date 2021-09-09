@@ -57,7 +57,7 @@
     "@capacitor/ios": "2.4.7",
     "@flumens/fetch-onedrive-excel": "0.1.1",
     "@indicia-js/core": "5.4.0",
-    "@indicia-js/remote": "5.6.7",
+    "@indicia-js/remote": "5.6.8",
     "@ionic-native/core": "5.31.1",
     "@ionic/core": "5.6.3",
     "@ionic/react": "5.6.3",
