@@ -68,6 +68,7 @@ const intoSelectValue = val => ({
   ...val,
   id: val.warehouseId,
   photo: val.id,
+  value: val.value || val.name,
 });
 
 const flowerSelectionValues = flowers.map(intoSelectValue);
