@@ -111,7 +111,7 @@ const Credits = () => {
                 <li>Graham Johnstone</li>
                 <li>Kelly Martinou</li>
                 <li>Ioanna Angelidou</li>
-                <li>Varnava J. Andri</li>
+                <li>Andri J. Varnava</li>
                 <li>Jakovos Demetriou</li>
                 <li>David Navrátil & 8K postprocessing M.Hoskovec</li>
               </ul>
