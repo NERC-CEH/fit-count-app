@@ -114,6 +114,9 @@ const Credits = () => {
                 <li>Andri J. Varnava</li>
                 <li>Jakovos Demetriou</li>
                 <li>David Navrátil & 8K postprocessing M.Hoskovec</li>
+                <li>Gail Hampshire via Wikimedia</li>
+                <li>Malcolm Storey via BioImages</li>
+                <li>Trounce via Wikimedia</li>
               </ul>
             )}
             {isRestOfWorld && (
