@@ -1584,8 +1584,8 @@ msgid "The FIT Count was originally developed through the UK Pollinator Monitori
 msgstr "The FIT Count was originally developed through the UK Pollinator Monitoring Scheme (PoMS). Similar methods are now being adopted in other countries, and this app is used by a wide range of pollinator monitoring projects:"
 
 # About page content
-msgid "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <2>here</2>."
-msgstr "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <2>here</2>."
+msgid "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <1>here</1>."
+msgstr "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <1>here</1>."
 
 # Credits page content
 msgid "This app has been created by the"

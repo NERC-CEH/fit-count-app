@@ -2189,10 +2189,10 @@ msgstr ""
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
-"and can be contacted <2>here</2>."
+"and can be contacted <1>here</1>."
 msgstr ""
 "Το έργο FIT Count υποστηρίζεται από το Κέντρο Οικολογίας και Υδρολογίας του "
-"Ηνωμένου Βασιλείου - μπορείτε να επικοινωνήσετε <2> εδώ </2>."
+"Ηνωμένου Βασιλείου - μπορείτε να επικοινωνήσετε <1> εδώ </1>."
 
 # Credits page content
 msgid "This app has been created by the"

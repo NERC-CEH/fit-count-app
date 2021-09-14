@@ -2173,10 +2173,10 @@ msgstr ""
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
-"and can be contacted <2>here</2>."
+"and can be contacted <1>here</1>."
 msgstr ""
 "Mae'r prosiect Cyfrif FIT yn cael ei gefnogi gan Ganolfan Ecoleg a Hydroleg "
-"y DU, a gellir cysylltu â'r prosiect <2>yma</2>."
+"y DU, a gellir cysylltu â'r prosiect <1>yma</1>."
 
 # Credits page content
 msgid "This app has been created by the"

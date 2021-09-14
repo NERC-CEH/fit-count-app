@@ -1857,7 +1857,7 @@ msgstr ""
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
-"and can be contacted <2>here</2>."
+"and can be contacted <1>here</1>."
 msgstr ""
 
 # Credits page content
