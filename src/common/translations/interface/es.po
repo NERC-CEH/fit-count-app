@@ -2133,7 +2133,7 @@ msgstr ""
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour (UK example "
-"shown"
+"shown)"
 msgstr ""
 
 # caption_1

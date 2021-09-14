@@ -1793,10 +1793,8 @@ msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest hove
 msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest hoverfly species and is a good mimic of hornets, but note the short antennae (example from Greece shown) "
 
 # caption_2
-msgid "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour (UK example shown)
-"
-msgstr "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour (UK example shown)
-"
+msgid "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour (UK example shown)"
+msgstr "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour (UK example shown)"
 
 # caption_1
 msgid "This is a dance fly (family Empididae, photo from the UK)"

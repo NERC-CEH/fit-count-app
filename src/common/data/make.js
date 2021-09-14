@@ -47,6 +47,30 @@ function checkTranslationsExist(data, keysToCheck) {
   }
 }
 
+function checkHasNoTrailingWhiteSpace(data, keysToCheck) {
+  const missing = [];
+
+  const checkExists = sp => {
+    const checkKeyValyeExistsInTranslations = key => {
+      const text = sp[key];
+      if (
+        (typeof str === 'string' && /^[\n]/.test(text)) ||
+        /[\n]$/.test(text)
+      ) {
+        missing.push(text);
+        missing.push();
+      }
+    };
+    keysToCheck.forEach(checkKeyValyeExistsInTranslations);
+  };
+  data.forEach(checkExists);
+
+  if (missing.length) {
+    console.warn(`\n⛑  White space found:\n`);
+    console.warn('\x1b[45m', `${missing.join('\n\n')}\n`, '\x1b[0m');
+  }
+}
+
 const getData = async () => {
   let sheetData = await fetchSheet({ drive, file, sheet: 'insects' });
   saveSpeciesToFile(sheetData, 'insects');
@@ -62,6 +86,16 @@ const getData = async () => {
 
   sheetData = await fetchSheet({ drive, file, sheet: 'insect-guide-photos' });
   saveSpeciesToFile(sheetData, 'photos');
+  checkHasNoTrailingWhiteSpace(sheetData, [
+    'intro_text',
+    'caption_1',
+    'caption_2',
+    'caption_3',
+    'caption_4',
+    'caption_5',
+    'caption_6',
+    'extraText',
+  ]);
   checkTranslationsExist(sheetData, [
     'intro_text',
     'caption_1',
