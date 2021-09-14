@@ -2150,12 +2150,12 @@ msgstr "απαιτείται"
 # About page content
 msgid ""
 "FIT Counts are suitable for all, in urban or rural locations, and can be "
-"done at any time during the FIT Count season – see the quick guide <2></2> "
+"done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
 "Οι Χρονομετρημένες Καταγραφές Εντόμων  FIT Counts είναι κατάλληλες για όλες "
 "τις ηλικίες. Μπορούν να πραγματοποιηθούν ολόχρονα, στην πόλη ή στη εξοχή, "
-"όπου υπάρχουν ανθοφόρα φυτά. Στον σύντομο οδηγό<2></2>θα βρείτε περισσότερες"
+"όπου υπάρχουν ανθοφόρα φυτά. Στον σύντομο οδηγό<1></1>θα βρείτε περισσότερες"
 " πληροφορίες για την εποχή καταγραφής στην χώρα σας. "
 
 # About page content

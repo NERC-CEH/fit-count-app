@@ -1832,7 +1832,7 @@ msgstr ""
 # About page content
 msgid ""
 "FIT Counts are suitable for all, in urban or rural locations, and can be "
-"done at any time during the FIT Count season – see the quick guide <2></2> "
+"done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
 

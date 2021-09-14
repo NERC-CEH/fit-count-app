@@ -2132,12 +2132,12 @@ msgstr "obrigatório"
 # About page content
 msgid ""
 "FIT Counts are suitable for all, in urban or rural locations, and can be "
-"done at any time during the FIT Count season – see the quick guide <2></2> "
+"done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
 "FIT Counts são recomendados para todos, em áreas urbanas e rurais, e podem "
 "ser realizados a qualquer tempo dentro da estação FIT Count - veja o guia "
-"rápido <2></2> para saber qual a estação em seu país."
+"rápido <1></1> para saber qual a estação em seu país."
 
 # About page content
 msgid ""
