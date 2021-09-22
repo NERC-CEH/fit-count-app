@@ -71,10 +71,33 @@ function checkHasNoTrailingWhiteSpace(data, keysToCheck) {
   }
 }
 
+function checkImagesExist(data, path, fileNameProcess) {
+  const missing = [];
+  const checkImage = item => {
+    const fileName = fileNameProcess ? fileNameProcess(item) : `${item.id}.jpg`;
+    const imagePath = `${path}/${fileName}`;
+    const exists = fs.existsSync(imagePath);
+    if (!exists) {
+      missing.push(imagePath);
+    }
+  };
+  data.forEach(checkImage);
+
+  if (missing.length) {
+    console.warn(`\n⛑  Missing images:\n`);
+    console.warn('\x1b[43m', `${missing.join('\n')}\n`, '\x1b[0m');
+  }
+}
+
 const getData = async () => {
   let sheetData = await fetchSheet({ drive, file, sheet: 'insects' });
   saveSpeciesToFile(sheetData, 'insects');
   checkTranslationsExist(sheetData, ['name']);
+  checkImagesExist(
+    sheetData,
+    `${process.env.INIT_CWD}/src/common/data/thumbnails`,
+    ({ id }) => `${id}.png` // eslint-disable-line @getify/proper-arrows/name
+  );
 
   sheetData = await fetchSheet({ drive, file, sheet: 'habitats' });
   saveSpeciesToFile(sheetData, 'habitats');
@@ -83,6 +106,10 @@ const getData = async () => {
   sheetData = await fetchSheet({ drive, file, sheet: 'flowers' });
   saveSpeciesToFile(sheetData, 'flowers');
   checkTranslationsExist(sheetData, ['name', 'type']);
+  checkImagesExist(
+    sheetData,
+    `${process.env.INIT_CWD}/src/Survey/Flower/images`
+  );
 
   sheetData = await fetchSheet({ drive, file, sheet: 'insect-guide-photos' });
   saveSpeciesToFile(sheetData, 'photos');
@@ -106,6 +133,11 @@ const getData = async () => {
     'caption_6',
     'extraText',
   ]);
+  checkImagesExist(
+    sheetData,
+    `${process.env.INIT_CWD}/src/common/data/photos`,
+    ({ id, pictureId }) => `${id}_${pictureId}.jpg` // eslint-disable-line @getify/proper-arrows/name
+  );
 
   console.log('All done! 🚀');
 };
