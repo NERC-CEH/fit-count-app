@@ -75,10 +75,12 @@ class Guide extends React.Component {
 
     const bySortId = (a, b) => a.sort - b.sort;
     const byCountry = sp => sp[country];
+    const unknownEntry = sp => sp.id !== 'unknown';
 
     const speciesColumns = flowersOrInsectsData
       .sort(bySortId)
       .filter(byCountry)
+      .filter(unknownEntry)
       .map(this.getGridCell);
 
     return (

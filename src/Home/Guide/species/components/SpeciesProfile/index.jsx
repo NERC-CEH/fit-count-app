@@ -165,6 +165,10 @@ class SpeciesProfile extends React.Component {
     const { activeSlide } = this.state;
 
     const images = this.getImages();
+    if (!images.length) {
+      console.error("This species doesn't have any guide photos", species.id);
+      return null;
+    }
 
     return (
       <>

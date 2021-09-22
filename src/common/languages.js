@@ -10,7 +10,7 @@ const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   Object.assign(languages, {
     // es: 'Español',
-    // pt: 'Português',
+    pt: 'Português',
   });
 }
 

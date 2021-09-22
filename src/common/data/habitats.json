@@ -3,7 +3,8 @@
     "warehouseId": 13557,
     "value": "Garden",
     "UK": true,
-    "CYP": true
+    "CY": true,
+    "BR": true
   },
   {
     "warehouseId": 13558,
@@ -14,7 +15,8 @@
     "warehouseId": 13559,
     "value": "Parkland with trees",
     "UK": true,
-    "CYP": true
+    "CY": true,
+    "BR": true
   },
   {
     "warehouseId": 13560,
@@ -30,17 +32,20 @@
     "warehouseId": 13562,
     "value": "Grassland with wild flowers (e.g. meadow)",
     "UK": true,
-    "CYP": true
+    "CY": true,
+    "BR": true
   },
   {
     "warehouseId": 13563,
     "value": "Amenity grassland (usually mown short)",
-    "UK": true
+    "UK": true,
+    "BR": true
   },
   {
     "warehouseId": 13564,
     "value": "Farm crops or grassy pasture",
-    "UK": true
+    "UK": true,
+    "BR": true
   },
   {
     "warehouseId": 13565,
@@ -55,7 +60,8 @@
   {
     "warehouseId": 13567,
     "value": "Waste ground or brownfield site",
-    "UK": true
+    "UK": true,
+    "BR": true
   },
   {
     "warehouseId": 13568,
@@ -65,50 +71,63 @@
   {
     "warehouseId": 18785,
     "value": "Botanical garden",
-    "CYP": true
+    "CY": true,
+    "BR": true
   },
   {
     "warehouseId": 18786,
     "value": "Forest",
-    "CYP": true
+    "CY": true,
+    "BR": true
   },
   {
     "warehouseId": 18787,
     "value": "Cultivation",
-    "CYP": true
+    "CY": true
   },
   {
     "warehouseId": 18788,
     "value": "Salt marsh",
-    "CYP": true
+    "CY": true
   },
   {
     "warehouseId": 18789,
     "value": "Freshwater wetland",
-    "CYP": true
+    "CY": true,
+    "BR": true
   },
   {
     "warehouseId": 18790,
     "value": "Dry shrub",
-    "CYP": true
+    "CY": true
   },
   {
     "warehouseId": 18791,
     "value": "Acacia stands",
-    "CYP": true
+    "CY": true
   },
   {
     "warehouseId": 18792,
     "value": "Roadside verges",
-    "CYP": true
+    "CY": true
   },
   {
     "warehouseId": 13569,
     "value": "Other",
     "UK": true,
-    "CYP": true,
-    "ARG": true,
-    "BRAZIL": true,
-    "CHILE": true
+    "CY": true,
+    "BR": true
+  },
+  {
+    "value": "Caatinga",
+    "BR": true
+  },
+  {
+    "value": "Plantation florest",
+    "BR": true
+  },
+  {
+    "value": "Cerrado",
+    "BR": true
   }
 ]

@@ -118,7 +118,7 @@
     "sort": 15,
     "name": "Fennel",
     "scientificName": "Foeniculum vulgare",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "myrtle",
@@ -127,7 +127,7 @@
     "sort": 16,
     "name": "Myrtle",
     "scientificName": "Myrtus communis",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "olive",
@@ -136,7 +136,7 @@
     "sort": 17,
     "name": "Olive",
     "scientificName": "Olea europaea",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "whiteMustard",
@@ -145,7 +145,7 @@
     "sort": 18,
     "name": "White Mustard",
     "scientificName": "Sinapis alba",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "rockRose",
@@ -154,7 +154,7 @@
     "sort": 19,
     "name": "Rock-roses",
     "scientificName": "Cistus spp.",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "anemone",
@@ -163,7 +163,7 @@
     "sort": 20,
     "name": "Anemone",
     "scientificName": "Anemone coronaria",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "chrysanthemum",
@@ -172,7 +172,7 @@
     "sort": 21,
     "name": "Chrysanthemum",
     "scientificName": "Glebionis coronarium",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "tobacco",
@@ -181,7 +181,7 @@
     "sort": 22,
     "name": "Tree Tobacco",
     "scientificName": "Nicotiana glauca",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "jasmine",
@@ -190,7 +190,7 @@
     "sort": 23,
     "name": "Spanish Jasmine",
     "scientificName": "Jasminum grandiflorum",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "lantana",
@@ -199,7 +199,7 @@
     "sort": 24,
     "name": "Common Lantana",
     "scientificName": "Lantana camara",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "acacia",
@@ -208,7 +208,7 @@
     "sort": 25,
     "name": "Acacia",
     "scientificName": "Acacia saligna",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "bermudaButtercup",
@@ -217,7 +217,7 @@
     "sort": 26,
     "name": "Bermuda Buttercup",
     "scientificName": "Oxalis pes-caprae",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "boxthorn",
@@ -226,7 +226,7 @@
     "sort": 27,
     "name": "African Boxthorn",
     "scientificName": "Lycium ferocissimum",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "plumbago",
@@ -235,7 +235,7 @@
     "sort": 28,
     "name": "Blue Plumbago",
     "scientificName": "Plumbago auriculata",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "vipersBugloss",
@@ -244,7 +244,7 @@
     "sort": 29,
     "name": "Narrow-leaved Viper’s-bugloss",
     "scientificName": "Echium angustifolium",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "milkThistle",
@@ -253,7 +253,7 @@
     "sort": 30,
     "name": "Milk Thistle",
     "scientificName": "Silybum marianum ",
-    "CYP": true
+    "CY": true
   },
   {
     "id": "other",
@@ -261,9 +261,105 @@
     "sort": 31,
     "name": "Other",
     "UK": true,
-    "CYP": true,
-    "ARG": true,
-    "BRAZIL": true,
-    "CHILE": true
+    "CY": true,
+    "AR": true,
+    "BR": true,
+    "CL": true
+  },
+  {
+    "id": "oxalis",
+    "type": "Individual Flower",
+    "name": "Oxalis",
+    "BR": true
+  },
+  {
+    "id": "basil",
+    "type": "Spike",
+    "name": "Basil",
+    "BR": true
+  },
+  {
+    "id": "lantana",
+    "type": "Umbel",
+    "name": "Lantana",
+    "BR": true
+  },
+  {
+    "id": "anthurium",
+    "type": "Spike",
+    "name": "Anthurium",
+    "BR": true
+  },
+  {
+    "id": "calliandra",
+    "type": "Head",
+    "name": "Calliandra",
+    "BR": true
+  },
+  {
+    "id": "asteraceae",
+    "type": "Head",
+    "name": "Asteraceae (herbaceous)",
+    "BR": true
+  },
+  {
+    "id": "orchid",
+    "type": "Individual Flower",
+    "name": "Orchid",
+    "BR": true
+  },
+  {
+    "id": "cloverTrefoil",
+    "type": "Head",
+    "name": "Clover/Trefoil",
+    "BR": true
+  },
+  {
+    "id": "brazilianGrapeTree",
+    "type": "Head",
+    "name": "Brazilian grape tree/Jabuticaba",
+    "BR": true
+  },
+  {
+    "id": "acerolaCherry",
+    "type": "Individual Flower",
+    "name": "Acerola cherry",
+    "BR": true
+  },
+  {
+    "id": "wildPlantain",
+    "type": "Spike",
+    "name": "Wild plantain/Heliconia",
+    "BR": true
+  },
+  {
+    "id": "passionfruit",
+    "type": "Individual Flower",
+    "name": "Passionfruit",
+    "BR": true
+  },
+  {
+    "id": "sleepingHibiscus",
+    "type": "Individual Flower",
+    "name": "Sleeping hibiscus/Malvaviscus",
+    "BR": true
+  },
+  {
+    "id": "mimosa",
+    "type": "Head",
+    "name": "Mimosa",
+    "BR": true
+  },
+  {
+    "id": "bromeliads",
+    "type": "Spike",
+    "name": "Bromeliads",
+    "BR": true
+  },
+  {
+    "id": "ipe",
+    "type": "Umbel",
+    "name": "Ipe",
+    "BR": true
   }
 ]
