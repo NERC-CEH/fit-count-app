@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
-# BeeKeep Team <beekeep.science@gmail.com>, 2021
 # Karolis, 2021
+# BeeKeep Team <beekeep.science@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: BeeKeep Team <beekeep.science@gmail.com>, 2021\n"
 "Language-Team: Portuguese (https://www.transifex.com/ceh/teams/116172/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1571,7 +1571,7 @@ msgid ""
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
 "A mosca-vespa (<i>Volucella zonaria</i>) é nossa maior mosca-das-flores e "
-"mimetiza vespas, porém note que apresenta antenas curtas."
+"mimetiza vespas, porém note que apresenta antenas curtas"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1616,6 +1616,9 @@ msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
 msgstr ""
+"Esta é uma mosca-soldado, mosca-soldado-verde (<i>Chloromyia formosa</i>), "
+"frequentemente vista em plantas conhecidas como hogweed e em flores "
+"relacionadas."
 
 # Other flies screen 1 content
 msgid "The abdomen is broader and flatter than in hoverflies"
@@ -1707,7 +1710,7 @@ msgstr "Burnet-de-seis-pontos (uma macro-mariposa)"
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
-msgstr ""
+msgstr "Traça (uma micro-mariposa)"
 
 # Butterflies and moths 2 screen content
 msgid ""
@@ -1739,6 +1742,8 @@ msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
+"Este besouro é o besouro-de-patas-grossas (<i>Oedemera nobilis</i>), em que "
+"os machos têm patas traseiras espessas características"
 
 # Beetles 1 screen content
 msgid ""
@@ -1757,12 +1762,16 @@ msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
 msgstr ""
+"Besouro-soldado-vermelho (<i>Rhagonycha fulva</i>) com pontas pretas nas "
+"asas - muito abundante em flores no meio do verão"
 
 # Beetles 2 screen content
 msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
 msgstr ""
+"Escaravelho-longicórnio-maculata (<i>Rutpela maculata</i>), um grande "
+"besouro 1 – as larvas vivem na madeira em decomposição"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
@@ -1796,16 +1805,20 @@ msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
+"Outros insetos que você pode ver incluem moscas-serra, que apresentam uma "
+"variedade de cores e tamanhos - algumas se parecem com vespas"
 
 # Other insect 1 screen content
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
+"Eles não têm uma \"cintura de vespa\" – não há espaço entre o abdômen e o "
+"tórax"
 
 # Other insect 1 screen content
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr ""
+msgstr "As moscas-serra não são peludas e não têm uma corbícula "
 
 # Other insect 1 screen content
 msgid ""
@@ -1922,11 +1935,11 @@ msgstr "Descartar dados locais"
 
 # Id guide label
 msgid "Bumblebees"
-msgstr ""
+msgstr "Mamangavas"
 
 # Id guide label
 msgid "Honeybees"
-msgstr ""
+msgstr "Abelhas melíferas"
 
 # Id guide label
 msgid "Solitary bees"
@@ -1982,7 +1995,7 @@ msgstr "Contagem"
 
 # Survey back button label
 msgid "Cover"
-msgstr ""
+msgstr "Cobertura"
 
 # Survey back button label
 msgid "Patch"
@@ -1994,7 +2007,7 @@ msgstr "Céu"
 
 # Survey back button label
 msgid "Shade"
-msgstr ""
+msgstr "Sombra"
 
 # Alert message at the end of survey
 msgid ""
@@ -2313,7 +2326,7 @@ msgstr "Outros têm a corbícula embaixo do abdômen (abelha acima à direita)"
 
 # caption_1
 msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
-msgstr ""
+msgstr "Abelhas-mineiras (gênero  <i>Andrena </i>) tem listras pretas e cinza"
 
 # caption_2
 msgid ""
@@ -2323,6 +2336,11 @@ msgid ""
 "species is not belonging to the biodiversity of Cyprus (example from the "
 "entomofauna of UK) "
 msgstr ""
+"Abelhas do gênero  <i>Nomada </i> são bastante parecidas com vespas, mas tem"
+" cerdas  (pelos) típicas de abelhas em partes de seu corpo. A maioria das "
+"abelhas deste gênero apresentam essa forma e apresentam uma mistura de cores"
+" preta, vermelha e amarela. Essa espécie não faz parte da biodiversidade do "
+"Chipre (exemplo da entomofauna do Reino Unido)"
 
 # caption_3
 msgid ""
@@ -2330,6 +2348,9 @@ msgid ""
 "Some species are among the smallest in size solitary bees, at around 3mm "
 "long. "
 msgstr ""
+"Abelhas do gênero  <i> Lasioglossum </i>são abelhas solitárias de tamanho "
+"médio. Algumas espécies estão entre as menores abelhas solitárias, com cerca"
+" de 3mm de comprimento. "
 
 # caption_4
 msgid ""
@@ -2364,6 +2385,9 @@ msgid ""
 " is not belonging to the biodiversity of Cyprus (example from the "
 "entomofauna of Greece) "
 msgstr ""
+"As moscas-zangão tem uma antena muito mais curta do que as abelhas "
+"melíferas. Essa espécie não pertence à biodiversidade do Chipre (exemplo da "
+"entomofauna da Grécia)"
 
 # caption_1
 msgid ""
@@ -2371,6 +2395,9 @@ msgid ""
 "is a good mimic of hornets, but note the short antennae (example from the "
 "entomofauna of Greece)"
 msgstr ""
+"A mosca-vespa (<i>Volucella zonaria</i>) é nossa maior mosca-das-flores e "
+"mimetiza vespas. Note porém a antena curta (exemplo da entomofauna da "
+"Grécia)"
 
 # caption_2
 msgid ""
@@ -2378,6 +2405,10 @@ msgid ""
 "taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
 "The compound eyes have five distinct, vertical, dark stripes. "
 msgstr ""
+"Algumas espécies apresentam um \"nariz\" comprido - está e a <i>Eristalinus "
+"taeniops</i>, uma espécie com ampla distribuição no Chipre, com um abdômen "
+"com cores amarelo avermelhadas. Os olhos compostos apresentam cinco listras "
+"verticais pretas."
 
 # caption_1
 msgid "This is a dance fly (family Empididae). "
@@ -2397,6 +2428,9 @@ msgid ""
 " seen on flowers. This species is not belonging to the biodiversity of "
 "Cyprus (example from the entomofauna of UK)"
 msgstr ""
+"A mosca-soldado<i>Chloromyia formosa</i> é frequentemente observada em "
+"flores. Esta espécie não pertence à biodiversidade do Chipre (exemplo da "
+"entomofauna no Reino Unido)"
 
 # caption_1
 msgid ""
@@ -2486,6 +2520,8 @@ msgid ""
 "Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
 "shown) "
 msgstr ""
+"Moscas-zangão tem uma antena muito mais curta do que as abelhas melíferas "
+"(exemplo do Reino Unido)"
 
 # caption_1
 msgid ""
@@ -2493,6 +2529,8 @@ msgid ""
 "hoverfly species and is a good mimic of hornets, but note the short antennae"
 " (example from Greece shown) "
 msgstr ""
+"A mosca-vespa (<i>Volucella zonaria</i>) é uma das maiores moscas-das-flores"
+" e mimetiza vespas, porém note que apresenta antenas curtas"
 
 # caption_2
 msgid ""
@@ -2500,6 +2538,9 @@ msgid ""
 " a widespread species with a distinctive grey and orange colour (UK example "
 "shown)"
 msgstr ""
+"Algumas espécies apresentam um 'nariz' extendido - esta é<i>Rhingia "
+"campestris</i>, uma espécie com ampla distribuição com cores cinza e laranja"
+" (exemplo do Reino Unido é mostrado)"
 
 # caption_1
 msgid "This is a dance fly (family Empididae, photo from the UK)"
@@ -2510,6 +2551,8 @@ msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on flowers (UK example shown)"
 msgstr ""
+"A mosca-soldado<i>Chloromyia formosa</i> é frequentemente observada em "
+"flores (exemplo do Reino Unido é mostrado)"
 
 # caption_1
 msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
@@ -2533,6 +2576,8 @@ msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer "
 msgstr ""
+"Besouro-soldado vermelho (<i>Rhagonycha fulva</i>) com as pontas das asas "
+"pretas - bastante abundante em flores no meio do verão"
 
 # caption_2
 msgid ""
