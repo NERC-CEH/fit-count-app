@@ -1,7 +1,11 @@
 # 
+# Translators:
+# Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
+"Last-Translator: Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,15 +16,15 @@ msgstr ""
 
 # Button title
 msgid "Back"
-msgstr ""
+msgstr "Atrás"
 
 # App toolbar label
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 # App toolbar label
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 # About page content
 msgid ""
@@ -34,15 +38,15 @@ msgstr ""
 
 # Menu page content
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de privacidad"
 
 # Menu page content
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 # Menu page content
 msgid "Settings"
-msgstr ""
+msgstr "Configuración"
 
 # Menu page content
 msgid "Cymraeg"
@@ -50,15 +54,15 @@ msgstr ""
 
 # Menu page content
 msgid "Language"
-msgstr ""
+msgstr "idioma"
 
 # Menu page content
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 # Menu page content
 msgid "Share App Analytics"
-msgstr ""
+msgstr "Compartir análisis de aplicaciones"
 
 # Menu page content
 msgid "Share app crash data so we can make the app more reliable."
@@ -67,6 +71,7 @@ msgstr ""
 # Credits page content
 msgid "We are grateful to all the people who helped to create this app:"
 msgstr ""
+"Agradecemos a todas las personas que ayudaron a crear esta aplicación:"
 
 # Credits page content
 msgid "App design concepts"
@@ -82,31 +87,31 @@ msgstr ""
 
 # ID Guide segment label
 msgid "Insect Groups"
-msgstr ""
+msgstr "Grupos de insectos"
 
 # ID Guide segment label
 msgid "Flowers"
-msgstr ""
+msgstr "Flores"
 
 # Country page content
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 # Country page content
 msgid "Brazil"
-msgstr ""
+msgstr "Brazil"
 
 # Country page content
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 # Country page content
 msgid "Cyprus"
-msgstr ""
+msgstr "Chipre"
 
 # Country page content
 msgid "United Kingdom"
-msgstr ""
+msgstr "Reino Unido"
 
 # Home page toolbar label
 msgid "Home"
@@ -114,40 +119,42 @@ msgstr ""
 
 # Home page button label
 msgid "Start Survey"
-msgstr ""
+msgstr "Empezar encuesta"
 
 # Start survey alert message
 msgid "Discard"
-msgstr ""
+msgstr "Descartar"
 
 # Start survey alert button label
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 # Start survey alert button label
 msgid "Draft"
-msgstr ""
+msgstr "Borrador"
 
 # Start survey alert button message
 msgid "Previous survey draft exists, would you like to continue it?"
-msgstr ""
+msgstr "Existe un borrador de la encuesta anterior, ¿le gustaría continuarlo?"
 
 # Survey content
 msgid "Use the map to zoom in and tap on your <1>location</1>."
-msgstr ""
+msgstr "Use el mapa para acercar y tocar su <1>localización</1>."
 
 # Survey content
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 # Survey content
 msgid "Delete Survey"
-msgstr ""
+msgstr "Eliminar encuesta"
 
 # Survey content
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
+"Advertencia: esto descartará la información de la encuesta que ha ingresado "
+"hasta ahora."
 
 # Survey Location page info message
 msgid ""
@@ -166,11 +173,11 @@ msgstr ""
 
 # Survey Location alert messag
 msgid "Please select a more accurate location"
-msgstr ""
+msgstr "Por favor, seleccione una ubicación más precisa"
 
 # Survey content
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 # Survey content
 msgid "of"
@@ -189,26 +196,28 @@ msgid ""
 "Please type in the name of the habitat you have chosen then go back to the "
 "habitat page"
 msgstr ""
+"Escriba el nombre del hábitat que ha elegido y vuelva a la página del "
+"hábitat"
 
 # Survey habitat page other header label
 msgid "Habitat"
-msgstr ""
+msgstr "Hábitat"
 
 # Survey habitat page divider label
 msgid "Other habitat"
-msgstr ""
+msgstr "Otro hábitat"
 
 # Survey habitat page values
 msgid "Garden"
-msgstr ""
+msgstr "Jardín"
 
 # Survey habitat page values
 msgid "School Grounds"
-msgstr ""
+msgstr "Patios de colegio"
 
 # Survey habitat page values
 msgid "Parkland with trees"
-msgstr ""
+msgstr "Parque con árboles"
 
 # Survey habitat page values
 msgid "Churchyard"
@@ -244,27 +253,27 @@ msgstr ""
 
 # Survey habitat page values
 msgid "Woodland"
-msgstr ""
+msgstr "Bosque"
 
 # Survey habitat page values
 msgid "Botanical garden"
-msgstr ""
+msgstr "Jardín botánico"
 
 # Survey habitat page values
 msgid "Forest"
-msgstr ""
+msgstr "Bosque"
 
 # Survey habitat page values
 msgid "Cultivation"
-msgstr ""
+msgstr "Cultivo"
 
 # Survey habitat page values
 msgid "Salt marsh"
-msgstr ""
+msgstr "Salina"
 
 # Survey habitat page values
 msgid "Freshwater wetland"
-msgstr ""
+msgstr "Humedal de agua dulce"
 
 # Survey habitat page values
 msgid "Dry shrub"
@@ -276,7 +285,7 @@ msgstr ""
 
 # Survey habitat page values
 msgid "Roadside verges"
-msgstr ""
+msgstr "Borde de carretera"
 
 # Survey flower-cover info message
 msgid ""
@@ -287,11 +296,11 @@ msgstr ""
 
 # Survey flower-cover info message header
 msgid "Flower Cover"
-msgstr ""
+msgstr "Cobertura de flores"
 
 # Survey flower-cover radio input
 msgid "Less than half"
-msgstr ""
+msgstr "Menos de la mitad"
 
 # Survey flower-cover radio input
 msgid "Half of patch"
@@ -303,133 +312,144 @@ msgstr ""
 
 # Survey flower-cover radio input
 msgid "Not recorded"
-msgstr ""
+msgstr "No registrado"
 
 # User registration page
 msgid "Create a free account"
-msgstr ""
+msgstr "Crea una cuenta gratis"
 
 # User registration page
 msgid "Full name"
-msgstr ""
+msgstr "Nombre completo"
 
 # User registration page
 msgid "Email"
-msgstr ""
+msgstr "Correo electrónico"
 
 # User registration page
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 # User registration page
 msgid "How did you hear about FIT Counts?"
-msgstr ""
+msgstr "¿Cómo se enteró de FIT Counts?"
 
 # User registration page
 msgid "Your identification experience"
-msgstr ""
+msgstr "Tu experiencia en identificación "
 
 # User registration page
 msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
+"Al hacer clic en Registrarse, acepta nuestra  <2>Política de privacidad </2>"
+" y <6>Términos y condiciones</6>"
 
 # User registration page
 msgid "Sign Up"
-msgstr ""
+msgstr "Inscribirse"
 
 # User registration page
 msgid "I am already a member"
-msgstr ""
+msgstr "Ya soy un miembro"
 
 # User registration page
 msgid "Sign In"
-msgstr ""
+msgstr "Iniciar sesión"
 
 # User registration page
 msgid "How did you hear about us?"
-msgstr ""
+msgstr "Cómo escuchastes sobre nosotros?"
 
 # User registration page
 msgid "Identification experience"
-msgstr ""
+msgstr "Experiencia en identificación"
 
 # User registration page
 msgid "Please fill in"
-msgstr ""
+msgstr "Por favor rellenalo"
 
 # User registration page
 msgid "I am new to identifying wildlife"
-msgstr ""
+msgstr "Soy nueva en la identificación de vida silvestre"
 
 # User registration page
 msgid ""
 "I am familiar with identifying some wildlife groups (e.g. birds or "
 "butterflies) but not most pollinating insects"
 msgstr ""
+"Estoy familiarizado con la identificación de algunos grupos de vida "
+"silvestre (por ejemplo, aves o mariposas) pero no con la mayoría de los "
+"insectos polinizadores"
 
 # User registration page
 msgid "I am familiar with recognising the main groups of pollinating insect"
 msgstr ""
+"Estoy familiarizado con la identificación de algunos grupos de insectos "
+"polinizadores"
 
 # User registration page
 msgid ""
 "I am confident in identifying the commonly-occurring pollinating insects to "
 "species level"
 msgstr ""
+"Estoy seguro de poder identificar los insectos polinizadores más comunes a "
+"nivel de especie"
 
 # User registration page
 msgid "Not stated"
-msgstr ""
+msgstr "No se indica"
 
 # User registration page
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 # User login page
 msgid "Welcome back"
-msgstr ""
+msgstr "Bienvenido de nuevo"
 
 # User login page
 msgid "Sign in to your account to start"
-msgstr ""
+msgstr "Inicia sesión en tu cuenta para empezar"
 
 # User login page
 msgid "Forgot password?"
-msgstr ""
+msgstr "¿Se te olvidó tu contraseña?"
 
 # User login page
 msgid "email is a required field"
-msgstr ""
+msgstr "Correo electrónico es un campo obligatorio"
 
 # User login page
 msgid "password is a required field"
-msgstr ""
+msgstr " la contraseña es un campo obligatorio"
 
 # User reset page
 msgid "Enter your email address to request a password reset."
 msgstr ""
+"Introduzca su dirección de correo electrónico para solicitar el "
+"restablecimiento de la contraseña."
 
 # User reset page
 msgid "Reset"
-msgstr ""
+msgstr "Reiniciar"
 
 # User reset page
 msgid "email must be a valid email"
-msgstr ""
+msgstr "el correo electrónico debe ser válido"
 
 # Upload user register form message
 msgid "Please wait..."
-msgstr ""
+msgstr "Por favor espere..."
 
 # Successful register alert message
 msgid "OK, got it"
-msgstr ""
+msgstr "De acuerdo, lo tengo."
 
 # Successful register alert message
 msgid "Welcome aboard"
-msgstr ""
+msgstr "Bienvenido a bordo"
 
 # Successful register alert message
 msgid ""
@@ -439,15 +459,15 @@ msgstr ""
 
 # Settings page label
 msgid "Logout"
-msgstr ""
+msgstr "Cerrar sesión"
 
 # Settings page label
 msgid "Login"
-msgstr ""
+msgstr "Iniciar sesión"
 
 # Settings page label
 msgid "Register"
-msgstr ""
+msgstr "Registrarse"
 
 # ID guide honeybees species profile
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
