@@ -61,6 +61,13 @@ async function init() {
     });
 
   appModel.attrs.appSession += 1;
+
+  if (appModel.attrs.country === 'CYP') {
+    // This is just to be backwards compatible
+    // TODO: remove in the next update
+    console.warn('Fixing old Cyprus code');
+    appModel.attrs.country = 'CY';
+  }
   appModel.save();
 
   ReactDOM.render(<App />, document.getElementById('root'));
@@ -77,5 +84,5 @@ async function init() {
     });
   }
 }
-
+window.app = appModel;
 init();
