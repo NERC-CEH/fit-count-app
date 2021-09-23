@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
@@ -21,8 +21,12 @@ msgid "About"
 msgstr "About"
 
 # About page content
-msgid "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to collect new data on numbers of flower-visiting insects."
-msgstr "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to collect new data on numbers of flower-visiting insects."
+msgid ""
+"The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
+"collect new data on numbers of flower-visiting insects."
+msgstr ""
+"The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
+"collect new data on numbers of flower-visiting insects."
 
 # Menu page content
 msgid "Info"
@@ -141,12 +145,36 @@ msgid "Delete Survey"
 msgstr "Delete Survey"
 
 # Survey content
-msgid "Warning - This will discard the survey information you have entered so far."
-msgstr "Warning - This will discard the survey information you have entered so far."
+msgid ""
+"Warning - This will discard the survey information you have entered so far."
+msgstr ""
+"Warning - This will discard the survey information you have entered so far."
 
 # Survey Location page info message
-msgid "Enable your GPS to set your location, or use the map to zoom in and tap on your <1>location</1>.<3><p>Your location can be anywhere where there are flowers to attract pollinating insects, where you have permission to be, and where it is safe to go.</p><p>A garden or park, farm or nature reserve are all great locations for FIT Counts.</p><p>Please zoom in to find the spot that best matches your location.</p><p>Make sure you have the GPS turned on and permissions granted. If you are conducting a FIT Count offline or without a network connection, the app will not find your location on the map, but your GPS should record this for uploading later.</p><p>Your count results will be visible to others at the 1 km square level via the UKPoMS website.</p></3>"
-msgstr "Enable your GPS to set your location, or use the map to zoom in and tap on your <1>location</1>.<3><p>Your location can be anywhere where there are flowers to attract pollinating insects, where you have permission to be, and where it is safe to go.</p><p>A garden or park, farm or nature reserve are all great locations for FIT Counts.</p><p>Please zoom in to find the spot that best matches your location.</p><p>Make sure you have the GPS turned on and permissions granted. If you are conducting a FIT Count offline or without a network connection, the app will not find your location on the map, but your GPS should record this for uploading later.</p><p>Your count results will be visible to others at the 1 km square level via the UKPoMS website.</p></3>"
+msgid ""
+"Enable your GPS to set your location, or use the map to zoom in and tap on "
+"your <1>location</1>.<3><p>Your location can be anywhere where there are "
+"flowers to attract pollinating insects, where you have permission to be, and"
+" where it is safe to go.</p><p>A garden or park, farm or nature reserve are "
+"all great locations for FIT Counts.</p><p>Please zoom in to find the spot "
+"that best matches your location.</p><p>Make sure you have the GPS turned on "
+"and permissions granted. If you are conducting a FIT Count offline or "
+"without a network connection, the app will not find your location on the "
+"map, but your GPS should record this for uploading later.</p><p>Your count "
+"results will be visible to others at the 1 km square level via the UKPoMS "
+"website.</p></3>"
+msgstr ""
+"Enable your GPS to set your location, or use the map to zoom in and tap on "
+"your <1>location</1>.<3><p>Your location can be anywhere where there are "
+"flowers to attract pollinating insects, where you have permission to be, and"
+" where it is safe to go.</p><p>A garden or park, farm or nature reserve are "
+"all great locations for FIT Counts.</p><p>Please zoom in to find the spot "
+"that best matches your location.</p><p>Make sure you have the GPS turned on "
+"and permissions granted. If you are conducting a FIT Count offline or "
+"without a network connection, the app will not find your location on the "
+"map, but your GPS should record this for uploading later.</p><p>Your count "
+"results will be visible to others at the 1 km square level via the UKPoMS "
+"website.</p></3>"
 
 # Survey Location alert messag
 msgid "Please select a more accurate location"
@@ -161,12 +189,24 @@ msgid "of"
 msgstr "of"
 
 # Survey habitat info message
-msgid "Select one <1>habitat</1> that is the best match.<3><p>Select the habitat that best describes the 50x50 cm patch chosen for your count.</p><p>If not listed here, please select “Other” and type in a short description of the habitat.</p></3>"
-msgstr "Select one <1>habitat</1> that is the best match.<3><p>Select the habitat that best describes the 50x50 cm patch chosen for your count.</p><p>If not listed here, please select “Other” and type in a short description of the habitat.</p></3>"
+msgid ""
+"Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
+"that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
+"listed here, please select “Other” and type in a short description of the "
+"habitat.</p></3>"
+msgstr ""
+"Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
+"that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
+"listed here, please select “Other” and type in a short description of the "
+"habitat.</p></3>"
 
 # Survey habitat page other placeholder text
-msgid "Please type in the name of the habitat you have chosen then go back to the habitat page"
-msgstr "Please type in the name of the habitat you have chosen then go back to the habitat page"
+msgid ""
+"Please type in the name of the habitat you have chosen then go back to the "
+"habitat page"
+msgstr ""
+"Please type in the name of the habitat you have chosen then go back to the "
+"habitat page"
 
 # Survey habitat page other header label
 msgid "Habitat"
@@ -176,89 +216,120 @@ msgstr "Habitat"
 msgid "Other habitat"
 msgstr "Other habitat"
 
-# Survey habitat page values
+# habitats value
+#: UK BR CY
 msgid "Garden"
 msgstr "Garden"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "School Grounds"
 msgstr "School Grounds"
 
-# Survey habitat page values
+# habitats value
+#: UK BR CY
 msgid "Parkland with trees"
 msgstr "Parkland with trees"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Churchyard"
 msgstr "Churchyard"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Grassy verge or hedgerow edge"
 msgstr "Grassy verge or hedgerow edge"
 
-# Survey habitat page values
+# habitats value
+#: UK BR CY
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr "Grassland with wild flowers (e.g. meadow)"
 
-# Survey habitat page values
+# habitats value
+#: UK BR
 msgid "Amenity grassland (usually mown short)"
 msgstr "Amenity grassland (usually mown short)"
 
-# Survey habitat page values
+# habitats value
+#: UK BR
 msgid "Farm crops or grassy pasture"
 msgstr "Farm crops or grassy pasture"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Upland moorland"
 msgstr "Upland moorland"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Lowland heath"
 msgstr "Lowland heath"
 
-# Survey habitat page values
+# habitats value
+#: UK BR
 msgid "Waste ground or brownfield site"
 msgstr "Waste ground or brownfield site"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Woodland"
 msgstr "Woodland"
 
-# Survey habitat page values
+# habitats value
+#: BR CY
 msgid "Botanical garden"
 msgstr "Botanical garden"
 
-# Survey habitat page values
+# habitats value
+#: BR CY
 msgid "Forest"
 msgstr "Forest"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Cultivation"
 msgstr "Cultivation"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Salt marsh"
 msgstr "Salt marsh"
 
-# Survey habitat page values
+# habitats value
+#: BR CY
 msgid "Freshwater wetland"
 msgstr "Freshwater wetland"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Dry shrub"
 msgstr "Dry shrub"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Acacia stands"
 msgstr "Acacia stands"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Roadside verges"
 msgstr "Roadside verges"
 
+# Survey habitat page values
+#: BR
+msgid "Plantation forest"
+msgstr "Plantation forest"
+
 # Survey flower-cover info message
-msgid "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate how much of your 50×50 cm patch is occupied by the target flowers (but not by the leaves of the target plant).</p></3>"
-msgstr "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate how much of your 50×50 cm patch is occupied by the target flowers (but not by the leaves of the target plant).</p></3>"
+msgid ""
+"What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
+" how much of your 50×50 cm patch is occupied by the target flowers (but not "
+"by the leaves of the target plant).</p></3>"
+msgstr ""
+"What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
+" how much of your 50×50 cm patch is occupied by the target flowers (but not "
+"by the leaves of the target plant).</p></3>"
 
 # Survey flower-cover info message header
 msgid "Flower Cover"
@@ -305,8 +376,12 @@ msgid "Your identification experience"
 msgstr "Your identification experience"
 
 # User registration page
-msgid "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and Conditions</6>"
-msgstr "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and Conditions</6>"
+msgid ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+msgstr ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
 
 # User registration page
 msgid "Sign Up"
@@ -337,16 +412,24 @@ msgid "I am new to identifying wildlife"
 msgstr "I am new to identifying wildlife"
 
 # User registration page
-msgid "I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects"
-msgstr "I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects"
+msgid ""
+"I am familiar with identifying some wildlife groups (e.g. birds or "
+"butterflies) but not most pollinating insects"
+msgstr ""
+"I am familiar with identifying some wildlife groups (e.g. birds or "
+"butterflies) but not most pollinating insects"
 
 # User registration page
 msgid "I am familiar with recognising the main groups of pollinating insect"
 msgstr "I am familiar with recognising the main groups of pollinating insect"
 
 # User registration page
-msgid "I am confident in identifying the commonly-occurring pollinating insects to species level"
-msgstr "I am confident in identifying the commonly-occurring pollinating insects to species level"
+msgid ""
+"I am confident in identifying the commonly-occurring pollinating insects to "
+"species level"
+msgstr ""
+"I am confident in identifying the commonly-occurring pollinating insects to "
+"species level"
 
 # User registration page
 msgid "Not stated"
@@ -401,8 +484,12 @@ msgid "Welcome aboard"
 msgstr "Welcome aboard"
 
 # Successful register alert message
-msgid "Before starting any surveys please check your email and click on the verification link."
-msgstr "Before starting any surveys please check your email and click on the verification link."
+msgid ""
+"Before starting any surveys please check your email and click on the "
+"verification link."
+msgstr ""
+"Before starting any surveys please check your email and click on the "
+"verification link."
 
 # Settings page label
 msgid "Logout"
@@ -416,23 +503,28 @@ msgstr "Login"
 msgid "Register"
 msgstr "Register"
 
-# ID guide honeybees species profile
+# photos caption_1
+#: UK
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr "Long thin antennae, often angled to form an ‘elbow’ shape"
 
-# ID guide honeybees species profile
+# photos caption_2
+#: UK
 msgid "Eyes covering the sides of the head"
 msgstr "Eyes covering the sides of the head"
 
-# ID guide honeybees species profile
+# photos caption_3
+#: UK
 msgid "Hind legs broad and flattened"
 msgstr "Hind legs broad and flattened"
 
-# ID guide honeybees species profile
+# photos caption_4
+#: UK
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr "Abdomen can vary from mostly dark to mostly orange"
 
-# ID guide honeybees species profile
+# photos caption_5
+#: UK
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Long narrow cell in veins at edge of wing"
 
@@ -441,8 +533,12 @@ msgid "Description"
 msgstr "Description"
 
 # ID guide honeybees species profile
-msgid "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs"
-msgstr "Most of the honeybees you see will be workers, which are female, and collect pollen into a moistened ball on the outside of the hind legs"
+msgid ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
+msgstr ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
 
 # ID guide honeybees species profile
 msgid "Extra information"
@@ -484,129 +580,175 @@ msgstr "No photo has been added."
 msgid "Press <1></1> to add."
 msgstr "Press <1></1> to add."
 
-# Survey species selection page species list
-msgid "Dandelion"
-msgstr "Dandelion"
-
-# Survey species selection page species list
-msgid "Buttercup"
-msgstr "Buttercup"
-
-# Survey species selection page species list
-msgid "White Dead-nettle"
-msgstr "White Dead-nettle"
-
-# Survey species selection page species list
-msgid "Hawthorn"
-msgstr "Hawthorn"
-
-# Survey species selection page species list
-msgid "Lavender"
-msgstr "Lavender"
-
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Bramble"
 msgstr "Bramble"
 
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Buddleja"
 msgstr "Buddleja"
 
-# Survey species selection page species list
+# flowers name
+#: UK
+msgid "Buttercup"
+msgstr "Buttercup"
+
+# flowers name
+#: UK
+msgid "Dandelion"
+msgstr "Dandelion"
+
+# flowers name
+#: UK
+msgid "Hawthorn"
+msgstr "Hawthorn"
+
+# flowers name
+#: UK
 msgid "Heather"
 msgstr "Heather"
 
-# Survey species selection page species list
-msgid "Knapweed"
-msgstr "Knapweed"
-
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Hogweed"
 msgstr "Hogweed"
 
-# Survey species selection page species list
-msgid "White Clover"
-msgstr "White Clover"
-
-# Survey species selection page species list
-msgid "Ragwort"
-msgstr "Ragwort"
-
-# Survey species selection page species list
-msgid "Thistle"
-msgstr "Thistle"
-
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Ivy"
 msgstr "Ivy"
 
-# Survey species selection page species list
+# flowers name
+#: UK
+msgid "Knapweed"
+msgstr "Knapweed"
+
+# flowers name
+#: UK
+msgid "Lavender"
+msgstr "Lavender"
+
+# flowers name
+#: UK
+msgid "Ragwort"
+msgstr "Ragwort"
+
+# flowers name
+#: UK
+msgid "Thistle"
+msgstr "Thistle"
+
+# flowers name
+#: UK
+msgid "White Clover"
+msgstr "White Clover"
+
+# flowers name
+#: UK
+msgid "White Dead-nettle"
+msgstr "White Dead-nettle"
+
+# flowers name
+#: CY
 msgid "Fennel"
 msgstr "Fennel"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Myrtle"
 msgstr "Myrtle"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Olive"
 msgstr "Olive"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "White Mustard"
 msgstr "White Mustard"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Rock-roses"
 msgstr "Rock-roses"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Anemone"
 msgstr "Anemone"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Chrysanthemum"
 msgstr "Chrysanthemum"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Tree Tobacco"
 msgstr "Tree Tobacco"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Spanish Jasmine"
 msgstr "Spanish Jasmine"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Common Lantana"
 msgstr "Common Lantana"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Acacia"
 msgstr "Acacia"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Bermuda Buttercup"
 msgstr "Bermuda Buttercup"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "African Boxthorn"
 msgstr "African Boxthorn"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Blue Plumbago"
 msgstr "Blue Plumbago"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Narrow-leaved Viper’s-bugloss"
 msgstr "Narrow-leaved Viper’s-bugloss"
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Milk Thistle"
 msgstr "Milk Thistle"
 
 # Survey species selection page read more message
-msgid "Which target <1>flower</1> have you chosen?<3><p>Where possible please choose a patch of flowers from one of the target flower groups in the list.</p><p>If none of these is available at your location you can choose another flower that is attracting insects and select “Other”, then type in the name.</p><p>Your target flower can be growing in a patch all of the same flower, or among different flower species.</p><p>For each FIT Count, please upload one or two photos of your target flower.</p><p>This allows us to double-check the flower species used for the counts.</p></3>"
-msgstr "Which target <1>flower</1> have you chosen?<3><p>Where possible please choose a patch of flowers from one of the target flower groups in the list.</p><p>If none of these is available at your location you can choose another flower that is attracting insects and select “Other”, then type in the name.</p><p>Your target flower can be growing in a patch all of the same flower, or among different flower species.</p><p>For each FIT Count, please upload one or two photos of your target flower.</p><p>This allows us to double-check the flower species used for the counts.</p></3>"
+msgid ""
+"Which target <1>flower</1> have you chosen?<3><p>Where possible please "
+"choose a patch of flowers from one of the target flower groups in the "
+"list.</p><p>If none of these is available at your location you can choose "
+"another flower that is attracting insects and select “Other”, then type in "
+"the name.</p><p>Your target flower can be growing in a patch all of the same"
+" flower, or among different flower species.</p><p>For each FIT Count, please"
+" upload one or two photos of your target flower.</p><p>This allows us to "
+"double-check the flower species used for the counts.</p></3>"
+msgstr ""
+"Which target <1>flower</1> have you chosen?<3><p>Where possible please "
+"choose a patch of flowers from one of the target flower groups in the "
+"list.</p><p>If none of these is available at your location you can choose "
+"another flower that is attracting insects and select “Other”, then type in "
+"the name.</p><p>Your target flower can be growing in a patch all of the same"
+" flower, or among different flower species.</p><p>For each FIT Count, please"
+" upload one or two photos of your target flower.</p><p>This allows us to "
+"double-check the flower species used for the counts.</p></3>"
 
 # Survey species selection page read more header
 msgid "Flower"
@@ -621,16 +763,52 @@ msgid "Other flower name"
 msgstr "Other flower name"
 
 # Survey species manual entry placeholder
-msgid "Please type in the name of the target flower you have chosen then go back to the target flower page"
-msgstr "Please type in the name of the target flower you have chosen then go back to the target flower page"
+msgid ""
+"Please type in the name of the target flower you have chosen then go back to"
+" the target flower page"
+msgstr ""
+"Please type in the name of the target flower you have chosen then go back to"
+" the target flower page"
 
 # Survey flower count page divider label
 msgid "Number"
 msgstr "Number"
 
 # Survey flower count page info message
-msgid "What are the <1>number</1> and <3>type</3> of flowers in your patch?<5><p>The number of flowers in a patch can strongly relate to the number of insect visitors recorded, so it is important to provide this information!</p><p>Only count flowers that are reasonably fresh and likely to attract insects – ‘dead-head’ flowers and seedheads should not be counted.</p><p>Flowers need to be counted in different ways depending on their structure.</p><p>If you have chosen a target flower from our list, the flower type is shown by default.</p><p>If you have chosen “Other” target flower, please count:</p><5><0><0>Individual flowers</0> - each flower counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny flowers within a larger flower head, e.g. dandelion or daisy) – each flower head counts as one unit</1><2><0>Umbels</0> (for flowers that have small flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small flowers are arranged along a stem, e.g. lavender) – each spike counts as one unit</3></5></5>"
-msgstr "What are the <1>number</1> and <3>type</3> of flowers in your patch?<5><p>The number of flowers in a patch can strongly relate to the number of insect visitors recorded, so it is important to provide this information!</p><p>Only count flowers that are reasonably fresh and likely to attract insects – ‘dead-head’ flowers and seedheads should not be counted.</p><p>Flowers need to be counted in different ways depending on their structure.</p><p>If you have chosen a target flower from our list, the flower type is shown by default.</p><p>If you have chosen “Other” target flower, please count:</p><5><0><0>Individual flowers</0> - each flower counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny flowers within a larger flower head, e.g. dandelion or daisy) – each flower head counts as one unit</1><2><0>Umbels</0> (for flowers that have small flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small flowers are arranged along a stem, e.g. lavender) – each spike counts as one unit</3></5></5>"
+msgid ""
+"What are the <1>number</1> and <3>type</3> of flowers in your "
+"patch?<5><p>The number of flowers in a patch can strongly relate to the "
+"number of insect visitors recorded, so it is important to provide this "
+"information!</p><p>Only count flowers that are reasonably fresh and likely "
+"to attract insects – ‘dead-head’ flowers and seedheads should not be "
+"counted.</p><p>Flowers need to be counted in different ways depending on "
+"their structure.</p><p>If you have chosen a target flower from our list, the"
+" flower type is shown by default.</p><p>If you have chosen “Other” target "
+"flower, please count:</p><5><0><0>Individual flowers</0> - each flower "
+"counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny "
+"flowers within a larger flower head, e.g. dandelion or daisy) – each flower "
+"head counts as one unit</1><2><0>Umbels</0> (for flowers that have small "
+"flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – "
+"each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small "
+"flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
+" unit</3></5></5>"
+msgstr ""
+"What are the <1>number</1> and <3>type</3> of flowers in your "
+"patch?<5><p>The number of flowers in a patch can strongly relate to the "
+"number of insect visitors recorded, so it is important to provide this "
+"information!</p><p>Only count flowers that are reasonably fresh and likely "
+"to attract insects – ‘dead-head’ flowers and seedheads should not be "
+"counted.</p><p>Flowers need to be counted in different ways depending on "
+"their structure.</p><p>If you have chosen a target flower from our list, the"
+" flower type is shown by default.</p><p>If you have chosen “Other” target "
+"flower, please count:</p><5><0><0>Individual flowers</0> - each flower "
+"counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny "
+"flowers within a larger flower head, e.g. dandelion or daisy) – each flower "
+"head counts as one unit</1><2><0>Umbels</0> (for flowers that have small "
+"flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – "
+"each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small "
+"flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
+" unit</3></5></5>"
 
 # Survey flower count page info header
 msgid "Flower Count"
@@ -717,8 +895,12 @@ msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
 msgstr "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
 
 # Credits page content
-msgid "App guide illustrations made by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
-msgstr "App guide illustrations made by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+msgid ""
+"App guide illustrations made "
+"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+msgstr ""
+"App guide illustrations made "
+"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
 
 # Survey flower page info message
 msgid "Which target <1>flower</1> have you chosen?"
@@ -745,8 +927,16 @@ msgid "More or less isolated"
 msgstr "More or less isolated"
 
 # Survey flower patch "Read more" alert message
-msgid "Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The surroundings of a flower patch can affect its attractiveness to insects.</p><p>Please indicate the situation that best describes the area around your flower patch (roughly within 5 metres).</p></3>"
-msgstr "Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The surroundings of a flower patch can affect its attractiveness to insects.</p><p>Please indicate the situation that best describes the area around your flower patch (roughly within 5 metres).</p></3>"
+msgid ""
+"Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
+"surroundings of a flower patch can affect its attractiveness to "
+"insects.</p><p>Please indicate the situation that best describes the area "
+"around your flower patch (roughly within 5 metres).</p></3>"
+msgstr ""
+"Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
+"surroundings of a flower patch can affect its attractiveness to "
+"insects.</p><p>Please indicate the situation that best describes the area "
+"around your flower patch (roughly within 5 metres).</p></3>"
 
 # Survey flower patch info button label
 msgid "READ MORE"
@@ -784,7 +974,6 @@ msgstr "Partly in sun and partly shaded"
 msgid "Entirely shaded"
 msgstr "Entirely shaded"
 
-
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
 msgstr "Leaves still/moving occasionally"
@@ -796,7 +985,6 @@ msgstr "Leaves moving gently all the time"
 # Survey weather wind page values
 msgid "Leaves moving strongly"
 msgstr "Leaves moving strongly"
-
 
 # Survey weather wind page button label
 msgid "Save my count"
@@ -827,16 +1015,34 @@ msgid "Successfully logged in"
 msgstr "Successfully logged in"
 
 # Onboarding content
-msgid "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-Insect Timed Count"
-msgstr "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-Insect Timed Count"
+msgid ""
+"<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
+"Insect Timed Count"
+msgstr ""
+"<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
+"Insect Timed Count"
 
 # Onboarding content
-msgid "<0><0>Wait for good weather! </0><1>Find a patch of target flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you when your ten minutes is up</4><5>Save your count, and upload it to the website</5></0>"
-msgstr "<0><0>Wait for good weather! </0><1>Find a patch of target flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you when your ten minutes is up</4><5>Save your count, and upload it to the website</5></0>"
+msgid ""
+"<0><0>Wait for good weather! </0><1>Find a patch of target "
+"flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects"
+" that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you "
+"when your ten minutes is up</4><5>Save your count, and upload it to the "
+"website</5></0>"
+msgstr ""
+"<0><0>Wait for good weather! </0><1>Find a patch of target "
+"flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects"
+" that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you "
+"when your ten minutes is up</4><5>Save your count, and upload it to the "
+"website</5></0>"
 
 # Onboarding content
-msgid "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to get started!"
-msgstr "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to get started!"
+msgid ""
+"Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
+" get started!"
+msgstr ""
+"Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
+" get started!"
 
 # Onboarding content
 msgid "Let's start the count!"
@@ -859,32 +1065,56 @@ msgid "FIT Count quick guide"
 msgstr "FIT Count quick guide"
 
 # How To page content
-msgid "FIT Counts take about 10–15 minutes, during which you are asked to count every insect that lands on the flowers of your chosen target flower species."
-msgstr "FIT Counts take about 10–15 minutes, during which you are asked to count every insect that lands on the flowers of your chosen target flower species."
+msgid ""
+"FIT Counts take about 10–15 minutes, during which you are asked to count "
+"every insect that lands on the flowers of your chosen target flower species."
+msgstr ""
+"FIT Counts take about 10–15 minutes, during which you are asked to count "
+"every insect that lands on the flowers of your chosen target flower species."
 
 # How To page content
-msgid "You can complete a FIT Count in good weather between 1 April and 30 September."
-msgstr "You can complete a FIT Count in good weather between 1 April and 30 September."
+msgid ""
+"You can complete a FIT Count in good weather between 1 April and 30 "
+"September."
+msgstr ""
+"You can complete a FIT Count in good weather between 1 April and 30 "
+"September."
 
 # How To page content (non-UK)
 msgid "You can complete a FIT Count in good weather at any time of year."
 msgstr "You can complete a FIT Count in good weather at any time of year."
 
 # How To page content
-msgid "Choose just one type of flower as your target flower - where possible use one of the FIT Count target flowers, but if you can't find one from the list you can choose a different flower as the target."
-msgstr "Choose just one type of flower as your target flower - where possible use one of the FIT Count target flowers, but if you can't find one from the list you can choose a different flower as the target."
+msgid ""
+"Choose just one type of flower as your target flower - where possible use "
+"one of the FIT Count target flowers, but if you can't find one from the list"
+" you can choose a different flower as the target."
+msgstr ""
+"Choose just one type of flower as your target flower - where possible use "
+"one of the FIT Count target flowers, but if you can't find one from the list"
+" you can choose a different flower as the target."
 
 # How To page content
 msgid "Mark out a 50 × 50 cm patch containing your target."
 msgstr "Mark out a 50 × 50 cm patch containing your target."
 
 # How To page content
-msgid "Count the number of individual flowers for your target species that are within your patch."
-msgstr "Count the number of individual flowers for your target species that are within your patch."
+msgid ""
+"Count the number of individual flowers for your target species that are "
+"within your patch."
+msgstr ""
+"Count the number of individual flowers for your target species that are "
+"within your patch."
 
 # How To page content
-msgid "Using the timer in the app, spend ten minutes counting all insects that land on the target flowers (ignore other flowers, and do your best to count each individual insect once only!)."
-msgstr "Using the timer in the app, spend ten minutes counting all insects that land on the target flowers (ignore other flowers, and do your best to count each individual insect once only!)."
+msgid ""
+"Using the timer in the app, spend ten minutes counting all insects that land"
+" on the target flowers (ignore other flowers, and do your best to count each"
+" individual insect once only!)."
+msgstr ""
+"Using the timer in the app, spend ten minutes counting all insects that land"
+" on the target flowers (ignore other flowers, and do your best to count each"
+" individual insect once only!)."
 
 # How To page content
 msgid "Fill in some simple weather details."
@@ -899,72 +1129,128 @@ msgid "Further information and guides are available at"
 msgstr "Further information and guides are available at"
 
 # How To page content
-msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
-msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as other insects."
+msgid ""
+"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
+" any that you don't recognise should be counted as other insects."
+msgstr ""
+"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
+" any that you don't recognise should be counted as other insects."
 
 # How To page content
-msgid "\"Good weather\" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
-msgstr "\"Good weather\" is dry, and with temperature at least 13°C in sunny conditions, or at least 15°C when cloudy."
+msgid ""
+"\"Good weather\" is dry, and with temperature at least 13°C in sunny "
+"conditions, or at least 15°C when cloudy."
+msgstr ""
+"\"Good weather\" is dry, and with temperature at least 13°C in sunny "
+"conditions, or at least 15°C when cloudy."
 
 # Bumblebee screen 1 content
-msgid "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\"."
-msgstr "Identify the insects into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\"."
+msgid ""
+"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
+" any that you don't recognise should be counted as \"other insects\"."
+msgstr ""
+"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
+" any that you don't recognise should be counted as \"other insects\"."
 
 # Bumblebee screen 1 content
 msgid "Very hairy / fluffy bees"
 msgstr "Very hairy / fluffy bees"
 
 # Bumblebee screen 1 content
-msgid "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers"
-msgstr "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers"
+msgid ""
+"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
+"visiting flowers"
+msgstr ""
+"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
+"visiting flowers"
 
 # Bumblebee screen 1 content
-msgid "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over"
-msgstr "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over"
+msgid ""
+"Many species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be ginger all over"
+msgstr ""
+"Many species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be ginger all over"
 
 # Bumblebee screen 1 content
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr "Eyes cover the sides of the head, with lots of hair between the eyes"
 
 # Bumblebee screen 1 content
-msgid "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees."
-msgstr "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees."
+msgid ""
+"Bumblebees are very rounded and furry bees. The queens are among our largest"
+" bees; workers can be quite small, but are larger than most solitary bees."
+msgstr ""
+"Bumblebees are very rounded and furry bees. The queens are among our largest"
+" bees; workers can be quite small, but are larger than most solitary bees."
 
 # Bumblebee screen 1 content
-msgid "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK."
-msgstr "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK."
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 24 species in the UK."
+msgstr ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 24 species in the UK."
 
 # Bumblebee screen 2 content
-msgid "Queen and worker bumblebees collect pollen into a moistened ball on the outside of the hind legs"
-msgstr "Queen and worker bumblebees collect pollen into a moistened ball on the outside of the hind legs"
+msgid ""
+"Queen and worker bumblebees collect pollen into a moistened ball on the "
+"outside of the hind legs"
+msgstr ""
+"Queen and worker bumblebees collect pollen into a moistened ball on the "
+"outside of the hind legs"
 
 # Bumblebee screen 2 content
-msgid "This bumblebee is one of the species that are more-or-less ginger-coloured all over"
-msgstr "This bumblebee is one of the species that are more-or-less ginger-coloured all over"
+msgid ""
+"This bumblebee is one of the species that are more-or-less ginger-coloured "
+"all over"
+msgstr ""
+"This bumblebee is one of the species that are more-or-less ginger-coloured "
+"all over"
 
 # Bumblebee screen 2 content
-msgid "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar."
-msgstr "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar."
+msgid ""
+"Male bumblebees are similar looking to females but have slightly longer "
+"antennae, and do not collect pollen. They visit flowers to feed on nectar."
+msgstr ""
+"Male bumblebees are similar looking to females but have slightly longer "
+"antennae, and do not collect pollen. They visit flowers to feed on nectar."
 
 # Honeybees screen 1 content
-msgid "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. "
-msgstr "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. "
+msgid ""
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
 
 # Honeybees screen 1 content
-msgid "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild."
-msgstr "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild."
+msgid ""
+"There is just one species of honeybee in the UK. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+"There is just one species of honeybee in the UK. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
 
 # Honeybees screen 2 content
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr "Male honeybees (drones) are similar but have much larger eyes."
 
 # Solitary bees screen 1 content
-msgid "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. "
-msgstr "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. "
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"both bumblebees and honeybees. "
+msgstr ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"both bumblebees and honeybees. "
 
 # Solitary bees screen 1 content
-msgid "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
-msgstr "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 250 species in the UK."
 
 # Solitary bees screen 1 content
 msgid "Usually quite elongate in shape (but there is lots of variety)"
@@ -972,24 +1258,32 @@ msgstr "Usually quite elongate in shape (but there is lots of variety)"
 
 # Solitary bees screen 1 content
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr "Usually hairy, but often less densely covered in hairs than bumblebees"
+msgstr ""
+"Usually hairy, but often less densely covered in hairs than bumblebees"
 
 # Context term
 msgid "The timer will now start!"
 msgstr "The timer will now start!"
 
 # Context term
-msgid "Count every insect that lands on the target flowers (count each individual once)."
-msgstr "Count every insect that lands on the target flowers (count each individual once)."
+msgid ""
+"Count every insect that lands on the target flowers (count each individual "
+"once)."
+msgstr ""
+"Count every insect that lands on the target flowers (count each individual "
+"once)."
 
 # Context term
-msgid "Tap the insect images to increase your count (minus buttons will decrease the count)"
-msgstr "Tap the insect images to increase your count (minus buttons will decrease the count)"
+msgid ""
+"Tap the insect images to increase your count (minus buttons will decrease "
+"the count)"
+msgstr ""
+"Tap the insect images to increase your count (minus buttons will decrease "
+"the count)"
 
 # Context term
 msgid "Start Count"
 msgstr "Start Count"
-
 
 # Solitary bees screen 1 content
 msgid "Colours usually more subdued and less contrasting than bumblebees"
@@ -1000,68 +1294,124 @@ msgid "Long antennae, often held straight out in front"
 msgstr "Long antennae, often held straight out in front"
 
 # Solitary bees screen 1 content
-msgid "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees"
-msgstr "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees"
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees"
+msgstr ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees"
 
 # Solitary bees screen 2 content
-msgid "Some solitary bees collect dry pollen into a pollen basket at the base of the hind legs (see the mining bee on the left above)"
-msgstr "Some solitary bees collect dry pollen into a pollen basket at the base of the hind legs (see the mining bee on the left above)"
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the mining bee on the left above)"
+msgstr ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the mining bee on the left above)"
 
 # Solitary bees screen 2 content
-msgid "Others have the pollen basket underneath their abdomen (see the leafcutter bee on the right above)"
-msgstr "Others have the pollen basket underneath their abdomen (see the leafcutter bee on the right above)"
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee on the right above)"
+msgstr ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee on the right above)"
 
 # Solitary bees screen 2 content
-msgid "Solitary bees generally nest in burrows or holes. One large group, the mining bees, dig burrows into soil. Another group, including the mason bees and leafcutter bees, make use of holes in wood, plants or walls."
-msgstr "Solitary bees generally nest in burrows or holes. One large group, the mining bees, dig burrows into soil. Another group, including the mason bees and leafcutter bees, make use of holes in wood, plants or walls."
+msgid ""
+"Solitary bees generally nest in burrows or holes. One large group, the "
+"mining bees, dig burrows into soil. Another group, including the mason bees "
+"and leafcutter bees, make use of holes in wood, plants or walls."
+msgstr ""
+"Solitary bees generally nest in burrows or holes. One large group, the "
+"mining bees, dig burrows into soil. Another group, including the mason bees "
+"and leafcutter bees, make use of holes in wood, plants or walls."
 
 # Solitary bees screen 3 content
-msgid "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above."
-msgstr "Among the many species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Some examples are shown above."
+msgid ""
+"Among the many species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Some examples are shown above."
+msgstr ""
+"Among the many species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Some examples are shown above."
 
 # Solitary bees screen 3 content
-msgid "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!"
-msgstr "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!"
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “solitary bees”!"
+msgstr ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “solitary bees”!"
 
 # Solitary bees screen 3 content
-msgid "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
-msgstr "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+msgid ""
+"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+msgstr ""
+"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 
 # Solitary bees screen 3 content
-msgid "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
-msgstr "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours"
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours"
+msgstr ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours"
 
 # Solitary bees screen 3 content
-msgid "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary bees, at around 4mm long"
-msgstr "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary bees, at around 4mm long"
+msgid ""
+"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
+"bees, at around 4mm long"
+msgstr ""
+"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
+"bees, at around 4mm long"
 
 # Solitary bees screen 3 content
-msgid "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
-msgstr "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen"
+msgid ""
+"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
+"when fresh these bees have clear black and yellow stripes on the abdomen"
+msgstr ""
+"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
+"when fresh these bees have clear black and yellow stripes on the abdomen"
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
 msgstr "Long antennae (distinguishes them from most flies)"
 
 # Wasps screen 1 content
-msgid "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees"
-msgstr "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees"
+msgid ""
+"There are some hairs on the body, but wasps are usually much less dense and "
+"furry compared to bees"
+msgstr ""
+"There are some hairs on the body, but wasps are usually much less dense and "
+"furry compared to bees"
 
 # Wasps screen 1 content
-msgid "Social wasps and some of the solitary species have bold back and yellow stripes"
-msgstr "Social wasps and some of the solitary species have bold back and yellow stripes"
+msgid ""
+"Social wasps and some of the solitary species have bold back and yellow "
+"stripes"
+msgstr ""
+"Social wasps and some of the solitary species have bold back and yellow "
+"stripes"
 
 # Wasps screen 1 content
 msgid "Some wasps have their wings rolled up when at rest"
 msgstr "Some wasps have their wings rolled up when at rest"
 
 # Wasps screen 1 content
-msgid "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
-msgstr "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+msgid ""
+"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+msgstr ""
+"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 
 # Wasps screen 1 content
-msgid "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above."
-msgstr "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above."
+msgid ""
+"There are many different species of wasp, but the most familiar are the "
+"social wasps such as the one shown above."
+msgstr ""
+"There are many different species of wasp, but the most familiar are the "
+"social wasps such as the one shown above."
 
 # Wasps screen 2 content
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
@@ -1076,64 +1426,122 @@ msgid "Others may be black and red, or all black as in this example"
 msgstr "Others may be black and red, or all black as in this example"
 
 # Wasps screen 2 content
-msgid "There is a lot of variation in size, shape and markings among the solitary wasps. They are usually not obviously hairy, and since they do not collect pollen they have no pollen basket (although pollen may become stuck to their bodies)."
-msgstr "There is a lot of variation in size, shape and markings among the solitary wasps. They are usually not obviously hairy, and since they do not collect pollen they have no pollen basket (although pollen may become stuck to their bodies)."
+msgid ""
+"There is a lot of variation in size, shape and markings among the solitary "
+"wasps. They are usually not obviously hairy, and since they do not collect "
+"pollen they have no pollen basket (although pollen may become stuck to their"
+" bodies)."
+msgstr ""
+"There is a lot of variation in size, shape and markings among the solitary "
+"wasps. They are usually not obviously hairy, and since they do not collect "
+"pollen they have no pollen basket (although pollen may become stuck to their"
+" bodies)."
 
 # Wasps screen 2 content
-msgid "Solitary wasps generally nest in burrows or holes, in a similar manner to the solitary bees."
-msgstr "Solitary wasps generally nest in burrows or holes, in a similar manner to the solitary bees."
+msgid ""
+"Solitary wasps generally nest in burrows or holes, in a similar manner to "
+"the solitary bees."
+msgstr ""
+"Solitary wasps generally nest in burrows or holes, in a similar manner to "
+"the solitary bees."
 
 # Wasps screen 3 content
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 msgstr "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 
 # Wasps screen 3 content
-msgid "The majority of species have very long antennae, made up of lots of individual segments"
-msgstr "The majority of species have very long antennae, made up of lots of individual segments"
+msgid ""
+"The majority of species have very long antennae, made up of lots of "
+"individual segments"
+msgstr ""
+"The majority of species have very long antennae, made up of lots of "
+"individual segments"
 
 # Wasps screen 3 content
-msgid "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in some species this is very long"
-msgstr "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in some species this is very long"
+msgid ""
+"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
+"some species this is very long"
+msgstr ""
+"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
+"some species this is very long"
 
 # Wasps screen 3 content
-msgid "Colours are usually a mix of black and red or yellow – some species are all-black"
-msgstr "Colours are usually a mix of black and red or yellow – some species are all-black"
+msgid ""
+"Colours are usually a mix of black and red or yellow – some species are all-"
+"black"
+msgstr ""
+"Colours are usually a mix of black and red or yellow – some species are all-"
+"black"
 
 # Wasps screen 3 content
-msgid "There are many different parasitic wasps, some of which visit flowers for nectar. Two examples are shown above."
-msgstr "There are many different parasitic wasps, some of which visit flowers for nectar. Two examples are shown above."
+msgid ""
+"There are many different parasitic wasps, some of which visit flowers for "
+"nectar. Two examples are shown above."
+msgstr ""
+"There are many different parasitic wasps, some of which visit flowers for "
+"nectar. Two examples are shown above."
 
 # Wasps screen 3 content
-msgid "Parasitic wasps lay their eggs into other invertebrates, or their nests, and the larvae of the wasps consume the host invertebrate."
-msgstr "Parasitic wasps lay their eggs into other invertebrates, or their nests, and the larvae of the wasps consume the host invertebrate."
+msgid ""
+"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
+" the larvae of the wasps consume the host invertebrate."
+msgstr ""
+"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
+" the larvae of the wasps consume the host invertebrate."
 
 # Hoverflies screen 1 content
-msgid "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females"
-msgstr "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females"
+msgid ""
+"Large eyes, covering most of the head in males (as shown above) or with a "
+"small gap between the eyes at the top of the head in females"
+msgstr ""
+"Large eyes, covering most of the head in males (as shown above) or with a "
+"small gap between the eyes at the top of the head in females"
 
 # Hoverflies screen 1 content
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr "Most hoverflies have much shorter antennae than bees and wasps"
 
 # Hoverflies screen 1 content
-msgid "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing"
-msgstr "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing"
+msgid ""
+"In the wings there is a ‘false margin’ wing vein, running more-or-less "
+"parallel to the true edge of the wing"
+msgstr ""
+"In the wings there is a ‘false margin’ wing vein, running more-or-less "
+"parallel to the true edge of the wing"
 
 # Hoverflies screen 1 content
-msgid "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns"
-msgstr "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns"
+msgid ""
+"Many hoverfly species have black and yellow stripes, but some are all dark "
+"or have other patterns"
+msgstr ""
+"Many hoverfly species have black and yellow stripes, but some are all dark "
+"or have other patterns"
 
 # Hoverflies screen 1 content
-msgid "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)"
-msgstr "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)"
+msgid ""
+"Hoverflies are not usually as hairy as bees (but there are some "
+"exceptions!), and they do not usually have prominent bristles on the body "
+"(some other types of fly are obviously bristly)"
+msgstr ""
+"Hoverflies are not usually as hairy as bees (but there are some "
+"exceptions!), and they do not usually have prominent bristles on the body "
+"(some other types of fly are obviously bristly)"
 
 # Hoverflies screen 1 content
-msgid "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. "
-msgstr "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. "
+msgid ""
+"Hoverflies are very active and agile flyers, and are frequently seen "
+"hovering, as you would expect from their name. "
+msgstr ""
+"Hoverflies are very active and agile flyers, and are frequently seen "
+"hovering, as you would expect from their name. "
 
 # Hoverflies screen 1 content
-msgid "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK."
-msgstr "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK."
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 285 species of hoverfly in the UK."
 
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
@@ -1144,36 +1552,66 @@ msgid "The eyes cover more of the head"
 msgstr "The eyes cover more of the head"
 
 # Hoverflies screen 2 content
-msgid "The back legs are much narrower than the broad flattened legs of honeybees"
-msgstr "The back legs are much narrower than the broad flattened legs of honeybees"
+msgid ""
+"The back legs are much narrower than the broad flattened legs of honeybees"
+msgstr ""
+"The back legs are much narrower than the broad flattened legs of honeybees"
 
 # Hoverflies screen 2 content
 msgid "The typical ‘false margin’ wing vein is present"
 msgstr "The typical ‘false margin’ wing vein is present"
 
 # Hoverflies screen 2 content
-msgid "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip of the wing"
-msgstr "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip of the wing"
+msgid ""
+"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
+" of the wing"
+msgstr ""
+"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
+" of the wing"
 
 # Hoverflies screen 2 content
-msgid "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above."
-msgstr "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and marking among the full range of species. Some examples are shown above."
+msgid ""
+"Many hoverflies have the typical black and yellow markings, but there is "
+"quite a lot of variety in shape, size and marking among the full range of "
+"species. Some examples are shown above."
+msgstr ""
+"Many hoverflies have the typical black and yellow markings, but there is "
+"quite a lot of variety in shape, size and marking among the full range of "
+"species. Some examples are shown above."
 
 # Hoverflies screen 2 content
-msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae"
-msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae"
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae"
+msgstr ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae"
 
 # Hoverflies screen 3 content
-msgid "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour"
-msgstr "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour"
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
+msgstr ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
 
 # Hoverflies screen 3 content
-msgid "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!"
-msgstr "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!"
+msgid ""
+"A few hoverflies are very good bumblebee mimics – check the antennae to be "
+"sure they are not bumblebees!"
+msgstr ""
+"A few hoverflies are very good bumblebee mimics – check the antennae to be "
+"sure they are not bumblebees!"
 
 # Hoverflies screen 3 content
-msgid "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies"
-msgstr "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies"
+msgid ""
+"Some hoverflies are small and mostly dark in colour, but have the typical "
+"wing veins (if you can get close enough to see them) and in flight will "
+"hover like typical hoverflies"
+msgstr ""
+"Some hoverflies are small and mostly dark in colour, but have the typical "
+"wing veins (if you can get close enough to see them) and in flight will "
+"hover like typical hoverflies"
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
@@ -1188,20 +1626,38 @@ msgid "Many dance flies have a distinctly humped thorax"
 msgstr "Many dance flies have a distinctly humped thorax"
 
 # Other flies screen 1 content
-msgid "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on hogweed and related flowers"
-msgstr "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on hogweed and related flowers"
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on hogweed and related flowers"
+msgstr ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on hogweed and related flowers"
 
 # Other flies screen 1 content
 msgid "The abdomen is broader and flatter than in hoverflies"
 msgstr "The abdomen is broader and flatter than in hoverflies"
 
 # Other flies screen 1 content
-msgid "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing"
-msgstr "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing"
+msgid ""
+"The wing venation is different to hoverflies, with no ‘false margin’ wing "
+"vein parallel to the true edge of the wing"
+msgstr ""
+"The wing venation is different to hoverflies, with no ‘false margin’ wing "
+"vein parallel to the true edge of the wing"
 
 # Other flies screen 1 content
-msgid "There are many different flies that you may see visiting flowers – for the FIT Count all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
-msgstr "There are many different flies that you may see visiting flowers – for the FIT Count all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. Two examples of “other flies” are shown above and two on the next screen."
+msgid ""
+"There are many different flies that you may see visiting flowers – for the "
+"FIT Count all you need to do is separate them into “hoverflies” and all "
+"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
+"but not many other flies have. Two examples of “other flies” are shown above"
+" and two on the next screen."
+msgstr ""
+"There are many different flies that you may see visiting flowers – for the "
+"FIT Count all you need to do is separate them into “hoverflies” and all "
+"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
+"but not many other flies have. Two examples of “other flies” are shown above"
+" and two on the next screen."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
@@ -1216,12 +1672,22 @@ msgid "This is the Yellow Dung-fly (family Scathophagidae)"
 msgstr "This is the Yellow Dung-fly (family Scathophagidae)"
 
 # Other flies screen 2 content
-msgid "It has bristles on the body and legs, and the males in particular have fluffy yellow hairs on the body"
-msgstr "It has bristles on the body and legs, and the males in particular have fluffy yellow hairs on the body"
+msgid ""
+"It has bristles on the body and legs, and the males in particular have "
+"fluffy yellow hairs on the body"
+msgstr ""
+"It has bristles on the body and legs, and the males in particular have "
+"fluffy yellow hairs on the body"
 
 # Other flies screen 2 content
-msgid "Some of the larger flies that you will see on flowers are from ‘calypterate’ families, most of which are rather rounded insects with obvious bristles on the legs and body."
-msgstr "Some of the larger flies that you will see on flowers are from ‘calypterate’ families, most of which are rather rounded insects with obvious bristles on the legs and body."
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body."
+msgstr ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body."
 
 # Butterflies and moths 1 screen content
 msgid "Small Tortoiseshell butterfly"
@@ -1232,12 +1698,24 @@ msgid "Common Blue butterfly"
 msgstr "Common Blue butterfly"
 
 # Butterflies and moths 1 screen content
-msgid "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
-msgstr "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
 
 # Butterflies and moths 1 screen content
-msgid "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category."
-msgstr "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category."
+msgid ""
+"For the FIT Count there is no need to distinguish between butterflies and "
+"moths – they are all counted in the same category."
+msgstr ""
+"For the FIT Count there is no need to distinguish between butterflies and "
+"moths – they are all counted in the same category."
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
@@ -1248,86 +1726,173 @@ msgid "Nettle-tap moth (a micro-moth)"
 msgstr "Nettle-tap moth (a micro-moth)"
 
 # Butterflies and moths 2 screen content
-msgid "A range of day-flying moths can be seen visiting flowers. Some of these are quite large (“macro-moths”) and colourful, and some are very small (“micro-moths”). All moths have patterns and colours produced by the tiny scales on their wings."
-msgstr "A range of day-flying moths can be seen visiting flowers. Some of these are quite large (“macro-moths”) and colourful, and some are very small (“micro-moths”). All moths have patterns and colours produced by the tiny scales on their wings."
+msgid ""
+"A range of day-flying moths can be seen visiting flowers. Some of these are "
+"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
+"moths”). All moths have patterns and colours produced by the tiny scales on "
+"their wings."
+msgstr ""
+"A range of day-flying moths can be seen visiting flowers. Some of these are "
+"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
+"moths”). All moths have patterns and colours produced by the tiny scales on "
+"their wings."
 
 # Beetles 1 screen content
-msgid "Beetles have forewings that have become hardened and act as covers for the softer hindwings and abdomen"
-msgstr "Beetles have forewings that have become hardened and act as covers for the softer hindwings and abdomen"
+msgid ""
+"Beetles have forewings that have become hardened and act as covers for the "
+"softer hindwings and abdomen"
+msgstr ""
+"Beetles have forewings that have become hardened and act as covers for the "
+"softer hindwings and abdomen"
 
 # Beetles 1 screen content
 msgid "Beetles have chewing mouthparts"
 msgstr "Beetles have chewing mouthparts"
 
 # Beetles 1 screen content
-msgid "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in which the males have distinctive thickened hind legs"
-msgstr "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in which the males have distinctive thickened hind legs"
+msgid ""
+"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
+"which the males have distinctive thickened hind legs"
+msgstr ""
+"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
+"which the males have distinctive thickened hind legs"
 
 # Beetles 1 screen content
-msgid "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen."
-msgstr "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen."
+msgid ""
+"There are relatively few beetle species that visit flowers, but those that "
+"do can be very abundant. The different species vary a lot in size, shape and"
+" colour, but can be recognised as beetles by the hard wing cases covering "
+"their abdomen."
+msgstr ""
+"There are relatively few beetle species that visit flowers, but those that "
+"do can be very abundant. The different species vary a lot in size, shape and"
+" colour, but can be recognised as beetles by the hard wing cases covering "
+"their abdomen."
 
 # Beetles 2 screen content
-msgid "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer"
-msgstr "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer"
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer"
+msgstr ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer"
 
 # Beetles 2 screen content
-msgid "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood"
-msgstr "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood"
+msgid ""
+"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
+" larvae live in decaying wood"
+msgstr ""
+"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
+" larvae live in decaying wood"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
 msgstr "Above are two more examples of beetles that regularly visit flowers."
 
 # Small insect 1 screen content
-msgid "This example shows a flower with many pollen beetles (family Nitidulidae) – other “small insects” may include tiny flies and parasitic wasps"
-msgstr "This example shows a flower with many pollen beetles (family Nitidulidae) – other “small insects” may include tiny flies and parasitic wasps"
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) – "
+"other “small insects” may include tiny flies and parasitic wasps"
+msgstr ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) – "
+"other “small insects” may include tiny flies and parasitic wasps"
 
 # Small insect 1 screen content
-msgid "This category is for any insects under 3mm long. These can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category."
-msgstr "This category is for any insects under 3mm long. These can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category."
+msgid ""
+"This category is for any insects under 3mm long. These can be hard to assign"
+" to a particular group without peering at them closely (which would disturb "
+"other insects visiting the flowers). Just count them (or estimate them if "
+"there is a large number) and assign them all to this category."
+msgstr ""
+"This category is for any insects under 3mm long. These can be hard to assign"
+" to a particular group without peering at them closely (which would disturb "
+"other insects visiting the flowers). Just count them (or estimate them if "
+"there is a large number) and assign them all to this category."
 
 # Other insect 1 screen content
-msgid "Other insects you may see include sawflies, which come in a variety of colours and sizes - some look rather like wasps"
-msgstr "Other insects you may see include sawflies, which come in a variety of colours and sizes - some look rather like wasps"
+msgid ""
+"Other insects you may see include sawflies, which come in a variety of "
+"colours and sizes - some look rather like wasps"
+msgstr ""
+"Other insects you may see include sawflies, which come in a variety of "
+"colours and sizes - some look rather like wasps"
 
 # Other insect 1 screen content
-msgid "They do not have a “wasp waist” – there is no gap between the abdomen and thorax"
-msgstr "They do not have a “wasp waist” – there is no gap between the abdomen and thorax"
+msgid ""
+"They do not have a “wasp waist” – there is no gap between the abdomen and "
+"thorax"
+msgstr ""
+"They do not have a “wasp waist” – there is no gap between the abdomen and "
+"thorax"
 
 # Other insect 1 screen content
 msgid "Sawflies are not hairy and do not have a pollen basket"
 msgstr "Sawflies are not hairy and do not have a pollen basket"
 
 # Other insect 1 screen content
-msgid "They are usually quite slow-moving, with a weaker flight than bees or wasps"
-msgstr "They are usually quite slow-moving, with a weaker flight than bees or wasps"
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps"
+msgstr ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps"
 
 # Other insect 1 screen content
-msgid "This category is for any insects that don’t fit into the other insect groups, and can also be used for any insects that you can’t identify into a group at all. Please count all the insects you see, and use “other insects” for any that you don’t recognise. For example, sawflies are counted as “other insects”. Sawflies are related to bees and wasps but there are a number of differences."
-msgstr "This category is for any insects that don’t fit into the other insect groups, and can also be used for any insects that you can’t identify into a group at all. Please count all the insects you see, and use “other insects” for any that you don’t recognise. For example, sawflies are counted as “other insects”. Sawflies are related to bees and wasps but there are a number of differences."
+msgid ""
+"This category is for any insects that don’t fit into the other insect "
+"groups, and can also be used for any insects that you can’t identify into a "
+"group at all. Please count all the insects you see, and use “other insects” "
+"for any that you don’t recognise. For example, sawflies are counted as "
+"“other insects”. Sawflies are related to bees and wasps but there are a "
+"number of differences."
+msgstr ""
+"This category is for any insects that don’t fit into the other insect "
+"groups, and can also be used for any insects that you can’t identify into a "
+"group at all. Please count all the insects you see, and use “other insects” "
+"for any that you don’t recognise. For example, sawflies are counted as "
+"“other insects”. Sawflies are related to bees and wasps but there are a "
+"number of differences."
 
 # Other insect 2 screen content
-msgid "True bugs have wings that overlap, so there is no clear midline along the abdomen – the wings form a X-shape"
-msgstr "True bugs have wings that overlap, so there is no clear midline along the abdomen – the wings form a X-shape"
+msgid ""
+"True bugs have wings that overlap, so there is no clear midline along the "
+"abdomen – the wings form a X-shape"
+msgstr ""
+"True bugs have wings that overlap, so there is no clear midline along the "
+"abdomen – the wings form a X-shape"
 
 # Other insect 2 screen content
-msgid "Some bugs have a more-or-less triangular “scutellum” covering part of the abdomen, and adding to the X-shape effect"
-msgstr "Some bugs have a more-or-less triangular “scutellum” covering part of the abdomen, and adding to the X-shape effect"
+msgid ""
+"Some bugs have a more-or-less triangular “scutellum” covering part of the "
+"abdomen, and adding to the X-shape effect"
+msgstr ""
+"Some bugs have a more-or-less triangular “scutellum” covering part of the "
+"abdomen, and adding to the X-shape effect"
 
 # Other insect 2 screen content
-msgid "True bugs have sucking mouthparts, with a long proboscis or rostrum (but this is usually hidden away underneath the bug)"
-msgstr "True bugs have sucking mouthparts, with a long proboscis or rostrum (but this is usually hidden away underneath the bug)"
+msgid ""
+"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
+"this is usually hidden away underneath the bug)"
+msgstr ""
+"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
+"this is usually hidden away underneath the bug)"
 
 # Other insect 2 screen content
-msgid "Some bugs are very colourful, while others are shades or green or brown"
-msgstr "Some bugs are very colourful, while others are shades or green or brown"
+msgid ""
+"Some bugs are very colourful, while others are shades or green or brown"
+msgstr ""
+"Some bugs are very colourful, while others are shades or green or brown"
 
 # Other insect 2 screen content
-msgid "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles."
-msgstr "True bugs do not often visit flowers but you may encounter them occasionally, and if so they are counted in the “other insects” category. They are sometimes confused with beetles."
+msgid ""
+"True bugs do not often visit flowers but you may encounter them "
+"occasionally, and if so they are counted in the “other insects” category. "
+"They are sometimes confused with beetles."
+msgstr ""
+"True bugs do not often visit flowers but you may encounter them "
+"occasionally, and if so they are counted in the “other insects” category. "
+"They are sometimes confused with beetles."
 
 # From survey pages
+#: UK BR CL CY AR
 msgid "Other"
 msgstr "Other"
 
@@ -1360,8 +1925,10 @@ msgid "Upload"
 msgstr "Upload"
 
 # Context term
-msgid "If you don't know which insect group, add to the \"Other insects\" category."
-msgstr "If you don't know which insect group, add to the \"Other insects\" category."
+msgid ""
+"If you don't know which insect group, add to the \"Other insects\" category."
+msgstr ""
+"If you don't know which insect group, add to the \"Other insects\" category."
 
 # Logout message
 msgid "Are you sure you want to logout?"
@@ -1371,51 +1938,63 @@ msgstr "Are you sure you want to logout?"
 msgid "Discard local data"
 msgstr "Discard local data"
 
-# Id guide label
-msgid "Bumblebees"
-msgstr "Bumblebees"
-
-# Id guide label
-msgid "Honeybees"
-msgstr "Honeybees"
-
-# Id guide label
-msgid "Solitary bees"
-msgstr "Solitary bees"
-
-# Id guide label
-msgid "Wasps"
-msgstr "Wasps"
-
-# Id guide label
-msgid "Hoverflies"
-msgstr "Hoverflies"
-
-# Id guide label
-msgid "Other flies"
-msgstr "Other flies"
-
-# Id guide label
-msgid "Butterflies and moths"
-msgstr "Butterflies and moths"
-
-# Id guide label
+# pollinator name
+#: UK BR CY
 msgid "Beetles"
 msgstr "Beetles"
 
-# Id guide label
-msgid "Small insects (<3mm)"
-msgstr "Small insects (<3mm)"
+# pollinator name
+#: UK BR CY
+msgid "Bumblebees"
+msgstr "Bumblebees"
 
-# Id guide label
+# pollinator name
+#: UK BR CY
+msgid "Butterflies and moths"
+msgstr "Butterflies and moths"
+
+# pollinator name
+#: UK BR CY
+msgid "Honeybees"
+msgstr "Honeybees"
+
+# pollinator name
+#: UK BR CY
+msgid "Hoverflies"
+msgstr "Hoverflies"
+
+# pollinator name
+#: UK CY
+msgid "Other flies"
+msgstr "Other flies"
+
+# pollinator name
+#: UK BR CY
 msgid "Other insects"
 msgstr "Other insects"
 
-# Id guide label
+# pollinator name
+#: UK BR CY
+msgid "Small insects (<3mm)"
+msgstr "Small insects (<3mm)"
+
+# pollinator name
+#: UK BR CY
+msgid "Solitary bees"
+msgstr "Solitary bees"
+
+# pollinator name
+#: UK BR CY
+msgid "Wasps"
+msgstr "Wasps"
+
+# pollinator name
+#: BR
 msgid "Bats"
 msgstr "Bats"
 
-# Id guide label
+# pollinator name
+#: BR
 msgid "Hummingbirds"
 msgstr "Hummingbirds"
 
@@ -1448,12 +2027,22 @@ msgid "Shade"
 msgstr "Shade"
 
 # Alert message at the end of survey
-msgid "Thanks for completing your FIT Count - all results help us to monitor insect populations."
-msgstr "Thanks for completing your FIT Count - all results help us to monitor insect populations."
+msgid ""
+"Thanks for completing your FIT Count - all results help us to monitor insect"
+" populations."
+msgstr ""
+"Thanks for completing your FIT Count - all results help us to monitor insect"
+" populations."
 
 # Alert message at the end of survey
-msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> insects per count."
-msgstr "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> insects per count."
+msgid ""
+"You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
+"average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
+"insects per count."
+msgstr ""
+"You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
+"average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
+"insects per count."
 
 # Alert message at the end of survey - non UK
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
@@ -1572,20 +2161,50 @@ msgid "required"
 msgstr "required"
 
 # About page content
-msgid "FIT Counts are suitable for all, in urban or rural locations, and can be done at any time during the FIT Count season – see the quick guide <1></1> for the season in your country."
-msgstr "FIT Counts are suitable for all, in urban or rural locations, and can be done at any time during the FIT Count season – see the quick guide <1></1> for the season in your country."
+msgid ""
+"FIT Counts are suitable for all, in urban or rural locations, and can be "
+"done at any time during the FIT Count season – see the quick guide <1></1> "
+"for the season in your country."
+msgstr ""
+"FIT Counts are suitable for all, in urban or rural locations, and can be "
+"done at any time during the FIT Count season – see the quick guide <1></1> "
+"for the season in your country."
 
 # About page content
-msgid "An increasing amount of evidence suggests that pollinator species diversity has declined in many parts of the world, with the strongest evidence coming from Europe and North America. Less is known about changes in pollinator abundance, and we need much more data to be able to track this. You can help by doing a FIT Count, maybe even repeating it over the season. You don’t need to identify the insects to species level, only to within broad groups e.g. bumblebees, hoverflies, butterflies & moths, wasps."
-msgstr "An increasing amount of evidence suggests that pollinator species diversity has declined in many parts of the world, with the strongest evidence coming from Europe and North America. Less is known about changes in pollinator abundance, and we need much more data to be able to track this. You can help by doing a FIT Count, maybe even repeating it over the season. You don’t need to identify the insects to species level, only to within broad groups e.g. bumblebees, hoverflies, butterflies & moths, wasps."
+msgid ""
+"An increasing amount of evidence suggests that pollinator species diversity "
+"has declined in many parts of the world, with the strongest evidence coming "
+"from Europe and North America. Less is known about changes in pollinator "
+"abundance, and we need much more data to be able to track this. You can help"
+" by doing a FIT Count, maybe even repeating it over the season. You don’t "
+"need to identify the insects to species level, only to within broad groups "
+"e.g. bumblebees, hoverflies, butterflies & moths, wasps."
+msgstr ""
+"An increasing amount of evidence suggests that pollinator species diversity "
+"has declined in many parts of the world, with the strongest evidence coming "
+"from Europe and North America. Less is known about changes in pollinator "
+"abundance, and we need much more data to be able to track this. You can help"
+" by doing a FIT Count, maybe even repeating it over the season. You don’t "
+"need to identify the insects to species level, only to within broad groups "
+"e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 
 # About page content
-msgid "The FIT Count was originally developed through the UK Pollinator Monitoring Scheme (PoMS). Similar methods are now being adopted in other countries, and this app is used by a wide range of pollinator monitoring projects:"
-msgstr "The FIT Count was originally developed through the UK Pollinator Monitoring Scheme (PoMS). Similar methods are now being adopted in other countries, and this app is used by a wide range of pollinator monitoring projects:"
+msgid ""
+"The FIT Count was originally developed through the UK Pollinator Monitoring "
+"Scheme (PoMS). Similar methods are now being adopted in other countries, and"
+" this app is used by a wide range of pollinator monitoring projects:"
+msgstr ""
+"The FIT Count was originally developed through the UK Pollinator Monitoring "
+"Scheme (PoMS). Similar methods are now being adopted in other countries, and"
+" this app is used by a wide range of pollinator monitoring projects:"
 
 # About page content
-msgid "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <1>here</1>."
-msgstr "The FIT Count project is supported by the UK Centre for Ecology & Hydrology and can be contacted <1>here</1>."
+msgid ""
+"The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
+"and can be contacted <1>here</1>."
+msgstr ""
+"The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
+"and can be contacted <1>here</1>."
 
 # Credits page content
 msgid "This app has been created by the"
@@ -1596,8 +2215,12 @@ msgid "with technical development by"
 msgstr "with technical development by"
 
 # Credits page content
-msgid "App development has been supported by the funders and partners of these pollinator projects around the world"
-msgstr "App development has been supported by the funders and partners of these pollinator projects around the world"
+msgid ""
+"App development has been supported by the funders and partners of these "
+"pollinator projects around the world"
+msgstr ""
+"App development has been supported by the funders and partners of these "
+"pollinator projects around the world"
 
 # Survey validation message
 msgid "Please add at least 1 photo."
@@ -1635,117 +2258,207 @@ msgstr "terms"
 msgid "Search for a location..."
 msgstr "Search for a location..."
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "Enjoying the app?"
 msgstr "Enjoying the app?"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "Not really"
 msgstr "Not really"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "Yes!"
 msgstr "Yes!"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "Would you mind giving us some feedback?"
 msgstr "Would you mind giving us some feedback?"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "No, thanks"
 msgstr "No, thanks"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "OK, sure"
 msgstr "OK, sure"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "How about a rating on the App Store then?"
 msgstr "How about a rating on the App Store then?"
 
-# Asking user for a feedback on app stores 
+# Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
 msgstr "How about a rating on the Play Store then?"
 
 # Shown when tapping an uploaded survey
-msgid "To view your FIT Count data after uploading please visit the project website for your country, where available (e.g. <2>UK PoMS</2>)"
-msgstr "To view your FIT Count data after uploading please visit the project website for your country, where available (e.g. <2>UK PoMS</2>)"
+msgid ""
+"To view your FIT Count data after uploading please visit the project website"
+" for your country, where available (e.g. <2>UK PoMS</2>)"
+msgstr ""
+"To view your FIT Count data after uploading please visit the project website"
+" for your country, where available (e.g. <2>UK PoMS</2>)"
 
 # extraText
-msgid "There is just one species of honeybee. They nest in artificial hives,with occasional colonies establishing in the wild."
-msgstr "There is just one species of honeybee. They nest in artificial hives,with occasional colonies establishing in the wild."
+msgid ""
+"There is just one species of honeybee. They nest in artificial hives,with "
+"occasional colonies establishing in the wild."
+msgstr ""
+"There is just one species of honeybee. They nest in artificial hives,with "
+"occasional colonies establishing in the wild."
 
 # extraText
-msgid "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are two species in Cyprus."
-msgstr "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are two species in Cyprus."
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are two species in Cyprus."
+msgstr ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are two species in Cyprus."
 
 # extraText
-msgid "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 369 species in Cyprus."
-msgstr "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 369 species in Cyprus."
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 369 species in Cyprus."
+msgstr ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 369 species in Cyprus."
 
 # caption_1
-msgid "Some solitary bees collect dry pollen into a pollen basket at the base of the hind legs (bee on the left above)"
-msgstr "Some solitary bees collect dry pollen into a pollen basket at the base of the hind legs (bee on the left above)"
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (bee on the left above)"
+msgstr ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (bee on the left above)"
 
 # caption_2
-msgid "Others have the pollen basket underneath their abdomen (bee on the right above)"
-msgstr "Others have the pollen basket underneath their abdomen (bee on the right above)"
+msgid ""
+"Others have the pollen basket underneath their abdomen (bee on the right "
+"above)"
+msgstr ""
+"Others have the pollen basket underneath their abdomen (bee on the right "
+"above)"
 
 # caption_1
-  msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
+msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
 msgstr "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
 
 # caption_2
-msgid "Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) "
-msgstr "Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they have bee-like hairs on part of their body. Most bees of this genus are similar in shape and with a mix of black, red and yellow colours. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK) "
+msgid ""
+"Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they "
+"have bee-like hairs on part of their body. Most bees of this genus are "
+"similar in shape and with a mix of black, red and yellow colours. This "
+"species is not belonging to the biodiversity of Cyprus (example from the "
+"entomofauna of UK) "
+msgstr ""
+"Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they "
+"have bee-like hairs on part of their body. Most bees of this genus are "
+"similar in shape and with a mix of black, red and yellow colours. This "
+"species is not belonging to the biodiversity of Cyprus (example from the "
+"entomofauna of UK) "
 
 # caption_3
-msgid "Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. "
-msgstr "Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. Some species are among the smallest in size solitary bees, at around 3mm long. "
+msgid ""
+"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
+"Some species are among the smallest in size solitary bees, at around 3mm "
+"long. "
+msgstr ""
+"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
+"Some species are among the smallest in size solitary bees, at around 3mm "
+"long. "
 
 # caption_4
-msgid "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgid ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen. This species is not belonging to the biodiversity of Cyprus "
+"(example from the entomofauna of UK)"
+msgstr ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen. This species is not belonging to the biodiversity of Cyprus "
+"(example from the entomofauna of UK)"
 
 # caption_3
-msgid "Social wasps and some of the solitary species have bold black and yellow stripes"
-msgstr "Social wasps and some of the solitary species have bold black and yellow stripes"
+msgid ""
+"Social wasps and some of the solitary species have bold black and yellow "
+"stripes"
+msgstr ""
+"Social wasps and some of the solitary species have bold black and yellow "
+"stripes"
 
 # extraText
-msgid "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 52 species of hoverfly in Cyprus."
-msgstr "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 52 species of hoverfly in Cyprus."
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 52 species of hoverfly in Cyprus."
+msgstr ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 52 species of hoverfly in Cyprus."
 
 # caption_1
-msgid "Drone-fly hoverflies have much shorter antennae than honeybees. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of Greece) "
-msgstr "Drone-fly hoverflies have much shorter antennae than honeybees. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of Greece) "
+msgid ""
+"Drone-fly hoverflies have much shorter antennae than honeybees. This species"
+" is not belonging to the biodiversity of Cyprus (example from the "
+"entomofauna of Greece) "
+msgstr ""
+"Drone-fly hoverflies have much shorter antennae than honeybees. This species"
+" is not belonging to the biodiversity of Cyprus (example from the "
+"entomofauna of Greece) "
 
 # caption_1
-msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae (example from the entomofauna of Greece)"
-msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and is a good mimic of hornets, but note the short antennae (example from the entomofauna of Greece)"
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae (example from the "
+"entomofauna of Greece)"
+msgstr ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae (example from the "
+"entomofauna of Greece)"
 
 # caption_2
-msgid "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. "
-msgstr "A few species have extended ‘noses’ – this one is <i>Eristalinus taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. The compound eyes have five distinct, vertical, dark stripes. "
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Eristalinus "
+"taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
+"The compound eyes have five distinct, vertical, dark stripes. "
+msgstr ""
+"A few species have extended ‘noses’ – this one is <i>Eristalinus "
+"taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
+"The compound eyes have five distinct, vertical, dark stripes. "
 
 # caption_1
 msgid "This is a dance fly (family Empididae). "
 msgstr "This is a dance fly (family Empididae). "
 
 # caption_1
-msgid "This is a dance fly (family Empididae). This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr "This is a dance fly (family Empididae). This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgid ""
+"This is a dance fly (family Empididae). This species is not belonging to the"
+" biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr ""
+"This is a dance fly (family Empididae). This species is not belonging to the"
+" biodiversity of Cyprus (example from the entomofauna of UK)"
 
 # caption_4
-msgid "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on flowers. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on flowers. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers. This species is not belonging to the biodiversity of "
+"Cyprus (example from the entomofauna of UK)"
+msgstr ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers. This species is not belonging to the biodiversity of "
+"Cyprus (example from the entomofauna of UK)"
 
 # caption_1
-msgid "This is a parasitic fly from family Tachinidae. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr "This is a parasitic fly from family Tachinidae. This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgid ""
+"This is a parasitic fly from family Tachinidae. This species is not "
+"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr ""
+"This is a parasitic fly from family Tachinidae. This species is not "
+"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 
 # caption_3
-msgid "This is the Yellow Dung-fly (family Scathophagidae). This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr "This is the Yellow Dung-fly (family Scathophagidae). This species is not belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgid ""
+"This is the Yellow Dung-fly (family Scathophagidae). This species is not "
+"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
+msgstr ""
+"This is the Yellow Dung-fly (family Scathophagidae). This species is not "
+"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 
 # caption_1
 msgid "Painted Lady butterfly"
@@ -1760,49 +2473,94 @@ msgid "Micro-moths"
 msgstr "Micro-moths"
 
 # caption_1
-msgid "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer (UK example shown)"
-msgstr "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer (UK example shown)"
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer (UK example shown)"
+msgstr ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer (UK example shown)"
 
 # caption_2
-msgid "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a large nocturnal species - larvae live in decaying wood "
-msgstr "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a large nocturnal species - larvae live in decaying wood "
+msgid ""
+"The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
+"large nocturnal species - larvae live in decaying wood "
+msgstr ""
+"The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
+"large nocturnal species - larvae live in decaying wood "
 
 # caption_1
-msgid "This example shows a flower with many pollen beetles (family Nitidulidae) and other “small insects” which may include tiny flies and parasitic wasps"
-msgstr "This example shows a flower with many pollen beetles (family Nitidulidae) and other “small insects” which may include tiny flies and parasitic wasps"
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) "
+"and other “small insects” which may include tiny flies and parasitic wasps"
+msgstr ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) "
+"and other “small insects” which may include tiny flies and parasitic wasps"
 
 # caption_4
-msgid "They are usually quite slow-moving, with a weaker flight than bees or wasps (UK example shown)"
-msgstr "They are usually quite slow-moving, with a weaker flight than bees or wasps (UK example shown)"
-
-
- # caption_2
-msgid "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours (UK example shown) "
-msgstr "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but they have bee-like hairs on part of their body, and most are similar in shape and with a mix of black, red and yellow colours (UK example shown) "
-
-# caption_4
-msgid "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen (UK example shown)"
-msgstr "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes on the abdomen (UK example shown)"
-
-# caption_1
-msgid "Drone-fly hoverflies have much shorter antennae than honeybees (UK example shown) "
-msgstr "Drone-fly hoverflies have much shorter antennae than honeybees (UK example shown) "
-
-# caption_1
-msgid "The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest hoverfly species and is a good mimic of hornets, but note the short antennae (example from Greece shown) "
-msgstr "The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest hoverfly species and is a good mimic of hornets, but note the short antennae (example from Greece shown) "
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps "
+"(UK example shown)"
+msgstr ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps "
+"(UK example shown)"
 
 # caption_2
-msgid "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour (UK example shown)"
-msgstr "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>, a widespread species with a distinctive grey and orange colour (UK example shown)"
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours (UK example shown) "
+msgstr ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours (UK example shown) "
+
+# caption_4
+msgid ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen (UK example shown)"
+msgstr ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen (UK example shown)"
+
+# caption_1
+msgid ""
+"Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
+"shown) "
+msgstr ""
+"Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
+"shown) "
+
+# caption_1
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
+"hoverfly species and is a good mimic of hornets, but note the short antennae"
+" (example from Greece shown) "
+msgstr ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
+"hoverfly species and is a good mimic of hornets, but note the short antennae"
+" (example from Greece shown) "
+
+# caption_2
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour (UK example "
+"shown)"
+msgstr ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour (UK example "
+"shown)"
 
 # caption_1
 msgid "This is a dance fly (family Empididae, photo from the UK)"
 msgstr "This is a dance fly (family Empididae, photo from the UK)"
 
 # caption_4
-msgid "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on flowers (UK example shown)"
-msgstr "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on flowers (UK example shown)"
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers (UK example shown)"
+msgstr ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers (UK example shown)"
 
 # caption_1
 msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
@@ -1817,9 +2575,597 @@ msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
 msgstr "Six-spot Burnet moth (a macro-moth, UK example shown)"
 
 # caption_1
-msgid "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer "
-msgstr "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases – very abundant on flowers in mid-summer "
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer "
+msgstr ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer "
 
 # caption_2
-msgid "Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle – larvae live in decaying wood"
-msgstr "Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle – larvae live in decaying wood"
+msgid ""
+"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
+"– larvae live in decaying wood"
+msgstr ""
+"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
+"– larvae live in decaying wood"
+
+# intro_text
+#: BR
+msgid ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. Look out for:"
+msgstr ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. Look out for:"
+
+# intro_text
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. Look out for:"
+msgstr ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. Look out for:"
+
+# caption_4
+#: BR
+msgid ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+msgstr ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+
+# extraText
+#: BR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+msgstr ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+
+# intro_text
+#: BR
+msgid ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference, look out for:"
+msgstr ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference, look out for:"
+
+# caption_1
+#: BR
+msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
+msgstr "<i>Xylocopa</i> has a hairless and shiny abdomen"
+
+# caption_2
+#: BR
+msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
+msgstr "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
+
+# caption_3
+#: BR
+msgid "<i>Bombus</i> has a round shape, with furry abdomen"
+msgstr "<i>Bombus</i> has a round shape, with furry abdomen"
+
+# caption_4
+#: BR
+msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
+msgstr ""
+"<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
+
+# extraText
+#: BR
+msgid ""
+"For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
+"and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
+"lato”."
+msgstr ""
+"For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
+"and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
+"lato”."
+
+# intro_text
+#: BR
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. Look out for:"
+msgstr ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. Look out for:"
+
+# caption_4
+#: BR
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees. Some solitary bees measure up to 45mm."
+msgstr ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees. Some solitary bees measure up to 45mm."
+
+# extraText
+#: BR
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 3000 species in Brazil."
+msgstr ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 3000 species in Brazil."
+
+# caption_1
+#: BR
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the bee on the left above)"
+msgstr ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the bee on the left above)"
+
+# caption_2
+#: BR
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee from the Megachilidae family on the right above)"
+msgstr ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee from the Megachilidae family on the right above)"
+
+# intro_text
+#: BR
+msgid ""
+"Among the 3000 species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Here are some examples:"
+msgstr ""
+"Among the 3000 species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Here are some examples:"
+
+# caption_1
+#: BR
+msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
+msgstr "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
+
+# caption_2
+#: BR
+msgid ""
+"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"and lack structures for carrying pollen."
+msgstr ""
+"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"and lack structures for carrying pollen."
+
+# caption_3
+#: BR
+msgid ""
+"Bees from the Halictidae family are usually dark-coloured and often "
+"metallic."
+msgstr ""
+"Bees from the Halictidae family are usually dark-coloured and often "
+"metallic."
+
+# caption_4
+#: BR
+msgid ""
+"The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
+"underneath their abdomen and cut pieces of leaf and petals to build their "
+"nests."
+msgstr ""
+"The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
+"underneath their abdomen and cut pieces of leaf and petals to build their "
+"nests."
+
+# extraText
+#: BR
+msgid ""
+"Wasps feed their young on captured prey (usually other insects), but adult "
+"wasps often visit flowers for nectar. There are social wasp species, "
+"solitary wasp species and parasitic wasp species."
+msgstr ""
+"Wasps feed their young on captured prey (usually other insects), but adult "
+"wasps often visit flowers for nectar. There are social wasp species, "
+"solitary wasp species and parasitic wasp species."
+
+# caption_1
+#: BR
+msgid "Solitary wasp of the genus <i>Ammophila</i>"
+msgstr "Solitary wasp of the genus <i>Ammophila</i>"
+
+# caption_2
+#: BR
+msgid "Solitary wasp of the genus <i>Monobia</i>"
+msgstr "Solitary wasp of the genus <i>Monobia</i>"
+
+# intro_text
+#: BR
+msgid ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. Look out for:"
+msgstr ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. Look out for:"
+
+# caption_1
+#: BR
+msgid "Large eyes, covering most of the head"
+msgstr "Large eyes, covering most of the head"
+
+# extraText
+#: BR
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets."
+msgstr ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets."
+
+# intro_text
+#: BR
+msgid ""
+"Other flies do not have the ability to hover. Two examples are shown above."
+msgstr ""
+"Other flies do not have the ability to hover. Two examples are shown above."
+
+# caption_1
+#: BR
+msgid "This is a fly of the family Empididae"
+msgstr "This is a fly of the family Empididae"
+
+# caption_2
+#: BR
+msgid "Empididae flies have a long thin proboscis under the head"
+msgstr "Empididae flies have a long thin proboscis under the head"
+
+# caption_3
+#: BR
+msgid "Many Empididae flies have a distinctly humped thorax"
+msgstr "Many Empididae flies have a distinctly humped thorax"
+
+# caption_4
+#: BR
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body. This is a parasitic fly from family Tachinidae"
+msgstr ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body. This is a parasitic fly from family Tachinidae"
+
+# extraText
+#: BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “flies”!"
+msgstr ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “flies”!"
+
+# intro_text
+#: BR
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night."
+msgstr ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night."
+
+# caption_1
+#: BR
+msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
+msgstr "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
+
+# caption_2
+#: BR
+msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
+msgstr "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
+
+# caption_3
+#: BR
+msgid ""
+"This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
+" similar species by the rounded margins of the forewings"
+msgstr ""
+"This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
+" similar species by the rounded margins of the forewings"
+
+# intro_text
+#: BR
+msgid "Another example of beetle that visits flowers:"
+msgstr "Another example of beetle that visits flowers:"
+
+# caption_1
+#: BR
+msgid ""
+"<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
+" occurs in Brazil"
+msgstr ""
+"<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
+" occurs in Brazil"
+
+# intro_text
+#: BR
+msgid ""
+"Stingless bees are group of social bees with high diversity. Species may be "
+"small or large as honeybees."
+msgstr ""
+"Stingless bees are group of social bees with high diversity. Species may be "
+"small or large as honeybees."
+
+# caption_1
+#: BR
+msgid "Lack of functional sting"
+msgstr "Lack of functional sting"
+
+# caption_2
+#: BR
+msgid "Reduced wing venation"
+msgstr "Reduced wing venation"
+
+# caption_3
+#: BR
+msgid "Pollen baskets for carrying pollen"
+msgstr "Pollen baskets for carrying pollen"
+
+# caption_4
+#: BR
+msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
+msgstr "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
+
+# intro_text
+#: BR
+msgid ""
+"There are more than 240 species of stingless bees in Brazil, with different "
+"sizes and colour patterns."
+msgstr ""
+"There are more than 240 species of stingless bees in Brazil, with different "
+"sizes and colour patterns."
+
+# caption_1
+#: BR
+msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
+msgstr "<i>Trigona spinipes</i>, also known as “irapuá”"
+
+# caption_2
+#: BR
+msgid "The genus <i>Melipona</i> shows robusts and furry bees"
+msgstr "The genus <i>Melipona</i> shows robusts and furry bees"
+
+# caption_3
+#: BR
+msgid ""
+"The genus <i>Plebeia</i> includes small species and are known as “mirim”"
+msgstr ""
+"The genus <i>Plebeia</i> includes small species and are known as “mirim”"
+
+# caption_4
+#: BR
+msgid "Melipona quadrifasciata, also known as “mandaçaia”"
+msgstr "Melipona quadrifasciata, also known as “mandaçaia”"
+
+# extraText
+#: BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “stingless bees”!"
+msgstr ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “stingless bees”!"
+
+# intro_text
+#: BR
+msgid ""
+"Orchid bees are very colorful (green, purple, blue, red, or brassy) and "
+"metallic, while some are black, sometimes with yellow, reddish or whitish "
+"hair. This bee group is often associated to orchids because males are "
+"attracted to and pollinate many of these plants. They usually fly fast and "
+"are large and robust."
+msgstr ""
+"Orchid bees are very colorful (green, purple, blue, red, or brassy) and "
+"metallic, while some are black, sometimes with yellow, reddish or whitish "
+"hair. This bee group is often associated to orchids because males are "
+"attracted to and pollinate many of these plants. They usually fly fast and "
+"are large and robust."
+
+# caption_1
+#: BR
+msgid "Males have enlarged tibias on their hind legs."
+msgstr "Males have enlarged tibias on their hind legs."
+
+# intro_text
+#: BR
+msgid ""
+"Females rarely visit orchid flowers and use other species as food source."
+msgstr ""
+"Females rarely visit orchid flowers and use other species as food source."
+
+# caption_1
+#: BR
+msgid "Females have pollen baskets on their hind legs."
+msgstr "Females have pollen baskets on their hind legs."
+
+# caption_2
+#: BR
+msgid ""
+"Sometimes is possible to observe their long tongues while they are grooming "
+"and/or flying."
+msgstr ""
+"Sometimes is possible to observe their long tongues while they are grooming "
+"and/or flying."
+
+# intro_text
+#: BR
+msgid ""
+"This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
+"of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
+"America to South America."
+msgstr ""
+"This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
+"of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
+"America to South America."
+
+# caption_1
+#: BR
+msgid ""
+"This example shows a flower being visited by a <i>Glossophaga soricine</i> "
+"bat"
+msgstr ""
+"This example shows a flower being visited by a <i>Glossophaga soricine</i> "
+"bat"
+
+# intro_text
+#: BR
+msgid ""
+"Hummingbirds are birds native to the Americas and comprise the biological "
+"family Trochilidae. With about 360 species, they occur from Alaska to Tierra"
+" del Fuego, but the vast majority of the species are found in the tropics. "
+"They are small birds, with most species measuring 7.5–13 cm (3–5 in) in "
+"length. Many plants pollinated by hummingbirds produce flowers in shades of "
+"red, orange, and bright pink, though the birds take nectar from flowers of "
+"other colors, as well."
+msgstr ""
+"Hummingbirds are birds native to the Americas and comprise the biological "
+"family Trochilidae. With about 360 species, they occur from Alaska to Tierra"
+" del Fuego, but the vast majority of the species are found in the tropics. "
+"They are small birds, with most species measuring 7.5–13 cm (3–5 in) in "
+"length. Many plants pollinated by hummingbirds produce flowers in shades of "
+"red, orange, and bright pink, though the birds take nectar from flowers of "
+"other colors, as well."
+
+# caption_1
+#: BR
+msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
+msgstr "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
+
+# caption_2
+#: BR
+msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
+msgstr "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
+
+# name
+#: BR
+msgid "Oxalis"
+msgstr "Oxalis"
+
+# name
+#: BR
+msgid "Basil"
+msgstr "Basil"
+
+# name
+#: BR
+msgid "Lantana"
+msgstr "Lantana"
+
+# name
+#: BR
+msgid "Anthurium"
+msgstr "Anthurium"
+
+# name
+#: BR
+msgid "Calliandra"
+msgstr "Calliandra"
+
+# name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr "Asteraceae (herbaceous)"
+
+# name
+#: BR
+msgid "Orchid"
+msgstr "Orchid"
+
+# name
+#: BR
+msgid "Clover/Trefoil"
+msgstr "Clover/Trefoil"
+
+# name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Brazilian grape tree/Jabuticaba"
+
+# name
+#: BR
+msgid "Acerola cherry"
+msgstr "Acerola cherry"
+
+# name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Wild plantain/Heliconia"
+
+# name
+#: BR
+msgid "Passionfruit"
+msgstr "Passionfruit"
+
+# name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Sleeping hibiscus/Malvaviscus"
+
+# name
+#: BR
+msgid "Mimosa"
+msgstr "Mimosa"
+
+# name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromeliads"
+
+# name
+#: BR
+msgid "Ipe"
+msgstr "Ipe"
+
+# value
+#: BR
+msgid "Caatinga"
+msgstr "Caatinga"
+
+# value
+#: BR
+msgid "Plantation florest"
+msgstr "Plantation florest"
+
+# value
+#: BR
+msgid "Cerrado"
+msgstr "Cerrado"
+
+# name
+#: BR CL
+msgid "Orchid bees"
+msgstr "Orchid bees"
+
+# name
+#: BR
+msgid "Stingless bees"
+msgstr "Stingless bees"
+
+# name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr "Bumblebees sensu lato"
+
+# name
+#: BR
+msgid "Flies"
+msgstr "Flies"
+
+# name
+#: BR
+msgid "Don't know"
+msgstr "Don't know"

@@ -207,85 +207,110 @@ msgstr "Hábitat"
 msgid "Other habitat"
 msgstr "Otro hábitat"
 
-# Survey habitat page values
+# habitats value
+#: UK BR CY
 msgid "Garden"
 msgstr "Jardín"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "School Grounds"
 msgstr "Patios de colegio"
 
-# Survey habitat page values
+# habitats value
+#: UK BR CY
 msgid "Parkland with trees"
 msgstr "Parque con árboles"
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Churchyard"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Grassy verge or hedgerow edge"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK BR CY
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK BR
 msgid "Amenity grassland (usually mown short)"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK BR
 msgid "Farm crops or grassy pasture"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Upland moorland"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Lowland heath"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK BR
 msgid "Waste ground or brownfield site"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: UK
 msgid "Woodland"
 msgstr "Bosque"
 
-# Survey habitat page values
+# habitats value
+#: BR CY
 msgid "Botanical garden"
 msgstr "Jardín botánico"
 
-# Survey habitat page values
+# habitats value
+#: BR CY
 msgid "Forest"
 msgstr "Bosque"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Cultivation"
 msgstr "Cultivo"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Salt marsh"
 msgstr "Salina"
 
-# Survey habitat page values
+# habitats value
+#: BR CY
 msgid "Freshwater wetland"
 msgstr "Humedal de agua dulce"
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Dry shrub"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Acacia stands"
 msgstr ""
 
-# Survey habitat page values
+# habitats value
+#: CY
 msgid "Roadside verges"
 msgstr "Borde de carretera"
+
+# Survey habitat page values
+#: BR
+msgid "Plantation forest"
+msgstr ""
 
 # Survey flower-cover info message
 msgid ""
@@ -469,23 +494,28 @@ msgstr "Iniciar sesión"
 msgid "Register"
 msgstr "Registrarse"
 
-# ID guide honeybees species profile
+# photos caption_1
+#: UK
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr ""
 
-# ID guide honeybees species profile
+# photos caption_2
+#: UK
 msgid "Eyes covering the sides of the head"
 msgstr ""
 
-# ID guide honeybees species profile
+# photos caption_3
+#: UK
 msgid "Hind legs broad and flattened"
 msgstr ""
 
-# ID guide honeybees species profile
+# photos caption_4
+#: UK
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr ""
 
-# ID guide honeybees species profile
+# photos caption_5
+#: UK
 msgid "Long narrow cell in veins at edge of wing"
 msgstr ""
 
@@ -539,123 +569,153 @@ msgstr ""
 msgid "Press <1></1> to add."
 msgstr ""
 
-# Survey species selection page species list
-msgid "Dandelion"
-msgstr ""
-
-# Survey species selection page species list
-msgid "Buttercup"
-msgstr ""
-
-# Survey species selection page species list
-msgid "White Dead-nettle"
-msgstr ""
-
-# Survey species selection page species list
-msgid "Hawthorn"
-msgstr ""
-
-# Survey species selection page species list
-msgid "Lavender"
-msgstr ""
-
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Bramble"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Buddleja"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: UK
+msgid "Buttercup"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "Dandelion"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "Hawthorn"
+msgstr ""
+
+# flowers name
+#: UK
 msgid "Heather"
 msgstr ""
 
-# Survey species selection page species list
-msgid "Knapweed"
-msgstr ""
-
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Hogweed"
 msgstr ""
 
-# Survey species selection page species list
-msgid "White Clover"
-msgstr ""
-
-# Survey species selection page species list
-msgid "Ragwort"
-msgstr ""
-
-# Survey species selection page species list
-msgid "Thistle"
-msgstr ""
-
-# Survey species selection page species list
+# flowers name
+#: UK
 msgid "Ivy"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: UK
+msgid "Knapweed"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "Lavender"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "Ragwort"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "Thistle"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "White Clover"
+msgstr ""
+
+# flowers name
+#: UK
+msgid "White Dead-nettle"
+msgstr ""
+
+# flowers name
+#: CY
 msgid "Fennel"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Myrtle"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Olive"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "White Mustard"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Rock-roses"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Anemone"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Chrysanthemum"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Tree Tobacco"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Spanish Jasmine"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Common Lantana"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Acacia"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Bermuda Buttercup"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "African Boxthorn"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Blue Plumbago"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Narrow-leaved Viper’s-bugloss"
 msgstr ""
 
-# Survey species selection page species list
+# flowers name
+#: CY
 msgid "Milk Thistle"
 msgstr ""
 
@@ -1600,6 +1660,7 @@ msgid ""
 msgstr ""
 
 # From survey pages
+#: UK BR CL CY AR
 msgid "Other"
 msgstr ""
 
@@ -1644,51 +1705,63 @@ msgstr ""
 msgid "Discard local data"
 msgstr ""
 
-# Id guide label
-msgid "Bumblebees"
-msgstr ""
-
-# Id guide label
-msgid "Honeybees"
-msgstr ""
-
-# Id guide label
-msgid "Solitary bees"
-msgstr ""
-
-# Id guide label
-msgid "Wasps"
-msgstr ""
-
-# Id guide label
-msgid "Hoverflies"
-msgstr ""
-
-# Id guide label
-msgid "Other flies"
-msgstr ""
-
-# Id guide label
-msgid "Butterflies and moths"
-msgstr ""
-
-# Id guide label
+# pollinator name
+#: UK BR CY
 msgid "Beetles"
 msgstr ""
 
-# Id guide label
-msgid "Small insects (<3mm)"
+# pollinator name
+#: UK BR CY
+msgid "Bumblebees"
 msgstr ""
 
-# Id guide label
+# pollinator name
+#: UK BR CY
+msgid "Butterflies and moths"
+msgstr ""
+
+# pollinator name
+#: UK BR CY
+msgid "Honeybees"
+msgstr ""
+
+# pollinator name
+#: UK BR CY
+msgid "Hoverflies"
+msgstr ""
+
+# pollinator name
+#: UK CY
+msgid "Other flies"
+msgstr ""
+
+# pollinator name
+#: UK BR CY
 msgid "Other insects"
 msgstr ""
 
-# Id guide label
+# pollinator name
+#: UK BR CY
+msgid "Small insects (<3mm)"
+msgstr ""
+
+# pollinator name
+#: UK BR CY
+msgid "Solitary bees"
+msgstr ""
+
+# pollinator name
+#: UK BR CY
+msgid "Wasps"
+msgstr ""
+
+# pollinator name
+#: BR
 msgid "Bats"
 msgstr ""
 
-# Id guide label
+# pollinator name
+#: BR
 msgid "Hummingbirds"
 msgstr ""
 
@@ -2188,4 +2261,501 @@ msgstr ""
 msgid ""
 "Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
 "– larvae live in decaying wood"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. Look out for:"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. Look out for:"
+msgstr ""
+
+# caption_4
+#: BR
+msgid ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference, look out for:"
+msgstr ""
+
+# caption_1
+#: BR
+msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
+msgstr ""
+
+# caption_3
+#: BR
+msgid "<i>Bombus</i> has a round shape, with furry abdomen"
+msgstr ""
+
+# caption_4
+#: BR
+msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
+"and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
+"lato”."
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. Look out for:"
+msgstr ""
+
+# caption_4
+#: BR
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees. Some solitary bees measure up to 45mm."
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 3000 species in Brazil."
+msgstr ""
+
+# caption_1
+#: BR
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the bee on the left above)"
+msgstr ""
+
+# caption_2
+#: BR
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee from the Megachilidae family on the right above)"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Among the 3000 species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Here are some examples:"
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
+msgstr ""
+
+# caption_2
+#: BR
+msgid ""
+"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"and lack structures for carrying pollen."
+msgstr ""
+
+# caption_3
+#: BR
+msgid ""
+"Bees from the Halictidae family are usually dark-coloured and often "
+"metallic."
+msgstr ""
+
+# caption_4
+#: BR
+msgid ""
+"The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
+"underneath their abdomen and cut pieces of leaf and petals to build their "
+"nests."
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"Wasps feed their young on captured prey (usually other insects), but adult "
+"wasps often visit flowers for nectar. There are social wasp species, "
+"solitary wasp species and parasitic wasp species."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Solitary wasp of the genus <i>Ammophila</i>"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "Solitary wasp of the genus <i>Monobia</i>"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. Look out for:"
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Large eyes, covering most of the head"
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets."
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Other flies do not have the ability to hover. Two examples are shown above."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "This is a fly of the family Empididae"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "Empididae flies have a long thin proboscis under the head"
+msgstr ""
+
+# caption_3
+#: BR
+msgid "Many Empididae flies have a distinctly humped thorax"
+msgstr ""
+
+# caption_4
+#: BR
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body. This is a parasitic fly from family Tachinidae"
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “flies”!"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
+msgstr ""
+
+# caption_3
+#: BR
+msgid ""
+"This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
+" similar species by the rounded margins of the forewings"
+msgstr ""
+
+# intro_text
+#: BR
+msgid "Another example of beetle that visits flowers:"
+msgstr ""
+
+# caption_1
+#: BR
+msgid ""
+"<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
+" occurs in Brazil"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Stingless bees are group of social bees with high diversity. Species may be "
+"small or large as honeybees."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Lack of functional sting"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "Reduced wing venation"
+msgstr ""
+
+# caption_3
+#: BR
+msgid "Pollen baskets for carrying pollen"
+msgstr ""
+
+# caption_4
+#: BR
+msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"There are more than 240 species of stingless bees in Brazil, with different "
+"sizes and colour patterns."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "The genus <i>Melipona</i> shows robusts and furry bees"
+msgstr ""
+
+# caption_3
+#: BR
+msgid ""
+"The genus <i>Plebeia</i> includes small species and are known as “mirim”"
+msgstr ""
+
+# caption_4
+#: BR
+msgid "Melipona quadrifasciata, also known as “mandaçaia”"
+msgstr ""
+
+# extraText
+#: BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “stingless bees”!"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Orchid bees are very colorful (green, purple, blue, red, or brassy) and "
+"metallic, while some are black, sometimes with yellow, reddish or whitish "
+"hair. This bee group is often associated to orchids because males are "
+"attracted to and pollinate many of these plants. They usually fly fast and "
+"are large and robust."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Males have enlarged tibias on their hind legs."
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Females rarely visit orchid flowers and use other species as food source."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Females have pollen baskets on their hind legs."
+msgstr ""
+
+# caption_2
+#: BR
+msgid ""
+"Sometimes is possible to observe their long tongues while they are grooming "
+"and/or flying."
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
+"of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
+"America to South America."
+msgstr ""
+
+# caption_1
+#: BR
+msgid ""
+"This example shows a flower being visited by a <i>Glossophaga soricine</i> "
+"bat"
+msgstr ""
+
+# intro_text
+#: BR
+msgid ""
+"Hummingbirds are birds native to the Americas and comprise the biological "
+"family Trochilidae. With about 360 species, they occur from Alaska to Tierra"
+" del Fuego, but the vast majority of the species are found in the tropics. "
+"They are small birds, with most species measuring 7.5–13 cm (3–5 in) in "
+"length. Many plants pollinated by hummingbirds produce flowers in shades of "
+"red, orange, and bright pink, though the birds take nectar from flowers of "
+"other colors, as well."
+msgstr ""
+
+# caption_1
+#: BR
+msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
+msgstr ""
+
+# caption_2
+#: BR
+msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
+msgstr ""
+
+# name
+#: BR
+msgid "Oxalis"
+msgstr ""
+
+# name
+#: BR
+msgid "Basil"
+msgstr ""
+
+# name
+#: BR
+msgid "Lantana"
+msgstr ""
+
+# name
+#: BR
+msgid "Anthurium"
+msgstr ""
+
+# name
+#: BR
+msgid "Calliandra"
+msgstr ""
+
+# name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr ""
+
+# name
+#: BR
+msgid "Orchid"
+msgstr ""
+
+# name
+#: BR
+msgid "Clover/Trefoil"
+msgstr ""
+
+# name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr ""
+
+# name
+#: BR
+msgid "Acerola cherry"
+msgstr ""
+
+# name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr ""
+
+# name
+#: BR
+msgid "Passionfruit"
+msgstr ""
+
+# name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr ""
+
+# name
+#: BR
+msgid "Mimosa"
+msgstr ""
+
+# name
+#: BR
+msgid "Bromeliads"
+msgstr ""
+
+# name
+#: BR
+msgid "Ipe"
+msgstr ""
+
+# value
+#: BR
+msgid "Caatinga"
+msgstr ""
+
+# value
+#: BR
+msgid "Plantation florest"
+msgstr ""
+
+# value
+#: BR
+msgid "Cerrado"
+msgstr ""
+
+# name
+#: BR CL
+msgid "Orchid bees"
+msgstr ""
+
+# name
+#: BR
+msgid "Stingless bees"
+msgstr ""
+
+# name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr ""
+
+# name
+#: BR
+msgid "Flies"
+msgstr ""
+
+# name
+#: BR
+msgid "Don't know"
 msgstr ""

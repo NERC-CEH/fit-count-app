@@ -1,41 +1,40 @@
 # 
 # Translators:
-# Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
-# Karolis, 2021
-# BeeKeep Team <beekeep.science@gmail.com>, 2021
+# Carin Kullberg <carin@ckg.se>, 2021
+# Lars Pettersson <lars.pettersson@biol.lu.se>, 2021
+# Fredrik Östrand, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: BeeKeep Team <beekeep.science@gmail.com>, 2021\n"
-"Language-Team: Portuguese (https://www.transifex.com/ceh/teams/116172/pt/)\n"
+"Last-Translator: Fredrik Östrand, 2021\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/ceh/teams/116172/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt\n"
+"Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: POEditor.com\n"
 
 # Button title
 msgid "Back"
-msgstr "Voltar"
+msgstr "Tillbaka"
 
 # App toolbar label
 msgid "Menu"
-msgstr "Menu"
+msgstr "Meny"
 
 # App toolbar label
 msgid "About"
-msgstr "Sobre"
+msgstr "Om"
 
 # About page content
 msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
-"A contagem temporizada de flores-insetos (FIT Count, do inglês Flower-Insect"
-" Timed Count) é um formulário de 10 minutos projetada para coletar novos "
-"dados sobre o número de insetos que visitam flores."
+"Blombesöksräkning (FIT Count) är en 10 minuter lång undersökning för att "
+"samla uppgifter om antalet insekter som besöker blommor."
 
 # Menu page content
 msgid "Info"
@@ -43,61 +42,61 @@ msgstr "Info"
 
 # Menu page content
 msgid "Privacy Policy"
-msgstr "Política de Privacidade"
+msgstr "Sekretess"
 
 # Menu page content
 msgid "Credits"
-msgstr "Créditos"
+msgstr "Tack"
 
 # Menu page content
 msgid "Settings"
-msgstr "Configurações"
+msgstr "Inställningar"
 
 # Menu page content
 msgid "Cymraeg"
-msgstr "Galês"
+msgstr "Cymraeg"
 
 # Menu page content
 msgid "Language"
-msgstr "Idioma"
+msgstr "Språk"
 
 # Menu page content
 msgid "Country"
-msgstr "País"
+msgstr "Land"
 
 # Menu page content
 msgid "Share App Analytics"
-msgstr "Compartilhar Estatísticas do App"
+msgstr "Dela data om app-användning"
 
 # Menu page content
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
-"Compartilhar dados de problemas para que possamos tornar o aplicativo mais "
-"confiável."
+"Dela uppgifter om appen kraschar, för att hjälpa till att göra den mer "
+"stabil."
 
 # Credits page content
 msgid "We are grateful to all the people who helped to create this app:"
-msgstr "Somos gratos a todas pessoas que ajudaram a criar este app:"
+msgstr "Vi är tacksamma för alla som hjälpt till att skapa den här appen."
 
 # Credits page content
 msgid "App design concepts"
-msgstr "Conceitos de projeto do app"
+msgstr "Appens utformning"
 
 # Onboarding Page button label
 msgid "Got it!"
-msgstr "Entendi!"
+msgstr "Jag förstår!"
 
 # ID Guide toolbar label
 msgid "ID Guide"
-msgstr "Guia de identificação"
+msgstr "Bestämningshjälp"
 
 # ID Guide segment label
 msgid "Insect Groups"
-msgstr "Grupos de Insetos"
+msgstr "Insektsgrupper"
 
 # ID Guide segment label
 msgid "Flowers"
-msgstr "Flores"
+msgstr "Blommor"
 
 # Country page content
 msgid "Argentina"
@@ -105,7 +104,7 @@ msgstr "Argentina"
 
 # Country page content
 msgid "Brazil"
-msgstr "Brasil"
+msgstr "Brasilien"
 
 # Country page content
 msgid "Chile"
@@ -113,54 +112,53 @@ msgstr "Chile"
 
 # Country page content
 msgid "Cyprus"
-msgstr "Chipre"
+msgstr "Cypern"
 
 # Country page content
 msgid "United Kingdom"
-msgstr "Reino Unido"
+msgstr "Storbritannien"
 
 # Home page toolbar label
 msgid "Home"
-msgstr "Início"
+msgstr "Hem"
 
 # Home page button label
 msgid "Start Survey"
-msgstr "Começar o Formulário"
+msgstr "Börja räkningen"
 
 # Start survey alert message
 msgid "Discard"
-msgstr "Descartar"
+msgstr "Ta bort"
 
 # Start survey alert button label
 msgid "Continue"
-msgstr "Continuar"
+msgstr "Fortsätt"
 
 # Start survey alert button label
 msgid "Draft"
-msgstr "Rascunho"
+msgstr "Utkast"
 
 # Start survey alert button message
 msgid "Previous survey draft exists, would you like to continue it?"
-msgstr "Existe um rascunho de formulário anterior, gostaria de continuar?"
+msgstr "Det finns ett tidigare utkast, vill du fortsätta med det?"
 
 # Survey content
 msgid "Use the map to zoom in and tap on your <1>location</1>."
-msgstr "Use o mapa para dar zoom e clique na sua <1>localização</1>."
+msgstr "Använd kartan för att zooma in och klicka på din <1>plats</1>"
 
 # Survey content
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Avbryt"
 
 # Survey content
 msgid "Delete Survey"
-msgstr " Apagar Fomrulário"
+msgstr "Ta bort räkningen"
 
 # Survey content
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
-"Atenção - Isto descartará as informações do formulário que você inseriu até "
-"agora."
+"Varning – Du raderar alla uppgifter om den här räkningen som du skrivit in."
 
 # Survey Location page info message
 msgid ""
@@ -176,29 +174,29 @@ msgid ""
 "results will be visible to others at the 1 km square level via the UKPoMS "
 "website.</p></3>"
 msgstr ""
-"Habilite o GPS para escolher sua localização, ou use o mapa para dar zoom e "
-"clique na sua <1>localização</1>.<3><p>Sua localização pode ser qualquer uma"
-" que contenha flores que atraiam insetos polinizadores, que você tenha "
-"permissão para estar e que seja segura.</p><p>Um jardim, parque, sítio ou "
-"reserva natural são bons lugares para executar o FIT Count.</p><p>Por favor "
-"use o zoom para encontrar o ponto que melhor representa sua localização. "
-"</p><p>Certifique-se que o GPS está ligado e você deu permissão para o app. "
-"Se você está exeutando o FIT Count offline ou sem conexão à internet, o app "
-"não encontrará sua posição no mapa, mas o GPS gravará sua posição para "
-"posterior upload.</p><p>Os resultados da sua contagem estarão visíveis para "
-"outros dentro de um quadrado de 1km atrvés do website do UKPoMS.</p></3>"
+"Använd din GPS för att visa var du är, eller använd kartan för att zooma in "
+"och markera <1>platsen</1>.<3><p>Du kan göra din räkning var som helst där "
+"det finns blommor som lockar pollinerande insekter, där du får vistas och "
+"det är ofarligt att vara.</p><p>En trädgård, en park, en bondgård eller ett "
+"skyddat naturområde passar utmärkt för Blombesöksräkning.</p><p>Zooma in för"
+" att markera den punkt som bäst visar var du räknar.</p><p>Se till att du "
+"har slagit på GPS-funktionen, och att den har behörighet att visa din "
+"position. Om du gör en Blombesöksräkning utan internet-kontakt kan inte "
+"appen se din position på kartan, men din GPS kan spara platsen så du kan "
+"ladda upp den senare.</p><p>Dina resultat kommer att kunna ses av andra som "
+"värden inom en 1 x 1 km stor ruta på projektets websida.</p></3>"
 
 # Survey Location alert messag
 msgid "Please select a more accurate location"
-msgstr "Por favor selecione uma localização mais precisa"
+msgstr "Ange platsen mer noggrant."
 
 # Survey content
 msgid "Next"
-msgstr "Próximo"
+msgstr "Nästa"
 
 # Survey content
 msgid "of"
-msgstr "de"
+msgstr "av"
 
 # Survey habitat info message
 msgid ""
@@ -207,126 +205,125 @@ msgid ""
 "listed here, please select “Other” and type in a short description of the "
 "habitat.</p></3>"
 msgstr ""
-"Selecione um <1>habitat</1> que melhor se encaixe.<3><p>Selecione o habitat "
-"que melhor descreve o fragmento de 50x50 cm que escolheu para sua "
-"contagem.</p><p>Se não estiver listado aqui, por favor selecione \"Outro\" e"
-" descreva brevemente o habitat.</p></3>"
+"Ange den <1>naturtyp</1> som passar bäst<3><p>Välj den naturtyp som bäst "
+"beskriver den 50x50 cm ruta som du ska räkna i</p><p>Om inget alternativ "
+"passar, välj \"Annan\" och skriv en kort beskrivning.</p></3>"
 
 # Survey habitat page other placeholder text
 msgid ""
 "Please type in the name of the habitat you have chosen then go back to the "
 "habitat page"
 msgstr ""
-"Por favor escreva o nome do habitat que você escolheu e depois volte para a "
-"página de habitat"
+"Ange vad du vill kalla naturtypen du valt och gå tillbaka till "
+"Naturtypssidan."
 
 # Survey habitat page other header label
 msgid "Habitat"
-msgstr "habitat"
+msgstr "Naturtyp"
 
 # Survey habitat page divider label
 msgid "Other habitat"
-msgstr "Outro habitat"
+msgstr "Annan naturtyp"
 
 # habitats value
 #: UK BR CY
 msgid "Garden"
-msgstr "Jardim"
+msgstr "Trädgård"
 
 # habitats value
 #: UK
 msgid "School Grounds"
-msgstr "Pátio Escolar"
+msgstr "Skolgård"
 
 # habitats value
 #: UK BR CY
 msgid "Parkland with trees"
-msgstr "Parque com árvores"
+msgstr "Park med träd"
 
 # habitats value
 #: UK
 msgid "Churchyard"
-msgstr "Patio de igreja"
+msgstr "Kyrkogård"
 
 # habitats value
 #: UK
 msgid "Grassy verge or hedgerow edge"
-msgstr "Borda gramada ou de cerca viva"
+msgstr "Gräskant intill häck, väg eller dylikt."
 
 # habitats value
 #: UK BR CY
 msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Pastagem com flores silvestres (ex: pasto)"
+msgstr "Gräsmark med vilda blommor (t.ex. äng)"
 
 # habitats value
 #: UK BR
 msgid "Amenity grassland (usually mown short)"
-msgstr "Gramado manejado"
+msgstr "Gräsmatta (vanligen kortklippt)"
 
 # habitats value
 #: UK BR
 msgid "Farm crops or grassy pasture"
-msgstr "Plantações ou pastagem gramada"
+msgstr "Grödor eller betesmark"
 
 # habitats value
 #: UK
 msgid "Upland moorland"
-msgstr "Planalto pantanoso"
+msgstr "Fjällhed"
 
 # habitats value
 #: UK
 msgid "Lowland heath"
-msgstr "Charneca de várzea"
+msgstr "Hedmark nedanför fjällen, t ex ljunghed."
 
 # habitats value
 #: UK BR
 msgid "Waste ground or brownfield site"
-msgstr "Área abandonada ou terreno baldio"
+msgstr "Skräpmark, t.ex. öde industrimark"
 
 # habitats value
 #: UK
 msgid "Woodland"
-msgstr "Floresta"
+msgstr "Gles skog (\"woodland\")"
 
 # habitats value
 #: BR CY
 msgid "Botanical garden"
-msgstr "Jardim botânico"
+msgstr "Botanisk trädgård"
 
 # habitats value
 #: BR CY
 msgid "Forest"
-msgstr "Floresta"
+msgstr "Skogsmark"
 
 # habitats value
 #: CY
 msgid "Cultivation"
-msgstr "Cultivo"
+msgstr "Odling"
 
 # habitats value
 #: CY
 msgid "Salt marsh"
-msgstr "Pântano salino"
+msgstr "Havsstrandsäng"
 
 # habitats value
 #: BR CY
 msgid "Freshwater wetland"
-msgstr "Área alagada"
+msgstr "Våtmark"
 
 # habitats value
 #: CY
 msgid "Dry shrub"
-msgstr "Arbustivo seco"
+msgstr "Torr buskmark"
 
 # habitats value
 #: CY
 msgid "Acacia stands"
-msgstr "Povoamento de Acacia"
+msgstr "Acaciabestånd"
 
 # habitats value
 #: CY
 msgid "Roadside verges"
-msgstr "Beira de estrada"
+msgstr "Vägrenar"
 
 # Survey habitat page values
 #: BR
@@ -339,267 +336,263 @@ msgid ""
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
 "by the leaves of the target plant).</p></3>"
 msgstr ""
-"Qual a <1>cobertura da sua flor</1> alvo no seu fragmento de 50x50 "
-"cm?<3><p>Estime quanto do seu fragmento de 50×50 cm é ocupado pelas flores "
-"alvo (mas não pelas folhas da planta alvo).</p></3>"
+"Hur stor del av rutan täcks av <1>den valda blomman</1>?<3><p> Ange hur stor"
+" del av din 50x50 cm-ruta som täcks av de valda blommorna (räkna inte "
+"bladen).</p></3>"
 
 # Survey flower-cover info message header
 msgid "Flower Cover"
-msgstr "Cobertura Floral"
+msgstr "Blomtäckning"
 
 # Survey flower-cover radio input
 msgid "Less than half"
-msgstr "Menos da metade"
+msgstr "Mindre än hälften av ytan"
 
 # Survey flower-cover radio input
 msgid "Half of patch"
-msgstr "Metade do fragmento"
+msgstr "Ungefär hälften av ytan"
 
 # Survey flower-cover radio input
 msgid "More than half of patch"
-msgstr "Mais que a metade do fragmento"
+msgstr "Mer än hälften av ytan"
 
 # Survey flower-cover radio input
 msgid "Not recorded"
-msgstr "Não reportada"
+msgstr "Inte angivet"
 
 # User registration page
 msgid "Create a free account"
-msgstr "Crie uma conta gratuitamente"
+msgstr "Skapa ett konto gratis"
 
 # User registration page
 msgid "Full name"
-msgstr "Nome completo"
+msgstr "Namn, fullständigt"
 
 # User registration page
 msgid "Email"
-msgstr "Email"
+msgstr "E-post"
 
 # User registration page
 msgid "Password"
-msgstr "Senha"
+msgstr "Lösenord"
 
 # User registration page
 msgid "How did you hear about FIT Counts?"
-msgstr "Como você ouviu falar do FIT Count?"
+msgstr "Hur fick du höra talas om Blombesöksräkning (FIT Counts)?"
 
 # User registration page
 msgid "Your identification experience"
-msgstr "Sua experiência com identificação"
+msgstr "Hur bra är din artkunskap?"
 
 # User registration page
 msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
-"Ao clicar em Registrar, você concorda com nossa <2>Política de "
-"Privacidade</2> e com os <6>Termos e Condições</6>"
+"När du klickar på Registrera accepterar du våra regler för "
+"<2>Sekretess</2>och <6>Villkor</6>"
 
 # User registration page
 msgid "Sign Up"
-msgstr "Registrar"
+msgstr "Anmäl dig"
 
 # User registration page
 msgid "I am already a member"
-msgstr "Já sou um membro"
+msgstr "Jag är redan medlem"
 
 # User registration page
 msgid "Sign In"
-msgstr "Entrar"
+msgstr "Logga in"
 
 # User registration page
 msgid "How did you hear about us?"
-msgstr "Como você soube de nós?"
+msgstr "Hur fick du höra talas om oss?"
 
 # User registration page
 msgid "Identification experience"
-msgstr "Experiência com identificação"
+msgstr "Artkunskap"
 
 # User registration page
 msgid "Please fill in"
-msgstr "Por favor preencha"
+msgstr "Ange"
 
 # User registration page
 msgid "I am new to identifying wildlife"
-msgstr "Sou novo na identificação da vida selvagem"
+msgstr "Jag är nybörjare på att identifiera djurliv."
 
 # User registration page
 msgid ""
 "I am familiar with identifying some wildlife groups (e.g. birds or "
 "butterflies) but not most pollinating insects"
 msgstr ""
-"Estou familiarizado com a identificação de alguns grupos de espécies (e.g. "
-"pássaros ou borboletas) mas não de insetos polinizadores"
+"Jag kan identifiera visst djurliv (såsom fåglar/fjärilar) men inte van vid "
+"pollinerande insekter."
 
 # User registration page
 msgid "I am familiar with recognising the main groups of pollinating insect"
-msgstr ""
-"Estou familiarizado no reconhecimento dos grupos principais de insetos "
-"polinizadores"
+msgstr "Jag kan känna igen huvudgrupperna bland pollinerande insekter."
 
 # User registration page
 msgid ""
 "I am confident in identifying the commonly-occurring pollinating insects to "
 "species level"
 msgstr ""
-"Estou seguro quanto a identificação dos insetos polinizadores mais comuns "
-"até o nível de espécie"
+"Jag kan artbestämma de vanligaste förekommande pollinerande insekterna till "
+"artnivå."
 
 # User registration page
 msgid "Not stated"
-msgstr "Não declarado"
+msgstr "Ej angivet"
 
 # User registration page
 msgid "Select"
-msgstr "Selecione"
+msgstr "Välj"
 
 # User login page
 msgid "Welcome back"
-msgstr "Seja bem vindo de volta"
+msgstr "Välkommen tillbaka"
 
 # User login page
 msgid "Sign in to your account to start"
-msgstr "Entre com sua conta para começar"
+msgstr "Logga in för att börja räkna"
 
 # User login page
 msgid "Forgot password?"
-msgstr "Esqueceu a senha?"
+msgstr "Glömt lösenordet?"
 
 # User login page
 msgid "email is a required field"
-msgstr "email é um campo obrigatório"
+msgstr "Du måste ange en e-postadress"
 
 # User login page
 msgid "password is a required field"
-msgstr "senha é um campo obrigatório"
+msgstr "Du måste ange ett lösenord"
 
 # User reset page
 msgid "Enter your email address to request a password reset."
-msgstr "Entre seu endereço de email para solicitar a redefinição da senha."
+msgstr "Fyll i din e-postadress för att begära återställning av lösenordet."
 
 # User reset page
 msgid "Reset"
-msgstr "Redefinir"
+msgstr "Återställ"
 
 # User reset page
 msgid "email must be a valid email"
-msgstr "email deve ser um email válido"
+msgstr "Det måste vara en giltig e-postadress."
 
 # Upload user register form message
 msgid "Please wait..."
-msgstr "Por favor aguarde..."
+msgstr "Snart klart…"
 
 # Successful register alert message
 msgid "OK, got it"
-msgstr "Ok, entendi"
+msgstr "OK, jag förstår."
 
 # Successful register alert message
 msgid "Welcome aboard"
-msgstr "Seja bem vindo"
+msgstr "Välkommen i gänget"
 
 # Successful register alert message
 msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
 msgstr ""
-"Antes de começar qualquer formulário por favor verifique seu email e clique "
-"no link de verificação."
+"Innan du börjar med räkningen behöver klicka på verifieringslänken vi "
+"skickat till din e-post."
 
 # Settings page label
 msgid "Logout"
-msgstr "Sair"
+msgstr "Logga ut"
 
 # Settings page label
 msgid "Login"
-msgstr "Entrar"
+msgstr "Logga in"
 
 # Settings page label
 msgid "Register"
-msgstr "Registrar"
+msgstr "Registrera"
 
 # photos caption_1
 #: UK
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
-msgstr "Antena longa e fina, normalmente com um ângulo em formato de 'ombro'"
+msgstr "Långa, smala antenner, oftast men en skarp \"knä-böj\""
 
 # photos caption_2
 #: UK
 msgid "Eyes covering the sides of the head"
-msgstr "Olhos cobrindo as laterais da cabeça"
+msgstr "Ögonen täcker huvudets sidor"
 
 # photos caption_3
 #: UK
 msgid "Hind legs broad and flattened"
-msgstr "Pernas traseiras largas e achatadas"
+msgstr "Bakbenen är breda och platta"
 
 # photos caption_4
 #: UK
 msgid "Abdomen can vary from mostly dark to mostly orange"
-msgstr ""
-"O abdome pode variar de majoritariamente escuro a majoritariamente "
-"alaranjado"
+msgstr "Bakkroppens färg varierar från nästan helt mörk till mest orange"
 
 # photos caption_5
 #: UK
 msgid "Long narrow cell in veins at edge of wing"
-msgstr "Célula longa e estreita em veias na borda da asa"
+msgstr "Långa, smala celler mellan ribborna nära vingkanten"
 
 # ID guide honeybees species profile
 msgid "Description"
-msgstr "Descrição"
+msgstr "Beskrivning"
 
 # ID guide honeybees species profile
 msgid ""
 "Most of the honeybees you see will be workers, which are female, and collect"
 " pollen into a moistened ball on the outside of the hind legs"
 msgstr ""
-"A maioria das abelhas melíferas que você verá são operárias, que são fêmeas,"
-" e coletam pólen em uma bola úmida na parte externa das patas traseira"
+"De flesta honungsbin du ser är arbetare, alltså honor som samlar pollen i "
+"fuktade bollar på bakbenens utsida"
 
 # ID guide honeybees species profile
 msgid "Extra information"
-msgstr "Informações Extras"
+msgstr "Mer information"
 
 # My surveys page content
 msgid "My Surveys"
-msgstr "Meus formulários"
+msgstr "Mina räkningar"
 
 # My surveys page content
 msgid "Pending"
-msgstr "Pendentes"
+msgstr "Väntande"
 
 # My surveys page content
 msgid "Uploaded"
-msgstr "Enviados"
+msgstr "Insända "
 
 # My surveys page content
 msgid "<0>You have no finished surveys.</0>"
-msgstr "<0>Você não tem formulários finalizados.</0>"
+msgstr "<0>Du har ännu inte gjort någon Blombesöksräkning</0>"
 
 # My surveys page content
 msgid "No uploaded surveys"
-msgstr "Não há formulários enviados"
+msgstr "Inga insända Blombesöksräkningar"
 
 # Survey species selection page species list
 msgid "<0>Which</0> target flower have you chosen?"
-msgstr "<0>Qual</0> flor você escolheu como alvo?"
+msgstr "<0>Vilken</0> målarts-blomma har du valt?"
 
 # Survey species selection page species list
 msgid "Please add species image"
-msgstr "Por favor adicione uma imagem da espécie"
+msgstr "Lägg till en artbild"
 
 # Survey species selection page species list
 msgid "No photo has been added."
-msgstr "Nenhuma foto foi adicionada."
+msgstr "Artbild saknas"
 
 # Survey species selection page info message
 msgid "Press <1></1> to add."
-msgstr "Pressione <1></1> para adicionar."
+msgstr "Tryck på <1></1>för att lägga till"
 
 # flowers name
 #: UK
 msgid "Bramble"
-msgstr "Amoras"
+msgstr "Björnbär"
 
 # flowers name
 #: UK
@@ -609,142 +602,142 @@ msgstr "Buddleja"
 # flowers name
 #: UK
 msgid "Buttercup"
-msgstr "Botão de ouro"
+msgstr "Smörblommor"
 
 # flowers name
 #: UK
 msgid "Dandelion"
-msgstr "Dente de Leão"
+msgstr "Maskros"
 
 # flowers name
 #: UK
 msgid "Hawthorn"
-msgstr "Espinheiro-branco"
+msgstr "Hagtorn"
 
 # flowers name
 #: UK
 msgid "Heather"
-msgstr "Urze/torga"
+msgstr "Ljung"
 
 # flowers name
 #: UK
 msgid "Hogweed"
-msgstr "Heracleum"
+msgstr "Björnloka"
 
 # flowers name
 #: UK
 msgid "Ivy"
-msgstr "Hera"
+msgstr "Murgröna"
 
 # flowers name
 #: UK
 msgid "Knapweed"
-msgstr "Centáureas"
+msgstr "Väddar"
 
 # flowers name
 #: UK
 msgid "Lavender"
-msgstr "Lavanda"
+msgstr "Lavendel"
 
 # flowers name
 #: UK
 msgid "Ragwort"
-msgstr "Senecio jacobaea"
+msgstr "Stånds"
 
 # flowers name
 #: UK
 msgid "Thistle"
-msgstr "Cardo"
+msgstr "Tistlar"
 
 # flowers name
 #: UK
 msgid "White Clover"
-msgstr "Trevo-branco"
+msgstr "Vitklöver"
 
 # flowers name
 #: UK
 msgid "White Dead-nettle"
-msgstr "Urtiga-branca"
+msgstr "Vitplister"
 
 # flowers name
 #: CY
 msgid "Fennel"
-msgstr "Erva-doce"
+msgstr "Fänkål"
 
 # flowers name
 #: CY
 msgid "Myrtle"
-msgstr "Murta"
+msgstr "Myrten"
 
 # flowers name
 #: CY
 msgid "Olive"
-msgstr "Oliveira/azeitona"
+msgstr "oliv"
 
 # flowers name
 #: CY
 msgid "White Mustard"
-msgstr "Mostarda-branca"
+msgstr "Vitsenap"
 
 # flowers name
 #: CY
 msgid "Rock-roses"
-msgstr "Estevas"
+msgstr "Solvändor"
 
 # flowers name
 #: CY
 msgid "Anemone"
-msgstr "Anêmona"
+msgstr "Sippor"
 
 # flowers name
 #: CY
 msgid "Chrysanthemum"
-msgstr "Crisântemo"
+msgstr "Krysantemum"
 
 # flowers name
 #: CY
 msgid "Tree Tobacco"
-msgstr "Charuteira"
+msgstr "Blåtobak"
 
 # flowers name
 #: CY
 msgid "Spanish Jasmine"
-msgstr "Jasmim-espanhol"
+msgstr "Jasminum grandiflorum"
 
 # flowers name
 #: CY
 msgid "Common Lantana"
-msgstr "Camará"
+msgstr "Eldkrona"
 
 # flowers name
 #: CY
 msgid "Acacia"
-msgstr "Acacia"
+msgstr "Akacia"
 
 # flowers name
 #: CY
 msgid "Bermuda Buttercup"
-msgstr "Erva-canária"
+msgstr "Getoxalis"
 
 # flowers name
 #: CY
 msgid "African Boxthorn"
-msgstr "African Boxthorn"
+msgstr "Lycium ferocissimum"
 
 # flowers name
 #: CY
 msgid "Blue Plumbago"
-msgstr "Bela Emília"
+msgstr "Blyblomma"
 
 # flowers name
 #: CY
 msgid "Narrow-leaved Viper’s-bugloss"
-msgstr "viperina"
+msgstr "Echium angustifolium"
 
 # flowers name
 #: CY
 msgid "Milk Thistle"
-msgstr "Cardo-leiteiro"
+msgstr "Mariatistel"
 
 # Survey species selection page read more message
 msgid ""
@@ -757,38 +750,38 @@ msgid ""
 " upload one or two photos of your target flower.</p><p>This allows us to "
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
-"Qual <1>flor</1> você escolheu como alvo?<3><p>Sempre que possível escolha "
-"um fragmento de flores contendo um dos grupos de flores na lista.</p><p>Se "
-"nenhuma destas estiver disponível na sua localização você pode escolher "
-"outra flor que esteja atraindo insetos, selecionar \"Outra\" e digitas o "
-"nome.</p><p>Sua flor alvo pode estar crescendo em um fragmento todo com a "
-"mesma flor, ou entre espécies de flores diferentes.</p><p>Para cada FIT "
-"Count, por favor envie uma ou duas fotos da sua flor alvo.</p><p>Isto nos "
-"permite verificar duplamente a espécie de flor usada nas contagens.</p></3>"
+"Vilken <1>målarts-blomma</1> har du valt? <3><p>Välj om möjligt en av de "
+"listade blommorna</p><p>Om ingen av dessa växter finns där du befinner dig, "
+"kan du välja en annan blomma som lockar insekter och välja \"Annan\" och "
+"skriva in växtens namn.</p><p>Målarts-blomman kan utgöra en liten del av ett"
+" större bestånd av samma art eller en planta bland många andra slags "
+"växter.</p><p>Ladda upp en eller ett par bilder på målartsblomman för varje "
+"Blombesöksräkning du gör.</p><p>Det gör det möjligt att dubbelkolla vilken "
+"art som använts vid räkningen. </p></3>"
 
 # Survey species selection page read more header
 msgid "Flower"
-msgstr "Flor"
+msgstr "Blomma"
 
 # Survey species selection page divider label
 msgid "Please add the name of the flower"
-msgstr "Por favor adicione o nome da flor"
+msgstr "Ange blommans namn"
 
 # Survey species selection page label
 msgid "Other flower name"
-msgstr "Outro nome da flor"
+msgstr "Annan blomma, namn"
 
 # Survey species manual entry placeholder
 msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
 msgstr ""
-"Por favor digite o nome da flor alvo que você escolheu, depois volte para a "
-"página da flor alvo"
+"Ange vilken målarts-blomma du valt och gå tillbaka till sidan för Målarts-"
+"blommor"
 
 # Survey flower count page divider label
 msgid "Number"
-msgstr "Número"
+msgstr "Antal"
 
 # Survey flower count page info message
 msgid ""
@@ -809,140 +802,137 @@ msgid ""
 "flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
 " unit</3></5></5>"
 msgstr ""
-"Qual o <1>número</1> e <3>tipo</3> de flor em sua área amostrada "
-"(mancha)?<5><p>O número de flores em uma mancha pode estar fortemente "
-"relacionada com o número de visitantes registrados, por isso é importante "
-"providenciar esta informação!</p><p>Apenas conte flores que estão "
-"razoavelmente frescas e provavelmente atrairão insetos - "
-"flores/inflorescências mortas e sementes não devem ser "
-"contadas.</p><p>Flores devem ser contadas de formas diferentes, dependendo "
-"de sua estrutura.</p><p>Se você escolheu uma flor alvo de nossa lista, o "
-"tipo floral é mostrado por padrão.</p><p>Se você escolheu \"Outra\" flor "
-"alvo, por favor conte:</p><5><0><0>Flores individuais</0> - cada flor conta "
-"como uma unidade</0><1><0>Inflorescências</0> (quando há várias flores "
-"pequenas dentro de uma grande inflorescência, p.ex. dente-de-leão ou "
-"margarida) – cada inflorescência conta como uma unidade</1><2><0>Umbelas</0>"
-" (para inflorescências que possuem pequenas flores agrupadas em umbela, como"
-" guarda-chuvas invertidos, p.ex. falsa-erva-de-rato) – cada umbela conta "
-"como uma unidade</2><3><0>Espigas</0> (quando um número de flores pequenas "
-"estão arranjadas ao longo de um eixo, p.ex. lavanda) – cada espiga conta "
-"como uma unidade</3></5></5>"
+"Vilket <1>antal</1>och<3>typ</3> av blomställning har målarts-blomman i din "
+"ruta?<5><p>Antalet blommor i en ruta kan påverka hur många insekter som "
+"besöker den. Därför är det viktigt att ange hur många "
+"blommor/blomställningar det finns!</p><p>Räkna bara de blommor som är så "
+"färska att de kan locka insekter – vissna blommor och fröställningar ska "
+"räknas.</p><p>Blommorna räknas på olika sätt beroende på hur de ser "
+"ut.</p><p>Om du valt en målarts-blomma från listan visas blomställningens "
+"typ automatiskt.</p><p>Om du valt \"Annan\" målarts-blomma måste du "
+"räkna:<p><5><0><0>Enskilda blommor</0>- varje blomma räknas som en "
+"enhet</0><1><0>Blomhuvuden</0>(många små blommor tätt tillsammans i ett "
+"blomhuvud, t.ex. maskros eller klöver) - varje blomhuvud räknas som en "
+"enhet</1><2><0>Blomflockar</0>(många små blommor i flata eller lite kupade "
+"blomställningar, t.ex. björnloka) – varje flock räknas som en "
+"enhet</2><3><0>Blomklasar</0>(flera små blommor längs en gemensam stjälk, "
+"t.ex. lavendel eller ljung) – varje klase räknas som en enhet</3></5></5>"
 
 # Survey flower count page info header
 msgid "Flower Count"
-msgstr "Contagem Floral"
+msgstr "Antal blommor"
 
 # Survey flower count page divider label
 msgid "Type"
-msgstr "Tipo"
+msgstr "Typ"
 
 # Survey flower count page content
 msgid "Individual Flower"
-msgstr "Flor Individual"
+msgstr "Enskild blomma"
 
 # Survey flower count page content
 msgid "Head"
-msgstr "Cabeça"
+msgstr "Blomhuvud"
 
 # Survey flower count page content
 msgid "Umbel"
-msgstr "Umbela"
+msgstr "Blomflock"
 
 # Survey flower count page content
 msgid "Spike"
-msgstr "Espiga"
+msgstr "Blomklase"
 
 # My surveys page content
 msgid "Today"
-msgstr "Hoje"
+msgstr "Idag"
 
 # My surveys page content
 msgid "Record"
-msgstr "Registro"
+msgstr "Räkna"
 
 # My surveys page content
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Ta bort"
 
 # My surveys page content
 msgid "Yesterday"
-msgstr "Ontem"
+msgstr "Igår"
 
 # My surveys page content info background message
 msgid "To delete any surveys swipe it to the left."
-msgstr "Para apagar um formulário, deslize para esquerda."
+msgstr "För att ta bort en räkning, svep den åt vänster"
 
 # My surveys page content info background message button
 msgid "Hide"
-msgstr "Esconder"
+msgstr "Göm"
 
 # My surveys page content info background message
 msgid "You have no finished surveys."
-msgstr "Você não tem formulários finalizados."
+msgstr "Du har inga avslutade räkningar"
 
 # Add Photo message
 msgid "Choose a method to upload a photo"
-msgstr "Escolha um método para enviar uma foto"
+msgstr "Välj sätt att ladda upp en bild"
 
 # Add Photo message
 msgid "Gallery"
-msgstr "Galeria"
+msgstr "Galleri"
 
 # Add Photo message
 msgid "Camera"
-msgstr "Câmera"
+msgstr "Kamera"
 
 # Credits page content
 msgid "Graphics:"
-msgstr "Gráficos:"
+msgstr "Diagram"
 
 # Credits page content
 msgid "Team members of the following projects"
-msgstr "Membros dos times dos seguintes projetos"
+msgstr "Medarbetare i nedanstående projekt"
 
 # Credits page content
 msgid "Photos of flowers and insects by:"
-msgstr "Fotos de flores e de insetos por:"
+msgstr "Foton av blommor och insekter av:"
 
 # Credits page content
 msgid "Thanks to the following for additional photos"
-msgstr "Agradecemos pelas seguintes fotos adicionais:"
+msgstr "Tack till följande personer för kompletterande foton"
 
 # Credits page content
 msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
-msgstr "Ícones feitos por <2>Freepik</2> do <6>www.flaticon.com</6>"
+msgstr "Ikoner skapade av <2>Freepik</2> från <6>www.flaticon.com</6>"
 
 # Credits page content
 msgid ""
 "App guide illustrations made "
 "by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
 msgstr ""
-"Ilustrações do guia do App feitas "
-"por:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+"Bilder i appens guide är gjorda "
+"av:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
 
 # Survey flower page info message
 msgid "Which target <1>flower</1> have you chosen?"
-msgstr "Qual <1>flor</1> alvo você escolheu?"
+msgstr "Vilken<1>målarts-blomma</1> har du valt?"
 
 # Survey flower page section divider
 msgid "Photo of your target flower"
-msgstr "Foto da sua flor-alvo"
+msgstr "Foto av din målarts-blomma"
 
 # Survey flower page section divider
 msgid "Target flower chosen"
-msgstr "Flor-alvo escolhida"
+msgstr "Vald målarts-blomma"
 
 # Survey flower patch page values
 msgid "In a larger patch of the same flower"
-msgstr "Em uma mancha maior da mesma flor"
+msgstr "Del av större område med samma blomma"
 
 # Survey flower patch page values
 msgid "In a larger patch of many different flowers"
-msgstr "Em uma mancha maior de várias flores diferentes"
+msgstr "Del av större område med olika slags blommor"
 
 # Survey flower patch page values
 msgid "More or less isolated"
-msgstr "Mais ou menos isolada"
+msgstr "I stor sett ensam i området"
 
 # Survey flower patch "Read more" alert message
 msgid ""
@@ -951,95 +941,94 @@ msgid ""
 "insects.</p><p>Please indicate the situation that best describes the area "
 "around your flower patch (roughly within 5 metres).</p></3>"
 msgstr ""
-"Sua mancha de 50x50cm de <1>flores alvo</1> está crescendo:<3><p>Os "
-"arredores de uma mancha de flores pode afetar sua atratividade aos "
-"insetos.</p><p>Por favor, indique a situação que melhor descreve a área ao "
-"redor de sua mancha de flores (aproximadamente dentro de 5 metros).</p></3>"
+"Hur ser det ut runt om din 50 × 50 cm ruta med "
+"<1>målartsblommor</1><3><p>Hur omgivningen runt rutan ser ut kan påverka hur"
+" lockande den är för insekter.</p><p>Välj det alternativ som bäst beskriver "
+"området runt rutan (ca. 5 meter runt om).</p></3>"
 
 # Survey flower patch info button label
 msgid "READ MORE"
-msgstr "LEIA MAIS"
+msgstr "LÄS MER"
 
 # Survey flower patch "Read more" alert header text
 msgid "Flower patch"
-msgstr "Canteiro de flores"
+msgstr "Målartsruta"
 
 # Survey flower patch "Read more" alert button text
 msgid "Got it"
-msgstr "Entendi!"
+msgstr "Jag förstår"
 
 # Survey weather sky page values
 msgid "All or mostly blue"
-msgstr "Total ou quase totalmente aberto"
+msgstr "Helt eller övervägande klart"
 
 # Survey weather sky page values
 msgid "Half blue and half cloud"
-msgstr "Parcialmente nublado"
+msgstr "Hälften klart, hälften molnigt"
 
 # Survey weather sky page values
 msgid "All or mostly cloud"
-msgstr "Total ou quase totalmente nublado"
+msgstr "Helt eller övervägande molnigt"
 
 # Survey weather shade page values
 msgid "Entirely in sunshine"
-msgstr "Completamente ensolarado"
+msgstr "Solbelyst hela tiden "
 
 # Survey weather shade page values
 msgid "Partly in sun and partly shaded"
-msgstr "Parcialmente ao sol e parcialmente sombreado"
+msgstr "Delvis i sol, delvis i skugga"
 
 # Survey weather shade page values
 msgid "Entirely shaded"
-msgstr "Completamente sombreado"
+msgstr "Helt i skugga"
 
 # Survey weather wind page values
 msgid "Leaves still/moving occasionally"
-msgstr "Folhas paradas/movendo ocasionalmente"
+msgstr "Löv stilla/rör sig lite ibland"
 
 # Survey weather wind page values
 msgid "Leaves moving gently all the time"
-msgstr "Folhas movendo-se suavemente o tempo todo"
+msgstr "Löv rör sig lite hela tiden"
 
 # Survey weather wind page values
 msgid "Leaves moving strongly"
-msgstr "Folhas se movendo fortemente"
+msgstr "Löv rör sig mycket"
 
 # Survey weather wind page button label
 msgid "Save my count"
-msgstr "Salvar minha contagem"
+msgstr "Spara min räkning"
 
 # Survey insect count page counter button label
 msgid "Paused"
-msgstr "Pausado"
+msgstr "Pausad"
 
 # Survey insect count page counter button label
 msgid "Time's up!"
-msgstr "O tempo acabou!"
+msgstr "Tiden är slut!"
 
 # Survey insect count page counter warning message
 msgid "Time expire!"
-msgstr "O tempo expirou!"
+msgstr "Tiden är slut!"
 
 # My Records page info message
 msgid "Please do not forget to upload any pending surveys!"
-msgstr ""
-"Por favor, não se esqueça de enviar quaisquer levantamentos pendentes!"
+msgstr "Glöm inte ladda upp eventuella väntande räkningar"
 
 # Credit page
 msgid "FIT Count logo"
-msgstr "Logo do FIT Count"
+msgstr "FIT Count logo"
 
 # Toast message after successful login
 msgid "Successfully logged in"
-msgstr "Autenticado com sucesso"
+msgstr "Lyckad inloggning"
 
 # Onboarding content
 msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
 msgstr ""
-"<0>Polinizadores são importantes!</0><br/>Ajude-nos a monitorá-los com uma "
-"contagem cronometrada Flor-Inseto"
+"<0>Pollinatörer är viktiga!</0><br/>Hjälp oss övervaka dem med hjälp av en "
+"Blombesöksräkning"
 
 # Onboarding content
 msgid ""
@@ -1049,62 +1038,59 @@ msgid ""
 "when your ten minutes is up</4><5>Save your count, and upload it to the "
 "website</5></0>"
 msgstr ""
-"<0><0>Aguarde por um bom clima! </0><1>Encontre um canteiro de flores "
-"alvo</1><2>Conte as flores em seu canteiro</2><3>Conte <1>todos</1> os "
-"insetos que <3>pousarem</3> nas <6>flores alvo</6></3><4>O aplicativo lhe "
-"avisará quando os dez minutos acabarem.</4><5>Salve sua contagem, e envie-a "
-"para o website</5></0>"
+"<0><0>Vänta tills det är fint väder!</0><1>Leta upp en plats med målart-"
+"blommor</1><2>Räkna blommorna i din ruta</2><3>Räkna <1>alla</1> insekter "
+"som<3>landar</3>på en <6>målartsblomma</6></3><4>Appen säger till när tiden "
+"är slut</4><5>Spara din räkning och ladda upp den till websidan</5></0>"
 
 # Onboarding content
 msgid ""
 "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
 " get started!"
 msgstr ""
-"Leia nosso guia completo de \"como fazer\", confira as páginas de "
-"identificação de insetos e você estará pronto para começar!"
+"Läs vår \"Hur gör man\"-guide, titta på sidorna för att bestämma insekter, "
+"och sen kan du börja räkna."
 
 # Onboarding content
 msgid "Let's start the count!"
-msgstr "Vamos iniciar a contagem!"
+msgstr "Nu börjar vi räkna!"
 
 # User authentication toast message
 msgid "Sorry"
-msgstr "Desculpe"
+msgstr "Tyvärr"
 
 # User authentication toast message
 msgid "The user credentials were incorrect."
-msgstr "As credenciais de usuário estavam incorretas"
+msgstr "Användaruppgiftena var felaktiga"
 
 # How To page content
 msgid "How To"
-msgstr "Como Fazer"
+msgstr "Hur gör man"
 
 # How To page content
 msgid "FIT Count quick guide"
-msgstr "Guia rápido para FIT Count"
+msgstr "Snabbguide till Blombesöksräkning"
 
 # How To page content
 msgid ""
 "FIT Counts take about 10–15 minutes, during which you are asked to count "
 "every insect that lands on the flowers of your chosen target flower species."
 msgstr ""
-"FIT Counts leva cerca de 10-15 minutos, durante os quais você será "
-"solicitado a contar todos os insetos que pousarem nas flores da espécie que "
-"você escolheu."
+"En Blombesöksräkning tar ungefär 10–15 minuter. Under den tiden ska du räkna"
+" varje insekt som landar på blommorna av den målväxt-art du valt."
 
 # How To page content
 msgid ""
 "You can complete a FIT Count in good weather between 1 April and 30 "
 "September."
 msgstr ""
-"Você pode completar uma contagem em boas condições meteorológicas entre 1 de"
-" abril e 30 de setembro."
+"Du kan göra en Blombesöksräkning i bra väder mellan 1 april och 30 "
+"september."
 
 # How To page content (non-UK)
 msgid "You can complete a FIT Count in good weather at any time of year."
 msgstr ""
-"Você pode realizar uma FIT Count em dias de tempo bom em qualquer época do "
-"ano."
+"Du kan göra en Blombesöksräkning i bra väder när som helst under året."
 
 # How To page content
 msgid ""
@@ -1112,21 +1098,19 @@ msgid ""
 "one of the FIT Count target flowers, but if you can't find one from the list"
 " you can choose a different flower as the target."
 msgstr ""
-"Escolha apenas um tipo de flor como sua flor alvo - quando possível, use uma"
-" das flores alvo listadas no FIT Count, mas se você não conseguir encontrar "
-"uma na lista, poderá escolher uma flor diferente como alvo."
+"Välj bara ett slags blomma som din målartsblomma – Använd en av de växter "
+"som listas i Blombesöksräkningen om de finns på platsen, men om de saknas "
+"kan du ange en annan växt som målart."
 
 # How To page content
 msgid "Mark out a 50 × 50 cm patch containing your target."
-msgstr "Delimite uma área de 50 × 50 cm contendo seu alvo."
+msgstr "Märk ut en ruta på 50x50 cm som innehåller din målväxt"
 
 # How To page content
 msgid ""
 "Count the number of individual flowers for your target species that are "
 "within your patch."
-msgstr ""
-"Conte o número de flores individuais para a espécie-alvo escolhida que estão"
-" dentro da área delimitada."
+msgstr "Räkna antalet enskilda blommor din målväxtart har inom rutan."
 
 # How To page content
 msgid ""
@@ -1134,222 +1118,211 @@ msgid ""
 " on the target flowers (ignore other flowers, and do your best to count each"
 " individual insect once only!)."
 msgstr ""
-"Usando o cronômetro do aplicativo, conte durante dez minutos todos os "
-"insetos que pousarem nas flores alvo (ignore as outras flores e faça o "
-"possível para contar cada inseto individualmente apenas uma vez!)."
+"Använd stoppuret i appen för att under tio minuter räkna alla insekter som "
+"landar på målväxtens blommor (bortse från andra blommor, och försök räkna "
+"varje insekt bara en gång!)"
 
 # How To page content
 msgid "Fill in some simple weather details."
-msgstr "Preencha alguns detalhes do clima."
+msgstr "Fyll i några uppgifter om vädret"
 
 # How To page content
 msgid "Save your count, and upload it to the website."
-msgstr "Salve sua contagem, e envie-a para o website."
+msgstr "Spara din räkning och ladda upp den till websidan"
 
 # How To page content
 msgid "Further information and guides are available at"
-msgstr "Mais informações e guias estão disponíveis em"
+msgstr "Mer information och instruktioner finns på"
 
 # How To page content
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as other insects."
 msgstr ""
-"Identifique os insetos em seus grupos mais amplos (abelhas, moscas-das-"
-"flores etc.) - qualquer um que você não reconheça deve ser contado como "
-"outros insetos."
+"Bestäm vilken grupp varje insekt hör till (humlor, blomflugor osv.) – alla "
+"som du inte kan bestämma räknas som övriga insekter."
 
 # How To page content
 msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
 msgstr ""
-"\"Tempo bom\" é sem chuva e com temperatura de pelo menos 13°C ensolarado ou"
-" pelo menos 15°C nebuloso."
+"\"Fint väder\" är torrt, minst 13̐°C varmt om det är solsken, eller minst "
+"15°C om det är molnigt."
 
 # Bumblebee screen 1 content
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
-"Identifique os insetos em seus grupos mais amplos (abelhas, moscas-das-"
-"flores etc.) - qualquer um que você não reconheça deve ser contado como  "
-"\"outros insetos\"."
+"Bestäm vilken grupp varje insekt hör till (humlor, blomflugor osv.) – alla "
+"som du inte kan bestämma räknas som \"övriga insekter\"."
 
 # Bumblebee screen 1 content
 msgid "Very hairy / fluffy bees"
-msgstr "Abelhas muito peludas / fofas"
+msgstr "Mycket håriga / lurviga bin"
 
 # Bumblebee screen 1 content
 msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
 msgstr ""
-"Arredondada, de formato quase globular, muitas vezes tem a cauda \"dobrada "
-"para baixo\" ao visitar as flores"
+"Trinda, nästan klotrunda till formen, har ofta 'svansen indragen' när de "
+"besöker blommor"
 
 # Bumblebee screen 1 content
 msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
 msgstr ""
-"Muitas espécies tem faixas de cores simples e constratantes (amarelos, "
-"brancos, pretos), outras podem ter cores vivas por toda extensão"
+"Många arter har tvärband i kontrasterande färger (gult, vitt, svart), andra "
+"kan vara helt rödbruna."
 
 # Bumblebee screen 1 content
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
-msgstr ""
-"Os olhos cobrem as laterais da cabeça, com muitos pelos entre os olhos"
+msgstr "Ögonen täcker huvudets sidor, och de har mycket hår mellan ögonen"
 
 # Bumblebee screen 1 content
 msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
-"Mamangava são abelhas arredondadas e peludas. As rainhas estão entre as "
-"maiores abelhas; enquanto as operárias são menores, porém maiores que a "
-"maioria das abelhas solitárias."
+"Humlor är trinda bin med mycket päls. Drottningarna hör till våra största "
+"bin; arbetarna kan vara ganska små, men brukar bara större än de flesta "
+"solitärbin."
 
 # Bumblebee screen 1 content
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
-"Mamangavas tem um voo característico, 'atrapalhado' e acompanhado por um "
-"zumbido; e não ficam pairando no ar. Há 24 espécies no Reino Unido."
+"Humlor har en typisk 'humle-aktig' surrande flykt och hovrar inte. Det finns"
+" 38 arter i Sverige."
 
 # Bumblebee screen 2 content
 msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
 msgstr ""
-"Rainhas e operárias de mamangavas carregam pólen como uma bolota umedecida "
-"na parte de fora de suas pernas traseiras."
+"Humledrottningar och arbetare samlar pollen i små fuktiga bollar på utsidan "
+"av bakbenen."
 
 # Bumblebee screen 2 content
 msgid ""
 "This bumblebee is one of the species that are more-or-less ginger-coloured "
 "all over"
-msgstr ""
-"Esta mamangava é uma das espécies com o corpo quase todo coberto por pelos "
-"ruivos."
+msgstr "Den är humlearten är i stort sett helt rödbrun."
 
 # Bumblebee screen 2 content
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
 msgstr ""
-"Machos de mamangavas são parecidos com as fêmeas, mas tem antenas um pouco "
-"mais longas e não coletam pólen. Eles visitam flores para se alimentar de "
-"néctar."
+"Humle-hanar likar honorna men har lite längre antenner och samlar inte "
+"pollen. De besöker blommor för att finna nektar."
 
 # Honeybees screen 1 content
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
 msgstr ""
-"Abelhas melíferas são maiores do que a maior parte das abelhas solitárias "
-"(mas não todas) e são menores do que a maioria das mamangavas."
+"Honungsbin är större än de flesta (men inte alla) solitärbin, men mindre än "
+"de flesta humlor."
 
 # Honeybees screen 1 content
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
-"Há somente uma espécie de abelha melífera no Reino Unido. Ela constrói "
-"ninhos em colmeias artificiais, com colônias se estabelecendo no ambiente "
-"natural de forma ocasional."
+"Det finns bara en art av honungsbi i Sverige. De bor i konstgjorda kupor, "
+"men ibland kan en svärm även skapa en koloni i naturen."
 
 # Honeybees screen 2 content
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
-"Os machos de abelhas melíferas (zangões) são semelhantes, mas têm olhos "
-"muito maiores."
+"Honungsbiets hanar (drönare) liknar honorna men har mycket större ögon"
 
 # Solitary bees screen 1 content
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
-"Abelhas solitárias são menos arredondadas do que as mamangavas e a maioria é"
-" menor do que mamangavas e abelhas melíferas."
+"Solitärbin är inte så trinda som humlor, och de flesta arter är betydligt "
+"mindre än humlor och honungsbin"
 
 # Solitary bees screen 1 content
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
-"Abelhas solitárias voam ativamente entre flores e as vezes se aquecem "
-"pousadas ao sol. A maior parte das espécies não paira no ar. Há cerca de 250"
-" espécies no Reino Unido."
+"Solitärbin flyger flitigt mellan olika blommor, och vilar ibland i "
+"solgasset. De flesta arter brukar inte hovra. Det finns nästan 300 arter i "
+"Sverige"
 
 # Solitary bees screen 1 content
 msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr "Normalmente tem formato bastante alongado (mas há muitas variedades)"
+msgstr ""
+"De är oftast ganska långsmala till formen (men variationen är stor mellan "
+"arterna)"
 
 # Solitary bees screen 1 content
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr ""
-"Normalmente peluda, mas frequentemente menos coberta de pelos que as "
-"mamangavas "
+msgstr "De är vanligen håriga, men brukar ha glesare päls än humlor"
 
 # Context term
 msgid "The timer will now start!"
-msgstr "O cronômetro começará agora!"
+msgstr "Nu börjar tidtagningen!"
 
 # Context term
 msgid ""
 "Count every insect that lands on the target flowers (count each individual "
 "once)."
 msgstr ""
-"Conte todos os insetos que pousarem nas flores alvo (conte cada indivíduo "
-"uma única vez)."
+"Räkna varje insekt som landar på målväxtens blommor (räkna varje individ "
+"bara en gång)"
 
 # Context term
 msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
 msgstr ""
-"Toque nas imagens dos insetos para aumentar sua contagem (os botões "
-"\"menos\" diminuirão a contagem)"
+"Tryck på insektsbilden för att öka antalet (minus-knapparna minskar antalet)"
 
 # Context term
 msgid "Start Count"
-msgstr "Inicie a contagem"
+msgstr "Börja räkna"
 
 # Solitary bees screen 1 content
 msgid "Colours usually more subdued and less contrasting than bumblebees"
 msgstr ""
-"As cores geralmente são mais suaves e menos contrastantes que em mamangavas"
+"Färgerna är vanligen mer dämpade och mindre kontrastrika än hos humlorna"
 
 # Solitary bees screen 1 content
 msgid "Long antennae, often held straight out in front"
-msgstr ""
-"Antenas longas, geralmente posicionadas diretamente na porção dianteira"
+msgstr "Långa antenner, som ofta är riktade rakt framåt"
 
 # Solitary bees screen 1 content
 msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
 msgstr ""
-"Menores do que rainhas de mamangavas, mas as grandes abelhas solitárias são "
-"menores do que operárias pequenas de mamangavas."
+"Mindre än humledrottningar, men de största solitärbina är större än små "
+"humlearbetare"
 
 # Solitary bees screen 2 content
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
 msgstr ""
-"Algumas abelhas solitárias carregam pólen seco em uma escopa na base das "
-"pernas traseiras (veja a abelha mineira acima à esquerda)."
+"Vissa solitärbin samlar torrt pollen i en pollenkorg vid bakbenens bas (se "
+"sandbiet på bilden ovan till vänster)"
 
 # Solitary bees screen 2 content
 msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
 msgstr ""
-"Outras tem a escola embaixo de seu abdômen (veja a abelha cortadeira acima à"
-" direita)."
+"Andra har pollenkorgen under bakkroppen (se tapetserarbiet ovan till höger)"
 
 # Solitary bees screen 2 content
 msgid ""
@@ -1357,33 +1330,30 @@ msgid ""
 "mining bees, dig burrows into soil. Another group, including the mason bees "
 "and leafcutter bees, make use of holes in wood, plants or walls."
 msgstr ""
-"Abelhas solitárias geralmente constroem seus ninhos em buracos ou "
-"perfurações. As abelhas mineiras, um grande grupo, cavam seus ninhos no "
-"solo. Outro grupo, incluindo as abelhas pedreiras e cortadeiras, usam "
-"perfurações na madeira, plantas ou muros."
+"Solitärbin har vanligen bon i gångar eller hålor. En stor grupp, "
+"minerarbina, gräver gångar i marken. En annan grupp, däribland murarbin och "
+"tapetserarbin, använder hål i trä, växter eller väggar."
 
 # Solitary bees screen 3 content
 msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
 msgstr ""
-"Entre as várias espécies de abelhas solitárias, há uma grande variação em "
-"tamanho, cor e quão peluda a abelha é. Alguns exemplos são mostrados abaixo."
+"Det är stor variation mellan olika arter solitärbin vad gäller storlek, färg"
+" och behåring. Några exempel visas ovan."
 
 # Solitary bees screen 3 content
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
 msgstr ""
-"Você não precisa reconhecer as espécies individuais para fazer uma contagem "
-"FIT, todas elas são contadas como \"abelhas solitárias\"!"
+"Du behöver inte känna igen varje enskild art för att göra en "
+"Blombesöksräkning, de räknas alla till gruppen \"solitära bin!\""
 
 # Solitary bees screen 3 content
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
-msgstr ""
-"A abelha mineira cinzenta (<i>Andrena cineraria</i>) é preta e tem listras "
-"cinza."
+msgstr "Sobersandbiet (<i>Andrena cineraria</i>) är svart med grå ränder"
 
 # Solitary bees screen 3 content
 msgid ""
@@ -1391,80 +1361,77 @@ msgid ""
 "they have bee-like hairs on part of their body, and most are similar in "
 "shape and with a mix of black, red and yellow colours"
 msgstr ""
-"As abelhas-cuco (gênero <i>Nomada</i>) podem parecer com vespas, mas elas "
-"tem pelos como abelhas em parte de seu corpo. A maioria tem forma parecida e"
-" apresenta um misto de cores preta, vermelha e amarela."
+"Gökbin (släktet <i>Nomada</i>) kan vara mycket lika getingar, men som andra "
+"bin har de hår på delar av kroppen, och de flesta likar varandra till form "
+"och sina i svarta, röda och gula teckningar."
 
 # Solitary bees screen 3 content
 msgid ""
 "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
 "bees, at around 4mm long"
 msgstr ""
-"Esta abelha do gênero <i>Chelostoma</i>é uma das menores abelhas solitárias,"
-" com cerca de 4mm."
+"Blomsovarbin (släktet <i>Chelostoma</i>) hör till de minsta solitärbi-"
+"arterna, ca. 4 mm långa"
 
 # Solitary bees screen 3 content
 msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
-"No final do verão, a abelha da hera (<i>Colletes hederae</i>) visita flores "
-"de hera - quando novas, essas apresentam listras pretas e amarelas no "
-"abdômen."
+"I Mellaneuropa besöker<i>Colletes hederae</i>, en art av sidenbin, blommande"
+" murgröna under sensommaren – dessa bin tydliga svarta och gula ränder på "
+"bakkroppen åtminstone innan de blivit slitna."
 
 # Wasps screen 1 content
 msgid "Long antennae (distinguishes them from most flies)"
-msgstr "Antenas longas (as diferencia da maioria das moscas)"
+msgstr "Långa antenner (vilket skiljer dem från de flesta flugor)"
 
 # Wasps screen 1 content
 msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
 msgstr ""
-"Há alguns pelos pelo corpo, mas nas vespas normalmente são muito menos "
-"densos e peludos em comparação com abelhas"
+"De har en del hår på kroppen, men getingar och andra steklar har vanligen "
+"mycket mindre och glesare behåring än bin"
 
 # Wasps screen 1 content
 msgid ""
 "Social wasps and some of the solitary species have bold back and yellow "
 "stripes"
 msgstr ""
-"Vespas sociais e algumas das espécies solitárias têm dorso escuro e listras "
-"amarelas"
+"Sociala getingar och vissa solitära steklar har skarpa svarta och gula "
+"ränder"
 
 # Wasps screen 1 content
 msgid "Some wasps have their wings rolled up when at rest"
-msgstr "Algumas vespas têm as asas enroladas quando em repouso"
+msgstr "En del getingar viker samman vingarna när de vilar"
 
 # Wasps screen 1 content
 msgid ""
 "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 msgstr ""
-"As vespas têm uma \"cintura de vespa\" muito estreita na junção entre o "
-"tórax e o abdômen"
+"Getingar och andra midjestekar har en mycket smal \"getingmidja\" där "
+"mellankroppen övergår i bakkroppen"
 
 # Wasps screen 1 content
 msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
 msgstr ""
-"Existem muitas espécies diferentes de vespas, mas as mais conhecidas são as "
-"vespas sociais como a mostrada acima."
+"Det finns många stekelarter, men de sociala getingarna är mest välbekanta"
 
 # Wasps screen 2 content
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
 msgstr ""
-"Muitas vespas solitárias têm uma forma característica de cabeça larga e "
-"quadrada"
+"Många solitära steklar har tydligt avsatta, breda, lite kantiga huvuden"
 
 # Wasps screen 2 content
 msgid "Some have typical black and yellow wasp stripes"
-msgstr "Alguns têm listras pretas e amarelas típicas de vespa"
+msgstr "En del är typiskt \"getingrandiga\" i svart och gult"
 
 # Wasps screen 2 content
 msgid "Others may be black and red, or all black as in this example"
-msgstr ""
-"Outras podem ser pretas e vermelhas ou totalmente pretas como neste exemplo"
+msgstr "Andra kan vara svarta och röda, eller helsvarta som den här."
 
 # Wasps screen 2 content
 msgid ""
@@ -1473,94 +1440,91 @@ msgid ""
 "pollen they have no pollen basket (although pollen may become stuck to their"
 " bodies)."
 msgstr ""
-"Há uma grande variação em tamanho, forma e marcações entre as vespas "
-"solitárias. Geralmente, elas não apresentam pelos visíveis e, como não "
-"coletam pólen, não tem escola (embora o pólen possa ficar aderido a seu "
-"corpo)."
+"Skillnaden i storlek, form och teckning är mycket stor mellan olika arter av"
+" solitära steklar. De flesta saknar tydlig behåring, och eftersom de inte "
+"samlar pollen saknar de pollenkorgar (men en del pollen kan råka fastna på "
+"kroppen)"
 
 # Wasps screen 2 content
 msgid ""
 "Solitary wasps generally nest in burrows or holes, in a similar manner to "
 "the solitary bees."
 msgstr ""
-"Vespas solitárias geralmente constroem seus ninhos em buracos ou "
-"perfurações, de forma similar às abelhas solitárias."
+"Solitära steklar brukar bo i gångar eller hålor, på samma sätt som solitära "
+"bin."
 
 # Wasps screen 3 content
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 msgstr ""
-"Muitas vespas parasitas são longas e finas, com uma cintura bem pequena."
+"Många parasitsteklar är mycket långa och smala, med mycket smal getingmidja"
 
 # Wasps screen 3 content
 msgid ""
 "The majority of species have very long antennae, made up of lots of "
 "individual segments"
 msgstr ""
-"A maioria das espécies tem antenas longas, constituídas por muitos segmentos"
-" individuais."
+"De flesta arterna har mycket långa antenner, bestående av många enskilda "
+"segment"
 
 # Wasps screen 3 content
 msgid ""
 "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
 "some species this is very long"
 msgstr ""
-"Fêmeas de vespas parasitas podem ter um ovipositor pontiagudo utilizado para"
-" botar os ovos - em algumas espécies, esse ovipositor é bastante longo."
+"Parasitsteklarnas honor kan ha ett vasst äggläggningsrör – hos vissa arter "
+"är röret mycket långt"
 
 # Wasps screen 3 content
 msgid ""
 "Colours are usually a mix of black and red or yellow – some species are all-"
 "black"
 msgstr ""
-"Cores são geralmente uma mistura de preto, vermelho ou amarelo - algumas "
-"espécies são todas pretas."
+"Färgställningen är oftast svart och röd eller gul – vissa arter är helsvarta"
 
 # Wasps screen 3 content
 msgid ""
 "There are many different parasitic wasps, some of which visit flowers for "
 "nectar. Two examples are shown above."
 msgstr ""
-"Há muitas vespas parasitas diferentes, sendo que algumas visitam flores em "
-"busca de néctar. Dois exemplos são mostrados acima."
+"Det finns många slags parasitsteklar, och en del av dem besöker blommor för "
+"att söka nektar. Ovan visas ett par exempel."
 
 # Wasps screen 3 content
 msgid ""
 "Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
 " the larvae of the wasps consume the host invertebrate."
 msgstr ""
-"Vespas parasitas botam seus ovos em outros invertebrados ou seus ninhos, e a"
-" larva da vespa consome seu hospedeiro invertebrado."
+"Parasitsteklar lägger sina ägg i andra ryggradslösa djur, eller i deras bon,"
+" och parasitstekelns larver äter upp sitt värddjur"
 
 # Hoverflies screen 1 content
 msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
 msgstr ""
-"Olhos grandes, cobrindo grande parte da cabeça no caso dos machos (como "
-"mostrado acima) ou com uma pequena separação entre os olhos no topo da "
-"cabeça em fêmeas."
+"De stora ögonen täcker större delen av hanarnas huvud (som visas ovan), men "
+"hos honorna finns ett litet mellanrum mellan ögonen uppe på huvudet."
 
 # Hoverflies screen 1 content
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
-"A maioria das moscas-das-flores tem antenas mais curtas que as antenas de "
-"abelhas e vespas."
+"De flesta blomflugor har mycket kortare antenner än bin och andra steklar"
 
 # Hoverflies screen 1 content
 msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
 msgstr ""
-"Nas asas já uma veia de 'margem falsa', que corre mais ou menos paralela à "
-"borda verdadeira da asa."
+"Mitt på vingarna finns en \"falsk vingribba\" som löper mer eller mindre "
+"längs med den riktiga vingkanten."
 
 # Hoverflies screen 1 content
 msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
 msgstr ""
-"Muitas moscas-das-flores tem listras pretas e amarelas, porém algumas são "
-"todas escuras ou apresentam outros padrões."
+"Många blomflugor har svarta och gula ränder, men en del är enfärgat mörka "
+"eller har andra mönster"
 
 # Hoverflies screen 1 content
 msgid ""
@@ -1568,52 +1532,51 @@ msgid ""
 "exceptions!), and they do not usually have prominent bristles on the body "
 "(some other types of fly are obviously bristly)"
 msgstr ""
-"Geralmente, moscas-das-flores não são peludas como as abelhas (embora haja "
-"algumas exceções!) e não tem pelos arrepiados proeminentes (outros tipos de "
-"moscas tem pelos marcadamente arrepiados)."
+"Blomflugor brukar inte vara så håriga som bin (men det finns undantag!) och "
+"de brukar inta ha tydliga borst på kroppen (en del andra slags flugor är "
+"tydligt borstiga)"
 
 # Hoverflies screen 1 content
 msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
 msgstr ""
-"Moscas-das-flores são bastante ativas e ágeis no voo. São frequentemente "
-"observadas pairando no ar."
+"Blomflugor är mycket snabba och skickliga flygare och ses ofta hovra, alltså"
+" sväva stilla i luften t.ex. över en blomma."
 
 # Hoverflies screen 1 content
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
 msgstr ""
-"Moscas-das-flores se alimentam de néctar e pólen, mas não coletam néctar nem"
-" tem escopas para carregar pólen. Há cerca de 285 espécies de moscas-das-"
-"flores no Reino Unido."
+"Blomflugor lever av nektar och pollen, men de samlar inte in nektar, och har"
+" inga pollenkorgar. Det finns ca. 390 arter blomflugor i Sverige."
 
 # Hoverflies screen 2 content
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
-msgstr "Moscas-zangão tem antenas muito mais curtas do que abelhas melíferas."
+msgstr ""
+"Storslamfluga är en blomflugeart, och har mycket kortare antenner än "
+"honungsbin"
 
 # Hoverflies screen 2 content
 msgid "The eyes cover more of the head"
-msgstr "Os olhos cobrem uma maior proporção da cabeça."
+msgstr "Ögonen täcker en större del av huvudet"
 
 # Hoverflies screen 2 content
 msgid ""
 "The back legs are much narrower than the broad flattened legs of honeybees"
-msgstr ""
-"As pernas traseiras são muito mais finas do que as pernas largas e achatadas"
-" das abelhas melíferas."
+msgstr "Bakbenen är mycket smalare än honungsbinas breda, platta bakben."
 
 # Hoverflies screen 2 content
 msgid "The typical ‘false margin’ wing vein is present"
-msgstr "A típica veia da 'falsa margem' da asa está presente."
+msgstr "Den har den typiska \"falska vingribban\""
 
 # Hoverflies screen 2 content
 msgid ""
 "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
 " of the wing"
 msgstr ""
-"Moscas-zangão tem uma 'curva' característica na veia próxima à ponta da asa"
+"Storslamflugan har en typisk stor sväng på en vingribba nära vingspetsen"
 
 # Hoverflies screen 2 content
 msgid ""
@@ -1621,33 +1584,34 @@ msgid ""
 "quite a lot of variety in shape, size and marking among the full range of "
 "species. Some examples are shown above."
 msgstr ""
-"Muitas moscas-das-flores tem marcas típicas em preto e amarelo, mas há uma "
-"grande variação em forma, tamanho e marcações entre as espécies. Alguns "
-"exemplos são mostrados acima."
+"Många blomflugor har en typisk svart och gul teckningen, men form, storlek "
+"mönster kan variera mycket mellan arterna. Några exempel visas ovan."
 
 # Hoverflies screen 2 content
 msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
-"A mosca-vespa (<i>Volucella zonaria</i>) é nossa maior mosca-das-flores e "
-"mimetiza vespas, porém note que apresenta antenas curtas"
+"Den stora arten <i>Volucella zonaria</i> har nyligen hittats i Sverige, men "
+"ännu inte fått något svenska namn. Den är mycket lik en bålgeting, men har "
+"korta antenner."
 
 # Hoverflies screen 3 content
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
-"Algumas poucas espécies apresentam um 'nariz' extendido – esta é <i>Rhingia "
-"campestris</i>, uma espécie com cores cinza e laranja característicos"
+"Några arter har en utdragen \"näbb\" – det här är en ängsnäbbfluga, "
+"<i>Rhingia campestris</i>, med orange och gråsvart teckning, som finns i "
+"stora delar av landet"
 
 # Hoverflies screen 3 content
 msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
-"Algumas moscas-das-flores mimetizam muito bem mamangavas - note a antena "
-"para ter certeza de que não são mamangavas!"
+"Ett fåtal blomflugor är snarlika humlor – titta noga på antennerna för att "
+"se att det inte är en humla!"
 
 # Hoverflies screen 3 content
 msgid ""
@@ -1655,42 +1619,41 @@ msgid ""
 "wing veins (if you can get close enough to see them) and in flight will "
 "hover like typical hoverflies"
 msgstr ""
-"Algumas moscas-das-flores são pequenas e de cor escura, mas tem veias das "
-"asas típicas (se você conseguir chegar perto o suficiente para ver) e, "
-"durante o voo, pausam no ar de forma típica"
+"En del blomflugor är så och mestadels mörka, men alla har de typiska "
+"vingribborna (om du kan komma nära nog för att se dem) och de hovrar precis "
+"som andra blomflugor"
 
 # Other flies screen 1 content
 msgid "This is a dance fly (family Empididae)"
-msgstr "Esta é uma mosca-da-dança (família Empididae)"
+msgstr "Det här är en dansfluga (familjen Empididae)"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a long thin proboscis under the head"
-msgstr "Muitas moscas-da-dança tem uma probóscide abaixo da cabeça"
+msgstr "Många dansflugor har en lång, tunn sugsnabel under huvudet"
 
 # Other flies screen 1 content
 msgid "Many dance flies have a distinctly humped thorax"
-msgstr "Muitas moscas-da-dança tem um tórax curvo característico"
+msgstr "Många dansflugor har en tydlig puckel på mellankroppen"
 
 # Other flies screen 1 content
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
 msgstr ""
-"Esta é uma mosca-soldado, mosca-soldado-verde (<i>Chloromyia formosa</i>), "
-"frequentemente vista em plantas conhecidas como hogweed e em flores "
-"relacionadas."
+"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som kan ses på"
+" björnloka och närbesläktade växter."
 
 # Other flies screen 1 content
 msgid "The abdomen is broader and flatter than in hoverflies"
-msgstr "O abdômen é mais largo e achatado do que nas moscas-das-flores"
+msgstr "Bakkroppen är bredare och mer tillplattad än blomflugornas"
 
 # Other flies screen 1 content
 msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
 msgstr ""
-"As veias nas asas são diferentes das veias das moscas-das-flores, sem a "
-"'falsa margem' paralela à borda da asa."
+"Vingribborna ser annorlunda ut; de saknar blomflugornas längsgående 'falska "
+"vingribba'"
 
 # Other flies screen 1 content
 msgid ""
@@ -1700,31 +1663,33 @@ msgid ""
 "but not many other flies have. Two examples of “other flies” are shown above"
 " and two on the next screen."
 msgstr ""
-"Existem muitas moscas diferentes que você pode ver visitando flores - para o"
-" FIT Count, tudo o que você precisa fazer é separá-las em “sirfídeos” e "
-"todas as “outras moscas”! Não se esqueça de que sirfídeos podem pairar, uma "
-"habilidade que algumas, mas não muitas outras moscas têm. Dois exemplos de "
-"“outras moscas” são mostrados acima e dois na próxima tela."
+"Det finns många olika slags flugor som besöker blommor – för att göra en "
+"Blombesöksräkning behöver du bara kunna skilja på \"blomflugor\" och \"andra"
+" flugor\"! Glöm inte att blomflugor kan hovra, något som bara ett fåtal "
+"andra arter av flugor kan. Två exempel på \"andra flugor\" visas ovan och på"
+" nästa sida."
 
 # Other flies screen 2 content
 msgid "This is a parasitic fly from family Tachinidae"
-msgstr "Esta é uma mosca parasita da família Tachinidae"
+msgstr "Det här är en parasitfluga ur familjen Tachinidae"
 
 # Other flies screen 2 content
 msgid "It has prominent bristles on the abdomen"
-msgstr "Possui cerdas proeminentes no abdômen"
+msgstr "Den har tydliga borst på bakkroppen"
 
 # Other flies screen 2 content
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
-msgstr "Esta é a mosca-do-estrume (família Scathophagidae)"
+msgstr ""
+"Det här är en dyngfluga av arten <i>Scathophaga stercoraria</i> (familjen "
+"Scathophagidae)"
 
 # Other flies screen 2 content
 msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
 msgstr ""
-"Possui cerdas no corpo e nas pernas, e os machos em particular têm pelos "
-"amarelos fofos no corpo"
+"Den har borst på kroppen och benen, och framför allt hanarna har en luddig "
+"gul behåring på kroppen"
 
 # Other flies screen 2 content
 msgid ""
@@ -1732,17 +1697,16 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body."
 msgstr ""
-"Algumas das moscas maiores que você verá nas flores são de famílias "
-"\"calypterate\", a maioria das quais são insetos arredondados com cerdas "
-"evidentes nas pernas e no corpo."
+"En del av de stora flugor du kan se på blommor hör till familjer med ganska "
+"runda kroppar med tydliga borst på ben och kropp."
 
 # Butterflies and moths 1 screen content
 msgid "Small Tortoiseshell butterfly"
-msgstr "Aglais urticae"
+msgstr "Nässelfjäril"
 
 # Butterflies and moths 1 screen content
 msgid "Common Blue butterfly"
-msgstr "Borboleta-azul-comum"
+msgstr "Puktörneblåvinge"
 
 # Butterflies and moths 1 screen content
 msgid ""
@@ -1751,26 +1715,26 @@ msgid ""
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
-"As borboletas são visitantes muito frequentes das flores. As mariposas são "
-"notadas com menos frequência, mas também visitam as flores regularmente, de "
-"dia ou à noite. Algumas mariposas (veja a próxima tela) são bem pequenas e "
-"podem passar despercebidas como outros tipos de inseto."
+"Fjärilar är välbekanta blombesökare. Nattfjärilarna kanske man inte lägger "
+"märke till lika ofta, men de besöker också blommor, under dagtid eller "
+"nattetid. En del nattfjärilar (se nästa sida) är ganska små och kan därför "
+"lätt misstas för andra slags insekter."
 
 # Butterflies and moths 1 screen content
 msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
 msgstr ""
-"Para o FIT Count, não há necessidade de distinguir entre borboletas e "
-"mariposas – todas são contadas na mesma categoria."
+"För att göra en Blombesöksräkning behöver man inte skilja på dagfjärilar och"
+" nattfjärilar – de räknas alla i samma kategori."
 
 # Butterflies and moths 2 screen content
 msgid "Six-spot Burnet moth (a macro-moth)"
-msgstr "Burnet-de-seis-pontos (uma macro-mariposa)"
+msgstr "Sexfläckig bastardsvärmare (en sk. makro-nattfjäril)"
 
 # Butterflies and moths 2 screen content
 msgid "Nettle-tap moth (a micro-moth)"
-msgstr "Traça (uma micro-mariposa)"
+msgstr "Bredvingad nässelmal (en s.k. mikro-nattfjäril)"
 
 # Butterflies and moths 2 screen content
 msgid ""
@@ -1779,31 +1743,30 @@ msgid ""
 "moths”). All moths have patterns and colours produced by the tiny scales on "
 "their wings."
 msgstr ""
-"Uma variedade de mariposas que voam durante o dia podem ser vistas visitando"
-" as flores. Algumas delas são bastante grandes (“macro-mariposas”) e "
-"coloridas, e algumas são muito pequenas (“micro-mariposas”). Todas as "
-"mariposas têm padrões e cores produzidos pelas pequenas escamas em suas "
-"asas."
+"Många av de nattfjärilar som är aktiva under dagtid besöker blommor. En del "
+"av dem är ganska stora (\"makro-nattfjärilar\") och färggranna, medan andra "
+"kan vara mycket små (\"mikro-nattfjärilar\"). Fjärilarnas färger och mönster"
+" skapas med hjälp av pyttesmå fjäll på vingarna."
 
 # Beetles 1 screen content
 msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
 msgstr ""
-"Besouros têm asas anteriores que se endureceram e atuam como cobertores para"
-" as asas posteriores e abdômen mais macios"
+"Skalbaggar har hårda framvingar som fungerar som skydd för de mjukare "
+"bakvingarna och bakkroppen."
 
 # Beetles 1 screen content
 msgid "Beetles have chewing mouthparts"
-msgstr "Besouros têm aparelhos bucais para mastigar"
+msgstr "Skalbaggar har mundelar som kan tugga"
 
 # Beetles 1 screen content
 msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
-"Este besouro é o besouro-de-patas-grossas (<i>Oedemera nobilis</i>), em que "
-"os machos têm patas traseiras espessas características"
+"Den här arten (<i>Oedemera nobilis</i>), känns igen på att hanarna har "
+"markant förtjockade bakben"
 
 # Beetles 1 screen content
 msgid ""
@@ -1812,40 +1775,38 @@ msgid ""
 " colour, but can be recognised as beetles by the hard wing cases covering "
 "their abdomen."
 msgstr ""
-"Existem relativamente poucas espécies de besouros que visitam flores, mas as"
-" que visitam podem ser muito abundantes. As diferentes espécies variam muito"
-" em tamanho, forma e cor, mas podem ser reconhecidas como besouros pelas "
-"asas endurecidas que cobrem seu abdômen."
+"Det är ganska få skalbaggsarter som besöker blommor, men de som gör det kan "
+"förekomma i stort antal. De olika arterna varierar i storlek, form och färg,"
+" med känns igen på det hårda skal som täcker bakkroppen."
 
 # Beetles 2 screen content
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
 msgstr ""
-"Besouro-soldado-vermelho (<i>Rhagonycha fulva</i>) com pontas pretas nas "
-"asas - muito abundante em flores no meio do verão"
+"Flugbaggar, här en <i>Rhagonycha fulva</i>, är ofta vanliga på blommor under"
+" högsommaren"
 
 # Beetles 2 screen content
 msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
 msgstr ""
-"Escaravelho-longicórnio-maculata (<i>Rutpela maculata</i>), um grande "
-"besouro 1 – as larvas vivem na madeira em decomposição"
+"Blombockar är ganska stora skalbaggar i familjen Långhorningar – larverna "
+"lever i multnande trä"
 
 # Beetles 2 screen content
 msgid "Above are two more examples of beetles that regularly visit flowers."
 msgstr ""
-"Acima estão mais dois exemplos de besouros que visitam flores regularmente."
+"Här är ytterligare två exempel på skalbaggar som ofta besöker blommor."
 
 # Small insect 1 screen content
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
 msgstr ""
-"Este exemplo mostra uma flor com muitos besouros-do-pólen (família "
-"Nitidulidae) - outros “pequenos insetos” podem incluir pequenas moscas e "
-"vespas parasitas"
+"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
+" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
 
 # Small insect 1 screen content
 msgid ""
@@ -1854,38 +1815,38 @@ msgid ""
 "other insects visiting the flowers). Just count them (or estimate them if "
 "there is a large number) and assign them all to this category."
 msgstr ""
-"Esta categoria é para todos os insetos com menos de 3 mm de comprimento. "
-"Pode ser difícil atribuí-los a um determinado grupo sem examiná-los de perto"
-" (o que perturbaria outros insetos que visitam as flores). Basta contá-los "
-"(ou estimá-los se houver um grande número) e atribuir todos a esta "
-"categoria."
+"Den här kategorin omfattar alla insekter som är mindre än 3 mm långa. Det "
+"kan vara svårt att ange en specifik grupp utan att granska dem på mycket "
+"nära håll (vilket skulle störa andra insekter som besöker blommorna). Bara "
+"räkna dem (eller uppskatta antalet om det är många) och för in dem i den här"
+" kategorin."
 
 # Other insect 1 screen content
 msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
-"Outros insetos que você pode ver incluem moscas-serra, que apresentam uma "
-"variedade de cores e tamanhos - algumas se parecem com vespas"
+"Andra insekter som du kan få se kan vara växtsteklar, som finns i många "
+"färger och storlekar – en del liknar getingar"
 
 # Other insect 1 screen content
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
-"Eles não têm uma \"cintura de vespa\" – não há espaço entre o abdômen e o "
-"tórax"
+"De har ingen \"geting-midja\" – det finns inget mellanrum mellan bakkropp "
+"och mellankropp"
 
 # Other insect 1 screen content
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr "As moscas-serra não são peludas e não têm uma corbícula "
+msgstr "Växtsteklar är inte håriga och saknar pollenkorgar"
 
 # Other insect 1 screen content
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
-"Eles geralmente são bastante lentos, com um vôo mais fraco do que as abelhas"
-" ou vespas"
+"De rör sig vanligen ganska sävligt, och flyger inte lika kraftfullt som bin "
+"och getingar"
 
 # Other insect 1 screen content
 msgid ""
@@ -1896,43 +1857,42 @@ msgid ""
 "“other insects”. Sawflies are related to bees and wasps but there are a "
 "number of differences."
 msgstr ""
-"Esta categoria é para todos os insetos que não se encaixam em outros grupos "
-"de insetos e também pode ser usada para quaisquer insetos que você não "
-"consiga identificar em um grupo. Por favor, conte todos os insetos que você "
-"vê e use \"outros insetos\" para aqueles que você não reconhece. Por "
-"exemplo, moscas-serra são contadas como “outros insetos”. As moscas-serra "
-"são aparentadas com abelhas e vespas, mas existem várias diferenças."
+"Den här kategorin är avsedd för alla insekter som inte passar i de övriga "
+"insektsgrupperna, och kan också användas för alla insekter som du inte kan "
+"bestämma vilken grupp de tillhör. Räkna alla insekter du ser, och använd "
+"kategorin \"andra insekter\" för alla du inte känner igen. Exempelvis räknas"
+" växtsteklar som \"andra insekter\". Växtsteklar är släkt med min och "
+"getingar men det finns en del skillnader."
 
 # Other insect 2 screen content
 msgid ""
 "True bugs have wings that overlap, so there is no clear midline along the "
 "abdomen – the wings form a X-shape"
 msgstr ""
-"Os percevejos verdadeiros têm asas que se sobrepõem, então não há linha "
-"média clara ao longo do abdômen - as asas têm a forma de um X"
+"Halvvingar har vingar som överlappar varandra, så det finns ingen tydlig "
+"mittlinje längs med bakkroppen – vingar bildar ett X"
 
 # Other insect 2 screen content
 msgid ""
 "Some bugs have a more-or-less triangular “scutellum” covering part of the "
 "abdomen, and adding to the X-shape effect"
 msgstr ""
-"Alguns percevejos têm um \"escutelo\" mais ou menos triangular cobrindo "
-"parte do abdômen, além do efeito em forma de X"
+"En del halvvingar har en mer eller mindre trekantig \"skutell\" som täcker "
+"en del av bakkroppen, och framhäver X-formen vingarna bildar"
 
 # Other insect 2 screen content
 msgid ""
 "True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
 "this is usually hidden away underneath the bug)"
 msgstr ""
-"Os percevejos verdadeiros têm aparelhos bucais sugadores, com uma longa "
-"tromba ou rostro (mas isso geralmente está escondido debaixo do inseto)"
+"Halvvingar har sugande mundelar, med en lång sugsnabel eller ett s.k. "
+"rostrum (men det är oftast gömt under huvudet)"
 
 # Other insect 2 screen content
 msgid ""
 "Some bugs are very colourful, while others are shades or green or brown"
 msgstr ""
-"Alguns percevejos são muito coloridos, enquanto outros podem variar em tons "
-"de verde ou marrom"
+"En del halvvingar är mycket färggranna, medan andra är gröna eller bruna"
 
 # Other insect 2 screen content
 msgid ""
@@ -1940,155 +1900,153 @@ msgid ""
 "occasionally, and if so they are counted in the “other insects” category. "
 "They are sometimes confused with beetles."
 msgstr ""
-"Os percevejos verdadeiros não costumam visitar as flores, mas você pode "
-"encontrá-los ocasionalmente e, se for o caso, eles são incluídos na "
-"categoria “outros insetos”. Eles às vezes são confundidos com besouros."
+"Halvvingar brukar inte besöka blommor så ofta men du kan ändå stöta på dem "
+"emellanåt, och då ska de räknas till gruppen \"andra insekter\". De kan "
+"ibland misstas för skalbaggar."
 
 # From survey pages
 #: UK BR CL CY AR
 msgid "Other"
-msgstr "Outro"
+msgstr "Annan"
 
 # From survey pages
 msgid "Note: it will remain in the gallery."
-msgstr "Nota: permanecerá na galeria."
+msgstr "OBS: den kommer att ligga kvar i galleriet"
 
 # From survey pages
 msgid "Oops! Something went wrong."
-msgstr "Ops! Algo deu errado."
+msgstr "Hoppsan! Något gick på tok"
 
 # From survey pages
 msgid "This is the error event id: {{eventId}}"
-msgstr "Este é o ID do evento de erro: {{eventId}}"
+msgstr "Det här felet har koden error event id: {{eventId}}"
 
 # From survey pages
 msgid "What is the <1>sky</1> above your location?"
-msgstr "Como está o <1>céu</1> acima da sua localização?"
+msgstr "Hur ser <1>himlen</1> ut ovanför din ruta?"
 
 # From survey pages
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
-msgstr ""
-"Quanto sol caiu em seu patch durante a contagem FIT; foi isso:\n"
-"Quanta <1>luz solar</1> incidiu sobre o fragmento durante a contagem FIT; foi: "
+msgstr "Hur mycket<1> solsken</1> hade du under Blombesöksräkningen?"
 
 # From survey pages
 msgid "What was the <1>wind</1> strength?"
-msgstr "Qual foi a força do <1>vento</1> ?"
+msgstr "Hur stark var <1>vinden</1>?"
 
 # Button label
 msgid "Upload"
-msgstr "Carregar"
+msgstr "Skicka in"
 
 # Context term
 msgid ""
 "If you don't know which insect group, add to the \"Other insects\" category."
 msgstr ""
-"Se você não sabe qual o grupo de insetos, adicione à categoria \"Outros "
-"insetos\"."
+"Om du inte vet vilken insektsgrupp den tillhör, räknas den till gruppen "
+"\"Andra insekter\"."
 
 # Logout message
 msgid "Are you sure you want to logout?"
-msgstr "Tem certeza que deseja sair?"
+msgstr "Är du säker på att du vill logga ut?"
 
 # Logout message
 msgid "Discard local data"
-msgstr "Descartar dados locais"
+msgstr "Rensa data på min enhet"
 
 # pollinator name
 #: UK BR CY
 msgid "Beetles"
-msgstr "Besouros"
+msgstr "Skalbaggar"
 
 # pollinator name
 #: UK BR CY
 msgid "Bumblebees"
-msgstr "Mamangavas"
+msgstr "Humlor"
 
 # pollinator name
 #: UK BR CY
 msgid "Butterflies and moths"
-msgstr "Borboletas e mariposas"
+msgstr "Fjärilar, dag- och nattfjärilar"
 
 # pollinator name
 #: UK BR CY
 msgid "Honeybees"
-msgstr "Abelhas melíferas"
+msgstr "Honungsbin"
 
 # pollinator name
 #: UK BR CY
 msgid "Hoverflies"
-msgstr "Moscas-das-flores"
+msgstr "Blomflugor"
 
 # pollinator name
 #: UK CY
 msgid "Other flies"
-msgstr "Outras moscas"
+msgstr "Andra flugor"
 
 # pollinator name
 #: UK BR CY
 msgid "Other insects"
-msgstr "Outros insetos"
+msgstr "Andra insekter"
 
 # pollinator name
 #: UK BR CY
 msgid "Small insects (<3mm)"
-msgstr "Insetos pequenos (<3mm)"
+msgstr "Små insekter (<3mm)"
 
 # pollinator name
 #: UK BR CY
 msgid "Solitary bees"
-msgstr "Abelhas solitárias"
+msgstr "Solitärbin"
 
 # pollinator name
 #: UK BR CY
 msgid "Wasps"
-msgstr "Vespas"
+msgstr "Getingar och solitära steklar"
 
 # pollinator name
 #: BR
 msgid "Bats"
-msgstr "Morcegos"
+msgstr "Fladdermöss"
 
 # pollinator name
 #: BR
 msgid "Hummingbirds"
-msgstr "Beija-flores"
+msgstr "Kolibirer"
 
 # Survey back button label
 msgid "Insect"
-msgstr "Inseto"
+msgstr "Insekt"
 
 # Survey back button label
 msgid "Location"
-msgstr "Localização"
+msgstr "Plats"
 
 # Survey back button label
 msgid "Count"
-msgstr "Contagem"
+msgstr "Räkna"
 
 # Survey back button label
 msgid "Cover"
-msgstr "Cobertura"
+msgstr "Täcka"
 
 # Survey back button label
 msgid "Patch"
-msgstr "Fragmento"
+msgstr "Ruta"
 
 # Survey back button label
 msgid "Sky"
-msgstr "Céu"
+msgstr "Himmel"
 
 # Survey back button label
 msgid "Shade"
-msgstr "Sombra"
+msgstr "Skugga"
 
 # Alert message at the end of survey
 msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
 " populations."
 msgstr ""
-"Obrigado por completar sua contagem FIT Count - todos os resultados nos "
-"ajudarão a monitorar a população de insetos."
+"Tack för din Blombesöksräkning – alla resultat hjälper oss att övervaka "
+"insektspopulationerna."
 
 # Alert message at the end of survey
 msgid ""
@@ -2096,125 +2054,125 @@ msgid ""
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
 "insects per count."
 msgstr ""
-"Você contou <1>{{numberOfOccurrences}} </1>inseto(s) ao todo - a média de "
-"<3>{{month}}</3> é <6>{{averageInsectCountForThisMonth}}</6> insetos por "
-"countagem."
+"Du räknade totalt <1>{{numberOfOccurrences}} </1>insekt(er) – i Sverige är "
+"genomsnittet för <3>{{month}}</3> månad "
+"<6>{{averageInsectCountForThisMonth}}</6> insekter per räkning."
 
 # Alert message at the end of survey - non UK
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
-msgstr "Você contou <1>{{numberOfOccurrences}} </1>inseto(s) no total."
+msgstr "Du räknade totalt <1>{{numberOfOccurrences}} </1>insekt(er)."
 
 # Alert message at the end of survey
 msgid "Go Home"
-msgstr "Voltar para o Início"
+msgstr "Till Startsidan"
 
 # Settings page divider label
 msgid "User"
-msgstr "Usuário"
+msgstr "Användare"
 
 # User registration identification experience button label
 msgid "Done"
-msgstr "Concluído"
+msgstr "Klar"
 
 # User registration "Happy to be contacted" label
 msgid "Happy to be contacted"
-msgstr "Concordo em ser contactado"
+msgstr "Tillåter att bli kontaktad"
 
 # Delete survey alert message
 msgid "Are you sure you want to delete this survey?"
-msgstr "Tem certeza de que deseja excluir este levantamento?"
+msgstr "Är du säker på att du vill radera den här räkningen?"
 
 # App version
 msgid "App version"
-msgstr "Versão do App"
+msgstr "App version"
 
 # Month name
 msgid "January"
-msgstr "Janeiro"
+msgstr "Januari"
 
 # Month name
 msgid "February"
-msgstr "Fevereiro"
+msgstr "Februari"
 
 # Month name
 msgid "March"
-msgstr "Março"
+msgstr "Mars"
 
 # Month name
 msgid "April"
-msgstr "Abril"
+msgstr "April"
 
 # Month name
 msgid "May"
-msgstr "Maio"
+msgstr "Maj"
 
 # Month name
 msgid "June"
-msgstr "Junho"
+msgstr "Juni"
 
 # Month name
 msgid "July"
-msgstr "Julho"
+msgstr "Juli"
 
 # Month name
 msgid "August"
-msgstr "Agosto"
+msgstr "Augusti"
 
 # Month name
 msgid "September"
-msgstr "Setembro"
+msgstr "September"
 
 # Month name
 msgid "October"
-msgstr "Outubro"
+msgstr "Oktober"
 
 # Month name
 msgid "November"
-msgstr "Novembro"
+msgstr "November"
 
 # Month name
 msgid "December"
-msgstr "Dezembro"
+msgstr "December"
 
 # A label part of user surveys page
 msgid "Insects"
-msgstr "Insetos"
+msgstr "Insekter"
 
 # A label part of user surveys page
 msgid "Survey"
-msgstr "Levantamento"
+msgstr "Räkning"
 
 # Survey upload process alert message
 msgid "Sorry, your account hasn't been verified yet or is blocked."
-msgstr "Desculpe, sua conta ainda não foi verificada ou está bloqueada."
+msgstr "Ditt konto har inte bekräftats ännu, eller är avstängt"
 
 # Survey upload process alert message
 msgid "Please log in first."
-msgstr "Por favor, faça login primeiro."
+msgstr "Du måste logga in först"
 
 # Survey upload process alert message
 msgid "Looks like you are offline!"
-msgstr "Parece que você está offline!"
+msgstr "Du verkar sakna kontakt med internet!"
 
 # Survey remove photo alert message
 msgid "Are you sure you want to remove this photo?"
-msgstr "Tem certeza que deseja remover esta foto?"
+msgstr "Är du säker på att du vill ta bort det här fotot?"
 
 # Failed to upload image message
 msgid "Sorry, we couldn't get the image."
-msgstr "Não foi possível obter a imagem."
+msgstr "Vi fick tyvärr inte någon bild."
 
 # ID guide title
 msgid "Pollinator Groups"
-msgstr "Grupos de Polinizadores"
+msgstr "Grupper av pollinatörer"
 
 # Menu page label
 msgid "Terms and Conditions"
-msgstr "Termos e Condições"
+msgstr "Villkor"
 
 # Survey required label
 msgid "required"
-msgstr "obrigatório"
+msgstr "obligatoriskt"
 
 # About page content
 msgid ""
@@ -2222,9 +2180,9 @@ msgid ""
 "done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
-"FIT Counts são recomendados para todos, em áreas urbanas e rurais, e podem "
-"ser realizados a qualquer tempo dentro da estação FIT Count - veja o guia "
-"rápido <1></1> para saber qual a estação em seu país."
+"Alla kan göra en Blombesöksräkning, i staden eller på landet, och den kan "
+"göras när som helst under säsongen – titta i snabbguiden <1></1> för att se "
+"mellan vilka datum  man räknar hos dig."
 
 # About page content
 msgid ""
@@ -2236,14 +2194,14 @@ msgid ""
 "need to identify the insects to species level, only to within broad groups "
 "e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 msgstr ""
-"Uma quantidade crescente de evidências sugere que a diversidade de espécies "
-"de polinizadores diminuiu em muitas partes do mundo, com as evidências mais "
-"fortes provenientes da Europa e da América do Norte. Não se sabe muito sobre"
-" as mudanças na abundância de polinizadores e precisamos de mais dados para "
-"rastrear isso. Você pode ajudar fazendo uma contagem FIT Count, talvez até "
-"repetindo ao longo da temporada. Você não precisa identificar os insetos em "
-"nível de espécie, apenas dentro de grupos amplos, por exemplo, abelhas, "
-"moscas, borboletas e mariposas, vespas."
+"Allt fler forskningsresultat pekar mot att artrikedomen bland pollinatörer "
+"minskar i många delar va världen, och de starkaste bevisen rör Europa och "
+"Nordamerika. Det finns inte lika många undersökningar om antalet "
+"pollinatörer av olika typer, och vi behöver mycket mera data för att kunna "
+"följa detta. Du kan hjälpa till genom att göra en Blombesöksräkning, och "
+"kanske också upprepa den under säsongen. Du behöver inte artbestämma "
+"insekterna, bara kunna placera dem i olika kategorier, t.ex. humlor, "
+"blomflugor, fjärilar eller steklar."
 
 # About page content
 msgid ""
@@ -2251,155 +2209,152 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
-"O FIT Count foi originalmente desenvolvido através do UK Pollinator "
-"Monitoring Scheme (PoMS). Métodos similares estão sendo adotados por outros "
-"países, e este aplicativo é usado por vários projetos de monitoramento de "
-"polinizadores:"
+"Blombesöksräkningen utvecklades först i Storbritannien vid UK Pollinator "
+"Monitoring Scheme (PoMS). Liknande metoder utvecklas nu i andra länder, och "
+"den här appen används i flera olika projekt för att övervaka pollinatörer."
 
 # About page content
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
 "and can be contacted <1>here</1>."
 msgstr ""
-"O projeto FIT Count é apoiado pelo project is UK Centre for Ecology & "
-"Hydrology e pode ser contactado <1>aqui</1>."
+"FIT Count, som det ursprungliga projektet kallas, stöds av UK Centre for "
+"Ecology & Hydrology, som kan kontaktas <1>här</1> (på engelska)."
 
 # Credits page content
 msgid "This app has been created by the"
-msgstr "Este aplicativo foi criado por"
+msgstr "Appen har skapats av"
 
 # Credits page content
 msgid "with technical development by"
-msgstr "com desenvolvimento técnico por"
+msgstr "med teknisk utveckling av"
 
 # Credits page content
 msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
 msgstr ""
-"O desenvolvimento do app tem sido apoiado por financiadores e parceiros "
-"desses projetos de polizadores em todo o mundo"
+"Utvecklingen av appen har stötts av grundarna och samarbetspartners av "
+"följande pollinatörs-projekt världen runt."
 
 # Survey validation message
 msgid "Please add at least 1 photo."
-msgstr "Adicione pelo menos 1 foto."
+msgstr "Lägg till minst ett foto, tack."
 
 # Survey validation message
 msgid "Flower number is a required field."
-msgstr "O número da flor é um campo obrigatório."
+msgstr "Du måste ange antal blommor."
 
 # Survey validation message
 msgid "Flower type is a required field."
-msgstr "O tipo de flor é um campo obrigatório."
+msgstr "Du måste ange blomtyp."
 
 # Survey validation message
 msgid "Survey incomplete"
-msgstr "Levantamento incompleto"
+msgstr "Räkningen är inte komplett ifylld."
 
 # Survey validation message
 msgid "Habitat \"Other\" is a required field."
-msgstr "Habitat \"Outro\" é um campo obrigatório."
+msgstr "Du måste beskriva naturtyp \"Annan\"."
 
 # Survey validation message
 msgid "Flower \"Other\" is a required field."
-msgstr "Flor \"Outra\" é um campo obrigatório."
+msgstr "Du måste ange \"Annan\" målväxts namn."
 
 # Menu path adress
 msgid "privacy-notice"
-msgstr "aviso-de-privacidade"
+msgstr "sekretess-varning"
 
 # Menu path adress
 msgid "terms"
-msgstr "termos"
+msgstr "villkor"
 
 # Location name search on a map
 msgid "Search for a location..."
-msgstr "Busque uma localidade..."
+msgstr "Sök en plats…"
 
 # Asking user for a feedback on app stores
 msgid "Enjoying the app?"
-msgstr "Está gostando do app?"
+msgstr "Gillar du appen?"
 
 # Asking user for a feedback on app stores
 msgid "Not really"
-msgstr "Na verdade não"
+msgstr "Inte särskilt"
 
 # Asking user for a feedback on app stores
 msgid "Yes!"
-msgstr "Sim!"
+msgstr "Ja!"
 
 # Asking user for a feedback on app stores
 msgid "Would you mind giving us some feedback?"
-msgstr "Você poderia nos dar um feedback?"
+msgstr "Vill du dela med dig av dina synpunkter?"
 
 # Asking user for a feedback on app stores
 msgid "No, thanks"
-msgstr "Não, obrigado!"
+msgstr "Nej tack"
 
 # Asking user for a feedback on app stores
 msgid "OK, sure"
-msgstr "OK, claro!"
+msgstr "Javisst"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the App Store then?"
-msgstr "O que acha de avaliar no App Store, então?"
+msgstr "Vill du betygsätta appen på App Store?"
 
 # Asking user for a feedback on app stores
 msgid "How about a rating on the Play Store then?"
-msgstr "O que acha de avaliar no Play Store, então?"
+msgstr "Vill du betygsätta appen på Play Store?"
 
 # Shown when tapping an uploaded survey
 msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
 msgstr ""
-"Para visualizar seus dados de FIT Count após realizar o upload, por favor "
-"visite o website do projeto para o seu país, quando disponível (p.ex. <2>UK "
-"PoMS</2>)"
+"Besök projektets websida för att se dina insända Blombesöks. Den svenska "
+"sidan finns <2>här</2>"
 
 # extraText
 msgid ""
 "There is just one species of honeybee. They nest in artificial hives,with "
 "occasional colonies establishing in the wild."
 msgstr ""
-"Há apenas uma espécie de abelha do mel. Elas nidificam em colmeias "
-"artificiais, com colônias ocasionalmente se estabelecendo em ambientes "
-"naturais."
+"Det finns bara en art av honungsbi. De bor i konstgjorda kupor, men ibland "
+"kan en svärm även skapa en koloni i naturen."
 
 # extraText
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are two species in Cyprus."
 msgstr ""
-"As mamangavas apresentam um padrão de voo barulhento e com zumbido, e não "
-"pairam. Há duas espécies no Chipre."
+"Humlor har en typisk 'humle-aktig' surrande flykt och hovrar inte. Det finns"
+" två arter på Cypern."
 
 # extraText
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 369 species in Cyprus."
 msgstr ""
-"Abelhas solitárias voam ativamente entre aas flores, às vezes aproveitando a"
-" luz do sol. A maioria das espécies não paira. Há cerca de 369 espécies no "
-"Chipre."
+"Solitärbin flyger flitigt mellan olika blommor, och vilar ibland i "
+"solgasset. De flesta arter brukar inte hovra. Det finns ca. 369 arter på "
+"Cypern."
 
 # caption_1
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (bee on the left above)"
 msgstr ""
-"Algumas abelhas solitárias coletam pólen seco em uma cesta de pólens "
-"localizada na base de suas pernas traseiras (abelha acima, à esquerda)"
+"Vissa solitärbin samlar torrt pollen i en pollenkorg vid bakbenens bas (se "
+"biet på bilden ovan till vänster)"
 
 # caption_2
 msgid ""
 "Others have the pollen basket underneath their abdomen (bee on the right "
 "above)"
-msgstr "Outros têm a corbícula embaixo do abdômen (abelha acima à direita)"
+msgstr "Andra har pollenkorgen under bakkroppen (se biet ovan till höger)"
 
 # caption_1
 msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
-msgstr "Abelhas-mineiras (gênero  <i>Andrena </i>) tem listras pretas e cinza"
+msgstr "Sandbiet (släktet <i> Andrena </i>) har svarta och grå ränder"
 
 # caption_2
 msgid ""
@@ -2409,11 +2364,10 @@ msgid ""
 "species is not belonging to the biodiversity of Cyprus (example from the "
 "entomofauna of UK) "
 msgstr ""
-"Abelhas do gênero  <i>Nomada </i> são bastante parecidas com vespas, mas tem"
-" cerdas  (pelos) típicas de abelhas em partes de seu corpo. A maioria das "
-"abelhas deste gênero apresentam essa forma e apresentam uma mistura de cores"
-" preta, vermelha e amarela. Essa espécie não faz parte da biodiversidade do "
-"Chipre (exemplo da entomofauna do Reino Unido)"
+"Bin i släktet <i>Nomada</i> kan vara mycket lika getingar, men som andra bin"
+" har de hår på delar av kroppen. De flesta likar varandra till form och sina"
+" svarta, röda och gula teckningar. Den här arten ingår inte Cyperns "
+"biodiversitet (exemplet är från Storbritanniens insektsfauna)"
 
 # caption_3
 msgid ""
@@ -2421,9 +2375,8 @@ msgid ""
 "Some species are among the smallest in size solitary bees, at around 3mm "
 "long. "
 msgstr ""
-"Abelhas do gênero  <i> Lasioglossum </i>são abelhas solitárias de tamanho "
-"médio. Algumas espécies estão entre as menores abelhas solitárias, com cerca"
-" de 3mm de comprimento. "
+"Bin i släktet <i> Lasioglossum </i> är medelstora solitärbin. Vissa arter "
+"hör till de minsta solitärbina, bara ca. 3 mm långa."
 
 # caption_4
 msgid ""
@@ -2431,26 +2384,25 @@ msgid ""
 "on the abdomen. This species is not belonging to the biodiversity of Cyprus "
 "(example from the entomofauna of UK)"
 msgstr ""
-"Abelhas do gênero  <i>Colletes </i> possuem faixas pretas e amarelas "
-"distintas no abdome. Esta espécie não pertence à biodiversidade de Chipre "
-"(exemplo da entomofauna do Reino Unido)"
+"Släktet <i>Colletes </i> har tydliga svarta och gula ränder på bakkroppen. "
+"Den här arten ingår inte Cyperns biodiversitet (exemplet är från "
+"Storbritanniens insektsfauna)"
 
 # caption_3
 msgid ""
 "Social wasps and some of the solitary species have bold black and yellow "
 "stripes"
 msgstr ""
-"Vespas sociais e algumas das espécies solitárias possuem listras pretas "
-"grossas e listras amarelas"
+"Sociala getingar och vissa solitära steklar har skarpa svarta och gula "
+"ränder"
 
 # extraText
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 52 species of hoverfly in Cyprus."
 msgstr ""
-"As moscas-das-flores se alimentam de néctar e pólen, mas não coletam néctar "
-"e não têm corbícula. Existem cerca de 52 espécies de moscas-das-flores em "
-"Chipre."
+"Blomflugor lever av nektar och pollen, men de samlar inte in nektar, och har"
+" inga pollenkorgar. Det finns ca. 52 arter blomflugor på Cypern."
 
 # caption_1
 msgid ""
@@ -2458,9 +2410,8 @@ msgid ""
 " is not belonging to the biodiversity of Cyprus (example from the "
 "entomofauna of Greece) "
 msgstr ""
-"As moscas-zangão tem uma antena muito mais curta do que as abelhas "
-"melíferas. Essa espécie não pertence à biodiversidade do Chipre (exemplo da "
-"entomofauna da Grécia)"
+"Slamflugor har mycket kortare antenner än honungsbin. Den här arten ingår "
+"inte Cyperns biodiversitet (exemplet är från Greklands insektsfauna)"
 
 # caption_1
 msgid ""
@@ -2468,9 +2419,9 @@ msgid ""
 "is a good mimic of hornets, but note the short antennae (example from the "
 "entomofauna of Greece)"
 msgstr ""
-"A mosca-vespa (<i>Volucella zonaria</i>) é nossa maior mosca-das-flores e "
-"mimetiza vespas. Note porém a antena curta (exemplo da entomofauna da "
-"Grécia)"
+"Arten <i> Volucella zonaria</i> är en av de största blomflugorna, och är "
+"mycket lik en bålgeting, men har korta antenner. (exemplet är från Greklands"
+" insektsfauna)"
 
 # caption_2
 msgid ""
@@ -2478,22 +2429,21 @@ msgid ""
 "taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
 "The compound eyes have five distinct, vertical, dark stripes. "
 msgstr ""
-"Algumas espécies apresentam um \"nariz\" comprido - está e a <i>Eristalinus "
-"taeniops</i>, uma espécie com ampla distribuição no Chipre, com um abdômen "
-"com cores amarelo avermelhadas. Os olhos compostos apresentam cinco listras "
-"verticais pretas."
+"Några arter har en utdragen \"näbb\" – det här är en <i>Eristalinus "
+"taeniops</i>, en art som finns över stora delar av Cypern, med rödgul "
+"bakkropp. Facettögonen har fem tydliga, vertikala, mörka streck."
 
 # caption_1
 msgid "This is a dance fly (family Empididae). "
-msgstr "Esta é uma mosca-de-dança (família Empididae)."
+msgstr "Det här är en dansfluga (familjen Empididae)"
 
 # caption_1
 msgid ""
 "This is a dance fly (family Empididae). This species is not belonging to the"
 " biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Esta é uma mosca-de-dança (família Empididae). Esta espécie não pertence à "
-"biodiversidade de Chipre (exemplo da entomofauna do Reino Unido)"
+"Det här är en dansfluga (familjen Empididae). Den här arten ingår inte "
+"Cyperns biodiversitet (exemplet är från Storbritanniens insektsfauna)"
 
 # caption_4
 msgid ""
@@ -2501,73 +2451,72 @@ msgid ""
 " seen on flowers. This species is not belonging to the biodiversity of "
 "Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"A mosca-soldado<i>Chloromyia formosa</i> é frequentemente observada em "
-"flores. Esta espécie não pertence à biodiversidade do Chipre (exemplo da "
-"entomofauna no Reino Unido)"
+"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som ofta ses "
+"på blommor. Den här arten ingår inte Cyperns biodiversitet (exemplet är från"
+" Storbritanniens insektsfauna)"
 
 # caption_1
 msgid ""
 "This is a parasitic fly from family Tachinidae. This species is not "
 "belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Esta é uma mosca parasita da família Tachinidae. Esta espécie não pertence à"
-" biodiversidade de Chipre (exemplo da entomofauna do Reino Unido)"
+"Det här är en parasitfluga ur familjen Tachinidae. Den här arten ingår inte "
+"Cyperns biodiversitet (exemplet är från Storbritanniens insektsfauna)"
 
 # caption_3
 msgid ""
 "This is the Yellow Dung-fly (family Scathophagidae). This species is not "
 "belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
 msgstr ""
-"Esta é a mosca-do-estrume (família Scathophagidae). Esta espécie não "
-"pertence à biodiversidade de Chipre (exemplo da entomofauna do Reino Unido)"
+"Det här är en dyngfluga (familjen Scathophagidae). Den här arten ingår inte "
+"Cyperns biodiversitet (exemplet är från Storbritanniens insektsfauna)"
 
 # caption_1
 msgid "Painted Lady butterfly"
-msgstr "Borboleta bela-dama"
+msgstr "Tistelfjäril"
 
 # caption_1
 msgid "Six-spot Burnet moth (a macro-moth) (UK example shown)"
 msgstr ""
-"Mariposa burnet-de-seis-pontos (uma macro-mariposa) (exemplo do Reino Unido "
-"mostrado)"
+"Sexfläckig bastardsvärmare (en makro-nattfjäril) (exempel från "
+"Storbritannien)"
 
 # caption_2
 msgid "Micro-moths"
-msgstr "Micro-mariposas"
+msgstr "Mikro-nattfjärilar "
 
 # caption_1
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer (UK example shown)"
 msgstr ""
-"Besouro soldado vermelho (<i>Rhagonycha fulva</i>) com pontas pretas nos "
-"élitros - muito abundante em flores no meio do verão (exemplo do Reino Unido"
-" fornecido)"
+"Flugbaggar, här en <i>Rhagonycha fulva</i> med svarta spestsar på "
+"täckvingarna, är ofta vanliga på blommor under högsommaren (exempel från "
+"Storbritannien)"
 
 # caption_2
 msgid ""
 "The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
 "large nocturnal species - larvae live in decaying wood "
 msgstr ""
-"O besouro marrom com longas antenas (<i>Hesperophanes sericeus</i>), é uma "
-"espécie grande e noturna - as larvas vivem em madeira em decomposição"
+"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
+" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
 
 # caption_1
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) "
 "and other “small insects” which may include tiny flies and parasitic wasps"
 msgstr ""
-"Este exemplo mostra uma flor com muitos besouros-do-pólen (família "
-"Nitidulidae) e outros \"pequenos insetos\" que podem incluir pequenas moscas"
-" e vespas parasitas"
+"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
+" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
 
 # caption_4
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps "
 "(UK example shown)"
 msgstr ""
-"Elas são geralmente bastante lentas, com um voo mais fraco do que abelhas ou"
-" vespas (exemplo do Reino Unido fornecido)"
+"De rör sig vanligen ganska sävligt, och flyger inte lika kraftfullt som bin "
+"och getingar (exempel från Storbritannien)"
 
 # caption_2
 msgid ""
@@ -2575,26 +2524,25 @@ msgid ""
 "they have bee-like hairs on part of their body, and most are similar in "
 "shape and with a mix of black, red and yellow colours (UK example shown) "
 msgstr ""
-"As abelhas nômades (gênero <i>Nomada</i>) podem ser bastante similares às "
-"vespas, mas elas possuem cerdas de abelhas em partes de seus corpos, e a "
-"maioria é similar em forma e com uma mistura de cores preta, vermelha e "
-"amarela (exemplo do Reino Unido fornecido)"
+"Gökbin (släktet <i>Nomada</i>) kan vara mycket lika getingar, men som andra "
+"bin har de hår på delar av kroppen, och de flesta likar varandra till form "
+"och sina i svarta, röda och gula teckningar. (exempel från Storbritannien)"
 
 # caption_4
 msgid ""
 "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
 "on the abdomen (UK example shown)"
 msgstr ""
-"Abelhas do gênero  <i>Colletes </i> apresentam distintas faixas pretas e "
-"amarelas no abdome (exemplo do Reino Unido fornecido)"
+"Bin i släktet <i>Colletes </i> har tydliga svarta och gula ränder på "
+"bakkroppen. (exempel från Storbritannien)"
 
 # caption_1
 msgid ""
 "Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
 "shown) "
 msgstr ""
-"Moscas-zangão tem uma antena muito mais curta do que as abelhas melíferas "
-"(exemplo do Reino Unido)"
+"Slamflugor har mycket kortare antenner än honungsbin. (exempel från "
+"Storbritannien)"
 
 # caption_1
 msgid ""
@@ -2602,8 +2550,8 @@ msgid ""
 "hoverfly species and is a good mimic of hornets, but note the short antennae"
 " (example from Greece shown) "
 msgstr ""
-"A mosca-vespa (<i>Volucella zonaria</i>) é uma das maiores moscas-das-flores"
-" e mimetiza vespas, porém note que apresenta antenas curtas"
+"Arten <i> Volucella zonaria</i> är en av de största blomflugorna, och är "
+"mycket lik en bålgeting, men har korta antenner. (exempel från Grekland)"
 
 # caption_2
 msgid ""
@@ -2611,54 +2559,56 @@ msgid ""
 " a widespread species with a distinctive grey and orange colour (UK example "
 "shown)"
 msgstr ""
-"Algumas espécies apresentam um 'nariz' extendido - esta é<i>Rhingia "
-"campestris</i>, uma espécie com ampla distribuição com cores cinza e laranja"
-" (exemplo do Reino Unido é mostrado)"
+"Några arter har en utdragen \"näbb\" – det här är en <i>Eristalinus "
+"taeniops</i>, en spridd art med rödgul bakkropp. Facettögonen har fem "
+"tydliga, vertikala, mörka streck."
 
 # caption_1
 msgid "This is a dance fly (family Empididae, photo from the UK)"
-msgstr "Esta é uma mosca-de-dança (família Empididae, foto do Reino Unido)"
+msgstr ""
+"Det här är en dansfluga (familjen Empididae, foto från Storbritannien)"
 
 # caption_4
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on flowers (UK example shown)"
 msgstr ""
-"A mosca-soldado<i>Chloromyia formosa</i> é frequentemente observada em "
-"flores (exemplo do Reino Unido é mostrado)"
+"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som ofta ses "
+"på blommor. (exempel från Storbritannien)"
 
 # caption_1
 msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
 msgstr ""
-"Esta é uma mosca parasita da família Tachinidae (exemplo de espécie do Reino"
-" Unido mostrada)"
+"Det här är en parasitfluga ur familjen Tachinidae (exempel från "
+"Storbritannien)"
 
 # caption_3
 msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
 msgstr ""
-"Esta é uma mosca-do-esterco (família Scathophagidae, exemplo do Reino Unido "
-"mostrado)"
+"Det här är en dyngfluga (familjen Scathophagidae, exempel från "
+"Storbritannien)"
 
 # caption_1
 msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
 msgstr ""
-"Burnet-de-seis-pontos (uma macro-mariposa, exemplo do Reino Unido mostrado)"
+"Sexfläckig bastardsvärmare (en makro-nattfjäril, exempel från "
+"Storbritannien)"
 
 # caption_1
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer "
 msgstr ""
-"Besouro-soldado vermelho (<i>Rhagonycha fulva</i>) com as pontas das asas "
-"pretas - bastante abundante em flores no meio do verão"
+"Flugbaggar, här en <i>Rhagonycha fulva</i> med svarta spestsar på "
+"täckvingarna, är ofta vanliga på blommor under högsommaren"
 
 # caption_2
 msgid ""
 "Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
 "– larvae live in decaying wood"
 msgstr ""
-"Besouro preto e amarelo de chifre longo (<i>Chlorophorus</i> sp.),  um "
-"besouro grande - as larvas vivem em madeira podre"
+"Svarta och gula långhorningar (<i>Chlorophorus</i> sp.), en stor sskalbagge–"
+" larverna lever i multnande trä"
 
 # intro_text
 #: BR
