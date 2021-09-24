@@ -17,18 +17,22 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 
 # Button title
+#: interface
 msgid "Back"
 msgstr "Nôl"
 
 # App toolbar label
+#: interface
 msgid "Menu"
 msgstr "Dewislen"
 
 # App toolbar label
+#: interface
 msgid "About"
 msgstr "Ynghylch"
 
 # About page content
+#: interface
 msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
@@ -38,124 +42,154 @@ msgstr ""
 "blodau."
 
 # Menu page content
+#: interface
 msgid "Info"
 msgstr "Gwybodaeth"
 
 # Menu page content
+#: interface
 msgid "Privacy Policy"
 msgstr "Polisi Preifatrwydd"
 
 # Menu page content
+#: interface
 msgid "Credits"
 msgstr "Cydnabyddiaeth"
 
 # Menu page content
+#: interface
 msgid "Settings"
 msgstr "Gosodiadau"
 
 # Menu page content
+#: interface
 msgid "Cymraeg"
 msgstr "Cymraeg"
 
 # Menu page content
+#: interface
 msgid "Language"
 msgstr "Iaith"
 
 # Menu page content
+#: interface
 msgid "Country"
 msgstr "Gwlad"
 
 # Menu page content
+#: interface
 msgid "Share App Analytics"
 msgstr "Rhannu Data Dadansoddi'r Ap"
 
 # Menu page content
+#: interface
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
 "Rhannwch ddata'r ap am chwalfeydd i'n helpu i wneud yr ap yn fwy dibynadwy."
 
 # Credits page content
+#: interface
 msgid "We are grateful to all the people who helped to create this app:"
 msgstr "Rydyn ni'n ddiolchgar i bawb a helpodd i greu'r ap hwn:"
 
 # Credits page content
+#: interface
 msgid "App design concepts"
 msgstr ""
 
 # Onboarding Page button label
+#: interface
 msgid "Got it!"
 msgstr "Deall!"
 
 # ID Guide toolbar label
+#: interface
 msgid "ID Guide"
 msgstr "Canllaw Adnabod"
 
 # ID Guide segment label
+#: interface
 msgid "Insect Groups"
 msgstr "Grwpiau Pryfed"
 
 # ID Guide segment label
+#: interface
 msgid "Flowers"
 msgstr "Blodau"
 
 # Country page content
+#: interface
 msgid "Argentina"
 msgstr "Yr Ariannin"
 
 # Country page content
+#: interface
 msgid "Brazil"
 msgstr "Brasil"
 
 # Country page content
+#: interface
 msgid "Chile"
 msgstr "Chile"
 
 # Country page content
+#: interface
 msgid "Cyprus"
 msgstr "Cyprus"
 
 # Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Y Deyrnas Unedig"
 
 # Home page toolbar label
+#: interface
 msgid "Home"
 msgstr "Hafan"
 
 # Home page button label
+#: interface
 msgid "Start Survey"
 msgstr "Dechrau'r Arolwg"
 
 # Start survey alert message
+#: interface
 msgid "Discard"
 msgstr "Diddymu"
 
 # Start survey alert button label
+#: interface
 msgid "Continue"
 msgstr "Parhau"
 
 # Start survey alert button label
+#: interface
 msgid "Draft"
 msgstr "Drafft"
 
 # Start survey alert button message
+#: interface
 msgid "Previous survey draft exists, would you like to continue it?"
 msgstr "Mae drafft blaenorol o'r arolwg yn bodoli. Hoffech chi barhau ag ef?"
 
 # Survey content
+#: interface
 msgid "Use the map to zoom in and tap on your <1>location</1>."
 msgstr ""
 "Defnyddiwch y map i weld yn agosach a thapiwch ar eich <1>lleoliad</1>."
 
 # Survey content
+#: interface
 msgid "Cancel"
 msgstr "Canslo"
 
 # Survey content
+#: interface
 msgid "Delete Survey"
 msgstr "Dileu'r Arolwg"
 
 # Survey content
+#: interface
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
@@ -163,6 +197,7 @@ msgstr ""
 "arolwg hyd yma."
 
 # Survey Location page info message
+#: interface
 msgid ""
 "Enable your GPS to set your location, or use the map to zoom in and tap on "
 "your <1>location</1>.<3><p>Your location can be anywhere where there are "
@@ -189,18 +224,22 @@ msgstr ""
 "canlyniadau eich cyfrif ar y lefel 1 km sgwâr drwy wefan UKPoMS.</p></3>"
 
 # Survey Location alert messag
+#: interface
 msgid "Please select a more accurate location"
 msgstr "Dewiswch leoliad mwy manwl"
 
 # Survey content
+#: interface
 msgid "Next"
 msgstr "Nesaf"
 
 # Survey content
+#: interface
 msgid "of"
 msgstr "o"
 
 # Survey habitat info message
+#: interface
 msgid ""
 "Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
 "that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
@@ -213,6 +252,7 @@ msgstr ""
 "disgrifiad byr o'r cynefin.</p></3>"
 
 # Survey habitat page other placeholder text
+#: interface
 msgid ""
 "Please type in the name of the habitat you have chosen then go back to the "
 "habitat page"
@@ -221,10 +261,12 @@ msgstr ""
 "cynefin"
 
 # Survey habitat page other header label
+#: interface
 msgid "Habitat"
 msgstr "Cynefin"
 
 # Survey habitat page divider label
+#: interface
 msgid "Other habitat"
 msgstr "Cynefin arall"
 
@@ -334,6 +376,7 @@ msgid "Plantation forest"
 msgstr ""
 
 # Survey flower-cover info message
+#: interface
 msgid ""
 "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
@@ -344,50 +387,62 @@ msgstr ""
 "y blodau targed (ond nid gan ddail y planhigyn targed).</p></3>"
 
 # Survey flower-cover info message header
+#: interface
 msgid "Flower Cover"
 msgstr "Blodau ar yr Wyneb"
 
 # Survey flower-cover radio input
+#: interface
 msgid "Less than half"
 msgstr "Llai na hanner"
 
 # Survey flower-cover radio input
+#: interface
 msgid "Half of patch"
 msgstr "Hanner y llain"
 
 # Survey flower-cover radio input
+#: interface
 msgid "More than half of patch"
 msgstr "Dros hanner y llain"
 
 # Survey flower-cover radio input
+#: interface
 msgid "Not recorded"
 msgstr "Heb ei gofnodi"
 
 # User registration page
+#: interface
 msgid "Create a free account"
 msgstr "Creu cyfrif am ddim"
 
 # User registration page
+#: interface
 msgid "Full name"
 msgstr "Enw llawn"
 
 # User registration page
+#: interface
 msgid "Email"
 msgstr "E-bost"
 
 # User registration page
+#: interface
 msgid "Password"
 msgstr "Cyfrinair"
 
 # User registration page
+#: interface
 msgid "How did you hear about FIT Counts?"
 msgstr "Sut wnaethoch chi glywed am Gyfrifon FIT?"
 
 # User registration page
+#: interface
 msgid "Your identification experience"
 msgstr "Eich profiad o adnabod"
 
 # User registration page
+#: interface
 msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
@@ -396,34 +451,42 @@ msgstr ""
 "<6>Telerau ac Amodau</6>"
 
 # User registration page
+#: interface
 msgid "Sign Up"
 msgstr "Cofrestru"
 
 # User registration page
+#: interface
 msgid "I am already a member"
 msgstr "Rwy'n aelod eisoes"
 
 # User registration page
+#: interface
 msgid "Sign In"
 msgstr "Mewngofnodi"
 
 # User registration page
+#: interface
 msgid "How did you hear about us?"
 msgstr "Sut wnaethoch chi glywed amdanom ni?"
 
 # User registration page
+#: interface
 msgid "Identification experience"
 msgstr "Profiad o adnabod"
 
 # User registration page
+#: interface
 msgid "Please fill in"
 msgstr "Llenwch"
 
 # User registration page
+#: interface
 msgid "I am new to identifying wildlife"
 msgstr "Rwy'n newydd i adnabod bywyd gwyllt"
 
 # User registration page
+#: interface
 msgid ""
 "I am familiar with identifying some wildlife groups (e.g. birds or "
 "butterflies) but not most pollinating insects"
@@ -432,68 +495,84 @@ msgstr ""
 "palod) ond nid y rhan fwyaf o bryfed peillio"
 
 # User registration page
+#: interface
 msgid "I am familiar with recognising the main groups of pollinating insect"
 msgstr "Rwy'n gyfarwydd ag adnabod y prif grwpiau o bryfed peillio"
 
 # User registration page
+#: interface
 msgid ""
 "I am confident in identifying the commonly-occurring pollinating insects to "
 "species level"
 msgstr "Rwy'n hyderus yn adnabod y rhywogaethau o bryfed peillio cyffredin"
 
 # User registration page
+#: interface
 msgid "Not stated"
 msgstr "Heb ei ddatgan"
 
 # User registration page
+#: interface
 msgid "Select"
 msgstr "Dewiswch"
 
 # User login page
+#: interface
 msgid "Welcome back"
 msgstr "Croeso nôl"
 
 # User login page
+#: interface
 msgid "Sign in to your account to start"
 msgstr "Mewngofnodwch i'ch cyfrif er mwyn dechrau"
 
 # User login page
+#: interface
 msgid "Forgot password?"
 msgstr "Wedi anghofio'ch cyfrinair?"
 
 # User login page
+#: interface
 msgid "email is a required field"
 msgstr "Mae'n rhaid rhoi e-bost"
 
 # User login page
+#: interface
 msgid "password is a required field"
 msgstr "Mae'n rhaid rhoi cyfrinair"
 
 # User reset page
+#: interface
 msgid "Enter your email address to request a password reset."
 msgstr "Rhowch eich cyfeiriad e-bost i wneud cais i ailosod eich cyfrinair."
 
 # User reset page
+#: interface
 msgid "Reset"
 msgstr "Ailosod"
 
 # User reset page
+#: interface
 msgid "email must be a valid email"
 msgstr "Rhaid i'r e-bost fod yn un dilys"
 
 # Upload user register form message
+#: interface
 msgid "Please wait..."
 msgstr "Un foment..."
 
 # Successful register alert message
+#: interface
 msgid "OK, got it"
 msgstr "Iawn, deall"
 
 # Successful register alert message
+#: interface
 msgid "Welcome aboard"
 msgstr "Croeso!"
 
 # Successful register alert message
+#: interface
 msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
@@ -502,91 +581,72 @@ msgstr ""
 "ddilysu."
 
 # Settings page label
+#: interface
 msgid "Logout"
 msgstr "Allgofnodi"
 
 # Settings page label
+#: interface
 msgid "Login"
 msgstr "Mewngofnodi"
 
 # Settings page label
+#: interface
 msgid "Register"
 msgstr "Cofrestru"
 
-# photos caption_1
-#: UK
-msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
-msgstr "Teimlyddion hir a thenau, ar ongl yn aml fel siâp 'penelin'"
-
-# photos caption_2
-#: UK
-msgid "Eyes covering the sides of the head"
-msgstr "Llygaid yn gorchuddio ochrau'r pen"
-
-# photos caption_3
-#: UK
-msgid "Hind legs broad and flattened"
-msgstr "Y coesau ôl yn llydan ac yn fflat"
-
-# photos caption_4
-#: UK
-msgid "Abdomen can vary from mostly dark to mostly orange"
-msgstr "Gall yr abdomen amrywio o bennaf dywyll i bennaf oren"
-
-# photos caption_5
-#: UK
-msgid "Long narrow cell in veins at edge of wing"
-msgstr "Cell hir a chul yn y gwythiennau ar ymyl yr adain"
-
 # ID guide honeybees species profile
+#: interface
 msgid "Description"
 msgstr "Disgrifiad"
 
 # ID guide honeybees species profile
-msgid ""
-"Most of the honeybees you see will be workers, which are female, and collect"
-" pollen into a moistened ball on the outside of the hind legs"
-msgstr ""
-"Gweithwyr, sy'n fenywaidd, fydd y rhan fwyaf o'r gwenyn mêl a welwch, ac "
-"maent yn casglu paill yn belen wedi'i gwlychu ar y tu allan i'r coesau ôl"
-
-# ID guide honeybees species profile
+#: interface
 msgid "Extra information"
 msgstr "Gwybodaeth ychwanegol"
 
 # My surveys page content
+#: interface
 msgid "My Surveys"
 msgstr "Fy Arolygon"
 
 # My surveys page content
+#: interface
 msgid "Pending"
 msgstr "I'w cyflwyno"
 
 # My surveys page content
+#: interface
 msgid "Uploaded"
 msgstr "Wedi'u cyflwyno"
 
 # My surveys page content
+#: interface
 msgid "<0>You have no finished surveys.</0>"
 msgstr "<0>Nid oes arolygon wedi'u cwblhau gyda chi.</0>"
 
 # My surveys page content
+#: interface
 msgid "No uploaded surveys"
 msgstr "Dim arolygon wedi'u cyflwyno"
 
 # Survey species selection page species list
+#: interface
 msgid "<0>Which</0> target flower have you chosen?"
 msgstr "<0>Pa</0> flodyn targed ydych chi wedi'i ddewis?"
 
 # Survey species selection page species list
+#: interface
 msgid "Please add species image"
 msgstr "Rhowch lun o'r rhywogaeth"
 
 # Survey species selection page species list
+#: interface
 msgid "No photo has been added."
 msgstr "Nid oes llun wedi'i ychwanegu."
 
 # Survey species selection page info message
+#: interface
 msgid "Press <1></1> to add."
 msgstr "Pwyswch <1></1> i ychwanegu."
 
@@ -741,6 +801,7 @@ msgid "Milk Thistle"
 msgstr ""
 
 # Survey species selection page read more message
+#: interface
 msgid ""
 "Which target <1>flower</1> have you chosen?<3><p>Where possible please "
 "choose a patch of flowers from one of the target flower groups in the "
@@ -762,18 +823,22 @@ msgstr ""
 "flodau a ddefnyddir ar gyfer y cyfrifon.</p></3>"
 
 # Survey species selection page read more header
+#: interface
 msgid "Flower"
 msgstr "Blodyn"
 
 # Survey species selection page divider label
+#: interface
 msgid "Please add the name of the flower"
 msgstr "Rhowch enw'r blodyn"
 
 # Survey species selection page label
+#: interface
 msgid "Other flower name"
 msgstr "Enw arall ar y blodyn"
 
 # Survey species manual entry placeholder
+#: interface
 msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
@@ -782,10 +847,12 @@ msgstr ""
 "dudalen y blodyn targed"
 
 # Survey flower count page divider label
+#: interface
 msgid "Number"
 msgstr "Nifer"
 
 # Survey flower count page info message
+#: interface
 msgid ""
 "What are the <1>number</1> and <3>type</3> of flowers in your "
 "patch?<5><p>The number of flowers in a patch can strongly relate to the "
@@ -822,90 +889,112 @@ msgstr ""
 "pigyn yn cyfrif fel un uned</3></5></5> "
 
 # Survey flower count page info header
+#: interface
 msgid "Flower Count"
 msgstr "Cyfrif Blodau"
 
 # Survey flower count page divider label
+#: interface
 msgid "Type"
 msgstr "Math"
 
 # Survey flower count page content
+#: interface
 msgid "Individual Flower"
 msgstr "Blodyn unigol"
 
 # Survey flower count page content
+#: interface
 msgid "Head"
 msgstr "Pen blodau"
 
 # Survey flower count page content
+#: interface
 msgid "Umbel"
 msgstr "Wmbel"
 
 # Survey flower count page content
+#: interface
 msgid "Spike"
 msgstr "Pigyn"
 
 # My surveys page content
+#: interface
 msgid "Today"
 msgstr "Heddiw"
 
 # My surveys page content
+#: interface
 msgid "Record"
 msgstr "Cofnod"
 
 # My surveys page content
+#: interface
 msgid "Delete"
 msgstr "Dileu"
 
 # My surveys page content
+#: interface
 msgid "Yesterday"
 msgstr "Ddoe"
 
 # My surveys page content info background message
+#: interface
 msgid "To delete any surveys swipe it to the left."
 msgstr "Llusgwch arolwg i'r chwith i'w ddileu."
 
 # My surveys page content info background message button
+#: interface
 msgid "Hide"
 msgstr "Cuddio"
 
 # My surveys page content info background message
+#: interface
 msgid "You have no finished surveys."
 msgstr "Nid oes arolygon wedi'u cwblhau gyda chi."
 
 # Add Photo message
+#: interface
 msgid "Choose a method to upload a photo"
 msgstr "Dewiswch ddull i lwytho llun i fyny"
 
 # Add Photo message
+#: interface
 msgid "Gallery"
 msgstr "Oriel"
 
 # Add Photo message
+#: interface
 msgid "Camera"
 msgstr "Camera"
 
 # Credits page content
+#: interface
 msgid "Graphics:"
 msgstr "Graffeg:"
 
 # Credits page content
+#: interface
 msgid "Team members of the following projects"
 msgstr "Aelodau timau'r prosiectau canlynol"
 
 # Credits page content
+#: interface
 msgid "Photos of flowers and insects by:"
 msgstr "Ffotograffau o flodau a phryfed gan:"
 
 # Credits page content
+#: interface
 msgid "Thanks to the following for additional photos"
 msgstr "Diolch i'r canlynol am ffotograffau ychwanegol"
 
 # Credits page content
+#: interface
 msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
 msgstr "Eiconau gan <2>Freepik</2> o <6>www.flaticon.com</6>"
 
 # Credits page content
+#: interface
 msgid ""
 "App guide illustrations made "
 "by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
@@ -914,30 +1003,37 @@ msgstr ""
 "gan:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
 
 # Survey flower page info message
+#: interface
 msgid "Which target <1>flower</1> have you chosen?"
 msgstr "Pa <1>flodyn</1> targed ydych chi wedi'i ddewis?"
 
 # Survey flower page section divider
+#: interface
 msgid "Photo of your target flower"
 msgstr "Ffotograff o'ch blodyn targed"
 
 # Survey flower page section divider
+#: interface
 msgid "Target flower chosen"
 msgstr "Blodyn targed a ddewiswyd"
 
 # Survey flower patch page values
+#: interface
 msgid "In a larger patch of the same flower"
 msgstr "Mewn llain mwy o'r un blodyn"
 
 # Survey flower patch page values
+#: interface
 msgid "In a larger patch of many different flowers"
 msgstr "Mewn llain mwy o nifer o wahanol flodau"
 
 # Survey flower patch page values
+#: interface
 msgid "More or less isolated"
 msgstr "Ar ei ben ei hun fwy neu lai"
 
 # Survey flower patch "Read more" alert message
+#: interface
 msgid ""
 "Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
 "surroundings of a flower patch can affect its attractiveness to "
@@ -950,83 +1046,103 @@ msgstr ""
 "llain blodau chi (o fewn tua 5 metr).</p></3>"
 
 # Survey flower patch info button label
+#: interface
 msgid "READ MORE"
 msgstr "DARLLEN MWY"
 
 # Survey flower patch "Read more" alert header text
+#: interface
 msgid "Flower patch"
 msgstr "Llain blodau"
 
 # Survey flower patch "Read more" alert button text
+#: interface
 msgid "Got it"
 msgstr "Deall"
 
 # Survey weather sky page values
+#: interface
 msgid "All or mostly blue"
 msgstr "I gyd neu'r rhan fwyaf yn las"
 
 # Survey weather sky page values
+#: interface
 msgid "Half blue and half cloud"
 msgstr "Hanner yn las a hanner yn gymylog"
 
 # Survey weather sky page values
+#: interface
 msgid "All or mostly cloud"
 msgstr "Yn gwbl neu'n bennaf gymylog"
 
 # Survey weather shade page values
+#: interface
 msgid "Entirely in sunshine"
 msgstr "Yn gyfan gwbl yn yr haul"
 
 # Survey weather shade page values
+#: interface
 msgid "Partly in sun and partly shaded"
 msgstr "Rhannol yn yr haul a rhannol yn y cysgod"
 
 # Survey weather shade page values
+#: interface
 msgid "Entirely shaded"
 msgstr "Yn gyfan gwbl yn y cysgod"
 
 # Survey weather wind page values
+#: interface
 msgid "Leaves still/moving occasionally"
 msgstr "Y dail yn llonydd/yn symud weithiau"
 
 # Survey weather wind page values
+#: interface
 msgid "Leaves moving gently all the time"
 msgstr "Y dail yn symud yn ysgafn drwy'r amser"
 
 # Survey weather wind page values
+#: interface
 msgid "Leaves moving strongly"
 msgstr "Y dail yn symud yn sylweddol"
 
 # Survey weather wind page button label
+#: interface
 msgid "Save my count"
 msgstr "Cadw fy nghyfrif"
 
 # Survey insect count page counter button label
+#: interface
 msgid "Paused"
 msgstr "Wedi oedi"
 
 # Survey insect count page counter button label
+#: interface
 msgid "Time's up!"
 msgstr "Amser ar ben!"
 
 # Survey insect count page counter warning message
+#: interface
 msgid "Time expire!"
 msgstr "Amser ar ben!"
 
 # My Records page info message
+#: interface
 msgid "Please do not forget to upload any pending surveys!"
 msgstr ""
 "Peidiwch anghofio llwytho unrhyw arolygon i fyny sydd heb eu cyflwyno eto!"
 
 # Credit page
+#: interface
 msgid "FIT Count logo"
 msgstr "Logo Cyfrif FIT"
 
 # Toast message after successful login
+#: interface
 msgid "Successfully logged in"
 msgstr "Wedi mewngofnodi'n llwyddiannus"
 
 # Onboarding content
+#: interface
 msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
@@ -1035,6 +1151,7 @@ msgstr ""
 "Blodau-Pryfed wedi'i Amseru"
 
 # Onboarding content
+#: interface
 msgid ""
 "<0><0>Wait for good weather! </0><1>Find a patch of target "
 "flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects"
@@ -1049,6 +1166,7 @@ msgstr ""
 " a'i lwytho i fyny i'r wefan</5></0>"
 
 # Onboarding content
+#: interface
 msgid ""
 "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
 " get started!"
@@ -1057,26 +1175,32 @@ msgstr ""
 "tudalennau adnabod pryfed, ac rydych chi'n barod i fynd!"
 
 # Onboarding content
+#: interface
 msgid "Let's start the count!"
 msgstr "Ewch ati i gyfrif!"
 
 # User authentication toast message
+#: interface
 msgid "Sorry"
 msgstr "Sori"
 
 # User authentication toast message
+#: interface
 msgid "The user credentials were incorrect."
 msgstr "Roedd manylion y defnyddiwr yn anghywir."
 
 # How To page content
+#: interface
 msgid "How To"
 msgstr "Canllaw Cyflym"
 
 # How To page content
+#: interface
 msgid "FIT Count quick guide"
 msgstr "Canllaw cyflym i'r Cyfrif FIT"
 
 # How To page content
+#: interface
 msgid ""
 "FIT Counts take about 10–15 minutes, during which you are asked to count "
 "every insect that lands on the flowers of your chosen target flower species."
@@ -1086,16 +1210,19 @@ msgstr ""
 "fel rhywogaeth darged o flodau."
 
 # How To page content
+#: interface
 msgid ""
 "You can complete a FIT Count in good weather between 1 April and 30 "
 "September."
 msgstr "Gallwch wneud Cyfrif FIT mewn tywydd da rhwng 1 Ebrill a 30 Medi."
 
 # How To page content (non-UK)
+#: interface
 msgid "You can complete a FIT Count in good weather at any time of year."
 msgstr ""
 
 # How To page content
+#: interface
 msgid ""
 "Choose just one type of flower as your target flower - where possible use "
 "one of the FIT Count target flowers, but if you can't find one from the list"
@@ -1106,10 +1233,12 @@ msgstr ""
 "un o'r rhestr, gallwch ddewis blodyn gwahanol fel targed."
 
 # How To page content
+#: interface
 msgid "Mark out a 50 × 50 cm patch containing your target."
 msgstr "Marciwch lain 50 x 50 cm yn cynnwys eich targed."
 
 # How To page content
+#: interface
 msgid ""
 "Count the number of individual flowers for your target species that are "
 "within your patch."
@@ -1118,6 +1247,7 @@ msgstr ""
 "llain chi."
 
 # How To page content
+#: interface
 msgid ""
 "Using the timer in the app, spend ten minutes counting all insects that land"
 " on the target flowers (ignore other flowers, and do your best to count each"
@@ -1128,18 +1258,22 @@ msgstr ""
 "eich gorau i gyfrif pob un pryfyn unigol unwaith yn unig!)"
 
 # How To page content
+#: interface
 msgid "Fill in some simple weather details."
 msgstr "Rhowch fanylion syml am y tywydd."
 
 # How To page content
+#: interface
 msgid "Save your count, and upload it to the website."
 msgstr "Arbedwch eich cyfrif a'i lwytho i fyny i'r wefan."
 
 # How To page content
+#: interface
 msgid "Further information and guides are available at"
 msgstr "Mae rhagor o wybodaeth a chanllawiau i'w cael yn"
 
 # How To page content
+#: interface
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as other insects."
@@ -1148,6 +1282,7 @@ msgstr ""
 "dylech gyfrif unrhyw rai na allwch eu hadnabod fel pryfed eraill."
 
 # How To page content
+#: interface
 msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
@@ -1155,135 +1290,13 @@ msgstr ""
 "\"Tywydd da\" yw tywydd sych ble mae'r tymheredd yn 13°C o leiaf pan mae'n "
 "heulog, neu'n 15°C o leiaf pan mae'n gymylog."
 
-# Bumblebee screen 1 content
-msgid ""
-"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
-" any that you don't recognise should be counted as \"other insects\"."
-msgstr ""
-"Rhannwch y pryfed yn ôl eu grwpiau bras (cacwn, pryfed hofran, ayb.) – "
-"dylech gyfrif unrhyw rai na allwch eu hadnabod fel \"pryfed eraill\"."
-
-# Bumblebee screen 1 content
-msgid "Very hairy / fluffy bees"
-msgstr "Gwenyn blewog / fflwffog iawn"
-
-# Bumblebee screen 1 content
-msgid ""
-"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
-"visiting flowers"
-msgstr ""
-"Siâp crwn, globylog bron, gyda'r gynffon wedi'i 'phlygu oddi tani' yn aml "
-"wrth ymweld â blodau"
-
-# Bumblebee screen 1 content
-msgid ""
-"Many species have simple, contrasting colour bands (yellows, whites, "
-"blacks), others can be ginger all over"
-msgstr ""
-"Mae gan lawer o rywogaethau fandiau lliw gwrthgyferbyniol syml (melyn, gwyn,"
-" du), a gall eraill fod yn oren drostynt i gyd"
-
-# Bumblebee screen 1 content
-msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
-msgstr ""
-"Mae'r llygaid yn gorchuddio ochrau'r pen, ac mae llawer o flew rhwng y "
-"llygaid"
-
-# Bumblebee screen 1 content
-msgid ""
-"Bumblebees are very rounded and furry bees. The queens are among our largest"
-" bees; workers can be quite small, but are larger than most solitary bees."
-msgstr ""
-"Mae cacwn ('bumblebee' yn Saesneg) yn wenyn blewog a chrwn iawn. Mae'r "
-"frenhines yn un o'n gwenyn mwyaf; gall y gweithwyr fod yn eithaf bach, ond "
-"maent yn fwy na'r rhan fwyaf o wenyn unig."
-
-# Bumblebee screen 1 content
-msgid ""
-"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
-"not hover. There are 24 species in the UK."
-msgstr ""
-"Mae cacwn yn hedfan mewn ffordd ychydig yn herciog, ac nid ydynt yn hofran. "
-"Mae 24 o rywogaethau yn y Deyrnas Unedig."
-
-# Bumblebee screen 2 content
-msgid ""
-"Queen and worker bumblebees collect pollen into a moistened ball on the "
-"outside of the hind legs"
-msgstr ""
-"Mae brenhines a gweithwyr y cacwn yn casglu paill yn belen, yn gwlychu'r "
-"belen ac yn ei chario ar du allan eu coesau ôl"
-
-# Bumblebee screen 2 content
-msgid ""
-"This bumblebee is one of the species that are more-or-less ginger-coloured "
-"all over"
-msgstr ""
-"Mae'r gacynen hon yn aelod o'r rhywogaeth sydd fwy neu lai yn oren drostynt "
-"i gyd"
-
-# Bumblebee screen 2 content
-msgid ""
-"Male bumblebees are similar looking to females but have slightly longer "
-"antennae, and do not collect pollen. They visit flowers to feed on nectar."
-msgstr ""
-"Mae cacwn gwrywaidd yn debyg o ran edrychiad i'r benywod, ond mae eu "
-"teimlyddion ychydig yn hirach, ac nid ydynt yn casglu paill. Maent yn ymweld"
-" â blodau i fwydo ar neithdar."
-
-# Honeybees screen 1 content
-msgid ""
-"Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. "
-msgstr ""
-"Mae gwenyn mêl yn fwy na'r rhan fwyaf (ond nid pob un) o wenyn unig, ac "
-"maent yn llai na'r rhan fwyaf o gacwn."
-
-# Honeybees screen 1 content
-msgid ""
-"There is just one species of honeybee in the UK. They nest in artificial "
-"hives,with occasional colonies establishing in the wild."
-msgstr ""
-"Dim ond un rhywogaeth o wenyn mêl sydd i'w chael yn y Deyrnas Unedig. Maent "
-"yn nythu mewn cychod gwenyn gwneud, ac mae ambell i nyth yn sefydlu yn y "
-"gwyllt."
-
-# Honeybees screen 2 content
-msgid "Male honeybees (drones) are similar but have much larger eyes."
-msgstr ""
-"Mae gwenyn mêl gwrywaidd (gwenyn gormes) yn debyg ond mae eu llygaid yn "
-"llawer mwy."
-
-# Solitary bees screen 1 content
-msgid ""
-"Solitary bees are less rounded than bumblebees, and most are smaller than "
-"both bumblebees and honeybees. "
-msgstr ""
-"Mae gwenyn unig yn llai crwn na chacwn, ac mae'r rhan fwyaf yn llai eu maint"
-" na chacwn a gwenyn mêl hefyd."
-
-# Solitary bees screen 1 content
-msgid ""
-"Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 250 species in the UK."
-msgstr ""
-"Mae gwenyn unig yn hedfan yn actif rhwng blodau, a weithiau maent yn "
-"gorweddian yn yr haul. Nid yw'r rhan fwyaf o rywogaethau yn hofran. Mae tua "
-"250 o rywogaethau yn y Deyrnas Unedig."
-
-# Solitary bees screen 1 content
-msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr "Fel arfer yn eithaf hir eu siâp (ond maent yn amrywio'n fawr)"
-
-# Solitary bees screen 1 content
-msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr "Fel arfer yn flewog, ond yn aml mae'r blew yn llai trwchus na chacwn"
-
 # Context term
+#: interface
 msgid "The timer will now start!"
 msgstr "Bydd yr amserydd yn dechrau nawr!"
 
 # Context term
+#: interface
 msgid ""
 "Count every insect that lands on the target flowers (count each individual "
 "once)."
@@ -1292,6 +1305,7 @@ msgstr ""
 "unwaith)."
 
 # Context term
+#: interface
 msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
@@ -1300,636 +1314,9 @@ msgstr ""
 " i lawr)"
 
 # Context term
+#: interface
 msgid "Start Count"
 msgstr "Dechrau Cyfrif"
-
-# Solitary bees screen 1 content
-msgid "Colours usually more subdued and less contrasting than bumblebees"
-msgstr "Y lliwiau fel arfer yn wannach na chacwn gyda llai o wrthgyferbyniad"
-
-# Solitary bees screen 1 content
-msgid "Long antennae, often held straight out in front"
-msgstr "Teimlyddion hir, yn aml yn pwyntio'n syth allan"
-
-# Solitary bees screen 1 content
-msgid ""
-"Smaller than queen bumblebees, but the largest solitaries are bigger than "
-"small worker bumblebees"
-msgstr ""
-"Yn llai na brenhines cacwn, ond mae'r mwyaf o'r rhai unig yn fwy na "
-"gweithwyr cacwn bach"
-
-# Solitary bees screen 2 content
-msgid ""
-"Some solitary bees collect dry pollen into a pollen basket at the base of "
-"the hind legs (see the mining bee on the left above)"
-msgstr ""
-"Mae rhai gwenyn unig yn casglu paill sych mewn basged paill ar waelod y "
-"coesau ôl (gweler y wenynen durio uchod ar y chwith)"
-
-# Solitary bees screen 2 content
-msgid ""
-"Others have the pollen basket underneath their abdomen (see the leafcutter "
-"bee on the right above)"
-msgstr ""
-"Mae gan eraill fasged paill o dan yr abdomen (gweler y wenynen ddeildorrol "
-"uchod ar y dde)"
-
-# Solitary bees screen 2 content
-msgid ""
-"Solitary bees generally nest in burrows or holes. One large group, the "
-"mining bees, dig burrows into soil. Another group, including the mason bees "
-"and leafcutter bees, make use of holes in wood, plants or walls."
-msgstr ""
-"Ar y cyfan mae gwenyn unig yn nythu mewn tyllau. Mae un grŵp mawr, y gwenyn "
-"turio, yn gwneud tyllau yn y pridd. Mae grŵp arall, yn cynnwys y saerwenyn "
-"a'r gwenyn deildorrol, yn defnyddio tyllau mewn pren, planhigion neu waliau."
-
-# Solitary bees screen 3 content
-msgid ""
-"Among the many species of solitary bee, there is a lot of variation in size,"
-" colour and how hairy they appear. Some examples are shown above."
-msgstr ""
-"Ymysg y rhywogaethau niferus o wenyn unig, mae llawer o amrywiaeth o ran "
-"maint, lliw a pha mor flewog maen nhw. Mae rhai enghreifftiau i'w gweld "
-"uchod."
-
-# Solitary bees screen 3 content
-msgid ""
-"You don’t need to recognise the individual species to do a FIT Count, they "
-"all get counted as “solitary bees”!"
-msgstr ""
-"Does dim angen i chi adnabod y rhywogaethau unigol i wneud Cyfrif FIT. Mae "
-"pob un yn cael ei chyfrif fel “gwenynen unig”!"
-
-# Solitary bees screen 3 content
-msgid ""
-"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
-msgstr ""
-"Mae gan y math hwn o Wenynen Durio, <i>Andrena cineraria</i>, streipiau du a"
-" llwyd"
-
-# Solitary bees screen 3 content
-msgid ""
-"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
-"they have bee-like hairs on part of their body, and most are similar in "
-"shape and with a mix of black, red and yellow colours"
-msgstr ""
-"Gall gwenyn yn y genws <i>Nomada</i> edrych yn debyg iawn i wenyn meirch, "
-"ond mae ganddynt flew tebyg i flew gwenyn ar ran o'u corff, ac mae'r rhan "
-"fwyaf yn debyg o ran siâp ac mae ganddynt gymysgedd o liwiau du, coch a "
-"melyn."
-
-# Solitary bees screen 3 content
-msgid ""
-"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
-"bees, at around 4mm long"
-msgstr ""
-"Mae'r wenynen hon o'r genws <i>Chelostoma</i> yn un o'r gwenyn unig lleiaf "
-"ac yn tua 4mm o hyd"
-
-# Solitary bees screen 3 content
-msgid ""
-"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
-"when fresh these bees have clear black and yellow stripes on the abdomen"
-msgstr ""
-"Ddiwedd yr haf mae'r wenynen hon, <i>Colletes hederae</i>, yn ymweld â "
-"blodau iorwg – pan maent yn ffres mae gan y gwenyn hyn streipiau du a melyn "
-"clir ar yr abdomen"
-
-# Wasps screen 1 content
-msgid "Long antennae (distinguishes them from most flies)"
-msgstr "Teimlyddion hir (sy'n wahanol i'r rhan fwyaf o glêr)"
-
-# Wasps screen 1 content
-msgid ""
-"There are some hairs on the body, but wasps are usually much less dense and "
-"furry compared to bees"
-msgstr ""
-"Mae rhywfaint o flew ar y corff, ond fel arfer mae'r blew ar wenyn meirch yn"
-" llawer llai trwchus a fflwffog nag ar wenyn"
-
-# Wasps screen 1 content
-msgid ""
-"Social wasps and some of the solitary species have bold back and yellow "
-"stripes"
-msgstr ""
-"Mae gan wenyn meirch cymdeithasol a rhai o'r rhywogaethau unig streipiau du "
-"a melyn amlwg"
-
-# Wasps screen 1 content
-msgid "Some wasps have their wings rolled up when at rest"
-msgstr ""
-"Mae rhai gwenyn meirch yn rholio'u hadenydd i fyny pan maen nhw'n gorffwys"
-
-# Wasps screen 1 content
-msgid ""
-"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
-msgstr ""
-"Mae gan wenyn meirch ganol main iawn nodweddiadol lle mae'r thoracs a'r "
-"abdomen yn cwrdd"
-
-# Wasps screen 1 content
-msgid ""
-"There are many different species of wasp, but the most familiar are the "
-"social wasps such as the one shown above."
-msgstr ""
-"Mae llawer o wahanol rywogaethau o wenyn meirch, ond y rhai mwyaf cyfarwydd "
-"yw'r gwenyn meirch cymdeithasol, fel yr un uchod."
-
-# Wasps screen 2 content
-msgid "Many solitary wasps have a distinctive broad, boxy head shape"
-msgstr "Mae gan lawer o wenyn meirch unig siâp pen llydan amlwg fel bocs"
-
-# Wasps screen 2 content
-msgid "Some have typical black and yellow wasp stripes"
-msgstr "Mae gan rai streipiau du a melyn nodweddiadol y gwenyn meirch"
-
-# Wasps screen 2 content
-msgid "Others may be black and red, or all black as in this example"
-msgstr ""
-"Gall rhai eraill fod yn ddu a choch, neu'n gwbl ddu, fel yn yr enghraifft "
-"hwn"
-
-# Wasps screen 2 content
-msgid ""
-"There is a lot of variation in size, shape and markings among the solitary "
-"wasps. They are usually not obviously hairy, and since they do not collect "
-"pollen they have no pollen basket (although pollen may become stuck to their"
-" bodies)."
-msgstr ""
-"Mae llawer o amrywiaeth ymysg y gwenyn meirch unig o ran eu maint, eu siâp "
-"a'r marciau arnynt. Fel arfer nid ydynt yn amlwg flewog, ac am nad ydynt yn "
-"casglu paill, does dim basged paill ganddyn nhw (er gall paill lynu wrth eu "
-"cyrff)."
-
-# Wasps screen 2 content
-msgid ""
-"Solitary wasps generally nest in burrows or holes, in a similar manner to "
-"the solitary bees."
-msgstr ""
-"Ar y cyfan mae gwenyn meirch unig yn nythu mewn tyllau, yn debyg i'r gwenyn "
-"unig."
-
-# Wasps screen 3 content
-msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
-msgstr ""
-"Mae llawer o wenyn meirch parasitig yn denau a hir iawn, a'u canol yn "
-"arbennig o fain."
-
-# Wasps screen 3 content
-msgid ""
-"The majority of species have very long antennae, made up of lots of "
-"individual segments"
-msgstr ""
-"Mae gan y rhan fwyaf o rywogaethau deimlyddion hir iawn, wedi'u gwneud o "
-"lawer o adrannau unigol."
-
-# Wasps screen 3 content
-msgid ""
-"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
-"some species this is very long"
-msgstr ""
-"Gall fod gan fenyw y gwnenyn meirch parasitig wyddodydd miniog y mae'n ei "
-"ddefnyddio i ddodwy ei hwyau – mewn rhai rhywogaethau mae hwn yn hir iawn"
-
-# Wasps screen 3 content
-msgid ""
-"Colours are usually a mix of black and red or yellow – some species are all-"
-"black"
-msgstr ""
-"Fel arfer maent yn gymysgedd o ddu a choch neu felyn eu lliw – mae rhai "
-"rhywogaethau yn gyfan gwbl ddu"
-
-# Wasps screen 3 content
-msgid ""
-"There are many different parasitic wasps, some of which visit flowers for "
-"nectar. Two examples are shown above."
-msgstr ""
-"Mae nifer o wahanol wenyn meirch parasitig, ac mae rhai ohonynt yn ymweld â "
-"blodau i gael neithdar. Mae dwy enghraifft i'w gweld uchod."
-
-# Wasps screen 3 content
-msgid ""
-"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
-" the larvae of the wasps consume the host invertebrate."
-msgstr ""
-"Mae gwenyn meirch parasitig yn dodwy eu hwyau mewn infertebratau eraill, neu"
-" yn eu nythod, ac mae larfâu'r gwenyn meirch yn bwyta'r infertebrat lletyol."
-
-# Hoverflies screen 1 content
-msgid ""
-"Large eyes, covering most of the head in males (as shown above) or with a "
-"small gap between the eyes at the top of the head in females"
-msgstr ""
-"Llygaid mawr, yn gorchuddio'r rhan fwyaf o'r pen yn y gwrywod (fel gwelir "
-"uchod) neu gyda bwlch bychan rhwng y llygaid ar dop y pen yn y benywod"
-
-# Hoverflies screen 1 content
-msgid "Most hoverflies have much shorter antennae than bees and wasps"
-msgstr ""
-"Mae gan y rhan fwyaf o bryfed hofran deimlyddion llawer byrrach na gwenyn a "
-"gwenyn meirch"
-
-# Hoverflies screen 1 content
-msgid ""
-"In the wings there is a ‘false margin’ wing vein, running more-or-less "
-"parallel to the true edge of the wing"
-msgstr ""
-"Yn yr adenydd mae gwythïen ‘ymyl ffug’, sydd fwy neu lai'n gyfochrog â gwir "
-"ymyl yr adain"
-
-# Hoverflies screen 1 content
-msgid ""
-"Many hoverfly species have black and yellow stripes, but some are all dark "
-"or have other patterns"
-msgstr ""
-"Mae gan lawer o rywogaethau pryfed hofran streipiau du a melyn, ond mae rhai"
-" yn ddu drostynt i gyd neu mae ganddynt batrymau eraill arnynt"
-
-# Hoverflies screen 1 content
-msgid ""
-"Hoverflies are not usually as hairy as bees (but there are some "
-"exceptions!), and they do not usually have prominent bristles on the body "
-"(some other types of fly are obviously bristly)"
-msgstr ""
-"Fel arfer nid yw pryfed hofran mor flewog â gwenyn (ond mae rhai "
-"eithriadau!), ac fel arfer does ganddyn nhw ddim gwrych amlwg ar eu cyrff "
-"(mae rhai mathau eraill o glêr yn amlwg wrychog)"
-
-# Hoverflies screen 1 content
-msgid ""
-"Hoverflies are very active and agile flyers, and are frequently seen "
-"hovering, as you would expect from their name. "
-msgstr ""
-"Math o glêr yw pryfed hofran, yn perthyn i urdd Diptera. Mae pryfed hofran "
-"yn ehedwyr actif a chwim iawn, ac fe'i gwelir yn aml yn hofran, fel y "
-"byddech yn ei ddisgwyl yn ôl yr enw."
-
-# Hoverflies screen 1 content
-msgid ""
-"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
-"pollen baskets. There are about 285 species of hoverfly in the UK."
-msgstr ""
-"Mae pryfed hofran yn bwydo ar neithdar a phaill, ond nid ydynt yn casglu "
-"neithdar ac nid oes ganddynt fasgedi paill. Mae tua 285 o rywogaethau o "
-"bryfed hofran yn y Deyrnas Unedig."
-
-# Hoverflies screen 2 content
-msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
-msgstr ""
-"Mae gan bryfed hofran yn y genws <i>Eristalis</i>, sy'n debyg i wenyn "
-"gormes, deimlyddion llawer byrrach na gwenyn mêl"
-
-# Hoverflies screen 2 content
-msgid "The eyes cover more of the head"
-msgstr "Mae'r llygaid yn gorchuddio'r rhan fwyaf o'r pen"
-
-# Hoverflies screen 2 content
-msgid ""
-"The back legs are much narrower than the broad flattened legs of honeybees"
-msgstr ""
-"Mae'r coesau ôl yn llawer teneuach na choesau llydan a fflat gwenyn mêl"
-
-# Hoverflies screen 2 content
-msgid "The typical ‘false margin’ wing vein is present"
-msgstr "Mae'r wythïen ‘ymyl ffug’ nodweddiadol i'w gweld ar yr adain"
-
-# Hoverflies screen 2 content
-msgid ""
-"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
-" of the wing"
-msgstr ""
-"Mae gan bryfed hofran yn y genws hwn 'ddolen' nodweddiadol yn y wythïen ger "
-"pen yr adain"
-
-# Hoverflies screen 2 content
-msgid ""
-"Many hoverflies have the typical black and yellow markings, but there is "
-"quite a lot of variety in shape, size and marking among the full range of "
-"species. Some examples are shown above."
-msgstr ""
-"Mae gan nifer o bryfed hofran y marciau du a melyn nodweddiadol, ond mae "
-"cryn dipyn o amrywiaeth ymysg yr ystod lawn o rywogaethau o ran eu siâp, eu "
-"maint a'r marciau arnynt. Mae rhai enghreifftiau i'w gweld uchod."
-
-# Hoverflies screen 2 content
-msgid ""
-"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
-"is a good mimic of hornets, but note the short antennae"
-msgstr ""
-"Y math hwn o bryf hofran, <i>Volucella zonaria</i> yw'n pryf hofran mwyaf ac"
-" mae'n dda am efelychu gwenyn meirch mawr, ond sylwch ar y teimlyddion byr"
-
-# Hoverflies screen 3 content
-msgid ""
-"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
-" a widespread species with a distinctive grey and orange colour"
-msgstr ""
-"Mae gan rai rhywogaethau ‘drwynau’ hir – <i>Rhingia campestris</i> yw hwn, "
-"sy'n rhywogaeth gyffredin a chanddi liw llwyd ac oren unigryw"
-
-# Hoverflies screen 3 content
-msgid ""
-"A few hoverflies are very good bumblebee mimics – check the antennae to be "
-"sure they are not bumblebees!"
-msgstr ""
-"Mae rhai pryfed hofran yn dda iawn am efelychu cacwn – edrychwch ar y "
-"teimlyddion i wirio nad cacwn ydyn nhw!"
-
-# Hoverflies screen 3 content
-msgid ""
-"Some hoverflies are small and mostly dark in colour, but have the typical "
-"wing veins (if you can get close enough to see them) and in flight will "
-"hover like typical hoverflies"
-msgstr ""
-"Mae rhai pryfed hofran yn fach ac yn bennaf dywyll eu lliw, ond mae ganddynt"
-" y gwythiennau nodweddiadol ar eu hadenydd (os gallwch fynd yn ddigon agos "
-"i'w gweld nhw) ac wrth hedfan maen nhw'n hofran fel pryfed hofran "
-"nodweddiadol"
-
-# Other flies screen 1 content
-msgid "This is a dance fly (family Empididae)"
-msgstr "Pryf dawnsio yw hwn (teulu'r Empididae)"
-
-# Other flies screen 1 content
-msgid "Many dance flies have a long thin proboscis under the head"
-msgstr "Mae gan lawer o bryfed dawnsio drwnc hir a main o dan y pen"
-
-# Other flies screen 1 content
-msgid "Many dance flies have a distinctly humped thorax"
-msgstr "Mae gan lawer o bryfed dawnsio thoracs cefngrwm amlwg"
-
-# Other flies screen 1 content
-msgid ""
-"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
-" seen on hogweed and related flowers"
-msgstr ""
-"Pryf Milwrol Gwyrdd yw hwn (<i>Chloromyia formosa</i>), ac fe'i gwelir yn "
-"aml ar efwr a blodau tebyg"
-
-# Other flies screen 1 content
-msgid "The abdomen is broader and flatter than in hoverflies"
-msgstr "Mae'r abdomen yn lletach ac yn fwy fflat na mewn pryfed hofran"
-
-# Other flies screen 1 content
-msgid ""
-"The wing venation is different to hoverflies, with no ‘false margin’ wing "
-"vein parallel to the true edge of the wing"
-msgstr ""
-"Mae gwythieniad yr adenydd yn wahanol i bryfed hofran, ac nid oes gwythïen "
-"‘ymyl ffug’ yn gyfochrog â gwir ymyl yr adain"
-
-# Other flies screen 1 content
-msgid ""
-"There are many different flies that you may see visiting flowers – for the "
-"FIT Count all you need to do is separate them into “hoverflies” and all "
-"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
-"but not many other flies have. Two examples of “other flies” are shown above"
-" and two on the next screen."
-msgstr ""
-"Gallwch weld nifer o wahanol fathau o glêr yn ymweld â blodau – ar gyfer y "
-"Cyfrif FIT dim ond eu gwahanu'n “bryfed hofran” a “chlêr” eraill mae angen i"
-" chi wneud! Peidiwch ag anghofio bod pryfed hofran yn gallu hofran, rhywbeth"
-" y gall rhai clêr eraill ei wneud, ond dim llawer ohonynt. Mae dwy "
-"enghraifft o “glêr” eraill i'w gweld uchod a dwy ar y sgrin nesaf."
-
-# Other flies screen 2 content
-msgid "This is a parasitic fly from family Tachinidae"
-msgstr "Cleren barasitig yw hon o'r teulu Tachinidae"
-
-# Other flies screen 2 content
-msgid "It has prominent bristles on the abdomen"
-msgstr "Mae ganddi wrych amlwg ar ei habdomen"
-
-# Other flies screen 2 content
-msgid "This is the Yellow Dung-fly (family Scathophagidae)"
-msgstr "Cleren Felen y Dom yw hon (teulu'r Scathophagidae)"
-
-# Other flies screen 2 content
-msgid ""
-"It has bristles on the body and legs, and the males in particular have "
-"fluffy yellow hairs on the body"
-msgstr ""
-"Mae ganddi wrych ar ei chorff a'i choesau, ac mae gan y gwrywod yn arbennig "
-"flew melyn fflwffog ar eu cyrff"
-
-# Other flies screen 2 content
-msgid ""
-"Some of the larger flies that you will see on flowers are from ‘calypterate’"
-" families, most of which are rather rounded insects with obvious bristles on"
-" the legs and body."
-msgstr ""
-"Mae rhai o'r clêr mwy a welwch ar flodau yn perthyn i deuluoedd y "
-"‘calypterate’, a'r rhan fwyaf o'r rhain yn bryfed eithaf crwn a chanddynt "
-"wrych amlwg ar eu coesau a'u cyrff."
-
-# Butterflies and moths 1 screen content
-msgid "Small Tortoiseshell butterfly"
-msgstr "Trilliw Bach"
-
-# Butterflies and moths 1 screen content
-msgid "Common Blue butterfly"
-msgstr "Y Glesyn Cyffredin"
-
-# Butterflies and moths 1 screen content
-msgid ""
-"Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night. Some moths (see next screen) are quite small and could be overlooked "
-"as other types of insect."
-msgstr ""
-"Rydym yn gyfarwydd iawn â gweld pili-palod yn ymweld â blodau. Efallai ein "
-"bod yn sylwi ar wyfynod yn llai aml ond maen nhw hefyd yn ymweld â blodau'n "
-"rheolaidd, naill ai yn ystod y dydd neu yn y nos. Mae rhai gwyfynod (gweler "
-"y sgrin nesaf) yn eithaf bach ac maen bosib y byddwch yn anghofio amdanynt "
-"fel mathau eraill o bryfed."
-
-# Butterflies and moths 1 screen content
-msgid ""
-"For the FIT Count there is no need to distinguish between butterflies and "
-"moths – they are all counted in the same category."
-msgstr ""
-"Ar gyfer y Cyfrif FIT, does dim angen gwahaniaethu rhwng pili-palod a "
-"gwyfynod – maen nhw i gyd yn cael eu cyfrif o fewn yr un categori."
-
-# Butterflies and moths 2 screen content
-msgid "Six-spot Burnet moth (a macro-moth)"
-msgstr "Bwrned chwe smotyn (gwyfyn mawr)"
-
-# Butterflies and moths 2 screen content
-msgid "Nettle-tap moth (a micro-moth)"
-msgstr "Gwyfyn o'r genws <i>Anthophila</i> (gwyfyn bach)"
-
-# Butterflies and moths 2 screen content
-msgid ""
-"A range of day-flying moths can be seen visiting flowers. Some of these are "
-"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
-"moths”). All moths have patterns and colours produced by the tiny scales on "
-"their wings."
-msgstr ""
-"Gellir gweld amrywiaeth o wyfynod sy'n hedfan yn y dydd yn ymweld â blodau. "
-"Mae rhai o'r rhain yn eithaf mawr (“gwyfynod mawr”) a lliwgar, ac mae rhai "
-"yn fach iawn (“gwyfynod bach”). Mae gan yr holl wyfynod batrymau a lliwiau "
-"sy'n cael eu cynhyrchu gan y cennau pitw bach ar eu hadenydd."
-
-# Beetles 1 screen content
-msgid ""
-"Beetles have forewings that have become hardened and act as covers for the "
-"softer hindwings and abdomen"
-msgstr ""
-"Mae gan chwilod adenydd blaen sydd wedi caledu ac sy'n gweithio fel gorchudd"
-" ar gyfer yr adenydd ôl mwy meddal a'r abdomen"
-
-# Beetles 1 screen content
-msgid "Beetles have chewing mouthparts"
-msgstr "Mae gan chwilod rannau cnoi yn eu cegau"
-
-# Beetles 1 screen content
-msgid ""
-"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
-"which the males have distinctive thickened hind legs"
-msgstr ""
-"Chwilen o'r enw <i>Oedemera nobilis</i> yw hon, ac mae gan y gwrywod goesau "
-"ôl tew amlwg"
-
-# Beetles 1 screen content
-msgid ""
-"There are relatively few beetle species that visit flowers, but those that "
-"do can be very abundant. The different species vary a lot in size, shape and"
-" colour, but can be recognised as beetles by the hard wing cases covering "
-"their abdomen."
-msgstr ""
-"Cymharol brin yw'r rhywogaethau o chwilod sy'n ymweld â blodau, ond mae'r "
-"rhai sy'n gwneud yn gallu bod yn doreithiog iawn. Mae'r gwahanol "
-"rywogaethau'n amrywio'n fawr o ran eu maint, eu siâp a'u lliw, ond gellir eu"
-" hadnabod fel chwilod oherwydd y cistiau adenydd caled sy'n gorchuddio'r "
-"abdomen."
-
-# Beetles 2 screen content
-msgid ""
-"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
-" very abundant on flowers in mid-summer"
-msgstr ""
-"Chwilen o'r enw <i>Rhagonycha fulva</i> gyda'r pig ar gas ei hadenydd yn ddu"
-" – toreithiog iawn ar flodau ganol yr haf"
-
-# Beetles 2 screen content
-msgid ""
-"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
-" larvae live in decaying wood"
-msgstr ""
-"Chwilen fawr o'r enw <i>Rutpela maculata</i> – mae'r larfâu'n byw mewn pren "
-"sy'n pydru"
-
-# Beetles 2 screen content
-msgid "Above are two more examples of beetles that regularly visit flowers."
-msgstr "Uchod mae dwy enghraifft o chwilen sy'n ymweld â blodau'n aml."
-
-# Small insect 1 screen content
-msgid ""
-"This example shows a flower with many pollen beetles (family Nitidulidae) – "
-"other “small insects” may include tiny flies and parasitic wasps"
-msgstr ""
-"Mae'r enghraifft hon yn dangos blodyn â nifer o chwilod paill (o'r teulu "
-"Nitidulidae) – gall “pryfed bychain” eraill gynnwys clêr pitw bach a gwenyn "
-"meirch parasitig"
-
-# Small insect 1 screen content
-msgid ""
-"This category is for any insects under 3mm long. These can be hard to assign"
-" to a particular group without peering at them closely (which would disturb "
-"other insects visiting the flowers). Just count them (or estimate them if "
-"there is a large number) and assign them all to this category."
-msgstr ""
-"Mae'r categori hwn ar gyfer unrhyw bryfed sy'n llai na 3mm o hyd. Gall fod "
-"yn anodd gwybod pa grŵp i roi'r rhain ynddo heb edrych yn agos iawn arnynt "
-"(a fyddai'n tarfu ar bryfed eraill sy'n ymweld â'r blodau). Cyfrwch nhw (neu"
-" ddyfalu eu nifer os oes nifer fawr) a rhowch nhw i gyd yn y categori hwn."
-
-# Other insect 1 screen content
-msgid ""
-"Other insects you may see include sawflies, which come in a variety of "
-"colours and sizes - some look rather like wasps"
-msgstr ""
-"Ymysg y pryfed eraill y gallech eu gweld mae'r llifbrif, sy'n dod mewn "
-"amrywiaeth o feintiau a lliwiau - mae rhai yn edrych yn eithaf tebyg i wenyn"
-" meirch"
-
-# Other insect 1 screen content
-msgid ""
-"They do not have a “wasp waist” – there is no gap between the abdomen and "
-"thorax"
-msgstr ""
-"Nid oes canol main ganddynt fel gwenyn meirch – nid oes bwlch rhwng yr "
-"abdomen a'r thoracs"
-
-# Other insect 1 screen content
-msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr "Nid yw'r llifbryf yn flewog ac nid oes ganddo fasged paill"
-
-# Other insect 1 screen content
-msgid ""
-"They are usually quite slow-moving, with a weaker flight than bees or wasps"
-msgstr ""
-"Maen nhw'n symud yn eithaf araf fel arfer, ac yn hedfan yn fwy gwan na "
-"gwenyn neu wenyn meirch"
-
-# Other insect 1 screen content
-msgid ""
-"This category is for any insects that don’t fit into the other insect "
-"groups, and can also be used for any insects that you can’t identify into a "
-"group at all. Please count all the insects you see, and use “other insects” "
-"for any that you don’t recognise. For example, sawflies are counted as "
-"“other insects”. Sawflies are related to bees and wasps but there are a "
-"number of differences."
-msgstr ""
-"Mae'r categori hwn ar gyfer unrhyw bryfed sydd ddim yn ffitio yn y grwpiau "
-"eraill o bryfed, a gellir ei ddefnyddio hefyd ar gyfer unrhyw bryfed na "
-"allwch eu rhoi mewn grŵp o gwbl. Cyfrwch bob pryf a welwch, a defnyddio "
-"\"pryfed eraill\" ar gyfer unrhyw rai nad ydych chi'n eu hadnabod. Er "
-"enghraifft, caiff llifbryfed eu cyfrif fel \"pryfed eraill\". Mae'r llifbryf"
-" yn perthyn i'r gwenyn a'r gwenyn meirch, ond mae nifer o wahaniaethau."
-
-# Other insect 2 screen content
-msgid ""
-"True bugs have wings that overlap, so there is no clear midline along the "
-"abdomen – the wings form a X-shape"
-msgstr ""
-"Mae gan bryfed yn urdd Hemiptera ('true bugs' yn Saesneg) adenydd sy'n "
-"gorgyffwrdd, felly nid oes llinell ganol glir ar hyd yr abdomen – mae'r "
-"adenydd yn creu siâp X."
-
-# Other insect 2 screen content
-msgid ""
-"Some bugs have a more-or-less triangular “scutellum” covering part of the "
-"abdomen, and adding to the X-shape effect"
-msgstr ""
-"Mae gan rai aelodau o'r grŵp hwn \"sgwtelwm\" trionglog yn gorchuddio rhan "
-"o'r abdomen, ac sy'n ychwanegu at effaith y siâp X"
-
-# Other insect 2 screen content
-msgid ""
-"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
-"this is usually hidden away underneath the bug)"
-msgstr ""
-"Mae gan aelodau'r grŵp hwn rannau sugno yn eu cegau, a thrwnc neu rostrwm "
-"hir (ond fel arfer mae wedi'i guddio o dan y pryfyn)"
-
-# Other insect 2 screen content
-msgid ""
-"Some bugs are very colourful, while others are shades or green or brown"
-msgstr "Mae rhai yn lliwgar iawn, ac eraill yn wyrdd neu'n frown"
-
-# Other insect 2 screen content
-msgid ""
-"True bugs do not often visit flowers but you may encounter them "
-"occasionally, and if so they are counted in the “other insects” category. "
-"They are sometimes confused with beetles."
-msgstr ""
-"Nid yw pryfed yn urdd Hemiptera yn ymweld yn aml â blodau, ond efallai y "
-"gwelwch nhw weithiau, ac os gwnewch chi, rhowch nhw yn y categori \"pryfed "
-"eraill\". Weithiau mae pobl yn drysu rhwng y rhain a chwilod."
 
 # From survey pages
 #: UK BR CL CY AR
@@ -1937,35 +1324,43 @@ msgid "Other"
 msgstr "Arall"
 
 # From survey pages
+#: interface
 msgid "Note: it will remain in the gallery."
 msgstr "Noder: bydd yn aros yn yr oriel."
 
 # From survey pages
+#: interface
 msgid "Oops! Something went wrong."
 msgstr "Wps! Mae rhywbeth wedi mynd o'i le."
 
 # From survey pages
+#: interface
 msgid "This is the error event id: {{eventId}}"
 msgstr "Dyma rif adnabod yr achos o wall: {{eventId}}"
 
 # From survey pages
+#: interface
 msgid "What is the <1>sky</1> above your location?"
 msgstr "Sut mae'r <1>awyr</1> uwch ben eich lleoliad?"
 
 # From survey pages
+#: interface
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 msgstr ""
 "Faint o <1>haul</1> oedd ar eich llain yn ystod y Cyfrif FIT? Oedd y llain:"
 
 # From survey pages
+#: interface
 msgid "What was the <1>wind</1> strength?"
 msgstr "Beth oedd cryfder y <1>gwynt</1>?"
 
 # Button label
+#: interface
 msgid "Upload"
 msgstr "Llwytho i fyny"
 
 # Context term
+#: interface
 msgid ""
 "If you don't know which insect group, add to the \"Other insects\" category."
 msgstr ""
@@ -1973,10 +1368,12 @@ msgstr ""
 "eraill\"."
 
 # Logout message
+#: interface
 msgid "Are you sure you want to logout?"
 msgstr "Ydych chi'n sicr eich bod am allgofnodi?"
 
 # Logout message
+#: interface
 msgid "Discard local data"
 msgstr "Diddymu'r data lleol"
 
@@ -2041,34 +1438,42 @@ msgid "Hummingbirds"
 msgstr ""
 
 # Survey back button label
+#: interface
 msgid "Insect"
 msgstr "Pryf"
 
 # Survey back button label
+#: interface
 msgid "Location"
 msgstr "Lleoliad"
 
 # Survey back button label
+#: interface
 msgid "Count"
 msgstr "Cyfrif"
 
 # Survey back button label
+#: interface
 msgid "Cover"
 msgstr "Gorchudd"
 
 # Survey back button label
+#: interface
 msgid "Patch"
 msgstr "Llain"
 
 # Survey back button label
+#: interface
 msgid "Sky"
 msgstr "Awyr"
 
 # Survey back button label
+#: interface
 msgid "Shade"
 msgstr "Cysgod"
 
 # Alert message at the end of survey
+#: interface
 msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
 " populations."
@@ -2077,6 +1482,7 @@ msgstr ""
 "fonitro poblogaethau pryfed."
 
 # Alert message at the end of survey
+#: interface
 msgid ""
 "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
@@ -2087,123 +1493,153 @@ msgstr ""
 "<6>{{averageInsectCountForThisMonth}}</6> o bryfed y cyfrif."
 
 # Alert message at the end of survey - non UK
+#: interface
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
 msgstr ""
 
 # Alert message at the end of survey
+#: interface
 msgid "Go Home"
 msgstr "Mynd Adref"
 
 # Settings page divider label
+#: interface
 msgid "User"
 msgstr "Defnyddiwr"
 
 # User registration identification experience button label
+#: interface
 msgid "Done"
 msgstr "Wedi gorffen"
 
 # User registration "Happy to be contacted" label
+#: interface
 msgid "Happy to be contacted"
 msgstr "Yn hapus i chi gysylltu â fi"
 
 # Delete survey alert message
+#: interface
 msgid "Are you sure you want to delete this survey?"
 msgstr "Ydych chi'n sicr eich bod am ddileu'r arolwg hwn?"
 
 # App version
+#: interface
 msgid "App version"
 msgstr "Fersiwn yr ap"
 
 # Month name
+#: interface
 msgid "January"
 msgstr "Ionawr"
 
 # Month name
+#: interface
 msgid "February"
 msgstr "Chwefror"
 
 # Month name
+#: interface
 msgid "March"
 msgstr "Mawrth"
 
 # Month name
+#: interface
 msgid "April"
 msgstr "Ebrill"
 
 # Month name
+#: interface
 msgid "May"
 msgstr "Mai"
 
 # Month name
+#: interface
 msgid "June"
 msgstr "Mehefin"
 
 # Month name
+#: interface
 msgid "July"
 msgstr "Gorffennaf"
 
 # Month name
+#: interface
 msgid "August"
 msgstr "Awst"
 
 # Month name
+#: interface
 msgid "September"
 msgstr "Medi"
 
 # Month name
+#: interface
 msgid "October"
 msgstr "Hydref"
 
 # Month name
+#: interface
 msgid "November"
 msgstr "Tachwedd"
 
 # Month name
+#: interface
 msgid "December"
 msgstr "Rhagfyr"
 
 # A label part of user surveys page
+#: interface
 msgid "Insects"
 msgstr "Pryfed"
 
 # A label part of user surveys page
+#: interface
 msgid "Survey"
 msgstr "Arolwg"
 
 # Survey upload process alert message
+#: interface
 msgid "Sorry, your account hasn't been verified yet or is blocked."
 msgstr ""
 "Yn anffodus, nid yw eich cyfrif wedi'i wirio eto, neu mae wedi'i atal."
 
 # Survey upload process alert message
+#: interface
 msgid "Please log in first."
 msgstr "Mewngofnodwch yn gyntaf."
 
 # Survey upload process alert message
+#: interface
 msgid "Looks like you are offline!"
 msgstr "Dydych chi ddim i weld ar-lein!"
 
 # Survey remove photo alert message
+#: interface
 msgid "Are you sure you want to remove this photo?"
 msgstr "Ydych chi'n siŵr eich bod am ddileu'r llun hwn?"
 
 # Failed to upload image message
+#: interface
 msgid "Sorry, we couldn't get the image."
 msgstr "Yn anffodus, doedd hi ddim yn bosib i ni gael y ddelwedd."
 
 # ID guide title
+#: interface
 msgid "Pollinator Groups"
 msgstr "Grwpiau Peillwyr"
 
 # Menu page label
+#: interface
 msgid "Terms and Conditions"
 msgstr "Telerau ac Amodau"
 
 # Survey required label
+#: interface
 msgid "required"
 msgstr "gofynnol"
 
 # About page content
+#: interface
 msgid ""
 "FIT Counts are suitable for all, in urban or rural locations, and can be "
 "done at any time during the FIT Count season – see the quick guide <1></1> "
@@ -2214,6 +1650,7 @@ msgstr ""
 "canllaw cyflym <1></1> i weld y tymor yn eich gwlad chi."
 
 # About page content
+#: interface
 msgid ""
 "An increasing amount of evidence suggests that pollinator species diversity "
 "has declined in many parts of the world, with the strongest evidence coming "
@@ -2233,6 +1670,7 @@ msgstr ""
 "palod a gwyfynod, gwenyn meirch."
 
 # About page content
+#: interface
 msgid ""
 "The FIT Count was originally developed through the UK Pollinator Monitoring "
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
@@ -2244,6 +1682,7 @@ msgstr ""
 "monitro peillwyr:"
 
 # About page content
+#: interface
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
 "and can be contacted <1>here</1>."
@@ -2252,14 +1691,17 @@ msgstr ""
 "y DU, a gellir cysylltu â'r prosiect <1>yma</1>."
 
 # Credits page content
+#: interface
 msgid "This app has been created by the"
 msgstr "Crëwyd yr ap hwn gan y "
 
 # Credits page content
+#: interface
 msgid "with technical development by"
 msgstr "gyda gwaith datblygu technegol gan "
 
 # Credits page content
+#: interface
 msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
@@ -2268,74 +1710,92 @@ msgstr ""
 "prosiectau peillwyr hyn ar draws y byd"
 
 # Survey validation message
+#: interface
 msgid "Please add at least 1 photo."
 msgstr "Rhowch un ffotograff o leiaf."
 
 # Survey validation message
+#: interface
 msgid "Flower number is a required field."
 msgstr "Mae'n rhaid rhoi nifer y blodau."
 
 # Survey validation message
+#: interface
 msgid "Flower type is a required field."
 msgstr "Mae'n rhaid rhoi'r math o flodyn."
 
 # Survey validation message
+#: interface
 msgid "Survey incomplete"
 msgstr "Arolwg heb ei gwblhau"
 
 # Survey validation message
+#: interface
 msgid "Habitat \"Other\" is a required field."
 msgstr "Mae'n rhaid rhoi math \"Arall\" o gynefin."
 
 # Survey validation message
+#: interface
 msgid "Flower \"Other\" is a required field."
 msgstr "Mae'n rhaid rhoi math \"Arall\" o flodyn."
 
 # Menu path adress
+#: interface
 msgid "privacy-notice"
 msgstr "hysbysiad-preifatrwydd"
 
 # Menu path adress
+#: interface
 msgid "terms"
 msgstr "telerau"
 
 # Location name search on a map
+#: interface
 msgid "Search for a location..."
 msgstr "Chwiliwch am leoliad..."
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Enjoying the app?"
 msgstr "Ydych chi’n mwynhau’r ap?"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Not really"
 msgstr "Dim felly"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Yes!"
 msgstr "Ydw!"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Would you mind giving us some feedback?"
 msgstr "Fyddech chi’n fodlon rhoi rhywfaint o adborth i ni?"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "No, thanks"
 msgstr "Dim diolch"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "OK, sure"
 msgstr "Dim problem"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "How about a rating on the App Store then?"
 msgstr "Beth am adael sgôr i ni yn yr App Store te?"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "How about a rating on the Play Store then?"
 msgstr "Beth am adael sgôr i ni yn y Play Store te?"
 
 # Shown when tapping an uploaded survey
+#: interface
 msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
@@ -2343,229 +1803,58 @@ msgstr ""
 "I weld eich data Cyfrif FIT ar ôl i chi ei lwytho i fyny, ewch i wefan y "
 "prosiect ar gyfer eich gwlad chi, os oes un ar gael (e.e. <2>UK PoMS</2>)"
 
-# extraText
+# photos intro_text
+#: UK CY
+msgid ""
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+"Mae gwenyn mêl yn fwy na'r rhan fwyaf (ond nid pob un) o wenyn unig, ac "
+"maent yn llai na'r rhan fwyaf o gacwn."
+
+# photos caption_1
+#: UK CY BR
+msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
+msgstr "Teimlyddion hir a thenau, ar ongl yn aml fel siâp 'penelin'"
+
+# photos caption_2
+#: UK CY BR
+msgid "Eyes covering the sides of the head"
+msgstr "Llygaid yn gorchuddio ochrau'r pen"
+
+# photos caption_3
+#: UK CY BR
+msgid "Hind legs broad and flattened"
+msgstr "Y coesau ôl yn llydan ac yn fflat"
+
+# photos caption_4
+#: UK CY BR
+msgid "Abdomen can vary from mostly dark to mostly orange"
+msgstr "Gall yr abdomen amrywio o bennaf dywyll i bennaf oren"
+
+# photos caption_5
+#: UK CY BR
+msgid "Long narrow cell in veins at edge of wing"
+msgstr "Cell hir a chul yn y gwythiennau ar ymyl yr adain"
+
+# photos extraText
+#: UK
+msgid ""
+"There is just one species of honeybee in the UK. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+"Dim ond un rhywogaeth o wenyn mêl sydd i'w chael yn y Deyrnas Unedig. Maent "
+"yn nythu mewn cychod gwenyn gwneud, ac mae ambell i nyth yn sefydlu yn y "
+"gwyllt."
+
+# photos extraText
+#: CY
 msgid ""
 "There is just one species of honeybee. They nest in artificial hives,with "
 "occasional colonies establishing in the wild."
 msgstr ""
 
-# extraText
-msgid ""
-"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
-"not hover. There are two species in Cyprus."
-msgstr ""
-
-# extraText
-msgid ""
-"Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 369 species in Cyprus."
-msgstr ""
-
-# caption_1
-msgid ""
-"Some solitary bees collect dry pollen into a pollen basket at the base of "
-"the hind legs (bee on the left above)"
-msgstr ""
-
-# caption_2
-msgid ""
-"Others have the pollen basket underneath their abdomen (bee on the right "
-"above)"
-msgstr ""
-
-# caption_1
-msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
-msgstr ""
-
-# caption_2
-msgid ""
-"Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they "
-"have bee-like hairs on part of their body. Most bees of this genus are "
-"similar in shape and with a mix of black, red and yellow colours. This "
-"species is not belonging to the biodiversity of Cyprus (example from the "
-"entomofauna of UK) "
-msgstr ""
-
-# caption_3
-msgid ""
-"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
-"Some species are among the smallest in size solitary bees, at around 3mm "
-"long. "
-msgstr ""
-
-# caption_4
-msgid ""
-"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
-"on the abdomen. This species is not belonging to the biodiversity of Cyprus "
-"(example from the entomofauna of UK)"
-msgstr ""
-
-# caption_3
-msgid ""
-"Social wasps and some of the solitary species have bold black and yellow "
-"stripes"
-msgstr ""
-
-# extraText
-msgid ""
-"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
-"pollen baskets. There are about 52 species of hoverfly in Cyprus."
-msgstr ""
-
-# caption_1
-msgid ""
-"Drone-fly hoverflies have much shorter antennae than honeybees. This species"
-" is not belonging to the biodiversity of Cyprus (example from the "
-"entomofauna of Greece) "
-msgstr ""
-
-# caption_1
-msgid ""
-"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
-"is a good mimic of hornets, but note the short antennae (example from the "
-"entomofauna of Greece)"
-msgstr ""
-
-# caption_2
-msgid ""
-"A few species have extended ‘noses’ – this one is <i>Eristalinus "
-"taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
-"The compound eyes have five distinct, vertical, dark stripes. "
-msgstr ""
-
-# caption_1
-msgid "This is a dance fly (family Empididae). "
-msgstr ""
-
-# caption_1
-msgid ""
-"This is a dance fly (family Empididae). This species is not belonging to the"
-" biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr ""
-
-# caption_4
-msgid ""
-"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
-" seen on flowers. This species is not belonging to the biodiversity of "
-"Cyprus (example from the entomofauna of UK)"
-msgstr ""
-
-# caption_1
-msgid ""
-"This is a parasitic fly from family Tachinidae. This species is not "
-"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr ""
-
-# caption_3
-msgid ""
-"This is the Yellow Dung-fly (family Scathophagidae). This species is not "
-"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr ""
-
-# caption_1
-msgid "Painted Lady butterfly"
-msgstr ""
-
-# caption_1
-msgid "Six-spot Burnet moth (a macro-moth) (UK example shown)"
-msgstr ""
-
-# caption_2
-msgid "Micro-moths"
-msgstr ""
-
-# caption_1
-msgid ""
-"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
-" very abundant on flowers in mid-summer (UK example shown)"
-msgstr ""
-
-# caption_2
-msgid ""
-"The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
-"large nocturnal species - larvae live in decaying wood "
-msgstr ""
-
-# caption_1
-msgid ""
-"This example shows a flower with many pollen beetles (family Nitidulidae) "
-"and other “small insects” which may include tiny flies and parasitic wasps"
-msgstr ""
-
-# caption_4
-msgid ""
-"They are usually quite slow-moving, with a weaker flight than bees or wasps "
-"(UK example shown)"
-msgstr ""
-
-# caption_2
-msgid ""
-"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
-"they have bee-like hairs on part of their body, and most are similar in "
-"shape and with a mix of black, red and yellow colours (UK example shown) "
-msgstr ""
-
-# caption_4
-msgid ""
-"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
-"on the abdomen (UK example shown)"
-msgstr ""
-
-# caption_1
-msgid ""
-"Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
-"shown) "
-msgstr ""
-
-# caption_1
-msgid ""
-"The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
-"hoverfly species and is a good mimic of hornets, but note the short antennae"
-" (example from Greece shown) "
-msgstr ""
-
-# caption_2
-msgid ""
-"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
-" a widespread species with a distinctive grey and orange colour (UK example "
-"shown)"
-msgstr ""
-
-# caption_1
-msgid "This is a dance fly (family Empididae, photo from the UK)"
-msgstr ""
-
-# caption_4
-msgid ""
-"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
-" seen on flowers (UK example shown)"
-msgstr ""
-
-# caption_1
-msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
-msgstr ""
-
-# caption_3
-msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
-msgstr ""
-
-# caption_1
-msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
-msgstr ""
-
-# caption_1
-msgid ""
-"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
-" very abundant on flowers in mid-summer "
-msgstr ""
-
-# caption_2
-msgid ""
-"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
-"– larvae live in decaying wood"
-msgstr ""
-
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Honeybees are known in Brazil as “european bees” or “africanized bees”. "
@@ -2573,7 +1862,107 @@ msgid ""
 "most bumblebees. Look out for:"
 msgstr ""
 
-# intro_text
+# photos caption_1
+#: UK CY BR
+msgid ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
+msgstr ""
+"Gweithwyr, sy'n fenywaidd, fydd y rhan fwyaf o'r gwenyn mêl a welwch, ac "
+"maent yn casglu paill yn belen wedi'i gwlychu ar y tu allan i'r coesau ôl"
+
+# photos extraText
+#: UK CY BR
+msgid "Male honeybees (drones) are similar but have much larger eyes."
+msgstr ""
+"Mae gwenyn mêl gwrywaidd (gwenyn gormes) yn debyg ond mae eu llygaid yn "
+"llawer mwy."
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Bumblebees are very rounded and furry bees. The queens are among our largest"
+" bees; workers can be quite small, but are larger than most solitary bees."
+msgstr ""
+"Mae cacwn ('bumblebee' yn Saesneg) yn wenyn blewog a chrwn iawn. Mae'r "
+"frenhines yn un o'n gwenyn mwyaf; gall y gweithwyr fod yn eithaf bach, ond "
+"maent yn fwy na'r rhan fwyaf o wenyn unig."
+
+# photos caption_1
+#: UK CY BR
+msgid "Very hairy / fluffy bees"
+msgstr "Gwenyn blewog / fflwffog iawn"
+
+# photos caption_2
+#: UK CY BR
+msgid ""
+"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
+"visiting flowers"
+msgstr ""
+"Siâp crwn, globylog bron, gyda'r gynffon wedi'i 'phlygu oddi tani' yn aml "
+"wrth ymweld â blodau"
+
+# photos caption_4
+#: UK CY
+msgid ""
+"Many species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be ginger all over"
+msgstr ""
+"Mae gan lawer o rywogaethau fandiau lliw gwrthgyferbyniol syml (melyn, gwyn,"
+" du), a gall eraill fod yn oren drostynt i gyd"
+
+# photos caption_5
+#: UK CY
+msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
+msgstr ""
+"Mae'r llygaid yn gorchuddio ochrau'r pen, ac mae llawer o flew rhwng y "
+"llygaid"
+
+# photos extraText
+#: UK
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 24 species in the UK."
+msgstr ""
+"Mae cacwn yn hedfan mewn ffordd ychydig yn herciog, ac nid ydynt yn hofran. "
+"Mae 24 o rywogaethau yn y Deyrnas Unedig."
+
+# photos caption_1
+#: UK CY
+msgid ""
+"Queen and worker bumblebees collect pollen into a moistened ball on the "
+"outside of the hind legs"
+msgstr ""
+"Mae brenhines a gweithwyr y cacwn yn casglu paill yn belen, yn gwlychu'r "
+"belen ac yn ei chario ar du allan eu coesau ôl"
+
+# photos caption_2
+#: UK
+msgid ""
+"This bumblebee is one of the species that are more-or-less ginger-coloured "
+"all over"
+msgstr ""
+"Mae'r gacynen hon yn aelod o'r rhywogaeth sydd fwy neu lai yn oren drostynt "
+"i gyd"
+
+# photos extraText
+#: UK CY
+msgid ""
+"Male bumblebees are similar looking to females but have slightly longer "
+"antennae, and do not collect pollen. They visit flowers to feed on nectar."
+msgstr ""
+"Mae cacwn gwrywaidd yn debyg o ran edrychiad i'r benywod, ond mae eu "
+"teimlyddion ychydig yn hirach, ac nid ydynt yn casglu paill. Maent yn ymweld"
+" â blodau i fwydo ar neithdar."
+
+# photos extraText
+#: CY
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are two species in Cyprus."
+msgstr ""
+
+# photos intro_text
 #: BR
 msgid ""
 "Bumblebees are very rounded and mostly furry bees. The queens are among our "
@@ -2581,48 +1970,48 @@ msgid ""
 "bees. Look out for:"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid ""
 "Some species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be all black"
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
 "both with large bees. However, there are some difference, look out for:"
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid "<i>Bombus</i> has a round shape, with furry abdomen"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
@@ -2630,68 +2019,252 @@ msgid ""
 "lato”."
 msgstr ""
 
-# intro_text
+# photos intro_text
+#: UK CY
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"both bumblebees and honeybees. "
+msgstr ""
+"Mae gwenyn unig yn llai crwn na chacwn, ac mae'r rhan fwyaf yn llai eu maint"
+" na chacwn a gwenyn mêl hefyd."
+
+# photos caption_1
+#: UK CY BR
+msgid "Usually quite elongate in shape (but there is lots of variety)"
+msgstr "Fel arfer yn eithaf hir eu siâp (ond maent yn amrywio'n fawr)"
+
+# photos caption_2
+#: UK CY BR
+msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
+msgstr "Fel arfer yn flewog, ond yn aml mae'r blew yn llai trwchus na chacwn"
+
+# photos caption_3
+#: UK CY
+msgid "Colours usually more subdued and less contrasting than bumblebees"
+msgstr "Y lliwiau fel arfer yn wannach na chacwn gyda llai o wrthgyferbyniad"
+
+# photos caption_4
+#: UK CY BR
+msgid "Long antennae, often held straight out in front"
+msgstr "Teimlyddion hir, yn aml yn pwyntio'n syth allan"
+
+# photos caption_5
+#: UK CY
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees"
+msgstr ""
+"Yn llai na brenhines cacwn, ond mae'r mwyaf o'r rhai unig yn fwy na "
+"gweithwyr cacwn bach"
+
+# photos extraText
+#: UK
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr ""
+"Mae gwenyn unig yn hedfan yn actif rhwng blodau, a weithiau maent yn "
+"gorweddian yn yr haul. Nid yw'r rhan fwyaf o rywogaethau yn hofran. Mae tua "
+"250 o rywogaethau yn y Deyrnas Unedig."
+
+# photos extraText
+#: CY
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 369 species in Cyprus."
+msgstr ""
+
+# photos caption_1
+#: UK
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the mining bee on the left above)"
+msgstr ""
+"Mae rhai gwenyn unig yn casglu paill sych mewn basged paill ar waelod y "
+"coesau ôl (gweler y wenynen durio uchod ar y chwith)"
+
+# photos caption_2
+#: UK
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee on the right above)"
+msgstr ""
+"Mae gan eraill fasged paill o dan yr abdomen (gweler y wenynen ddeildorrol "
+"uchod ar y dde)"
+
+# photos extraText
+#: UK CY
+msgid ""
+"Solitary bees generally nest in burrows or holes. One large group, the "
+"mining bees, dig burrows into soil. Another group, including the mason bees "
+"and leafcutter bees, make use of holes in wood, plants or walls."
+msgstr ""
+"Ar y cyfan mae gwenyn unig yn nythu mewn tyllau. Mae un grŵp mawr, y gwenyn "
+"turio, yn gwneud tyllau yn y pridd. Mae grŵp arall, yn cynnwys y saerwenyn "
+"a'r gwenyn deildorrol, yn defnyddio tyllau mewn pren, planhigion neu waliau."
+
+# photos caption_1
+#: CY
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (bee on the left above)"
+msgstr ""
+
+# photos caption_2
+#: CY
+msgid ""
+"Others have the pollen basket underneath their abdomen (bee on the right "
+"above)"
+msgstr ""
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Among the many species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Some examples are shown above."
+msgstr ""
+"Ymysg y rhywogaethau niferus o wenyn unig, mae llawer o amrywiaeth o ran "
+"maint, lliw a pha mor flewog maen nhw. Mae rhai enghreifftiau i'w gweld "
+"uchod."
+
+# photos caption_1
+#: UK
+msgid ""
+"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+msgstr ""
+"Mae gan y math hwn o Wenynen Durio, <i>Andrena cineraria</i>, streipiau du a"
+" llwyd"
+
+# photos caption_2
+#: UK
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours"
+msgstr ""
+"Gall gwenyn yn y genws <i>Nomada</i> edrych yn debyg iawn i wenyn meirch, "
+"ond mae ganddynt flew tebyg i flew gwenyn ar ran o'u corff, ac mae'r rhan "
+"fwyaf yn debyg o ran siâp ac mae ganddynt gymysgedd o liwiau du, coch a "
+"melyn."
+
+# photos caption_3
+#: UK
+msgid ""
+"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
+"bees, at around 4mm long"
+msgstr ""
+"Mae'r wenynen hon o'r genws <i>Chelostoma</i> yn un o'r gwenyn unig lleiaf "
+"ac yn tua 4mm o hyd"
+
+# photos caption_4
+#: UK
+msgid ""
+"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
+"when fresh these bees have clear black and yellow stripes on the abdomen"
+msgstr ""
+"Ddiwedd yr haf mae'r wenynen hon, <i>Colletes hederae</i>, yn ymweld â "
+"blodau iorwg – pan maent yn ffres mae gan y gwenyn hyn streipiau du a melyn "
+"clir ar yr abdomen"
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “solitary bees”!"
+msgstr ""
+"Does dim angen i chi adnabod y rhywogaethau unigol i wneud Cyfrif FIT. Mae "
+"pob un yn cael ei chyfrif fel “gwenynen unig”!"
+
+# photos caption_1
+#: CY
+msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
+msgstr ""
+
+# photos caption_2
+#: CY
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours (UK example shown) "
+msgstr ""
+
+# photos caption_3
+#: CY
+msgid ""
+"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
+"Some species are among the smallest in size solitary bees, at around 3mm "
+"long. "
+msgstr ""
+
+# photos caption_4
+#: CY
+msgid ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen (UK example shown)"
+msgstr ""
+
+# photos intro_text
 #: BR
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "honeybees. Look out for:"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees. Some solitary bees measure up to 45mm."
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 3000 species in Brazil."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the bee on the left above)"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee from the Megachilidae family on the right above)"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Among the 3000 species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Here are some examples:"
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid ""
 "The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid ""
 "Bees from the Halictidae family are usually dark-coloured and often "
 "metallic."
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid ""
 "The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
@@ -2699,7 +2272,142 @@ msgid ""
 "nests."
 msgstr ""
 
-# extraText
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There are many different species of wasp, but the most familiar are the "
+"social wasps such as the one shown above."
+msgstr ""
+"Mae llawer o wahanol rywogaethau o wenyn meirch, ond y rhai mwyaf cyfarwydd "
+"yw'r gwenyn meirch cymdeithasol, fel yr un uchod."
+
+# photos caption_1
+#: UK CY BR
+msgid "Long antennae (distinguishes them from most flies)"
+msgstr "Teimlyddion hir (sy'n wahanol i'r rhan fwyaf o glêr)"
+
+# photos caption_2
+#: UK CY BR
+msgid ""
+"There are some hairs on the body, but wasps are usually much less dense and "
+"furry compared to bees"
+msgstr ""
+"Mae rhywfaint o flew ar y corff, ond fel arfer mae'r blew ar wenyn meirch yn"
+" llawer llai trwchus a fflwffog nag ar wenyn"
+
+# photos caption_3
+#: UK CY BR
+msgid ""
+"Social wasps and some of the solitary species have bold black and yellow "
+"stripes"
+msgstr ""
+
+# photos caption_4
+#: UK CY BR
+msgid "Some wasps have their wings rolled up when at rest"
+msgstr ""
+"Mae rhai gwenyn meirch yn rholio'u hadenydd i fyny pan maen nhw'n gorffwys"
+
+# photos caption_5
+#: UK CY BR
+msgid ""
+"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+msgstr ""
+"Mae gan wenyn meirch ganol main iawn nodweddiadol lle mae'r thoracs a'r "
+"abdomen yn cwrdd"
+
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There is a lot of variation in size, shape and markings among the solitary "
+"wasps. They are usually not obviously hairy, and since they do not collect "
+"pollen they have no pollen basket (although pollen may become stuck to their"
+" bodies)."
+msgstr ""
+"Mae llawer o amrywiaeth ymysg y gwenyn meirch unig o ran eu maint, eu siâp "
+"a'r marciau arnynt. Fel arfer nid ydynt yn amlwg flewog, ac am nad ydynt yn "
+"casglu paill, does dim basged paill ganddyn nhw (er gall paill lynu wrth eu "
+"cyrff)."
+
+# photos caption_1
+#: UK CY
+msgid "Many solitary wasps have a distinctive broad, boxy head shape"
+msgstr "Mae gan lawer o wenyn meirch unig siâp pen llydan amlwg fel bocs"
+
+# photos caption_2
+#: UK CY
+msgid "Some have typical black and yellow wasp stripes"
+msgstr "Mae gan rai streipiau du a melyn nodweddiadol y gwenyn meirch"
+
+# photos caption_3
+#: UK CY
+msgid "Others may be black and red, or all black as in this example"
+msgstr ""
+"Gall rhai eraill fod yn ddu a choch, neu'n gwbl ddu, fel yn yr enghraifft "
+"hwn"
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"Solitary wasps generally nest in burrows or holes, in a similar manner to "
+"the solitary bees."
+msgstr ""
+"Ar y cyfan mae gwenyn meirch unig yn nythu mewn tyllau, yn debyg i'r gwenyn "
+"unig."
+
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There are many different parasitic wasps, some of which visit flowers for "
+"nectar. Two examples are shown above."
+msgstr ""
+"Mae nifer o wahanol wenyn meirch parasitig, ac mae rhai ohonynt yn ymweld â "
+"blodau i gael neithdar. Mae dwy enghraifft i'w gweld uchod."
+
+# photos caption_1
+#: UK CY BR
+msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
+msgstr ""
+"Mae llawer o wenyn meirch parasitig yn denau a hir iawn, a'u canol yn "
+"arbennig o fain."
+
+# photos caption_2
+#: UK CY BR
+msgid ""
+"The majority of species have very long antennae, made up of lots of "
+"individual segments"
+msgstr ""
+"Mae gan y rhan fwyaf o rywogaethau deimlyddion hir iawn, wedi'u gwneud o "
+"lawer o adrannau unigol."
+
+# photos caption_3
+#: UK CY BR
+msgid ""
+"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
+"some species this is very long"
+msgstr ""
+"Gall fod gan fenyw y gwnenyn meirch parasitig wyddodydd miniog y mae'n ei "
+"ddefnyddio i ddodwy ei hwyau – mewn rhai rhywogaethau mae hwn yn hir iawn"
+
+# photos caption_4
+#: UK CY BR
+msgid ""
+"Colours are usually a mix of black and red or yellow – some species are all-"
+"black"
+msgstr ""
+"Fel arfer maent yn gymysgedd o ddu a choch neu felyn eu lliw – mae rhai "
+"rhywogaethau yn gyfan gwbl ddu"
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
+" the larvae of the wasps consume the host invertebrate."
+msgstr ""
+"Mae gwenyn meirch parasitig yn dodwy eu hwyau mewn infertebratau eraill, neu"
+" yn eu nythod, ac mae larfâu'r gwenyn meirch yn bwyta'r infertebrat lletyol."
+
+# photos extraText
 #: BR
 msgid ""
 "Wasps feed their young on captured prey (usually other insects), but adult "
@@ -2707,17 +2415,195 @@ msgid ""
 "solitary wasp species and parasitic wasp species."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Solitary wasp of the genus <i>Ammophila</i>"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Solitary wasp of the genus <i>Monobia</i>"
 msgstr ""
 
-# intro_text
+# photos intro_text
+#: UK CY
+msgid ""
+"Hoverflies are very active and agile flyers, and are frequently seen "
+"hovering, as you would expect from their name. "
+msgstr ""
+"Math o glêr yw pryfed hofran, yn perthyn i urdd Diptera. Mae pryfed hofran "
+"yn ehedwyr actif a chwim iawn, ac fe'i gwelir yn aml yn hofran, fel y "
+"byddech yn ei ddisgwyl yn ôl yr enw."
+
+# photos caption_1
+#: UK CY
+msgid ""
+"Large eyes, covering most of the head in males (as shown above) or with a "
+"small gap between the eyes at the top of the head in females"
+msgstr ""
+"Llygaid mawr, yn gorchuddio'r rhan fwyaf o'r pen yn y gwrywod (fel gwelir "
+"uchod) neu gyda bwlch bychan rhwng y llygaid ar dop y pen yn y benywod"
+
+# photos caption_2
+#: UK CY BR
+msgid "Most hoverflies have much shorter antennae than bees and wasps"
+msgstr ""
+"Mae gan y rhan fwyaf o bryfed hofran deimlyddion llawer byrrach na gwenyn a "
+"gwenyn meirch"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"In the wings there is a ‘false margin’ wing vein, running more-or-less "
+"parallel to the true edge of the wing"
+msgstr ""
+"Yn yr adenydd mae gwythïen ‘ymyl ffug’, sydd fwy neu lai'n gyfochrog â gwir "
+"ymyl yr adain"
+
+# photos caption_4
+#: UK CY BR
+msgid ""
+"Many hoverfly species have black and yellow stripes, but some are all dark "
+"or have other patterns"
+msgstr ""
+"Mae gan lawer o rywogaethau pryfed hofran streipiau du a melyn, ond mae rhai"
+" yn ddu drostynt i gyd neu mae ganddynt batrymau eraill arnynt"
+
+# photos caption_5
+#: UK CY BR
+msgid ""
+"Hoverflies are not usually as hairy as bees (but there are some "
+"exceptions!), and they do not usually have prominent bristles on the body "
+"(some other types of fly are obviously bristly)"
+msgstr ""
+"Fel arfer nid yw pryfed hofran mor flewog â gwenyn (ond mae rhai "
+"eithriadau!), ac fel arfer does ganddyn nhw ddim gwrych amlwg ar eu cyrff "
+"(mae rhai mathau eraill o glêr yn amlwg wrychog)"
+
+# photos extraText
+#: UK
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr ""
+"Mae pryfed hofran yn bwydo ar neithdar a phaill, ond nid ydynt yn casglu "
+"neithdar ac nid oes ganddynt fasgedi paill. Mae tua 285 o rywogaethau o "
+"bryfed hofran yn y Deyrnas Unedig."
+
+# photos extraText
+#: CY
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 52 species of hoverfly in Cyprus."
+msgstr ""
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Many hoverflies have the typical black and yellow markings, but there is "
+"quite a lot of variety in shape, size and marking among the full range of "
+"species. Some examples are shown above."
+msgstr ""
+"Mae gan nifer o bryfed hofran y marciau du a melyn nodweddiadol, ond mae "
+"cryn dipyn o amrywiaeth ymysg yr ystod lawn o rywogaethau o ran eu siâp, eu "
+"maint a'r marciau arnynt. Mae rhai enghreifftiau i'w gweld uchod."
+
+# photos caption_1
+#: UK
+msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
+msgstr ""
+"Mae gan bryfed hofran yn y genws <i>Eristalis</i>, sy'n debyg i wenyn "
+"gormes, deimlyddion llawer byrrach na gwenyn mêl"
+
+# photos caption_2
+#: UK CY
+msgid "The eyes cover more of the head"
+msgstr "Mae'r llygaid yn gorchuddio'r rhan fwyaf o'r pen"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"The back legs are much narrower than the broad flattened legs of honeybees"
+msgstr ""
+"Mae'r coesau ôl yn llawer teneuach na choesau llydan a fflat gwenyn mêl"
+
+# photos caption_4
+#: UK CY
+msgid "The typical ‘false margin’ wing vein is present"
+msgstr "Mae'r wythïen ‘ymyl ffug’ nodweddiadol i'w gweld ar yr adain"
+
+# photos caption_5
+#: UK CY
+msgid ""
+"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
+" of the wing"
+msgstr ""
+"Mae gan bryfed hofran yn y genws hwn 'ddolen' nodweddiadol yn y wythïen ger "
+"pen yr adain"
+
+# photos caption_1
+#: CY
+msgid ""
+"Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
+"shown) "
+msgstr ""
+
+# photos caption_1
+#: UK
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae"
+msgstr ""
+"Y math hwn o bryf hofran, <i>Volucella zonaria</i> yw'n pryf hofran mwyaf ac"
+" mae'n dda am efelychu gwenyn meirch mawr, ond sylwch ar y teimlyddion byr"
+
+# photos caption_2
+#: UK
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
+msgstr ""
+"Mae gan rai rhywogaethau ‘drwynau’ hir – <i>Rhingia campestris</i> yw hwn, "
+"sy'n rhywogaeth gyffredin a chanddi liw llwyd ac oren unigryw"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"A few hoverflies are very good bumblebee mimics – check the antennae to be "
+"sure they are not bumblebees!"
+msgstr ""
+"Mae rhai pryfed hofran yn dda iawn am efelychu cacwn – edrychwch ar y "
+"teimlyddion i wirio nad cacwn ydyn nhw!"
+
+# photos caption_4
+#: UK CY
+msgid ""
+"Some hoverflies are small and mostly dark in colour, but have the typical "
+"wing veins (if you can get close enough to see them) and in flight will "
+"hover like typical hoverflies"
+msgstr ""
+"Mae rhai pryfed hofran yn fach ac yn bennaf dywyll eu lliw, ond mae ganddynt"
+" y gwythiennau nodweddiadol ar eu hadenydd (os gallwch fynd yn ddigon agos "
+"i'w gweld nhw) ac wrth hedfan maen nhw'n hofran fel pryfed hofran "
+"nodweddiadol"
+
+# photos caption_1
+#: CY
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
+"hoverfly species and is a good mimic of hornets, but note the short antennae"
+" (example from Greece shown) "
+msgstr ""
+
+# photos caption_2
+#: CY
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour (UK example "
+"shown)"
+msgstr ""
+
+# photos intro_text
 #: BR
 msgid ""
 "There are many different flies that you may see visiting flowers. Hoverflies"
@@ -2725,40 +2611,40 @@ msgid ""
 "would expect from their name. Look out for:"
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Large eyes, covering most of the head"
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Other flies do not have the ability to hover. Two examples are shown above."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "This is a fly of the family Empididae"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Empididae flies have a long thin proboscis under the head"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid "Many Empididae flies have a distinctly humped thorax"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid ""
 "Some of the larger flies that you will see on flowers are from ‘calypterate’"
@@ -2766,14 +2652,195 @@ msgid ""
 " the legs and body. This is a parasitic fly from family Tachinidae"
 msgstr ""
 
-# extraText
+# photos caption_5
+#: BR UK CY
+msgid "It has prominent bristles on the abdomen"
+msgstr "Mae ganddi wrych amlwg ar ei habdomen"
+
+# photos extraText
 #: BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “flies”!"
 msgstr ""
 
-# intro_text
+# photos intro_text
+#: UK CY
+msgid ""
+"There are many different flies that you may see visiting flowers – for the "
+"FIT Count all you need to do is separate them into “hoverflies” and all "
+"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
+"but not many other flies have. Two examples of “other flies” are shown above"
+" and two on the next screen."
+msgstr ""
+"Gallwch weld nifer o wahanol fathau o glêr yn ymweld â blodau – ar gyfer y "
+"Cyfrif FIT dim ond eu gwahanu'n “bryfed hofran” a “chlêr” eraill mae angen i"
+" chi wneud! Peidiwch ag anghofio bod pryfed hofran yn gallu hofran, rhywbeth"
+" y gall rhai clêr eraill ei wneud, ond dim llawer ohonynt. Mae dwy "
+"enghraifft o “glêr” eraill i'w gweld uchod a dwy ar y sgrin nesaf."
+
+# photos caption_1
+#: UK
+msgid "This is a dance fly (family Empididae). "
+msgstr ""
+
+# photos caption_2
+#: UK CY
+msgid "Many dance flies have a long thin proboscis under the head"
+msgstr "Mae gan lawer o bryfed dawnsio drwnc hir a main o dan y pen"
+
+# photos caption_3
+#: UK CY
+msgid "Many dance flies have a distinctly humped thorax"
+msgstr "Mae gan lawer o bryfed dawnsio thoracs cefngrwm amlwg"
+
+# photos caption_4
+#: UK
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on hogweed and related flowers"
+msgstr ""
+"Pryf Milwrol Gwyrdd yw hwn (<i>Chloromyia formosa</i>), ac fe'i gwelir yn "
+"aml ar efwr a blodau tebyg"
+
+# photos caption_5
+#: UK CY
+msgid "The abdomen is broader and flatter than in hoverflies"
+msgstr "Mae'r abdomen yn lletach ac yn fwy fflat na mewn pryfed hofran"
+
+# photos caption_6
+#: UK CY
+msgid ""
+"The wing venation is different to hoverflies, with no ‘false margin’ wing "
+"vein parallel to the true edge of the wing"
+msgstr ""
+"Mae gwythieniad yr adenydd yn wahanol i bryfed hofran, ac nid oes gwythïen "
+"‘ymyl ffug’ yn gyfochrog â gwir ymyl yr adain"
+
+# photos caption_1
+#: CY
+msgid "This is a dance fly (family Empididae, photo from the UK)"
+msgstr ""
+
+# photos caption_4
+#: CY
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers (UK example shown)"
+msgstr ""
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body."
+msgstr ""
+"Mae rhai o'r clêr mwy a welwch ar flodau yn perthyn i deuluoedd y "
+"‘calypterate’, a'r rhan fwyaf o'r rhain yn bryfed eithaf crwn a chanddynt "
+"wrych amlwg ar eu coesau a'u cyrff."
+
+# photos caption_1
+#: UK
+msgid "This is a parasitic fly from family Tachinidae"
+msgstr "Cleren barasitig yw hon o'r teulu Tachinidae"
+
+# photos caption_3
+#: UK
+msgid "This is the Yellow Dung-fly (family Scathophagidae)"
+msgstr "Cleren Felen y Dom yw hon (teulu'r Scathophagidae)"
+
+# photos caption_4
+#: UK CY
+msgid ""
+"It has bristles on the body and legs, and the males in particular have "
+"fluffy yellow hairs on the body"
+msgstr ""
+"Mae ganddi wrych ar ei chorff a'i choesau, ac mae gan y gwrywod yn arbennig "
+"flew melyn fflwffog ar eu cyrff"
+
+# photos caption_1
+#: CY
+msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
+msgstr ""
+
+# photos caption_3
+#: CY
+msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
+msgstr ""
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+"Rydym yn gyfarwydd iawn â gweld pili-palod yn ymweld â blodau. Efallai ein "
+"bod yn sylwi ar wyfynod yn llai aml ond maen nhw hefyd yn ymweld â blodau'n "
+"rheolaidd, naill ai yn ystod y dydd neu yn y nos. Mae rhai gwyfynod (gweler "
+"y sgrin nesaf) yn eithaf bach ac maen bosib y byddwch yn anghofio amdanynt "
+"fel mathau eraill o bryfed."
+
+# photos caption_1
+#: UK
+msgid "Small Tortoiseshell butterfly"
+msgstr "Trilliw Bach"
+
+# photos caption_2
+#: UK CY
+msgid "Common Blue butterfly"
+msgstr "Y Glesyn Cyffredin"
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"For the FIT Count there is no need to distinguish between butterflies and "
+"moths – they are all counted in the same category."
+msgstr ""
+"Ar gyfer y Cyfrif FIT, does dim angen gwahaniaethu rhwng pili-palod a "
+"gwyfynod – maen nhw i gyd yn cael eu cyfrif o fewn yr un categori."
+
+# photos intro_text
+#: UK CY
+msgid ""
+"A range of day-flying moths can be seen visiting flowers. Some of these are "
+"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
+"moths”). All moths have patterns and colours produced by the tiny scales on "
+"their wings."
+msgstr ""
+"Gellir gweld amrywiaeth o wyfynod sy'n hedfan yn y dydd yn ymweld â blodau. "
+"Mae rhai o'r rhain yn eithaf mawr (“gwyfynod mawr”) a lliwgar, ac mae rhai "
+"yn fach iawn (“gwyfynod bach”). Mae gan yr holl wyfynod batrymau a lliwiau "
+"sy'n cael eu cynhyrchu gan y cennau pitw bach ar eu hadenydd."
+
+# photos caption_1
+#: UK
+msgid "Six-spot Burnet moth (a macro-moth)"
+msgstr "Bwrned chwe smotyn (gwyfyn mawr)"
+
+# photos caption_2
+#: UK
+msgid "Nettle-tap moth (a micro-moth)"
+msgstr "Gwyfyn o'r genws <i>Anthophila</i> (gwyfyn bach)"
+
+# photos caption_1
+#: CY
+msgid "Painted Lady butterfly"
+msgstr ""
+
+# photos caption_1
+#: CY
+msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
+msgstr ""
+
+# photos caption_2
+#: CY
+msgid "Micro-moths"
+msgstr ""
+
+# photos intro_text
 #: BR
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
@@ -2781,98 +2848,202 @@ msgid ""
 "night."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
 msgstr ""
 
-# caption_3
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There are relatively few beetle species that visit flowers, but those that "
+"do can be very abundant. The different species vary a lot in size, shape and"
+" colour, but can be recognised as beetles by the hard wing cases covering "
+"their abdomen."
+msgstr ""
+"Cymharol brin yw'r rhywogaethau o chwilod sy'n ymweld â blodau, ond mae'r "
+"rhai sy'n gwneud yn gallu bod yn doreithiog iawn. Mae'r gwahanol "
+"rywogaethau'n amrywio'n fawr o ran eu maint, eu siâp a'u lliw, ond gellir eu"
+" hadnabod fel chwilod oherwydd y cistiau adenydd caled sy'n gorchuddio'r "
+"abdomen."
+
+# photos caption_1
+#: UK CY BR
+msgid ""
+"Beetles have forewings that have become hardened and act as covers for the "
+"softer hindwings and abdomen"
+msgstr ""
+"Mae gan chwilod adenydd blaen sydd wedi caledu ac sy'n gweithio fel gorchudd"
+" ar gyfer yr adenydd ôl mwy meddal a'r abdomen"
+
+# photos caption_2
+#: UK CY BR
+msgid "Beetles have chewing mouthparts"
+msgstr "Mae gan chwilod rannau cnoi yn eu cegau"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
+"which the males have distinctive thickened hind legs"
+msgstr ""
+"Chwilen o'r enw <i>Oedemera nobilis</i> yw hon, ac mae gan y gwrywod goesau "
+"ôl tew amlwg"
+
+# photos intro_text
+#: UK CY
+msgid "Above are two more examples of beetles that regularly visit flowers."
+msgstr "Uchod mae dwy enghraifft o chwilen sy'n ymweld â blodau'n aml."
+
+# photos caption_1
+#: UK
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer"
+msgstr ""
+"Chwilen o'r enw <i>Rhagonycha fulva</i> gyda'r pig ar gas ei hadenydd yn ddu"
+" – toreithiog iawn ar flodau ganol yr haf"
+
+# photos caption_2
+#: UK
+msgid ""
+"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
+" larvae live in decaying wood"
+msgstr ""
+"Chwilen fawr o'r enw <i>Rutpela maculata</i> – mae'r larfâu'n byw mewn pren "
+"sy'n pydru"
+
+# photos caption_1
+#: CY
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer "
+msgstr ""
+
+# photos caption_2
+#: CY
+msgid ""
+"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
+"– larvae live in decaying wood"
+msgstr ""
+
+# photos caption_3
 #: BR
 msgid ""
 "This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
 " similar species by the rounded margins of the forewings"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid "Another example of beetle that visits flowers:"
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid ""
 "<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
 " occurs in Brazil"
 msgstr ""
 
-# intro_text
+# photos intro_text
+#: UK BR CY
+msgid ""
+"This category is for any insects under 3mm long. These can be hard to assign"
+" to a particular group without peering at them closely (which would disturb "
+"other insects visiting the flowers). Just count them (or estimate them if "
+"there is a large number) and assign them all to this category."
+msgstr ""
+"Mae'r categori hwn ar gyfer unrhyw bryfed sy'n llai na 3mm o hyd. Gall fod "
+"yn anodd gwybod pa grŵp i roi'r rhain ynddo heb edrych yn agos iawn arnynt "
+"(a fyddai'n tarfu ar bryfed eraill sy'n ymweld â'r blodau). Cyfrwch nhw (neu"
+" ddyfalu eu nifer os oes nifer fawr) a rhowch nhw i gyd yn y categori hwn."
+
+# photos caption_1
+#: UK BR
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) – "
+"other “small insects” may include tiny flies and parasitic wasps"
+msgstr ""
+"Mae'r enghraifft hon yn dangos blodyn â nifer o chwilod paill (o'r teulu "
+"Nitidulidae) – gall “pryfed bychain” eraill gynnwys clêr pitw bach a gwenyn "
+"meirch parasitig"
+
+# photos caption_1
+#: BR CY
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) "
+"and other “small insects” which may include tiny flies and parasitic wasps"
+msgstr ""
+
+# photos intro_text
 #: BR
 msgid ""
 "Stingless bees are group of social bees with high diversity. Species may be "
 "small or large as honeybees."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Lack of functional sting"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Reduced wing venation"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid "Pollen baskets for carrying pollen"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "There are more than 240 species of stingless bees in Brazil, with different "
 "sizes and colour patterns."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "The genus <i>Melipona</i> shows robusts and furry bees"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid ""
 "The genus <i>Plebeia</i> includes small species and are known as “mirim”"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid "Melipona quadrifasciata, also known as “mandaçaia”"
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “stingless bees”!"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Orchid bees are very colorful (green, purple, blue, red, or brassy) and "
@@ -2882,30 +3053,30 @@ msgid ""
 "are large and robust."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Males have enlarged tibias on their hind legs."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Females rarely visit orchid flowers and use other species as food source."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Females have pollen baskets on their hind legs."
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid ""
 "Sometimes is possible to observe their long tongues while they are grooming "
 "and/or flying."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
@@ -2913,14 +3084,14 @@ msgid ""
 "America to South America."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Hummingbirds are birds native to the Americas and comprise the biological "
@@ -2932,15 +3103,116 @@ msgid ""
 "other colors, as well."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
 msgstr ""
+
+# photos intro_text
+#: UK BR CY
+msgid ""
+"This category is for any insects that don’t fit into the other insect "
+"groups, and can also be used for any insects that you can’t identify into a "
+"group at all. Please count all the insects you see, and use “other insects” "
+"for any that you don’t recognise. For example, sawflies are counted as "
+"“other insects”. Sawflies are related to bees and wasps but there are a "
+"number of differences."
+msgstr ""
+"Mae'r categori hwn ar gyfer unrhyw bryfed sydd ddim yn ffitio yn y grwpiau "
+"eraill o bryfed, a gellir ei ddefnyddio hefyd ar gyfer unrhyw bryfed na "
+"allwch eu rhoi mewn grŵp o gwbl. Cyfrwch bob pryf a welwch, a defnyddio "
+"\"pryfed eraill\" ar gyfer unrhyw rai nad ydych chi'n eu hadnabod. Er "
+"enghraifft, caiff llifbryfed eu cyfrif fel \"pryfed eraill\". Mae'r llifbryf"
+" yn perthyn i'r gwenyn a'r gwenyn meirch, ond mae nifer o wahaniaethau."
+
+# photos caption_1
+#: UK BR CY
+msgid ""
+"Other insects you may see include sawflies, which come in a variety of "
+"colours and sizes - some look rather like wasps"
+msgstr ""
+"Ymysg y pryfed eraill y gallech eu gweld mae'r llifbrif, sy'n dod mewn "
+"amrywiaeth o feintiau a lliwiau - mae rhai yn edrych yn eithaf tebyg i wenyn"
+" meirch"
+
+# photos caption_2
+#: UK BR CY
+msgid ""
+"They do not have a “wasp waist” – there is no gap between the abdomen and "
+"thorax"
+msgstr ""
+"Nid oes canol main ganddynt fel gwenyn meirch – nid oes bwlch rhwng yr "
+"abdomen a'r thoracs"
+
+# photos caption_3
+#: UK BR CY
+msgid "Sawflies are not hairy and do not have a pollen basket"
+msgstr "Nid yw'r llifbryf yn flewog ac nid oes ganddo fasged paill"
+
+# photos caption_4
+#: UK
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps"
+msgstr ""
+"Maen nhw'n symud yn eithaf araf fel arfer, ac yn hedfan yn fwy gwan na "
+"gwenyn neu wenyn meirch"
+
+# photos caption_4
+#: BR CY
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps "
+"(UK example shown)"
+msgstr ""
+
+# photos intro_text
+#: UK BR CY
+msgid ""
+"True bugs do not often visit flowers but you may encounter them "
+"occasionally, and if so they are counted in the “other insects” category. "
+"They are sometimes confused with beetles."
+msgstr ""
+"Nid yw pryfed yn urdd Hemiptera yn ymweld yn aml â blodau, ond efallai y "
+"gwelwch nhw weithiau, ac os gwnewch chi, rhowch nhw yn y categori \"pryfed "
+"eraill\". Weithiau mae pobl yn drysu rhwng y rhain a chwilod."
+
+# photos caption_1
+#: UK BR CY
+msgid ""
+"True bugs have wings that overlap, so there is no clear midline along the "
+"abdomen – the wings form a X-shape"
+msgstr ""
+"Mae gan bryfed yn urdd Hemiptera ('true bugs' yn Saesneg) adenydd sy'n "
+"gorgyffwrdd, felly nid oes llinell ganol glir ar hyd yr abdomen – mae'r "
+"adenydd yn creu siâp X."
+
+# photos caption_2
+#: UK BR CY
+msgid ""
+"Some bugs have a more-or-less triangular “scutellum” covering part of the "
+"abdomen, and adding to the X-shape effect"
+msgstr ""
+"Mae gan rai aelodau o'r grŵp hwn \"sgwtelwm\" trionglog yn gorchuddio rhan "
+"o'r abdomen, ac sy'n ychwanegu at effaith y siâp X"
+
+# photos caption_3
+#: UK BR CY
+msgid ""
+"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
+"this is usually hidden away underneath the bug)"
+msgstr ""
+"Mae gan aelodau'r grŵp hwn rannau sugno yn eu cegau, a thrwnc neu rostrwm "
+"hir (ond fel arfer mae wedi'i guddio o dan y pryfyn)"
+
+# photos caption_4
+#: UK BR CY
+msgid ""
+"Some bugs are very colourful, while others are shades or green or brown"
+msgstr "Mae rhai yn lliwgar iawn, ac eraill yn wyrdd neu'n frown"
 
 # name
 #: BR

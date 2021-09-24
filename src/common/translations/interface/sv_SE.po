@@ -17,18 +17,22 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 
 # Button title
+#: interface
 msgid "Back"
 msgstr "Tillbaka"
 
 # App toolbar label
+#: interface
 msgid "Menu"
 msgstr "Meny"
 
 # App toolbar label
+#: interface
 msgid "About"
 msgstr "Om"
 
 # About page content
+#: interface
 msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
@@ -37,130 +41,161 @@ msgstr ""
 "samla uppgifter om antalet insekter som besöker blommor."
 
 # Menu page content
+#: interface
 msgid "Info"
 msgstr "Info"
 
 # Menu page content
+#: interface
 msgid "Privacy Policy"
 msgstr "Sekretess"
 
 # Menu page content
+#: interface
 msgid "Credits"
 msgstr "Tack"
 
 # Menu page content
+#: interface
 msgid "Settings"
 msgstr "Inställningar"
 
 # Menu page content
+#: interface
 msgid "Cymraeg"
 msgstr "Cymraeg"
 
 # Menu page content
+#: interface
 msgid "Language"
 msgstr "Språk"
 
 # Menu page content
+#: interface
 msgid "Country"
 msgstr "Land"
 
 # Menu page content
+#: interface
 msgid "Share App Analytics"
 msgstr "Dela data om app-användning"
 
 # Menu page content
+#: interface
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
 "Dela uppgifter om appen kraschar, för att hjälpa till att göra den mer "
 "stabil."
 
 # Credits page content
+#: interface
 msgid "We are grateful to all the people who helped to create this app:"
 msgstr "Vi är tacksamma för alla som hjälpt till att skapa den här appen."
 
 # Credits page content
+#: interface
 msgid "App design concepts"
 msgstr "Appens utformning"
 
 # Onboarding Page button label
+#: interface
 msgid "Got it!"
 msgstr "Jag förstår!"
 
 # ID Guide toolbar label
+#: interface
 msgid "ID Guide"
 msgstr "Bestämningshjälp"
 
 # ID Guide segment label
+#: interface
 msgid "Insect Groups"
 msgstr "Insektsgrupper"
 
 # ID Guide segment label
+#: interface
 msgid "Flowers"
 msgstr "Blommor"
 
 # Country page content
+#: interface
 msgid "Argentina"
 msgstr "Argentina"
 
 # Country page content
+#: interface
 msgid "Brazil"
 msgstr "Brasilien"
 
 # Country page content
+#: interface
 msgid "Chile"
 msgstr "Chile"
 
 # Country page content
+#: interface
 msgid "Cyprus"
 msgstr "Cypern"
 
 # Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Storbritannien"
 
 # Home page toolbar label
+#: interface
 msgid "Home"
 msgstr "Hem"
 
 # Home page button label
+#: interface
 msgid "Start Survey"
 msgstr "Börja räkningen"
 
 # Start survey alert message
+#: interface
 msgid "Discard"
 msgstr "Ta bort"
 
 # Start survey alert button label
+#: interface
 msgid "Continue"
 msgstr "Fortsätt"
 
 # Start survey alert button label
+#: interface
 msgid "Draft"
 msgstr "Utkast"
 
 # Start survey alert button message
+#: interface
 msgid "Previous survey draft exists, would you like to continue it?"
 msgstr "Det finns ett tidigare utkast, vill du fortsätta med det?"
 
 # Survey content
+#: interface
 msgid "Use the map to zoom in and tap on your <1>location</1>."
 msgstr "Använd kartan för att zooma in och klicka på din <1>plats</1>"
 
 # Survey content
+#: interface
 msgid "Cancel"
 msgstr "Avbryt"
 
 # Survey content
+#: interface
 msgid "Delete Survey"
 msgstr "Ta bort räkningen"
 
 # Survey content
+#: interface
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
 "Varning – Du raderar alla uppgifter om den här räkningen som du skrivit in."
 
 # Survey Location page info message
+#: interface
 msgid ""
 "Enable your GPS to set your location, or use the map to zoom in and tap on "
 "your <1>location</1>.<3><p>Your location can be anywhere where there are "
@@ -187,18 +222,22 @@ msgstr ""
 "värden inom en 1 x 1 km stor ruta på projektets websida.</p></3>"
 
 # Survey Location alert messag
+#: interface
 msgid "Please select a more accurate location"
 msgstr "Ange platsen mer noggrant."
 
 # Survey content
+#: interface
 msgid "Next"
 msgstr "Nästa"
 
 # Survey content
+#: interface
 msgid "of"
 msgstr "av"
 
 # Survey habitat info message
+#: interface
 msgid ""
 "Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
 "that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
@@ -210,6 +249,7 @@ msgstr ""
 "passar, välj \"Annan\" och skriv en kort beskrivning.</p></3>"
 
 # Survey habitat page other placeholder text
+#: interface
 msgid ""
 "Please type in the name of the habitat you have chosen then go back to the "
 "habitat page"
@@ -218,10 +258,12 @@ msgstr ""
 "Naturtypssidan."
 
 # Survey habitat page other header label
+#: interface
 msgid "Habitat"
 msgstr "Naturtyp"
 
 # Survey habitat page divider label
+#: interface
 msgid "Other habitat"
 msgstr "Annan naturtyp"
 
@@ -331,6 +373,7 @@ msgid "Plantation forest"
 msgstr ""
 
 # Survey flower-cover info message
+#: interface
 msgid ""
 "What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
@@ -341,50 +384,62 @@ msgstr ""
 "bladen).</p></3>"
 
 # Survey flower-cover info message header
+#: interface
 msgid "Flower Cover"
 msgstr "Blomtäckning"
 
 # Survey flower-cover radio input
+#: interface
 msgid "Less than half"
 msgstr "Mindre än hälften av ytan"
 
 # Survey flower-cover radio input
+#: interface
 msgid "Half of patch"
 msgstr "Ungefär hälften av ytan"
 
 # Survey flower-cover radio input
+#: interface
 msgid "More than half of patch"
 msgstr "Mer än hälften av ytan"
 
 # Survey flower-cover radio input
+#: interface
 msgid "Not recorded"
 msgstr "Inte angivet"
 
 # User registration page
+#: interface
 msgid "Create a free account"
 msgstr "Skapa ett konto gratis"
 
 # User registration page
+#: interface
 msgid "Full name"
 msgstr "Namn, fullständigt"
 
 # User registration page
+#: interface
 msgid "Email"
 msgstr "E-post"
 
 # User registration page
+#: interface
 msgid "Password"
 msgstr "Lösenord"
 
 # User registration page
+#: interface
 msgid "How did you hear about FIT Counts?"
 msgstr "Hur fick du höra talas om Blombesöksräkning (FIT Counts)?"
 
 # User registration page
+#: interface
 msgid "Your identification experience"
 msgstr "Hur bra är din artkunskap?"
 
 # User registration page
+#: interface
 msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
@@ -393,34 +448,42 @@ msgstr ""
 "<2>Sekretess</2>och <6>Villkor</6>"
 
 # User registration page
+#: interface
 msgid "Sign Up"
 msgstr "Anmäl dig"
 
 # User registration page
+#: interface
 msgid "I am already a member"
 msgstr "Jag är redan medlem"
 
 # User registration page
+#: interface
 msgid "Sign In"
 msgstr "Logga in"
 
 # User registration page
+#: interface
 msgid "How did you hear about us?"
 msgstr "Hur fick du höra talas om oss?"
 
 # User registration page
+#: interface
 msgid "Identification experience"
 msgstr "Artkunskap"
 
 # User registration page
+#: interface
 msgid "Please fill in"
 msgstr "Ange"
 
 # User registration page
+#: interface
 msgid "I am new to identifying wildlife"
 msgstr "Jag är nybörjare på att identifiera djurliv."
 
 # User registration page
+#: interface
 msgid ""
 "I am familiar with identifying some wildlife groups (e.g. birds or "
 "butterflies) but not most pollinating insects"
@@ -429,10 +492,12 @@ msgstr ""
 "pollinerande insekter."
 
 # User registration page
+#: interface
 msgid "I am familiar with recognising the main groups of pollinating insect"
 msgstr "Jag kan känna igen huvudgrupperna bland pollinerande insekter."
 
 # User registration page
+#: interface
 msgid ""
 "I am confident in identifying the commonly-occurring pollinating insects to "
 "species level"
@@ -441,58 +506,72 @@ msgstr ""
 "artnivå."
 
 # User registration page
+#: interface
 msgid "Not stated"
 msgstr "Ej angivet"
 
 # User registration page
+#: interface
 msgid "Select"
 msgstr "Välj"
 
 # User login page
+#: interface
 msgid "Welcome back"
 msgstr "Välkommen tillbaka"
 
 # User login page
+#: interface
 msgid "Sign in to your account to start"
 msgstr "Logga in för att börja räkna"
 
 # User login page
+#: interface
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
 # User login page
+#: interface
 msgid "email is a required field"
 msgstr "Du måste ange en e-postadress"
 
 # User login page
+#: interface
 msgid "password is a required field"
 msgstr "Du måste ange ett lösenord"
 
 # User reset page
+#: interface
 msgid "Enter your email address to request a password reset."
 msgstr "Fyll i din e-postadress för att begära återställning av lösenordet."
 
 # User reset page
+#: interface
 msgid "Reset"
 msgstr "Återställ"
 
 # User reset page
+#: interface
 msgid "email must be a valid email"
 msgstr "Det måste vara en giltig e-postadress."
 
 # Upload user register form message
+#: interface
 msgid "Please wait..."
 msgstr "Snart klart…"
 
 # Successful register alert message
+#: interface
 msgid "OK, got it"
 msgstr "OK, jag förstår."
 
 # Successful register alert message
+#: interface
 msgid "Welcome aboard"
 msgstr "Välkommen i gänget"
 
 # Successful register alert message
+#: interface
 msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
@@ -501,91 +580,72 @@ msgstr ""
 "skickat till din e-post."
 
 # Settings page label
+#: interface
 msgid "Logout"
 msgstr "Logga ut"
 
 # Settings page label
+#: interface
 msgid "Login"
 msgstr "Logga in"
 
 # Settings page label
+#: interface
 msgid "Register"
 msgstr "Registrera"
 
-# photos caption_1
-#: UK
-msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
-msgstr "Långa, smala antenner, oftast men en skarp \"knä-böj\""
-
-# photos caption_2
-#: UK
-msgid "Eyes covering the sides of the head"
-msgstr "Ögonen täcker huvudets sidor"
-
-# photos caption_3
-#: UK
-msgid "Hind legs broad and flattened"
-msgstr "Bakbenen är breda och platta"
-
-# photos caption_4
-#: UK
-msgid "Abdomen can vary from mostly dark to mostly orange"
-msgstr "Bakkroppens färg varierar från nästan helt mörk till mest orange"
-
-# photos caption_5
-#: UK
-msgid "Long narrow cell in veins at edge of wing"
-msgstr "Långa, smala celler mellan ribborna nära vingkanten"
-
 # ID guide honeybees species profile
+#: interface
 msgid "Description"
 msgstr "Beskrivning"
 
 # ID guide honeybees species profile
-msgid ""
-"Most of the honeybees you see will be workers, which are female, and collect"
-" pollen into a moistened ball on the outside of the hind legs"
-msgstr ""
-"De flesta honungsbin du ser är arbetare, alltså honor som samlar pollen i "
-"fuktade bollar på bakbenens utsida"
-
-# ID guide honeybees species profile
+#: interface
 msgid "Extra information"
 msgstr "Mer information"
 
 # My surveys page content
+#: interface
 msgid "My Surveys"
 msgstr "Mina räkningar"
 
 # My surveys page content
+#: interface
 msgid "Pending"
 msgstr "Väntande"
 
 # My surveys page content
+#: interface
 msgid "Uploaded"
 msgstr "Insända "
 
 # My surveys page content
+#: interface
 msgid "<0>You have no finished surveys.</0>"
 msgstr "<0>Du har ännu inte gjort någon Blombesöksräkning</0>"
 
 # My surveys page content
+#: interface
 msgid "No uploaded surveys"
 msgstr "Inga insända Blombesöksräkningar"
 
 # Survey species selection page species list
+#: interface
 msgid "<0>Which</0> target flower have you chosen?"
 msgstr "<0>Vilken</0> målarts-blomma har du valt?"
 
 # Survey species selection page species list
+#: interface
 msgid "Please add species image"
 msgstr "Lägg till en artbild"
 
 # Survey species selection page species list
+#: interface
 msgid "No photo has been added."
 msgstr "Artbild saknas"
 
 # Survey species selection page info message
+#: interface
 msgid "Press <1></1> to add."
 msgstr "Tryck på <1></1>för att lägga till"
 
@@ -740,6 +800,7 @@ msgid "Milk Thistle"
 msgstr "Mariatistel"
 
 # Survey species selection page read more message
+#: interface
 msgid ""
 "Which target <1>flower</1> have you chosen?<3><p>Where possible please "
 "choose a patch of flowers from one of the target flower groups in the "
@@ -760,18 +821,22 @@ msgstr ""
 "art som använts vid räkningen. </p></3>"
 
 # Survey species selection page read more header
+#: interface
 msgid "Flower"
 msgstr "Blomma"
 
 # Survey species selection page divider label
+#: interface
 msgid "Please add the name of the flower"
 msgstr "Ange blommans namn"
 
 # Survey species selection page label
+#: interface
 msgid "Other flower name"
 msgstr "Annan blomma, namn"
 
 # Survey species manual entry placeholder
+#: interface
 msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
@@ -780,10 +845,12 @@ msgstr ""
 "blommor"
 
 # Survey flower count page divider label
+#: interface
 msgid "Number"
 msgstr "Antal"
 
 # Survey flower count page info message
+#: interface
 msgid ""
 "What are the <1>number</1> and <3>type</3> of flowers in your "
 "patch?<5><p>The number of flowers in a patch can strongly relate to the "
@@ -819,90 +886,112 @@ msgstr ""
 "t.ex. lavendel eller ljung) – varje klase räknas som en enhet</3></5></5>"
 
 # Survey flower count page info header
+#: interface
 msgid "Flower Count"
 msgstr "Antal blommor"
 
 # Survey flower count page divider label
+#: interface
 msgid "Type"
 msgstr "Typ"
 
 # Survey flower count page content
+#: interface
 msgid "Individual Flower"
 msgstr "Enskild blomma"
 
 # Survey flower count page content
+#: interface
 msgid "Head"
 msgstr "Blomhuvud"
 
 # Survey flower count page content
+#: interface
 msgid "Umbel"
 msgstr "Blomflock"
 
 # Survey flower count page content
+#: interface
 msgid "Spike"
 msgstr "Blomklase"
 
 # My surveys page content
+#: interface
 msgid "Today"
 msgstr "Idag"
 
 # My surveys page content
+#: interface
 msgid "Record"
 msgstr "Räkna"
 
 # My surveys page content
+#: interface
 msgid "Delete"
 msgstr "Ta bort"
 
 # My surveys page content
+#: interface
 msgid "Yesterday"
 msgstr "Igår"
 
 # My surveys page content info background message
+#: interface
 msgid "To delete any surveys swipe it to the left."
 msgstr "För att ta bort en räkning, svep den åt vänster"
 
 # My surveys page content info background message button
+#: interface
 msgid "Hide"
 msgstr "Göm"
 
 # My surveys page content info background message
+#: interface
 msgid "You have no finished surveys."
 msgstr "Du har inga avslutade räkningar"
 
 # Add Photo message
+#: interface
 msgid "Choose a method to upload a photo"
 msgstr "Välj sätt att ladda upp en bild"
 
 # Add Photo message
+#: interface
 msgid "Gallery"
 msgstr "Galleri"
 
 # Add Photo message
+#: interface
 msgid "Camera"
 msgstr "Kamera"
 
 # Credits page content
+#: interface
 msgid "Graphics:"
 msgstr "Diagram"
 
 # Credits page content
+#: interface
 msgid "Team members of the following projects"
 msgstr "Medarbetare i nedanstående projekt"
 
 # Credits page content
+#: interface
 msgid "Photos of flowers and insects by:"
 msgstr "Foton av blommor och insekter av:"
 
 # Credits page content
+#: interface
 msgid "Thanks to the following for additional photos"
 msgstr "Tack till följande personer för kompletterande foton"
 
 # Credits page content
+#: interface
 msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
 msgstr "Ikoner skapade av <2>Freepik</2> från <6>www.flaticon.com</6>"
 
 # Credits page content
+#: interface
 msgid ""
 "App guide illustrations made "
 "by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
@@ -911,30 +1000,37 @@ msgstr ""
 "av:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
 
 # Survey flower page info message
+#: interface
 msgid "Which target <1>flower</1> have you chosen?"
 msgstr "Vilken<1>målarts-blomma</1> har du valt?"
 
 # Survey flower page section divider
+#: interface
 msgid "Photo of your target flower"
 msgstr "Foto av din målarts-blomma"
 
 # Survey flower page section divider
+#: interface
 msgid "Target flower chosen"
 msgstr "Vald målarts-blomma"
 
 # Survey flower patch page values
+#: interface
 msgid "In a larger patch of the same flower"
 msgstr "Del av större område med samma blomma"
 
 # Survey flower patch page values
+#: interface
 msgid "In a larger patch of many different flowers"
 msgstr "Del av större område med olika slags blommor"
 
 # Survey flower patch page values
+#: interface
 msgid "More or less isolated"
 msgstr "I stor sett ensam i området"
 
 # Survey flower patch "Read more" alert message
+#: interface
 msgid ""
 "Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
 "surroundings of a flower patch can affect its attractiveness to "
@@ -947,82 +1043,102 @@ msgstr ""
 "området runt rutan (ca. 5 meter runt om).</p></3>"
 
 # Survey flower patch info button label
+#: interface
 msgid "READ MORE"
 msgstr "LÄS MER"
 
 # Survey flower patch "Read more" alert header text
+#: interface
 msgid "Flower patch"
 msgstr "Målartsruta"
 
 # Survey flower patch "Read more" alert button text
+#: interface
 msgid "Got it"
 msgstr "Jag förstår"
 
 # Survey weather sky page values
+#: interface
 msgid "All or mostly blue"
 msgstr "Helt eller övervägande klart"
 
 # Survey weather sky page values
+#: interface
 msgid "Half blue and half cloud"
 msgstr "Hälften klart, hälften molnigt"
 
 # Survey weather sky page values
+#: interface
 msgid "All or mostly cloud"
 msgstr "Helt eller övervägande molnigt"
 
 # Survey weather shade page values
+#: interface
 msgid "Entirely in sunshine"
 msgstr "Solbelyst hela tiden "
 
 # Survey weather shade page values
+#: interface
 msgid "Partly in sun and partly shaded"
 msgstr "Delvis i sol, delvis i skugga"
 
 # Survey weather shade page values
+#: interface
 msgid "Entirely shaded"
 msgstr "Helt i skugga"
 
 # Survey weather wind page values
+#: interface
 msgid "Leaves still/moving occasionally"
 msgstr "Löv stilla/rör sig lite ibland"
 
 # Survey weather wind page values
+#: interface
 msgid "Leaves moving gently all the time"
 msgstr "Löv rör sig lite hela tiden"
 
 # Survey weather wind page values
+#: interface
 msgid "Leaves moving strongly"
 msgstr "Löv rör sig mycket"
 
 # Survey weather wind page button label
+#: interface
 msgid "Save my count"
 msgstr "Spara min räkning"
 
 # Survey insect count page counter button label
+#: interface
 msgid "Paused"
 msgstr "Pausad"
 
 # Survey insect count page counter button label
+#: interface
 msgid "Time's up!"
 msgstr "Tiden är slut!"
 
 # Survey insect count page counter warning message
+#: interface
 msgid "Time expire!"
 msgstr "Tiden är slut!"
 
 # My Records page info message
+#: interface
 msgid "Please do not forget to upload any pending surveys!"
 msgstr "Glöm inte ladda upp eventuella väntande räkningar"
 
 # Credit page
+#: interface
 msgid "FIT Count logo"
 msgstr "FIT Count logo"
 
 # Toast message after successful login
+#: interface
 msgid "Successfully logged in"
 msgstr "Lyckad inloggning"
 
 # Onboarding content
+#: interface
 msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
@@ -1031,6 +1147,7 @@ msgstr ""
 "Blombesöksräkning"
 
 # Onboarding content
+#: interface
 msgid ""
 "<0><0>Wait for good weather! </0><1>Find a patch of target "
 "flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects"
@@ -1044,6 +1161,7 @@ msgstr ""
 "är slut</4><5>Spara din räkning och ladda upp den till websidan</5></0>"
 
 # Onboarding content
+#: interface
 msgid ""
 "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
 " get started!"
@@ -1052,26 +1170,32 @@ msgstr ""
 "och sen kan du börja räkna."
 
 # Onboarding content
+#: interface
 msgid "Let's start the count!"
 msgstr "Nu börjar vi räkna!"
 
 # User authentication toast message
+#: interface
 msgid "Sorry"
 msgstr "Tyvärr"
 
 # User authentication toast message
+#: interface
 msgid "The user credentials were incorrect."
 msgstr "Användaruppgiftena var felaktiga"
 
 # How To page content
+#: interface
 msgid "How To"
 msgstr "Hur gör man"
 
 # How To page content
+#: interface
 msgid "FIT Count quick guide"
 msgstr "Snabbguide till Blombesöksräkning"
 
 # How To page content
+#: interface
 msgid ""
 "FIT Counts take about 10–15 minutes, during which you are asked to count "
 "every insect that lands on the flowers of your chosen target flower species."
@@ -1080,6 +1204,7 @@ msgstr ""
 " varje insekt som landar på blommorna av den målväxt-art du valt."
 
 # How To page content
+#: interface
 msgid ""
 "You can complete a FIT Count in good weather between 1 April and 30 "
 "September."
@@ -1088,11 +1213,13 @@ msgstr ""
 "september."
 
 # How To page content (non-UK)
+#: interface
 msgid "You can complete a FIT Count in good weather at any time of year."
 msgstr ""
 "Du kan göra en Blombesöksräkning i bra väder när som helst under året."
 
 # How To page content
+#: interface
 msgid ""
 "Choose just one type of flower as your target flower - where possible use "
 "one of the FIT Count target flowers, but if you can't find one from the list"
@@ -1103,16 +1230,19 @@ msgstr ""
 "kan du ange en annan växt som målart."
 
 # How To page content
+#: interface
 msgid "Mark out a 50 × 50 cm patch containing your target."
 msgstr "Märk ut en ruta på 50x50 cm som innehåller din målväxt"
 
 # How To page content
+#: interface
 msgid ""
 "Count the number of individual flowers for your target species that are "
 "within your patch."
 msgstr "Räkna antalet enskilda blommor din målväxtart har inom rutan."
 
 # How To page content
+#: interface
 msgid ""
 "Using the timer in the app, spend ten minutes counting all insects that land"
 " on the target flowers (ignore other flowers, and do your best to count each"
@@ -1123,18 +1253,22 @@ msgstr ""
 "varje insekt bara en gång!)"
 
 # How To page content
+#: interface
 msgid "Fill in some simple weather details."
 msgstr "Fyll i några uppgifter om vädret"
 
 # How To page content
+#: interface
 msgid "Save your count, and upload it to the website."
 msgstr "Spara din räkning och ladda upp den till websidan"
 
 # How To page content
+#: interface
 msgid "Further information and guides are available at"
 msgstr "Mer information och instruktioner finns på"
 
 # How To page content
+#: interface
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as other insects."
@@ -1143,6 +1277,7 @@ msgstr ""
 "som du inte kan bestämma räknas som övriga insekter."
 
 # How To page content
+#: interface
 msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
@@ -1150,130 +1285,13 @@ msgstr ""
 "\"Fint väder\" är torrt, minst 13̐°C varmt om det är solsken, eller minst "
 "15°C om det är molnigt."
 
-# Bumblebee screen 1 content
-msgid ""
-"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
-" any that you don't recognise should be counted as \"other insects\"."
-msgstr ""
-"Bestäm vilken grupp varje insekt hör till (humlor, blomflugor osv.) – alla "
-"som du inte kan bestämma räknas som \"övriga insekter\"."
-
-# Bumblebee screen 1 content
-msgid "Very hairy / fluffy bees"
-msgstr "Mycket håriga / lurviga bin"
-
-# Bumblebee screen 1 content
-msgid ""
-"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
-"visiting flowers"
-msgstr ""
-"Trinda, nästan klotrunda till formen, har ofta 'svansen indragen' när de "
-"besöker blommor"
-
-# Bumblebee screen 1 content
-msgid ""
-"Many species have simple, contrasting colour bands (yellows, whites, "
-"blacks), others can be ginger all over"
-msgstr ""
-"Många arter har tvärband i kontrasterande färger (gult, vitt, svart), andra "
-"kan vara helt rödbruna."
-
-# Bumblebee screen 1 content
-msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
-msgstr "Ögonen täcker huvudets sidor, och de har mycket hår mellan ögonen"
-
-# Bumblebee screen 1 content
-msgid ""
-"Bumblebees are very rounded and furry bees. The queens are among our largest"
-" bees; workers can be quite small, but are larger than most solitary bees."
-msgstr ""
-"Humlor är trinda bin med mycket päls. Drottningarna hör till våra största "
-"bin; arbetarna kan vara ganska små, men brukar bara större än de flesta "
-"solitärbin."
-
-# Bumblebee screen 1 content
-msgid ""
-"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
-"not hover. There are 24 species in the UK."
-msgstr ""
-"Humlor har en typisk 'humle-aktig' surrande flykt och hovrar inte. Det finns"
-" 38 arter i Sverige."
-
-# Bumblebee screen 2 content
-msgid ""
-"Queen and worker bumblebees collect pollen into a moistened ball on the "
-"outside of the hind legs"
-msgstr ""
-"Humledrottningar och arbetare samlar pollen i små fuktiga bollar på utsidan "
-"av bakbenen."
-
-# Bumblebee screen 2 content
-msgid ""
-"This bumblebee is one of the species that are more-or-less ginger-coloured "
-"all over"
-msgstr "Den är humlearten är i stort sett helt rödbrun."
-
-# Bumblebee screen 2 content
-msgid ""
-"Male bumblebees are similar looking to females but have slightly longer "
-"antennae, and do not collect pollen. They visit flowers to feed on nectar."
-msgstr ""
-"Humle-hanar likar honorna men har lite längre antenner och samlar inte "
-"pollen. De besöker blommor för att finna nektar."
-
-# Honeybees screen 1 content
-msgid ""
-"Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. "
-msgstr ""
-"Honungsbin är större än de flesta (men inte alla) solitärbin, men mindre än "
-"de flesta humlor."
-
-# Honeybees screen 1 content
-msgid ""
-"There is just one species of honeybee in the UK. They nest in artificial "
-"hives,with occasional colonies establishing in the wild."
-msgstr ""
-"Det finns bara en art av honungsbi i Sverige. De bor i konstgjorda kupor, "
-"men ibland kan en svärm även skapa en koloni i naturen."
-
-# Honeybees screen 2 content
-msgid "Male honeybees (drones) are similar but have much larger eyes."
-msgstr ""
-"Honungsbiets hanar (drönare) liknar honorna men har mycket större ögon"
-
-# Solitary bees screen 1 content
-msgid ""
-"Solitary bees are less rounded than bumblebees, and most are smaller than "
-"both bumblebees and honeybees. "
-msgstr ""
-"Solitärbin är inte så trinda som humlor, och de flesta arter är betydligt "
-"mindre än humlor och honungsbin"
-
-# Solitary bees screen 1 content
-msgid ""
-"Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 250 species in the UK."
-msgstr ""
-"Solitärbin flyger flitigt mellan olika blommor, och vilar ibland i "
-"solgasset. De flesta arter brukar inte hovra. Det finns nästan 300 arter i "
-"Sverige"
-
-# Solitary bees screen 1 content
-msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr ""
-"De är oftast ganska långsmala till formen (men variationen är stor mellan "
-"arterna)"
-
-# Solitary bees screen 1 content
-msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr "De är vanligen håriga, men brukar ha glesare päls än humlor"
-
 # Context term
+#: interface
 msgid "The timer will now start!"
 msgstr "Nu börjar tidtagningen!"
 
 # Context term
+#: interface
 msgid ""
 "Count every insect that lands on the target flowers (count each individual "
 "once)."
@@ -1282,6 +1300,7 @@ msgstr ""
 "bara en gång)"
 
 # Context term
+#: interface
 msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
@@ -1289,620 +1308,9 @@ msgstr ""
 "Tryck på insektsbilden för att öka antalet (minus-knapparna minskar antalet)"
 
 # Context term
+#: interface
 msgid "Start Count"
 msgstr "Börja räkna"
-
-# Solitary bees screen 1 content
-msgid "Colours usually more subdued and less contrasting than bumblebees"
-msgstr ""
-"Färgerna är vanligen mer dämpade och mindre kontrastrika än hos humlorna"
-
-# Solitary bees screen 1 content
-msgid "Long antennae, often held straight out in front"
-msgstr "Långa antenner, som ofta är riktade rakt framåt"
-
-# Solitary bees screen 1 content
-msgid ""
-"Smaller than queen bumblebees, but the largest solitaries are bigger than "
-"small worker bumblebees"
-msgstr ""
-"Mindre än humledrottningar, men de största solitärbina är större än små "
-"humlearbetare"
-
-# Solitary bees screen 2 content
-msgid ""
-"Some solitary bees collect dry pollen into a pollen basket at the base of "
-"the hind legs (see the mining bee on the left above)"
-msgstr ""
-"Vissa solitärbin samlar torrt pollen i en pollenkorg vid bakbenens bas (se "
-"sandbiet på bilden ovan till vänster)"
-
-# Solitary bees screen 2 content
-msgid ""
-"Others have the pollen basket underneath their abdomen (see the leafcutter "
-"bee on the right above)"
-msgstr ""
-"Andra har pollenkorgen under bakkroppen (se tapetserarbiet ovan till höger)"
-
-# Solitary bees screen 2 content
-msgid ""
-"Solitary bees generally nest in burrows or holes. One large group, the "
-"mining bees, dig burrows into soil. Another group, including the mason bees "
-"and leafcutter bees, make use of holes in wood, plants or walls."
-msgstr ""
-"Solitärbin har vanligen bon i gångar eller hålor. En stor grupp, "
-"minerarbina, gräver gångar i marken. En annan grupp, däribland murarbin och "
-"tapetserarbin, använder hål i trä, växter eller väggar."
-
-# Solitary bees screen 3 content
-msgid ""
-"Among the many species of solitary bee, there is a lot of variation in size,"
-" colour and how hairy they appear. Some examples are shown above."
-msgstr ""
-"Det är stor variation mellan olika arter solitärbin vad gäller storlek, färg"
-" och behåring. Några exempel visas ovan."
-
-# Solitary bees screen 3 content
-msgid ""
-"You don’t need to recognise the individual species to do a FIT Count, they "
-"all get counted as “solitary bees”!"
-msgstr ""
-"Du behöver inte känna igen varje enskild art för att göra en "
-"Blombesöksräkning, de räknas alla till gruppen \"solitära bin!\""
-
-# Solitary bees screen 3 content
-msgid ""
-"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
-msgstr "Sobersandbiet (<i>Andrena cineraria</i>) är svart med grå ränder"
-
-# Solitary bees screen 3 content
-msgid ""
-"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
-"they have bee-like hairs on part of their body, and most are similar in "
-"shape and with a mix of black, red and yellow colours"
-msgstr ""
-"Gökbin (släktet <i>Nomada</i>) kan vara mycket lika getingar, men som andra "
-"bin har de hår på delar av kroppen, och de flesta likar varandra till form "
-"och sina i svarta, röda och gula teckningar."
-
-# Solitary bees screen 3 content
-msgid ""
-"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
-"bees, at around 4mm long"
-msgstr ""
-"Blomsovarbin (släktet <i>Chelostoma</i>) hör till de minsta solitärbi-"
-"arterna, ca. 4 mm långa"
-
-# Solitary bees screen 3 content
-msgid ""
-"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
-"when fresh these bees have clear black and yellow stripes on the abdomen"
-msgstr ""
-"I Mellaneuropa besöker<i>Colletes hederae</i>, en art av sidenbin, blommande"
-" murgröna under sensommaren – dessa bin tydliga svarta och gula ränder på "
-"bakkroppen åtminstone innan de blivit slitna."
-
-# Wasps screen 1 content
-msgid "Long antennae (distinguishes them from most flies)"
-msgstr "Långa antenner (vilket skiljer dem från de flesta flugor)"
-
-# Wasps screen 1 content
-msgid ""
-"There are some hairs on the body, but wasps are usually much less dense and "
-"furry compared to bees"
-msgstr ""
-"De har en del hår på kroppen, men getingar och andra steklar har vanligen "
-"mycket mindre och glesare behåring än bin"
-
-# Wasps screen 1 content
-msgid ""
-"Social wasps and some of the solitary species have bold back and yellow "
-"stripes"
-msgstr ""
-"Sociala getingar och vissa solitära steklar har skarpa svarta och gula "
-"ränder"
-
-# Wasps screen 1 content
-msgid "Some wasps have their wings rolled up when at rest"
-msgstr "En del getingar viker samman vingarna när de vilar"
-
-# Wasps screen 1 content
-msgid ""
-"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
-msgstr ""
-"Getingar och andra midjestekar har en mycket smal \"getingmidja\" där "
-"mellankroppen övergår i bakkroppen"
-
-# Wasps screen 1 content
-msgid ""
-"There are many different species of wasp, but the most familiar are the "
-"social wasps such as the one shown above."
-msgstr ""
-"Det finns många stekelarter, men de sociala getingarna är mest välbekanta"
-
-# Wasps screen 2 content
-msgid "Many solitary wasps have a distinctive broad, boxy head shape"
-msgstr ""
-"Många solitära steklar har tydligt avsatta, breda, lite kantiga huvuden"
-
-# Wasps screen 2 content
-msgid "Some have typical black and yellow wasp stripes"
-msgstr "En del är typiskt \"getingrandiga\" i svart och gult"
-
-# Wasps screen 2 content
-msgid "Others may be black and red, or all black as in this example"
-msgstr "Andra kan vara svarta och röda, eller helsvarta som den här."
-
-# Wasps screen 2 content
-msgid ""
-"There is a lot of variation in size, shape and markings among the solitary "
-"wasps. They are usually not obviously hairy, and since they do not collect "
-"pollen they have no pollen basket (although pollen may become stuck to their"
-" bodies)."
-msgstr ""
-"Skillnaden i storlek, form och teckning är mycket stor mellan olika arter av"
-" solitära steklar. De flesta saknar tydlig behåring, och eftersom de inte "
-"samlar pollen saknar de pollenkorgar (men en del pollen kan råka fastna på "
-"kroppen)"
-
-# Wasps screen 2 content
-msgid ""
-"Solitary wasps generally nest in burrows or holes, in a similar manner to "
-"the solitary bees."
-msgstr ""
-"Solitära steklar brukar bo i gångar eller hålor, på samma sätt som solitära "
-"bin."
-
-# Wasps screen 3 content
-msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
-msgstr ""
-"Många parasitsteklar är mycket långa och smala, med mycket smal getingmidja"
-
-# Wasps screen 3 content
-msgid ""
-"The majority of species have very long antennae, made up of lots of "
-"individual segments"
-msgstr ""
-"De flesta arterna har mycket långa antenner, bestående av många enskilda "
-"segment"
-
-# Wasps screen 3 content
-msgid ""
-"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
-"some species this is very long"
-msgstr ""
-"Parasitsteklarnas honor kan ha ett vasst äggläggningsrör – hos vissa arter "
-"är röret mycket långt"
-
-# Wasps screen 3 content
-msgid ""
-"Colours are usually a mix of black and red or yellow – some species are all-"
-"black"
-msgstr ""
-"Färgställningen är oftast svart och röd eller gul – vissa arter är helsvarta"
-
-# Wasps screen 3 content
-msgid ""
-"There are many different parasitic wasps, some of which visit flowers for "
-"nectar. Two examples are shown above."
-msgstr ""
-"Det finns många slags parasitsteklar, och en del av dem besöker blommor för "
-"att söka nektar. Ovan visas ett par exempel."
-
-# Wasps screen 3 content
-msgid ""
-"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
-" the larvae of the wasps consume the host invertebrate."
-msgstr ""
-"Parasitsteklar lägger sina ägg i andra ryggradslösa djur, eller i deras bon,"
-" och parasitstekelns larver äter upp sitt värddjur"
-
-# Hoverflies screen 1 content
-msgid ""
-"Large eyes, covering most of the head in males (as shown above) or with a "
-"small gap between the eyes at the top of the head in females"
-msgstr ""
-"De stora ögonen täcker större delen av hanarnas huvud (som visas ovan), men "
-"hos honorna finns ett litet mellanrum mellan ögonen uppe på huvudet."
-
-# Hoverflies screen 1 content
-msgid "Most hoverflies have much shorter antennae than bees and wasps"
-msgstr ""
-"De flesta blomflugor har mycket kortare antenner än bin och andra steklar"
-
-# Hoverflies screen 1 content
-msgid ""
-"In the wings there is a ‘false margin’ wing vein, running more-or-less "
-"parallel to the true edge of the wing"
-msgstr ""
-"Mitt på vingarna finns en \"falsk vingribba\" som löper mer eller mindre "
-"längs med den riktiga vingkanten."
-
-# Hoverflies screen 1 content
-msgid ""
-"Many hoverfly species have black and yellow stripes, but some are all dark "
-"or have other patterns"
-msgstr ""
-"Många blomflugor har svarta och gula ränder, men en del är enfärgat mörka "
-"eller har andra mönster"
-
-# Hoverflies screen 1 content
-msgid ""
-"Hoverflies are not usually as hairy as bees (but there are some "
-"exceptions!), and they do not usually have prominent bristles on the body "
-"(some other types of fly are obviously bristly)"
-msgstr ""
-"Blomflugor brukar inte vara så håriga som bin (men det finns undantag!) och "
-"de brukar inta ha tydliga borst på kroppen (en del andra slags flugor är "
-"tydligt borstiga)"
-
-# Hoverflies screen 1 content
-msgid ""
-"Hoverflies are very active and agile flyers, and are frequently seen "
-"hovering, as you would expect from their name. "
-msgstr ""
-"Blomflugor är mycket snabba och skickliga flygare och ses ofta hovra, alltså"
-" sväva stilla i luften t.ex. över en blomma."
-
-# Hoverflies screen 1 content
-msgid ""
-"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
-"pollen baskets. There are about 285 species of hoverfly in the UK."
-msgstr ""
-"Blomflugor lever av nektar och pollen, men de samlar inte in nektar, och har"
-" inga pollenkorgar. Det finns ca. 390 arter blomflugor i Sverige."
-
-# Hoverflies screen 2 content
-msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
-msgstr ""
-"Storslamfluga är en blomflugeart, och har mycket kortare antenner än "
-"honungsbin"
-
-# Hoverflies screen 2 content
-msgid "The eyes cover more of the head"
-msgstr "Ögonen täcker en större del av huvudet"
-
-# Hoverflies screen 2 content
-msgid ""
-"The back legs are much narrower than the broad flattened legs of honeybees"
-msgstr "Bakbenen är mycket smalare än honungsbinas breda, platta bakben."
-
-# Hoverflies screen 2 content
-msgid "The typical ‘false margin’ wing vein is present"
-msgstr "Den har den typiska \"falska vingribban\""
-
-# Hoverflies screen 2 content
-msgid ""
-"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
-" of the wing"
-msgstr ""
-"Storslamflugan har en typisk stor sväng på en vingribba nära vingspetsen"
-
-# Hoverflies screen 2 content
-msgid ""
-"Many hoverflies have the typical black and yellow markings, but there is "
-"quite a lot of variety in shape, size and marking among the full range of "
-"species. Some examples are shown above."
-msgstr ""
-"Många blomflugor har en typisk svart och gul teckningen, men form, storlek "
-"mönster kan variera mycket mellan arterna. Några exempel visas ovan."
-
-# Hoverflies screen 2 content
-msgid ""
-"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
-"is a good mimic of hornets, but note the short antennae"
-msgstr ""
-"Den stora arten <i>Volucella zonaria</i> har nyligen hittats i Sverige, men "
-"ännu inte fått något svenska namn. Den är mycket lik en bålgeting, men har "
-"korta antenner."
-
-# Hoverflies screen 3 content
-msgid ""
-"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
-" a widespread species with a distinctive grey and orange colour"
-msgstr ""
-"Några arter har en utdragen \"näbb\" – det här är en ängsnäbbfluga, "
-"<i>Rhingia campestris</i>, med orange och gråsvart teckning, som finns i "
-"stora delar av landet"
-
-# Hoverflies screen 3 content
-msgid ""
-"A few hoverflies are very good bumblebee mimics – check the antennae to be "
-"sure they are not bumblebees!"
-msgstr ""
-"Ett fåtal blomflugor är snarlika humlor – titta noga på antennerna för att "
-"se att det inte är en humla!"
-
-# Hoverflies screen 3 content
-msgid ""
-"Some hoverflies are small and mostly dark in colour, but have the typical "
-"wing veins (if you can get close enough to see them) and in flight will "
-"hover like typical hoverflies"
-msgstr ""
-"En del blomflugor är så och mestadels mörka, men alla har de typiska "
-"vingribborna (om du kan komma nära nog för att se dem) och de hovrar precis "
-"som andra blomflugor"
-
-# Other flies screen 1 content
-msgid "This is a dance fly (family Empididae)"
-msgstr "Det här är en dansfluga (familjen Empididae)"
-
-# Other flies screen 1 content
-msgid "Many dance flies have a long thin proboscis under the head"
-msgstr "Många dansflugor har en lång, tunn sugsnabel under huvudet"
-
-# Other flies screen 1 content
-msgid "Many dance flies have a distinctly humped thorax"
-msgstr "Många dansflugor har en tydlig puckel på mellankroppen"
-
-# Other flies screen 1 content
-msgid ""
-"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
-" seen on hogweed and related flowers"
-msgstr ""
-"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som kan ses på"
-" björnloka och närbesläktade växter."
-
-# Other flies screen 1 content
-msgid "The abdomen is broader and flatter than in hoverflies"
-msgstr "Bakkroppen är bredare och mer tillplattad än blomflugornas"
-
-# Other flies screen 1 content
-msgid ""
-"The wing venation is different to hoverflies, with no ‘false margin’ wing "
-"vein parallel to the true edge of the wing"
-msgstr ""
-"Vingribborna ser annorlunda ut; de saknar blomflugornas längsgående 'falska "
-"vingribba'"
-
-# Other flies screen 1 content
-msgid ""
-"There are many different flies that you may see visiting flowers – for the "
-"FIT Count all you need to do is separate them into “hoverflies” and all "
-"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
-"but not many other flies have. Two examples of “other flies” are shown above"
-" and two on the next screen."
-msgstr ""
-"Det finns många olika slags flugor som besöker blommor – för att göra en "
-"Blombesöksräkning behöver du bara kunna skilja på \"blomflugor\" och \"andra"
-" flugor\"! Glöm inte att blomflugor kan hovra, något som bara ett fåtal "
-"andra arter av flugor kan. Två exempel på \"andra flugor\" visas ovan och på"
-" nästa sida."
-
-# Other flies screen 2 content
-msgid "This is a parasitic fly from family Tachinidae"
-msgstr "Det här är en parasitfluga ur familjen Tachinidae"
-
-# Other flies screen 2 content
-msgid "It has prominent bristles on the abdomen"
-msgstr "Den har tydliga borst på bakkroppen"
-
-# Other flies screen 2 content
-msgid "This is the Yellow Dung-fly (family Scathophagidae)"
-msgstr ""
-"Det här är en dyngfluga av arten <i>Scathophaga stercoraria</i> (familjen "
-"Scathophagidae)"
-
-# Other flies screen 2 content
-msgid ""
-"It has bristles on the body and legs, and the males in particular have "
-"fluffy yellow hairs on the body"
-msgstr ""
-"Den har borst på kroppen och benen, och framför allt hanarna har en luddig "
-"gul behåring på kroppen"
-
-# Other flies screen 2 content
-msgid ""
-"Some of the larger flies that you will see on flowers are from ‘calypterate’"
-" families, most of which are rather rounded insects with obvious bristles on"
-" the legs and body."
-msgstr ""
-"En del av de stora flugor du kan se på blommor hör till familjer med ganska "
-"runda kroppar med tydliga borst på ben och kropp."
-
-# Butterflies and moths 1 screen content
-msgid "Small Tortoiseshell butterfly"
-msgstr "Nässelfjäril"
-
-# Butterflies and moths 1 screen content
-msgid "Common Blue butterfly"
-msgstr "Puktörneblåvinge"
-
-# Butterflies and moths 1 screen content
-msgid ""
-"Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night. Some moths (see next screen) are quite small and could be overlooked "
-"as other types of insect."
-msgstr ""
-"Fjärilar är välbekanta blombesökare. Nattfjärilarna kanske man inte lägger "
-"märke till lika ofta, men de besöker också blommor, under dagtid eller "
-"nattetid. En del nattfjärilar (se nästa sida) är ganska små och kan därför "
-"lätt misstas för andra slags insekter."
-
-# Butterflies and moths 1 screen content
-msgid ""
-"For the FIT Count there is no need to distinguish between butterflies and "
-"moths – they are all counted in the same category."
-msgstr ""
-"För att göra en Blombesöksräkning behöver man inte skilja på dagfjärilar och"
-" nattfjärilar – de räknas alla i samma kategori."
-
-# Butterflies and moths 2 screen content
-msgid "Six-spot Burnet moth (a macro-moth)"
-msgstr "Sexfläckig bastardsvärmare (en sk. makro-nattfjäril)"
-
-# Butterflies and moths 2 screen content
-msgid "Nettle-tap moth (a micro-moth)"
-msgstr "Bredvingad nässelmal (en s.k. mikro-nattfjäril)"
-
-# Butterflies and moths 2 screen content
-msgid ""
-"A range of day-flying moths can be seen visiting flowers. Some of these are "
-"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
-"moths”). All moths have patterns and colours produced by the tiny scales on "
-"their wings."
-msgstr ""
-"Många av de nattfjärilar som är aktiva under dagtid besöker blommor. En del "
-"av dem är ganska stora (\"makro-nattfjärilar\") och färggranna, medan andra "
-"kan vara mycket små (\"mikro-nattfjärilar\"). Fjärilarnas färger och mönster"
-" skapas med hjälp av pyttesmå fjäll på vingarna."
-
-# Beetles 1 screen content
-msgid ""
-"Beetles have forewings that have become hardened and act as covers for the "
-"softer hindwings and abdomen"
-msgstr ""
-"Skalbaggar har hårda framvingar som fungerar som skydd för de mjukare "
-"bakvingarna och bakkroppen."
-
-# Beetles 1 screen content
-msgid "Beetles have chewing mouthparts"
-msgstr "Skalbaggar har mundelar som kan tugga"
-
-# Beetles 1 screen content
-msgid ""
-"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
-"which the males have distinctive thickened hind legs"
-msgstr ""
-"Den här arten (<i>Oedemera nobilis</i>), känns igen på att hanarna har "
-"markant förtjockade bakben"
-
-# Beetles 1 screen content
-msgid ""
-"There are relatively few beetle species that visit flowers, but those that "
-"do can be very abundant. The different species vary a lot in size, shape and"
-" colour, but can be recognised as beetles by the hard wing cases covering "
-"their abdomen."
-msgstr ""
-"Det är ganska få skalbaggsarter som besöker blommor, men de som gör det kan "
-"förekomma i stort antal. De olika arterna varierar i storlek, form och färg,"
-" med känns igen på det hårda skal som täcker bakkroppen."
-
-# Beetles 2 screen content
-msgid ""
-"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
-" very abundant on flowers in mid-summer"
-msgstr ""
-"Flugbaggar, här en <i>Rhagonycha fulva</i>, är ofta vanliga på blommor under"
-" högsommaren"
-
-# Beetles 2 screen content
-msgid ""
-"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
-" larvae live in decaying wood"
-msgstr ""
-"Blombockar är ganska stora skalbaggar i familjen Långhorningar – larverna "
-"lever i multnande trä"
-
-# Beetles 2 screen content
-msgid "Above are two more examples of beetles that regularly visit flowers."
-msgstr ""
-"Här är ytterligare två exempel på skalbaggar som ofta besöker blommor."
-
-# Small insect 1 screen content
-msgid ""
-"This example shows a flower with many pollen beetles (family Nitidulidae) – "
-"other “small insects” may include tiny flies and parasitic wasps"
-msgstr ""
-"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
-" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
-
-# Small insect 1 screen content
-msgid ""
-"This category is for any insects under 3mm long. These can be hard to assign"
-" to a particular group without peering at them closely (which would disturb "
-"other insects visiting the flowers). Just count them (or estimate them if "
-"there is a large number) and assign them all to this category."
-msgstr ""
-"Den här kategorin omfattar alla insekter som är mindre än 3 mm långa. Det "
-"kan vara svårt att ange en specifik grupp utan att granska dem på mycket "
-"nära håll (vilket skulle störa andra insekter som besöker blommorna). Bara "
-"räkna dem (eller uppskatta antalet om det är många) och för in dem i den här"
-" kategorin."
-
-# Other insect 1 screen content
-msgid ""
-"Other insects you may see include sawflies, which come in a variety of "
-"colours and sizes - some look rather like wasps"
-msgstr ""
-"Andra insekter som du kan få se kan vara växtsteklar, som finns i många "
-"färger och storlekar – en del liknar getingar"
-
-# Other insect 1 screen content
-msgid ""
-"They do not have a “wasp waist” – there is no gap between the abdomen and "
-"thorax"
-msgstr ""
-"De har ingen \"geting-midja\" – det finns inget mellanrum mellan bakkropp "
-"och mellankropp"
-
-# Other insect 1 screen content
-msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr "Växtsteklar är inte håriga och saknar pollenkorgar"
-
-# Other insect 1 screen content
-msgid ""
-"They are usually quite slow-moving, with a weaker flight than bees or wasps"
-msgstr ""
-"De rör sig vanligen ganska sävligt, och flyger inte lika kraftfullt som bin "
-"och getingar"
-
-# Other insect 1 screen content
-msgid ""
-"This category is for any insects that don’t fit into the other insect "
-"groups, and can also be used for any insects that you can’t identify into a "
-"group at all. Please count all the insects you see, and use “other insects” "
-"for any that you don’t recognise. For example, sawflies are counted as "
-"“other insects”. Sawflies are related to bees and wasps but there are a "
-"number of differences."
-msgstr ""
-"Den här kategorin är avsedd för alla insekter som inte passar i de övriga "
-"insektsgrupperna, och kan också användas för alla insekter som du inte kan "
-"bestämma vilken grupp de tillhör. Räkna alla insekter du ser, och använd "
-"kategorin \"andra insekter\" för alla du inte känner igen. Exempelvis räknas"
-" växtsteklar som \"andra insekter\". Växtsteklar är släkt med min och "
-"getingar men det finns en del skillnader."
-
-# Other insect 2 screen content
-msgid ""
-"True bugs have wings that overlap, so there is no clear midline along the "
-"abdomen – the wings form a X-shape"
-msgstr ""
-"Halvvingar har vingar som överlappar varandra, så det finns ingen tydlig "
-"mittlinje längs med bakkroppen – vingar bildar ett X"
-
-# Other insect 2 screen content
-msgid ""
-"Some bugs have a more-or-less triangular “scutellum” covering part of the "
-"abdomen, and adding to the X-shape effect"
-msgstr ""
-"En del halvvingar har en mer eller mindre trekantig \"skutell\" som täcker "
-"en del av bakkroppen, och framhäver X-formen vingarna bildar"
-
-# Other insect 2 screen content
-msgid ""
-"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
-"this is usually hidden away underneath the bug)"
-msgstr ""
-"Halvvingar har sugande mundelar, med en lång sugsnabel eller ett s.k. "
-"rostrum (men det är oftast gömt under huvudet)"
-
-# Other insect 2 screen content
-msgid ""
-"Some bugs are very colourful, while others are shades or green or brown"
-msgstr ""
-"En del halvvingar är mycket färggranna, medan andra är gröna eller bruna"
-
-# Other insect 2 screen content
-msgid ""
-"True bugs do not often visit flowers but you may encounter them "
-"occasionally, and if so they are counted in the “other insects” category. "
-"They are sometimes confused with beetles."
-msgstr ""
-"Halvvingar brukar inte besöka blommor så ofta men du kan ändå stöta på dem "
-"emellanåt, och då ska de räknas till gruppen \"andra insekter\". De kan "
-"ibland misstas för skalbaggar."
 
 # From survey pages
 #: UK BR CL CY AR
@@ -1910,34 +1318,42 @@ msgid "Other"
 msgstr "Annan"
 
 # From survey pages
+#: interface
 msgid "Note: it will remain in the gallery."
 msgstr "OBS: den kommer att ligga kvar i galleriet"
 
 # From survey pages
+#: interface
 msgid "Oops! Something went wrong."
 msgstr "Hoppsan! Något gick på tok"
 
 # From survey pages
+#: interface
 msgid "This is the error event id: {{eventId}}"
 msgstr "Det här felet har koden error event id: {{eventId}}"
 
 # From survey pages
+#: interface
 msgid "What is the <1>sky</1> above your location?"
 msgstr "Hur ser <1>himlen</1> ut ovanför din ruta?"
 
 # From survey pages
+#: interface
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 msgstr "Hur mycket<1> solsken</1> hade du under Blombesöksräkningen?"
 
 # From survey pages
+#: interface
 msgid "What was the <1>wind</1> strength?"
 msgstr "Hur stark var <1>vinden</1>?"
 
 # Button label
+#: interface
 msgid "Upload"
 msgstr "Skicka in"
 
 # Context term
+#: interface
 msgid ""
 "If you don't know which insect group, add to the \"Other insects\" category."
 msgstr ""
@@ -1945,10 +1361,12 @@ msgstr ""
 "\"Andra insekter\"."
 
 # Logout message
+#: interface
 msgid "Are you sure you want to logout?"
 msgstr "Är du säker på att du vill logga ut?"
 
 # Logout message
+#: interface
 msgid "Discard local data"
 msgstr "Rensa data på min enhet"
 
@@ -2013,34 +1431,42 @@ msgid "Hummingbirds"
 msgstr "Kolibirer"
 
 # Survey back button label
+#: interface
 msgid "Insect"
 msgstr "Insekt"
 
 # Survey back button label
+#: interface
 msgid "Location"
 msgstr "Plats"
 
 # Survey back button label
+#: interface
 msgid "Count"
 msgstr "Räkna"
 
 # Survey back button label
+#: interface
 msgid "Cover"
 msgstr "Täcka"
 
 # Survey back button label
+#: interface
 msgid "Patch"
 msgstr "Ruta"
 
 # Survey back button label
+#: interface
 msgid "Sky"
 msgstr "Himmel"
 
 # Survey back button label
+#: interface
 msgid "Shade"
 msgstr "Skugga"
 
 # Alert message at the end of survey
+#: interface
 msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
 " populations."
@@ -2049,6 +1475,7 @@ msgstr ""
 "insektspopulationerna."
 
 # Alert message at the end of survey
+#: interface
 msgid ""
 "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
@@ -2059,122 +1486,152 @@ msgstr ""
 "<6>{{averageInsectCountForThisMonth}}</6> insekter per räkning."
 
 # Alert message at the end of survey - non UK
+#: interface
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
 msgstr "Du räknade totalt <1>{{numberOfOccurrences}} </1>insekt(er)."
 
 # Alert message at the end of survey
+#: interface
 msgid "Go Home"
 msgstr "Till Startsidan"
 
 # Settings page divider label
+#: interface
 msgid "User"
 msgstr "Användare"
 
 # User registration identification experience button label
+#: interface
 msgid "Done"
 msgstr "Klar"
 
 # User registration "Happy to be contacted" label
+#: interface
 msgid "Happy to be contacted"
 msgstr "Tillåter att bli kontaktad"
 
 # Delete survey alert message
+#: interface
 msgid "Are you sure you want to delete this survey?"
 msgstr "Är du säker på att du vill radera den här räkningen?"
 
 # App version
+#: interface
 msgid "App version"
 msgstr "App version"
 
 # Month name
+#: interface
 msgid "January"
 msgstr "Januari"
 
 # Month name
+#: interface
 msgid "February"
 msgstr "Februari"
 
 # Month name
+#: interface
 msgid "March"
 msgstr "Mars"
 
 # Month name
+#: interface
 msgid "April"
 msgstr "April"
 
 # Month name
+#: interface
 msgid "May"
 msgstr "Maj"
 
 # Month name
+#: interface
 msgid "June"
 msgstr "Juni"
 
 # Month name
+#: interface
 msgid "July"
 msgstr "Juli"
 
 # Month name
+#: interface
 msgid "August"
 msgstr "Augusti"
 
 # Month name
+#: interface
 msgid "September"
 msgstr "September"
 
 # Month name
+#: interface
 msgid "October"
 msgstr "Oktober"
 
 # Month name
+#: interface
 msgid "November"
 msgstr "November"
 
 # Month name
+#: interface
 msgid "December"
 msgstr "December"
 
 # A label part of user surveys page
+#: interface
 msgid "Insects"
 msgstr "Insekter"
 
 # A label part of user surveys page
+#: interface
 msgid "Survey"
 msgstr "Räkning"
 
 # Survey upload process alert message
+#: interface
 msgid "Sorry, your account hasn't been verified yet or is blocked."
 msgstr "Ditt konto har inte bekräftats ännu, eller är avstängt"
 
 # Survey upload process alert message
+#: interface
 msgid "Please log in first."
 msgstr "Du måste logga in först"
 
 # Survey upload process alert message
+#: interface
 msgid "Looks like you are offline!"
 msgstr "Du verkar sakna kontakt med internet!"
 
 # Survey remove photo alert message
+#: interface
 msgid "Are you sure you want to remove this photo?"
 msgstr "Är du säker på att du vill ta bort det här fotot?"
 
 # Failed to upload image message
+#: interface
 msgid "Sorry, we couldn't get the image."
 msgstr "Vi fick tyvärr inte någon bild."
 
 # ID guide title
+#: interface
 msgid "Pollinator Groups"
 msgstr "Grupper av pollinatörer"
 
 # Menu page label
+#: interface
 msgid "Terms and Conditions"
 msgstr "Villkor"
 
 # Survey required label
+#: interface
 msgid "required"
 msgstr "obligatoriskt"
 
 # About page content
+#: interface
 msgid ""
 "FIT Counts are suitable for all, in urban or rural locations, and can be "
 "done at any time during the FIT Count season – see the quick guide <1></1> "
@@ -2185,6 +1642,7 @@ msgstr ""
 "mellan vilka datum  man räknar hos dig."
 
 # About page content
+#: interface
 msgid ""
 "An increasing amount of evidence suggests that pollinator species diversity "
 "has declined in many parts of the world, with the strongest evidence coming "
@@ -2204,6 +1662,7 @@ msgstr ""
 "blomflugor, fjärilar eller steklar."
 
 # About page content
+#: interface
 msgid ""
 "The FIT Count was originally developed through the UK Pollinator Monitoring "
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
@@ -2214,6 +1673,7 @@ msgstr ""
 "den här appen används i flera olika projekt för att övervaka pollinatörer."
 
 # About page content
+#: interface
 msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
 "and can be contacted <1>here</1>."
@@ -2222,14 +1682,17 @@ msgstr ""
 "Ecology & Hydrology, som kan kontaktas <1>här</1> (på engelska)."
 
 # Credits page content
+#: interface
 msgid "This app has been created by the"
 msgstr "Appen har skapats av"
 
 # Credits page content
+#: interface
 msgid "with technical development by"
 msgstr "med teknisk utveckling av"
 
 # Credits page content
+#: interface
 msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
@@ -2238,74 +1701,92 @@ msgstr ""
 "följande pollinatörs-projekt världen runt."
 
 # Survey validation message
+#: interface
 msgid "Please add at least 1 photo."
 msgstr "Lägg till minst ett foto, tack."
 
 # Survey validation message
+#: interface
 msgid "Flower number is a required field."
 msgstr "Du måste ange antal blommor."
 
 # Survey validation message
+#: interface
 msgid "Flower type is a required field."
 msgstr "Du måste ange blomtyp."
 
 # Survey validation message
+#: interface
 msgid "Survey incomplete"
 msgstr "Räkningen är inte komplett ifylld."
 
 # Survey validation message
+#: interface
 msgid "Habitat \"Other\" is a required field."
 msgstr "Du måste beskriva naturtyp \"Annan\"."
 
 # Survey validation message
+#: interface
 msgid "Flower \"Other\" is a required field."
 msgstr "Du måste ange \"Annan\" målväxts namn."
 
 # Menu path adress
+#: interface
 msgid "privacy-notice"
 msgstr "sekretess-varning"
 
 # Menu path adress
+#: interface
 msgid "terms"
 msgstr "villkor"
 
 # Location name search on a map
+#: interface
 msgid "Search for a location..."
 msgstr "Sök en plats…"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Enjoying the app?"
 msgstr "Gillar du appen?"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Not really"
 msgstr "Inte särskilt"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Yes!"
 msgstr "Ja!"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "Would you mind giving us some feedback?"
 msgstr "Vill du dela med dig av dina synpunkter?"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "No, thanks"
 msgstr "Nej tack"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "OK, sure"
 msgstr "Javisst"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "How about a rating on the App Store then?"
 msgstr "Vill du betygsätta appen på App Store?"
 
 # Asking user for a feedback on app stores
+#: interface
 msgid "How about a rating on the Play Store then?"
 msgstr "Vill du betygsätta appen på Play Store?"
 
 # Shown when tapping an uploaded survey
+#: interface
 msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
@@ -2313,7 +1794,51 @@ msgstr ""
 "Besök projektets websida för att se dina insända Blombesöks. Den svenska "
 "sidan finns <2>här</2>"
 
-# extraText
+# photos intro_text
+#: UK CY
+msgid ""
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+"Honungsbin är större än de flesta (men inte alla) solitärbin, men mindre än "
+"de flesta humlor."
+
+# photos caption_1
+#: UK CY BR
+msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
+msgstr "Långa, smala antenner, oftast men en skarp \"knä-böj\""
+
+# photos caption_2
+#: UK CY BR
+msgid "Eyes covering the sides of the head"
+msgstr "Ögonen täcker huvudets sidor"
+
+# photos caption_3
+#: UK CY BR
+msgid "Hind legs broad and flattened"
+msgstr "Bakbenen är breda och platta"
+
+# photos caption_4
+#: UK CY BR
+msgid "Abdomen can vary from mostly dark to mostly orange"
+msgstr "Bakkroppens färg varierar från nästan helt mörk till mest orange"
+
+# photos caption_5
+#: UK CY BR
+msgid "Long narrow cell in veins at edge of wing"
+msgstr "Långa, smala celler mellan ribborna nära vingkanten"
+
+# photos extraText
+#: UK
+msgid ""
+"There is just one species of honeybee in the UK. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+"Det finns bara en art av honungsbi i Sverige. De bor i konstgjorda kupor, "
+"men ibland kan en svärm även skapa en koloni i naturen."
+
+# photos extraText
+#: CY
 msgid ""
 "There is just one species of honeybee. They nest in artificial hives,with "
 "occasional colonies establishing in the wild."
@@ -2321,7 +1846,103 @@ msgstr ""
 "Det finns bara en art av honungsbi. De bor i konstgjorda kupor, men ibland "
 "kan en svärm även skapa en koloni i naturen."
 
-# extraText
+# photos intro_text
+#: BR
+msgid ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. Look out for:"
+msgstr ""
+
+# photos caption_1
+#: UK CY BR
+msgid ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
+msgstr ""
+"De flesta honungsbin du ser är arbetare, alltså honor som samlar pollen i "
+"fuktade bollar på bakbenens utsida"
+
+# photos extraText
+#: UK CY BR
+msgid "Male honeybees (drones) are similar but have much larger eyes."
+msgstr ""
+"Honungsbiets hanar (drönare) liknar honorna men har mycket större ögon"
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Bumblebees are very rounded and furry bees. The queens are among our largest"
+" bees; workers can be quite small, but are larger than most solitary bees."
+msgstr ""
+"Humlor är trinda bin med mycket päls. Drottningarna hör till våra största "
+"bin; arbetarna kan vara ganska små, men brukar bara större än de flesta "
+"solitärbin."
+
+# photos caption_1
+#: UK CY BR
+msgid "Very hairy / fluffy bees"
+msgstr "Mycket håriga / lurviga bin"
+
+# photos caption_2
+#: UK CY BR
+msgid ""
+"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
+"visiting flowers"
+msgstr ""
+"Trinda, nästan klotrunda till formen, har ofta 'svansen indragen' när de "
+"besöker blommor"
+
+# photos caption_4
+#: UK CY
+msgid ""
+"Many species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be ginger all over"
+msgstr ""
+"Många arter har tvärband i kontrasterande färger (gult, vitt, svart), andra "
+"kan vara helt rödbruna."
+
+# photos caption_5
+#: UK CY
+msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
+msgstr "Ögonen täcker huvudets sidor, och de har mycket hår mellan ögonen"
+
+# photos extraText
+#: UK
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 24 species in the UK."
+msgstr ""
+"Humlor har en typisk 'humle-aktig' surrande flykt och hovrar inte. Det finns"
+" 38 arter i Sverige."
+
+# photos caption_1
+#: UK CY
+msgid ""
+"Queen and worker bumblebees collect pollen into a moistened ball on the "
+"outside of the hind legs"
+msgstr ""
+"Humledrottningar och arbetare samlar pollen i små fuktiga bollar på utsidan "
+"av bakbenen."
+
+# photos caption_2
+#: UK
+msgid ""
+"This bumblebee is one of the species that are more-or-less ginger-coloured "
+"all over"
+msgstr "Den är humlearten är i stort sett helt rödbrun."
+
+# photos extraText
+#: UK CY
+msgid ""
+"Male bumblebees are similar looking to females but have slightly longer "
+"antennae, and do not collect pollen. They visit flowers to feed on nectar."
+msgstr ""
+"Humle-hanar likar honorna men har lite längre antenner och samlar inte "
+"pollen. De besöker blommor för att finna nektar."
+
+# photos extraText
+#: CY
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are two species in Cyprus."
@@ -2329,7 +1950,116 @@ msgstr ""
 "Humlor har en typisk 'humle-aktig' surrande flykt och hovrar inte. Det finns"
 " två arter på Cypern."
 
-# extraText
+# photos intro_text
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. Look out for:"
+msgstr ""
+
+# photos caption_4
+#: BR
+msgid ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+msgstr ""
+
+# photos extraText
+#: BR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference, look out for:"
+msgstr ""
+
+# photos caption_1
+#: BR
+msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
+msgstr ""
+
+# photos caption_2
+#: BR
+msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
+msgstr ""
+
+# photos caption_3
+#: BR
+msgid "<i>Bombus</i> has a round shape, with furry abdomen"
+msgstr ""
+
+# photos caption_4
+#: BR
+msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
+msgstr ""
+
+# photos extraText
+#: BR
+msgid ""
+"For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
+"and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
+"lato”."
+msgstr ""
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"both bumblebees and honeybees. "
+msgstr ""
+"Solitärbin är inte så trinda som humlor, och de flesta arter är betydligt "
+"mindre än humlor och honungsbin"
+
+# photos caption_1
+#: UK CY BR
+msgid "Usually quite elongate in shape (but there is lots of variety)"
+msgstr ""
+"De är oftast ganska långsmala till formen (men variationen är stor mellan "
+"arterna)"
+
+# photos caption_2
+#: UK CY BR
+msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
+msgstr "De är vanligen håriga, men brukar ha glesare päls än humlor"
+
+# photos caption_3
+#: UK CY
+msgid "Colours usually more subdued and less contrasting than bumblebees"
+msgstr ""
+"Färgerna är vanligen mer dämpade och mindre kontrastrika än hos humlorna"
+
+# photos caption_4
+#: UK CY BR
+msgid "Long antennae, often held straight out in front"
+msgstr "Långa antenner, som ofta är riktade rakt framåt"
+
+# photos caption_5
+#: UK CY
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees"
+msgstr ""
+"Mindre än humledrottningar, men de största solitärbina är större än små "
+"humlearbetare"
+
+# photos extraText
+#: UK
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr ""
+"Solitärbin flyger flitigt mellan olika blommor, och vilar ibland i "
+"solgasset. De flesta arter brukar inte hovra. Det finns nästan 300 arter i "
+"Sverige"
+
+# photos extraText
+#: CY
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 369 species in Cyprus."
@@ -2338,7 +2068,36 @@ msgstr ""
 "solgasset. De flesta arter brukar inte hovra. Det finns ca. 369 arter på "
 "Cypern."
 
-# caption_1
+# photos caption_1
+#: UK
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the mining bee on the left above)"
+msgstr ""
+"Vissa solitärbin samlar torrt pollen i en pollenkorg vid bakbenens bas (se "
+"sandbiet på bilden ovan till vänster)"
+
+# photos caption_2
+#: UK
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee on the right above)"
+msgstr ""
+"Andra har pollenkorgen under bakkroppen (se tapetserarbiet ovan till höger)"
+
+# photos extraText
+#: UK CY
+msgid ""
+"Solitary bees generally nest in burrows or holes. One large group, the "
+"mining bees, dig burrows into soil. Another group, including the mason bees "
+"and leafcutter bees, make use of holes in wood, plants or walls."
+msgstr ""
+"Solitärbin har vanligen bon i gångar eller hålor. En stor grupp, "
+"minerarbina, gräver gångar i marken. En annan grupp, däribland murarbin och "
+"tapetserarbin, använder hål i trä, växter eller väggar."
+
+# photos caption_1
+#: CY
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (bee on the left above)"
@@ -2346,179 +2105,74 @@ msgstr ""
 "Vissa solitärbin samlar torrt pollen i en pollenkorg vid bakbenens bas (se "
 "biet på bilden ovan till vänster)"
 
-# caption_2
+# photos caption_2
+#: CY
 msgid ""
 "Others have the pollen basket underneath their abdomen (bee on the right "
 "above)"
 msgstr "Andra har pollenkorgen under bakkroppen (se biet ovan till höger)"
 
-# caption_1
+# photos intro_text
+#: UK CY
+msgid ""
+"Among the many species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Some examples are shown above."
+msgstr ""
+"Det är stor variation mellan olika arter solitärbin vad gäller storlek, färg"
+" och behåring. Några exempel visas ovan."
+
+# photos caption_1
+#: UK
+msgid ""
+"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+msgstr "Sobersandbiet (<i>Andrena cineraria</i>) är svart med grå ränder"
+
+# photos caption_2
+#: UK
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours"
+msgstr ""
+"Gökbin (släktet <i>Nomada</i>) kan vara mycket lika getingar, men som andra "
+"bin har de hår på delar av kroppen, och de flesta likar varandra till form "
+"och sina i svarta, röda och gula teckningar."
+
+# photos caption_3
+#: UK
+msgid ""
+"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
+"bees, at around 4mm long"
+msgstr ""
+"Blomsovarbin (släktet <i>Chelostoma</i>) hör till de minsta solitärbi-"
+"arterna, ca. 4 mm långa"
+
+# photos caption_4
+#: UK
+msgid ""
+"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
+"when fresh these bees have clear black and yellow stripes on the abdomen"
+msgstr ""
+"I Mellaneuropa besöker<i>Colletes hederae</i>, en art av sidenbin, blommande"
+" murgröna under sensommaren – dessa bin tydliga svarta och gula ränder på "
+"bakkroppen åtminstone innan de blivit slitna."
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “solitary bees”!"
+msgstr ""
+"Du behöver inte känna igen varje enskild art för att göra en "
+"Blombesöksräkning, de räknas alla till gruppen \"solitära bin!\""
+
+# photos caption_1
+#: CY
 msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
 msgstr "Sandbiet (släktet <i> Andrena </i>) har svarta och grå ränder"
 
-# caption_2
-msgid ""
-"Bees of the genus  <i>Nomada </i> can look very similar to wasps, but they "
-"have bee-like hairs on part of their body. Most bees of this genus are "
-"similar in shape and with a mix of black, red and yellow colours. This "
-"species is not belonging to the biodiversity of Cyprus (example from the "
-"entomofauna of UK) "
-msgstr ""
-"Bin i släktet <i>Nomada</i> kan vara mycket lika getingar, men som andra bin"
-" har de hår på delar av kroppen. De flesta likar varandra till form och sina"
-" svarta, röda och gula teckningar. Den här arten ingår inte Cyperns "
-"biodiversitet (exemplet är från Storbritanniens insektsfauna)"
-
-# caption_3
-msgid ""
-"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
-"Some species are among the smallest in size solitary bees, at around 3mm "
-"long. "
-msgstr ""
-"Bin i släktet <i> Lasioglossum </i> är medelstora solitärbin. Vissa arter "
-"hör till de minsta solitärbina, bara ca. 3 mm långa."
-
-# caption_4
-msgid ""
-"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
-"on the abdomen. This species is not belonging to the biodiversity of Cyprus "
-"(example from the entomofauna of UK)"
-msgstr ""
-"Släktet <i>Colletes </i> har tydliga svarta och gula ränder på bakkroppen. "
-"Den här arten ingår inte Cyperns biodiversitet (exemplet är från "
-"Storbritanniens insektsfauna)"
-
-# caption_3
-msgid ""
-"Social wasps and some of the solitary species have bold black and yellow "
-"stripes"
-msgstr ""
-"Sociala getingar och vissa solitära steklar har skarpa svarta och gula "
-"ränder"
-
-# extraText
-msgid ""
-"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
-"pollen baskets. There are about 52 species of hoverfly in Cyprus."
-msgstr ""
-"Blomflugor lever av nektar och pollen, men de samlar inte in nektar, och har"
-" inga pollenkorgar. Det finns ca. 52 arter blomflugor på Cypern."
-
-# caption_1
-msgid ""
-"Drone-fly hoverflies have much shorter antennae than honeybees. This species"
-" is not belonging to the biodiversity of Cyprus (example from the "
-"entomofauna of Greece) "
-msgstr ""
-"Slamflugor har mycket kortare antenner än honungsbin. Den här arten ingår "
-"inte Cyperns biodiversitet (exemplet är från Greklands insektsfauna)"
-
-# caption_1
-msgid ""
-"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
-"is a good mimic of hornets, but note the short antennae (example from the "
-"entomofauna of Greece)"
-msgstr ""
-"Arten <i> Volucella zonaria</i> är en av de största blomflugorna, och är "
-"mycket lik en bålgeting, men har korta antenner. (exemplet är från Greklands"
-" insektsfauna)"
-
-# caption_2
-msgid ""
-"A few species have extended ‘noses’ – this one is <i>Eristalinus "
-"taeniops</i>, a widespread species in Cyprus, with reddish-yellow abdomen. "
-"The compound eyes have five distinct, vertical, dark stripes. "
-msgstr ""
-"Några arter har en utdragen \"näbb\" – det här är en <i>Eristalinus "
-"taeniops</i>, en art som finns över stora delar av Cypern, med rödgul "
-"bakkropp. Facettögonen har fem tydliga, vertikala, mörka streck."
-
-# caption_1
-msgid "This is a dance fly (family Empididae). "
-msgstr "Det här är en dansfluga (familjen Empididae)"
-
-# caption_1
-msgid ""
-"This is a dance fly (family Empididae). This species is not belonging to the"
-" biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr ""
-"Det här är en dansfluga (familjen Empididae). Den här arten ingår inte "
-"Cyperns biodiversitet (exemplet är från Storbritanniens insektsfauna)"
-
-# caption_4
-msgid ""
-"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
-" seen on flowers. This species is not belonging to the biodiversity of "
-"Cyprus (example from the entomofauna of UK)"
-msgstr ""
-"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som ofta ses "
-"på blommor. Den här arten ingår inte Cyperns biodiversitet (exemplet är från"
-" Storbritanniens insektsfauna)"
-
-# caption_1
-msgid ""
-"This is a parasitic fly from family Tachinidae. This species is not "
-"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr ""
-"Det här är en parasitfluga ur familjen Tachinidae. Den här arten ingår inte "
-"Cyperns biodiversitet (exemplet är från Storbritanniens insektsfauna)"
-
-# caption_3
-msgid ""
-"This is the Yellow Dung-fly (family Scathophagidae). This species is not "
-"belonging to the biodiversity of Cyprus (example from the entomofauna of UK)"
-msgstr ""
-"Det här är en dyngfluga (familjen Scathophagidae). Den här arten ingår inte "
-"Cyperns biodiversitet (exemplet är från Storbritanniens insektsfauna)"
-
-# caption_1
-msgid "Painted Lady butterfly"
-msgstr "Tistelfjäril"
-
-# caption_1
-msgid "Six-spot Burnet moth (a macro-moth) (UK example shown)"
-msgstr ""
-"Sexfläckig bastardsvärmare (en makro-nattfjäril) (exempel från "
-"Storbritannien)"
-
-# caption_2
-msgid "Micro-moths"
-msgstr "Mikro-nattfjärilar "
-
-# caption_1
-msgid ""
-"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
-" very abundant on flowers in mid-summer (UK example shown)"
-msgstr ""
-"Flugbaggar, här en <i>Rhagonycha fulva</i> med svarta spestsar på "
-"täckvingarna, är ofta vanliga på blommor under högsommaren (exempel från "
-"Storbritannien)"
-
-# caption_2
-msgid ""
-"The brown beetle with long antennae (<i>Hesperophanes sericeus</i>), is a "
-"large nocturnal species - larvae live in decaying wood "
-msgstr ""
-"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
-" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
-
-# caption_1
-msgid ""
-"This example shows a flower with many pollen beetles (family Nitidulidae) "
-"and other “small insects” which may include tiny flies and parasitic wasps"
-msgstr ""
-"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
-" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
-
-# caption_4
-msgid ""
-"They are usually quite slow-moving, with a weaker flight than bees or wasps "
-"(UK example shown)"
-msgstr ""
-"De rör sig vanligen ganska sävligt, och flyger inte lika kraftfullt som bin "
-"och getingar (exempel från Storbritannien)"
-
-# caption_2
+# photos caption_2
+#: CY
 msgid ""
 "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
 "they have bee-like hairs on part of their body, and most are similar in "
@@ -2528,7 +2182,18 @@ msgstr ""
 "bin har de hår på delar av kroppen, och de flesta likar varandra till form "
 "och sina i svarta, röda och gula teckningar. (exempel från Storbritannien)"
 
-# caption_4
+# photos caption_3
+#: CY
+msgid ""
+"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
+"Some species are among the smallest in size solitary bees, at around 3mm "
+"long. "
+msgstr ""
+"Bin i släktet <i> Lasioglossum </i> är medelstora solitärbin. Vissa arter "
+"hör till de minsta solitärbina, bara ca. 3 mm långa."
+
+# photos caption_4
+#: CY
 msgid ""
 "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
 "on the abdomen (UK example shown)"
@@ -2536,7 +2201,339 @@ msgstr ""
 "Bin i släktet <i>Colletes </i> har tydliga svarta och gula ränder på "
 "bakkroppen. (exempel från Storbritannien)"
 
-# caption_1
+# photos intro_text
+#: BR
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. Look out for:"
+msgstr ""
+
+# photos caption_4
+#: BR
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees. Some solitary bees measure up to 45mm."
+msgstr ""
+
+# photos extraText
+#: BR
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 3000 species in Brazil."
+msgstr ""
+
+# photos caption_1
+#: BR
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the bee on the left above)"
+msgstr ""
+
+# photos caption_2
+#: BR
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee from the Megachilidae family on the right above)"
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"Among the 3000 species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Here are some examples:"
+msgstr ""
+
+# photos caption_1
+#: BR
+msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
+msgstr ""
+
+# photos caption_2
+#: BR
+msgid ""
+"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"and lack structures for carrying pollen."
+msgstr ""
+
+# photos caption_3
+#: BR
+msgid ""
+"Bees from the Halictidae family are usually dark-coloured and often "
+"metallic."
+msgstr ""
+
+# photos caption_4
+#: BR
+msgid ""
+"The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
+"underneath their abdomen and cut pieces of leaf and petals to build their "
+"nests."
+msgstr ""
+
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There are many different species of wasp, but the most familiar are the "
+"social wasps such as the one shown above."
+msgstr ""
+"Det finns många stekelarter, men de sociala getingarna är mest välbekanta"
+
+# photos caption_1
+#: UK CY BR
+msgid "Long antennae (distinguishes them from most flies)"
+msgstr "Långa antenner (vilket skiljer dem från de flesta flugor)"
+
+# photos caption_2
+#: UK CY BR
+msgid ""
+"There are some hairs on the body, but wasps are usually much less dense and "
+"furry compared to bees"
+msgstr ""
+"De har en del hår på kroppen, men getingar och andra steklar har vanligen "
+"mycket mindre och glesare behåring än bin"
+
+# photos caption_3
+#: UK CY BR
+msgid ""
+"Social wasps and some of the solitary species have bold black and yellow "
+"stripes"
+msgstr ""
+"Sociala getingar och vissa solitära steklar har skarpa svarta och gula "
+"ränder"
+
+# photos caption_4
+#: UK CY BR
+msgid "Some wasps have their wings rolled up when at rest"
+msgstr "En del getingar viker samman vingarna när de vilar"
+
+# photos caption_5
+#: UK CY BR
+msgid ""
+"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+msgstr ""
+"Getingar och andra midjestekar har en mycket smal \"getingmidja\" där "
+"mellankroppen övergår i bakkroppen"
+
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There is a lot of variation in size, shape and markings among the solitary "
+"wasps. They are usually not obviously hairy, and since they do not collect "
+"pollen they have no pollen basket (although pollen may become stuck to their"
+" bodies)."
+msgstr ""
+"Skillnaden i storlek, form och teckning är mycket stor mellan olika arter av"
+" solitära steklar. De flesta saknar tydlig behåring, och eftersom de inte "
+"samlar pollen saknar de pollenkorgar (men en del pollen kan råka fastna på "
+"kroppen)"
+
+# photos caption_1
+#: UK CY
+msgid "Many solitary wasps have a distinctive broad, boxy head shape"
+msgstr ""
+"Många solitära steklar har tydligt avsatta, breda, lite kantiga huvuden"
+
+# photos caption_2
+#: UK CY
+msgid "Some have typical black and yellow wasp stripes"
+msgstr "En del är typiskt \"getingrandiga\" i svart och gult"
+
+# photos caption_3
+#: UK CY
+msgid "Others may be black and red, or all black as in this example"
+msgstr "Andra kan vara svarta och röda, eller helsvarta som den här."
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"Solitary wasps generally nest in burrows or holes, in a similar manner to "
+"the solitary bees."
+msgstr ""
+"Solitära steklar brukar bo i gångar eller hålor, på samma sätt som solitära "
+"bin."
+
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There are many different parasitic wasps, some of which visit flowers for "
+"nectar. Two examples are shown above."
+msgstr ""
+"Det finns många slags parasitsteklar, och en del av dem besöker blommor för "
+"att söka nektar. Ovan visas ett par exempel."
+
+# photos caption_1
+#: UK CY BR
+msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
+msgstr ""
+"Många parasitsteklar är mycket långa och smala, med mycket smal getingmidja"
+
+# photos caption_2
+#: UK CY BR
+msgid ""
+"The majority of species have very long antennae, made up of lots of "
+"individual segments"
+msgstr ""
+"De flesta arterna har mycket långa antenner, bestående av många enskilda "
+"segment"
+
+# photos caption_3
+#: UK CY BR
+msgid ""
+"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
+"some species this is very long"
+msgstr ""
+"Parasitsteklarnas honor kan ha ett vasst äggläggningsrör – hos vissa arter "
+"är röret mycket långt"
+
+# photos caption_4
+#: UK CY BR
+msgid ""
+"Colours are usually a mix of black and red or yellow – some species are all-"
+"black"
+msgstr ""
+"Färgställningen är oftast svart och röd eller gul – vissa arter är helsvarta"
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
+" the larvae of the wasps consume the host invertebrate."
+msgstr ""
+"Parasitsteklar lägger sina ägg i andra ryggradslösa djur, eller i deras bon,"
+" och parasitstekelns larver äter upp sitt värddjur"
+
+# photos extraText
+#: BR
+msgid ""
+"Wasps feed their young on captured prey (usually other insects), but adult "
+"wasps often visit flowers for nectar. There are social wasp species, "
+"solitary wasp species and parasitic wasp species."
+msgstr ""
+
+# photos caption_1
+#: BR
+msgid "Solitary wasp of the genus <i>Ammophila</i>"
+msgstr ""
+
+# photos caption_2
+#: BR
+msgid "Solitary wasp of the genus <i>Monobia</i>"
+msgstr ""
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Hoverflies are very active and agile flyers, and are frequently seen "
+"hovering, as you would expect from their name. "
+msgstr ""
+"Blomflugor är mycket snabba och skickliga flygare och ses ofta hovra, alltså"
+" sväva stilla i luften t.ex. över en blomma."
+
+# photos caption_1
+#: UK CY
+msgid ""
+"Large eyes, covering most of the head in males (as shown above) or with a "
+"small gap between the eyes at the top of the head in females"
+msgstr ""
+"De stora ögonen täcker större delen av hanarnas huvud (som visas ovan), men "
+"hos honorna finns ett litet mellanrum mellan ögonen uppe på huvudet."
+
+# photos caption_2
+#: UK CY BR
+msgid "Most hoverflies have much shorter antennae than bees and wasps"
+msgstr ""
+"De flesta blomflugor har mycket kortare antenner än bin och andra steklar"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"In the wings there is a ‘false margin’ wing vein, running more-or-less "
+"parallel to the true edge of the wing"
+msgstr ""
+"Mitt på vingarna finns en \"falsk vingribba\" som löper mer eller mindre "
+"längs med den riktiga vingkanten."
+
+# photos caption_4
+#: UK CY BR
+msgid ""
+"Many hoverfly species have black and yellow stripes, but some are all dark "
+"or have other patterns"
+msgstr ""
+"Många blomflugor har svarta och gula ränder, men en del är enfärgat mörka "
+"eller har andra mönster"
+
+# photos caption_5
+#: UK CY BR
+msgid ""
+"Hoverflies are not usually as hairy as bees (but there are some "
+"exceptions!), and they do not usually have prominent bristles on the body "
+"(some other types of fly are obviously bristly)"
+msgstr ""
+"Blomflugor brukar inte vara så håriga som bin (men det finns undantag!) och "
+"de brukar inta ha tydliga borst på kroppen (en del andra slags flugor är "
+"tydligt borstiga)"
+
+# photos extraText
+#: UK
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr ""
+"Blomflugor lever av nektar och pollen, men de samlar inte in nektar, och har"
+" inga pollenkorgar. Det finns ca. 390 arter blomflugor i Sverige."
+
+# photos extraText
+#: CY
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 52 species of hoverfly in Cyprus."
+msgstr ""
+"Blomflugor lever av nektar och pollen, men de samlar inte in nektar, och har"
+" inga pollenkorgar. Det finns ca. 52 arter blomflugor på Cypern."
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Many hoverflies have the typical black and yellow markings, but there is "
+"quite a lot of variety in shape, size and marking among the full range of "
+"species. Some examples are shown above."
+msgstr ""
+"Många blomflugor har en typisk svart och gul teckningen, men form, storlek "
+"mönster kan variera mycket mellan arterna. Några exempel visas ovan."
+
+# photos caption_1
+#: UK
+msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
+msgstr ""
+"Storslamfluga är en blomflugeart, och har mycket kortare antenner än "
+"honungsbin"
+
+# photos caption_2
+#: UK CY
+msgid "The eyes cover more of the head"
+msgstr "Ögonen täcker en större del av huvudet"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"The back legs are much narrower than the broad flattened legs of honeybees"
+msgstr "Bakbenen är mycket smalare än honungsbinas breda, platta bakben."
+
+# photos caption_4
+#: UK CY
+msgid "The typical ‘false margin’ wing vein is present"
+msgstr "Den har den typiska \"falska vingribban\""
+
+# photos caption_5
+#: UK CY
+msgid ""
+"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
+" of the wing"
+msgstr ""
+"Storslamflugan har en typisk stor sväng på en vingribba nära vingspetsen"
+
+# photos caption_1
+#: CY
 msgid ""
 "Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
 "shown) "
@@ -2544,7 +2541,48 @@ msgstr ""
 "Slamflugor har mycket kortare antenner än honungsbin. (exempel från "
 "Storbritannien)"
 
-# caption_1
+# photos caption_1
+#: UK
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae"
+msgstr ""
+"Den stora arten <i>Volucella zonaria</i> har nyligen hittats i Sverige, men "
+"ännu inte fått något svenska namn. Den är mycket lik en bålgeting, men har "
+"korta antenner."
+
+# photos caption_2
+#: UK
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
+msgstr ""
+"Några arter har en utdragen \"näbb\" – det här är en ängsnäbbfluga, "
+"<i>Rhingia campestris</i>, med orange och gråsvart teckning, som finns i "
+"stora delar av landet"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"A few hoverflies are very good bumblebee mimics – check the antennae to be "
+"sure they are not bumblebees!"
+msgstr ""
+"Ett fåtal blomflugor är snarlika humlor – titta noga på antennerna för att "
+"se att det inte är en humla!"
+
+# photos caption_4
+#: UK CY
+msgid ""
+"Some hoverflies are small and mostly dark in colour, but have the typical "
+"wing veins (if you can get close enough to see them) and in flight will "
+"hover like typical hoverflies"
+msgstr ""
+"En del blomflugor är så och mestadels mörka, men alla har de typiska "
+"vingribborna (om du kan komma nära nog för att se dem) och de hovrar precis "
+"som andra blomflugor"
+
+# photos caption_1
+#: CY
 msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
 "hoverfly species and is a good mimic of hornets, but note the short antennae"
@@ -2553,7 +2591,8 @@ msgstr ""
 "Arten <i> Volucella zonaria</i> är en av de största blomflugorna, och är "
 "mycket lik en bålgeting, men har korta antenner. (exempel från Grekland)"
 
-# caption_2
+# photos caption_2
+#: CY
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour (UK example "
@@ -2563,206 +2602,7 @@ msgstr ""
 "taeniops</i>, en spridd art med rödgul bakkropp. Facettögonen har fem "
 "tydliga, vertikala, mörka streck."
 
-# caption_1
-msgid "This is a dance fly (family Empididae, photo from the UK)"
-msgstr ""
-"Det här är en dansfluga (familjen Empididae, foto från Storbritannien)"
-
-# caption_4
-msgid ""
-"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
-" seen on flowers (UK example shown)"
-msgstr ""
-"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som ofta ses "
-"på blommor. (exempel från Storbritannien)"
-
-# caption_1
-msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
-msgstr ""
-"Det här är en parasitfluga ur familjen Tachinidae (exempel från "
-"Storbritannien)"
-
-# caption_3
-msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
-msgstr ""
-"Det här är en dyngfluga (familjen Scathophagidae, exempel från "
-"Storbritannien)"
-
-# caption_1
-msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
-msgstr ""
-"Sexfläckig bastardsvärmare (en makro-nattfjäril, exempel från "
-"Storbritannien)"
-
-# caption_1
-msgid ""
-"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
-" very abundant on flowers in mid-summer "
-msgstr ""
-"Flugbaggar, här en <i>Rhagonycha fulva</i> med svarta spestsar på "
-"täckvingarna, är ofta vanliga på blommor under högsommaren"
-
-# caption_2
-msgid ""
-"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
-"– larvae live in decaying wood"
-msgstr ""
-"Svarta och gula långhorningar (<i>Chlorophorus</i> sp.), en stor sskalbagge–"
-" larverna lever i multnande trä"
-
-# intro_text
-#: BR
-msgid ""
-"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
-"Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. Look out for:"
-msgstr ""
-
-# intro_text
-#: BR
-msgid ""
-"Bumblebees are very rounded and mostly furry bees. The queens are among our "
-"largest bees; workers can be quite small, but are larger than most solitary "
-"bees. Look out for:"
-msgstr ""
-
-# caption_4
-#: BR
-msgid ""
-"Some species have simple, contrasting colour bands (yellows, whites, "
-"blacks), others can be all black"
-msgstr ""
-
-# extraText
-#: BR
-msgid ""
-"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
-"not hover."
-msgstr ""
-
-# intro_text
-#: BR
-msgid ""
-"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
-"both with large bees. However, there are some difference, look out for:"
-msgstr ""
-
-# caption_1
-#: BR
-msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
-msgstr ""
-
-# caption_2
-#: BR
-msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
-msgstr ""
-
-# caption_3
-#: BR
-msgid "<i>Bombus</i> has a round shape, with furry abdomen"
-msgstr ""
-
-# caption_4
-#: BR
-msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
-msgstr ""
-
-# extraText
-#: BR
-msgid ""
-"For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
-"and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
-"lato”."
-msgstr ""
-
-# intro_text
-#: BR
-msgid ""
-"Solitary bees are less rounded than bumblebees, and most are smaller than "
-"honeybees. Look out for:"
-msgstr ""
-
-# caption_4
-#: BR
-msgid ""
-"Smaller than queen bumblebees, but the largest solitaries are bigger than "
-"small worker bumblebees. Some solitary bees measure up to 45mm."
-msgstr ""
-
-# extraText
-#: BR
-msgid ""
-"Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 3000 species in Brazil."
-msgstr ""
-
-# caption_1
-#: BR
-msgid ""
-"Some solitary bees collect dry pollen into a pollen basket at the base of "
-"the hind legs (see the bee on the left above)"
-msgstr ""
-
-# caption_2
-#: BR
-msgid ""
-"Others have the pollen basket underneath their abdomen (see the leafcutter "
-"bee from the Megachilidae family on the right above)"
-msgstr ""
-
-# intro_text
-#: BR
-msgid ""
-"Among the 3000 species of solitary bee, there is a lot of variation in size,"
-" colour and how hairy they appear. Here are some examples:"
-msgstr ""
-
-# caption_1
-#: BR
-msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
-msgstr ""
-
-# caption_2
-#: BR
-msgid ""
-"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
-"and lack structures for carrying pollen."
-msgstr ""
-
-# caption_3
-#: BR
-msgid ""
-"Bees from the Halictidae family are usually dark-coloured and often "
-"metallic."
-msgstr ""
-
-# caption_4
-#: BR
-msgid ""
-"The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
-"underneath their abdomen and cut pieces of leaf and petals to build their "
-"nests."
-msgstr ""
-
-# extraText
-#: BR
-msgid ""
-"Wasps feed their young on captured prey (usually other insects), but adult "
-"wasps often visit flowers for nectar. There are social wasp species, "
-"solitary wasp species and parasitic wasp species."
-msgstr ""
-
-# caption_1
-#: BR
-msgid "Solitary wasp of the genus <i>Ammophila</i>"
-msgstr ""
-
-# caption_2
-#: BR
-msgid "Solitary wasp of the genus <i>Monobia</i>"
-msgstr ""
-
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "There are many different flies that you may see visiting flowers. Hoverflies"
@@ -2770,40 +2610,40 @@ msgid ""
 "would expect from their name. Look out for:"
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Large eyes, covering most of the head"
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Other flies do not have the ability to hover. Two examples are shown above."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "This is a fly of the family Empididae"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Empididae flies have a long thin proboscis under the head"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid "Many Empididae flies have a distinctly humped thorax"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid ""
 "Some of the larger flies that you will see on flowers are from ‘calypterate’"
@@ -2811,14 +2651,204 @@ msgid ""
 " the legs and body. This is a parasitic fly from family Tachinidae"
 msgstr ""
 
-# extraText
+# photos caption_5
+#: BR UK CY
+msgid "It has prominent bristles on the abdomen"
+msgstr "Den har tydliga borst på bakkroppen"
+
+# photos extraText
 #: BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “flies”!"
 msgstr ""
 
-# intro_text
+# photos intro_text
+#: UK CY
+msgid ""
+"There are many different flies that you may see visiting flowers – for the "
+"FIT Count all you need to do is separate them into “hoverflies” and all "
+"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
+"but not many other flies have. Two examples of “other flies” are shown above"
+" and two on the next screen."
+msgstr ""
+"Det finns många olika slags flugor som besöker blommor – för att göra en "
+"Blombesöksräkning behöver du bara kunna skilja på \"blomflugor\" och \"andra"
+" flugor\"! Glöm inte att blomflugor kan hovra, något som bara ett fåtal "
+"andra arter av flugor kan. Två exempel på \"andra flugor\" visas ovan och på"
+" nästa sida."
+
+# photos caption_1
+#: UK
+msgid "This is a dance fly (family Empididae). "
+msgstr "Det här är en dansfluga (familjen Empididae)"
+
+# photos caption_2
+#: UK CY
+msgid "Many dance flies have a long thin proboscis under the head"
+msgstr "Många dansflugor har en lång, tunn sugsnabel under huvudet"
+
+# photos caption_3
+#: UK CY
+msgid "Many dance flies have a distinctly humped thorax"
+msgstr "Många dansflugor har en tydlig puckel på mellankroppen"
+
+# photos caption_4
+#: UK
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on hogweed and related flowers"
+msgstr ""
+"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som kan ses på"
+" björnloka och närbesläktade växter."
+
+# photos caption_5
+#: UK CY
+msgid "The abdomen is broader and flatter than in hoverflies"
+msgstr "Bakkroppen är bredare och mer tillplattad än blomflugornas"
+
+# photos caption_6
+#: UK CY
+msgid ""
+"The wing venation is different to hoverflies, with no ‘false margin’ wing "
+"vein parallel to the true edge of the wing"
+msgstr ""
+"Vingribborna ser annorlunda ut; de saknar blomflugornas längsgående 'falska "
+"vingribba'"
+
+# photos caption_1
+#: CY
+msgid "This is a dance fly (family Empididae, photo from the UK)"
+msgstr ""
+"Det här är en dansfluga (familjen Empididae, foto från Storbritannien)"
+
+# photos caption_4
+#: CY
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers (UK example shown)"
+msgstr ""
+"Det här är en vapensfluga av arten <i>Chloromyia formosa</i>, som ofta ses "
+"på blommor. (exempel från Storbritannien)"
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body."
+msgstr ""
+"En del av de stora flugor du kan se på blommor hör till familjer med ganska "
+"runda kroppar med tydliga borst på ben och kropp."
+
+# photos caption_1
+#: UK
+msgid "This is a parasitic fly from family Tachinidae"
+msgstr "Det här är en parasitfluga ur familjen Tachinidae"
+
+# photos caption_3
+#: UK
+msgid "This is the Yellow Dung-fly (family Scathophagidae)"
+msgstr ""
+"Det här är en dyngfluga av arten <i>Scathophaga stercoraria</i> (familjen "
+"Scathophagidae)"
+
+# photos caption_4
+#: UK CY
+msgid ""
+"It has bristles on the body and legs, and the males in particular have "
+"fluffy yellow hairs on the body"
+msgstr ""
+"Den har borst på kroppen och benen, och framför allt hanarna har en luddig "
+"gul behåring på kroppen"
+
+# photos caption_1
+#: CY
+msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
+msgstr ""
+"Det här är en parasitfluga ur familjen Tachinidae (exempel från "
+"Storbritannien)"
+
+# photos caption_3
+#: CY
+msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
+msgstr ""
+"Det här är en dyngfluga (familjen Scathophagidae, exempel från "
+"Storbritannien)"
+
+# photos intro_text
+#: UK CY
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+"Fjärilar är välbekanta blombesökare. Nattfjärilarna kanske man inte lägger "
+"märke till lika ofta, men de besöker också blommor, under dagtid eller "
+"nattetid. En del nattfjärilar (se nästa sida) är ganska små och kan därför "
+"lätt misstas för andra slags insekter."
+
+# photos caption_1
+#: UK
+msgid "Small Tortoiseshell butterfly"
+msgstr "Nässelfjäril"
+
+# photos caption_2
+#: UK CY
+msgid "Common Blue butterfly"
+msgstr "Puktörneblåvinge"
+
+# photos extraText
+#: UK CY BR
+msgid ""
+"For the FIT Count there is no need to distinguish between butterflies and "
+"moths – they are all counted in the same category."
+msgstr ""
+"För att göra en Blombesöksräkning behöver man inte skilja på dagfjärilar och"
+" nattfjärilar – de räknas alla i samma kategori."
+
+# photos intro_text
+#: UK CY
+msgid ""
+"A range of day-flying moths can be seen visiting flowers. Some of these are "
+"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
+"moths”). All moths have patterns and colours produced by the tiny scales on "
+"their wings."
+msgstr ""
+"Många av de nattfjärilar som är aktiva under dagtid besöker blommor. En del "
+"av dem är ganska stora (\"makro-nattfjärilar\") och färggranna, medan andra "
+"kan vara mycket små (\"mikro-nattfjärilar\"). Fjärilarnas färger och mönster"
+" skapas med hjälp av pyttesmå fjäll på vingarna."
+
+# photos caption_1
+#: UK
+msgid "Six-spot Burnet moth (a macro-moth)"
+msgstr "Sexfläckig bastardsvärmare (en sk. makro-nattfjäril)"
+
+# photos caption_2
+#: UK
+msgid "Nettle-tap moth (a micro-moth)"
+msgstr "Bredvingad nässelmal (en s.k. mikro-nattfjäril)"
+
+# photos caption_1
+#: CY
+msgid "Painted Lady butterfly"
+msgstr "Tistelfjäril"
+
+# photos caption_1
+#: CY
+msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
+msgstr ""
+"Sexfläckig bastardsvärmare (en makro-nattfjäril, exempel från "
+"Storbritannien)"
+
+# photos caption_2
+#: CY
+msgid "Micro-moths"
+msgstr "Mikro-nattfjärilar "
+
+# photos intro_text
 #: BR
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
@@ -2826,98 +2856,207 @@ msgid ""
 "night."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
 msgstr ""
 
-# caption_3
+# photos intro_text
+#: UK CY BR
+msgid ""
+"There are relatively few beetle species that visit flowers, but those that "
+"do can be very abundant. The different species vary a lot in size, shape and"
+" colour, but can be recognised as beetles by the hard wing cases covering "
+"their abdomen."
+msgstr ""
+"Det är ganska få skalbaggsarter som besöker blommor, men de som gör det kan "
+"förekomma i stort antal. De olika arterna varierar i storlek, form och färg,"
+" med känns igen på det hårda skal som täcker bakkroppen."
+
+# photos caption_1
+#: UK CY BR
+msgid ""
+"Beetles have forewings that have become hardened and act as covers for the "
+"softer hindwings and abdomen"
+msgstr ""
+"Skalbaggar har hårda framvingar som fungerar som skydd för de mjukare "
+"bakvingarna och bakkroppen."
+
+# photos caption_2
+#: UK CY BR
+msgid "Beetles have chewing mouthparts"
+msgstr "Skalbaggar har mundelar som kan tugga"
+
+# photos caption_3
+#: UK CY
+msgid ""
+"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
+"which the males have distinctive thickened hind legs"
+msgstr ""
+"Den här arten (<i>Oedemera nobilis</i>), känns igen på att hanarna har "
+"markant förtjockade bakben"
+
+# photos intro_text
+#: UK CY
+msgid "Above are two more examples of beetles that regularly visit flowers."
+msgstr ""
+"Här är ytterligare två exempel på skalbaggar som ofta besöker blommor."
+
+# photos caption_1
+#: UK
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer"
+msgstr ""
+"Flugbaggar, här en <i>Rhagonycha fulva</i>, är ofta vanliga på blommor under"
+" högsommaren"
+
+# photos caption_2
+#: UK
+msgid ""
+"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
+" larvae live in decaying wood"
+msgstr ""
+"Blombockar är ganska stora skalbaggar i familjen Långhorningar – larverna "
+"lever i multnande trä"
+
+# photos caption_1
+#: CY
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer "
+msgstr ""
+"Flugbaggar, här en <i>Rhagonycha fulva</i> med svarta spestsar på "
+"täckvingarna, är ofta vanliga på blommor under högsommaren"
+
+# photos caption_2
+#: CY
+msgid ""
+"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
+"– larvae live in decaying wood"
+msgstr ""
+"Svarta och gula långhorningar (<i>Chlorophorus</i> sp.), en stor sskalbagge–"
+" larverna lever i multnande trä"
+
+# photos caption_3
 #: BR
 msgid ""
 "This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
 " similar species by the rounded margins of the forewings"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid "Another example of beetle that visits flowers:"
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid ""
 "<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
 " occurs in Brazil"
 msgstr ""
 
-# intro_text
+# photos intro_text
+#: UK BR CY
+msgid ""
+"This category is for any insects under 3mm long. These can be hard to assign"
+" to a particular group without peering at them closely (which would disturb "
+"other insects visiting the flowers). Just count them (or estimate them if "
+"there is a large number) and assign them all to this category."
+msgstr ""
+"Den här kategorin omfattar alla insekter som är mindre än 3 mm långa. Det "
+"kan vara svårt att ange en specifik grupp utan att granska dem på mycket "
+"nära håll (vilket skulle störa andra insekter som besöker blommorna). Bara "
+"räkna dem (eller uppskatta antalet om det är många) och för in dem i den här"
+" kategorin."
+
+# photos caption_1
+#: UK BR
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) – "
+"other “small insects” may include tiny flies and parasitic wasps"
+msgstr ""
+"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
+" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
+
+# photos caption_1
+#: BR CY
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) "
+"and other “small insects” which may include tiny flies and parasitic wasps"
+msgstr ""
+"Det här exemplet visar en blomma med många glansbaggar (familjen Nitidulide)"
+" –andra \"små insekter\" kan vara små flugor eller parasitsteklar"
+
+# photos intro_text
 #: BR
 msgid ""
 "Stingless bees are group of social bees with high diversity. Species may be "
 "small or large as honeybees."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Lack of functional sting"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Reduced wing venation"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid "Pollen baskets for carrying pollen"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "There are more than 240 species of stingless bees in Brazil, with different "
 "sizes and colour patterns."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "The genus <i>Melipona</i> shows robusts and furry bees"
 msgstr ""
 
-# caption_3
+# photos caption_3
 #: BR
 msgid ""
 "The genus <i>Plebeia</i> includes small species and are known as “mirim”"
 msgstr ""
 
-# caption_4
+# photos caption_4
 #: BR
 msgid "Melipona quadrifasciata, also known as “mandaçaia”"
 msgstr ""
 
-# extraText
+# photos extraText
 #: BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “stingless bees”!"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Orchid bees are very colorful (green, purple, blue, red, or brassy) and "
@@ -2927,30 +3066,30 @@ msgid ""
 "are large and robust."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Males have enlarged tibias on their hind legs."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Females rarely visit orchid flowers and use other species as food source."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Females have pollen baskets on their hind legs."
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid ""
 "Sometimes is possible to observe their long tongues while they are grooming "
 "and/or flying."
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
@@ -2958,14 +3097,14 @@ msgid ""
 "America to South America."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
 msgstr ""
 
-# intro_text
+# photos intro_text
 #: BR
 msgid ""
 "Hummingbirds are birds native to the Americas and comprise the biological "
@@ -2977,15 +3116,117 @@ msgid ""
 "other colors, as well."
 msgstr ""
 
-# caption_1
+# photos caption_1
 #: BR
 msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
 msgstr ""
 
-# caption_2
+# photos caption_2
 #: BR
 msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
 msgstr ""
+
+# photos intro_text
+#: UK BR CY
+msgid ""
+"This category is for any insects that don’t fit into the other insect "
+"groups, and can also be used for any insects that you can’t identify into a "
+"group at all. Please count all the insects you see, and use “other insects” "
+"for any that you don’t recognise. For example, sawflies are counted as "
+"“other insects”. Sawflies are related to bees and wasps but there are a "
+"number of differences."
+msgstr ""
+"Den här kategorin är avsedd för alla insekter som inte passar i de övriga "
+"insektsgrupperna, och kan också användas för alla insekter som du inte kan "
+"bestämma vilken grupp de tillhör. Räkna alla insekter du ser, och använd "
+"kategorin \"andra insekter\" för alla du inte känner igen. Exempelvis räknas"
+" växtsteklar som \"andra insekter\". Växtsteklar är släkt med min och "
+"getingar men det finns en del skillnader."
+
+# photos caption_1
+#: UK BR CY
+msgid ""
+"Other insects you may see include sawflies, which come in a variety of "
+"colours and sizes - some look rather like wasps"
+msgstr ""
+"Andra insekter som du kan få se kan vara växtsteklar, som finns i många "
+"färger och storlekar – en del liknar getingar"
+
+# photos caption_2
+#: UK BR CY
+msgid ""
+"They do not have a “wasp waist” – there is no gap between the abdomen and "
+"thorax"
+msgstr ""
+"De har ingen \"geting-midja\" – det finns inget mellanrum mellan bakkropp "
+"och mellankropp"
+
+# photos caption_3
+#: UK BR CY
+msgid "Sawflies are not hairy and do not have a pollen basket"
+msgstr "Växtsteklar är inte håriga och saknar pollenkorgar"
+
+# photos caption_4
+#: UK
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps"
+msgstr ""
+"De rör sig vanligen ganska sävligt, och flyger inte lika kraftfullt som bin "
+"och getingar"
+
+# photos caption_4
+#: BR CY
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps "
+"(UK example shown)"
+msgstr ""
+"De rör sig vanligen ganska sävligt, och flyger inte lika kraftfullt som bin "
+"och getingar (exempel från Storbritannien)"
+
+# photos intro_text
+#: UK BR CY
+msgid ""
+"True bugs do not often visit flowers but you may encounter them "
+"occasionally, and if so they are counted in the “other insects” category. "
+"They are sometimes confused with beetles."
+msgstr ""
+"Halvvingar brukar inte besöka blommor så ofta men du kan ändå stöta på dem "
+"emellanåt, och då ska de räknas till gruppen \"andra insekter\". De kan "
+"ibland misstas för skalbaggar."
+
+# photos caption_1
+#: UK BR CY
+msgid ""
+"True bugs have wings that overlap, so there is no clear midline along the "
+"abdomen – the wings form a X-shape"
+msgstr ""
+"Halvvingar har vingar som överlappar varandra, så det finns ingen tydlig "
+"mittlinje längs med bakkroppen – vingar bildar ett X"
+
+# photos caption_2
+#: UK BR CY
+msgid ""
+"Some bugs have a more-or-less triangular “scutellum” covering part of the "
+"abdomen, and adding to the X-shape effect"
+msgstr ""
+"En del halvvingar har en mer eller mindre trekantig \"skutell\" som täcker "
+"en del av bakkroppen, och framhäver X-formen vingarna bildar"
+
+# photos caption_3
+#: UK BR CY
+msgid ""
+"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
+"this is usually hidden away underneath the bug)"
+msgstr ""
+"Halvvingar har sugande mundelar, med en lång sugsnabel eller ett s.k. "
+"rostrum (men det är oftast gömt under huvudet)"
+
+# photos caption_4
+#: UK BR CY
+msgid ""
+"Some bugs are very colourful, while others are shades or green or brown"
+msgstr ""
+"En del halvvingar är mycket färggranna, medan andra är gröna eller bruna"
 
 # name
 #: BR
