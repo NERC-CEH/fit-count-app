@@ -1,7 +1,7 @@
 # 
 # Translators:
-# Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
 # Karolis, 2021
+# Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
 # BeeKeep Team <beekeep.science@gmail.com>, 2021
 # 
 msgid ""
@@ -373,7 +373,7 @@ msgstr "Beira de estrada"
 # Survey habitat page values
 #: BR
 msgid "Plantation forest"
-msgstr ""
+msgstr "Floresta plantada"
 
 # Survey flower-cover info message
 #: interface
@@ -1877,6 +1877,10 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. Look out for:"
 msgstr ""
+"Abelhas melíferas são conhecidas no Brasil como \"abelhas europeias\" ou "
+"\"abelhas africanizadas\". Abelhas melíferas são maiores do que a maioria "
+"(senão todas) as abelhas solitárias, e menores do que a maioria das "
+"mamangavas. Procure por:"
 
 # photos caption_1
 #: UK CY BR
@@ -1986,6 +1990,9 @@ msgid ""
 "largest bees; workers can be quite small, but are larger than most solitary "
 "bees. Look out for:"
 msgstr ""
+"Mamangava são abelhas arredondadas e peludas. As rainhas estão entre as "
+"maiores abelhas; as operárias são bem menores, porém maiores que a maioria "
+"das abelhas solitárias. Procure por:"
 
 # photos caption_4
 #: BR
@@ -1993,6 +2000,8 @@ msgid ""
 "Some species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be all black"
 msgstr ""
+"Algumas espécies apresentam bandas simples com cores contrastantes "
+"(amarelos, brancos, pretos), outras podem ser completamente pretas"
 
 # photos extraText
 #: BR
@@ -2000,6 +2009,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover."
 msgstr ""
+"Mamangavas tem um voo característico, 'atrapalhado' e acompanhado por um "
+"zumbido, e não pairam."
 
 # photos intro_text
 #: BR
@@ -2007,26 +2018,31 @@ msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
 "both with large bees. However, there are some difference, look out for:"
 msgstr ""
+"No Brasil, \"mamangava\" é o nome comum para as espécies de Xylocopa e "
+"Bombus, ambas com abelhas de grande tamanho. Entretanto, há algumas "
+"diferenças, procure por:"
 
 # photos caption_1
 #: BR
 msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
-msgstr ""
+msgstr "<i>Xylocopa</i> tem abdome sem cerdas e brilhante"
 
 # photos caption_2
 #: BR
 msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
-msgstr ""
+msgstr "<i>Xylocopa</i> não tem uma cesta de pólen nas patas traseiras"
 
 # photos caption_3
 #: BR
 msgid "<i>Bombus</i> has a round shape, with furry abdomen"
-msgstr ""
+msgstr "<i>Bombus</i> tem uma forma arredondada, com abdome peludo"
 
 # photos caption_4
 #: BR
 msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
 msgstr ""
+"<i>Bombus</i> tem uma cesta de pólen nas patas traseiras para transportar "
+"pólen"
 
 # photos extraText
 #: BR
@@ -2035,6 +2051,9 @@ msgid ""
 "and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
 "lato”."
 msgstr ""
+"Para o FIT Count, não há necessidade de distinguir entre <i>Xylocopa</i> e "
+"<i>Bombus</i> - elas são contadas dentro da mesma categoria \"mamangava "
+"sensu lato\""
 
 # photos intro_text
 #: UK CY
@@ -2243,6 +2262,8 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "honeybees. Look out for:"
 msgstr ""
+"Abelhas solitárias são menos arredondadas que as mamangavas, e a maioria é "
+"menor do que as abelhas melíferas. Procure por:"
 
 # photos caption_4
 #: BR
@@ -2250,6 +2271,9 @@ msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees. Some solitary bees measure up to 45mm."
 msgstr ""
+"Menores do que rainhas de mamangavas, mas as maiores abelhas solitárias são "
+"maiores do que pequenas operárias de mamangavas. Algumas abelhas solitárias "
+"medem até 45mm."
 
 # photos extraText
 #: BR
@@ -2257,6 +2281,8 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 3000 species in Brazil."
 msgstr ""
+"Abelhas solitárias voam ativamente entre as flores, e às vezes se aquecem ao"
+" sol. A maioria das espécies não paira. Há cerca de 3000 espécies no Brasil."
 
 # photos caption_1
 #: BR
@@ -2264,6 +2290,8 @@ msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the bee on the left above)"
 msgstr ""
+"Algumas abelhas solitárias coletam pólen seco em uma cesta na base das "
+"pernas traseiras (veja a abelha à esquerda acima)"
 
 # photos caption_2
 #: BR
@@ -2271,6 +2299,8 @@ msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee from the Megachilidae family on the right above)"
 msgstr ""
+"Outras tem a escopa embaixo de seu abdômen (veja a abelha cortadeira da "
+"família Megachilidae acima à direita)."
 
 # photos intro_text
 #: BR
@@ -2278,11 +2308,13 @@ msgid ""
 "Among the 3000 species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Here are some examples:"
 msgstr ""
+"Entre as 3000 espécies de abelhas solitárias, há grande variação no tamanho,"
+" coloração e o quão peludas elas parecem. Aqui há alguns exemplos:"
 
 # photos caption_1
 #: BR
 msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
-msgstr ""
+msgstr "Abelhas do gênero <i>Oxaea</i> da família Andrenidae."
 
 # photos caption_2
 #: BR
@@ -2290,6 +2322,8 @@ msgid ""
 "The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
+"O gênero <I>Hylaeus</i> (Família Colletidae) pode parecer bastante com "
+"vespas e não apresentar estruturas para transporte de pólen."
 
 # photos caption_3
 #: BR
@@ -2297,6 +2331,8 @@ msgid ""
 "Bees from the Halictidae family are usually dark-coloured and often "
 "metallic."
 msgstr ""
+"Abelhas da família Halictidae são geralmente de coloração escura e "
+"frequentemente metálicas."
 
 # photos caption_4
 #: BR
@@ -2305,6 +2341,8 @@ msgid ""
 "underneath their abdomen and cut pieces of leaf and petals to build their "
 "nests."
 msgstr ""
+"As abelhas cortadeiras (gênero <i>Megachile</i>) tem escopa embaixo de seu "
+"abdômen e cortam pedaços de folhas e pétalas para construir seus ninhos."
 
 # photos intro_text
 #: UK CY BR
@@ -2449,16 +2487,20 @@ msgid ""
 "wasps often visit flowers for nectar. There are social wasp species, "
 "solitary wasp species and parasitic wasp species."
 msgstr ""
+"As vespas alimentam seus filhotes com presas capturadas (geralmente outros "
+"insetos), mas as vespas adultas costumam visitar as flores em busca de "
+"néctar. Existem espécies de vespas sociais, espécies de vespas solitárias e "
+"espécies de vespas parasitas."
 
 # photos caption_1
 #: BR
 msgid "Solitary wasp of the genus <i>Ammophila</i>"
-msgstr ""
+msgstr "Vespa solitária do gênero <i>Ammophila</i>"
 
 # photos caption_2
 #: BR
 msgid "Solitary wasp of the genus <i>Monobia</i>"
-msgstr ""
+msgstr "Vespa solitária do gênero <i>Monobia</i>"
 
 # photos intro_text
 #: UK CY
@@ -2652,11 +2694,14 @@ msgid ""
 " are very active and agile flyers, and are frequently seen hovering, as you "
 "would expect from their name. Look out for:"
 msgstr ""
+"Há muitos tipos diferentes de moscas que você pode observar visitando "
+"flores. Moscas das flores são bastante ativas e voadoras ágeis, algumas são "
+"vistas frequentemente pairando no ar. Procure por:"
 
 # photos caption_1
 #: BR
 msgid "Large eyes, covering most of the head"
-msgstr ""
+msgstr "Olhos grandes, cobrindo a maior parte da cabeça"
 
 # photos extraText
 #: BR
@@ -2664,27 +2709,31 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets."
 msgstr ""
+"As borboletas se alimentam de néctar e pólen, mas não coletam néctar e não "
+"têm cestas de pólen."
 
 # photos intro_text
 #: BR
 msgid ""
 "Other flies do not have the ability to hover. Two examples are shown above."
 msgstr ""
+"Outras moscas não tem a habilidade de pairar. Dois exemplos são mostrados "
+"acima."
 
 # photos caption_1
 #: BR
 msgid "This is a fly of the family Empididae"
-msgstr ""
+msgstr "Esta é uma mosca da família Empididae"
 
 # photos caption_2
 #: BR
 msgid "Empididae flies have a long thin proboscis under the head"
-msgstr ""
+msgstr "Moscas Empididae tem prosbócide longa e fina abaixo da cabeça"
 
 # photos caption_3
 #: BR
 msgid "Many Empididae flies have a distinctly humped thorax"
-msgstr ""
+msgstr "Muitas moscas Empididae têm um tórax distintamente curvado"
 
 # photos caption_4
 #: BR
@@ -2693,6 +2742,10 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body. This is a parasitic fly from family Tachinidae"
 msgstr ""
+"Algumas das maiores moscas que você irá observar em flores são das famílias "
+"do grupo Calyptratae, a maior parte formada por insetos arredondados com "
+"cerdas chamativas nas pernas e no corpo. Esta é uma mosca parasita da "
+"família Tachinidae"
 
 # photos caption_5
 #: BR UK CY
@@ -2705,6 +2758,8 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “flies”!"
 msgstr ""
+"Você não precisa reconhecer as espécies individuais para fazer uma contagem "
+"no FIT Count, todas elas são contadas como \"moscas\"!"
 
 # photos intro_text
 #: UK CY
@@ -2897,16 +2952,20 @@ msgid ""
 "frequently noticed but also visit flowers regularly, either by day of by "
 "night."
 msgstr ""
+"As borboletas são visitantes muito frequentes das flores. As mariposas "
+"talvez sejam menos frequentes, mas também visitam as flores regularmente, "
+"tanto de dia ou à noite."
 
 # photos caption_1
 #: BR
 msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
 msgstr ""
+"<i>Phaeochlaena lampra</i> (membro do grupo das mariposas proeminentes)"
 
 # photos caption_2
 #: BR
 msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
-msgstr ""
+msgstr "<i>Diaethria clymena</i> (borboleta 88 amplamente distribuída)"
 
 # photos intro_text
 #: UK CY BR
@@ -2992,11 +3051,13 @@ msgid ""
 "This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
 " similar species by the rounded margins of the forewings"
 msgstr ""
+"Este besouro é da espécie <i>Chauliognathus flavipes</i>,  o qual difere de "
+"espécies similares pelas margens arredondadas das asas dianteiras"
 
 # photos intro_text
 #: BR
 msgid "Another example of beetle that visits flowers:"
-msgstr ""
+msgstr "Outro exemplo de besouro que visita flores:"
 
 # photos caption_1
 #: BR
@@ -3004,6 +3065,8 @@ msgid ""
 "<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
 " occurs in Brazil"
 msgstr ""
+"<i>Macraspis clavate</i> é uma espécie de besouro da família Scarabaeidae "
+"que ocorre no Brasil"
 
 # photos intro_text
 #: UK BR CY
@@ -3045,26 +3108,30 @@ msgid ""
 "Stingless bees are group of social bees with high diversity. Species may be "
 "small or large as honeybees."
 msgstr ""
+"Abelhas sem ferrão são um grupo de abelhas sociais com uma diversidade "
+"abundante. As espécies podem ser menores ou maiores que as abelhas "
+"melíferas."
 
 # photos caption_1
 #: BR
 msgid "Lack of functional sting"
-msgstr ""
+msgstr "Ausência de ferrão funcional"
 
 # photos caption_2
 #: BR
 msgid "Reduced wing venation"
-msgstr ""
+msgstr "Venação de asa reduzida"
 
 # photos caption_3
 #: BR
 msgid "Pollen baskets for carrying pollen"
-msgstr ""
+msgstr "Cestos de pólen para transportar pólen"
 
 # photos caption_4
 #: BR
 msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
 msgstr ""
+"<i>Tetragonisca angustula</i>, também conhecida como “jataí” no Brasil"
 
 # photos intro_text
 #: BR
@@ -3072,27 +3139,31 @@ msgid ""
 "There are more than 240 species of stingless bees in Brazil, with different "
 "sizes and colour patterns."
 msgstr ""
+"Há mais de 240 espécies de abelhas sem ferrão no Brasil, com diferentes "
+"tamanhos e padrões de cores."
 
 # photos caption_1
 #: BR
 msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
-msgstr ""
+msgstr "<i>Trigona spinipes</i>, também conhecida como “irapuá”"
 
 # photos caption_2
 #: BR
 msgid "The genus <i>Melipona</i> shows robusts and furry bees"
-msgstr ""
+msgstr "O gênero <i>Melipona</i> possui abelhas robustas e peludas"
 
 # photos caption_3
 #: BR
 msgid ""
 "The genus <i>Plebeia</i> includes small species and are known as “mirim”"
 msgstr ""
+"O gênero <i>Plebeia</i> inclui pequenas espécies que são conhecidas como "
+"“mirins”"
 
 # photos caption_4
 #: BR
 msgid "Melipona quadrifasciata, also known as “mandaçaia”"
-msgstr ""
+msgstr "Melipona quadrifasciata, também conhecida como “mandaçaia”"
 
 # photos extraText
 #: BR
@@ -3100,6 +3171,8 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “stingless bees”!"
 msgstr ""
+"Você não precisa reconhecer as espécies individuais para fazer uma contagem "
+"no FIT Count, todas elas são contadas como \"abelhas sem ferrão\"!"
 
 # photos intro_text
 #: BR
@@ -3110,22 +3183,30 @@ msgid ""
 "attracted to and pollinate many of these plants. They usually fly fast and "
 "are large and robust."
 msgstr ""
+"As abelhas das orquídeas são muito coloridas (verdes, roxas, azuis, "
+"vermelhas ou acobreadas) e metálicas, enquanto algumas são pretas, às vezes "
+"com pelos amarelos, avermelhados ou esbranquiçados. Este grupo de abelhas é "
+"frequentemente associado às orquídeas porque os machos são atraídos e "
+"polinizam muitas dessas plantas. Elas geralmente voam rápido e são grandes e"
+" robustas."
 
 # photos caption_1
 #: BR
 msgid "Males have enlarged tibias on their hind legs."
-msgstr ""
+msgstr "Os machos tem tíbias aumentadas nas patas traseiras."
 
 # photos intro_text
 #: BR
 msgid ""
 "Females rarely visit orchid flowers and use other species as food source."
 msgstr ""
+"As fêmeas raramente visitam orquídeas e usam outras espécies como fonte de "
+"alimento."
 
 # photos caption_1
 #: BR
 msgid "Females have pollen baskets on their hind legs."
-msgstr ""
+msgstr "As fêmeas possuem cestas de pólen nas suas patas traseiras."
 
 # photos caption_2
 #: BR
@@ -3133,6 +3214,8 @@ msgid ""
 "Sometimes is possible to observe their long tongues while they are grooming "
 "and/or flying."
 msgstr ""
+"Às vezes é possível observar suas línguas longas quando estão se limpando "
+"e/ou voando."
 
 # photos intro_text
 #: BR
@@ -3141,6 +3224,9 @@ msgid ""
 "of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
 "America to South America."
 msgstr ""
+"Esta categoria é para morcegos que se alimentam de néctar. Glossophaginae é "
+"uma subfamília de morcegos com nariz em formato de folha (Phyllostomidae) "
+"que pode ser encontrada do sul da América do Norte até a América do Sul."
 
 # photos caption_1
 #: BR
@@ -3148,6 +3234,8 @@ msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
 msgstr ""
+"Este exemplo mostra uma flor sendo visitada por um morcego <i>Glossophaga "
+"soricine</i>"
 
 # photos intro_text
 #: BR
@@ -3160,16 +3248,23 @@ msgid ""
 "red, orange, and bright pink, though the birds take nectar from flowers of "
 "other colors, as well."
 msgstr ""
+"Os beija-flores são pássaros nativos das Américas e constituem a família "
+"biológica Trochilidae. Com cerca de 360 espécies, eles ocorrem do Alasca à "
+"Terra do Fogo, mas a grande maioria das espécies são encontradas nos "
+"trópicos. Eles são aves pequenas, com a maioria das espécies medindo 7,5–13 "
+"cm (3–5 pol.) de comprimento. Muitas plantas polinizadas por beija-flores "
+"produzem flores em tons de vermelho, laranja e rosa brilhante, embora os "
+"pássaros também obtenham o néctar de flores de outras cores."
 
 # photos caption_1
 #: BR
 msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
-msgstr ""
+msgstr "Beija-flor-de-peito-azul (<i>Amazilia lactea</i>)"
 
 # photos caption_2
 #: BR
 msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
-msgstr ""
+msgstr "Besourinho-de-bico-vermelho (<i>Chlorostilbon lucidus</i>)"
 
 # photos intro_text
 #: UK BR CY
@@ -3277,119 +3372,119 @@ msgstr ""
 # name
 #: BR
 msgid "Oxalis"
-msgstr ""
+msgstr "Oxalis"
 
 # name
 #: BR
 msgid "Basil"
-msgstr ""
+msgstr "Manjericão"
 
 # name
 #: BR
 msgid "Lantana"
-msgstr ""
+msgstr "Lantana"
 
 # name
 #: BR
 msgid "Anthurium"
-msgstr ""
+msgstr "Antúrio"
 
 # name
 #: BR
 msgid "Calliandra"
-msgstr ""
+msgstr "Calliandra"
 
 # name
 #: BR
 msgid "Asteraceae (herbaceous)"
-msgstr ""
+msgstr "Asteraceae (herbácea)"
 
 # name
 #: BR
 msgid "Orchid"
-msgstr ""
+msgstr "Orquídea"
 
 # name
 #: BR
 msgid "Clover/Trefoil"
-msgstr ""
+msgstr "Trevo"
 
 # name
 #: BR
 msgid "Brazilian grape tree/Jabuticaba"
-msgstr ""
+msgstr "Jabuticaba"
 
 # name
 #: BR
 msgid "Acerola cherry"
-msgstr ""
+msgstr "Acerola"
 
 # name
 #: BR
 msgid "Wild plantain/Heliconia"
-msgstr ""
+msgstr "Heliconia"
 
 # name
 #: BR
 msgid "Passionfruit"
-msgstr ""
+msgstr "Maracujá"
 
 # name
 #: BR
 msgid "Sleeping hibiscus/Malvaviscus"
-msgstr ""
+msgstr "Malvaviscus"
 
 # name
 #: BR
 msgid "Mimosa"
-msgstr ""
+msgstr "Mimosa"
 
 # name
 #: BR
 msgid "Bromeliads"
-msgstr ""
+msgstr "Bromélias"
 
 # name
 #: BR
 msgid "Ipe"
-msgstr ""
+msgstr "Ipê"
 
 # value
 #: BR
 msgid "Caatinga"
-msgstr ""
+msgstr "Caatinga"
 
 # value
 #: BR
 msgid "Plantation florest"
-msgstr ""
+msgstr "Floresta plantada"
 
 # value
 #: BR
 msgid "Cerrado"
-msgstr ""
+msgstr "Cerrado"
 
 # name
 #: BR CL
 msgid "Orchid bees"
-msgstr ""
+msgstr "Abelhas das orquídeas"
 
 # name
 #: BR
 msgid "Stingless bees"
-msgstr ""
+msgstr "Abelhas sem ferrão"
 
 # name
 #: BR
 msgid "Bumblebees sensu lato"
-msgstr ""
+msgstr "Mamangavas"
 
 # name
 #: BR
 msgid "Flies"
-msgstr ""
+msgstr "Arquivos"
 
 # name
 #: BR
 msgid "Don't know"
-msgstr ""
+msgstr "Não sei"

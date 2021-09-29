@@ -35,11 +35,14 @@ msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
+"El recuento de flores e insectos (FIT Count) es un registro de 10 minutos "
+"diseñado para recopilar nuevos datos sobre la cantidad de insectos que "
+"visitan las flores."
 
 # Menu page content
 #: interface
 msgid "Info"
-msgstr ""
+msgstr "Información"
 
 # Menu page content
 #: interface
@@ -59,7 +62,7 @@ msgstr "Configuración"
 # Menu page content
 #: interface
 msgid "Cymraeg"
-msgstr ""
+msgstr "Galés"
 
 # Menu page content
 #: interface
@@ -80,6 +83,8 @@ msgstr "Compartir análisis de aplicaciones"
 #: interface
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
+"Comparta los datos de fallo de la aplicación para que podamos hacerla más "
+"confiable."
 
 # Credits page content
 #: interface
@@ -90,17 +95,17 @@ msgstr ""
 # Credits page content
 #: interface
 msgid "App design concepts"
-msgstr ""
+msgstr "Conceptos de diseños de la aplicación"
 
 # Onboarding Page button label
 #: interface
 msgid "Got it!"
-msgstr ""
+msgstr "¡Lo tengo!"
 
 # ID Guide toolbar label
 #: interface
 msgid "ID Guide"
-msgstr ""
+msgstr "Guía de Identificación"
 
 # ID Guide segment label
 #: interface
@@ -140,7 +145,7 @@ msgstr "Reino Unido"
 # Home page toolbar label
 #: interface
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 # Home page button label
 #: interface
@@ -180,14 +185,14 @@ msgstr "Cancelar"
 # Survey content
 #: interface
 msgid "Delete Survey"
-msgstr "Eliminar encuesta"
+msgstr "Eliminar registro"
 
 # Survey content
 #: interface
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
-"Advertencia: esto descartará la información de la encuesta que ha ingresado "
+"Advertencia: esto descartará la información del registro que ha ingresado "
 "hasta ahora."
 
 # Survey Location page info message
@@ -205,6 +210,17 @@ msgid ""
 "results will be visible to others at the 1 km square level via the UKPoMS "
 "website.</p></3>"
 msgstr ""
+"Habilite su GPS para establecer su ubicación, o use el mapa para acercar y "
+"tocar su <1>ubicación</1>.<3><p>Su ubicación puede ser cualquier lugar donde"
+" haya flores para atraer insectos polinizadores, donde tenga permiso para "
+"estar y donde sea seguro ir. </p><p>Un jardín o un parque, una granja o una "
+"reserva natural son lugares excelentes para FIT Counts.</p><p>Acerca el zoom"
+" para encontrar el lugar que mejor se adapte a tu ubicación.</p><p>Asegúrate"
+" de tener el GPS encendido y los permisos otorgados. Si está realizando un "
+"recuento FIT sin conexión o sin una conexión de red, la aplicación no "
+"encontrará su ubicación en el mapa, pero su GPS debería registrarlo para "
+"cargarlo más tarde.</p><p>Los resultados de su recuento serán visibles para "
+"otros en 1 km cuadrado a través del sitio web de UKPoMS</p></3>"
 
 # Survey Location alert messag
 #: interface
@@ -229,6 +245,10 @@ msgid ""
 "listed here, please select “Other” and type in a short description of the "
 "habitat.</p></3>"
 msgstr ""
+"Seleccione un <1>hábitat</1> que mejor se ajuste.<3><p>Seleccione el hábitat"
+" que mejor describe el parche de 50x50 cm elegido para tu recuento.</p><p>Si"
+" no aparece aquí, seleccione \"Otro\" y escriba una breve descripción del "
+"hábitat.</p></3>"
 
 # Survey habitat page other placeholder text
 #: interface
@@ -287,22 +307,22 @@ msgstr ""
 # habitats value
 #: UK BR
 msgid "Farm crops or grassy pasture"
-msgstr ""
+msgstr "Cultivos agrícolas o pastos cubiertos de hierba"
 
 # habitats value
 #: UK
 msgid "Upland moorland"
-msgstr ""
+msgstr "Páramos de montaña"
 
 # habitats value
 #: UK
 msgid "Lowland heath"
-msgstr ""
+msgstr "Brezal de tierras bajas"
 
 # habitats value
 #: UK BR
 msgid "Waste ground or brownfield site"
-msgstr ""
+msgstr "Terreno baldío o terreno abandonado"
 
 # habitats value
 #: UK
@@ -352,7 +372,7 @@ msgstr "Borde de carretera"
 # Survey habitat page values
 #: BR
 msgid "Plantation forest"
-msgstr ""
+msgstr "Plantación forestal"
 
 # Survey flower-cover info message
 #: interface
@@ -375,7 +395,7 @@ msgstr "Menos de la mitad"
 # Survey flower-cover radio input
 #: interface
 msgid "Half of patch"
-msgstr ""
+msgstr "Mitad del parche"
 
 # Survey flower-cover radio input
 #: interface
@@ -579,57 +599,57 @@ msgstr "Registrarse"
 # ID guide honeybees species profile
 #: interface
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 # ID guide honeybees species profile
 #: interface
 msgid "Extra information"
-msgstr ""
+msgstr "Información extra"
 
 # My surveys page content
 #: interface
 msgid "My Surveys"
-msgstr ""
+msgstr "Mis registros"
 
 # My surveys page content
 #: interface
 msgid "Pending"
-msgstr ""
+msgstr "Pendiente"
 
 # My surveys page content
 #: interface
 msgid "Uploaded"
-msgstr ""
+msgstr "Enviado"
 
 # My surveys page content
 #: interface
 msgid "<0>You have no finished surveys.</0>"
-msgstr ""
+msgstr "<0>No tiene registros terminados</0>"
 
 # My surveys page content
 #: interface
 msgid "No uploaded surveys"
-msgstr ""
+msgstr "Sin registros enviados"
 
 # Survey species selection page species list
 #: interface
 msgid "<0>Which</0> target flower have you chosen?"
-msgstr ""
+msgstr "<0>¿Qué </0>flor objetivo has elegido?"
 
 # Survey species selection page species list
 #: interface
 msgid "Please add species image"
-msgstr ""
+msgstr "Por favor añada foto de la especie"
 
 # Survey species selection page species list
 #: interface
 msgid "No photo has been added."
-msgstr ""
+msgstr "Sin fotos añadidas"
 
 # Survey species selection page info message
 #: interface
 msgid "Press <1></1> to add."
-msgstr ""
+msgstr "Pulse <1></1> para añadir"
 
 # flowers name
 #: UK
@@ -679,7 +699,7 @@ msgstr ""
 # flowers name
 #: UK
 msgid "Lavender"
-msgstr ""
+msgstr "Lavanda"
 
 # flowers name
 #: UK
@@ -704,7 +724,7 @@ msgstr ""
 # flowers name
 #: CY
 msgid "Fennel"
-msgstr ""
+msgstr "Hinojo"
 
 # flowers name
 #: CY
@@ -714,7 +734,7 @@ msgstr ""
 # flowers name
 #: CY
 msgid "Olive"
-msgstr ""
+msgstr "Olivo"
 
 # flowers name
 #: CY
@@ -797,17 +817,17 @@ msgstr ""
 # Survey species selection page read more header
 #: interface
 msgid "Flower"
-msgstr ""
+msgstr "Flor"
 
 # Survey species selection page divider label
 #: interface
 msgid "Please add the name of the flower"
-msgstr ""
+msgstr "Por favor añada el nombre de la flor"
 
 # Survey species selection page label
 #: interface
 msgid "Other flower name"
-msgstr ""
+msgstr "Otro nombre de la flor"
 
 # Survey species manual entry placeholder
 #: interface
@@ -815,11 +835,13 @@ msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
 msgstr ""
+"Escriba el nombre de la flor objetivo que ha elegido y luego vuelva a la "
+"página de la florobjetivo."
 
 # Survey flower count page divider label
 #: interface
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 # Survey flower count page info message
 #: interface
@@ -845,37 +867,37 @@ msgstr ""
 # Survey flower count page info header
 #: interface
 msgid "Flower Count"
-msgstr ""
+msgstr "Recuento de flores"
 
 # Survey flower count page divider label
 #: interface
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 # Survey flower count page content
 #: interface
 msgid "Individual Flower"
-msgstr ""
+msgstr "Flor individual"
 
 # Survey flower count page content
 #: interface
 msgid "Head"
-msgstr ""
+msgstr "Cabeza"
 
 # Survey flower count page content
 #: interface
 msgid "Umbel"
-msgstr ""
+msgstr "Umbela"
 
 # Survey flower count page content
 #: interface
 msgid "Spike"
-msgstr ""
+msgstr "Spina"
 
 # My surveys page content
 #: interface
 msgid "Today"
-msgstr ""
+msgstr "Hoy"
 
 # My surveys page content
 #: interface
@@ -885,27 +907,27 @@ msgstr ""
 # My surveys page content
 #: interface
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 # My surveys page content
 #: interface
 msgid "Yesterday"
-msgstr ""
+msgstr "Ayer"
 
 # My surveys page content info background message
 #: interface
 msgid "To delete any surveys swipe it to the left."
-msgstr ""
+msgstr "Para borrar los registros deslice lo hacia la izquierda."
 
 # My surveys page content info background message button
 #: interface
 msgid "Hide"
-msgstr ""
+msgstr "Ocultar"
 
 # My surveys page content info background message
 #: interface
 msgid "You have no finished surveys."
-msgstr ""
+msgstr "No tiene registros terminados"
 
 # Add Photo message
 #: interface
@@ -920,12 +942,12 @@ msgstr ""
 # Add Photo message
 #: interface
 msgid "Camera"
-msgstr ""
+msgstr "Cámara"
 
 # Credits page content
 #: interface
 msgid "Graphics:"
-msgstr ""
+msgstr "Gráficos"
 
 # Credits page content
 #: interface
@@ -1076,7 +1098,7 @@ msgstr ""
 # My Records page info message
 #: interface
 msgid "Please do not forget to upload any pending surveys!"
-msgstr ""
+msgstr "¡No olvide cargar ningún registro pendiente!"
 
 # Credit page
 #: interface
@@ -1411,142 +1433,142 @@ msgstr ""
 # Alert message at the end of survey
 #: interface
 msgid "Go Home"
-msgstr ""
+msgstr "Ir a Inicio"
 
 # Settings page divider label
 #: interface
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 # User registration identification experience button label
 #: interface
 msgid "Done"
-msgstr ""
+msgstr "Hecho"
 
 # User registration "Happy to be contacted" label
 #: interface
 msgid "Happy to be contacted"
-msgstr ""
+msgstr "Feliz de ser contactado"
 
 # Delete survey alert message
 #: interface
 msgid "Are you sure you want to delete this survey?"
-msgstr ""
+msgstr "¿Está seguro que quiere eliminar este registro?"
 
 # App version
 #: interface
 msgid "App version"
-msgstr ""
+msgstr "Versión app"
 
 # Month name
 #: interface
 msgid "January"
-msgstr ""
+msgstr "Enero"
 
 # Month name
 #: interface
 msgid "February"
-msgstr ""
+msgstr "Febrero"
 
 # Month name
 #: interface
 msgid "March"
-msgstr ""
+msgstr "Marzo"
 
 # Month name
 #: interface
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 # Month name
 #: interface
 msgid "May"
-msgstr ""
+msgstr "Mayo"
 
 # Month name
 #: interface
 msgid "June"
-msgstr ""
+msgstr "Junio"
 
 # Month name
 #: interface
 msgid "July"
-msgstr ""
+msgstr "Julio"
 
 # Month name
 #: interface
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 # Month name
 #: interface
 msgid "September"
-msgstr ""
+msgstr "Septiembre"
 
 # Month name
 #: interface
 msgid "October"
-msgstr ""
+msgstr "Octubre"
 
 # Month name
 #: interface
 msgid "November"
-msgstr ""
+msgstr "Noviembre"
 
 # Month name
 #: interface
 msgid "December"
-msgstr ""
+msgstr "Diciembre"
 
 # A label part of user surveys page
 #: interface
 msgid "Insects"
-msgstr ""
+msgstr "Insectos"
 
 # A label part of user surveys page
 #: interface
 msgid "Survey"
-msgstr ""
+msgstr "Registro"
 
 # Survey upload process alert message
 #: interface
 msgid "Sorry, your account hasn't been verified yet or is blocked."
-msgstr ""
+msgstr "Lo sentimos, su cuenta aún no ha sido verificada o está bloqueada."
 
 # Survey upload process alert message
 #: interface
 msgid "Please log in first."
-msgstr ""
+msgstr "Por favor inicie sesión primero."
 
 # Survey upload process alert message
 #: interface
 msgid "Looks like you are offline!"
-msgstr ""
+msgstr "¡Parece que estás desconectado!"
 
 # Survey remove photo alert message
 #: interface
 msgid "Are you sure you want to remove this photo?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres eliminar esta foto?"
 
 # Failed to upload image message
 #: interface
 msgid "Sorry, we couldn't get the image."
-msgstr ""
+msgstr "Lo sentimos, no pudimos conseguir la imagen."
 
 # ID guide title
 #: interface
 msgid "Pollinator Groups"
-msgstr ""
+msgstr "Grupo de polinizadores"
 
 # Menu page label
 #: interface
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Términos y Condiciones"
 
 # Survey required label
 #: interface
 msgid "required"
-msgstr ""
+msgstr "obligatorio"
 
 # About page content
 #: interface
@@ -1555,6 +1577,9 @@ msgid ""
 "done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
+"Los recuentos FIT son adecuados para todos, en zonas urbanas o rurales, y se"
+" pueden realizar en cualquier momento durante la temporada del recuento FIT;"
+" consulte la guía rápida <1></1> para la temporada en tu país."
 
 # About page content
 #: interface
@@ -1567,6 +1592,15 @@ msgid ""
 "need to identify the insects to species level, only to within broad groups "
 "e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 msgstr ""
+"Una cantidad cada vez mayor de evidencias sugiere que la diversidad de "
+"especies de polinizadores ha disminuido en muchas partes del mundo, y la "
+"evidencia más sólida proviene de Europa y América del Norte. Se sabe mucho "
+"menos sobre los cambios en las abundancias de polinizadores y necesitamos "
+"muchos más datos para poder rastrear esto. Puede ayudar haciendo un FIT "
+"Count, tal vez incluso repitiéndolo durante la temporada. No es necesario "
+"que identifique los insectos a nivel de especie, solo dentro de grupos "
+"amplios, p. ej. abejorros, moscas de las flores, mariposas y polillas, "
+"avispas."
 
 # About page content
 #: interface
@@ -1575,6 +1609,10 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
+"El recuento FIT se desarrolló originalmente a través del Programa de "
+"Seguimiento de Polinizadores (PoMS) del Reino Unido. En la actualidad, se "
+"están adoptando métodos similares en otros países, y esta aplicación es "
+"utilizada por una amplia gama de proyectos de seguimiento de polinizadores:"
 
 # About page content
 #: interface
@@ -1582,16 +1620,18 @@ msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
 "and can be contacted <1>here</1>."
 msgstr ""
+"El proyecto FIT Count cuenta con el apoyo del Centro de Ecología e "
+"Hidrología del Reino Unido y se puede contactar <1>aquí </1>."
 
 # Credits page content
 #: interface
 msgid "This app has been created by the"
-msgstr ""
+msgstr "Esta app ha sido creada por el "
 
 # Credits page content
 #: interface
 msgid "with technical development by"
-msgstr ""
+msgstr "con desarrollo tecnológico por"
 
 # Credits page content
 #: interface
@@ -1599,91 +1639,93 @@ msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
 msgstr ""
+"El desarrollo de la aplicacione ha sido apoyado por los patrocinadores y "
+"socios de estos proyectos de polinizadores en todo el mundo."
 
 # Survey validation message
 #: interface
 msgid "Please add at least 1 photo."
-msgstr ""
+msgstr "Por favor añada al menos 1 foto."
 
 # Survey validation message
 #: interface
 msgid "Flower number is a required field."
-msgstr ""
+msgstr "Número de flores es un campo obligatorio."
 
 # Survey validation message
 #: interface
 msgid "Flower type is a required field."
-msgstr ""
+msgstr "El tipo de flores es un campo obligatorio."
 
 # Survey validation message
 #: interface
 msgid "Survey incomplete"
-msgstr ""
+msgstr "Registro incompleto"
 
 # Survey validation message
 #: interface
 msgid "Habitat \"Other\" is a required field."
-msgstr ""
+msgstr "El hábitat \"Otro\" es un campo obligatorio."
 
 # Survey validation message
 #: interface
 msgid "Flower \"Other\" is a required field."
-msgstr ""
+msgstr "La flor \"Otra\" es un campo obligatorio."
 
 # Menu path adress
 #: interface
 msgid "privacy-notice"
-msgstr ""
+msgstr "aviso de Privacidad"
 
 # Menu path adress
 #: interface
 msgid "terms"
-msgstr ""
+msgstr "términos"
 
 # Location name search on a map
 #: interface
 msgid "Search for a location..."
-msgstr ""
+msgstr "Buscar una localización..."
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Enjoying the app?"
-msgstr ""
+msgstr "¿Disfrutando la app?"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Not really"
-msgstr ""
+msgstr "La verdad que no"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Yes!"
-msgstr ""
+msgstr "¡Sí!"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Would you mind giving us some feedback?"
-msgstr ""
+msgstr "¿Le importaría darnos algunos comentarios?"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "No, thanks"
-msgstr ""
+msgstr "No, gracias"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "OK, sure"
-msgstr ""
+msgstr "Si, claro"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "How about a rating on the App Store then?"
-msgstr ""
+msgstr "¿Qué tal una calificación en la App Store entonces?"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "How about a rating on the Play Store then?"
-msgstr ""
+msgstr "¿Qué tal una calificación en el Play Store entonces?"
 
 # Shown when tapping an uploaded survey
 #: interface
@@ -1691,6 +1733,8 @@ msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
 msgstr ""
+"Para ver los datos de FIT Count después del envío, visite el sitio web del "
+"proyecto para su país, donde esté disponible (por ejemplo, <2>UK PoMS</2>)"
 
 # photos intro_text
 #: UK CY
@@ -1698,31 +1742,34 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
 msgstr ""
+"Las abejas de la miel son más grandes que la mayoría (no todas) de las "
+"abejas solitarias y más pequeñas que la mayoría de los abejorros."
 
 # photos caption_1
 #: UK CY BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr ""
+"Antenas largas y delgadas, a menudo en ángulo tomando una forma de \"codo\""
 
 # photos caption_2
 #: UK CY BR
 msgid "Eyes covering the sides of the head"
-msgstr ""
+msgstr "Ojos cubriendo los lados de la cabeza"
 
 # photos caption_3
 #: UK CY BR
 msgid "Hind legs broad and flattened"
-msgstr ""
+msgstr "Patas traseras anchas y aplanadas"
 
 # photos caption_4
 #: UK CY BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
-msgstr ""
+msgstr "Abdomen puede variar de mayormente oscuro a mayormente naranja"
 
 # photos caption_5
 #: UK CY BR
 msgid "Long narrow cell in veins at edge of wing"
-msgstr ""
+msgstr "Celda larga y estrecha en las venas al borde del ala"
 
 # photos extraText
 #: UK
@@ -1730,6 +1777,9 @@ msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"Solo hay una especie de abeja de la miel en el Reino Unido. Anidan en "
+"colmenas artificiales, con colonias ocasionales que se establecen en la "
+"naturaleza."
 
 # photos extraText
 #: CY
@@ -1737,6 +1787,8 @@ msgid ""
 "There is just one species of honeybee. They nest in artificial hives,with "
 "occasional colonies establishing in the wild."
 msgstr ""
+"Solo hay una especie de abeja de la miel o melífera. Anidan en colmenas "
+"artificiales, con colonias ocasionales que se establecen en la naturaleza."
 
 # photos intro_text
 #: BR
@@ -1745,6 +1797,10 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. Look out for:"
 msgstr ""
+"Las abejas melíferas son conocidas en Brasil como \"abejas europeas\" o "
+"\"abejas africanizadas\". Las abejas de la miel son más grandes que la "
+"mayoría (no todas) las abejas solitarias y más pequeñas que la mayoría de "
+"los abejorros. Estar atento de:"
 
 # photos caption_1
 #: UK CY BR
@@ -1752,11 +1808,16 @@ msgid ""
 "Most of the honeybees you see will be workers, which are female, and collect"
 " pollen into a moistened ball on the outside of the hind legs"
 msgstr ""
+"La mayoría de las abejas melíferas que verá serán obreras, estas son "
+"hembras, y recogen el polen en una bola humedecida en la parte exterior de "
+"las patas traseras."
 
 # photos extraText
 #: UK CY BR
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
+"Los machos de abejas melíferas (zánganos) son similares pero tienen ojos "
+"mucho más grandes."
 
 # photos intro_text
 #: UK CY
@@ -1764,11 +1825,14 @@ msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
+"Los abejorros son abejas muy redondeadas y peludas. Las reinas se encuentran"
+" entre nuestras abejas más grandes; las obreras pueden ser bastante "
+"pequeñas, pero son más grandes que la mayoría de las abejas solitarias."
 
 # photos caption_1
 #: UK CY BR
 msgid "Very hairy / fluffy bees"
-msgstr ""
+msgstr "Abejas muy peludas / esponjosas"
 
 # photos caption_2
 #: UK CY BR
@@ -1776,6 +1840,8 @@ msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
 msgstr ""
+"Redondeados, de forma casi globular, a menudo tienen la cola \"escondida\" "
+"cuando visitan las flores."
 
 # photos caption_4
 #: UK CY
@@ -1783,11 +1849,14 @@ msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
 msgstr ""
+"Muchas especies tienen bandas de colores simples y contrastantes (amarillos,"
+" blancos, negros), otras pueden ser rojizas por todas partes."
 
 # photos caption_5
 #: UK CY
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
+"Los ojos cubren los lados de la cabeza, con mucho pelo entre los ojos."
 
 # photos extraText
 #: UK
@@ -2949,7 +3018,7 @@ msgstr ""
 # name
 #: BR
 msgid "Orchid"
-msgstr ""
+msgstr "Orquídea"
 
 # name
 #: BR
@@ -2974,7 +3043,7 @@ msgstr ""
 # name
 #: BR
 msgid "Passionfruit"
-msgstr ""
+msgstr "Fruta de la pasión"
 
 # name
 #: BR
@@ -3029,9 +3098,9 @@ msgstr ""
 # name
 #: BR
 msgid "Flies"
-msgstr ""
+msgstr "Moscas"
 
 # name
 #: BR
 msgid "Don't know"
-msgstr ""
+msgstr "No lo sé"
