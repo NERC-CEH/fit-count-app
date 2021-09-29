@@ -3,6 +3,7 @@ import * as Yup from 'yup';
 import { date } from '@apps';
 import userModel from 'models/user';
 import appModel from 'models/app';
+import i18n from 'i18next';
 import insectGroups from 'common/data';
 import habitats from 'common/data/habitats.json';
 import flowers from 'common/data/flowers.json';
@@ -70,6 +71,20 @@ const intoSelectValue = val => ({
   photo: val.id,
   value: val.value || val.name,
 });
+
+const alphabeticallyWithOtherLast = (s1, s2) => {
+  if (s1.value === 'Other') {
+    return 1;
+  }
+
+  if (s2.value === 'Other') {
+    return -1;
+  }
+
+  const translated1 = i18n.t(s1.value);
+  const translated2 = i18n.t(s2.value);
+  return translated1.localeCompare(translated2);
+};
 
 const flowerSelectionValues = flowers.map(intoSelectValue);
 
@@ -222,7 +237,11 @@ const survey = {
       componentProps() {
         const { country } = appModel.attrs;
         const byCountry = sp => sp[country];
-        const options = habitats.filter(byCountry).map(intoSelectValue);
+
+        const options = habitats
+          .filter(byCountry)
+          .map(intoSelectValue)
+          .sort(alphabeticallyWithOtherLast);
 
         return { options };
       },
@@ -269,7 +288,11 @@ const survey = {
           icon: val.id !== 'other' && `/images/${val.id}.jpg`,
           value: val.name,
         });
-        const countryFlowers = flowers.filter(byCountry).map(getOption);
+
+        const countryFlowers = flowers
+          .filter(byCountry)
+          .map(getOption)
+          .sort(alphabeticallyWithOtherLast);
         return { options: countryFlowers };
       },
       remote: {
