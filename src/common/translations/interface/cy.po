@@ -800,6 +800,11 @@ msgstr ""
 msgid "Milk Thistle"
 msgstr ""
 
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr ""
+
 # Survey species selection page read more message
 #: interface
 msgid ""

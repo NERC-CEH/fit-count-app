@@ -790,6 +790,11 @@ msgstr "Narrow-leaved Viper’s-bugloss"
 msgid "Milk Thistle"
 msgstr "Milk Thistle"
 
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr "Orchids"
+
 # Survey species selection page read more message
 #: interface
 msgid ""

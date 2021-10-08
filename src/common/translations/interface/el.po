@@ -806,6 +806,11 @@ msgstr "Έχιουμ ή Έχιο"
 msgid "Milk Thistle"
 msgstr "Γαϊδουράγκαθο"
 
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr ""
+
 # Survey species selection page read more message
 #: interface
 msgid ""

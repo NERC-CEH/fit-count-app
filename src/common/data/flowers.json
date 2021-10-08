@@ -279,8 +279,8 @@
     "BR": true
   },
   {
-    "id": "lantana",
-    "type": "Umbel",
+    "id": "lantanaBR",
+    "type": "Head",
     "name": "Lantana",
     "BR": true
   },
@@ -303,9 +303,9 @@
     "BR": true
   },
   {
-    "id": "orchid",
+    "id": "orchids",
     "type": "Individual Flower",
-    "name": "Orchid",
+    "name": "Orchids",
     "BR": true
   },
   {
