@@ -142,6 +142,11 @@ msgstr "Κύπρος"
 msgid "United Kingdom"
 msgstr "Ηνωμένο Βασίλειο"
 
+# Country page content
+#: interface
+msgid "Sweden"
+msgstr ""
+
 # Home page toolbar label
 #: interface
 msgid "Home"

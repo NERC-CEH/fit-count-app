@@ -132,6 +132,11 @@ msgstr "Cyprus"
 msgid "United Kingdom"
 msgstr "United Kingdom"
 
+# Country page content
+#: interface
+msgid "Sweden"
+msgstr "Sweden"
+
 # Home page toolbar label
 #: interface
 msgid "Home"

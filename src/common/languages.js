@@ -11,6 +11,7 @@ if (isDemo) {
   Object.assign(languages, {
     // es: 'Español',
     pt: 'Português',
+    se: 'Svenska',
   });
 }
 

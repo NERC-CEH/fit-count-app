@@ -6,6 +6,7 @@ import es from './interface/es.po';
 import el from './interface/el.po';
 import pt from './interface/pt.po';
 import cy from './interface/cy.po';
+import se from './interface/sv_SE.po';
 
 const rawToKeyVal = lang =>
   Object.entries(lang).reduce((agg, pair) => {
@@ -46,5 +47,8 @@ export default {
   },
   cy: {
     interface: rawToKeyVal(cy),
+  },
+  se: {
+    interface: rawToKeyVal(se),
   },
 };

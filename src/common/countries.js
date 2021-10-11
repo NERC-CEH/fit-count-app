@@ -3,6 +3,7 @@ import { isPlatform } from '@ionic/react';
 import UK from 'common/images/ukFlag.svg';
 import CY from 'common/images/cypFlag.svg';
 import BR from 'common/images/braFlag.svg';
+import SE from 'common/images/seFlag.svg';
 import 'common/images/chlFlag.svg';
 import 'common/images/argFlag.svg';
 
@@ -27,6 +28,11 @@ if (isDemo) {
         flag: BR,
         label: 'Brazil',
         value: 'BR',
+      },
+      {
+        flag: SE,
+        label: 'Sweden',
+        value: 'SE',
       },
       // {
       //   flag: CL,

@@ -143,6 +143,11 @@ msgstr "Chipre"
 msgid "United Kingdom"
 msgstr "Reino Unido"
 
+# Country page content
+#: interface
+msgid "Sweden"
+msgstr ""
+
 # Home page toolbar label
 #: interface
 msgid "Home"
