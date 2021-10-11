@@ -3297,6 +3297,77 @@ msgid ""
 msgstr ""
 "Some bugs are very colourful, while others are shades or green or brown"
 
+# photos intro_text
+#: BR
+msgid ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+
+# photos intro_text
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. "
+msgstr ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. "
+
+# photos intro_text
+#: BR
+msgid ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference."
+msgstr ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference."
+
+# photos intro_text
+#: BR
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. "
+msgstr ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. "
+
+# photos intro_text
+#: BR
+msgid ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. "
+msgstr ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. "
+
+# photos intro_text
+#: BR
+msgid ""
+"This category is for any floral visitors that don’t fit into the other "
+"pollinator groups, and can also be used for any pollinator that you can’t "
+"identify into a group at all."
+msgstr ""
+"This category is for any floral visitors that don’t fit into the other "
+"pollinator groups, and can also be used for any pollinator that you can’t "
+"identify into a group at all."
+
+# photos caption_1
+#: BR
+msgid ""
+"Please use the category “other insects” if you can identify the pollinator "
+"as an insect, even though you don’t recognize which insect group it is."
+msgstr ""
+"Please use the category “other insects” if you can identify the pollinator "
+"as an insect, even though you don’t recognize which insect group it is."
+
 # name
 #: BR
 msgid "Oxalis"

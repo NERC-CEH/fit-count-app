@@ -26,7 +26,7 @@
   {
     "id": "honeybees",
     "pictureId": "BR1",
-    "intro_text": "Honeybees are known in Brazil as “european bees” or “africanized bees”. Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. Look out for:",
+    "intro_text": "Honeybees are known in Brazil as “european bees” or “africanized bees”. Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. ",
     "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
     "caption_2": "Eyes covering the sides of the head",
     "caption_3": "Hind legs broad and flattened",
@@ -90,8 +90,8 @@
   },
   {
     "id": "bumblebeesBr",
-    "pictureId": "BR1",
-    "intro_text": "Bumblebees are very rounded and mostly furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees. Look out for:",
+    "pictureId": "BR2",
+    "intro_text": "Bumblebees are very rounded and mostly furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees. ",
     "caption_1": "Very hairy / fluffy bees",
     "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
     "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
@@ -101,8 +101,8 @@
   },
   {
     "id": "bumblebeesBr",
-    "pictureId": "BR2",
-    "intro_text": "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, both with large bees. However, there are some difference, look out for:",
+    "pictureId": "BR1",
+    "intro_text": "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, both with large bees. However, there are some difference.",
     "caption_1": "<i>Xylocopa</i> has a hairless and shiny abdomen",
     "caption_2": "<i>Xylocopa</i> does not have a pollen basket in the hind legs",
     "caption_3": "<i>Bombus</i> has a round shape, with furry abdomen",
@@ -175,7 +175,7 @@
   {
     "id": "solitaryBees",
     "pictureId": "BR1",
-    "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than honeybees. Look out for:",
+    "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than honeybees. ",
     "caption_1": "Usually quite elongate in shape (but there is lots of variety)",
     "caption_2": "Usually hairy, but often less densely covered in hairs than bumblebees",
     "caption_3": "Long antennae, often held straight out in front",
@@ -346,8 +346,8 @@
   },
   {
     "id": "fliesBr",
-    "pictureId": 1,
-    "intro_text": "There are many different flies that you may see visiting flowers. Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. Look out for:",
+    "pictureId": "BR1",
+    "intro_text": "There are many different flies that you may see visiting flowers. Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. ",
     "caption_1": "Large eyes, covering most of the head",
     "caption_2": "Most hoverflies have much shorter antennae than bees and wasps",
     "caption_3": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
@@ -357,7 +357,7 @@
   },
   {
     "id": "fliesBr",
-    "pictureId": 2,
+    "pictureId": "BR2",
     "intro_text": "Other flies do not have the ability to hover. Two examples are shown above.",
     "caption_1": "This is a fly of the family Empididae",
     "caption_2": "Empididae flies have a long thin proboscis under the head",
@@ -604,5 +604,12 @@
     "caption_3": "True bugs have sucking mouthparts, with a long proboscis or rostrum (but this is usually hidden away underneath the bug)",
     "caption_4": "Some bugs are very colourful, while others are shades or green or brown",
     "CY": true
+  },
+  {
+    "id": "unknown",
+    "pictureId": "BR1",
+    "intro_text": "This category is for any floral visitors that don’t fit into the other pollinator groups, and can also be used for any pollinator that you can’t identify into a group at all.",
+    "caption_1": "Please use the category “other insects” if you can identify the pollinator as an insect, even though you don’t recognize which insect group it is.",
+    "BR": true
   }
 ]

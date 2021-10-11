@@ -3282,6 +3282,59 @@ msgstr ""
 "Ορισμένα ημίπτερα είναι πολύχρωμα, ενώ άλλα έχουν αποχρώσεις του πράσινου "
 "και του καφέ"
 
+# photos intro_text
+#: BR
+msgid ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. "
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference."
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. "
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. "
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"This category is for any floral visitors that don’t fit into the other "
+"pollinator groups, and can also be used for any pollinator that you can’t "
+"identify into a group at all."
+msgstr ""
+
+# photos caption_1
+#: BR
+msgid ""
+"Please use the category “other insects” if you can identify the pollinator "
+"as an insect, even though you don’t recognize which insect group it is."
+msgstr ""
+
 # name
 #: BR
 msgid "Oxalis"
