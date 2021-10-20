@@ -13,6 +13,7 @@ const { H, P } = Section;
 const Credits = () => {
   const { country } = appModel.attrs;
   const isCyprus = country === 'CY';
+  const isBrazil = country === 'BR';
   const isRestOfWorld = !isCyprus;
 
   return (
@@ -99,6 +100,12 @@ const Credits = () => {
             <ul>
               <li>Martin Harvey</li>
               <li>Nadine Mitschunas</li>
+              {isBrazil && (
+                <>
+                  <li>André Matos</li>
+                  <li>Sheina Koffler</li>
+                </>
+              )}
             </ul>
           </P>
 
@@ -117,6 +124,42 @@ const Credits = () => {
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Malcolm Storey via BioImages</li>
                 <li>Trounce via Wikimedia</li>
+              </ul>
+            )}
+            {isBrazil && (
+              <ul>
+                <li>Kleber Del-Claro via Ciência que nós fazemos</li>
+                <li>Malcolm Storey via BioImages</li>
+                <li>Filipi Miranda Soares via iNaturalist</li>
+                <li>Vitor Barão via flickr</li>
+                <li>Macelo Costa via iNaturalist</li>
+                <li>Carlos Otávio Gussoni via iNaturalist</li>
+                <li>Celso Modesto via iNaturalist</li>
+                <li>Julio Pupim via flickr</li>
+                <li>José Valério via iNaturalist</li>
+                <li>Julio Pupim via flickr</li>
+                <li>Guilherme Piva via iNaturalist</li>
+                <li>Gabriele Cordeiro via iNaturalist</li>
+                <li>Cesar Massi via iNaturalist</li>
+                <li>Andrew Neild via flickr</li>
+                <li>Luis Funez via iNaturalist</li>
+                <li>Claudio Martins via iNaturalist</li>
+                <li>João Burini via Wikimedia Commons</li>
+                <li>Paulo Roberto de Souza via flickr</li>
+                <li>Conrado via Wikimedia Commons</li>
+                <li>Rodrigo Mayworm via iNaturalist</li>
+                <li>H. Zell via Wikimedia Commons</li>
+                <li>Elias Rovielo via flickr</li>
+                <li>bkmertz via iNaturalist</li>
+                <li>Guilherme Mansueto via flickr</li>
+                <li>Amy Wilson via Wikimedia Commons</li>
+                <li>Bernard Dupont via flickr</li>
+                <li>Joaquim Alves Gaspar via Wikimedia Commons</li>
+                <li>Gilmar Ferreira via iNaturalist</li>
+                <li>Tom Mushroom via flickr</li>
+                <li>Maurício Mercadante via flickr</li>
+                <li>Vengolis via Wikimedia Commons</li>
+                <li>JPC Raleigh via flickr</li>
               </ul>
             )}
             {isRestOfWorld && (
@@ -149,18 +192,31 @@ const Credits = () => {
                   www.divulgare.net
                 </a>
               </li>
-
               <li>
                 <a href="https://flic.kr/p/2k2HaKk" title="Flic">
                   https://flic.kr/p/2k2HaKk
                 </a>
               </li>
-
               <li>
                 <a href="hhttp://www.clker.com/" title="Clker">
                   http://www.clker.com/
                 </a>
               </li>
+
+              {isBrazil && (
+                <>
+                  <li>
+                    <a href="https://www.clipartmax.com" title="Clker">
+                      https://www.clipartmax.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.clipartmax.com" title="Clker">
+                      Paul Drago
+                    </a>
+                  </li>
+                </>
+              )}
             </ul>
           </P>
         </Section>
