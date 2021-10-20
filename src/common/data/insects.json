@@ -14,8 +14,7 @@
     "sort": 1,
     "name": "Bumblebees",
     "UK": true,
-    "CY": true,
-    "BR": true
+    "CY": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -41,8 +40,7 @@
     "sort": 5,
     "name": "Hoverflies",
     "UK": true,
-    "CY": true,
-    "BR": true
+    "CY": true
   },
   {
     "id": "otherFlies",
@@ -90,18 +88,21 @@
   },
   {
     "id": "bats",
+    "warehouseId": 538661,
     "sort": 0,
     "name": "Bats",
     "BR": true
   },
   {
     "id": "hummingbirds",
+    "warehouseId": 538662,
     "sort": 0,
     "name": "Hummingbirds",
     "BR": true
   },
   {
     "id": "orchidBees",
+    "warehouseId": 538656,
     "sort": 0,
     "name": "Orchid bees",
     "BR": true,
@@ -109,24 +110,28 @@
   },
   {
     "id": "stinglessBees",
+    "warehouseId": 538657,
     "sort": 0,
     "name": "Stingless bees",
     "BR": true
   },
   {
     "id": "bumblebeesBr",
+    "warehouseId": 538658,
     "sort": 0,
     "name": "Bumblebees sensu lato",
     "BR": true
   },
   {
     "id": "fliesBr",
+    "warehouseId": 538659,
     "sort": 0,
     "name": "Flies",
     "BR": true
   },
   {
     "id": "unknown",
+    "warehouseId": 538660,
     "sort": 0,
     "name": "Don't know",
     "BR": true

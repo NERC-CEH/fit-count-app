@@ -268,96 +268,112 @@
   },
   {
     "id": "oxalis",
+    "warehouseId": 18903,
     "type": "Individual Flower",
     "name": "Oxalis",
     "BR": true
   },
   {
     "id": "basil",
+    "warehouseId": 18904,
     "type": "Spike",
     "name": "Basil",
     "BR": true
   },
   {
     "id": "lantanaBR",
+    "warehouseId": 18905,
     "type": "Head",
     "name": "Lantana",
     "BR": true
   },
   {
     "id": "anthurium",
+    "warehouseId": 18906,
     "type": "Spike",
     "name": "Anthurium",
     "BR": true
   },
   {
     "id": "calliandra",
+    "warehouseId": 18907,
     "type": "Head",
     "name": "Calliandra",
     "BR": true
   },
   {
     "id": "asteraceae",
+    "warehouseId": 18908,
     "type": "Head",
     "name": "Asteraceae (herbaceous)",
     "BR": true
   },
   {
     "id": "orchids",
+    "warehouseId": 18909,
     "type": "Individual Flower",
     "name": "Orchids",
     "BR": true
   },
   {
     "id": "cloverTrefoil",
+    "warehouseId": 18910,
     "type": "Head",
     "name": "Clover/Trefoil",
     "BR": true
   },
   {
     "id": "brazilianGrapeTree",
+    "warehouseId": 18911,
     "type": "Head",
     "name": "Brazilian grape tree/Jabuticaba",
     "BR": true
   },
   {
     "id": "acerolaCherry",
+    "warehouseId": 18912,
     "type": "Individual Flower",
     "name": "Acerola cherry",
     "BR": true
   },
   {
     "id": "wildPlantain",
+    "warehouseId": 18913,
     "type": "Spike",
     "name": "Wild plantain/Heliconia",
     "BR": true
   },
   {
     "id": "passionfruit",
+    "warehouseId": 18914,
     "type": "Individual Flower",
     "name": "Passionfruit",
     "BR": true
   },
   {
     "id": "sleepingHibiscus",
+    "warehouseId": 18915,
     "type": "Individual Flower",
     "name": "Sleeping hibiscus/Malvaviscus",
     "BR": true
   },
   {
     "id": "mimosa",
+    "warehouseId": 18916,
     "type": "Head",
     "name": "Mimosa",
     "BR": true
   },
   {
     "id": "bromeliads",
+    "warehouseId": 18917,
     "type": "Spike",
     "name": "Bromeliads",
     "BR": true
   },
   {
     "id": "ipe",
+    "warehouseId": 18918,
     "type": "Umbel",
     "name": "Ipe",
     "BR": true

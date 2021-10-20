@@ -119,14 +119,17 @@
     "BR": true
   },
   {
+    "warehouseId": 18900,
     "value": "Caatinga",
     "BR": true
   },
   {
+    "warehouseId": 18901,
     "value": "Plantation forest",
     "BR": true
   },
   {
+    "warehouseId": 18902,
     "value": "Cerrado",
     "BR": true
   }
