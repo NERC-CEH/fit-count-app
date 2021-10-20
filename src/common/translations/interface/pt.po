@@ -146,7 +146,7 @@ msgstr "Reino Unido"
 # Country page content
 #: interface
 msgid "Sweden"
-msgstr ""
+msgstr "Suécia"
 
 # Home page toolbar label
 #: interface
@@ -812,7 +812,7 @@ msgstr "Cardo-leiteiro"
 # flowers name
 #: BR
 msgid "Orchids"
-msgstr ""
+msgstr "Orquídeas"
 
 # Survey species selection page read more message
 #: interface
@@ -3386,6 +3386,9 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
 msgstr ""
+"Abelhas melíferas são conhecidas no Brasil como \"abelhas europeias\" ou "
+"\"abelhas africanizadas\". Elas são maiores do que a maioria das abelhas "
+"solitárias (mas não todas) e menores do que a maioria das mamangavas."
 
 # photos intro_text
 #: BR
@@ -3394,6 +3397,9 @@ msgid ""
 "largest bees; workers can be quite small, but are larger than most solitary "
 "bees. "
 msgstr ""
+"Mamangavas são abelhas bastante arredondadas e peludas. As rainhas estão "
+"entre nossas maiores abelhas; operárias podem ser menores, porém maiores do "
+"que a maioria das abelhas solitárias."
 
 # photos intro_text
 #: BR
@@ -3401,6 +3407,8 @@ msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
 "both with large bees. However, there are some difference."
 msgstr ""
+"No Brasil, mamangava é o nome popular para abelhas dos gêneros "
+"<i>Xylocopa</i> e <i>Bombus</i>. No entanto, há algumas diferenças."
 
 # photos intro_text
 #: BR
@@ -3408,6 +3416,8 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "honeybees. "
 msgstr ""
+"Abelhas solitárias são menos arredondadas do que mamangavas e a maioria e "
+"menor do que as abelhas melíferas."
 
 # photos intro_text
 #: BR
@@ -3416,6 +3426,9 @@ msgid ""
 " are very active and agile flyers, and are frequently seen hovering, as you "
 "would expect from their name. "
 msgstr ""
+"Há várias moscas diferentes que você pode observar visitando as flores. "
+"Moscas-das-flores são voadoras bastante ativas e ágeis, frequentemente "
+"observadas pairando no ar."
 
 # photos intro_text
 #: BR
@@ -3424,6 +3437,9 @@ msgid ""
 "pollinator groups, and can also be used for any pollinator that you can’t "
 "identify into a group at all."
 msgstr ""
+"Esta categoria é para visitantes florais que não se encaixem em nenhum outro"
+" grupo de polinizadores. Também pode ser utilizada para qualquer polinizador"
+" que você não consiga identificar como um dos grupos."
 
 # photos caption_1
 #: BR
@@ -3431,6 +3447,9 @@ msgid ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
 msgstr ""
+"Por favor, use a categoria \"outros insetos\" se você conseguiu identificar "
+"o polinizador como um inseto, mesmo que você não consiga reconhecer qual "
+"grupo de insetos."
 
 # name
 #: BR
