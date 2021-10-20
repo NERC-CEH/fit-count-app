@@ -11,10 +11,10 @@ const { P } = Section;
 
 const About = () => {
   const { country } = appModel.attrs;
-  const isCyprus = country === 'CYP';
+  const isCyprus = country === 'CY';
 
-  const { feedbackLink, feedbackLinkCYP } = config;
-  const feedback = isCyprus ? feedbackLinkCYP : feedbackLink;
+  const { feedbackLink, feedbackLinkCY } = config;
+  const feedback = isCyprus ? feedbackLinkCY : feedbackLink;
 
   return (
     <Page id="about">

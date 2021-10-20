@@ -12,7 +12,7 @@ const { H, P } = Section;
 
 const Credits = () => {
   const { country } = appModel.attrs;
-  const isCyprus = country === 'CYP';
+  const isCyprus = country === 'CY';
   const isRestOfWorld = !isCyprus;
 
   return (

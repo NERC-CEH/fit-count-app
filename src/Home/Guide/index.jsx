@@ -111,11 +111,11 @@ class Guide extends React.Component {
     const { t, appModel } = this.props;
 
     const { country } = appModel.attrs;
-    const isCyprus = country === 'CYP';
+    const isCyprus = country === 'CY';
     const showFeedback = this.shouldShowFeedback();
-    const { feedbackEmail, feedbackEmailCYP } = config;
+    const { feedbackEmail, feedbackEmailCY } = config;
 
-    const email = isCyprus ? feedbackEmailCYP : feedbackEmail;
+    const email = isCyprus ? feedbackEmailCY : feedbackEmail;
 
     return (
       <Page id="guide">
