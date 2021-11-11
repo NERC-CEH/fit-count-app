@@ -1,13 +1,14 @@
 # 
 # Translators:
-# Carin Kullberg <carin@ckg.se>, 2021
 # Lars Pettersson <lars.pettersson@biol.lu.se>, 2021
 # Fredrik Östrand, 2021
+# Carin Kullberg <carin@ckg.se>, 2021
+# Harriet Arnberg, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Fredrik Östrand, 2021\n"
+"Last-Translator: Harriet Arnberg, 2021\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/ceh/teams/116172/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,7 +146,7 @@ msgstr "Storbritannien"
 # Country page content
 #: interface
 msgid "Sweden"
-msgstr ""
+msgstr "Sverige"
 
 # Home page toolbar label
 #: interface
@@ -807,7 +808,7 @@ msgstr "Mariatistel"
 # flowers name
 #: BR
 msgid "Orchids"
-msgstr ""
+msgstr "Orkidéer"
 
 # Survey species selection page read more message
 #: interface
@@ -1714,7 +1715,7 @@ msgstr ""
 # Survey validation message
 #: interface
 msgid "Please add at least 1 photo."
-msgstr "Lägg till minst ett foto, tack."
+msgstr "Lägg till minst 1 foto, tack."
 
 # Survey validation message
 #: interface
@@ -1802,8 +1803,8 @@ msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
 msgstr ""
-"Besök projektets websida för att se dina insända Blombesöksräkningar. Den "
-"svenska sidan finns <2>här</2>"
+"Besök projektets websida för att se dina inskickade Blombesöksräkningar. Den"
+" svenska sidan finns <2>här</2>"
 
 # photos intro_text
 #: UK CY
@@ -1866,6 +1867,9 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. Look out for:"
 msgstr ""
+"I Brasilien kallas honungsbin \"europeiska bin\" eller \"afirkaniserade "
+"bin\". Honungsbin är större än de flesta (men inte alla) solitärbin, och "
+"mindre än de flesta humlor. Titta efter:"
 
 # photos caption_1
 #: UK CY BR
@@ -1970,6 +1974,9 @@ msgid ""
 "largest bees; workers can be quite small, but are larger than most solitary "
 "bees. Look out for:"
 msgstr ""
+"Humlor är kraftiga, rundade bin med mycket päls. Drottningarna hör till våra"
+" största bin; arbetarna kan vara ganska små, men brukar bara större än de "
+"flesta solitärbin. Titta efter:"
 
 # photos caption_4
 #: BR
@@ -1977,6 +1984,8 @@ msgid ""
 "Some species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be all black"
 msgstr ""
+"Vissa arter har enkla kontrasterande band (gula, vita, svarta), andra kan "
+"vara helt svarta"
 
 # photos extraText
 #: BR
@@ -1984,6 +1993,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover."
 msgstr ""
+"Humlor har en typisk 'humle-aktig' surrande flykt men hovrar (står still i "
+"luften) inte."
 
 # photos intro_text
 #: BR
@@ -1991,26 +2002,28 @@ msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
 "both with large bees. However, there are some difference, look out for:"
 msgstr ""
+"I Brasilien kallar man arter från de storvuxna släktena Xylocopa och Bombus "
+"för \"humlor\", men det finns skillnader mellan dem, så titta efter:"
 
 # photos caption_1
 #: BR
 msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
-msgstr ""
+msgstr "<i>Xylocopa</i> har en hårlös, glänsande bakkropp"
 
 # photos caption_2
 #: BR
 msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
-msgstr ""
+msgstr "<i>Xylocopa</i> saknar pollenkorg på bakbenen."
 
 # photos caption_3
 #: BR
 msgid "<i>Bombus</i> has a round shape, with furry abdomen"
-msgstr ""
+msgstr "<i>Bombus</i> har en rund kroppsform och en lurvig bakkropp"
 
 # photos caption_4
 #: BR
 msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
-msgstr ""
+msgstr "<i>Bombus</i> har pollenkorgar på bakbenen"
 
 # photos extraText
 #: BR
@@ -2019,6 +2032,8 @@ msgid ""
 "and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
 "lato”."
 msgstr ""
+"För Blombesöksräkningen behöver man inte skilja mellan <i>Xylocopa</i> and "
+"<i>Bombus</i> - De räknas båda till gruppen \"Humlor\""
 
 # photos intro_text
 #: UK CY
@@ -2224,6 +2239,8 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "honeybees. Look out for:"
 msgstr ""
+"Solitärbin är mer långsmala än humlor, och de flesta arter är betydligt "
+"mindre än humlor och honungsbin. Titta efter:"
 
 # photos caption_4
 #: BR
@@ -2231,6 +2248,8 @@ msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees. Some solitary bees measure up to 45mm."
 msgstr ""
+"Solitärbin är mindre än humledrottningar, men de störta arterna är större än"
+" små arbetar-humlor. Vissa solitärbin kan bli 45 mm långa."
 
 # photos extraText
 #: BR
@@ -2238,6 +2257,8 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 3000 species in Brazil."
 msgstr ""
+"Solitärbin flyger snabbt mellan blommorna och sitter ibland och solbadar. De"
+" flesta arter kan inte hovra. Det finns ca. 3000 arter i Brasilien."
 
 # photos caption_1
 #: BR
@@ -2245,6 +2266,8 @@ msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the bee on the left above)"
 msgstr ""
+"En del solitärbin samlar pollen i en pollenkorg på bakbenen (se biet ovan "
+"till vänster)"
 
 # photos caption_2
 #: BR
@@ -2252,6 +2275,8 @@ msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee from the Megachilidae family on the right above)"
 msgstr ""
+"Andra har pollenkorgen under bakkroppen (se tapetserarbiet, familjen "
+"Megachilidae , ovan tiil höger)"
 
 # photos intro_text
 #: BR
@@ -2259,11 +2284,13 @@ msgid ""
 "Among the 3000 species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Here are some examples:"
 msgstr ""
+"Det finns en stor variation i storlek, färg och mängden päls bland de 3000 "
+"arterna. Här är några exempel:"
 
 # photos caption_1
 #: BR
 msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
-msgstr ""
+msgstr "Ett bi av släktet <i>Oxaea</i> , familjen Andrenidae."
 
 # photos caption_2
 #: BR
@@ -2445,7 +2472,7 @@ msgstr "Den solitära stekeln sandstekel 1 Ammophila 1"
 # photos caption_2
 #: BR
 msgid "Solitary wasp of the genus <i>Monobia</i>"
-msgstr ""
+msgstr "Solitär stekel av släktet<i>Monobia</i>"
 
 # photos intro_text
 #: UK CY
@@ -2634,11 +2661,14 @@ msgid ""
 " are very active and agile flyers, and are frequently seen hovering, as you "
 "would expect from their name. Look out for:"
 msgstr ""
+"Många olika slags flugor besöker blommor. Blomflugor är mycket snabba och "
+"skickliga flygare och ses ofta hovra, alltså sväva stilla i luften t.ex. "
+"över en blomma."
 
 # photos caption_1
 #: BR
 msgid "Large eyes, covering most of the head"
-msgstr ""
+msgstr "Stora ögon som täcker större delen av huvudet"
 
 # photos extraText
 #: BR
@@ -2646,6 +2676,8 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets."
 msgstr ""
+"Blomflugor lever av nektar och pollen, men de samlar inte in pollen, och har"
+" inga pollenkorgar. "
 
 # photos intro_text
 #: BR
@@ -2886,16 +2918,22 @@ msgid ""
 "frequently noticed but also visit flowers regularly, either by day of by "
 "night."
 msgstr ""
+"Fjärilar är välbekanta blombesökare. Nattfjärilarna kanske man inte lägger "
+"märke till lika ofta, men de besöker också blommor, under dagtid eller "
+"nattetid. "
 
 # photos caption_1
 #: BR
 msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
 msgstr ""
+"<i>Phaeochlaena lampra</i> (en art av familjen tandspinnare, Notodontidae)"
 
 # photos caption_2
 #: BR
 msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
 msgstr ""
+"<i>Diaethria clymena</i> (en fjäril med karakteristik 88-teckning på "
+"vingarna)"
 
 # photos intro_text
 #: UK CY BR
@@ -2980,11 +3018,13 @@ msgid ""
 "This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
 " similar species by the rounded margins of the forewings"
 msgstr ""
+"Det här är en skalbagge av arten <i>Chauliognathus flavipes</i> , som "
+"skiljer sig från liknande arter genom framvingarnas rundade kanter"
 
 # photos intro_text
 #: BR
 msgid "Another example of beetle that visits flowers:"
-msgstr ""
+msgstr "Ett annat exempel på en blombesökande skalbagge"
 
 # photos caption_1
 #: BR
@@ -2992,6 +3032,8 @@ msgid ""
 "<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
 " occurs in Brazil"
 msgstr ""
+"<i>Macraspis clavate</i> är en skalbaggsart i familjen Scarabaeidae som "
+"förekommer i Brasilien"
 
 # photos intro_text
 #: UK BR CY
@@ -3031,26 +3073,28 @@ msgid ""
 "Stingless bees are group of social bees with high diversity. Species may be "
 "small or large as honeybees."
 msgstr ""
+"Gaddlösa bin är en artrik grupp av sociala bin. Arterna kan vara små eller "
+"stora som honungsbin."
 
 # photos caption_1
 #: BR
 msgid "Lack of functional sting"
-msgstr ""
+msgstr "Saknar fungerande gadd"
 
 # photos caption_2
 #: BR
 msgid "Reduced wing venation"
-msgstr ""
+msgstr "Reducerade vingribbor"
 
 # photos caption_3
 #: BR
 msgid "Pollen baskets for carrying pollen"
-msgstr ""
+msgstr "Pollenkorgar för att transportera pollen"
 
 # photos caption_4
 #: BR
 msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
-msgstr ""
+msgstr "<i>Tetragonisca angustula</i>, kallas “jataí” i Brasilien"
 
 # photos intro_text
 #: BR
@@ -3058,27 +3102,29 @@ msgid ""
 "There are more than 240 species of stingless bees in Brazil, with different "
 "sizes and colour patterns."
 msgstr ""
+"Det finns mer än 240 arter av gaddlösa bin i Brasilien, i olika storlek och "
+"färgteckning"
 
 # photos caption_1
 #: BR
 msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
-msgstr ""
+msgstr "<i>Trigona spinipes</i>, kallas även “irapuá”"
 
 # photos caption_2
 #: BR
 msgid "The genus <i>Melipona</i> shows robusts and furry bees"
-msgstr ""
+msgstr "Släktet <i>Melipona</i> har kraftiga och lurviga bin"
 
 # photos caption_3
 #: BR
 msgid ""
 "The genus <i>Plebeia</i> includes small species and are known as “mirim”"
-msgstr ""
+msgstr "Släktet <i>Plebeia</i>har många små arter, och kallas “mirim”"
 
 # photos caption_4
 #: BR
 msgid "Melipona quadrifasciata, also known as “mandaçaia”"
-msgstr ""
+msgstr "Melipona quadrifasciata, kallas även “mandaçaia”"
 
 # photos extraText
 #: BR
@@ -3086,6 +3132,8 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “stingless bees”!"
 msgstr ""
+"Du behöver inte kunna skilja olika arter åt för en Blombesöksräkning, för de"
+" räknas alla till gruppen \"Gaddlösa bin\""
 
 # photos intro_text
 #: BR
@@ -3096,22 +3144,28 @@ msgid ""
 "attracted to and pollinate many of these plants. They usually fly fast and "
 "are large and robust."
 msgstr ""
+"Orkidébin är färggranna (gröna, lila, blå, röda eller mässingsfärgade) och "
+"metallglänsande, men en del är svarta, ibland med gula rödaktiga eller "
+"vitaktiga hår. Dessa bin är ofta knutna till orkidéer eftersom hanarna "
+"lockas till dem och pollinerar då blommorna. de brukar flyga snabbt och är "
+"stora och kraftiga."
 
 # photos caption_1
 #: BR
 msgid "Males have enlarged tibias on their hind legs."
-msgstr ""
+msgstr "Hanarna har förstorade skenben på bakbenen."
 
 # photos intro_text
 #: BR
 msgid ""
 "Females rarely visit orchid flowers and use other species as food source."
 msgstr ""
+"Honorna besöker sällan orkidéblommorna, utan söker föda på andra blommor."
 
 # photos caption_1
 #: BR
 msgid "Females have pollen baskets on their hind legs."
-msgstr ""
+msgstr "Honorna har pollenkorgar på bakbenen."
 
 # photos caption_2
 #: BR
@@ -3119,6 +3173,7 @@ msgid ""
 "Sometimes is possible to observe their long tongues while they are grooming "
 "and/or flying."
 msgstr ""
+"Ibland kan man se deras långa tungor när de putsar sig eller när de flyger."
 
 # photos intro_text
 #: BR
@@ -3127,13 +3182,16 @@ msgid ""
 "of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
 "America to South America."
 msgstr ""
+"Den här gruppen är för nektardrickande fladdermöss, Underfamiljen "
+"Glossophaginae hör till fladdermusfamiljen Bladnäsor (Phyllostomidae) som "
+"förekommer från södra Nordamerika och till Sydamerika."
 
 # photos caption_1
 #: BR
 msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
-msgstr ""
+msgstr "Här besöker en <i>Glossophaga soricine</i>-fladdermus en blomma."
 
 # photos intro_text
 #: BR
@@ -3146,16 +3204,22 @@ msgid ""
 "red, orange, and bright pink, though the birds take nectar from flowers of "
 "other colors, as well."
 msgstr ""
+"Kolibrier är fåglar hemmahörande i Nord- och Sydamerika, och utgör familjen "
+"Trochilidae. De omkring 360 arterna finns från Alaska till Eldslandet, men "
+"de allra flesta arterna finns i tropiska områden. De är små  fåglar; de "
+"flesta arterna mellan 7,5 och 13 cm långa. Många växter som pollineras av "
+"kolibrier har röda, orange och ljusrosa blommor, men fåglarna söker även "
+"nektar i blommor i andra färger."
 
 # photos caption_1
 #: BR
 msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
-msgstr ""
+msgstr "Violettstrupig smaragd (<i>Amazilia lactea</i>)"
 
 # photos caption_2
 #: BR
 msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
-msgstr ""
+msgstr "Glanssmaragd (<i>Chlorostilbon lucidus</i>)"
 
 # photos intro_text
 #: UK BR CY
@@ -3265,6 +3329,9 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
 msgstr ""
+"I Brasilien kallas honungsbin \"europeiska bin\" eller \"afirkaniserade "
+"bin\". Honungsbin är större än de flesta (men inte alla) solitärbin, och "
+"mindre än de flesta humlor."
 
 # photos intro_text
 #: BR
@@ -3273,6 +3340,8 @@ msgid ""
 "largest bees; workers can be quite small, but are larger than most solitary "
 "bees. "
 msgstr ""
+"Humlor är runda, vanligen lurviga bin. Drottningarna hör till våra största "
+"bin; arbetarna kan vara ganska små, men är större än de flesta solitärbin."
 
 # photos intro_text
 #: BR
@@ -3280,6 +3349,8 @@ msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
 "both with large bees. However, there are some difference."
 msgstr ""
+"I Brasilien kallar man arter från de storvuxna släktena Xylocopa och Bombus "
+"för \"humlor\", men det finns skillnader mellan dem."
 
 # photos intro_text
 #: BR
@@ -3287,6 +3358,8 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "honeybees. "
 msgstr ""
+"Solitärbin är inte så runda som humlor, och de flesta är mindre än "
+"honungsbin."
 
 # photos intro_text
 #: BR
@@ -3295,6 +3368,9 @@ msgid ""
 " are very active and agile flyers, and are frequently seen hovering, as you "
 "would expect from their name. "
 msgstr ""
+"Många olika slags flugor besöker blommor. Blomflugor är mycket snabba och "
+"skickliga flygare och ses ofta hovra, alltså sväva stilla i luften t.ex. "
+"över en blomma."
 
 # photos intro_text
 #: BR
@@ -3303,6 +3379,9 @@ msgid ""
 "pollinator groups, and can also be used for any pollinator that you can’t "
 "identify into a group at all."
 msgstr ""
+"Den här gruppen används för alla blombesökare som inte passar i någon av de "
+"andra grupperna av pollinatörer, och kan också användas om du inte kan vet "
+"vilken grupp de tillhör."
 
 # photos caption_1
 #: BR
@@ -3310,123 +3389,125 @@ msgid ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
 msgstr ""
+"Använd gruppen \"Andra insekter\" om du ser att det är en insekt, men inte "
+"kan bestämma vilken grupp den tillhör."
 
 # name
 #: BR
 msgid "Oxalis"
-msgstr ""
+msgstr "Oxalis"
 
 # name
 #: BR
 msgid "Basil"
-msgstr ""
+msgstr "Basilika"
 
 # name
 #: BR
 msgid "Lantana"
-msgstr ""
+msgstr "Lantana (Eldkrona)"
 
 # name
 #: BR
 msgid "Anthurium"
-msgstr ""
+msgstr "Anthurium (Kobrakallor)"
 
 # name
 #: BR
 msgid "Calliandra"
-msgstr ""
+msgstr "Calliandra"
 
 # name
 #: BR
 msgid "Asteraceae (herbaceous)"
-msgstr ""
+msgstr "Korgblommiga växter (örtarade)"
 
 # name
 #: BR
 msgid "Orchid"
-msgstr ""
+msgstr "Orkidéer"
 
 # name
 #: BR
 msgid "Clover/Trefoil"
-msgstr ""
+msgstr "Klöver"
 
 # name
 #: BR
 msgid "Brazilian grape tree/Jabuticaba"
-msgstr ""
+msgstr "Jabuticaba"
 
 # name
 #: BR
 msgid "Acerola cherry"
-msgstr ""
+msgstr "Malpighia glabra (Acerola)"
 
 # name
 #: BR
 msgid "Wild plantain/Heliconia"
-msgstr ""
+msgstr "Heliconia (Hummerklo-växter)"
 
 # name
 #: BR
 msgid "Passionfruit"
-msgstr ""
+msgstr "Passionfrukt"
 
 # name
 #: BR
 msgid "Sleeping hibiscus/Malvaviscus"
-msgstr ""
+msgstr "Malvaviscus (Bärmalvor)"
 
 # name
 #: BR
 msgid "Mimosa"
-msgstr ""
+msgstr "Mimosa"
 
 # name
 #: BR
 msgid "Bromeliads"
-msgstr ""
+msgstr "Bromeliader"
 
 # name
 #: BR
 msgid "Ipe"
-msgstr ""
+msgstr "Handroanthus"
 
 # value
 #: BR
 msgid "Caatinga"
-msgstr ""
+msgstr "Caatinga (skog med lövfällning i torrperioder)"
 
 # value
 #: BR
 msgid "Plantation florest"
-msgstr ""
+msgstr "Plantageskog"
 
 # value
 #: BR
 msgid "Cerrado"
-msgstr ""
+msgstr "Cerrado (tropisk savann)"
 
 # name
 #: BR CL
 msgid "Orchid bees"
-msgstr ""
+msgstr "Orkidébin"
 
 # name
 #: BR
 msgid "Stingless bees"
-msgstr ""
+msgstr "Gaddlösa bin"
 
 # name
 #: BR
 msgid "Bumblebees sensu lato"
-msgstr ""
+msgstr "Humlor"
 
 # name
 #: BR
 msgid "Flies"
-msgstr ""
+msgstr "Flugor"
 
 # name
 #: BR
 msgid "Don't know"
-msgstr ""
+msgstr "Vet ej"
