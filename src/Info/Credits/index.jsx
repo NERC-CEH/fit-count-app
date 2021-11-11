@@ -184,8 +184,8 @@ const Credits = () => {
               www.flaticon.com
             </a>
           </P>
-          <P>
-            App guide illustrations made by:
+          <P skipTranslation>
+            <T>App guide illustrations made by</T>:
             <ul>
               <li>
                 <a href="https://www.divulgare.net/" title="Divulgare">

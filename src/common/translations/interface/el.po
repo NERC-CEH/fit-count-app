@@ -1011,13 +1011,8 @@ msgstr "Εικόνες από <2> Freepik </2> από το <6> www.flaticon.com 
 
 # Credits page content
 #: interface
-msgid ""
-"App guide illustrations made "
-"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
-msgstr ""
-"Εικονογράφηση της εφαρμογής από: <1> <0> <0> www.divulgare.net </0> </0> <1>"
-" <0> https://flic.kr/p/2k2HaKk </0> </1> <2> <0>http://www.clker.com/ </0> "
-"</2> </1>"
+msgid "App guide illustrations made by"
+msgstr "Εικονογράφηση της εφαρμογής από"
 
 # Survey flower page info message
 #: interface

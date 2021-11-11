@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Karolis, 2021
 # Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
 # BeeKeep Team <beekeep.science@gmail.com>, 2021
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2021
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2021\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Portuguese (https://www.transifex.com/ceh/teams/116172/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1011,12 +1011,8 @@ msgstr "Ícones feitos por <2>Freepik</2> do <6>www.flaticon.com</6>"
 
 # Credits page content
 #: interface
-msgid ""
-"App guide illustrations made "
-"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
-msgstr ""
-"Ilustrações do guia do App feitas "
-"por:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+msgid "App guide illustrations made by"
+msgstr "Ilustrações do aplicativo por"
 
 # Survey flower page info message
 #: interface

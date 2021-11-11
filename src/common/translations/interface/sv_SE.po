@@ -4,11 +4,12 @@
 # Fredrik Östrand, 2021
 # Carin Kullberg <carin@ckg.se>, 2021
 # Harriet Arnberg, 2021
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Harriet Arnberg, 2021\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/ceh/teams/116172/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1003,12 +1004,8 @@ msgstr "Ikoner skapade av <2>Freepik</2> från <6>www.flaticon.com</6>"
 
 # Credits page content
 #: interface
-msgid ""
-"App guide illustrations made "
-"by:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
-msgstr ""
-"Bilder i appens guide är gjorda "
-"av:<1><0><0>www.divulgare.net</0></0><1><0>https://flic.kr/p/2k2HaKk</0></1><2><0>http://www.clker.com/</0></2></1>"
+msgid "App guide illustrations made by"
+msgstr "Bilder i appens guide är gjorda av"
 
 # Survey flower page info message
 #: interface
