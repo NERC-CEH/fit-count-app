@@ -2263,12 +2263,8 @@ msgstr ""
 
 # photos intro_text
 #: BR
-msgid ""
-"Among the 3000 species of solitary bee, there is a lot of variation in size,"
-" colour and how hairy they appear. Here are some examples:"
-msgstr ""
-"Among the 3000 species of solitary bee, there is a lot of variation in size,"
-" colour and how hairy they appear. Here are some examples:"
+msgid "Among the 3000 species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. See some examples above:"
+msgstr "Among the 3000 species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. See some examples above:"
 
 # photos caption_1
 #: BR
@@ -2818,16 +2814,8 @@ msgstr "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
 
 # photos intro_text
 #: UK CY
-msgid ""
-"Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night. Some moths (see next screen) are quite small and could be overlooked "
-"as other types of insect."
-msgstr ""
-"Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night. Some moths (see next screen) are quite small and could be overlooked "
-"as other types of insect."
+msgid "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
+msgstr "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
 
 # photos caption_1
 #: UK
@@ -2888,14 +2876,8 @@ msgstr "Micro-moths"
 
 # photos intro_text
 #: BR
-msgid ""
-"Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night."
-msgstr ""
-"Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night."
+msgid "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. "
+msgstr "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. "
 
 # photos caption_1
 #: BR
@@ -2995,8 +2977,8 @@ msgstr ""
 
 # photos intro_text
 #: BR
-msgid "Another example of beetle that visits flowers:"
-msgstr "Another example of beetle that visits flowers:"
+msgid "Another example of beetle that visits flowers is shown above."
+msgstr "Another example of beetle that visits flowers is shown above."
 
 # photos caption_1
 #: BR

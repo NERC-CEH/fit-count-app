@@ -2151,7 +2151,7 @@ msgstr ""
 #: BR
 msgid ""
 "Among the 3000 species of solitary bee, there is a lot of variation in size,"
-" colour and how hairy they appear. Here are some examples:"
+" colour and how hairy they appear. See some examples above:"
 msgstr ""
 
 # photos caption_1
@@ -2666,8 +2666,8 @@ msgstr ""
 #: BR
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
-"night."
+"frequently noticed but also visit flowers regularly, either by day or by "
+"night. "
 msgstr ""
 
 # photos caption_1
@@ -2750,7 +2750,7 @@ msgstr ""
 
 # photos intro_text
 #: BR
-msgid "Another example of beetle that visits flowers:"
+msgid "Another example of beetle that visits flowers is shown above."
 msgstr ""
 
 # photos caption_1

@@ -90,17 +90,6 @@
   },
   {
     "id": "bumblebeesBr",
-    "pictureId": "BR2",
-    "intro_text": "Bumblebees are very rounded and mostly furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees. ",
-    "caption_1": "Very hairy / fluffy bees",
-    "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
-    "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
-    "caption_4": "Some species have simple, contrasting colour bands (yellows, whites, blacks), others can be all black",
-    "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover.",
-    "BR": true
-  },
-  {
-    "id": "bumblebeesBr",
     "pictureId": "BR1",
     "intro_text": "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, both with large bees. However, there are some difference.",
     "caption_1": "<i>Xylocopa</i> has a hairless and shiny abdomen",
@@ -108,6 +97,17 @@
     "caption_3": "<i>Bombus</i> has a round shape, with furry abdomen",
     "caption_4": "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen",
     "extraText": "For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> and <i>Bombus</i> - they are counted in the same category “bumblebees sensu lato”.",
+    "BR": true
+  },
+  {
+    "id": "bumblebeesBr",
+    "pictureId": "BR2",
+    "intro_text": "Bumblebees are very rounded and mostly furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees. ",
+    "caption_1": "Very hairy / fluffy bees",
+    "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
+    "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_4": "Some species have simple, contrasting colour bands (yellows, whites, blacks), others can be all black",
+    "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover.",
     "BR": true
   },
   {
@@ -193,9 +193,9 @@
   {
     "id": "solitaryBees",
     "pictureId": "BR3",
-    "intro_text": "Among the 3000 species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. Here are some examples:",
+    "intro_text": "Among the 3000 species of solitary bee, there is a lot of variation in size, colour and how hairy they appear. See some examples above:",
     "caption_1": "Bee of the genus <i>Oxaea</i> from the family Andrenidae.",
-    "caption_2": "The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps and lack structures for carrying pollen.",
+    "caption_2": "The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps and lack structures for carrying pollen.",
     "caption_3": "Bees from the Halictidae family are usually dark-coloured and often metallic.",
     "caption_4": "The leafcutter bees (genus <i>Megachile</i>) have the pollen basket underneath their abdomen and cut pieces of leaf and petals to build their nests.",
     "extraText": "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!",
@@ -414,7 +414,7 @@
   {
     "id": "butterfliesAndMoths",
     "pictureId": 1,
-    "intro_text": "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect.",
+    "intro_text": "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect.",
     "caption_1": "Small Tortoiseshell butterfly",
     "caption_2": "Common Blue butterfly",
     "extraText": "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category.",
@@ -448,7 +448,7 @@
   {
     "id": "butterfliesAndMoths",
     "pictureId": "BR1",
-    "intro_text": "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day of by night.",
+    "intro_text": "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. ",
     "caption_1": "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)",
     "caption_2": "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)",
     "extraText": "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category.",
@@ -492,7 +492,7 @@
   {
     "id": "beetles",
     "pictureId": "BR2",
-    "intro_text": "Another example of beetle that visits flowers:",
+    "intro_text": "Another example of beetle that visits flowers is shown above.",
     "caption_1": "<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that occurs in Brazil",
     "BR": true
   },
@@ -501,8 +501,7 @@
     "pictureId": 1,
     "intro_text": "This category is for any insects under 3mm long. These can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category.",
     "caption_1": "This example shows a flower with many pollen beetles (family Nitidulidae) – other “small insects” may include tiny flies and parasitic wasps",
-    "UK": true,
-    "BR": true
+    "UK": true
   },
   {
     "id": "smallInsects",
