@@ -212,7 +212,7 @@ const Credits = () => {
                   </li>
                   <li>
                     <a href="https://www.clipartmax.com" title="Clker">
-                      Paul Drago
+                      Paula Drago
                     </a>
                   </li>
                 </>
