@@ -2292,11 +2292,11 @@ msgstr "Ett bi av släktet <i>Oxaea</i> , familjen Andrenidae."
 # photos caption_2
 #: BR
 msgid ""
-"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
-"Citronbin  1Hylaeus1  är svarta med ljusa markeringar i ansiktet och de "
-"saknar hår för polleninsamling"
+"Citronbin  <i>Hylaeus</i>  är svarta med ljusa markeringar i ansiktet och de"
+" saknar hår för polleninsamling"
 
 # photos caption_3
 #: BR

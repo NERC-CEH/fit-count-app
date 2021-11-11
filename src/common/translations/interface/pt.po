@@ -2328,10 +2328,10 @@ msgstr "Abelhas do gênero <i>Oxaea</i> da família Andrenidae."
 # photos caption_2
 #: BR
 msgid ""
-"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
-"O gênero <I>Hylaeus</i> (Família Colletidae) pode parecer bastante com "
+"O gênero <i>Hylaeus</i> (Família Colletidae) pode parecer bastante com "
 "vespas e não apresentar estruturas para transporte de pólen."
 
 # photos caption_3

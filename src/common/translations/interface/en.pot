@@ -2278,10 +2278,10 @@ msgstr "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
 # photos caption_2
 #: BR
 msgid ""
-"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
-"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 
 # photos caption_3

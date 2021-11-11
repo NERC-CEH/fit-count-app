@@ -2162,7 +2162,7 @@ msgstr ""
 # photos caption_2
 #: BR
 msgid ""
-"The genus <I>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
 
