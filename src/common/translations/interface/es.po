@@ -1267,6 +1267,30 @@ msgstr ""
 msgid "Start Count"
 msgstr ""
 
+# Context term
+#: BR
+msgid ""
+"FIT Counts take about 10–15 minutes, during which you are asked to count "
+"every flower visitor that lands on the flowers of your chosen target flower "
+"species."
+msgstr ""
+
+# Context term
+#: BR
+msgid ""
+"Using the timer in the app, spend ten minutes counting all flower visitors "
+"that land on the target flowers (ignore other flowers, and do your best to "
+"count each individual flower visitor once only!)."
+msgstr ""
+
+# Context term
+#: BR
+msgid ""
+"Identify the flower visitors into their broad groups (bumblebees, hoverflies"
+" etc.) – any that you don't recognise should be counted as \"other insects\""
+" or \"don't know\"."
+msgstr ""
+
 # From survey pages
 #: UK BR CL CY AR
 msgid "Other"
