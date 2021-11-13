@@ -1280,7 +1280,7 @@ msgstr "Mer information och instruktioner finns på"
 #: interface
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
-" any that you don't recognise should be counted as other insects."
+" any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
 "Bestäm vilken grupp varje insekt tillhör (humlor, blomflugor osv.) – alla "
 "som du inte kan bestämma räknas som övriga insekter."
@@ -2281,8 +2281,6 @@ msgid ""
 "Among the 3000 species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. See some examples above:"
 msgstr ""
-"Det finns en stor variation i storlek, färg och mängden päls bland de 3000 "
-"arterna. Här är några exempel:"
 
 # photos caption_1
 #: BR

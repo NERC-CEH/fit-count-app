@@ -1271,10 +1271,10 @@ msgstr "Further information and guides are available at"
 #: interface
 msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
-" any that you don't recognise should be counted as other insects."
+" any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
-" any that you don't recognise should be counted as other insects."
+" any that you don't recognise should be counted as \"other insects\"."
 
 # How To page content
 #: interface
