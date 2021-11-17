@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
-# BeeKeep Team <beekeep.science@gmail.com>, 2021
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2021
 # Karolis, 2021
+# BeeKeep Team <beekeep.science@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: BeeKeep Team <beekeep.science@gmail.com>, 2021\n"
 "Language-Team: Portuguese (https://www.transifex.com/ceh/teams/116172/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1343,6 +1343,9 @@ msgid ""
 "every flower visitor that lands on the flowers of your chosen target flower "
 "species."
 msgstr ""
+"FIT Counts levam cerca de 10-15 minutos, durante os quais você será "
+"solicitado a contar todos os visitantes florais que pousarem nas flores da "
+"espécie que você escolheu."
 
 # Context term
 #: BR
@@ -1351,6 +1354,10 @@ msgid ""
 "that land on the target flowers (ignore other flowers, and do your best to "
 "count each individual flower visitor once only!)."
 msgstr ""
+"Usando o cronômetro do aplicativo, conte durante dez minutos todos os "
+"visitantes florais que pousarem nas flores alvo (ignore as outras flores e "
+"faça o possível para contar cada visitante floral individualmente apenas uma"
+" vez!)."
 
 # Context term
 #: BR
@@ -1359,6 +1366,9 @@ msgid ""
 " etc.) – any that you don't recognise should be counted as \"other insects\""
 " or \"don't know\"."
 msgstr ""
+"Identifique os visitantes florais em seus grupos mais amplos (abelhas, "
+"moscas, etc.) - qualquer um que você não reconheça deve ser contado como "
+"\"outros insetos\" ou \"não sei\"."
 
 # From survey pages
 #: UK BR CL CY AR
@@ -2341,6 +2351,8 @@ msgid ""
 "Among the 3000 species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. See some examples above:"
 msgstr ""
+"Entre as 3000 espécies de abelhas solitárias, há uma grande variação em "
+"tamanho, cores e quão peludas elas são. Veja alguns exemplos acima:"
 
 # photos caption_1
 #: BR
