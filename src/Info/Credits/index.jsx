@@ -14,7 +14,7 @@ const Credits = () => {
   const { country } = appModel.attrs;
   const isCyprus = country === 'CY';
   const isBrazil = country === 'BR';
-  const isRestOfWorld = !isCyprus;
+  const isRestOfWorld = !isCyprus && !isBrazil;
 
   return (
     <Page id="credits">
