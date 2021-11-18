@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { NavContext } from '@ionic/react';
+import { NavContext, isPlatform } from '@ionic/react';
 import Sample from 'models/sample';
 import { alert } from '@apps';
 import { Trans as T } from 'react-i18next';
@@ -75,7 +75,8 @@ function StartNewSurvey({ match, survey, location }) {
   const pickDraftOrCreateSampleWrap = () => {
     // eslint-disable-next-line
     (async () => {
-      if (!userModel.hasLogIn()) {
+      const isDemoAppTranslator = !isPlatform('hybrid'); // allow translators to skip login
+      if (!userModel.hasLogIn() && !isDemoAppTranslator) {
         context.navigate(`/user/register`, 'none', 'replace');
         return;
       }
