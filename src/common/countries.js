@@ -18,17 +18,17 @@ const countries = [
     label: 'Cyprus',
     value: 'CY',
   },
+  {
+    flag: BR,
+    label: 'Brazil',
+    value: 'BR',
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   countries.push(
     ...[
-      {
-        flag: BR,
-        label: 'Brazil',
-        value: 'BR',
-      },
       {
         flag: SE,
         label: 'Sweden',

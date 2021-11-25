@@ -4,13 +4,13 @@ const languages = {
   en: 'English',
   cy: 'Cymraeg',
   el: 'Eλληνικά',
+  pt: 'Português',
 };
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   Object.assign(languages, {
     // es: 'Español',
-    pt: 'Português',
     se: 'Svenska',
   });
 }
