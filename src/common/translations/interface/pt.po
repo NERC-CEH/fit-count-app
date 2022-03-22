@@ -3,12 +3,12 @@
 # Bruno de Carvalho Albertini <balbertini@usp.br>, 2021
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2021
 # Karolis, 2021
-# BeeKeep Team <beekeep.science@gmail.com>, 2021
+# BeeKeep Team <beekeep.science@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: BeeKeep Team <beekeep.science@gmail.com>, 2021\n"
+"Last-Translator: BeeKeep Team <beekeep.science@gmail.com>, 2022\n"
 "Language-Team: Portuguese (https://www.transifex.com/ceh/teams/116172/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -277,62 +277,62 @@ msgid "Other habitat"
 msgstr "Outro habitat"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Garden"
 msgstr "Jardim manejado"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "School Grounds"
 msgstr "Pátio Escolar"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Parkland with trees"
 msgstr "Parque ou praça (com árvores)"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Churchyard"
 msgstr "Patio de igreja"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Grassy verge or hedgerow edge"
 msgstr "Borda gramada ou de cerca viva"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr "Campestre (não manejado)"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Amenity grassland (usually mown short)"
 msgstr "Gramado manejado"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Farm crops or grassy pasture"
 msgstr "Cultivo ou pastagem"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Upland moorland"
 msgstr "Planalto pantanoso"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Lowland heath"
 msgstr "Charneca de várzea"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Waste ground or brownfield site"
 msgstr "Área abandonada ou terreno baldio"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Woodland"
 msgstr "Floresta"
 
@@ -376,10 +376,20 @@ msgstr "Povoamento de Acacia"
 msgid "Roadside verges"
 msgstr "Beira de estrada"
 
-# Survey habitat page values
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr "Caatinga"
+
+# habitats value
 #: BR
 msgid "Plantation forest"
 msgstr "Floresta plantada"
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr "Cerrado"
 
 # Survey flower-cover info message
 #: interface
@@ -661,74 +671,79 @@ msgid "Press <1></1> to add."
 msgstr "Pressione <1></1> para adicionar."
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Bramble"
 msgstr "Amoras"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Buddleja"
 msgstr "Buddleja"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Buttercup"
 msgstr "Botão de ouro"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Dandelion"
 msgstr "Dente de Leão"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Hawthorn"
 msgstr "Espinheiro-branco"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Heather"
 msgstr "Urze/torga"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Hogweed"
 msgstr "Heracleum"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Ivy"
 msgstr "Hera"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Knapweed"
 msgstr "Centáureas"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Lavender"
 msgstr "Lavanda"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Ragwort"
 msgstr "Tasna"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Thistle"
 msgstr "Cardo"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "White Clover"
 msgstr "Trevo-branco"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "White Dead-nettle"
 msgstr "Urtiga-branca"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
 
 # flowers name
 #: CY
@@ -812,8 +827,83 @@ msgstr "Cardo-leiteiro"
 
 # flowers name
 #: BR
+msgid "Oxalis"
+msgstr "Azedinha Oxalis (trevinho)"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Manjericão"
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr "Lantana"
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr "Antúrio"
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr "Calliandra"
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr "Asteraceae (herbácea)"
+
+# flowers name
+#: BR
 msgid "Orchids"
 msgstr "Orquídeas"
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr "Trevo Trifolium"
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Jabuticaba"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr "Acerola"
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Heliconia"
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr "Maracujá"
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Malvaviscus"
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr "Mimosa"
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromélias"
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr "Ipê"
 
 # Survey species selection page read more message
 #: interface
@@ -1371,7 +1461,7 @@ msgstr ""
 "\"outros insetos\" ou \"não sei\"."
 
 # From survey pages
-#: UK BR CL CY AR
+#: UK BR CL CY AR IE
 msgid "Other"
 msgstr "Outro"
 
@@ -1431,52 +1521,52 @@ msgid "Discard local data"
 msgstr "Descartar dados locais"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Beetles"
 msgstr "Besouros"
 
 # pollinator name
-#: UK BR CY
+#: UK CY IE
 msgid "Bumblebees"
 msgstr "Mamangavas"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Butterflies and moths"
 msgstr "Borboletas e mariposas"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Honeybees"
 msgstr "Abelhas melíferas"
 
 # pollinator name
-#: UK BR CY
+#: UK CY IE
 msgid "Hoverflies"
 msgstr "Moscas-das-flores"
 
 # pollinator name
-#: UK CY
+#: UK CY IE
 msgid "Other flies"
 msgstr "Outras moscas"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Other insects"
 msgstr "Outros insetos"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Small insects (<3mm)"
 msgstr "Insetos pequenos (<3mm)"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Solitary bees"
 msgstr "Abelhas solitárias"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Wasps"
 msgstr "Vespas"
 
@@ -1489,6 +1579,31 @@ msgstr "Morcegos"
 #: BR
 msgid "Hummingbirds"
 msgstr "Beija-flores"
+
+# pollinator name
+#: BR IE
+msgid "Orchid bees"
+msgstr "Abelhas das orquídeas"
+
+# pollinator name
+#: BR
+msgid "Stingless bees"
+msgstr "Abelhas sem ferrão"
+
+# pollinator name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr "Mamangavas"
+
+# pollinator name
+#: BR
+msgid "Flies"
+msgstr "Moscas"
+
+# pollinator name
+#: BR
+msgid "Don't know"
+msgstr "Não sei"
 
 # Survey back button label
 #: interface
@@ -1858,7 +1973,7 @@ msgstr ""
 "PoMS</2>)"
 
 # photos intro_text
-#: UK CY
+#: UK CY IE
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -1867,30 +1982,30 @@ msgstr ""
 "(mas não todas) e são menores do que a maioria das mamangavas."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr ""
 "Antena longa e fina, normalmente com um ângulo em formato de 'cotovelo'"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Eyes covering the sides of the head"
 msgstr "Olhos cobrindo as laterais da cabeça"
 
 # photos caption_3
-#: UK CY BR
+#: UK CY IE BR
 msgid "Hind legs broad and flattened"
 msgstr "Pernas traseiras largas e achatadas"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr ""
 "O abdome pode variar de majoritariamente escuro a majoritariamente "
 "alaranjado"
 
 # photos caption_5
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Célula longa e estreita em veias na borda da asa"
 
@@ -1914,20 +2029,26 @@ msgstr ""
 "artificiais, com colônias ocasionalmente se estabelecendo em ambientes "
 "naturais."
 
+# photos extraText
+#: IE
+msgid ""
+"There is just one species of honeybee in Ireland. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+
 # photos intro_text
 #: BR
 msgid ""
 "Honeybees are known in Brazil as “european bees” or “africanized bees”. "
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. Look out for:"
+"most bumblebees. "
 msgstr ""
 "Abelhas melíferas são conhecidas no Brasil como \"abelhas europeias\" ou "
-"\"abelhas africanizadas\". Abelhas melíferas são maiores do que a maioria "
-"(senão todas) as abelhas solitárias, e menores do que a maioria das "
-"mamangavas. Procure por:"
+"\"abelhas africanizadas\". Elas são maiores do que a maioria das abelhas "
+"solitárias (mas não todas) e menores do que a maioria das mamangavas."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Most of the honeybees you see will be workers, which are female, and collect"
 " pollen into a moistened ball on the outside of the hind legs"
@@ -1936,14 +2057,14 @@ msgstr ""
 " e coletam pólen em uma bola úmida na parte externa das pernas traseiras"
 
 # photos extraText
-#: UK CY BR
+#: UK CY IE BR
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
 "Os machos de abelhas melíferas (zangões) são semelhantes, mas têm olhos "
 "muito maiores."
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
@@ -1953,12 +2074,12 @@ msgstr ""
 "maioria das abelhas solitárias."
 
 # photos caption_1
-#: UK CY BR
+#: UK IE CY BR
 msgid "Very hairy / fluffy bees"
 msgstr "Abelhas muito peludas / fofas"
 
 # photos caption_2
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
@@ -1967,7 +2088,7 @@ msgstr ""
 "para baixo\" ao visitar as flores"
 
 # photos caption_4
-#: UK CY
+#: UK IE CY
 msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
@@ -1976,7 +2097,7 @@ msgstr ""
 "brancos, pretos), outras podem ter cores vivas por toda extensão"
 
 # photos caption_5
-#: UK CY
+#: UK IE CY
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
 "Os olhos cobrem as laterais da cabeça, com muitos pelos entre os olhos"
@@ -1990,8 +2111,15 @@ msgstr ""
 "Mamangavas tem um voo característico, 'atrapalhado' e acompanhado por um "
 "zumbido; e não ficam pairando no ar. Há 24 espécies no Reino Unido."
 
+# photos extraText
+#: IE
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 21 species in Ireland."
+msgstr ""
+
 # photos caption_1
-#: UK CY
+#: UK CY IE
 msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
@@ -2009,7 +2137,7 @@ msgstr ""
 "ruivos."
 
 # photos extraText
-#: UK CY
+#: UK CY IE
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
@@ -2030,41 +2158,11 @@ msgstr ""
 # photos intro_text
 #: BR
 msgid ""
-"Bumblebees are very rounded and mostly furry bees. The queens are among our "
-"largest bees; workers can be quite small, but are larger than most solitary "
-"bees. Look out for:"
-msgstr ""
-"Mamangavas são abelhas arredondadas e peludas. As rainhas estão entre as "
-"maiores abelhas; as operárias são bem menores, porém maiores que a maioria "
-"das abelhas solitárias. Procure por:"
-
-# photos caption_4
-#: BR
-msgid ""
-"Some species have simple, contrasting colour bands (yellows, whites, "
-"blacks), others can be all black"
-msgstr ""
-"Algumas espécies apresentam bandas simples com cores contrastantes "
-"(amarelos, brancos, pretos), outras podem ser completamente pretas"
-
-# photos extraText
-#: BR
-msgid ""
-"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
-"not hover."
-msgstr ""
-"Mamangavas tem um voo característico, 'atrapalhado' e acompanhado por um "
-"zumbido, e não pairam."
-
-# photos intro_text
-#: BR
-msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
-"both with large bees. However, there are some difference, look out for:"
+"both with large bees. However, there are some difference."
 msgstr ""
-"No Brasil, \"mamangava\" é o nome comum para as espécies de Xylocopa e "
-"Bombus, ambas com abelhas de grande tamanho. Entretanto, há algumas "
-"diferenças, procure por:"
+"No Brasil, mamangava é o nome popular para abelhas dos gêneros "
+"<i>Xylocopa</i> e <i>Bombus</i>. No entanto, há algumas diferenças."
 
 # photos caption_1
 #: BR
@@ -2100,7 +2198,36 @@ msgstr ""
 "sensu lato\""
 
 # photos intro_text
-#: UK CY
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. "
+msgstr ""
+"Mamangavas são abelhas bastante arredondadas e peludas. As rainhas estão "
+"entre nossas maiores abelhas; operárias podem ser menores, porém maiores do "
+"que a maioria das abelhas solitárias."
+
+# photos caption_4
+#: BR
+msgid ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+msgstr ""
+"Algumas espécies apresentam bandas simples com cores contrastantes "
+"(amarelos, brancos, pretos), outras podem ser completamente pretas"
+
+# photos extraText
+#: BR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+msgstr ""
+"Mamangavas tem um voo característico, 'atrapalhado' e acompanhado por um "
+"zumbido, e não pairam."
+
+# photos intro_text
+#: UK CY IE
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
@@ -2109,30 +2236,30 @@ msgstr ""
 " menor do que mamangavas e abelhas melíferas."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid "Usually quite elongate in shape (but there is lots of variety)"
 msgstr "Normalmente tem formato bastante alongado (mas há muitas variedades)"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
 msgstr ""
 "Normalmente peluda, mas frequentemente menos coberta de pelos que as "
 "mamangavas "
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid "Colours usually more subdued and less contrasting than bumblebees"
 msgstr ""
 "As cores geralmente são mais suaves e menos contrastantes que em mamangavas"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long antennae, often held straight out in front"
 msgstr "Antenas longas, geralmente mantidas esticadas em sua frente"
 
 # photos caption_5
-#: UK CY
+#: UK CY IE
 msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
@@ -2160,8 +2287,15 @@ msgstr ""
 "luz do sol. A maioria das espécies não paira. Há cerca de 369 espécies no "
 "Chipre."
 
+# photos extraText
+#: IE
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 78 species in Ireland."
+msgstr ""
+
 # photos caption_1
-#: UK
+#: UK IE
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
@@ -2170,7 +2304,7 @@ msgstr ""
 "pernas traseiras (veja a abelha mineira acima à esquerda)."
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
@@ -2179,7 +2313,7 @@ msgstr ""
 " direita)."
 
 # photos extraText
-#: UK CY
+#: UK IE CY
 msgid ""
 "Solitary bees generally nest in burrows or holes. One large group, the "
 "mining bees, dig burrows into soil. Another group, including the mason bees "
@@ -2207,7 +2341,7 @@ msgid ""
 msgstr "Outros têm a escopa embaixo do abdômen (abelha acima à direita)"
 
 # photos intro_text
-#: UK CY
+#: UK CY IE
 msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
@@ -2216,7 +2350,7 @@ msgstr ""
 "tamanho, cor e quão peluda a abelha é. Alguns exemplos são mostrados abaixo."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
@@ -2224,7 +2358,7 @@ msgstr ""
 "cinza."
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
 "they have bee-like hairs on part of their body, and most are similar in "
@@ -2244,7 +2378,7 @@ msgstr ""
 " com cerca de 4mm de comprimento."
 
 # photos caption_4
-#: UK
+#: UK IE
 msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
@@ -2254,7 +2388,7 @@ msgstr ""
 "abdômen."
 
 # photos extraText
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
@@ -2299,14 +2433,21 @@ msgstr ""
 "Abelhas do gênero  <i>Colletes </i> apresentam distintas faixas pretas e "
 "amarelas no abdome (exemplo do Reino Unido fornecido)"
 
+# photos caption_3
+#: IE
+msgid ""
+"This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary"
+" bees, at around 5-7mm long"
+msgstr ""
+
 # photos intro_text
 #: BR
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
-"honeybees. Look out for:"
+"honeybees. "
 msgstr ""
-"Abelhas solitárias são menos arredondadas que as mamangavas, e a maioria é "
-"menor do que as abelhas melíferas. Procure por:"
+"Abelhas solitárias são menos arredondadas do que mamangavas e a maioria é "
+"menor do que as abelhas melíferas."
 
 # photos caption_4
 #: BR
@@ -2388,7 +2529,7 @@ msgstr ""
 "abdômen e cortam pedaços de folhas e pétalas para construir seus ninhos."
 
 # photos intro_text
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
@@ -2397,12 +2538,12 @@ msgstr ""
 "vespas sociais como a mostrada acima."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long antennae (distinguishes them from most flies)"
 msgstr "Antenas longas (as diferencia da maioria das moscas)"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
@@ -2411,7 +2552,7 @@ msgstr ""
 "as abelhas"
 
 # photos caption_3
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Social wasps and some of the solitary species have bold black and yellow "
 "stripes"
@@ -2420,12 +2561,12 @@ msgstr ""
 "grossas e listras amarelas"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid "Some wasps have their wings rolled up when at rest"
 msgstr "Algumas vespas têm as asas enroladas quando em repouso"
 
 # photos caption_5
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 msgstr ""
@@ -2433,7 +2574,7 @@ msgstr ""
 "tórax e o abdômen"
 
 # photos intro_text
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There is a lot of variation in size, shape and markings among the solitary "
 "wasps. They are usually not obviously hairy, and since they do not collect "
@@ -2446,25 +2587,25 @@ msgstr ""
 "corpo)."
 
 # photos caption_1
-#: UK CY
+#: UK CY IE
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
 msgstr ""
 "Muitas vespas solitárias têm uma forma característica de cabeça larga e "
 "quadrada"
 
 # photos caption_2
-#: UK CY
+#: UK CY IE
 msgid "Some have typical black and yellow wasp stripes"
 msgstr "Alguns têm listras pretas e amarelas típicas de vespa"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid "Others may be black and red, or all black as in this example"
 msgstr ""
 "Outras podem ser pretas e vermelhas ou totalmente pretas como neste exemplo"
 
 # photos extraText
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Solitary wasps generally nest in burrows or holes, in a similar manner to "
 "the solitary bees."
@@ -2473,7 +2614,7 @@ msgstr ""
 "perfurações, de forma similar às abelhas solitárias."
 
 # photos intro_text
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "There are many different parasitic wasps, some of which visit flowers for "
 "nectar. Two examples are shown above."
@@ -2482,13 +2623,13 @@ msgstr ""
 "busca de néctar. Dois exemplos são mostrados acima."
 
 # photos caption_1
-#: UK CY BR
+#: UK IE CY BR
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 msgstr ""
 "Muitas vespas parasitas são longas e finas, com uma cintura bem pequena."
 
 # photos caption_2
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "The majority of species have very long antennae, made up of lots of "
 "individual segments"
@@ -2497,7 +2638,7 @@ msgstr ""
 " individuais."
 
 # photos caption_3
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
 "some species this is very long"
@@ -2506,7 +2647,7 @@ msgstr ""
 " botar os ovos - em algumas espécies, esse ovipositor é bastante longo."
 
 # photos caption_4
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Colours are usually a mix of black and red or yellow – some species are all-"
 "black"
@@ -2515,7 +2656,7 @@ msgstr ""
 "espécies são todas pretas."
 
 # photos extraText
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
 " the larvae of the wasps consume the host invertebrate."
@@ -2546,7 +2687,7 @@ msgid "Solitary wasp of the genus <i>Monobia</i>"
 msgstr "Vespa solitária do gênero <i>Monobia</i>"
 
 # photos intro_text
-#: UK CY
+#: UK CY IE
 msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
@@ -2555,7 +2696,7 @@ msgstr ""
 "observadas pairando no ar."
 
 # photos caption_1
-#: UK CY
+#: UK CY IE
 msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
@@ -2565,14 +2706,14 @@ msgstr ""
 "cabeça em fêmeas."
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
 "A maioria das moscas-das-flores tem antenas mais curtas que as antenas de "
 "abelhas e vespas."
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
@@ -2581,7 +2722,7 @@ msgstr ""
 "borda verdadeira da asa."
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
@@ -2590,7 +2731,7 @@ msgstr ""
 "todas escuras ou apresentam outros padrões."
 
 # photos caption_5
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Hoverflies are not usually as hairy as bees (but there are some "
 "exceptions!), and they do not usually have prominent bristles on the body "
@@ -2620,8 +2761,15 @@ msgstr ""
 "não têm escopa para carregar pólen. Existem cerca de 52 espécies de moscas-"
 "das-flores em Chipre."
 
+# photos extraText
+#: IE
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 180 species of hoverfly in Ireland."
+msgstr ""
+
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "Many hoverflies have the typical black and yellow markings, but there is "
 "quite a lot of variety in shape, size and marking among the full range of "
@@ -2632,17 +2780,17 @@ msgstr ""
 "exemplos são mostrados acima."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr "Moscas-zangão tem antenas muito mais curtas do que abelhas melíferas."
 
 # photos caption_2
-#: UK CY
+#: UK IE CY
 msgid "The eyes cover more of the head"
 msgstr "Os olhos cobrem uma maior proporção da cabeça."
 
 # photos caption_3
-#: UK CY
+#: UK IE CY
 msgid ""
 "The back legs are much narrower than the broad flattened legs of honeybees"
 msgstr ""
@@ -2650,12 +2798,12 @@ msgstr ""
 " das abelhas melíferas."
 
 # photos caption_4
-#: UK CY
+#: UK IE CY
 msgid "The typical ‘false margin’ wing vein is present"
 msgstr "A típica veia da 'falsa margem' da asa está presente."
 
 # photos caption_5
-#: UK CY
+#: UK IE CY
 msgid ""
 "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
 " of the wing"
@@ -2681,7 +2829,7 @@ msgstr ""
 "mimetiza vespas, porém note que apresenta antenas curtas"
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
@@ -2690,7 +2838,7 @@ msgstr ""
 "campestris</i>, uma espécie com cores cinza e laranja característicos"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
@@ -2699,7 +2847,7 @@ msgstr ""
 "para ter certeza de que não são mamangavas!"
 
 # photos caption_4
-#: UK CY
+#: UK CY IE
 msgid ""
 "Some hoverflies are small and mostly dark in colour, but have the typical "
 "wing veins (if you can get close enough to see them) and in flight will "
@@ -2731,16 +2879,23 @@ msgstr ""
 "campestris</i>, uma espécie com ampla distribuição com cores cinza e laranja"
 " (exemplo do Reino Unido é mostrado)"
 
+# photos caption_1
+#: IE
+msgid ""
+"The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most "
+"common hoverflies"
+msgstr ""
+
 # photos intro_text
 #: BR
 msgid ""
 "There are many different flies that you may see visiting flowers. Hoverflies"
 " are very active and agile flyers, and are frequently seen hovering, as you "
-"would expect from their name. Look out for:"
+"would expect from their name. "
 msgstr ""
-"Há muitos tipos diferentes de moscas que você pode observar visitando "
-"flores. Moscas das flores são bastante ativas e voadoras ágeis, algumas são "
-"vistas frequentemente pairando no ar. Procure por:"
+"Há várias moscas diferentes que você pode observar visitando as flores. "
+"Moscas-das-flores são voadoras bastante ativas e ágeis, frequentemente "
+"observadas pairando no ar."
 
 # photos caption_1
 #: BR
@@ -2792,7 +2947,7 @@ msgstr ""
 "família Tachinidae"
 
 # photos caption_5
-#: BR UK CY
+#: BR UK IE CY
 msgid "It has prominent bristles on the abdomen"
 msgstr "Possui cerdas proeminentes no abdômen"
 
@@ -2806,7 +2961,7 @@ msgstr ""
 "no FIT Count, todas elas são contadas como \"moscas\"!"
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "There are many different flies that you may see visiting flowers – for the "
 "FIT Count all you need to do is separate them into “hoverflies” and all "
@@ -2821,22 +2976,22 @@ msgstr ""
 "Dois exemplos de “outras moscas” são mostrados acima e dois na próxima tela."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "This is a dance fly (family Empididae). "
 msgstr "Esta é uma mosca-de-dança (família Empididae)."
 
 # photos caption_2
-#: UK CY
+#: UK IE CY
 msgid "Many dance flies have a long thin proboscis under the head"
 msgstr "Muitas moscas-da-dança tem uma probóscide abaixo da cabeça"
 
 # photos caption_3
-#: UK CY
+#: UK IE CY
 msgid "Many dance flies have a distinctly humped thorax"
 msgstr "Muitas moscas-da-dança tem um tórax curvo característico"
 
 # photos caption_4
-#: UK
+#: UK IE
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
@@ -2846,12 +3001,12 @@ msgstr ""
 "relacionadas."
 
 # photos caption_5
-#: UK CY
+#: UK IE CY
 msgid "The abdomen is broader and flatter than in hoverflies"
 msgstr "O abdômen é mais largo e achatado do que nas moscas-das-flores"
 
 # photos caption_6
-#: UK CY
+#: UK IE CY
 msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
@@ -2874,7 +3029,7 @@ msgstr ""
 "flores (exemplo do Reino Unido é mostrado)"
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "Some of the larger flies that you will see on flowers are from ‘calypterate’"
 " families, most of which are rather rounded insects with obvious bristles on"
@@ -2885,17 +3040,17 @@ msgstr ""
 "evidentes nas pernas e no corpo."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "This is a parasitic fly from family Tachinidae"
 msgstr "Esta é uma mosca parasita da família Tachinidae"
 
 # photos caption_3
-#: UK
+#: UK IE
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
 msgstr "Esta é a mosca-do-estrume (família Scathophagidae)"
 
 # photos caption_4
-#: UK CY
+#: UK IE CY
 msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
@@ -2918,30 +3073,26 @@ msgstr ""
 "mostrado)"
 
 # photos intro_text
-#: UK CY
+#: UK IE
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
+"frequently noticed but also visit flowers regularly, either by day or by "
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
-"As borboletas são visitantes muito frequentes das flores. As mariposas são "
-"notadas com menos frequência, mas também visitam as flores regularmente, de "
-"dia ou à noite. Algumas mariposas (veja a próxima tela) são bem pequenas e "
-"podem passar despercebidas como outros tipos de inseto."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "Small Tortoiseshell butterfly"
 msgstr "Aglais urticae"
 
 # photos caption_2
-#: UK CY
+#: UK IE CY
 msgid "Common Blue butterfly"
 msgstr "Borboleta-azul-comum"
 
 # photos extraText
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
@@ -2950,7 +3101,7 @@ msgstr ""
 "mariposas – todas são contadas na mesma categoria."
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "A range of day-flying moths can be seen visiting flowers. Some of these are "
 "quite large (“macro-moths”) and colourful, and some are very small (“micro-"
@@ -2964,14 +3115,27 @@ msgstr ""
 "asas."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "Six-spot Burnet moth (a macro-moth)"
 msgstr "Burnet-de-seis-pontos (uma macro-mariposa)"
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid "Nettle-tap moth (a micro-moth)"
 msgstr "Traça (uma micro-mariposa)"
+
+# photos intro_text
+#: CY
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+"As borboletas são visitantes muito frequentes das flores. As mariposas são "
+"notadas com menos frequência, mas também visitam as flores regularmente, de "
+"dia ou à noite. Algumas mariposas (veja a próxima tela) são bem pequenas e "
+"podem passar despercebidas como outros tipos de inseto."
 
 # photos caption_1
 #: CY
@@ -3013,7 +3177,7 @@ msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
 msgstr "<i>Diaethria clymena</i> (borboleta 88 amplamente distribuída)"
 
 # photos intro_text
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There are relatively few beetle species that visit flowers, but those that "
 "do can be very abundant. The different species vary a lot in size, shape and"
@@ -3026,7 +3190,7 @@ msgstr ""
 "asas endurecidas que cobrem seu abdômen."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
@@ -3035,12 +3199,12 @@ msgstr ""
 "as asas posteriores e abdômen mais macios"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Beetles have chewing mouthparts"
 msgstr "Besouros têm aparelhos bucais para mastigar"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
@@ -3049,13 +3213,13 @@ msgstr ""
 "que os machos têm pernas traseiras espessas características"
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid "Above are two more examples of beetles that regularly visit flowers."
 msgstr ""
 "Acima estão mais dois exemplos de besouros que visitam flores regularmente."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
@@ -3064,7 +3228,7 @@ msgstr ""
 "asas - muito abundante em flores no meio do verão"
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
@@ -3114,7 +3278,7 @@ msgstr ""
 "que ocorre no Brasil"
 
 # photos intro_text
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "This category is for any insects under 3mm long. These can be hard to assign"
 " to a particular group without peering at them closely (which would disturb "
@@ -3128,7 +3292,7 @@ msgstr ""
 "categoria."
 
 # photos caption_1
-#: UK BR
+#: UK IE
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
@@ -3170,7 +3334,7 @@ msgstr "Venação de asa reduzida"
 # photos caption_3
 #: BR
 msgid "Pollen baskets for carrying pollen"
-msgstr "Escopas para transportar pólen"
+msgstr "Corbículas para transportar pólen"
 
 # photos caption_4
 #: BR
@@ -3313,7 +3477,7 @@ msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
 msgstr "Besourinho-de-bico-vermelho (<i>Chlorostilbon lucidus</i>)"
 
 # photos intro_text
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "This category is for any insects that don’t fit into the other insect "
 "groups, and can also be used for any insects that you can’t identify into a "
@@ -3331,7 +3495,7 @@ msgstr ""
 "diferenças."
 
 # photos caption_1
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
@@ -3340,7 +3504,7 @@ msgstr ""
 "variedade de cores e tamanhos - alguns se parecem com vespas"
 
 # photos caption_2
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
@@ -3349,12 +3513,12 @@ msgstr ""
 "tórax"
 
 # photos caption_3
-#: UK BR CY
+#: UK IE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
 msgstr "Os Symphyta não são peludos e não têm uma escopa para carregar pólen"
 
 # photos caption_4
-#: UK
+#: UK IE
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
@@ -3371,7 +3535,7 @@ msgstr ""
 " vespas (exemplo do Reino Unido fornecido)"
 
 # photos intro_text
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "True bugs do not often visit flowers but you may encounter them "
 "occasionally, and if so they are counted in the “other insects” category. "
@@ -3382,7 +3546,7 @@ msgstr ""
 "categoria “outros insetos”. Eles às vezes são confundidos com besouros."
 
 # photos caption_1
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "True bugs have wings that overlap, so there is no clear midline along the "
 "abdomen – the wings form a X-shape"
@@ -3391,7 +3555,7 @@ msgstr ""
 "média clara ao longo do abdômen - as asas têm a forma de um X"
 
 # photos caption_2
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "Some bugs have a more-or-less triangular “scutellum” covering part of the "
 "abdomen, and adding to the X-shape effect"
@@ -3400,7 +3564,7 @@ msgstr ""
 "parte do abdômen, além do efeito em forma de X"
 
 # photos caption_3
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
 "this is usually hidden away underneath the bug)"
@@ -3409,63 +3573,12 @@ msgstr ""
 "tromba ou rostro (mas isso geralmente está escondido debaixo do inseto)"
 
 # photos caption_4
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "Some bugs are very colourful, while others are shades or green or brown"
 msgstr ""
 "Alguns percevejos são muito coloridos, enquanto outros podem variar em tons "
 "de verde ou marrom"
-
-# photos intro_text
-#: BR
-msgid ""
-"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
-"Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. "
-msgstr ""
-"Abelhas melíferas são conhecidas no Brasil como \"abelhas europeias\" ou "
-"\"abelhas africanizadas\". Elas são maiores do que a maioria das abelhas "
-"solitárias (mas não todas) e menores do que a maioria das mamangavas."
-
-# photos intro_text
-#: BR
-msgid ""
-"Bumblebees are very rounded and mostly furry bees. The queens are among our "
-"largest bees; workers can be quite small, but are larger than most solitary "
-"bees. "
-msgstr ""
-"Mamangavas são abelhas bastante arredondadas e peludas. As rainhas estão "
-"entre nossas maiores abelhas; operárias podem ser menores, porém maiores do "
-"que a maioria das abelhas solitárias."
-
-# photos intro_text
-#: BR
-msgid ""
-"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
-"both with large bees. However, there are some difference."
-msgstr ""
-"No Brasil, mamangava é o nome popular para abelhas dos gêneros "
-"<i>Xylocopa</i> e <i>Bombus</i>. No entanto, há algumas diferenças."
-
-# photos intro_text
-#: BR
-msgid ""
-"Solitary bees are less rounded than bumblebees, and most are smaller than "
-"honeybees. "
-msgstr ""
-"Abelhas solitárias são menos arredondadas do que mamangavas e a maioria é "
-"menor do que as abelhas melíferas."
-
-# photos intro_text
-#: BR
-msgid ""
-"There are many different flies that you may see visiting flowers. Hoverflies"
-" are very active and agile flyers, and are frequently seen hovering, as you "
-"would expect from their name. "
-msgstr ""
-"Há várias moscas diferentes que você pode observar visitando as flores. "
-"Moscas-das-flores são voadoras bastante ativas e ágeis, frequentemente "
-"observadas pairando no ar."
 
 # photos intro_text
 #: BR
@@ -3487,123 +3600,3 @@ msgstr ""
 "Por favor, use a categoria \"outros insetos\" se você conseguiu identificar "
 "o polinizador como um inseto, mesmo que você não consiga reconhecer qual o "
 "grupo de insetos."
-
-# name
-#: BR
-msgid "Oxalis"
-msgstr "Azedinha Oxalis (trevinho)"
-
-# name
-#: BR
-msgid "Basil"
-msgstr "Manjericão"
-
-# name
-#: BR
-msgid "Lantana"
-msgstr "Lantana"
-
-# name
-#: BR
-msgid "Anthurium"
-msgstr "Antúrio"
-
-# name
-#: BR
-msgid "Calliandra"
-msgstr "Calliandra"
-
-# name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr "Asteraceae (herbácea)"
-
-# name
-#: BR
-msgid "Orchid"
-msgstr "Orquídea"
-
-# name
-#: BR
-msgid "Clover/Trefoil"
-msgstr "Trevo Trifolium"
-
-# name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr "Jabuticaba"
-
-# name
-#: BR
-msgid "Acerola cherry"
-msgstr "Acerola"
-
-# name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr "Heliconia"
-
-# name
-#: BR
-msgid "Passionfruit"
-msgstr "Maracujá"
-
-# name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr "Malvaviscus"
-
-# name
-#: BR
-msgid "Mimosa"
-msgstr "Mimosa"
-
-# name
-#: BR
-msgid "Bromeliads"
-msgstr "Bromélias"
-
-# name
-#: BR
-msgid "Ipe"
-msgstr "Ipê"
-
-# value
-#: BR
-msgid "Caatinga"
-msgstr "Caatinga"
-
-# value
-#: BR
-msgid "Plantation florest"
-msgstr "Floresta plantada"
-
-# value
-#: BR
-msgid "Cerrado"
-msgstr "Cerrado"
-
-# name
-#: BR CL
-msgid "Orchid bees"
-msgstr "Abelhas das orquídeas"
-
-# name
-#: BR
-msgid "Stingless bees"
-msgstr "Abelhas sem ferrão"
-
-# name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr "Mamangavas"
-
-# name
-#: BR
-msgid "Flies"
-msgstr "Moscas"
-
-# name
-#: BR
-msgid "Don't know"
-msgstr "Não sei"

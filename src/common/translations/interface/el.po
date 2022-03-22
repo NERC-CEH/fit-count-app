@@ -278,62 +278,62 @@ msgid "Other habitat"
 msgstr "Άλλος τύπος οικοτόπου"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Garden"
 msgstr "Κήπος"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "School Grounds"
 msgstr "Προαύλιο σχολείου"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Parkland with trees"
 msgstr "Πάρκινγκ με δέντρα"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Churchyard"
 msgstr "Προαύλιο εκκλησίας"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Grassy verge or hedgerow edge"
 msgstr "Περιθώρια δρόμου/ πεζοδρόμιο/ Φυτοφράχτης"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr "Λιβάδι με αγριολούλουδα"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Amenity grassland (usually mown short)"
 msgstr "Περιοχή με γρασίδι"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Farm crops or grassy pasture"
 msgstr "Γεωργική καλλιέργεια"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Upland moorland"
 msgstr "Υψίπεδο"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Lowland heath"
 msgstr "Φρύγανα με Ερείκη"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Waste ground or brownfield site"
 msgstr "Περιοχή με απόβλητα, πρώην βιομηχανική περιοχή"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Woodland"
 msgstr "Δασώδης έκταση"
 
@@ -377,9 +377,19 @@ msgstr "Ακακίες"
 msgid "Roadside verges"
 msgstr "Περιθώρια δρόμων"
 
-# Survey habitat page values
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr ""
+
+# habitats value
 #: BR
 msgid "Plantation forest"
+msgstr ""
+
+# habitats value
+#: BR
+msgid "Cerrado"
 msgstr ""
 
 # Survey flower-cover info message
@@ -662,74 +672,79 @@ msgid "Press <1></1> to add."
 msgstr "Πατήστε <1> </1> για προσθήκη."
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Bramble"
 msgstr "Βάτος"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Buddleja"
 msgstr "Βουδλέια Δαβίδειος"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Buttercup"
 msgstr "Bατράχιο"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Dandelion"
 msgstr "Πικραλίδα"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Hawthorn"
 msgstr "Κράταιγος"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Heather"
 msgstr "Ερείκη"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Hogweed"
 msgstr "Ηράκλειο το σφονδύλιο"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Ivy"
 msgstr "Κισσός"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Knapweed"
 msgstr "Κενταύρια"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Lavender"
 msgstr "Λεβάντα"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Ragwort"
 msgstr "Ιακώβαιο"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Thistle"
 msgstr "Γαϊδουράγκαθο"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "White Clover"
 msgstr "Λευκό τριφύλλι"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "White Dead-nettle"
 msgstr "Νεκρός-Τσουκνίδα λευκή"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
 
 # flowers name
 #: CY
@@ -813,7 +828,82 @@ msgstr "Γαϊδουράγκαθο"
 
 # flowers name
 #: BR
+msgid "Oxalis"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr ""
+
+# flowers name
+#: BR
 msgid "Orchids"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Ipe"
 msgstr ""
 
 # Survey species selection page read more message
@@ -1360,7 +1450,7 @@ msgid ""
 msgstr ""
 
 # From survey pages
-#: UK BR CL CY AR
+#: UK BR CL CY AR IE
 msgid "Other"
 msgstr "Άλλο"
 
@@ -1418,52 +1508,52 @@ msgid "Discard local data"
 msgstr "Απόκρυψη τοποθεσίας"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Beetles"
 msgstr "Κολεόπτερα- Σκαθάρια"
 
 # pollinator name
-#: UK BR CY
+#: UK CY IE
 msgid "Bumblebees"
 msgstr "Βομβίνοι"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Butterflies and moths"
 msgstr "Πεταλούδες και σκώροι"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Honeybees"
 msgstr "Μελιτοφόρες μέλισσες"
 
 # pollinator name
-#: UK BR CY
+#: UK CY IE
 msgid "Hoverflies"
 msgstr "Συρφίδες (δίπτερα)"
 
 # pollinator name
-#: UK CY
+#: UK CY IE
 msgid "Other flies"
 msgstr "Άλλα δίπτερα "
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Other insects"
 msgstr "Άλλα έντομα"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Small insects (<3mm)"
 msgstr "Μικρότερα από 3mm"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Solitary bees"
 msgstr "Μοναχικές μέλισσες"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Wasps"
 msgstr "Σφήκες"
 
@@ -1476,6 +1566,31 @@ msgstr "Νυχτερίδες"
 #: BR
 msgid "Hummingbirds"
 msgstr "Κολιμπρί"
+
+# pollinator name
+#: BR IE
+msgid "Orchid bees"
+msgstr ""
+
+# pollinator name
+#: BR
+msgid "Stingless bees"
+msgstr ""
+
+# pollinator name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr ""
+
+# pollinator name
+#: BR
+msgid "Flies"
+msgstr ""
+
+# pollinator name
+#: BR
+msgid "Don't know"
+msgstr ""
 
 # Survey back button label
 #: interface
@@ -1843,7 +1958,7 @@ msgstr ""
 " ιστοσελίδα μας (π.χ. <2>UK PoMS</2>)"
 
 # photos intro_text
-#: UK CY
+#: UK CY IE
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -1853,27 +1968,27 @@ msgstr ""
 "βομβίνους."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr "Μακριές λεπτές κεραίες, συχνά σχηματίζουν γωνία"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Eyes covering the sides of the head"
 msgstr "Τα μάτια τους καλύπτουν τις πλαϊνές πλευρές της κεφαλής"
 
 # photos caption_3
-#: UK CY BR
+#: UK CY IE BR
 msgid "Hind legs broad and flattened"
 msgstr "Τα πίσω πόδια είναι πεπλατυσμένα"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr "Η κοιλιά μπορεί να διαφέρει, από σκούρα έως τελείως πορτοκαλί"
 
 # photos caption_5
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr ""
 "Έχουν ένα μακρύ και στενό κύτταρο στις φλέβες, στην άκρη της πρόσθιας "
@@ -1897,16 +2012,23 @@ msgstr ""
 "Υπάρχει μόνο ένα είδος μελιτοφόρων μελισσών. Φωλιάζουν σε τεχνητές κυψέλες. "
 "Περιστασιακά δημιουργούν αποικίες στη φύση."
 
+# photos extraText
+#: IE
+msgid ""
+"There is just one species of honeybee in Ireland. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+
 # photos intro_text
 #: BR
 msgid ""
 "Honeybees are known in Brazil as “european bees” or “africanized bees”. "
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. Look out for:"
+"most bumblebees. "
 msgstr ""
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Most of the honeybees you see will be workers, which are female, and collect"
 " pollen into a moistened ball on the outside of the hind legs"
@@ -1915,14 +2037,14 @@ msgstr ""
 "συλλέγουν γύρη που τοποθετείται σε μορφή σβόλων στα πίσω πόδια"
 
 # photos extraText
-#: UK CY BR
+#: UK CY IE BR
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
 "Οι αρσενικές μελιτοφόρες μέλισσες (κηφήνες) είναι όμοιες με τις θηλυκές, "
 "όμως έχουν μεγαλύτερους οφθαλμούς."
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
@@ -1932,12 +2054,12 @@ msgstr ""
 "μικρές σε μέγεθος, αλλά μεγαλύτερες από τις περισσότερες μοναχικές μέλισσες."
 
 # photos caption_1
-#: UK CY BR
+#: UK IE CY BR
 msgid "Very hairy / fluffy bees"
 msgstr "Πολύ τριχωτές / αφράτες μέλισσες"
 
 # photos caption_2
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
@@ -1946,7 +2068,7 @@ msgstr ""
 "κάτω' όταν επισκέπτονται τα άνθη"
 
 # photos caption_4
-#: UK CY
+#: UK IE CY
 msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
@@ -1955,7 +2077,7 @@ msgstr ""
 "μαύρο), ενώ άλλα μπορεί να έχουν κοκκινωπό χρώμα παντού"
 
 # photos caption_5
-#: UK CY
+#: UK IE CY
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
 "Οι οφθαλμοί τους καλύπτουν τα πλαϊνά της κεφαλής, ενώ στο ενδιάμεσο των "
@@ -1970,8 +2092,15 @@ msgstr ""
 "Οι βομβίνοι παράγουν ένα χαρακτηριστικό ήχο ‘βόμβο’ κατά τη διάρκεια της "
 "πτήσης τους. Δεν αιωρούνται. Έχουν καταγραφεί 24 είδη στο Η.Β."
 
+# photos extraText
+#: IE
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 21 species in Ireland."
+msgstr ""
+
 # photos caption_1
-#: UK CY
+#: UK CY IE
 msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
@@ -1987,7 +2116,7 @@ msgid ""
 msgstr "Αυτός ο βομβίνος έχει κοκκινωπό χρώμα κατανεμημένο σχεδόν ομοιόμορφα"
 
 # photos extraText
-#: UK CY
+#: UK CY IE
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
@@ -2007,30 +2136,8 @@ msgstr ""
 # photos intro_text
 #: BR
 msgid ""
-"Bumblebees are very rounded and mostly furry bees. The queens are among our "
-"largest bees; workers can be quite small, but are larger than most solitary "
-"bees. Look out for:"
-msgstr ""
-
-# photos caption_4
-#: BR
-msgid ""
-"Some species have simple, contrasting colour bands (yellows, whites, "
-"blacks), others can be all black"
-msgstr ""
-
-# photos extraText
-#: BR
-msgid ""
-"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
-"not hover."
-msgstr ""
-
-# photos intro_text
-#: BR
-msgid ""
 "In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
-"both with large bees. However, there are some difference, look out for:"
+"both with large bees. However, there are some difference."
 msgstr ""
 
 # photos caption_1
@@ -2062,7 +2169,29 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK CY
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. "
+msgstr ""
+
+# photos caption_4
+#: BR
+msgid ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+msgstr ""
+
+# photos extraText
+#: BR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+msgstr ""
+
+# photos intro_text
+#: UK CY IE
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
@@ -2071,30 +2200,30 @@ msgstr ""
 "πιο μικρές από τις μελιτοφόρες μέλισσες και τους βομβίνους."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid "Usually quite elongate in shape (but there is lots of variety)"
 msgstr "Συνήθως έχουν αρκετά επίμηκες σχήμα (υπάρχει ποικιλία)"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
 msgstr ""
 "Συνήθως είναι τριχωτές, αλλά συχνά το τρίχωμα είναι λιγότερο πυκνό από ότι "
 "στους βομβίνους"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid "Colours usually more subdued and less contrasting than bumblebees"
 msgstr ""
 "Χρωματικά, συνήθως έχουν λιγότερες αντιθέσεις σε σχέση με τους βομβίνους"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long antennae, often held straight out in front"
 msgstr "Έχουν μακριές κεραίες, στραμμένες προς τα εμπρός"
 
 # photos caption_5
-#: UK CY
+#: UK CY IE
 msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
@@ -2120,8 +2249,15 @@ msgstr ""
 "Οι μοναχικές μέλισσες πετούν ανάμεσα στα λουλούδια κι απολαμβάνουν τον ήλιο."
 " Τα περισσότερα είδη δεν αιωρούνται. Υπάρχουν περίπου 369 είδη στην Κύπρο."
 
+# photos extraText
+#: IE
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 78 species in Ireland."
+msgstr ""
+
 # photos caption_1
-#: UK
+#: UK IE
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
@@ -2130,7 +2266,7 @@ msgstr ""
 "σχηματίζεται στα πίσω τους πόδια (μέλισσα πάνω αριστερά)"
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
@@ -2139,7 +2275,7 @@ msgstr ""
 " μέλισσα φυλλοκόπτη, πάνω δεξιά)"
 
 # photos extraText
-#: UK CY
+#: UK IE CY
 msgid ""
 "Solitary bees generally nest in burrows or holes. One large group, the "
 "mining bees, dig burrows into soil. Another group, including the mason bees "
@@ -2168,7 +2304,7 @@ msgstr ""
 "πάνω δεξιά)"
 
 # photos intro_text
-#: UK CY
+#: UK CY IE
 msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
@@ -2178,7 +2314,7 @@ msgstr ""
 " πιο πάνω."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
@@ -2186,7 +2322,7 @@ msgstr ""
 "ρίγες"
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
 "they have bee-like hairs on part of their body, and most are similar in "
@@ -2207,7 +2343,7 @@ msgstr ""
 "μέγεθος μοναχικές μέλισσες, μήκους περίπου 4 mm"
 
 # photos caption_4
-#: UK
+#: UK IE
 msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
@@ -2217,7 +2353,7 @@ msgstr ""
 " ρίγες στην κοιλιά "
 
 # photos extraText
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
@@ -2264,11 +2400,18 @@ msgstr ""
 "Οι μέλισσες του γένους <i>Colletes</i> έχουν ευδιάκριτες μαύρες και κίτρινες"
 " ρίγες στην κοιλιά (παράδειγμα από το Η.Β.)"
 
+# photos caption_3
+#: IE
+msgid ""
+"This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary"
+" bees, at around 5-7mm long"
+msgstr ""
+
 # photos intro_text
 #: BR
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
-"honeybees. Look out for:"
+"honeybees. "
 msgstr ""
 
 # photos caption_4
@@ -2334,7 +2477,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
@@ -2343,12 +2486,12 @@ msgstr ""
 "κοινωνικές σφήκες (εικόνα πιο πάνω). "
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid "Long antennae (distinguishes them from most flies)"
 msgstr "Μακριές κεραίες (ξεχωρίζουν από τις περισσότερες μύγες)"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
@@ -2357,7 +2500,7 @@ msgstr ""
 "μελισσών"
 
 # photos caption_3
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Social wasps and some of the solitary species have bold black and yellow "
 "stripes"
@@ -2366,14 +2509,14 @@ msgstr ""
 "και κίτρινες ρίγες"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid "Some wasps have their wings rolled up when at rest"
 msgstr ""
 "Ορισμένες σφήκες έχουν τις πτέρυγες τους τυλιγμένες όταν βρίσκονται σε "
 "κατάσταση ηρεμίας"
 
 # photos caption_5
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 msgstr ""
@@ -2381,7 +2524,7 @@ msgstr ""
 "μέση)"
 
 # photos intro_text
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There is a lot of variation in size, shape and markings among the solitary "
 "wasps. They are usually not obviously hairy, and since they do not collect "
@@ -2394,27 +2537,27 @@ msgstr ""
 "κολλήσει στο σώμα τους)."
 
 # photos caption_1
-#: UK CY
+#: UK CY IE
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
 msgstr ""
 "Οι μοναχικές σφήκες μπορεί να διαφέρουν στο σχήμα και στο φάρδος του "
 "κεφαλιού"
 
 # photos caption_2
-#: UK CY
+#: UK CY IE
 msgid "Some have typical black and yellow wasp stripes"
 msgstr ""
 "Ορισμένα είδη μοναχικής σφήκας έχουν τις κλασσικές κίτρινες και μαύρες ρίγες"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid "Others may be black and red, or all black as in this example"
 msgstr ""
 "Άλλα είδη ενδέχεται να έχουν μαύρο και κόκκινο χρώμα, ή να είναι ολόμαυρες "
 "(εικόνα πιο πάνω)"
 
 # photos extraText
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Solitary wasps generally nest in burrows or holes, in a similar manner to "
 "the solitary bees."
@@ -2423,7 +2566,7 @@ msgstr ""
 "λαγούμια."
 
 # photos intro_text
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "There are many different parasitic wasps, some of which visit flowers for "
 "nectar. Two examples are shown above."
@@ -2433,12 +2576,12 @@ msgstr ""
 "πάνω."
 
 # photos caption_1
-#: UK CY BR
+#: UK IE CY BR
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 msgstr "Πολλές παρασιτικές σφήκες είναι μεγάλες σε μέγεθος και λεπτές"
 
 # photos caption_2
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "The majority of species have very long antennae, made up of lots of "
 "individual segments"
@@ -2447,7 +2590,7 @@ msgstr ""
 "πολλά μεμονωμένα τμήματα"
 
 # photos caption_3
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
 "some species this is very long"
@@ -2456,7 +2599,7 @@ msgstr ""
 " την εναπόθεση αυγών. Σε ορισμένα είδη είναι πολύ μεγάλος"
 
 # photos caption_4
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Colours are usually a mix of black and red or yellow – some species are all-"
 "black"
@@ -2465,7 +2608,7 @@ msgstr ""
 " ορισμένα είδη είναι ολόμαυρα"
 
 # photos extraText
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
 " the larvae of the wasps consume the host invertebrate."
@@ -2492,7 +2635,7 @@ msgid "Solitary wasp of the genus <i>Monobia</i>"
 msgstr ""
 
 # photos intro_text
-#: UK CY
+#: UK CY IE
 msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
@@ -2501,7 +2644,7 @@ msgstr ""
 "(hover), όπως υποδηλώνει και το όνομά τους στα αγγλικά (hoverflies)."
 
 # photos caption_1
-#: UK CY
+#: UK CY IE
 msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
@@ -2511,14 +2654,14 @@ msgstr ""
 "του κεφαλιού"
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
 "Οι περισσότερες συρφίδες έχουν πολύ πιο κοντές κεραίες σε σύγκριση με τις "
 "μέλισσες και τις σφήκες"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
@@ -2527,7 +2670,7 @@ msgstr ""
 "το σημείο που τελειώνει η πτέρυγα"
 
 # photos caption_4
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
@@ -2536,7 +2679,7 @@ msgstr ""
 "σκουρόχρωμα ή έχουν άλλα μοτίβα"
 
 # photos caption_5
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Hoverflies are not usually as hairy as bees (but there are some "
 "exceptions!), and they do not usually have prominent bristles on the body "
@@ -2564,8 +2707,15 @@ msgstr ""
 "Τρέφονται με νέκταρ και γύρη, αλλά δεν συλλέγουν νέκταρ και δεν έχουν "
 "καλαθάκι γύρης. Υπάρχουν καταγεγραμμένα περίπου 52 είδη στην Κύπρο."
 
+# photos extraText
+#: IE
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 180 species of hoverfly in Ireland."
+msgstr ""
+
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "Many hoverflies have the typical black and yellow markings, but there is "
 "quite a lot of variety in shape, size and marking among the full range of "
@@ -2576,17 +2726,17 @@ msgstr ""
 "συρφίδες. Μερικά παραδείγματα φαίνονται παραπάνω."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr "Οι Drone-fly συρφίδες έχουν πολύ μικρότερες κεραίες από τις μέλισσες"
 
 # photos caption_2
-#: UK CY
+#: UK IE CY
 msgid "The eyes cover more of the head"
 msgstr "Οι οφθαλμοί καλύπτουν το μεγαλύτερο μέρος της κεφαλής"
 
 # photos caption_3
-#: UK CY
+#: UK IE CY
 msgid ""
 "The back legs are much narrower than the broad flattened legs of honeybees"
 msgstr ""
@@ -2594,12 +2744,12 @@ msgstr ""
 "μελισσών"
 
 # photos caption_4
-#: UK CY
+#: UK IE CY
 msgid "The typical ‘false margin’ wing vein is present"
 msgstr "Οι πτέρυγες τους έχουν το χαρακτηριστικό ‘ψευδές περιθώριο’"
 
 # photos caption_5
-#: UK CY
+#: UK IE CY
 msgid ""
 "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
 " of the wing"
@@ -2627,7 +2777,7 @@ msgstr ""
 "από εκείνες "
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
@@ -2636,7 +2786,7 @@ msgstr ""
 "campestris</i>, ένα κοινό είδος με απαλό γκρι και πορτοκαλί χρώμα"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
@@ -2645,7 +2795,7 @@ msgstr ""
 " έντομο είναι ελέγξτε προσεκτικά τις κεραίες!"
 
 # photos caption_4
-#: UK CY
+#: UK CY IE
 msgid ""
 "Some hoverflies are small and mostly dark in colour, but have the typical "
 "wing veins (if you can get close enough to see them) and in flight will "
@@ -2677,12 +2827,19 @@ msgstr ""
 "campestris</i>, ένα ευρέως διαδεδομένο είδος με διακριτικό γκρι και "
 "πορτοκαλί χρώμα (παράδειγμα από το Η.Β.)"
 
+# photos caption_1
+#: IE
+msgid ""
+"The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most "
+"common hoverflies"
+msgstr ""
+
 # photos intro_text
 #: BR
 msgid ""
 "There are many different flies that you may see visiting flowers. Hoverflies"
 " are very active and agile flyers, and are frequently seen hovering, as you "
-"would expect from their name. Look out for:"
+"would expect from their name. "
 msgstr ""
 
 # photos caption_1
@@ -2727,7 +2884,7 @@ msgid ""
 msgstr ""
 
 # photos caption_5
-#: BR UK CY
+#: BR UK IE CY
 msgid "It has prominent bristles on the abdomen"
 msgstr "Έχει ευδιάκριτες, σκληρές τρίχες (ακίδες) στην κοιλιά"
 
@@ -2739,7 +2896,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "There are many different flies that you may see visiting flowers – for the "
 "FIT Count all you need to do is separate them into “hoverflies” and all "
@@ -2754,24 +2911,24 @@ msgstr ""
 "δύο στην επόμενη οθόνη."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "This is a dance fly (family Empididae). "
 msgstr "Αυτή είναι μια dance fly (οικογένεια Empididae)."
 
 # photos caption_2
-#: UK CY
+#: UK IE CY
 msgid "Many dance flies have a long thin proboscis under the head"
 msgstr ""
 "Τα dance flies έχουν μια μακριά και λεπτή προβοσκίδα στο κάτω μέρος της "
 "κεφαλής"
 
 # photos caption_3
-#: UK CY
+#: UK IE CY
 msgid "Many dance flies have a distinctly humped thorax"
 msgstr "Πολλές dance flies έχουν μια ευδιάκριτη κύρτωση (καμπούρα) στο θώρακα"
 
 # photos caption_4
-#: UK
+#: UK IE
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
@@ -2780,13 +2937,13 @@ msgstr ""
 "που συχνά εμφανίζεται στα σκιαδανθή φυτά"
 
 # photos caption_5
-#: UK CY
+#: UK IE CY
 msgid "The abdomen is broader and flatter than in hoverflies"
 msgstr ""
 "Η κοιλιά της είναι πιο μακριά και πιο επίπεδη από ότι είναι στις συρφίδες"
 
 # photos caption_6
-#: UK CY
+#: UK IE CY
 msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
@@ -2810,7 +2967,7 @@ msgstr ""
 " που συχνά εμφανίζεται στα σκιαδανθή φυτά (παράδειγμα από το Η.Β.)"
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "Some of the larger flies that you will see on flowers are from ‘calypterate’"
 " families, most of which are rather rounded insects with obvious bristles on"
@@ -2821,17 +2978,17 @@ msgstr ""
 "στρογγυλεμένες με ευδιάκριτες τρίχες στα πόδια και το σώμα."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "This is a parasitic fly from family Tachinidae"
 msgstr "Αυτή είναι μια παρασιτική μύγα από την οικογένεια Tachinidae"
 
 # photos caption_3
-#: UK
+#: UK IE
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
 msgstr "Αυτό είναι το Yellow Dung-fly (οικογένεια Scathophagidae)"
 
 # photos caption_4
-#: UK CY
+#: UK IE CY
 msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
@@ -2854,31 +3011,26 @@ msgstr ""
 " Η.Β.)"
 
 # photos intro_text
-#: UK CY
+#: UK IE
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
-"frequently noticed but also visit flowers regularly, either by day of by "
+"frequently noticed but also visit flowers regularly, either by day or by "
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
-"Οι πεταλούδες είναι από τα πιο γνωστά έντομα-επικονιαστές. Οι σκώροι "
-"συναντώνται λιγότερο συχνά κοντά σε άνθη, ωστόσο τα επισκέπτονται τακτικά "
-"κατά τη διάρκεια της ημέρας και της νύχτας. Μερικά είδη σκώρων είναι αρκετά "
-"μικρά σε μέγεθος (δείτε την επόμενη σελίδα) – μπορεί να μπερδευτούν με άλλα "
-"είδη εντόμων."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "Small Tortoiseshell butterfly"
 msgstr "Πεταλούδα <i> Vanessa cardui </i>"
 
 # photos caption_2
-#: UK CY
+#: UK IE CY
 msgid "Common Blue butterfly"
 msgstr "Κοινή μπλε πεταλούδα "
 
 # photos extraText
-#: UK CY BR
+#: UK IE CY BR
 msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
@@ -2887,7 +3039,7 @@ msgstr ""
 "σκώρους - όλα καταμετρώνται στην ίδια κατηγορία."
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid ""
 "A range of day-flying moths can be seen visiting flowers. Some of these are "
 "quite large (“macro-moths”) and colourful, and some are very small (“micro-"
@@ -2900,14 +3052,28 @@ msgstr ""
 "σχηματίζονται απο μικροσκοπικά λέπια που καλύπτουν τα φτερά."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid "Six-spot Burnet moth (a macro-moth)"
 msgstr "Six-spot Burnet moth (μεγάλος σε μέγεθος σκώρος)"
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid "Nettle-tap moth (a micro-moth)"
 msgstr "Nettle-tap moth (μικρο-σκώροι)"
+
+# photos intro_text
+#: CY
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+"Οι πεταλούδες είναι από τα πιο γνωστά έντομα-επικονιαστές. Οι σκώροι "
+"συναντώνται λιγότερο συχνά κοντά σε άνθη, ωστόσο τα επισκέπτονται τακτικά "
+"κατά τη διάρκεια της ημέρας και της νύχτας. Μερικά είδη σκώρων είναι αρκετά "
+"μικρά σε μέγεθος (δείτε την επόμενη σελίδα) – μπορεί να μπερδευτούν με άλλα "
+"είδη εντόμων."
 
 # photos caption_1
 #: CY
@@ -2943,7 +3109,7 @@ msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
 msgstr ""
 
 # photos intro_text
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "There are relatively few beetle species that visit flowers, but those that "
 "do can be very abundant. The different species vary a lot in size, shape and"
@@ -2955,7 +3121,7 @@ msgstr ""
 " μέγεθος, σχήμα και χρώμα - μπορείτε να τα διακρίνετε από τα έλυτρα."
 
 # photos caption_1
-#: UK CY BR
+#: UK CY IE BR
 msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
@@ -2964,12 +3130,12 @@ msgstr ""
 "καλύπτουν και προστατεύουν τις μαλακές πτέρυγες και την κοιλιά "
 
 # photos caption_2
-#: UK CY BR
+#: UK CY IE BR
 msgid "Beetles have chewing mouthparts"
 msgstr "Τα σκαθάρια έχουν στοματικά μόρια μασητικού τύπου"
 
 # photos caption_3
-#: UK CY
+#: UK CY IE
 msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
@@ -2978,14 +3144,14 @@ msgstr ""
 " – τα αρσενικά έχουν παχιά πίσω πόδια"
 
 # photos intro_text
-#: UK CY
+#: UK IE CY
 msgid "Above are two more examples of beetles that regularly visit flowers."
 msgstr ""
 "Πιο πάτω μπορείτε να δείτε δύο ακόμα παραδείγματα από σκαθάρια που ενδέχεται"
 " να συναντήσετε πάνω σε άνθη."
 
 # photos caption_1
-#: UK
+#: UK IE
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
@@ -2994,7 +3160,7 @@ msgstr ""
 "έλυτρα- είναι πολυάριθμα πάνω στα λουλούδια, προς τα μέσα του καλοκαιριού "
 
 # photos caption_2
-#: UK
+#: UK IE
 msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
@@ -3041,7 +3207,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "This category is for any insects under 3mm long. These can be hard to assign"
 " to a particular group without peering at them closely (which would disturb "
@@ -3054,7 +3220,7 @@ msgstr ""
 "αριθμός τους είναι μεγάλος) και καταγράψτε τα όλα σε αυτή την κατηγορία."
 
 # photos caption_1
-#: UK BR
+#: UK IE
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
@@ -3206,7 +3372,7 @@ msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
 msgstr ""
 
 # photos intro_text
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "This category is for any insects that don’t fit into the other insect "
 "groups, and can also be used for any insects that you can’t identify into a "
@@ -3222,7 +3388,7 @@ msgstr ""
 "μέλισσες και τις σφήκες, αλλά έχουν αρκετές διάφορες."
 
 # photos caption_1
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
@@ -3232,7 +3398,7 @@ msgstr ""
 " και μέγεθος - μερικά μοιάζουν με σφήκες"
 
 # photos caption_2
-#: UK BR CY
+#: UK IE BR CY
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
@@ -3241,12 +3407,12 @@ msgstr ""
 "στένωση"
 
 # photos caption_3
-#: UK BR CY
+#: UK IE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
 msgstr "Τα σύμφυτα υμενόπτερα δεν έχουν τρίχες ούτε καλαθάκι γύρης στα πόδια"
 
 # photos caption_4
-#: UK
+#: UK IE
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
@@ -3263,7 +3429,7 @@ msgstr ""
 "εκείνη των μελισσών και των σφηκών (παράδειγμα από το Η.Β.)"
 
 # photos intro_text
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "True bugs do not often visit flowers but you may encounter them "
 "occasionally, and if so they are counted in the “other insects” category. "
@@ -3274,14 +3440,14 @@ msgstr ""
 "μπερδευτούν με τα σκαθάρια."
 
 # photos caption_1
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "True bugs have wings that overlap, so there is no clear midline along the "
 "abdomen – the wings form a X-shape"
 msgstr "Οι πτέρυγες των ημιπτέρων αλληλοεπικαλύπτονται, σχηματίζοντας ένα Χ"
 
 # photos caption_2
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "Some bugs have a more-or-less triangular “scutellum” covering part of the "
 "abdomen, and adding to the X-shape effect"
@@ -3290,7 +3456,7 @@ msgstr ""
 "καλύπτει μέρος της κοιλιάς και προσθέτει στο εφέ του σχήματος Χ"
 
 # photos caption_3
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
 "this is usually hidden away underneath the bug)"
@@ -3299,50 +3465,12 @@ msgstr ""
 "(κρύβεται κάτω από το σώμα)"
 
 # photos caption_4
-#: UK BR CY
+#: UK BR IE CY
 msgid ""
 "Some bugs are very colourful, while others are shades or green or brown"
 msgstr ""
 "Ορισμένα ημίπτερα είναι πολύχρωμα, ενώ άλλα έχουν αποχρώσεις του πράσινου "
 "και του καφέ"
-
-# photos intro_text
-#: BR
-msgid ""
-"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
-"Honeybees are larger than most (not all) solitary bees, and smaller than "
-"most bumblebees. "
-msgstr ""
-
-# photos intro_text
-#: BR
-msgid ""
-"Bumblebees are very rounded and mostly furry bees. The queens are among our "
-"largest bees; workers can be quite small, but are larger than most solitary "
-"bees. "
-msgstr ""
-
-# photos intro_text
-#: BR
-msgid ""
-"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
-"both with large bees. However, there are some difference."
-msgstr ""
-
-# photos intro_text
-#: BR
-msgid ""
-"Solitary bees are less rounded than bumblebees, and most are smaller than "
-"honeybees. "
-msgstr ""
-
-# photos intro_text
-#: BR
-msgid ""
-"There are many different flies that you may see visiting flowers. Hoverflies"
-" are very active and agile flyers, and are frequently seen hovering, as you "
-"would expect from their name. "
-msgstr ""
 
 # photos intro_text
 #: BR
@@ -3357,124 +3485,4 @@ msgstr ""
 msgid ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
-msgstr ""
-
-# name
-#: BR
-msgid "Oxalis"
-msgstr ""
-
-# name
-#: BR
-msgid "Basil"
-msgstr ""
-
-# name
-#: BR
-msgid "Lantana"
-msgstr ""
-
-# name
-#: BR
-msgid "Anthurium"
-msgstr ""
-
-# name
-#: BR
-msgid "Calliandra"
-msgstr ""
-
-# name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr ""
-
-# name
-#: BR
-msgid "Orchid"
-msgstr ""
-
-# name
-#: BR
-msgid "Clover/Trefoil"
-msgstr ""
-
-# name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr ""
-
-# name
-#: BR
-msgid "Acerola cherry"
-msgstr ""
-
-# name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr ""
-
-# name
-#: BR
-msgid "Passionfruit"
-msgstr ""
-
-# name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr ""
-
-# name
-#: BR
-msgid "Mimosa"
-msgstr ""
-
-# name
-#: BR
-msgid "Bromeliads"
-msgstr ""
-
-# name
-#: BR
-msgid "Ipe"
-msgstr ""
-
-# value
-#: BR
-msgid "Caatinga"
-msgstr ""
-
-# value
-#: BR
-msgid "Plantation florest"
-msgstr ""
-
-# value
-#: BR
-msgid "Cerrado"
-msgstr ""
-
-# name
-#: BR CL
-msgid "Orchid bees"
-msgstr ""
-
-# name
-#: BR
-msgid "Stingless bees"
-msgstr ""
-
-# name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr ""
-
-# name
-#: BR
-msgid "Flies"
-msgstr ""
-
-# name
-#: BR
-msgid "Don't know"
 msgstr ""

@@ -5,7 +5,8 @@
     "type": "Individual Flower",
     "sort": 1,
     "name": "Bramble",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "buddleja",
@@ -13,7 +14,8 @@
     "type": "Spike",
     "sort": 2,
     "name": "Buddleja",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "buttercup",
@@ -21,7 +23,8 @@
     "type": "Individual Flower",
     "sort": 3,
     "name": "Buttercup",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "dandelion",
@@ -29,7 +32,8 @@
     "type": "Head",
     "sort": 4,
     "name": "Dandelion",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "hawthorn",
@@ -37,7 +41,8 @@
     "type": "Individual Flower",
     "sort": 5,
     "name": "Hawthorn",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "heather",
@@ -45,7 +50,8 @@
     "type": "Spike",
     "sort": 6,
     "name": "Heather",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "hogweed",
@@ -53,7 +59,8 @@
     "type": "Umbel",
     "sort": 7,
     "name": "Hogweed",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "ivy",
@@ -61,7 +68,8 @@
     "type": "Head",
     "sort": 8,
     "name": "Ivy",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "knapweed",
@@ -69,7 +77,8 @@
     "type": "Head",
     "sort": 9,
     "name": "Knapweed",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "lavender",
@@ -77,7 +86,8 @@
     "type": "Spike",
     "sort": 10,
     "name": "Lavender",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "ragwort",
@@ -85,7 +95,8 @@
     "type": "Head",
     "sort": 11,
     "name": "Ragwort",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "thistle",
@@ -93,7 +104,8 @@
     "type": "Head",
     "sort": 12,
     "name": "Thistle",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "whiteClover",
@@ -101,7 +113,8 @@
     "type": "Head",
     "sort": 13,
     "name": "White Clover",
-    "UK": true
+    "UK": true,
+    "IE": true
   },
   {
     "id": "whiteDeadNettle",
@@ -109,7 +122,14 @@
     "type": "Spike",
     "sort": 14,
     "name": "White Dead-nettle",
-    "UK": true
+    "UK": true,
+    "IE": true
+  },
+  {
+    "id": "redClover",
+    "type": "Head",
+    "name": "Red Clover",
+    "IE": true
   },
   {
     "id": "fennel",
@@ -264,7 +284,7 @@
     "CY": true,
     "AR": true,
     "BR": true,
-    "CL": true
+    "IE": true
   },
   {
     "id": "oxalis",
