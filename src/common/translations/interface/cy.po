@@ -275,121 +275,6 @@ msgstr "Cynefin"
 msgid "Other habitat"
 msgstr "Cynefin arall"
 
-# habitats value
-#: UK BR CY IE
-msgid "Garden"
-msgstr "Gardd"
-
-# habitats value
-#: UK IE
-msgid "School Grounds"
-msgstr "Tir ysgol"
-
-# habitats value
-#: UK BR CY IE
-msgid "Parkland with trees"
-msgstr "Tir parc gyda choed"
-
-# habitats value
-#: UK IE
-msgid "Churchyard"
-msgstr "Mynwent eglwys"
-
-# habitats value
-#: UK IE
-msgid "Grassy verge or hedgerow edge"
-msgstr "Ymyl glaswelltog neu ymyl gwrych"
-
-# habitats value
-#: UK BR CY IE
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
-
-# habitats value
-#: UK BR IE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
-
-# habitats value
-#: UK BR IE
-msgid "Farm crops or grassy pasture"
-msgstr "Cnydau fferm neu dir pori glaswelltog"
-
-# habitats value
-#: UK IE
-msgid "Upland moorland"
-msgstr "Rhostir ucheldir"
-
-# habitats value
-#: UK IE
-msgid "Lowland heath"
-msgstr "Gweundir iseldir"
-
-# habitats value
-#: UK BR IE
-msgid "Waste ground or brownfield site"
-msgstr "Tir gwastraff neu safle tir llwyd"
-
-# habitats value
-#: UK IE
-msgid "Woodland"
-msgstr "Coetir"
-
-# habitats value
-#: BR CY
-msgid "Botanical garden"
-msgstr ""
-
-# habitats value
-#: BR CY
-msgid "Forest"
-msgstr ""
-
-# habitats value
-#: CY
-msgid "Cultivation"
-msgstr ""
-
-# habitats value
-#: CY
-msgid "Salt marsh"
-msgstr ""
-
-# habitats value
-#: BR CY
-msgid "Freshwater wetland"
-msgstr ""
-
-# habitats value
-#: CY
-msgid "Dry shrub"
-msgstr ""
-
-# habitats value
-#: CY
-msgid "Acacia stands"
-msgstr ""
-
-# habitats value
-#: CY
-msgid "Roadside verges"
-msgstr ""
-
-# habitats value
-#: BR
-msgid "Caatinga"
-msgstr ""
-
-# habitats value
-#: BR
-msgid "Plantation forest"
-msgstr ""
-
-# habitats value
-#: BR
-msgid "Cerrado"
-msgstr ""
-
 # Survey flower-cover info message
 #: interface
 msgid ""
@@ -664,241 +549,6 @@ msgstr "Nid oes llun wedi'i ychwanegu."
 #: interface
 msgid "Press <1></1> to add."
 msgstr "Pwyswch <1></1> i ychwanegu."
-
-# flowers name
-#: UK IE
-msgid "Bramble"
-msgstr "Miaren"
-
-# flowers name
-#: UK IE
-msgid "Buddleja"
-msgstr "Buddleja"
-
-# flowers name
-#: UK IE
-msgid "Buttercup"
-msgstr "Blodyn menyn"
-
-# flowers name
-#: UK IE
-msgid "Dandelion"
-msgstr "Dant y llew"
-
-# flowers name
-#: UK IE
-msgid "Hawthorn"
-msgstr "Draenen wen"
-
-# flowers name
-#: UK IE
-msgid "Heather"
-msgstr "Grug"
-
-# flowers name
-#: UK IE
-msgid "Hogweed"
-msgstr "Efwr"
-
-# flowers name
-#: UK IE
-msgid "Ivy"
-msgstr "Iorwg"
-
-# flowers name
-#: UK IE
-msgid "Knapweed"
-msgstr "Y Bengaled"
-
-# flowers name
-#: UK IE
-msgid "Lavender"
-msgstr "Lafant"
-
-# flowers name
-#: UK IE
-msgid "Ragwort"
-msgstr "Llysiau'r gingroen"
-
-# flowers name
-#: UK IE
-msgid "Thistle"
-msgstr "Ysgall"
-
-# flowers name
-#: UK IE
-msgid "White Clover"
-msgstr "Meillionen wen"
-
-# flowers name
-#: UK IE
-msgid "White Dead-nettle"
-msgstr "Marddanhadlen wen"
-
-# flowers name
-#: IE
-msgid "Red Clover"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Fennel"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Myrtle"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Olive"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "White Mustard"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Rock-roses"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Tree Tobacco"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Spanish Jasmine"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Acacia"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Bermuda Buttercup"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Oxalis"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Basil"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Clover/Trefoil"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Passionfruit"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr ""
 
 # Survey species selection page read more message
 #: interface
@@ -1439,11 +1089,6 @@ msgid ""
 msgstr ""
 
 # From survey pages
-#: UK BR CL CY AR IE
-msgid "Other"
-msgstr "Arall"
-
-# From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
 msgstr "Noder: bydd yn aros yn yr oriel."
@@ -1496,91 +1141,6 @@ msgstr "Ydych chi'n sicr eich bod am allgofnodi?"
 #: interface
 msgid "Discard local data"
 msgstr "Diddymu'r data lleol"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Beetles"
-msgstr "Chwilod"
-
-# pollinator name
-#: UK CY IE
-msgid "Bumblebees"
-msgstr "Cacwn"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Butterflies and moths"
-msgstr "Pili-palod a gwyfynod"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Honeybees"
-msgstr "Gwenyn mêl"
-
-# pollinator name
-#: UK CY IE
-msgid "Hoverflies"
-msgstr "Pryfed hofran"
-
-# pollinator name
-#: UK CY IE
-msgid "Other flies"
-msgstr "Clêr"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Other insects"
-msgstr "Pryfed eraill"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Small insects (<3mm)"
-msgstr "Pryfed bychain (<3mm)"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Solitary bees"
-msgstr "Gwenyn unig"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Wasps"
-msgstr "Gwenyn meirch"
-
-# pollinator name
-#: BR
-msgid "Bats"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Hummingbirds"
-msgstr ""
-
-# pollinator name
-#: BR IE
-msgid "Orchid bees"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Stingless bees"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Flies"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Don't know"
-msgstr ""
 
 # Survey back button label
 #: interface
@@ -1947,6 +1507,453 @@ msgid ""
 msgstr ""
 "I weld eich data Cyfrif FIT ar ôl i chi ei lwytho i fyny, ewch i wefan y "
 "prosiect ar gyfer eich gwlad chi, os oes un ar gael (e.e. <2>UK PoMS</2>)"
+
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# insects name
+#: UK BR CY IE
+msgid "Beetles"
+msgstr "Chwilod"
+
+# insects name
+#: UK CY IE
+msgid "Bumblebees"
+msgstr "Cacwn"
+
+# insects name
+#: UK BR CY IE
+msgid "Butterflies and moths"
+msgstr "Pili-palod a gwyfynod"
+
+# insects name
+#: UK BR CY IE
+msgid "Honeybees"
+msgstr "Gwenyn mêl"
+
+# insects name
+#: UK CY IE
+msgid "Hoverflies"
+msgstr "Pryfed hofran"
+
+# insects name
+#: UK CY IE
+msgid "Other flies"
+msgstr "Clêr"
+
+# insects name
+#: UK BR CY IE
+msgid "Other insects"
+msgstr "Pryfed eraill"
+
+# insects name
+#: UK BR CY IE
+msgid "Small insects (<3mm)"
+msgstr "Pryfed bychain (<3mm)"
+
+# insects name
+#: UK BR CY IE
+msgid "Solitary bees"
+msgstr "Gwenyn unig"
+
+# insects name
+#: UK BR CY IE
+msgid "Wasps"
+msgstr "Gwenyn meirch"
+
+# insects name
+#: BR
+msgid "Bats"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Hummingbirds"
+msgstr ""
+
+# insects name
+#: BR IE
+msgid "Orchid bees"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Stingless bees"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Flies"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Don't know"
+msgstr ""
+
+# habitats value
+#: UK BR CY IE
+msgid "Garden"
+msgstr "Gardd"
+
+# habitats value
+#: UK IE
+msgid "School Grounds"
+msgstr "Tir ysgol"
+
+# habitats value
+#: UK BR CY IE
+msgid "Parkland with trees"
+msgstr "Tir parc gyda choed"
+
+# habitats value
+#: UK IE
+msgid "Churchyard"
+msgstr "Mynwent eglwys"
+
+# habitats value
+#: UK IE
+msgid "Grassy verge or hedgerow edge"
+msgstr "Ymyl glaswelltog neu ymyl gwrych"
+
+# habitats value
+#: UK BR CY IE
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
+
+# habitats value
+#: UK BR IE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
+
+# habitats value
+#: UK BR IE
+msgid "Farm crops or grassy pasture"
+msgstr "Cnydau fferm neu dir pori glaswelltog"
+
+# habitats value
+#: UK IE
+msgid "Upland moorland"
+msgstr "Rhostir ucheldir"
+
+# habitats value
+#: UK IE
+msgid "Lowland heath"
+msgstr "Gweundir iseldir"
+
+# habitats value
+#: UK BR IE
+msgid "Waste ground or brownfield site"
+msgstr "Tir gwastraff neu safle tir llwyd"
+
+# habitats value
+#: UK IE
+msgid "Woodland"
+msgstr "Coetir"
+
+# habitats value
+#: BR CY
+msgid "Botanical garden"
+msgstr ""
+
+# habitats value
+#: BR CY
+msgid "Forest"
+msgstr ""
+
+# habitats value
+#: CY
+msgid "Cultivation"
+msgstr ""
+
+# habitats value
+#: CY
+msgid "Salt marsh"
+msgstr ""
+
+# habitats value
+#: BR CY
+msgid "Freshwater wetland"
+msgstr ""
+
+# habitats value
+#: CY
+msgid "Dry shrub"
+msgstr ""
+
+# habitats value
+#: CY
+msgid "Acacia stands"
+msgstr ""
+
+# habitats value
+#: CY
+msgid "Roadside verges"
+msgstr ""
+
+# habitats value
+#: UK BR CY
+msgid "Other"
+msgstr "Arall"
+
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr ""
+
+# habitats value
+#: BR
+msgid "Plantation forest"
+msgstr ""
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr ""
+
+# flowers name
+#: UK IE
+msgid "Bramble"
+msgstr "Miaren"
+
+# flowers name
+#: UK IE
+msgid "Buddleja"
+msgstr "Buddleja"
+
+# flowers name
+#: UK IE
+msgid "Buttercup"
+msgstr "Blodyn menyn"
+
+# flowers name
+#: UK IE
+msgid "Dandelion"
+msgstr "Dant y llew"
+
+# flowers name
+#: UK IE
+msgid "Hawthorn"
+msgstr "Draenen wen"
+
+# flowers name
+#: UK IE
+msgid "Heather"
+msgstr "Grug"
+
+# flowers name
+#: UK IE
+msgid "Hogweed"
+msgstr "Efwr"
+
+# flowers name
+#: UK IE
+msgid "Ivy"
+msgstr "Iorwg"
+
+# flowers name
+#: UK IE
+msgid "Knapweed"
+msgstr "Y Bengaled"
+
+# flowers name
+#: UK IE
+msgid "Lavender"
+msgstr "Lafant"
+
+# flowers name
+#: UK IE
+msgid "Ragwort"
+msgstr "Llysiau'r gingroen"
+
+# flowers name
+#: UK IE
+msgid "Thistle"
+msgstr "Ysgall"
+
+# flowers name
+#: UK IE
+msgid "White Clover"
+msgstr "Meillionen wen"
+
+# flowers name
+#: UK IE
+msgid "White Dead-nettle"
+msgstr "Marddanhadlen wen"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Fennel"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Myrtle"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Tree Tobacco"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Spanish Jasmine"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Acacia"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Bermuda Buttercup"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Oxalis"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr ""
 
 # photos intro_text
 #: UK CY IE

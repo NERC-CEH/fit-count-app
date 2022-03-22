@@ -276,121 +276,6 @@ msgstr "Habitat"
 msgid "Other habitat"
 msgstr "Outro habitat"
 
-# habitats value
-#: UK BR CY IE
-msgid "Garden"
-msgstr "Jardim manejado"
-
-# habitats value
-#: UK IE
-msgid "School Grounds"
-msgstr "Pátio Escolar"
-
-# habitats value
-#: UK BR CY IE
-msgid "Parkland with trees"
-msgstr "Parque ou praça (com árvores)"
-
-# habitats value
-#: UK IE
-msgid "Churchyard"
-msgstr "Patio de igreja"
-
-# habitats value
-#: UK IE
-msgid "Grassy verge or hedgerow edge"
-msgstr "Borda gramada ou de cerca viva"
-
-# habitats value
-#: UK BR CY IE
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Campestre (não manejado)"
-
-# habitats value
-#: UK BR IE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Gramado manejado"
-
-# habitats value
-#: UK BR IE
-msgid "Farm crops or grassy pasture"
-msgstr "Cultivo ou pastagem"
-
-# habitats value
-#: UK IE
-msgid "Upland moorland"
-msgstr "Planalto pantanoso"
-
-# habitats value
-#: UK IE
-msgid "Lowland heath"
-msgstr "Charneca de várzea"
-
-# habitats value
-#: UK BR IE
-msgid "Waste ground or brownfield site"
-msgstr "Área abandonada ou terreno baldio"
-
-# habitats value
-#: UK IE
-msgid "Woodland"
-msgstr "Floresta"
-
-# habitats value
-#: BR CY
-msgid "Botanical garden"
-msgstr "Jardim botânico"
-
-# habitats value
-#: BR CY
-msgid "Forest"
-msgstr "Floresta natural"
-
-# habitats value
-#: CY
-msgid "Cultivation"
-msgstr "Cultivo"
-
-# habitats value
-#: CY
-msgid "Salt marsh"
-msgstr "Pântano salino"
-
-# habitats value
-#: BR CY
-msgid "Freshwater wetland"
-msgstr "Área alagável"
-
-# habitats value
-#: CY
-msgid "Dry shrub"
-msgstr "Arbustivo seco"
-
-# habitats value
-#: CY
-msgid "Acacia stands"
-msgstr "Povoamento de Acacia"
-
-# habitats value
-#: CY
-msgid "Roadside verges"
-msgstr "Beira de estrada"
-
-# habitats value
-#: BR
-msgid "Caatinga"
-msgstr "Caatinga"
-
-# habitats value
-#: BR
-msgid "Plantation forest"
-msgstr "Floresta plantada"
-
-# habitats value
-#: BR
-msgid "Cerrado"
-msgstr "Cerrado"
-
 # Survey flower-cover info message
 #: interface
 msgid ""
@@ -669,241 +554,6 @@ msgstr "Nenhuma foto foi adicionada."
 #: interface
 msgid "Press <1></1> to add."
 msgstr "Pressione <1></1> para adicionar."
-
-# flowers name
-#: UK IE
-msgid "Bramble"
-msgstr "Amoras"
-
-# flowers name
-#: UK IE
-msgid "Buddleja"
-msgstr "Buddleja"
-
-# flowers name
-#: UK IE
-msgid "Buttercup"
-msgstr "Botão de ouro"
-
-# flowers name
-#: UK IE
-msgid "Dandelion"
-msgstr "Dente de Leão"
-
-# flowers name
-#: UK IE
-msgid "Hawthorn"
-msgstr "Espinheiro-branco"
-
-# flowers name
-#: UK IE
-msgid "Heather"
-msgstr "Urze/torga"
-
-# flowers name
-#: UK IE
-msgid "Hogweed"
-msgstr "Heracleum"
-
-# flowers name
-#: UK IE
-msgid "Ivy"
-msgstr "Hera"
-
-# flowers name
-#: UK IE
-msgid "Knapweed"
-msgstr "Centáureas"
-
-# flowers name
-#: UK IE
-msgid "Lavender"
-msgstr "Lavanda"
-
-# flowers name
-#: UK IE
-msgid "Ragwort"
-msgstr "Tasna"
-
-# flowers name
-#: UK IE
-msgid "Thistle"
-msgstr "Cardo"
-
-# flowers name
-#: UK IE
-msgid "White Clover"
-msgstr "Trevo-branco"
-
-# flowers name
-#: UK IE
-msgid "White Dead-nettle"
-msgstr "Urtiga-branca"
-
-# flowers name
-#: IE
-msgid "Red Clover"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Fennel"
-msgstr "Erva-doce"
-
-# flowers name
-#: CY
-msgid "Myrtle"
-msgstr "Murta"
-
-# flowers name
-#: CY
-msgid "Olive"
-msgstr "Oliveira/azeitona"
-
-# flowers name
-#: CY
-msgid "White Mustard"
-msgstr "Mostarda-branca"
-
-# flowers name
-#: CY
-msgid "Rock-roses"
-msgstr "Estevas"
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr "Anêmona"
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr "Crisântemo"
-
-# flowers name
-#: CY
-msgid "Tree Tobacco"
-msgstr "Charuteira"
-
-# flowers name
-#: CY
-msgid "Spanish Jasmine"
-msgstr "Jasmim-espanhol"
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr "Camará"
-
-# flowers name
-#: CY
-msgid "Acacia"
-msgstr "Acacia"
-
-# flowers name
-#: CY
-msgid "Bermuda Buttercup"
-msgstr "Erva-canária"
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr "Espinheiro africano"
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr "Bela Emília"
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr "Viperina"
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr "Cardo-leiteiro"
-
-# flowers name
-#: BR
-msgid "Oxalis"
-msgstr "Azedinha Oxalis (trevinho)"
-
-# flowers name
-#: BR
-msgid "Basil"
-msgstr "Manjericão"
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr "Lantana"
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr "Antúrio"
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr "Calliandra"
-
-# flowers name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr "Asteraceae (herbácea)"
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr "Orquídeas"
-
-# flowers name
-#: BR
-msgid "Clover/Trefoil"
-msgstr "Trevo Trifolium"
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr "Jabuticaba"
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr "Acerola"
-
-# flowers name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr "Heliconia"
-
-# flowers name
-#: BR
-msgid "Passionfruit"
-msgstr "Maracujá"
-
-# flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr "Malvaviscus"
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr "Mimosa"
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr "Bromélias"
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr "Ipê"
 
 # Survey species selection page read more message
 #: interface
@@ -1461,11 +1111,6 @@ msgstr ""
 "\"outros insetos\" ou \"não sei\"."
 
 # From survey pages
-#: UK BR CL CY AR IE
-msgid "Other"
-msgstr "Outro"
-
-# From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
 msgstr "Nota: permanecerá na galeria."
@@ -1519,91 +1164,6 @@ msgstr "Tem certeza que deseja sair?"
 #: interface
 msgid "Discard local data"
 msgstr "Descartar dados locais"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Beetles"
-msgstr "Besouros"
-
-# pollinator name
-#: UK CY IE
-msgid "Bumblebees"
-msgstr "Mamangavas"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Butterflies and moths"
-msgstr "Borboletas e mariposas"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Honeybees"
-msgstr "Abelhas melíferas"
-
-# pollinator name
-#: UK CY IE
-msgid "Hoverflies"
-msgstr "Moscas-das-flores"
-
-# pollinator name
-#: UK CY IE
-msgid "Other flies"
-msgstr "Outras moscas"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Other insects"
-msgstr "Outros insetos"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Small insects (<3mm)"
-msgstr "Insetos pequenos (<3mm)"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Solitary bees"
-msgstr "Abelhas solitárias"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Wasps"
-msgstr "Vespas"
-
-# pollinator name
-#: BR
-msgid "Bats"
-msgstr "Morcegos"
-
-# pollinator name
-#: BR
-msgid "Hummingbirds"
-msgstr "Beija-flores"
-
-# pollinator name
-#: BR IE
-msgid "Orchid bees"
-msgstr "Abelhas das orquídeas"
-
-# pollinator name
-#: BR
-msgid "Stingless bees"
-msgstr "Abelhas sem ferrão"
-
-# pollinator name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr "Mamangavas"
-
-# pollinator name
-#: BR
-msgid "Flies"
-msgstr "Moscas"
-
-# pollinator name
-#: BR
-msgid "Don't know"
-msgstr "Não sei"
 
 # Survey back button label
 #: interface
@@ -1971,6 +1531,453 @@ msgstr ""
 "Para visualizar seus dados de FIT Count após realizar o upload, por favor "
 "visite o website do projeto para o seu país, quando disponível (p.ex. <2>UK "
 "PoMS</2>)"
+
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# insects name
+#: UK BR CY IE
+msgid "Beetles"
+msgstr "Besouros"
+
+# insects name
+#: UK CY IE
+msgid "Bumblebees"
+msgstr "Mamangavas"
+
+# insects name
+#: UK BR CY IE
+msgid "Butterflies and moths"
+msgstr "Borboletas e mariposas"
+
+# insects name
+#: UK BR CY IE
+msgid "Honeybees"
+msgstr "Abelhas melíferas"
+
+# insects name
+#: UK CY IE
+msgid "Hoverflies"
+msgstr "Moscas-das-flores"
+
+# insects name
+#: UK CY IE
+msgid "Other flies"
+msgstr "Outras moscas"
+
+# insects name
+#: UK BR CY IE
+msgid "Other insects"
+msgstr "Outros insetos"
+
+# insects name
+#: UK BR CY IE
+msgid "Small insects (<3mm)"
+msgstr "Insetos pequenos (<3mm)"
+
+# insects name
+#: UK BR CY IE
+msgid "Solitary bees"
+msgstr "Abelhas solitárias"
+
+# insects name
+#: UK BR CY IE
+msgid "Wasps"
+msgstr "Vespas"
+
+# insects name
+#: BR
+msgid "Bats"
+msgstr "Morcegos"
+
+# insects name
+#: BR
+msgid "Hummingbirds"
+msgstr "Beija-flores"
+
+# insects name
+#: BR IE
+msgid "Orchid bees"
+msgstr "Abelhas das orquídeas"
+
+# insects name
+#: BR
+msgid "Stingless bees"
+msgstr "Abelhas sem ferrão"
+
+# insects name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr "Mamangavas"
+
+# insects name
+#: BR
+msgid "Flies"
+msgstr "Moscas"
+
+# insects name
+#: BR
+msgid "Don't know"
+msgstr "Não sei"
+
+# habitats value
+#: UK BR CY IE
+msgid "Garden"
+msgstr "Jardim manejado"
+
+# habitats value
+#: UK IE
+msgid "School Grounds"
+msgstr "Pátio Escolar"
+
+# habitats value
+#: UK BR CY IE
+msgid "Parkland with trees"
+msgstr "Parque ou praça (com árvores)"
+
+# habitats value
+#: UK IE
+msgid "Churchyard"
+msgstr "Patio de igreja"
+
+# habitats value
+#: UK IE
+msgid "Grassy verge or hedgerow edge"
+msgstr "Borda gramada ou de cerca viva"
+
+# habitats value
+#: UK BR CY IE
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Campestre (não manejado)"
+
+# habitats value
+#: UK BR IE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Gramado manejado"
+
+# habitats value
+#: UK BR IE
+msgid "Farm crops or grassy pasture"
+msgstr "Cultivo ou pastagem"
+
+# habitats value
+#: UK IE
+msgid "Upland moorland"
+msgstr "Planalto pantanoso"
+
+# habitats value
+#: UK IE
+msgid "Lowland heath"
+msgstr "Charneca de várzea"
+
+# habitats value
+#: UK BR IE
+msgid "Waste ground or brownfield site"
+msgstr "Área abandonada ou terreno baldio"
+
+# habitats value
+#: UK IE
+msgid "Woodland"
+msgstr "Floresta"
+
+# habitats value
+#: BR CY
+msgid "Botanical garden"
+msgstr "Jardim botânico"
+
+# habitats value
+#: BR CY
+msgid "Forest"
+msgstr "Floresta natural"
+
+# habitats value
+#: CY
+msgid "Cultivation"
+msgstr "Cultivo"
+
+# habitats value
+#: CY
+msgid "Salt marsh"
+msgstr "Pântano salino"
+
+# habitats value
+#: BR CY
+msgid "Freshwater wetland"
+msgstr "Área alagável"
+
+# habitats value
+#: CY
+msgid "Dry shrub"
+msgstr "Arbustivo seco"
+
+# habitats value
+#: CY
+msgid "Acacia stands"
+msgstr "Povoamento de Acacia"
+
+# habitats value
+#: CY
+msgid "Roadside verges"
+msgstr "Beira de estrada"
+
+# habitats value
+#: UK BR CY
+msgid "Other"
+msgstr "Outro"
+
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr "Caatinga"
+
+# habitats value
+#: BR
+msgid "Plantation forest"
+msgstr "Floresta plantada"
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr "Cerrado"
+
+# flowers name
+#: UK IE
+msgid "Bramble"
+msgstr "Amoras"
+
+# flowers name
+#: UK IE
+msgid "Buddleja"
+msgstr "Buddleja"
+
+# flowers name
+#: UK IE
+msgid "Buttercup"
+msgstr "Botão de ouro"
+
+# flowers name
+#: UK IE
+msgid "Dandelion"
+msgstr "Dente de Leão"
+
+# flowers name
+#: UK IE
+msgid "Hawthorn"
+msgstr "Espinheiro-branco"
+
+# flowers name
+#: UK IE
+msgid "Heather"
+msgstr "Urze/torga"
+
+# flowers name
+#: UK IE
+msgid "Hogweed"
+msgstr "Heracleum"
+
+# flowers name
+#: UK IE
+msgid "Ivy"
+msgstr "Hera"
+
+# flowers name
+#: UK IE
+msgid "Knapweed"
+msgstr "Centáureas"
+
+# flowers name
+#: UK IE
+msgid "Lavender"
+msgstr "Lavanda"
+
+# flowers name
+#: UK IE
+msgid "Ragwort"
+msgstr "Tasna"
+
+# flowers name
+#: UK IE
+msgid "Thistle"
+msgstr "Cardo"
+
+# flowers name
+#: UK IE
+msgid "White Clover"
+msgstr "Trevo-branco"
+
+# flowers name
+#: UK IE
+msgid "White Dead-nettle"
+msgstr "Urtiga-branca"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Fennel"
+msgstr "Erva-doce"
+
+# flowers name
+#: CY
+msgid "Myrtle"
+msgstr "Murta"
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr "Oliveira/azeitona"
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr "Mostarda-branca"
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr "Estevas"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr "Anêmona"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr "Crisântemo"
+
+# flowers name
+#: CY
+msgid "Tree Tobacco"
+msgstr "Charuteira"
+
+# flowers name
+#: CY
+msgid "Spanish Jasmine"
+msgstr "Jasmim-espanhol"
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr "Camará"
+
+# flowers name
+#: CY
+msgid "Acacia"
+msgstr "Acacia"
+
+# flowers name
+#: CY
+msgid "Bermuda Buttercup"
+msgstr "Erva-canária"
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr "Espinheiro africano"
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr "Bela Emília"
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr "Viperina"
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr "Cardo-leiteiro"
+
+# flowers name
+#: BR
+msgid "Oxalis"
+msgstr "Azedinha Oxalis (trevinho)"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Manjericão"
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr "Lantana"
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr "Antúrio"
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr "Calliandra"
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr "Asteraceae (herbácea)"
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr "Orquídeas"
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr "Trevo Trifolium"
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Jabuticaba"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr "Acerola"
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Heliconia"
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr "Maracujá"
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Malvaviscus"
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr "Mimosa"
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromélias"
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr "Ipê"
 
 # photos intro_text
 #: UK CY IE

@@ -274,121 +274,6 @@ msgstr "Naturtyp"
 msgid "Other habitat"
 msgstr "Annan naturtyp"
 
-# habitats value
-#: UK BR CY IE
-msgid "Garden"
-msgstr "Trädgård"
-
-# habitats value
-#: UK IE
-msgid "School Grounds"
-msgstr "Skolgård"
-
-# habitats value
-#: UK BR CY IE
-msgid "Parkland with trees"
-msgstr "Parkområde med träd"
-
-# habitats value
-#: UK IE
-msgid "Churchyard"
-msgstr "Kyrkogård"
-
-# habitats value
-#: UK IE
-msgid "Grassy verge or hedgerow edge"
-msgstr "Gräskant intill häck, väg eller dylikt."
-
-# habitats value
-#: UK BR CY IE
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Gräsmark med vilda blommor (t.ex. äng)"
-
-# habitats value
-#: UK BR IE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Gräsmatta (vanligen kortklippt)"
-
-# habitats value
-#: UK BR IE
-msgid "Farm crops or grassy pasture"
-msgstr "Grödor eller betesmark"
-
-# habitats value
-#: UK IE
-msgid "Upland moorland"
-msgstr "Fjällhed"
-
-# habitats value
-#: UK IE
-msgid "Lowland heath"
-msgstr "Hedmark nedanför fjällen, t ex ljunghed."
-
-# habitats value
-#: UK BR IE
-msgid "Waste ground or brownfield site"
-msgstr "Industrimark eller annan \"skräpmark\"."
-
-# habitats value
-#: UK IE
-msgid "Woodland"
-msgstr "Mindre område med gles skog"
-
-# habitats value
-#: BR CY
-msgid "Botanical garden"
-msgstr "Botanisk trädgård"
-
-# habitats value
-#: BR CY
-msgid "Forest"
-msgstr "Skogsmark"
-
-# habitats value
-#: CY
-msgid "Cultivation"
-msgstr "Odling"
-
-# habitats value
-#: CY
-msgid "Salt marsh"
-msgstr "Havsstrandsäng"
-
-# habitats value
-#: BR CY
-msgid "Freshwater wetland"
-msgstr "Våtmark"
-
-# habitats value
-#: CY
-msgid "Dry shrub"
-msgstr "Torr buskmark"
-
-# habitats value
-#: CY
-msgid "Acacia stands"
-msgstr "Acaciabestånd"
-
-# habitats value
-#: CY
-msgid "Roadside verges"
-msgstr "Vägrenar"
-
-# habitats value
-#: BR
-msgid "Caatinga"
-msgstr "Caatinga (skog med lövfällning i torrperioder)"
-
-# habitats value
-#: BR
-msgid "Plantation forest"
-msgstr "Planterad skog"
-
-# habitats value
-#: BR
-msgid "Cerrado"
-msgstr "Cerrado (tropisk savann)"
-
 # Survey flower-cover info message
 #: interface
 msgid ""
@@ -665,241 +550,6 @@ msgstr "Artbild saknas"
 #: interface
 msgid "Press <1></1> to add."
 msgstr "Tryck på <1></1>för att lägga till"
-
-# flowers name
-#: UK IE
-msgid "Bramble"
-msgstr "Björnbär"
-
-# flowers name
-#: UK IE
-msgid "Buddleja"
-msgstr "Buddleja"
-
-# flowers name
-#: UK IE
-msgid "Buttercup"
-msgstr "Smörblomma"
-
-# flowers name
-#: UK IE
-msgid "Dandelion"
-msgstr "Maskros"
-
-# flowers name
-#: UK IE
-msgid "Hawthorn"
-msgstr "Hagtorn"
-
-# flowers name
-#: UK IE
-msgid "Heather"
-msgstr "Ljung"
-
-# flowers name
-#: UK IE
-msgid "Hogweed"
-msgstr "Björnloka"
-
-# flowers name
-#: UK IE
-msgid "Ivy"
-msgstr "Murgröna"
-
-# flowers name
-#: UK IE
-msgid "Knapweed"
-msgstr "Röd/väddklint"
-
-# flowers name
-#: UK IE
-msgid "Lavender"
-msgstr "Lavendel"
-
-# flowers name
-#: UK IE
-msgid "Ragwort"
-msgstr "Stånds"
-
-# flowers name
-#: UK IE
-msgid "Thistle"
-msgstr "Tistel"
-
-# flowers name
-#: UK IE
-msgid "White Clover"
-msgstr "Vitklöver"
-
-# flowers name
-#: UK IE
-msgid "White Dead-nettle"
-msgstr "Vitplister"
-
-# flowers name
-#: IE
-msgid "Red Clover"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Fennel"
-msgstr "Fänkål"
-
-# flowers name
-#: CY
-msgid "Myrtle"
-msgstr "Myrten"
-
-# flowers name
-#: CY
-msgid "Olive"
-msgstr "Oliv"
-
-# flowers name
-#: CY
-msgid "White Mustard"
-msgstr "Vitsenap"
-
-# flowers name
-#: CY
-msgid "Rock-roses"
-msgstr "Solvändor"
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr "Sippor"
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr "Krysantemum"
-
-# flowers name
-#: CY
-msgid "Tree Tobacco"
-msgstr "Blåtobak"
-
-# flowers name
-#: CY
-msgid "Spanish Jasmine"
-msgstr "Jasminum grandiflorum"
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr "Eldkrona"
-
-# flowers name
-#: CY
-msgid "Acacia"
-msgstr "Akacia"
-
-# flowers name
-#: CY
-msgid "Bermuda Buttercup"
-msgstr "Getoxalis"
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr "Lycium ferocissimum"
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr "Blyblomma"
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr "Echium angustifolium"
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr "Mariatistel"
-
-# flowers name
-#: BR
-msgid "Oxalis"
-msgstr "Oxalis"
-
-# flowers name
-#: BR
-msgid "Basil"
-msgstr "Basilika"
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr "Lantana (Eldkrona)"
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr "Anthurium (Kobrakallor)"
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr "Calliandra"
-
-# flowers name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr "Korgblommiga växter (örtarade)"
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr "Orkidéer"
-
-# flowers name
-#: BR
-msgid "Clover/Trefoil"
-msgstr "Klöver"
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr "Jabuticaba"
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr "Malpighia glabra (Acerola)"
-
-# flowers name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr "Heliconia (Hummerklo-växter)"
-
-# flowers name
-#: BR
-msgid "Passionfruit"
-msgstr "Passionsfrukt"
-
-# flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr "Malvaviscus (Bärmalvor)"
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr "Mimosa"
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr "Bromeliader"
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr "Handroanthus"
 
 # Survey species selection page read more message
 #: interface
@@ -1443,11 +1093,6 @@ msgstr ""
 "inte känner igen ska räknas som \"andra insekter\" eller \"vet ej\". "
 
 # From survey pages
-#: UK BR CL CY AR IE
-msgid "Other"
-msgstr "Annan"
-
-# From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
 msgstr "OBS: den kommer att ligga kvar i galleriet."
@@ -1499,91 +1144,6 @@ msgstr "Är du säker på att du vill logga ut?"
 #: interface
 msgid "Discard local data"
 msgstr "Rensa data på min enhet"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Beetles"
-msgstr "Skalbaggar"
-
-# pollinator name
-#: UK CY IE
-msgid "Bumblebees"
-msgstr "Humlor"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Butterflies and moths"
-msgstr "Fjärilar, dag- och nattfjärilar"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Honeybees"
-msgstr "Honungsbin"
-
-# pollinator name
-#: UK CY IE
-msgid "Hoverflies"
-msgstr "Blomflugor"
-
-# pollinator name
-#: UK CY IE
-msgid "Other flies"
-msgstr "Andra flugor"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Other insects"
-msgstr "Andra insekter"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Small insects (<3mm)"
-msgstr "Små insekter (<3mm)"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Solitary bees"
-msgstr "Solitärbin"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Wasps"
-msgstr "Getingar och andra steklar (utom växtsteklar)"
-
-# pollinator name
-#: BR
-msgid "Bats"
-msgstr "Fladdermöss"
-
-# pollinator name
-#: BR
-msgid "Hummingbirds"
-msgstr "Kolibirer"
-
-# pollinator name
-#: BR IE
-msgid "Orchid bees"
-msgstr "Orkidébin"
-
-# pollinator name
-#: BR
-msgid "Stingless bees"
-msgstr "Gaddlösa bin"
-
-# pollinator name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr "Humlor"
-
-# pollinator name
-#: BR
-msgid "Flies"
-msgstr "Flugor"
-
-# pollinator name
-#: BR
-msgid "Don't know"
-msgstr "Vet ej"
 
 # Survey back button label
 #: interface
@@ -1947,6 +1507,453 @@ msgid ""
 msgstr ""
 "Besök projektets websida för att se dina inskickade Blombesöksräkningar. Den"
 " svenska sidan finns <2>här</2>"
+
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# insects name
+#: UK BR CY IE
+msgid "Beetles"
+msgstr "Skalbaggar"
+
+# insects name
+#: UK CY IE
+msgid "Bumblebees"
+msgstr "Humlor"
+
+# insects name
+#: UK BR CY IE
+msgid "Butterflies and moths"
+msgstr "Fjärilar, dag- och nattfjärilar"
+
+# insects name
+#: UK BR CY IE
+msgid "Honeybees"
+msgstr "Honungsbin"
+
+# insects name
+#: UK CY IE
+msgid "Hoverflies"
+msgstr "Blomflugor"
+
+# insects name
+#: UK CY IE
+msgid "Other flies"
+msgstr "Andra flugor"
+
+# insects name
+#: UK BR CY IE
+msgid "Other insects"
+msgstr "Andra insekter"
+
+# insects name
+#: UK BR CY IE
+msgid "Small insects (<3mm)"
+msgstr "Små insekter (<3mm)"
+
+# insects name
+#: UK BR CY IE
+msgid "Solitary bees"
+msgstr "Solitärbin"
+
+# insects name
+#: UK BR CY IE
+msgid "Wasps"
+msgstr "Getingar och andra steklar (utom växtsteklar)"
+
+# insects name
+#: BR
+msgid "Bats"
+msgstr "Fladdermöss"
+
+# insects name
+#: BR
+msgid "Hummingbirds"
+msgstr "Kolibirer"
+
+# insects name
+#: BR IE
+msgid "Orchid bees"
+msgstr "Orkidébin"
+
+# insects name
+#: BR
+msgid "Stingless bees"
+msgstr "Gaddlösa bin"
+
+# insects name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr "Humlor"
+
+# insects name
+#: BR
+msgid "Flies"
+msgstr "Flugor"
+
+# insects name
+#: BR
+msgid "Don't know"
+msgstr "Vet ej"
+
+# habitats value
+#: UK BR CY IE
+msgid "Garden"
+msgstr "Trädgård"
+
+# habitats value
+#: UK IE
+msgid "School Grounds"
+msgstr "Skolgård"
+
+# habitats value
+#: UK BR CY IE
+msgid "Parkland with trees"
+msgstr "Parkområde med träd"
+
+# habitats value
+#: UK IE
+msgid "Churchyard"
+msgstr "Kyrkogård"
+
+# habitats value
+#: UK IE
+msgid "Grassy verge or hedgerow edge"
+msgstr "Gräskant intill häck, väg eller dylikt."
+
+# habitats value
+#: UK BR CY IE
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Gräsmark med vilda blommor (t.ex. äng)"
+
+# habitats value
+#: UK BR IE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Gräsmatta (vanligen kortklippt)"
+
+# habitats value
+#: UK BR IE
+msgid "Farm crops or grassy pasture"
+msgstr "Grödor eller betesmark"
+
+# habitats value
+#: UK IE
+msgid "Upland moorland"
+msgstr "Fjällhed"
+
+# habitats value
+#: UK IE
+msgid "Lowland heath"
+msgstr "Hedmark nedanför fjällen, t ex ljunghed."
+
+# habitats value
+#: UK BR IE
+msgid "Waste ground or brownfield site"
+msgstr "Industrimark eller annan \"skräpmark\"."
+
+# habitats value
+#: UK IE
+msgid "Woodland"
+msgstr "Mindre område med gles skog"
+
+# habitats value
+#: BR CY
+msgid "Botanical garden"
+msgstr "Botanisk trädgård"
+
+# habitats value
+#: BR CY
+msgid "Forest"
+msgstr "Skogsmark"
+
+# habitats value
+#: CY
+msgid "Cultivation"
+msgstr "Odling"
+
+# habitats value
+#: CY
+msgid "Salt marsh"
+msgstr "Havsstrandsäng"
+
+# habitats value
+#: BR CY
+msgid "Freshwater wetland"
+msgstr "Våtmark"
+
+# habitats value
+#: CY
+msgid "Dry shrub"
+msgstr "Torr buskmark"
+
+# habitats value
+#: CY
+msgid "Acacia stands"
+msgstr "Acaciabestånd"
+
+# habitats value
+#: CY
+msgid "Roadside verges"
+msgstr "Vägrenar"
+
+# habitats value
+#: UK BR CY
+msgid "Other"
+msgstr "Annan"
+
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr "Caatinga (skog med lövfällning i torrperioder)"
+
+# habitats value
+#: BR
+msgid "Plantation forest"
+msgstr "Planterad skog"
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr "Cerrado (tropisk savann)"
+
+# flowers name
+#: UK IE
+msgid "Bramble"
+msgstr "Björnbär"
+
+# flowers name
+#: UK IE
+msgid "Buddleja"
+msgstr "Buddleja"
+
+# flowers name
+#: UK IE
+msgid "Buttercup"
+msgstr "Smörblomma"
+
+# flowers name
+#: UK IE
+msgid "Dandelion"
+msgstr "Maskros"
+
+# flowers name
+#: UK IE
+msgid "Hawthorn"
+msgstr "Hagtorn"
+
+# flowers name
+#: UK IE
+msgid "Heather"
+msgstr "Ljung"
+
+# flowers name
+#: UK IE
+msgid "Hogweed"
+msgstr "Björnloka"
+
+# flowers name
+#: UK IE
+msgid "Ivy"
+msgstr "Murgröna"
+
+# flowers name
+#: UK IE
+msgid "Knapweed"
+msgstr "Röd/väddklint"
+
+# flowers name
+#: UK IE
+msgid "Lavender"
+msgstr "Lavendel"
+
+# flowers name
+#: UK IE
+msgid "Ragwort"
+msgstr "Stånds"
+
+# flowers name
+#: UK IE
+msgid "Thistle"
+msgstr "Tistel"
+
+# flowers name
+#: UK IE
+msgid "White Clover"
+msgstr "Vitklöver"
+
+# flowers name
+#: UK IE
+msgid "White Dead-nettle"
+msgstr "Vitplister"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Fennel"
+msgstr "Fänkål"
+
+# flowers name
+#: CY
+msgid "Myrtle"
+msgstr "Myrten"
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr "Oliv"
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr "Vitsenap"
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr "Solvändor"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr "Sippor"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr "Krysantemum"
+
+# flowers name
+#: CY
+msgid "Tree Tobacco"
+msgstr "Blåtobak"
+
+# flowers name
+#: CY
+msgid "Spanish Jasmine"
+msgstr "Jasminum grandiflorum"
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr "Eldkrona"
+
+# flowers name
+#: CY
+msgid "Acacia"
+msgstr "Akacia"
+
+# flowers name
+#: CY
+msgid "Bermuda Buttercup"
+msgstr "Getoxalis"
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr "Lycium ferocissimum"
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr "Blyblomma"
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr "Echium angustifolium"
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr "Mariatistel"
+
+# flowers name
+#: BR
+msgid "Oxalis"
+msgstr "Oxalis"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Basilika"
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr "Lantana (Eldkrona)"
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr "Anthurium (Kobrakallor)"
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr "Calliandra"
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr "Korgblommiga växter (örtarade)"
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr "Orkidéer"
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr "Klöver"
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Jabuticaba"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr "Malpighia glabra (Acerola)"
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Heliconia (Hummerklo-växter)"
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr "Passionsfrukt"
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Malvaviscus (Bärmalvor)"
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr "Mimosa"
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromeliader"
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr "Handroanthus"
 
 # photos intro_text
 #: UK CY IE

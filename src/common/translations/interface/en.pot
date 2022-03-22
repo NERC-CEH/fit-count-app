@@ -263,121 +263,6 @@ msgstr "Habitat"
 msgid "Other habitat"
 msgstr "Other habitat"
 
-# habitats value
-#: UK BR CY IE
-msgid "Garden"
-msgstr "Garden"
-
-# habitats value
-#: UK IE
-msgid "School Grounds"
-msgstr "School Grounds"
-
-# habitats value
-#: UK BR CY IE
-msgid "Parkland with trees"
-msgstr "Parkland with trees"
-
-# habitats value
-#: UK IE
-msgid "Churchyard"
-msgstr "Churchyard"
-
-# habitats value
-#: UK IE
-msgid "Grassy verge or hedgerow edge"
-msgstr "Grassy verge or hedgerow edge"
-
-# habitats value
-#: UK BR CY IE
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Grassland with wild flowers (e.g. meadow)"
-
-# habitats value
-#: UK BR IE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Amenity grassland (usually mown short)"
-
-# habitats value
-#: UK BR IE
-msgid "Farm crops or grassy pasture"
-msgstr "Farm crops or grassy pasture"
-
-# habitats value
-#: UK IE
-msgid "Upland moorland"
-msgstr "Upland moorland"
-
-# habitats value
-#: UK IE
-msgid "Lowland heath"
-msgstr "Lowland heath"
-
-# habitats value
-#: UK BR IE
-msgid "Waste ground or brownfield site"
-msgstr "Waste ground or brownfield site"
-
-# habitats value
-#: UK IE
-msgid "Woodland"
-msgstr "Woodland"
-
-# habitats value
-#: BR CY
-msgid "Botanical garden"
-msgstr "Botanical garden"
-
-# habitats value
-#: BR CY
-msgid "Forest"
-msgstr "Forest"
-
-# habitats value
-#: CY
-msgid "Cultivation"
-msgstr "Cultivation"
-
-# habitats value
-#: CY
-msgid "Salt marsh"
-msgstr "Salt marsh"
-
-# habitats value
-#: BR CY
-msgid "Freshwater wetland"
-msgstr "Freshwater wetland"
-
-# habitats value
-#: CY
-msgid "Dry shrub"
-msgstr "Dry shrub"
-
-# habitats value
-#: CY
-msgid "Acacia stands"
-msgstr "Acacia stands"
-
-# habitats value
-#: CY
-msgid "Roadside verges"
-msgstr "Roadside verges"
-
-# habitats value
-#: BR
-msgid "Caatinga"
-msgstr "Caatinga"
-
-# habitats value
-#: BR
-msgid "Plantation forest"
-msgstr "Plantation forest"
-
-# habitats value
-#: BR
-msgid "Cerrado"
-msgstr "Cerrado"
-
 # Survey flower-cover info message
 #: interface
 msgid ""
@@ -654,241 +539,6 @@ msgstr "No photo has been added."
 #: interface
 msgid "Press <1></1> to add."
 msgstr "Press <1></1> to add."
-
-# flowers name
-#: UK IE
-msgid "Bramble"
-msgstr "Bramble"
-
-# flowers name
-#: UK IE
-msgid "Buddleja"
-msgstr "Buddleja"
-
-# flowers name
-#: UK IE
-msgid "Buttercup"
-msgstr "Buttercup"
-
-# flowers name
-#: UK IE
-msgid "Dandelion"
-msgstr "Dandelion"
-
-# flowers name
-#: UK IE
-msgid "Hawthorn"
-msgstr "Hawthorn"
-
-# flowers name
-#: UK IE
-msgid "Heather"
-msgstr "Heather"
-
-# flowers name
-#: UK IE
-msgid "Hogweed"
-msgstr "Hogweed"
-
-# flowers name
-#: UK IE
-msgid "Ivy"
-msgstr "Ivy"
-
-# flowers name
-#: UK IE
-msgid "Knapweed"
-msgstr "Knapweed"
-
-# flowers name
-#: UK IE
-msgid "Lavender"
-msgstr "Lavender"
-
-# flowers name
-#: UK IE
-msgid "Ragwort"
-msgstr "Ragwort"
-
-# flowers name
-#: UK IE
-msgid "Thistle"
-msgstr "Thistle"
-
-# flowers name
-#: UK IE
-msgid "White Clover"
-msgstr "White Clover"
-
-# flowers name
-#: UK IE
-msgid "White Dead-nettle"
-msgstr "White Dead-nettle"
-
-# flowers name
-#: IE
-msgid "Red Clover"
-msgstr "Red Clover"
-
-# flowers name
-#: CY
-msgid "Fennel"
-msgstr "Fennel"
-
-# flowers name
-#: CY
-msgid "Myrtle"
-msgstr "Myrtle"
-
-# flowers name
-#: CY
-msgid "Olive"
-msgstr "Olive"
-
-# flowers name
-#: CY
-msgid "White Mustard"
-msgstr "White Mustard"
-
-# flowers name
-#: CY
-msgid "Rock-roses"
-msgstr "Rock-roses"
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr "Anemone"
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr "Chrysanthemum"
-
-# flowers name
-#: CY
-msgid "Tree Tobacco"
-msgstr "Tree Tobacco"
-
-# flowers name
-#: CY
-msgid "Spanish Jasmine"
-msgstr "Spanish Jasmine"
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr "Common Lantana"
-
-# flowers name
-#: CY
-msgid "Acacia"
-msgstr "Acacia"
-
-# flowers name
-#: CY
-msgid "Bermuda Buttercup"
-msgstr "Bermuda Buttercup"
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr "African Boxthorn"
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr "Blue Plumbago"
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr "Narrow-leaved Viper’s-bugloss"
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr "Milk Thistle"
-
-# flowers name
-#: BR
-msgid "Oxalis"
-msgstr "Oxalis"
-
-# flowers name
-#: BR
-msgid "Basil"
-msgstr "Basil"
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr "Lantana"
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr "Anthurium"
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr "Calliandra"
-
-# flowers name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr "Asteraceae (herbaceous)"
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr "Orchids"
-
-# flowers name
-#: BR
-msgid "Clover/Trefoil"
-msgstr "Clover/Trefoil"
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr "Brazilian grape tree/Jabuticaba"
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr "Acerola cherry"
-
-# flowers name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr "Wild plantain/Heliconia"
-
-# flowers name
-#: BR
-msgid "Passionfruit"
-msgstr "Passionfruit"
-
-# flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr "Sleeping hibiscus/Malvaviscus"
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr "Mimosa"
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr "Bromeliads"
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr "Ipe"
 
 # Survey species selection page read more message
 #: interface
@@ -1437,11 +1087,6 @@ msgstr ""
 " or \"don't know\"."
 
 # From survey pages
-#: UK BR CL CY AR IE
-msgid "Other"
-msgstr "Other"
-
-# From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
 msgstr "Note: it will remain in the gallery."
@@ -1492,91 +1137,6 @@ msgstr "Are you sure you want to logout?"
 #: interface
 msgid "Discard local data"
 msgstr "Discard local data"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Beetles"
-msgstr "Beetles"
-
-# pollinator name
-#: UK CY IE
-msgid "Bumblebees"
-msgstr "Bumblebees"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Butterflies and moths"
-msgstr "Butterflies and moths"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Honeybees"
-msgstr "Honeybees"
-
-# pollinator name
-#: UK CY IE
-msgid "Hoverflies"
-msgstr "Hoverflies"
-
-# pollinator name
-#: UK CY IE
-msgid "Other flies"
-msgstr "Other flies"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Other insects"
-msgstr "Other insects"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Small insects (<3mm)"
-msgstr "Small insects (<3mm)"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Solitary bees"
-msgstr "Solitary bees"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Wasps"
-msgstr "Wasps"
-
-# pollinator name
-#: BR
-msgid "Bats"
-msgstr "Bats"
-
-# pollinator name
-#: BR
-msgid "Hummingbirds"
-msgstr "Hummingbirds"
-
-# pollinator name
-#: BR IE
-msgid "Orchid bees"
-msgstr "Orchid bees"
-
-# pollinator name
-#: BR
-msgid "Stingless bees"
-msgstr "Stingless bees"
-
-# pollinator name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr "Bumblebees sensu lato"
-
-# pollinator name
-#: BR
-msgid "Flies"
-msgstr "Flies"
-
-# pollinator name
-#: BR
-msgid "Don't know"
-msgstr "Don't know"
 
 # Survey back button label
 #: interface
@@ -1940,6 +1500,453 @@ msgid ""
 msgstr ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
+
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# insects name
+#: UK BR CY IE
+msgid "Beetles"
+msgstr "Beetles"
+
+# insects name
+#: UK CY IE
+msgid "Bumblebees"
+msgstr "Bumblebees"
+
+# insects name
+#: UK BR CY IE
+msgid "Butterflies and moths"
+msgstr "Butterflies and moths"
+
+# insects name
+#: UK BR CY IE
+msgid "Honeybees"
+msgstr "Honeybees"
+
+# insects name
+#: UK CY IE
+msgid "Hoverflies"
+msgstr "Hoverflies"
+
+# insects name
+#: UK CY IE
+msgid "Other flies"
+msgstr "Other flies"
+
+# insects name
+#: UK BR CY IE
+msgid "Other insects"
+msgstr "Other insects"
+
+# insects name
+#: UK BR CY IE
+msgid "Small insects (<3mm)"
+msgstr "Small insects (<3mm)"
+
+# insects name
+#: UK BR CY IE
+msgid "Solitary bees"
+msgstr "Solitary bees"
+
+# insects name
+#: UK BR CY IE
+msgid "Wasps"
+msgstr "Wasps"
+
+# insects name
+#: BR
+msgid "Bats"
+msgstr "Bats"
+
+# insects name
+#: BR
+msgid "Hummingbirds"
+msgstr "Hummingbirds"
+
+# insects name
+#: BR IE
+msgid "Orchid bees"
+msgstr "Orchid bees"
+
+# insects name
+#: BR
+msgid "Stingless bees"
+msgstr "Stingless bees"
+
+# insects name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr "Bumblebees sensu lato"
+
+# insects name
+#: BR
+msgid "Flies"
+msgstr "Flies"
+
+# insects name
+#: BR
+msgid "Don't know"
+msgstr "Don't know"
+
+# habitats value
+#: UK BR CY IE
+msgid "Garden"
+msgstr "Garden"
+
+# habitats value
+#: UK IE
+msgid "School Grounds"
+msgstr "School Grounds"
+
+# habitats value
+#: UK BR CY IE
+msgid "Parkland with trees"
+msgstr "Parkland with trees"
+
+# habitats value
+#: UK IE
+msgid "Churchyard"
+msgstr "Churchyard"
+
+# habitats value
+#: UK IE
+msgid "Grassy verge or hedgerow edge"
+msgstr "Grassy verge or hedgerow edge"
+
+# habitats value
+#: UK BR CY IE
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Grassland with wild flowers (e.g. meadow)"
+
+# habitats value
+#: UK BR IE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Amenity grassland (usually mown short)"
+
+# habitats value
+#: UK BR IE
+msgid "Farm crops or grassy pasture"
+msgstr "Farm crops or grassy pasture"
+
+# habitats value
+#: UK IE
+msgid "Upland moorland"
+msgstr "Upland moorland"
+
+# habitats value
+#: UK IE
+msgid "Lowland heath"
+msgstr "Lowland heath"
+
+# habitats value
+#: UK BR IE
+msgid "Waste ground or brownfield site"
+msgstr "Waste ground or brownfield site"
+
+# habitats value
+#: UK IE
+msgid "Woodland"
+msgstr "Woodland"
+
+# habitats value
+#: BR CY
+msgid "Botanical garden"
+msgstr "Botanical garden"
+
+# habitats value
+#: BR CY
+msgid "Forest"
+msgstr "Forest"
+
+# habitats value
+#: CY
+msgid "Cultivation"
+msgstr "Cultivation"
+
+# habitats value
+#: CY
+msgid "Salt marsh"
+msgstr "Salt marsh"
+
+# habitats value
+#: BR CY
+msgid "Freshwater wetland"
+msgstr "Freshwater wetland"
+
+# habitats value
+#: CY
+msgid "Dry shrub"
+msgstr "Dry shrub"
+
+# habitats value
+#: CY
+msgid "Acacia stands"
+msgstr "Acacia stands"
+
+# habitats value
+#: CY
+msgid "Roadside verges"
+msgstr "Roadside verges"
+
+# habitats value
+#: UK BR CY
+msgid "Other"
+msgstr "Other"
+
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr "Caatinga"
+
+# habitats value
+#: BR
+msgid "Plantation forest"
+msgstr "Plantation forest"
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr "Cerrado"
+
+# flowers name
+#: UK IE
+msgid "Bramble"
+msgstr "Bramble"
+
+# flowers name
+#: UK IE
+msgid "Buddleja"
+msgstr "Buddleja"
+
+# flowers name
+#: UK IE
+msgid "Buttercup"
+msgstr "Buttercup"
+
+# flowers name
+#: UK IE
+msgid "Dandelion"
+msgstr "Dandelion"
+
+# flowers name
+#: UK IE
+msgid "Hawthorn"
+msgstr "Hawthorn"
+
+# flowers name
+#: UK IE
+msgid "Heather"
+msgstr "Heather"
+
+# flowers name
+#: UK IE
+msgid "Hogweed"
+msgstr "Hogweed"
+
+# flowers name
+#: UK IE
+msgid "Ivy"
+msgstr "Ivy"
+
+# flowers name
+#: UK IE
+msgid "Knapweed"
+msgstr "Knapweed"
+
+# flowers name
+#: UK IE
+msgid "Lavender"
+msgstr "Lavender"
+
+# flowers name
+#: UK IE
+msgid "Ragwort"
+msgstr "Ragwort"
+
+# flowers name
+#: UK IE
+msgid "Thistle"
+msgstr "Thistle"
+
+# flowers name
+#: UK IE
+msgid "White Clover"
+msgstr "White Clover"
+
+# flowers name
+#: UK IE
+msgid "White Dead-nettle"
+msgstr "White Dead-nettle"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr "Red Clover"
+
+# flowers name
+#: CY
+msgid "Fennel"
+msgstr "Fennel"
+
+# flowers name
+#: CY
+msgid "Myrtle"
+msgstr "Myrtle"
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr "Olive"
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr "White Mustard"
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr "Rock-roses"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr "Anemone"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr "Chrysanthemum"
+
+# flowers name
+#: CY
+msgid "Tree Tobacco"
+msgstr "Tree Tobacco"
+
+# flowers name
+#: CY
+msgid "Spanish Jasmine"
+msgstr "Spanish Jasmine"
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr "Common Lantana"
+
+# flowers name
+#: CY
+msgid "Acacia"
+msgstr "Acacia"
+
+# flowers name
+#: CY
+msgid "Bermuda Buttercup"
+msgstr "Bermuda Buttercup"
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr "African Boxthorn"
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr "Blue Plumbago"
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr "Narrow-leaved Viper’s-bugloss"
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr "Milk Thistle"
+
+# flowers name
+#: BR
+msgid "Oxalis"
+msgstr "Oxalis"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Basil"
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr "Lantana"
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr "Anthurium"
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr "Calliandra"
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr "Asteraceae (herbaceous)"
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr "Orchids"
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr "Clover/Trefoil"
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Brazilian grape tree/Jabuticaba"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr "Acerola cherry"
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Wild plantain/Heliconia"
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr "Passionfruit"
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Sleeping hibiscus/Malvaviscus"
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr "Mimosa"
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromeliads"
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr "Ipe"
 
 # photos intro_text
 #: UK CY IE

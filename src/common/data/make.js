@@ -1,9 +1,8 @@
 const fs = require('fs');
 // require('dotenv').config({ silent: true, path: '../../../.env' }); // eslint-disable-line
 const fetchSheet = require('@flumens/fetch-onedrive-excel'); // eslint-disable-line
-const gettextParser = require('gettext-parser'); // eslint-disable-line import/no-extraneous-dependencies
 
-const countries = ['UK', 'BR', 'CL', 'CY', 'AR'];
+const countries = ['UK', 'BR', 'CL', 'CY', 'AR', 'IE'];
 
 const drive =
   'sites/flumensio.sharepoint.com,6230bb4b-9d52-4589-a065-9bebfdb9ce63,21520adc-6195-4b5f-91f6-7af0b129ff5c/drive';
@@ -29,93 +28,71 @@ function saveSpeciesToFile(data, sheetName) {
   return new Promise(saveSpeciesToFileWrap);
 }
 
-function checkTranslationsExist(data, keysToCheck, documentName = '') {
-  const missing = {};
-  const incorrect = [];
-  const input = fs.readFileSync('../translations/interface/en.pot');
-  let jsonData = gettextParser.po.parse(input);
-  [jsonData] = Object.values(jsonData.translations);
+function getGettext({ text, documentName, key, countryCodes }) {
+  const keyText = `# ${documentName} ${key}\n`;
+  const referenceText = `#: ${countryCodes.join(' ')}\n`;
+  const sourceText = `msgid "${text}"\n`;
+  const translationText = `msgstr "${text}"`;
 
-  const checkExists = sp => {
-    const checkKeyValyeExistsInTranslations = key => {
-      const text = sp[key];
-      const translation = jsonData[text];
+  return `${keyText}${referenceText}${sourceText}${translationText}`;
+}
+
+const existingTranslationStrings = [];
+function generateTranslations(rows, keysToCheck, documentName = '') {
+  const translations = {};
+
+  const parseRow = row => {
+    const parseKeyInRow = key => {
+      const text = row[key];
+      if (!text) return;
 
       const countryCodes = [];
       const processCountry = country =>
-        sp[country] && countryCodes.push(country);
+        row[country] && countryCodes.push(country);
       countries.forEach(processCountry);
 
-      // the key is missing in the object
-      if (!text) return;
-
-      if (!translation) {
-        if (missing[text]) {
-          // already exists from other row
-          missing[text].referenceText = [
-            ...new Set([...missing[text].referenceText, ...countryCodes]),
-          ];
-          return;
-        }
-
-        const keyText = `# ${documentName} ${key}`;
-        const referenceText = countryCodes;
-        const sourceText = `msgid "${text}"`;
-        const translationText = `msgstr "${text}"`;
-        missing[text] = {
-          keyText,
-          referenceText,
-          sourceText,
-          translationText,
-        };
+      if (translations[text]) {
+        // add extra country codes if translation exists but for different country
+        translations[text].countryCodes = [
+          ...new Set([...translations[text].countryCodes, ...countryCodes]),
+        ];
         return;
       }
 
-      if (countryCodes.length) {
-        const isCountryInReference = countryCode =>
-          !translation.comments?.reference?.includes(countryCode);
-        const countryMissingInReference = countryCodes.some(
-          isCountryInReference
-        );
-        if (!countryMissingInReference) return;
+      if (existingTranslationStrings.includes(text)) return; // no duplicates must occur between different documents
 
-        const keyText = `# ${documentName} ${key} \n`;
-        const referenceText = `#: ${countryCodes.join(' ')} \n`;
-        const sourceText = `msgid "${text}"\n`;
-        const translationText = `msgstr "${text}"`;
-        incorrect.push(
-          `${keyText}${referenceText}${sourceText}${translationText}`
-        );
-        incorrect.push();
-      }
+      translations[text] = { text, documentName, key, countryCodes };
+
+      existingTranslationStrings.push(text);
     };
-    keysToCheck.forEach(checkKeyValyeExistsInTranslations);
+    keysToCheck.forEach(parseKeyInRow);
   };
-  data.forEach(checkExists);
+  rows.forEach(parseRow);
 
-  const hasMissing = Object.values(missing).length;
-  if (hasMissing) {
-    const getEntry = ({
-      keyText,
-      referenceText,
-      sourceText,
-      translationText,
-    }) =>
-      `${keyText}\n#: ${referenceText.join(
-        ' '
-      )}\n${sourceText}\n${translationText}`;
+  const hasTranslations = Object.values(translations).length;
+  if (!hasTranslations) return '';
 
-    const missingEntries = Object.values(missing).map(getEntry);
+  return Object.values(Object.values(translations).map(getGettext)).join(
+    '\n\n'
+  );
+}
 
-    console.warn(`\n⛑  Missing translations:\n`);
-    console.warn('\x1b[43m', `${missingEntries.join('\n\n')}\n`, '\x1b[0m');
-  }
+function saveTranslations(translationsText) {
+  const input = fs.readFileSync('../translations/interface/en.pot', 'utf8');
 
-  const hasIncorrect = incorrect.length;
-  if (hasIncorrect) {
-    console.warn(`\n⛑  Incorrect references:\n`);
-    console.warn('\x1b[43m', `${incorrect.join('\n\n')}\n`, '\x1b[0m');
-  }
+  let newText = input.replace(/# =====(.*\n.*)*/, '');
+
+  newText += `# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+
+${translationsText}
+`;
+  fs.writeFileSync('../translations/interface/en.pot', newText);
 }
 
 function checkHasNoTrailingWhiteSpace(data, keysToCheck) {
@@ -161,9 +138,11 @@ function checkImagesExist(data, path, fileNameProcess) {
 }
 
 const getData = async () => {
+  const translations = [];
+
   let sheetData = await fetchSheet({ drive, file, sheet: 'insects' });
   saveSpeciesToFile(sheetData, 'insects');
-  checkTranslationsExist(sheetData, ['name'], 'insects');
+  translations.push(generateTranslations(sheetData, ['name'], 'insects'));
   checkImagesExist(
     sheetData,
     `${process.env.INIT_CWD}/src/common/data/thumbnails`,
@@ -172,11 +151,11 @@ const getData = async () => {
 
   sheetData = await fetchSheet({ drive, file, sheet: 'habitats' });
   saveSpeciesToFile(sheetData, 'habitats');
-  checkTranslationsExist(sheetData, ['value'], 'habitats');
+  translations.push(generateTranslations(sheetData, ['value'], 'habitats'));
 
   sheetData = await fetchSheet({ drive, file, sheet: 'flowers' });
   saveSpeciesToFile(sheetData, 'flowers');
-  checkTranslationsExist(sheetData, ['name'], 'flowers');
+  translations.push(generateTranslations(sheetData, ['name'], 'flowers'));
   checkImagesExist(
     sheetData,
     `${process.env.INIT_CWD}/src/Survey/Flower/images`
@@ -194,25 +173,29 @@ const getData = async () => {
     'caption_6',
     'extraText',
   ]);
-  checkTranslationsExist(
-    sheetData,
-    [
-      'intro_text',
-      'caption_1',
-      'caption_2',
-      'caption_3',
-      'caption_4',
-      'caption_5',
-      'caption_6',
-      'extraText',
-    ],
-    'photos'
+  translations.push(
+    generateTranslations(
+      sheetData,
+      [
+        'intro_text',
+        'caption_1',
+        'caption_2',
+        'caption_3',
+        'caption_4',
+        'caption_5',
+        'caption_6',
+        'extraText',
+      ],
+      'photos'
+    )
   );
   checkImagesExist(
     sheetData,
     `${process.env.INIT_CWD}/src/common/data/photos`,
     ({ id, pictureId }) => `${id}_${pictureId}.jpg` // eslint-disable-line @getify/proper-arrows/name
   );
+
+  saveTranslations(translations.join('\n\n'));
 
   console.log('All done! 🚀');
 };

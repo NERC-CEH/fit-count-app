@@ -277,121 +277,6 @@ msgstr "Οικότοπος"
 msgid "Other habitat"
 msgstr "Άλλος τύπος οικοτόπου"
 
-# habitats value
-#: UK BR CY IE
-msgid "Garden"
-msgstr "Κήπος"
-
-# habitats value
-#: UK IE
-msgid "School Grounds"
-msgstr "Προαύλιο σχολείου"
-
-# habitats value
-#: UK BR CY IE
-msgid "Parkland with trees"
-msgstr "Πάρκινγκ με δέντρα"
-
-# habitats value
-#: UK IE
-msgid "Churchyard"
-msgstr "Προαύλιο εκκλησίας"
-
-# habitats value
-#: UK IE
-msgid "Grassy verge or hedgerow edge"
-msgstr "Περιθώρια δρόμου/ πεζοδρόμιο/ Φυτοφράχτης"
-
-# habitats value
-#: UK BR CY IE
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Λιβάδι με αγριολούλουδα"
-
-# habitats value
-#: UK BR IE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Περιοχή με γρασίδι"
-
-# habitats value
-#: UK BR IE
-msgid "Farm crops or grassy pasture"
-msgstr "Γεωργική καλλιέργεια"
-
-# habitats value
-#: UK IE
-msgid "Upland moorland"
-msgstr "Υψίπεδο"
-
-# habitats value
-#: UK IE
-msgid "Lowland heath"
-msgstr "Φρύγανα με Ερείκη"
-
-# habitats value
-#: UK BR IE
-msgid "Waste ground or brownfield site"
-msgstr "Περιοχή με απόβλητα, πρώην βιομηχανική περιοχή"
-
-# habitats value
-#: UK IE
-msgid "Woodland"
-msgstr "Δασώδης έκταση"
-
-# habitats value
-#: BR CY
-msgid "Botanical garden"
-msgstr "Βοτανικός Κήπος"
-
-# habitats value
-#: BR CY
-msgid "Forest"
-msgstr "Δάσος"
-
-# habitats value
-#: CY
-msgid "Cultivation"
-msgstr "Αγροτική καλλιέργεια"
-
-# habitats value
-#: CY
-msgid "Salt marsh"
-msgstr "Υφάλμυρο έλος"
-
-# habitats value
-#: BR CY
-msgid "Freshwater wetland"
-msgstr "Υδροβιότοπος γλυκού νερού"
-
-# habitats value
-#: CY
-msgid "Dry shrub"
-msgstr "Θαμνώνας με σκληρόφυλλη βλάστηση"
-
-# habitats value
-#: CY
-msgid "Acacia stands"
-msgstr "Ακακίες"
-
-# habitats value
-#: CY
-msgid "Roadside verges"
-msgstr "Περιθώρια δρόμων"
-
-# habitats value
-#: BR
-msgid "Caatinga"
-msgstr ""
-
-# habitats value
-#: BR
-msgid "Plantation forest"
-msgstr ""
-
-# habitats value
-#: BR
-msgid "Cerrado"
-msgstr ""
-
 # Survey flower-cover info message
 #: interface
 msgid ""
@@ -670,241 +555,6 @@ msgstr "Δεν έχει προστεθεί φωτογραφία."
 #: interface
 msgid "Press <1></1> to add."
 msgstr "Πατήστε <1> </1> για προσθήκη."
-
-# flowers name
-#: UK IE
-msgid "Bramble"
-msgstr "Βάτος"
-
-# flowers name
-#: UK IE
-msgid "Buddleja"
-msgstr "Βουδλέια Δαβίδειος"
-
-# flowers name
-#: UK IE
-msgid "Buttercup"
-msgstr "Bατράχιο"
-
-# flowers name
-#: UK IE
-msgid "Dandelion"
-msgstr "Πικραλίδα"
-
-# flowers name
-#: UK IE
-msgid "Hawthorn"
-msgstr "Κράταιγος"
-
-# flowers name
-#: UK IE
-msgid "Heather"
-msgstr "Ερείκη"
-
-# flowers name
-#: UK IE
-msgid "Hogweed"
-msgstr "Ηράκλειο το σφονδύλιο"
-
-# flowers name
-#: UK IE
-msgid "Ivy"
-msgstr "Κισσός"
-
-# flowers name
-#: UK IE
-msgid "Knapweed"
-msgstr "Κενταύρια"
-
-# flowers name
-#: UK IE
-msgid "Lavender"
-msgstr "Λεβάντα"
-
-# flowers name
-#: UK IE
-msgid "Ragwort"
-msgstr "Ιακώβαιο"
-
-# flowers name
-#: UK IE
-msgid "Thistle"
-msgstr "Γαϊδουράγκαθο"
-
-# flowers name
-#: UK IE
-msgid "White Clover"
-msgstr "Λευκό τριφύλλι"
-
-# flowers name
-#: UK IE
-msgid "White Dead-nettle"
-msgstr "Νεκρός-Τσουκνίδα λευκή"
-
-# flowers name
-#: IE
-msgid "Red Clover"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Fennel"
-msgstr "Μάραθος"
-
-# flowers name
-#: CY
-msgid "Myrtle"
-msgstr "Μυρτιά"
-
-# flowers name
-#: CY
-msgid "Olive"
-msgstr "Ελιά"
-
-# flowers name
-#: CY
-msgid "White Mustard"
-msgstr " Λαψάνα ή Σινάπι"
-
-# flowers name
-#: CY
-msgid "Rock-roses"
-msgstr "Λαδανιά ή Ξισταριά"
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr "Ανεμώνη"
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr "Μαργαρίτα ή Χρυσάνθεμο"
-
-# flowers name
-#: CY
-msgid "Tree Tobacco"
-msgstr "Γιατρός"
-
-# flowers name
-#: CY
-msgid "Spanish Jasmine"
-msgstr "Γιασεμί το μεγανθές"
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr "Λαντάνα"
-
-# flowers name
-#: CY
-msgid "Acacia"
-msgstr "Ακακία"
-
-# flowers name
-#: CY
-msgid "Bermuda Buttercup"
-msgstr "Ξινάκι ή Οξαλίδα"
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr "Φραμός Αρκοτομαθκιά"
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr "Πλουμπάγο η ωτοειδής"
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr "Έχιουμ ή Έχιο"
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr "Γαϊδουράγκαθο"
-
-# flowers name
-#: BR
-msgid "Oxalis"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Basil"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Asteraceae (herbaceous)"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Clover/Trefoil"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Passionfruit"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr ""
 
 # Survey species selection page read more message
 #: interface
@@ -1450,11 +1100,6 @@ msgid ""
 msgstr ""
 
 # From survey pages
-#: UK BR CL CY AR IE
-msgid "Other"
-msgstr "Άλλο"
-
-# From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
 msgstr "Σημείωση: θα παραμείνει στη συλλογή."
@@ -1506,91 +1151,6 @@ msgstr "Είστε βέβαιοι ότι θέλετε να αποσυνδεθε�
 #: interface
 msgid "Discard local data"
 msgstr "Απόκρυψη τοποθεσίας"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Beetles"
-msgstr "Κολεόπτερα- Σκαθάρια"
-
-# pollinator name
-#: UK CY IE
-msgid "Bumblebees"
-msgstr "Βομβίνοι"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Butterflies and moths"
-msgstr "Πεταλούδες και σκώροι"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Honeybees"
-msgstr "Μελιτοφόρες μέλισσες"
-
-# pollinator name
-#: UK CY IE
-msgid "Hoverflies"
-msgstr "Συρφίδες (δίπτερα)"
-
-# pollinator name
-#: UK CY IE
-msgid "Other flies"
-msgstr "Άλλα δίπτερα "
-
-# pollinator name
-#: UK BR CY IE
-msgid "Other insects"
-msgstr "Άλλα έντομα"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Small insects (<3mm)"
-msgstr "Μικρότερα από 3mm"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Solitary bees"
-msgstr "Μοναχικές μέλισσες"
-
-# pollinator name
-#: UK BR CY IE
-msgid "Wasps"
-msgstr "Σφήκες"
-
-# pollinator name
-#: BR
-msgid "Bats"
-msgstr "Νυχτερίδες"
-
-# pollinator name
-#: BR
-msgid "Hummingbirds"
-msgstr "Κολιμπρί"
-
-# pollinator name
-#: BR IE
-msgid "Orchid bees"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Stingless bees"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Bumblebees sensu lato"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Flies"
-msgstr ""
-
-# pollinator name
-#: BR
-msgid "Don't know"
-msgstr ""
 
 # Survey back button label
 #: interface
@@ -1956,6 +1516,453 @@ msgid ""
 msgstr ""
 "Για να δείτε τα δεδομένα του FIT Count σας μετά τη φόρτωση, επισκεφθείτε την"
 " ιστοσελίδα μας (π.χ. <2>UK PoMS</2>)"
+
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# insects name
+#: UK BR CY IE
+msgid "Beetles"
+msgstr "Κολεόπτερα- Σκαθάρια"
+
+# insects name
+#: UK CY IE
+msgid "Bumblebees"
+msgstr "Βομβίνοι"
+
+# insects name
+#: UK BR CY IE
+msgid "Butterflies and moths"
+msgstr "Πεταλούδες και σκώροι"
+
+# insects name
+#: UK BR CY IE
+msgid "Honeybees"
+msgstr "Μελιτοφόρες μέλισσες"
+
+# insects name
+#: UK CY IE
+msgid "Hoverflies"
+msgstr "Συρφίδες (δίπτερα)"
+
+# insects name
+#: UK CY IE
+msgid "Other flies"
+msgstr "Άλλα δίπτερα "
+
+# insects name
+#: UK BR CY IE
+msgid "Other insects"
+msgstr "Άλλα έντομα"
+
+# insects name
+#: UK BR CY IE
+msgid "Small insects (<3mm)"
+msgstr "Μικρότερα από 3mm"
+
+# insects name
+#: UK BR CY IE
+msgid "Solitary bees"
+msgstr "Μοναχικές μέλισσες"
+
+# insects name
+#: UK BR CY IE
+msgid "Wasps"
+msgstr "Σφήκες"
+
+# insects name
+#: BR
+msgid "Bats"
+msgstr "Νυχτερίδες"
+
+# insects name
+#: BR
+msgid "Hummingbirds"
+msgstr "Κολιμπρί"
+
+# insects name
+#: BR IE
+msgid "Orchid bees"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Stingless bees"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Flies"
+msgstr ""
+
+# insects name
+#: BR
+msgid "Don't know"
+msgstr ""
+
+# habitats value
+#: UK BR CY IE
+msgid "Garden"
+msgstr "Κήπος"
+
+# habitats value
+#: UK IE
+msgid "School Grounds"
+msgstr "Προαύλιο σχολείου"
+
+# habitats value
+#: UK BR CY IE
+msgid "Parkland with trees"
+msgstr "Πάρκινγκ με δέντρα"
+
+# habitats value
+#: UK IE
+msgid "Churchyard"
+msgstr "Προαύλιο εκκλησίας"
+
+# habitats value
+#: UK IE
+msgid "Grassy verge or hedgerow edge"
+msgstr "Περιθώρια δρόμου/ πεζοδρόμιο/ Φυτοφράχτης"
+
+# habitats value
+#: UK BR CY IE
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Λιβάδι με αγριολούλουδα"
+
+# habitats value
+#: UK BR IE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Περιοχή με γρασίδι"
+
+# habitats value
+#: UK BR IE
+msgid "Farm crops or grassy pasture"
+msgstr "Γεωργική καλλιέργεια"
+
+# habitats value
+#: UK IE
+msgid "Upland moorland"
+msgstr "Υψίπεδο"
+
+# habitats value
+#: UK IE
+msgid "Lowland heath"
+msgstr "Φρύγανα με Ερείκη"
+
+# habitats value
+#: UK BR IE
+msgid "Waste ground or brownfield site"
+msgstr "Περιοχή με απόβλητα, πρώην βιομηχανική περιοχή"
+
+# habitats value
+#: UK IE
+msgid "Woodland"
+msgstr "Δασώδης έκταση"
+
+# habitats value
+#: BR CY
+msgid "Botanical garden"
+msgstr "Βοτανικός Κήπος"
+
+# habitats value
+#: BR CY
+msgid "Forest"
+msgstr "Δάσος"
+
+# habitats value
+#: CY
+msgid "Cultivation"
+msgstr "Αγροτική καλλιέργεια"
+
+# habitats value
+#: CY
+msgid "Salt marsh"
+msgstr "Υφάλμυρο έλος"
+
+# habitats value
+#: BR CY
+msgid "Freshwater wetland"
+msgstr "Υδροβιότοπος γλυκού νερού"
+
+# habitats value
+#: CY
+msgid "Dry shrub"
+msgstr "Θαμνώνας με σκληρόφυλλη βλάστηση"
+
+# habitats value
+#: CY
+msgid "Acacia stands"
+msgstr "Ακακίες"
+
+# habitats value
+#: CY
+msgid "Roadside verges"
+msgstr "Περιθώρια δρόμων"
+
+# habitats value
+#: UK BR CY
+msgid "Other"
+msgstr "Άλλο"
+
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr ""
+
+# habitats value
+#: BR
+msgid "Plantation forest"
+msgstr ""
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr ""
+
+# flowers name
+#: UK IE
+msgid "Bramble"
+msgstr "Βάτος"
+
+# flowers name
+#: UK IE
+msgid "Buddleja"
+msgstr "Βουδλέια Δαβίδειος"
+
+# flowers name
+#: UK IE
+msgid "Buttercup"
+msgstr "Bατράχιο"
+
+# flowers name
+#: UK IE
+msgid "Dandelion"
+msgstr "Πικραλίδα"
+
+# flowers name
+#: UK IE
+msgid "Hawthorn"
+msgstr "Κράταιγος"
+
+# flowers name
+#: UK IE
+msgid "Heather"
+msgstr "Ερείκη"
+
+# flowers name
+#: UK IE
+msgid "Hogweed"
+msgstr "Ηράκλειο το σφονδύλιο"
+
+# flowers name
+#: UK IE
+msgid "Ivy"
+msgstr "Κισσός"
+
+# flowers name
+#: UK IE
+msgid "Knapweed"
+msgstr "Κενταύρια"
+
+# flowers name
+#: UK IE
+msgid "Lavender"
+msgstr "Λεβάντα"
+
+# flowers name
+#: UK IE
+msgid "Ragwort"
+msgstr "Ιακώβαιο"
+
+# flowers name
+#: UK IE
+msgid "Thistle"
+msgstr "Γαϊδουράγκαθο"
+
+# flowers name
+#: UK IE
+msgid "White Clover"
+msgstr "Λευκό τριφύλλι"
+
+# flowers name
+#: UK IE
+msgid "White Dead-nettle"
+msgstr "Νεκρός-Τσουκνίδα λευκή"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Fennel"
+msgstr "Μάραθος"
+
+# flowers name
+#: CY
+msgid "Myrtle"
+msgstr "Μυρτιά"
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr "Ελιά"
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr " Λαψάνα ή Σινάπι"
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr "Λαδανιά ή Ξισταριά"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr "Ανεμώνη"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr "Μαργαρίτα ή Χρυσάνθεμο"
+
+# flowers name
+#: CY
+msgid "Tree Tobacco"
+msgstr "Γιατρός"
+
+# flowers name
+#: CY
+msgid "Spanish Jasmine"
+msgstr "Γιασεμί το μεγανθές"
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr "Λαντάνα"
+
+# flowers name
+#: CY
+msgid "Acacia"
+msgstr "Ακακία"
+
+# flowers name
+#: CY
+msgid "Bermuda Buttercup"
+msgstr "Ξινάκι ή Οξαλίδα"
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr "Φραμός Αρκοτομαθκιά"
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr "Πλουμπάγο η ωτοειδής"
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr "Έχιουμ ή Έχιο"
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr "Γαϊδουράγκαθο"
+
+# flowers name
+#: BR
+msgid "Oxalis"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr ""
 
 # photos intro_text
 #: UK CY IE
