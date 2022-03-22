@@ -1,0 +1,3574 @@
+# 
+# Translators:
+# Diana Kurch, 2022
+# Elisabeth Kühn, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Last-Translator: Elisabeth Kühn, 2022\n"
+"Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+
+# Button title
+#: interface
+msgid "Back"
+msgstr "Zurück"
+
+# App toolbar label
+#: interface
+msgid "Menu"
+msgstr "Menü"
+
+# App toolbar label
+#: interface
+msgid "About"
+msgstr "Über"
+
+# About page content
+#: interface
+msgid ""
+"The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
+"collect new data on numbers of flower-visiting insects."
+msgstr ""
+"Die 10-minütige Zählung blütenbesuchender Insekten (FIT-Zählung) ist darauf "
+"ausgerichtet, neue Daten über Bestäuber zu sammeln."
+
+# Menu page content
+#: interface
+msgid "Info"
+msgstr "Info"
+
+# Menu page content
+#: interface
+msgid "Privacy Policy"
+msgstr "Datenschutzbestimmungen"
+
+# Menu page content
+#: interface
+msgid "Credits"
+msgstr "Impressum"
+
+# Menu page content
+#: interface
+msgid "Settings"
+msgstr "Einstellungen"
+
+# Menu page content
+#: interface
+msgid "Cymraeg"
+msgstr "Walisisch"
+
+# Menu page content
+#: interface
+msgid "Language"
+msgstr "Sprache"
+
+# Menu page content
+#: interface
+msgid "Country"
+msgstr "Land"
+
+# Menu page content
+#: interface
+msgid "Share App Analytics"
+msgstr "App-Analysen teilen"
+
+# Menu page content
+#: interface
+msgid "Share app crash data so we can make the app more reliable."
+msgstr ""
+"Teile App-Abstürze, damit wir die App noch zuverlässiger machen können."
+
+# Credits page content
+#: interface
+msgid "We are grateful to all the people who helped to create this app:"
+msgstr ""
+"Wir bedanken uns bei allen, die an der Entwicklung dieser App mitgewirkt "
+"haben:"
+
+# Credits page content
+#: interface
+msgid "App design concepts"
+msgstr "App-Designkonzepte"
+
+# Onboarding Page button label
+#: interface
+msgid "Got it!"
+msgstr "Verstanden!"
+
+# ID Guide toolbar label
+#: interface
+msgid "ID Guide"
+msgstr "Handbuch"
+
+# ID Guide segment label
+#: interface
+msgid "Insect Groups"
+msgstr "Insektengruppen"
+
+# ID Guide segment label
+#: interface
+msgid "Flowers"
+msgstr "Blüten"
+
+# Country page content
+#: interface
+msgid "Argentina"
+msgstr "Argentinien"
+
+# Country page content
+#: interface
+msgid "Brazil"
+msgstr "Brasilien"
+
+# Country page content
+#: interface
+msgid "Chile"
+msgstr "Chile"
+
+# Country page content
+#: interface
+msgid "Cyprus"
+msgstr "Zypern"
+
+# Country page content
+#: interface
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+# Country page content
+#: interface
+msgid "Sweden"
+msgstr "Schweden"
+
+# Home page toolbar label
+#: interface
+msgid "Home"
+msgstr "Start"
+
+# Home page button label
+#: interface
+msgid "Start Survey"
+msgstr "Erfassung starten"
+
+# Start survey alert message
+#: interface
+msgid "Discard"
+msgstr "Verwerfen"
+
+# Start survey alert button label
+#: interface
+msgid "Continue"
+msgstr "Weiter"
+
+# Start survey alert button label
+#: interface
+msgid "Draft"
+msgstr "Entwurf"
+
+# Start survey alert button message
+#: interface
+msgid "Previous survey draft exists, would you like to continue it?"
+msgstr ""
+"Es gibt bereits einen Erfassungsentwurf, möchtest Du diesen fortführen?"
+
+# Survey content
+#: interface
+msgid "Use the map to zoom in and tap on your <1>location</1>."
+msgstr "Verwende die Karte zum Hineinzoomen und tippe auf Deinen Standort"
+
+# Survey content
+#: interface
+msgid "Cancel"
+msgstr "Abbrechen"
+
+# Survey content
+#: interface
+msgid "Delete Survey"
+msgstr "Lösche Beobachtung"
+
+# Survey content
+#: interface
+msgid ""
+"Warning - This will discard the survey information you have entered so far."
+msgstr ""
+"Achtung - Dadurch werden die bisher eingegebenen Erfassungsdaten verworfen."
+
+# Survey Location page info message
+#: interface
+msgid ""
+"Enable your GPS to set your location, or use the map to zoom in and tap on "
+"your <1>location</1>.<3><p>Your location can be anywhere where there are "
+"flowers to attract pollinating insects, where you have permission to be, and"
+" where it is safe to go.</p><p>A garden or park, farm or nature reserve are "
+"all great locations for FIT Counts.</p><p>Please zoom in to find the spot "
+"that best matches your location.</p><p>Make sure you have the GPS turned on "
+"and permissions granted. If you are conducting a FIT Count offline or "
+"without a network connection, the app will not find your location on the "
+"map, but your GPS should record this for uploading later.</p><p>Your count "
+"results will be visible to others at the 1 km square level via the UKPoMS "
+"website.</p></3>"
+msgstr ""
+"Um Deinen Standort festzulegen, aktiviere GPS oder zoome in die Karte und "
+"tippe anschließend auf Deinen Standort. Dieser kann überall dort sein, wo es"
+" Blüten gibt, die bestäubende Insekten anlocken, wo Du die Erlaubnis hast, "
+"Dich aufzuhalten und wo es sicher ist. Geeignete Orte für die FIT-Zählungen "
+"sind beispielsweise Gärten, Parks, Bauernhöfe oder Naturschutzgebiete. Bitte"
+" zoome in die Karte, um den Ort zu finden, der am besten mit Deinem Standort"
+" übereinstimmt. Vergewissere Dich, dass das GPS eingeschaltet ist und die "
+"Berechtigungen erteilt wurden. Wenn du eine FIT-Zählung offline oder ohne "
+"Netzwerkverbindung durchführst, findet die App Deinen Standort nicht auf der"
+" Karte, Dein GPS sollte ihn jedoch speichern, um ihn später hochzuladen. "
+"Deine Ergebnisse werden in einer Auflösung von einem Quadratkilometer über "
+"die UKPoMS-Website für andere sichtbar sein."
+
+# Survey Location alert messag
+#: interface
+msgid "Please select a more accurate location"
+msgstr "Bitte wähle einen präziseren Standort"
+
+# Survey content
+#: interface
+msgid "Next"
+msgstr "Weiter"
+
+# Survey content
+#: interface
+msgid "of"
+msgstr "von"
+
+# Survey habitat info message
+#: interface
+msgid ""
+"Select one <1>habitat</1> that is the best match.<3><p>Select the habitat "
+"that best describes the 50x50 cm patch chosen for your count.</p><p>If not "
+"listed here, please select “Other” and type in a short description of the "
+"habitat.</p></3>"
+msgstr ""
+"Wähle den Lebensraum aus, der den für Deine Zählung ausgewählten 50x50 cm "
+"großen Standort am besten beschreibt. Wenn er hier nicht aufgeführt ist, "
+"wähle \"Sonstige\" und gib eine kurze Habitatbeschreibung ein."
+
+# Survey habitat page other placeholder text
+#: interface
+msgid ""
+"Please type in the name of the habitat you have chosen then go back to the "
+"habitat page"
+msgstr ""
+"Bitte gib den Namen des von Dir gewählten Lebensraums ein und gehe dann "
+"zurück zur Seite Lebensräume"
+
+# Survey habitat page other header label
+#: interface
+msgid "Habitat"
+msgstr "Lebensraum"
+
+# Survey habitat page divider label
+#: interface
+msgid "Other habitat"
+msgstr "Anderer Lebensraum"
+
+# Survey flower-cover info message
+#: interface
+msgid ""
+"What is the target <1>flower cover</1> in your 50x50 cm patch?<3><p>Estimate"
+" how much of your 50×50 cm patch is occupied by the target flowers (but not "
+"by the leaves of the target plant).</p></3>"
+msgstr ""
+"Wie hoch ist die Bedeckung Deiner Zielblüte auf deinem 50x50 cm-Standort? "
+"Schätze, wie hoch der Anteil der Fläche auf den ausgewählten 50x50 cm ist, "
+"der von der Zielblüte (aber nicht von den Blättern der Zielpflanze) bedeckt "
+"wird."
+
+# Survey flower-cover info message header
+#: interface
+msgid "Flower Cover"
+msgstr "Blütenbedeckung"
+
+# Survey flower-cover radio input
+#: interface
+msgid "Less than half"
+msgstr "Weniger als die Hälfte"
+
+# Survey flower-cover radio input
+#: interface
+msgid "Half of patch"
+msgstr "Die Hälfte der Fläche"
+
+# Survey flower-cover radio input
+#: interface
+msgid "More than half of patch"
+msgstr "Mehr als die Hälfte der Fläche"
+
+# Survey flower-cover radio input
+#: interface
+msgid "Not recorded"
+msgstr "Nicht gemeldet"
+
+# User registration page
+#: interface
+msgid "Create a free account"
+msgstr "Ein kostenloses Konto erstellen"
+
+# User registration page
+#: interface
+msgid "Full name"
+msgstr "Vor- und Nachname"
+
+# User registration page
+#: interface
+msgid "Email"
+msgstr "E-Mail"
+
+# User registration page
+#: interface
+msgid "Password"
+msgstr "Passwort"
+
+# User registration page
+#: interface
+msgid "How did you hear about FIT Counts?"
+msgstr "Wie hast Du von den FIT-Zählungen erfahren?"
+
+# User registration page
+#: interface
+msgid "Your identification experience"
+msgstr "Deine Artenkenntnis"
+
+# User registration page
+#: interface
+msgid ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+msgstr ""
+"Indem Du auf Registrieren klickst, erklärst Du Dich mit unserer "
+"Datenschutzrichtlinie und den Allgemeinen Geschäftsbedingungen "
+"einverstanden."
+
+# User registration page
+#: interface
+msgid "Sign Up"
+msgstr "Registrieren"
+
+# User registration page
+#: interface
+msgid "I am already a member"
+msgstr "Ich bin bereits Mitglied"
+
+# User registration page
+#: interface
+msgid "Sign In"
+msgstr "Anmelden"
+
+# User registration page
+#: interface
+msgid "How did you hear about us?"
+msgstr "Wie hast Du von uns erfahren?"
+
+# User registration page
+#: interface
+msgid "Identification experience"
+msgstr "Artenkenntnis"
+
+# User registration page
+#: interface
+msgid "Please fill in"
+msgstr "Bitte ausfüllen"
+
+# User registration page
+#: interface
+msgid "I am new to identifying wildlife"
+msgstr "Ich habe noch keine Artenkenntnisse"
+
+# User registration page
+#: interface
+msgid ""
+"I am familiar with identifying some wildlife groups (e.g. birds or "
+"butterflies) but not most pollinating insects"
+msgstr ""
+"Ich kenne bereits einige Tiergruppen (z.B. Vögel oder Tagfalter), die "
+"meisten Bestäuberinsekten sind mir jedoch unbekannt"
+
+# User registration page
+#: interface
+msgid "I am familiar with recognising the main groups of pollinating insect"
+msgstr "Ich erkenne die wichtigsten Gruppen von Bestäuberinsekten"
+
+# User registration page
+#: interface
+msgid ""
+"I am confident in identifying the commonly-occurring pollinating insects to "
+"species level"
+msgstr ""
+"Ich kann die am häufigsten auftretenden Bestäuberinsekten bis zur Art "
+"bestimmen "
+
+# User registration page
+#: interface
+msgid "Not stated"
+msgstr "keine Angabe"
+
+# User registration page
+#: interface
+msgid "Select"
+msgstr "Auswählen"
+
+# User login page
+#: interface
+msgid "Welcome back"
+msgstr "Willkommen zurück"
+
+# User login page
+#: interface
+msgid "Sign in to your account to start"
+msgstr "Melde Dich bei Deinem Konto an, um zu starten"
+
+# User login page
+#: interface
+msgid "Forgot password?"
+msgstr "Passwort vergessen?"
+
+# User login page
+#: interface
+msgid "email is a required field"
+msgstr "E-Mail ist ein Pflichtfeld"
+
+# User login page
+#: interface
+msgid "password is a required field"
+msgstr "Passwort ist ein Pflichtfeld"
+
+# User reset page
+#: interface
+msgid "Enter your email address to request a password reset."
+msgstr "Gib Deine E-Mail-Adresse ein, um ein neues Passwort anzufordern."
+
+# User reset page
+#: interface
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+# User reset page
+#: interface
+msgid "email must be a valid email"
+msgstr "E-Mail muss eine gültige E-Mail sein"
+
+# Upload user register form message
+#: interface
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+# Successful register alert message
+#: interface
+msgid "OK, got it"
+msgstr "Verstanden"
+
+# Successful register alert message
+#: interface
+msgid "Welcome aboard"
+msgstr "Willkommen an Bord"
+
+# Successful register alert message
+#: interface
+msgid ""
+"Before starting any surveys please check your email and click on the "
+"verification link."
+msgstr ""
+"Bevor Du eine Erfassung startest, klicke auf den Bestätigungslink in Deiner "
+"E-Mail."
+
+# Settings page label
+#: interface
+msgid "Logout"
+msgstr "Abmelden"
+
+# Settings page label
+#: interface
+msgid "Login"
+msgstr "Anmelden"
+
+# Settings page label
+#: interface
+msgid "Register"
+msgstr "Registrieren"
+
+# ID guide honeybees species profile
+#: interface
+msgid "Description"
+msgstr "Beschreibung"
+
+# ID guide honeybees species profile
+#: interface
+msgid "Extra information"
+msgstr "Weitere Informationen"
+
+# My surveys page content
+#: interface
+msgid "My Surveys"
+msgstr "Meine Erfassungen"
+
+# My surveys page content
+#: interface
+msgid "Pending"
+msgstr "Ausstehend"
+
+# My surveys page content
+#: interface
+msgid "Uploaded"
+msgstr "Hochgeladen"
+
+# My surveys page content
+#: interface
+msgid "<0>You have no finished surveys.</0>"
+msgstr "Du hast keine abgeschlossenen Erfassungen."
+
+# My surveys page content
+#: interface
+msgid "No uploaded surveys"
+msgstr "Keine hochgeladenen Erfassungen"
+
+# Survey species selection page species list
+#: interface
+msgid "<0>Which</0> target flower have you chosen?"
+msgstr "Welche Zielblüte hast Du ausgewählt?"
+
+# Survey species selection page species list
+#: interface
+msgid "Please add species image"
+msgstr "Bitte Bild der Art hinzufügen"
+
+# Survey species selection page species list
+#: interface
+msgid "No photo has been added."
+msgstr "Es wurde kein Foto hinzugefügt"
+
+# Survey species selection page info message
+#: interface
+msgid "Press <1></1> to add."
+msgstr "Drücke auf Hinzufügen"
+
+# Survey species selection page read more message
+#: interface
+msgid ""
+"Which target <1>flower</1> have you chosen?<3><p>Where possible please "
+"choose a patch of flowers from one of the target flower groups in the "
+"list.</p><p>If none of these is available at your location you can choose "
+"another flower that is attracting insects and select “Other”, then type in "
+"the name.</p><p>Your target flower can be growing in a patch all of the same"
+" flower, or among different flower species.</p><p>For each FIT Count, please"
+" upload one or two photos of your target flower.</p><p>This allows us to "
+"double-check the flower species used for the counts.</p></3>"
+msgstr ""
+"<3>Welche Zielblüte hast Du ausgewählt? Bitte wähle nach Möglichkeit einen "
+"Standort mit einer der Zielblüten aus der Liste aus. Wenn keine der "
+"gelisteten Pflanzen an Deinem Standort zu finden ist, dann wähle eine andere"
+" Blüte, die Insekten anzieht, klicke auf \"Weitere\" und trage dort den "
+"Namen ein. Deine Zielblüte kann auf einem Standort wachsen, auf dem "
+"ausschließlich Blüten dieser Art oder diese Art gemischt mit anderen Arten "
+"vorkommt. Bitte lade für jede FIT-Zählung ein oder zwei Fotos Deiner "
+"Zielblüte hoch, sodass wir diese nochmals nachbestimmen können."
+
+# Survey species selection page read more header
+#: interface
+msgid "Flower"
+msgstr "Blüte"
+
+# Survey species selection page divider label
+#: interface
+msgid "Please add the name of the flower"
+msgstr "Bitte ergänze den Pflanzennamen"
+
+# Survey species selection page label
+#: interface
+msgid "Other flower name"
+msgstr "Weiterer Pflanzenname"
+
+# Survey species manual entry placeholder
+#: interface
+msgid ""
+"Please type in the name of the target flower you have chosen then go back to"
+" the target flower page"
+msgstr ""
+"Bitte gib den Namen der von Dir gewählten Zielblüte ein und geh dann zurück "
+"zur Seite der Zielblüte"
+
+# Survey flower count page divider label
+#: interface
+msgid "Number"
+msgstr "Anzahl"
+
+# Survey flower count page info message
+#: interface
+msgid ""
+"What are the <1>number</1> and <3>type</3> of flowers in your "
+"patch?<5><p>The number of flowers in a patch can strongly relate to the "
+"number of insect visitors recorded, so it is important to provide this "
+"information!</p><p>Only count flowers that are reasonably fresh and likely "
+"to attract insects – ‘dead-head’ flowers and seedheads should not be "
+"counted.</p><p>Flowers need to be counted in different ways depending on "
+"their structure.</p><p>If you have chosen a target flower from our list, the"
+" flower type is shown by default.</p><p>If you have chosen “Other” target "
+"flower, please count:</p><5><0><0>Individual flowers</0> - each flower "
+"counts as one unit</0><1><0>Flower heads</0> (where there are lots of tiny "
+"flowers within a larger flower head, e.g. dandelion or daisy) – each flower "
+"head counts as one unit</1><2><0>Umbels</0> (for flowers that have small "
+"flowers grouped into ‘umbels’, like inside-out umbrellas, e.g. hogweed) – "
+"each umbel counts as one unit</2><3><0>Spikes</0> (where a number of small "
+"flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
+" unit</3></5></5>"
+msgstr ""
+"Wie viele und welcher Blütentyp kommt auf Deinem Standort vor? Die Anzahl der Blüten auf einem Standort kann in engem Zusammenhang mit der Anzahl der erfassten Insekten stehen. Deshalb ist es wichtig, diese Information mit anzugeben. Zähle nur relativ frische Blüten, die wahrscheinlich Insekten anziehen - vertrocknete Blüten oder Samenköpfe sollten nicht gezählt werden. Blüten müssen je nach ihrer Struktur auf unterschiedliche Weise gezählt werden. Wenn Du eine Ziel-Büte aus unserer Liste ausgewählt hast, wird der Blütentyp standardmäßig angezeigt. Wenn Du als Ziel-Blüte \"Andere\" ausgewählt hast, zähle bitte: einzelne Blüten - jede Blüte zählt als eine Einheit. Blütenköpfe (mit vielen kleinen Blüten innerhalb eines größeren Blütenkopfes, z. B. Löwenzahn oder Gänseblümchen) - jeder Blütenkopf zählt als eine Einheit\n"
+"Dolden (oder Blüten mit kleinen Blüten, die in \"Dolden\" gruppiert sind, wie umgedrehte Regenschirme, z. B. Bärenklau) - jede Dolde zählt als eine Einheit\n"
+"Ähren (wo eine Anzahl kleiner Blüten entlang eines Stiels angeordnet sind, z. B. Lavendel) - jede Ähre zählt als eine Einheit"
+
+# Survey flower count page info header
+#: interface
+msgid "Flower Count"
+msgstr "Blütenzählung"
+
+# Survey flower count page divider label
+#: interface
+msgid "Type"
+msgstr "Typ"
+
+# Survey flower count page content
+#: interface
+msgid "Individual Flower"
+msgstr "Einzelne Blüte"
+
+# Survey flower count page content
+#: interface
+msgid "Head"
+msgstr "Kopf"
+
+# Survey flower count page content
+#: interface
+msgid "Umbel"
+msgstr "Dolde"
+
+# Survey flower count page content
+#: interface
+msgid "Spike"
+msgstr "Blütenkopf"
+
+# My surveys page content
+#: interface
+msgid "Today"
+msgstr "Heute"
+
+# My surveys page content
+#: interface
+msgid "Record"
+msgstr "Erfassen"
+
+# My surveys page content
+#: interface
+msgid "Delete"
+msgstr "Löschen"
+
+# My surveys page content
+#: interface
+msgid "Yesterday"
+msgstr "Gestern"
+
+# My surveys page content info background message
+#: interface
+msgid "To delete any surveys swipe it to the left."
+msgstr "Um eine Erfassung zu löschen, wische nach links."
+
+# My surveys page content info background message button
+#: interface
+msgid "Hide"
+msgstr "Verbergen"
+
+# My surveys page content info background message
+#: interface
+msgid "You have no finished surveys."
+msgstr "Du hast keine abgeschlossenen Erfassungen"
+
+# Add Photo message
+#: interface
+msgid "Choose a method to upload a photo"
+msgstr "Wähle eine Methode zum Hochladen eines Fotos"
+
+# Add Photo message
+#: interface
+msgid "Gallery"
+msgstr "Galerie"
+
+# Add Photo message
+#: interface
+msgid "Camera"
+msgstr "Kamera"
+
+# Credits page content
+#: interface
+msgid "Graphics:"
+msgstr "Abbildungen:"
+
+# Credits page content
+#: interface
+msgid "Team members of the following projects"
+msgstr "Teammitglieder der folgenden Projekte"
+
+# Credits page content
+#: interface
+msgid "Photos of flowers and insects by:"
+msgstr "Fotos der Blumen und Insekten von:"
+
+# Credits page content
+#: interface
+msgid "Thanks to the following for additional photos"
+msgstr "Vielen Dank an die folgenden Personen für zusätzliche Fotos"
+
+# Credits page content
+#: interface
+msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
+msgstr "Icons erstellt von Freepik von www.flaticon.com"
+
+# Credits page content
+#: interface
+msgid "App guide illustrations made by"
+msgstr "Illustration des App-Handbuches von"
+
+# Survey flower page info message
+#: interface
+msgid "Which target <1>flower</1> have you chosen?"
+msgstr "Welche Zielblüte hast Du ausgewählt?"
+
+# Survey flower page section divider
+#: interface
+msgid "Photo of your target flower"
+msgstr "Foto Deiner Zielblüte"
+
+# Survey flower page section divider
+#: interface
+msgid "Target flower chosen"
+msgstr "Zielblüte ausgewählt"
+
+# Survey flower patch page values
+#: interface
+msgid "In a larger patch of the same flower"
+msgstr "In einem größeren Bestand derselben Blüte"
+
+# Survey flower patch page values
+#: interface
+msgid "In a larger patch of many different flowers"
+msgstr "In einem größeren Bestand mit vielen verschiedenen Blüten"
+
+# Survey flower patch page values
+#: interface
+msgid "More or less isolated"
+msgstr "Mehr oder weniger isoliert"
+
+# Survey flower patch "Read more" alert message
+#: interface
+msgid ""
+"Is your 50x50cm patch of <1>target flowers</1> growing:<3><p>The "
+"surroundings of a flower patch can affect its attractiveness to "
+"insects.</p><p>Please indicate the situation that best describes the area "
+"around your flower patch (roughly within 5 metres).</p></3>"
+msgstr ""
+"Wächst Dein 50x50cm großer Blütenstandort: Die Umgebung eines "
+"Blütenstandortes kann seine Attraktivität für Insekten beeinflussen. Bitte "
+"beschreibe die Umgebung Deines Blütenstandortes (im Umkreis von ca. 5 "
+"Metern)."
+
+# Survey flower patch info button label
+#: interface
+msgid "READ MORE"
+msgstr "MEHR DAZU"
+
+# Survey flower patch "Read more" alert header text
+#: interface
+msgid "Flower patch"
+msgstr "Blütenbestand"
+
+# Survey flower patch "Read more" alert button text
+#: interface
+msgid "Got it"
+msgstr "Verstanden"
+
+# Survey weather sky page values
+#: interface
+msgid "All or mostly blue"
+msgstr "Ganz oder überwiegend wolkenlos"
+
+# Survey weather sky page values
+#: interface
+msgid "Half blue and half cloud"
+msgstr "Halb bewölkt"
+
+# Survey weather sky page values
+#: interface
+msgid "All or mostly cloud"
+msgstr "Ganz oder überwiegend bewölkt"
+
+# Survey weather shade page values
+#: interface
+msgid "Entirely in sunshine"
+msgstr "Vollständig in der Sonne"
+
+# Survey weather shade page values
+#: interface
+msgid "Partly in sun and partly shaded"
+msgstr "Halb in der Sonne und halb im Schatten"
+
+# Survey weather shade page values
+#: interface
+msgid "Entirely shaded"
+msgstr "Vollständig im Schatten"
+
+# Survey weather wind page values
+#: interface
+msgid "Leaves still/moving occasionally"
+msgstr "Blätter bewegen sich nicht/leicht"
+
+# Survey weather wind page values
+#: interface
+msgid "Leaves moving gently all the time"
+msgstr "Blätter bewegen sich leicht"
+
+# Survey weather wind page values
+#: interface
+msgid "Leaves moving strongly"
+msgstr "Blätter bewegen sich stark"
+
+# Survey weather wind page button label
+#: interface
+msgid "Save my count"
+msgstr "Speichere meine Zählung"
+
+# Survey insect count page counter button label
+#: interface
+msgid "Paused"
+msgstr "Pausiert"
+
+# Survey insect count page counter button label
+#: interface
+msgid "Time's up!"
+msgstr "Die Zeit ist um!"
+
+# Survey insect count page counter warning message
+#: interface
+msgid "Time expire!"
+msgstr "Die Zeit läuft ab!"
+
+# My Records page info message
+#: interface
+msgid "Please do not forget to upload any pending surveys!"
+msgstr "Bitte vergiss nicht, die ausstehenden Erfassungen hochzuladen!"
+
+# Credit page
+#: interface
+msgid "FIT Count logo"
+msgstr "FIT-Zählung Logo"
+
+# Toast message after successful login
+#: interface
+msgid "Successfully logged in"
+msgstr "Erfolgreich angemeldet"
+
+# Onboarding content
+#: interface
+msgid ""
+"<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
+"Insect Timed Count"
+msgstr ""
+"Bestäubende Insekten sind wichtig. Bitte hilf uns, sie mit einer FIT-Zählung"
+" (Flower-Insect Timed Count) zu erfassen."
+
+# Onboarding content
+#: interface
+msgid ""
+"<0><0>Wait for good weather! </0><1>Find a patch of target "
+"flowers</1><2>Count the flowers in your patch</2><3>Count <1>all</1> insects"
+" that <3>land</3> on the <6>target flowers</6></3><4>The app will tell you "
+"when your ten minutes is up</4><5>Save your count, and upload it to the "
+"website</5></0>"
+msgstr ""
+"Warte auf gutes Wetter. Finde einen Standort mit Zielblüten. Zähle die "
+"Blüten auf diesem Standort. Zähle alle Insekten, die auf der Zielblüte "
+"landen. Die App wird Dir mitteilen, wenn die 10 Minuten vorbei sind. "
+"Speichere Deine Zählung und lade sie auf der Website hoch."
+
+# Onboarding content
+#: interface
+msgid ""
+"Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
+" get started!"
+msgstr ""
+"Lies unseren vollständigen Leitfaden, sieh dir die Beschreibungen der "
+"Arten(gruppen) an - und schon kannst du loslegen"
+
+# Onboarding content
+#: interface
+msgid "Let's start the count!"
+msgstr "Beginnen wir mit der Zählung!"
+
+# User authentication toast message
+#: interface
+msgid "Sorry"
+msgstr "Entschuldigung"
+
+# User authentication toast message
+#: interface
+msgid "The user credentials were incorrect."
+msgstr "Die Anmeldedaten des Benutzers waren falsch."
+
+# How To page content
+#: interface
+msgid "How To"
+msgstr "Wie man"
+
+# How To page content
+#: interface
+msgid "FIT Count quick guide"
+msgstr "FIT-Zählung Kurzanleitung"
+
+# How To page content
+#: interface
+msgid ""
+"FIT Counts take about 10–15 minutes, during which you are asked to count "
+"every insect that lands on the flowers of your chosen target flower species."
+msgstr ""
+"Eine FIT-Zählung dauert 10 bis 15 Minuten. In dieser Zeit zählst Du alle "
+"Insekten, die auf der von Dir ausgewählten Zielblüte landen."
+
+# How To page content
+#: interface
+msgid ""
+"You can complete a FIT Count in good weather between 1 April and 30 "
+"September."
+msgstr ""
+"Du kannst eine FIT-Zählung bei gutem Wetter zwischen dem 1. April und dem "
+"30. September durchführen."
+
+# How To page content (non-UK)
+#: interface
+msgid "You can complete a FIT Count in good weather at any time of year."
+msgstr ""
+"Du kannst eine FIT-Zählung bei gutem Wetter und zu jeder Jahreszeit "
+"durchführen."
+
+# How To page content
+#: interface
+msgid ""
+"Choose just one type of flower as your target flower - where possible use "
+"one of the FIT Count target flowers, but if you can't find one from the list"
+" you can choose a different flower as the target."
+msgstr ""
+"Wähle nur eine Blütenart als Deine Zielblüte aus - wenn möglich, wähle eine "
+"der für die FIT-Zählung vorgegebenen Arten aus der Liste aus. Wenn du keine "
+"Blüte aus der Liste findest, kannst du auch eine andere Zielblüte auswählen."
+
+# How To page content
+#: interface
+msgid "Mark out a 50 × 50 cm patch containing your target."
+msgstr "Markiere einen 50 x 50 cm-Standort, auf dem deine Zielblüte wächst."
+
+# How To page content
+#: interface
+msgid ""
+"Count the number of individual flowers for your target species that are "
+"within your patch."
+msgstr ""
+"Zähle jede Blüte deiner Zielblüte innerhalb des ausgewählten Standortes."
+
+# How To page content
+#: interface
+msgid ""
+"Using the timer in the app, spend ten minutes counting all insects that land"
+" on the target flowers (ignore other flowers, and do your best to count each"
+" individual insect once only!)."
+msgstr ""
+"Zähle mit Hilfe des Timers in der App zehn Minuten lang alle Insekten, die "
+"auf den Zielblüten landen (ignoriere andere Blüten und versuche, jedes "
+"einzelne Insekt nur einmal zu zählen)."
+
+# How To page content
+#: interface
+msgid "Fill in some simple weather details."
+msgstr "Trage einige einfache Wetterinformationen ein"
+
+# How To page content
+#: interface
+msgid "Save your count, and upload it to the website."
+msgstr "Speichere Deine Zählung und lade sie auf der Website hoch."
+
+# How To page content
+#: interface
+msgid "Further information and guides are available at"
+msgstr "Weitere Informationen und Anleitungen findest Du unter"
+
+# How To page content
+#: interface
+msgid ""
+"Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
+" any that you don't recognise should be counted as \"other insects\"."
+msgstr ""
+"Bestimme die Insekten nach ihren großen Gruppen (Hummeln, Schwebfliegen "
+"usw.) - alle, die du nicht erkennst, sollten als \"andere Insekten\" gezählt"
+" werden."
+
+# How To page content
+#: interface
+msgid ""
+"\"Good weather\" is dry, and with temperature at least 13°C in sunny "
+"conditions, or at least 15°C when cloudy."
+msgstr ""
+"\"Gutes Wetter\" ist trocken mit mindestens 13°C bei Sonnenschein oder "
+"mindestens 15°C bei bewölktem Wetter."
+
+# Context term
+#: interface
+msgid "The timer will now start!"
+msgstr "Der Timer wird nun gestartet!"
+
+# Context term
+#: interface
+msgid ""
+"Count every insect that lands on the target flowers (count each individual "
+"once)."
+msgstr ""
+"Zähle jedes Insekt, das auf Deiner Zielblüte landet (zähle jedes Individuum "
+"einmal)"
+
+# Context term
+#: interface
+msgid ""
+"Tap the insect images to increase your count (minus buttons will decrease "
+"the count)"
+msgstr ""
+"Tippe auf die Insektenbilder, um die Anzahl zu erhöhen (Minustasten "
+"verringern die Anzahl)"
+
+# Context term
+#: interface
+msgid "Start Count"
+msgstr "Starte die Zählung"
+
+# Context term
+#: BR
+msgid ""
+"FIT Counts take about 10–15 minutes, during which you are asked to count "
+"every flower visitor that lands on the flowers of your chosen target flower "
+"species."
+msgstr ""
+"Eine FIT-Zählung dauert 10 bis 15 Minuten. In dieser Zeit zählst Du alle "
+"blütenbesuchenden Insekten, die auf der von Dir ausgewählten Zielblüte "
+"landen."
+
+# Context term
+#: BR
+msgid ""
+"Using the timer in the app, spend ten minutes counting all flower visitors "
+"that land on the target flowers (ignore other flowers, and do your best to "
+"count each individual flower visitor once only!)."
+msgstr ""
+"Zähle mit Hilfe des Timers in der App zehn Minuten lang alle Blütenbesucher,"
+" die auf den Zielblüten landen (ignoriere andere Blüten und versuche, jeden "
+"einzelnen Blütenbesucher nur einmal zu zählen)."
+
+# Context term
+#: BR
+msgid ""
+"Identify the flower visitors into their broad groups (bumblebees, hoverflies"
+" etc.) – any that you don't recognise should be counted as \"other insects\""
+" or \"don't know\"."
+msgstr ""
+"Bestimme die Blütenbesucher nach ihren großen Gruppen (Hummeln, "
+"Schwebfliegen usw.) - alle, die Du nicht erkennst, werden als \"andere "
+"Insekten\" oder \"weiß nicht\" gezählt."
+
+# From survey pages
+#: interface
+msgid "Note: it will remain in the gallery."
+msgstr "Hinweis: Es wird in der Galerie verbleiben."
+
+# From survey pages
+#: interface
+msgid "Oops! Something went wrong."
+msgstr "Oops! Etwas ist schief gelaufen"
+
+# From survey pages
+#: interface
+msgid "This is the error event id: {{eventId}}"
+msgstr "Dies ist die Fehlerereignis-ID: {{eventId}}"
+
+# From survey pages
+#: interface
+msgid "What is the <1>sky</1> above your location?"
+msgstr "Wie sieht der Himmel über Deinem Standort aus?"
+
+# From survey pages
+#: interface
+msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
+msgstr ""
+"Wie viel Sonne fiel während der FIT-Zählung auf Deinen Standort; war es:"
+
+# From survey pages
+#: interface
+msgid "What was the <1>wind</1> strength?"
+msgstr "Wie war die Windstärke?"
+
+# Button label
+#: interface
+msgid "Upload"
+msgstr "Hochladen"
+
+# Context term
+#: interface
+msgid ""
+"If you don't know which insect group, add to the \"Other insects\" category."
+msgstr ""
+"Wenn Du nicht weißt, um welche Insektengruppe es sich handelt, füge sie der "
+"Kategorie \"Andere Insekten\" hinzu."
+
+# Logout message
+#: interface
+msgid "Are you sure you want to logout?"
+msgstr "Bist du sicher, dass Du Dich abmelden möchtest?"
+
+# Logout message
+#: interface
+msgid "Discard local data"
+msgstr "Verwerfe lokale Daten"
+
+# Survey back button label
+#: interface
+msgid "Insect"
+msgstr "Insekten"
+
+# Survey back button label
+#: interface
+msgid "Location"
+msgstr "Standort"
+
+# Survey back button label
+#: interface
+msgid "Count"
+msgstr "Zählung"
+
+# Survey back button label
+#: interface
+msgid "Cover"
+msgstr "Bedeckung"
+
+# Survey back button label
+#: interface
+msgid "Patch"
+msgstr "Standort"
+
+# Survey back button label
+#: interface
+msgid "Sky"
+msgstr "Himmel"
+
+# Survey back button label
+#: interface
+msgid "Shade"
+msgstr "Schatten"
+
+# Alert message at the end of survey
+#: interface
+msgid ""
+"Thanks for completing your FIT Count - all results help us to monitor insect"
+" populations."
+msgstr ""
+"Vielen Dank für die Teilnahme an der FIT-Zählung - alle Ergebnisse helfen "
+"uns beim Monitoring der Insektenpopulationen."
+
+# Alert message at the end of survey
+#: interface
+msgid ""
+"You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether - the UK "
+"average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
+"insects per count."
+msgstr ""
+"Du hast insgesamt {{numberOfOccurrences}} Insekten gezählt - der britische "
+"Durchschnitt für {{month}} ist {{averageInsectCountForThisMonth}} Insekten "
+"pro Zählung."
+
+# Alert message at the end of survey - non UK
+#: interface
+msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
+msgstr "Du hast insgesamt {{numberOfOccurrences}} Insekten gezählt."
+
+# Alert message at the end of survey
+#: interface
+msgid "Go Home"
+msgstr "Geh nach Hause"
+
+# Settings page divider label
+#: interface
+msgid "User"
+msgstr "Nutzer"
+
+# User registration identification experience button label
+#: interface
+msgid "Done"
+msgstr "Erledigt"
+
+# User registration "Happy to be contacted" label
+#: interface
+msgid "Happy to be contacted"
+msgstr "Wir freuen uns über deine Kontaktaufnahme"
+
+# Delete survey alert message
+#: interface
+msgid "Are you sure you want to delete this survey?"
+msgstr "Bist du sicher, dass du diese Erfassung löschen willst?"
+
+# App version
+#: interface
+msgid "App version"
+msgstr "App-Version"
+
+# Month name
+#: interface
+msgid "January"
+msgstr "Januar"
+
+# Month name
+#: interface
+msgid "February"
+msgstr "Februar"
+
+# Month name
+#: interface
+msgid "March"
+msgstr "März"
+
+# Month name
+#: interface
+msgid "April"
+msgstr "April"
+
+# Month name
+#: interface
+msgid "May"
+msgstr "Mai"
+
+# Month name
+#: interface
+msgid "June"
+msgstr "Juni"
+
+# Month name
+#: interface
+msgid "July"
+msgstr "Juli"
+
+# Month name
+#: interface
+msgid "August"
+msgstr "August"
+
+# Month name
+#: interface
+msgid "September"
+msgstr "September"
+
+# Month name
+#: interface
+msgid "October"
+msgstr "Oktober"
+
+# Month name
+#: interface
+msgid "November"
+msgstr "November"
+
+# Month name
+#: interface
+msgid "December"
+msgstr "Dezember"
+
+# A label part of user surveys page
+#: interface
+msgid "Insects"
+msgstr "Insekten"
+
+# A label part of user surveys page
+#: interface
+msgid "Survey"
+msgstr "Erfassung"
+
+# Survey upload process alert message
+#: interface
+msgid "Sorry, your account hasn't been verified yet or is blocked."
+msgstr "Dein Konto wurde leider noch nicht verifiziert oder ist gesperrt."
+
+# Survey upload process alert message
+#: interface
+msgid "Please log in first."
+msgstr "Bitte melde Dich zuerst an."
+
+# Survey upload process alert message
+#: interface
+msgid "Looks like you are offline!"
+msgstr "Sieht so aus als wärst Du offline!"
+
+# Survey remove photo alert message
+#: interface
+msgid "Are you sure you want to remove this photo?"
+msgstr "Bist Du sicher, dass Du dieses Foto entfernen möchtest?"
+
+# Failed to upload image message
+#: interface
+msgid "Sorry, we couldn't get the image."
+msgstr "Entschuldigung, wir haben das Bild nicht bekommen."
+
+# ID guide title
+#: interface
+msgid "Pollinator Groups"
+msgstr "Bestäuber-Gruppen"
+
+# Menu page label
+#: interface
+msgid "Terms and Conditions"
+msgstr "Bedingungen und Konditionen"
+
+# Survey required label
+#: interface
+msgid "required"
+msgstr "erforderlich"
+
+# About page content
+#: interface
+msgid ""
+"FIT Counts are suitable for all, in urban or rural locations, and can be "
+"done at any time during the FIT Count season – see the quick guide <1></1> "
+"for the season in your country."
+msgstr ""
+"FIT-Zählungen sind für alle geeignet, ob in der Stadt oder auf dem Land, und"
+" können jederzeit während der FIT-Zählsaison durchgeführt werden - schau in "
+"der Kurzanleitung nach, wann in Deinem Land Zählsaison ist."
+
+# About page content
+#: interface
+msgid ""
+"An increasing amount of evidence suggests that pollinator species diversity "
+"has declined in many parts of the world, with the strongest evidence coming "
+"from Europe and North America. Less is known about changes in pollinator "
+"abundance, and we need much more data to be able to track this. You can help"
+" by doing a FIT Count, maybe even repeating it over the season. You don’t "
+"need to identify the insects to species level, only to within broad groups "
+"e.g. bumblebees, hoverflies, butterflies & moths, wasps."
+msgstr ""
+"Immer mehr Hinweise deuten darauf hin, dass die Artenvielfalt von Bestäubern"
+" in vielen Teilen der Welt zurückgegangen ist, wobei die stärksten Hinweise "
+"aus Europa und Nordamerika stammen. Über die Veränderungen in der "
+"Bestäubervielfalt ist weniger bekannt. Wir brauchen viel mehr Daten, um "
+"diese Entwicklung verfolgen zu können. Du kannst dazu beitragen, indem Du "
+"eine FIT-Zählung durchführst und diese vielleicht sogar im Laufe der Saison "
+"wiederholst. Dazu musst Du die Insekten nicht bis zur Art bestimmen, sondern"
+" nur innerhalb großer Gruppen, z. B. Hummeln, Schwebfliegen, Schmetterlinge "
+"und Motten, Wespen."
+
+# About page content
+#: interface
+msgid ""
+"The FIT Count was originally developed through the UK Pollinator Monitoring "
+"Scheme (PoMS). Similar methods are now being adopted in other countries, and"
+" this app is used by a wide range of pollinator monitoring projects:"
+msgstr ""
+"Die FIT-Zählung wurde ursprünglich im Rahmen des britischen Pollinator "
+"Monitoring Scheme (PoMS) entwickelt. Ähnliche Methoden werden nun auch in "
+"anderen Ländern angewandt. Diese App wird von einer Vielzahl von Projekten "
+"für das Monitoring von Bestäubern genutzt:"
+
+# About page content
+#: interface
+msgid ""
+"The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
+"and can be contacted <1>here</1>."
+msgstr ""
+"Das Projekt FIT-Zählung wird vom britischen Zentrum für Ökologie und "
+"Hydrologie (CEH) unterstützt und kann hier kontaktiert werden."
+
+# Credits page content
+#: interface
+msgid "This app has been created by the"
+msgstr "Diese App wurde erstellt von"
+
+# Credits page content
+#: interface
+msgid "with technical development by"
+msgstr "mit technischer Entwicklung durch"
+
+# Credits page content
+#: interface
+msgid ""
+"App development has been supported by the funders and partners of these "
+"pollinator projects around the world"
+msgstr ""
+"Die Entwicklung der App wurde von Partnern der Bestäuberprojekte in aller "
+"Welt unterstützt"
+
+# Survey validation message
+#: interface
+msgid "Please add at least 1 photo."
+msgstr "Bitte füge mindestens 1 Foto hinzu."
+
+# Survey validation message
+#: interface
+msgid "Flower number is a required field."
+msgstr "Anzahl Blüten ist ein Pflichtfeld"
+
+# Survey validation message
+#: interface
+msgid "Flower type is a required field."
+msgstr "Blütentyp ist ein Pflichtfeld."
+
+# Survey validation message
+#: interface
+msgid "Survey incomplete"
+msgstr "Erfassung unvollständig"
+
+# Survey validation message
+#: interface
+msgid "Habitat \"Other\" is a required field."
+msgstr "Lebensraum \"Andere\" ist ein Pflichtfeld"
+
+# Survey validation message
+#: interface
+msgid "Flower \"Other\" is a required field."
+msgstr "Blüte \"Andere\" ist ein Pflichtfeld"
+
+# Menu path adress
+#: interface
+msgid "privacy-notice"
+msgstr "Datenschutzhinweis"
+
+# Menu path adress
+#: interface
+msgid "terms"
+msgstr "Bedingungen"
+
+# Location name search on a map
+#: interface
+msgid "Search for a location..."
+msgstr "Suche nach einem Standort..."
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "Enjoying the app?"
+msgstr "Gefällt Dir die App?"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "Not really"
+msgstr "Eigentlich nicht"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "Yes!"
+msgstr "Ja!"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "Would you mind giving us some feedback?"
+msgstr "Würdest Du uns bitte ein Feedback geben?"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "No, thanks"
+msgstr "Nein danke"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "OK, sure"
+msgstr "OK, sicher"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "How about a rating on the App Store then?"
+msgstr "Wie wäre es dann mit einer Bewertung im App Store?"
+
+# Asking user for a feedback on app stores
+#: interface
+msgid "How about a rating on the Play Store then?"
+msgstr "Wie wäre es dann mit einer Bewertung im Play Store?"
+
+# Shown when tapping an uploaded survey
+#: interface
+msgid ""
+"To view your FIT Count data after uploading please visit the project website"
+" for your country, where available (e.g. <2>UK PoMS</2>)"
+msgstr ""
+"Um die Daten deiner FIT-Zählung nach dem Hochladen anzuschauen, gehe zur "
+"Projekt-Homepage deines Landes (soweit verfügbar)"
+
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# AUTOMATICALLY GENERATED LIST STARTS HERE - do not manually modify past this!
+# ============================================================================
+# ============================================================================
+# ============================================================================
+# insects name
+#: UK BR CY IE
+msgid "Beetles"
+msgstr "Käfer"
+
+# insects name
+#: UK CY IE
+msgid "Bumblebees"
+msgstr "Hummeln"
+
+# insects name
+#: UK BR CY IE
+msgid "Butterflies and moths"
+msgstr "Tagfalter und Nachtfalter"
+
+# insects name
+#: UK BR CY IE
+msgid "Honeybees"
+msgstr "Honigbienen"
+
+# insects name
+#: UK CY IE
+msgid "Hoverflies"
+msgstr "Schwebfliegen"
+
+# insects name
+#: UK CY IE
+msgid "Other flies"
+msgstr "Andere Fliegen"
+
+# insects name
+#: UK BR CY IE
+msgid "Other insects"
+msgstr "Andere Insekten"
+
+# insects name
+#: UK BR CY IE
+msgid "Small insects (<3mm)"
+msgstr "Kleine Insekten (<3mm)"
+
+# insects name
+#: UK BR CY IE
+msgid "Solitary bees"
+msgstr "Solitärbienen"
+
+# insects name
+#: UK BR CY IE
+msgid "Wasps"
+msgstr "Wespen"
+
+# insects name
+#: BR
+msgid "Bats"
+msgstr "Fledermäuse"
+
+# insects name
+#: BR
+msgid "Hummingbirds"
+msgstr "Kolibris"
+
+# insects name
+#: BR IE
+msgid "Orchid bees"
+msgstr "Prachtbienen"
+
+# insects name
+#: BR
+msgid "Stingless bees"
+msgstr "Stachellose Bienen"
+
+# insects name
+#: BR
+msgid "Bumblebees sensu lato"
+msgstr "Hummeln im weiteren Sinne"
+
+# insects name
+#: BR
+msgid "Flies"
+msgstr "Fliegen"
+
+# insects name
+#: BR
+msgid "Don't know"
+msgstr "Ich weiß es nicht"
+
+# habitats value
+#: UK BR CY IE
+msgid "Garden"
+msgstr "Garten"
+
+# habitats value
+#: UK IE
+msgid "School Grounds"
+msgstr "Schulgelände"
+
+# habitats value
+#: UK BR CY IE
+msgid "Parkland with trees"
+msgstr "Parklandschaft mit Bäumen"
+
+# habitats value
+#: UK IE
+msgid "Churchyard"
+msgstr "Kirchhof"
+
+# habitats value
+#: UK IE
+msgid "Grassy verge or hedgerow edge"
+msgstr "Grasiger Saum oder Heckensaum"
+
+# habitats value
+#: UK BR CY IE
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "blütenreiche Wiesen und Weiden"
+
+# habitats value
+#: UK BR IE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Zierrasen (meist kurz gemäht)"
+
+# habitats value
+#: UK BR IE
+msgid "Farm crops or grassy pasture"
+msgstr "Acker oder Weidefläche"
+
+# habitats value
+#: UK IE
+msgid "Upland moorland"
+msgstr "Hochmoor"
+
+# habitats value
+#: UK IE
+msgid "Lowland heath"
+msgstr "Heide"
+
+# habitats value
+#: UK BR IE
+msgid "Waste ground or brownfield site"
+msgstr "Deponie oder Industriebrache"
+
+# habitats value
+#: UK IE
+msgid "Woodland"
+msgstr "Waldgebiet"
+
+# habitats value
+#: BR CY
+msgid "Botanical garden"
+msgstr "Botanischer Garten"
+
+# habitats value
+#: BR CY
+msgid "Forest"
+msgstr "Wald"
+
+# habitats value
+#: CY
+msgid "Cultivation"
+msgstr "Landwirtschaftliche Nutzfläche"
+
+# habitats value
+#: CY
+msgid "Salt marsh"
+msgstr "Salzmarsch"
+
+# habitats value
+#: BR CY
+msgid "Freshwater wetland"
+msgstr "Süßwasser-Feuchtgebiet"
+
+# habitats value
+#: CY
+msgid "Dry shrub"
+msgstr "Trockengebüsch"
+
+# habitats value
+#: CY
+msgid "Acacia stands"
+msgstr "Akazienbestände"
+
+# habitats value
+#: CY
+msgid "Roadside verges"
+msgstr "Straßenränder"
+
+# habitats value
+#: UK BR CY
+msgid "Other"
+msgstr "Andere"
+
+# habitats value
+#: BR
+msgid "Caatinga"
+msgstr "Caatinga"
+
+# habitats value
+#: BR
+msgid "Plantation forest"
+msgstr "Plantagenwald"
+
+# habitats value
+#: BR
+msgid "Cerrado"
+msgstr "Cerrado"
+
+# flowers name
+#: UK IE
+msgid "Bramble"
+msgstr "Brombeere"
+
+# flowers name
+#: UK IE
+msgid "Buddleja"
+msgstr "Sommerflieder, Buddleja"
+
+# flowers name
+#: UK IE
+msgid "Buttercup"
+msgstr "Hahnenfuß"
+
+# flowers name
+#: UK IE
+msgid "Dandelion"
+msgstr "Löwenzahn"
+
+# flowers name
+#: UK IE
+msgid "Hawthorn"
+msgstr "Weißdorn"
+
+# flowers name
+#: UK IE
+msgid "Heather"
+msgstr "Heidekraut"
+
+# flowers name
+#: UK IE
+msgid "Hogweed"
+msgstr "Wiesen-Bärenklau"
+
+# flowers name
+#: UK IE
+msgid "Ivy"
+msgstr "Efeu"
+
+# flowers name
+#: UK IE
+msgid "Knapweed"
+msgstr "Flockenblume"
+
+# flowers name
+#: UK IE
+msgid "Lavender"
+msgstr "Lavendel"
+
+# flowers name
+#: UK IE
+msgid "Ragwort"
+msgstr "Greiskraut"
+
+# flowers name
+#: UK IE
+msgid "Thistle"
+msgstr "Distel"
+
+# flowers name
+#: UK IE
+msgid "White Clover"
+msgstr "Weißklee"
+
+# flowers name
+#: UK IE
+msgid "White Dead-nettle"
+msgstr "Weiße Taubnessel"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Fennel"
+msgstr "Fenchel"
+
+# flowers name
+#: CY
+msgid "Myrtle"
+msgstr "Myrte"
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr "Olivenbaum"
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr "Weißer Senf"
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr "Zistrosen"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr "Windröschen, Anemone"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr "Chrysantheme"
+
+# flowers name
+#: CY
+msgid "Tree Tobacco"
+msgstr "Blaugrüner Tabak, Strauchtabak"
+
+# flowers name
+#: CY
+msgid "Spanish Jasmine"
+msgstr "Weißer Jasmin"
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr "Wandelröschen"
+
+# flowers name
+#: CY
+msgid "Acacia"
+msgstr "Akazie"
+
+# flowers name
+#: CY
+msgid "Bermuda Buttercup"
+msgstr "Nickender Sauerklee"
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr "Afrikanischer Bocksdorn"
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr "Kap-Bleiwurz"
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr "Schmalblättriger Natternkopf"
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr "Mariendistel"
+
+# flowers name
+#: BR
+msgid "Oxalis"
+msgstr "Sauerklee"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Basilikum"
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr "Wandelröschen"
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr "Flamingoblume, Anthurium"
+
+# flowers name
+#: BR
+msgid "Calliandra"
+msgstr "Puderquastenstrauch, Calliandra"
+
+# flowers name
+#: BR
+msgid "Asteraceae (herbaceous)"
+msgstr "Korbblütler (krautig)"
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr "Orchideen"
+
+# flowers name
+#: BR
+msgid "Clover/Trefoil"
+msgstr "Klee"
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Brasilianische Traube/Jabuticaba"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr "Acerola"
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Helikonie"
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr "Passionsfrucht"
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Malvaviscus"
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr "Mimose"
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromelie"
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr "Ipe"
+
+# photos intro_text
+#: UK CY IE
+msgid ""
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+"Honigbienen sind größer als die meisten (nicht alle) Solitärbienen und "
+"kleiner als die meisten Hummeln."
+
+# photos caption_1
+#: UK CY IE BR
+msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
+msgstr "Lange, dünne Fühler, oft in Form eines Ellbogens abgewinkelt"
+
+# photos caption_2
+#: UK CY IE BR
+msgid "Eyes covering the sides of the head"
+msgstr "Augen bedecken die Seiten des Kopfes"
+
+# photos caption_3
+#: UK CY IE BR
+msgid "Hind legs broad and flattened"
+msgstr "Hinterbeine breit und abgeflacht"
+
+# photos caption_4
+#: UK CY IE BR
+msgid "Abdomen can vary from mostly dark to mostly orange"
+msgstr ""
+"Farbe des Abdomens kann variieren von überwiegend dunkel bis überwiegend "
+"orange "
+
+# photos caption_5
+#: UK CY IE BR
+msgid "Long narrow cell in veins at edge of wing"
+msgstr "Lange schmale Zelle in den Adern am Flügelrand"
+
+# photos extraText
+#: UK
+msgid ""
+"There is just one species of honeybee in the UK. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+"In UK gibt es nur eine Honigbienenart. Sie nisten in künstlichen "
+"Bienenstöcken, wobei sich gelegentlich Kolonien in der freien Natur bilden."
+
+# photos extraText
+#: CY
+msgid ""
+"There is just one species of honeybee. They nest in artificial hives,with "
+"occasional colonies establishing in the wild."
+msgstr ""
+"Es gibt nur eine Honigbienenart. Sie nisten in künstlichen Bienenstöcken, "
+"wobei sich gelegentlich Kolonien in der freien Natur bilden."
+
+# photos extraText
+#: IE
+msgid ""
+"There is just one species of honeybee in Ireland. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"Honeybees are known in Brazil as “european bees” or “africanized bees”. "
+"Honeybees are larger than most (not all) solitary bees, and smaller than "
+"most bumblebees. "
+msgstr ""
+"Honigbienen heißen in Brasilien \"europäische Bienen\" oder \"afrikanisierte"
+" Bienen\" . Honigbienen sind größer als die meisten (nicht alle) "
+"Solitärbienen und kleiner als die meisten Hummeln."
+
+# photos caption_1
+#: UK CY IE BR
+msgid ""
+"Most of the honeybees you see will be workers, which are female, and collect"
+" pollen into a moistened ball on the outside of the hind legs"
+msgstr ""
+"Bei den meisten Honigbienen, die du siehst handelt es sich um Arbeiterinnen,"
+" die den Pollen in einer befeuchteten Kugel an der Außenseite der "
+"Hinterbeine (\"Pollenhöschen\") sammeln."
+
+# photos extraText
+#: UK CY IE BR
+msgid "Male honeybees (drones) are similar but have much larger eyes."
+msgstr ""
+"Männliche Honigbienen (Drohnen) sind ähnlich, haben aber viel größere Augen."
+
+# photos intro_text
+#: UK IE CY
+msgid ""
+"Bumblebees are very rounded and furry bees. The queens are among our largest"
+" bees; workers can be quite small, but are larger than most solitary bees."
+msgstr ""
+"Hummeln sind sehr rundliche und pelzige Bienen. Die Königinnen gehören zu "
+"unseren größten Bienen; Arbeiterinnen können recht klein sein, sind aber "
+"größer als die meisten Solitärbienen."
+
+# photos caption_1
+#: UK IE CY BR
+msgid "Very hairy / fluffy bees"
+msgstr "Sehr haarige / flauschige Bienen"
+
+# photos caption_2
+#: UK IE CY BR
+msgid ""
+"Rounded, almost globular in shape, often have tail ‘tucked under’ when "
+"visiting flowers"
+msgstr ""
+"Abgerundete, fast kugelförmige Form, haben oft den Hinterleib nach unten "
+"gesteckt, wenn sie Blüten besuchen"
+
+# photos caption_4
+#: UK IE CY
+msgid ""
+"Many species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be ginger all over"
+msgstr ""
+"Viele Arten haben einfache, kontrastreiche Farbbänder (gelb, weiß, schwarz),"
+" andere können ganz rotbraun sein."
+
+# photos caption_5
+#: UK IE CY
+msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
+msgstr ""
+"Die Augen bedecken die Seiten des Kopfes, mit viel Haar zwischen den Augen"
+
+# photos extraText
+#: UK
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 24 species in the UK."
+msgstr ""
+"Hummeln haben ein charakteristisches \"brummendes\" Flugmuster und schweben "
+"nicht. In UK gibt es 24 Arten."
+
+# photos extraText
+#: IE
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 21 species in Ireland."
+msgstr ""
+
+# photos caption_1
+#: UK CY IE
+msgid ""
+"Queen and worker bumblebees collect pollen into a moistened ball on the "
+"outside of the hind legs"
+msgstr ""
+"Hummelköniginnen und -arbeiterinnen sammeln Pollen in einer befeuchteten "
+"Kugel an der Außenseite der Hinterbeine (\"Pollenhöschen\")"
+
+# photos caption_2
+#: UK
+msgid ""
+"This bumblebee is one of the species that are more-or-less ginger-coloured "
+"all over"
+msgstr ""
+"Diese Hummel gehört zu den Arten, die insgesamt mehr oder weniger rotbraun "
+"gefärbt sind."
+
+# photos extraText
+#: UK CY IE
+msgid ""
+"Male bumblebees are similar looking to females but have slightly longer "
+"antennae, and do not collect pollen. They visit flowers to feed on nectar."
+msgstr ""
+"Männliche Hummeln sehen ähnlich aus wie die Weibchen, haben aber etwas "
+"längere Fühler und sammeln keinen Pollen. Sie besuchen Blüten, um sich von "
+"Nektar zu ernähren."
+
+# photos extraText
+#: CY
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are two species in Cyprus."
+msgstr ""
+"Hummeln haben ein charakteristisches, brummendes Flugmuster und schweben "
+"nicht. In Zypern gibt es zwei Arten."
+
+# photos intro_text
+#: BR
+msgid ""
+"In Brazil, “bumblebee” is the common name for Xylocopa and Bombus species, "
+"both with large bees. However, there are some difference."
+msgstr ""
+"In Brasilien ist \"Hummel\" der gebräuchliche Name für Xylocopa- und Bombus-"
+"Arten, die beide große Bienen sind. Es gibt jedoch einige Unterschiede."
+
+# photos caption_1
+#: BR
+msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
+msgstr "Xylocopa hat einen unbehaarten und glänzenden Hinterleib"
+
+# photos caption_2
+#: BR
+msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
+msgstr "Xylocopa hat keine Pollenhöschen an den Hinterbeinen"
+
+# photos caption_3
+#: BR
+msgid "<i>Bombus</i> has a round shape, with furry abdomen"
+msgstr "Bombus hat eine runde Form, mit pelzigem Hinterleib"
+
+# photos caption_4
+#: BR
+msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
+msgstr ""
+"Bombus hat Pollenhöschen an den Hinterbeinen, um Pollen zu transportieren"
+
+# photos extraText
+#: BR
+msgid ""
+"For the FIT Count, there is no need to distinguish between <i>Xylocopa</i> "
+"and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
+"lato”."
+msgstr ""
+"Bei der FIT-Zählung muss nicht zwischen Xylocopa und Bombus unterschieden "
+"werden - sie werden in der gleichen Kategorie \"Hummeln im weiteren Sinne\" "
+"gezählt."
+
+# photos intro_text
+#: BR
+msgid ""
+"Bumblebees are very rounded and mostly furry bees. The queens are among our "
+"largest bees; workers can be quite small, but are larger than most solitary "
+"bees. "
+msgstr ""
+"Hummeln sind sehr rundliche und pelzige Bienen. Die Königinnen gehören zu "
+"unseren größten Bienen; Arbeiterinnen können recht klein sein, sind aber "
+"größer als die meisten Solitärbienen."
+
+# photos caption_4
+#: BR
+msgid ""
+"Some species have simple, contrasting colour bands (yellows, whites, "
+"blacks), others can be all black"
+msgstr ""
+"Einige Arten haben einfache, kontrastreiche Farbbänder (gelb, weiß, "
+"schwarz), andere können ganz schwarz sein"
+
+# photos extraText
+#: BR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover."
+msgstr ""
+"Hummeln haben ein charakteristisches, brummendes Flugmuster und schweben "
+"nicht."
+
+# photos intro_text
+#: UK CY IE
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"both bumblebees and honeybees. "
+msgstr ""
+"Solitärbienen sind weniger rund als Hummeln. Die meisten sind kleiner als "
+"Hummeln und Honigbienen."
+
+# photos caption_1
+#: UK CY IE BR
+msgid "Usually quite elongate in shape (but there is lots of variety)"
+msgstr "In der Regel recht länglich (aber es gibt eine große Vielfalt)"
+
+# photos caption_2
+#: UK CY IE BR
+msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
+msgstr "In der Regel behaart, aber oft weniger dicht behaart als Hummeln"
+
+# photos caption_3
+#: UK CY IE
+msgid "Colours usually more subdued and less contrasting than bumblebees"
+msgstr ""
+"Die Farben sind meist gedämpfter und weniger kontrastreich als bei Hummeln"
+
+# photos caption_4
+#: UK CY IE BR
+msgid "Long antennae, often held straight out in front"
+msgstr "Lange Fühler, oft gerade nach vorne gehalten"
+
+# photos caption_5
+#: UK CY IE
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees"
+msgstr ""
+"Kleiner als Hummelköniginnen, aber die größten Solitärbienen sind größer als"
+" kleine Hummelarbeiterinnen"
+
+# photos extraText
+#: UK
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr ""
+"Solitärbienen fliegen aktiv von Blüte zu Blüte und ruhen manchmal in der "
+"Sonne. Die meisten Arten schweben nicht. In UK gibt es etwa 250 Arten."
+
+# photos extraText
+#: CY
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 369 species in Cyprus."
+msgstr ""
+"Solitärbienen fliegen aktiv von Blüte zu Blüte und ruhen manchmal in der "
+"Sonne. Die meisten Arten schweben nicht. In Zypern gibt es etwa 369 Arten."
+
+# photos extraText
+#: IE
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 78 species in Ireland."
+msgstr ""
+
+# photos caption_1
+#: UK IE
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the mining bee on the left above)"
+msgstr ""
+"Einige Solitärbienen sammeln trockene Pollen in Pollenhöschen an der Basis "
+"der Hinterbeine (siehe die Sandbiene links oben)."
+
+# photos caption_2
+#: UK IE
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee on the right above)"
+msgstr ""
+"Andere haben die Pollenhöschen unter ihrem Hinterleib (siehe die "
+"Blattschneiderbiene rechts oben)."
+
+# photos extraText
+#: UK IE CY
+msgid ""
+"Solitary bees generally nest in burrows or holes. One large group, the "
+"mining bees, dig burrows into soil. Another group, including the mason bees "
+"and leafcutter bees, make use of holes in wood, plants or walls."
+msgstr ""
+"Solitärbienen nisten im Allgemeinen in Höhlen oder Löchern. Die große Gruppe"
+" der Sandbienen gräbt Höhlen in den Boden. Eine andere Gruppe, zu der die "
+"Mauerbienen und Blattschneiderbienen gehören, nutzt Löcher in Holz, Pflanzen"
+" oder Mauern."
+
+# photos caption_1
+#: CY
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (bee on the left above)"
+msgstr ""
+"Einige Solitärbienen sammeln trockene Pollen in Pollenhöschen an der Basis "
+"der Hinterbeine (Biene links oben)."
+
+# photos caption_2
+#: CY
+msgid ""
+"Others have the pollen basket underneath their abdomen (bee on the right "
+"above)"
+msgstr ""
+"Andere haben Pollenhöschen unter ihrem Hinterleib (Biene rechts oben)."
+
+# photos intro_text
+#: UK CY IE
+msgid ""
+"Among the many species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. Some examples are shown above."
+msgstr ""
+"Unter den vielen Arten von Solitärbienen gibt es eine große Vielfalt an "
+"Größe, Farbe und Behaarung. Einige Beispiele sind oben abgebildet."
+
+# photos caption_1
+#: UK IE
+msgid ""
+"The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
+msgstr ""
+"Die Graue Sandbiene (Andrena cineraria) ist schwarz und grau gestreift"
+
+# photos caption_2
+#: UK IE
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours"
+msgstr ""
+"Wespenbienen (Gattung Nomada) können Wespen sehr ähnlich sehen, aber sie "
+"haben bienenähnliche Haare auf einem Teil ihres Körpers. Die meisten sind "
+"ähnlich geformt und haben eine Mischung aus schwarzen, roten und gelben "
+"Farben"
+
+# photos caption_3
+#: UK
+msgid ""
+"This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
+"bees, at around 4mm long"
+msgstr ""
+"Die Scherenbiene (Gattung Chelostoma) ist mit einer Länge von etwa 4 mm eine"
+" der kleinsten Solitärbienen"
+
+# photos caption_4
+#: UK IE
+msgid ""
+"In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
+"when fresh these bees have clear black and yellow stripes on the abdomen"
+msgstr ""
+"Im Spätsommer besucht die Efeu-Seidenbiene (Colletes hederae) Efeublüten - "
+"in frischem Zustand haben diese Bienen deutliche schwarze und gelbe Streifen"
+" auf dem Hinterleib"
+
+# photos extraText
+#: UK CY IE BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “solitary bees”!"
+msgstr ""
+"Für eine FIT-Zählung muss man die einzelnen Arten nicht erkennen, sie werden"
+" alle als \"Solitärbienen\" gezählt!"
+
+# photos caption_1
+#: CY
+msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
+msgstr "Sandbienen (Gattung Andrena ) haben schwarze und graue Streifen"
+
+# photos caption_2
+#: CY
+msgid ""
+"The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
+"they have bee-like hairs on part of their body, and most are similar in "
+"shape and with a mix of black, red and yellow colours (UK example shown) "
+msgstr ""
+"Wespenbienen (Gattung Nomada) können Wespen sehr ähnlich sehen, aber sie "
+"haben bienenähnliche Haare auf einem Teil ihres Körpers. Die meisten sind "
+"ähnlich geformt und haben eine Mischung aus schwarzen, roten und gelben "
+"Farben (Beispiel für UK)"
+
+# photos caption_3
+#: CY
+msgid ""
+"Bees of the genus  <i> Lasioglossum </i> are medium sized solitary bees. "
+"Some species are among the smallest in size solitary bees, at around 3mm "
+"long. "
+msgstr ""
+"Bienen der Gattung Lasioglossum sind mittelgroße Solitärbienen. Einige Arten"
+" gehören mit einer Länge von etwa 3 mm zu den kleinsten Solitärbienen."
+
+# photos caption_4
+#: CY
+msgid ""
+"Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
+"on the abdomen (UK example shown)"
+msgstr ""
+"Bienen der Gattung Colletes (Seidenbienen) haben ausgeprägte schwarze und "
+"gelbe Streifen auf dem Hinterleib (Beispiel aus UK)"
+
+# photos caption_3
+#: IE
+msgid ""
+"This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary"
+" bees, at around 5-7mm long"
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"Solitary bees are less rounded than bumblebees, and most are smaller than "
+"honeybees. "
+msgstr ""
+"Solitärbienen sind weniger rund als Hummeln. Die meisten sind kleiner als "
+"Honigbienen. "
+
+# photos caption_4
+#: BR
+msgid ""
+"Smaller than queen bumblebees, but the largest solitaries are bigger than "
+"small worker bumblebees. Some solitary bees measure up to 45mm."
+msgstr ""
+"Kleiner als Hummelköniginnen, aber die größten Solitärbienen sind größer als"
+" kleine Hummelarbeiterinnen. Einige Solitärbienen sind nur bis zu 45 mm "
+"groß."
+
+# photos extraText
+#: BR
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 3000 species in Brazil."
+msgstr ""
+"Solitärbienen fliegen aktiv von Blüte zu Blüte und ruhen manchmal in der "
+"Sonne. Die meisten Arten schweben nicht. In Brasilien gibt es etwa 3000 "
+"Arten."
+
+# photos caption_1
+#: BR
+msgid ""
+"Some solitary bees collect dry pollen into a pollen basket at the base of "
+"the hind legs (see the bee on the left above)"
+msgstr ""
+"Einige Solitärbienen sammeln trockene Pollen in Pollenhöschen an der Basis "
+"der Hinterbeine (siehe die Biene links oben)."
+
+# photos caption_2
+#: BR
+msgid ""
+"Others have the pollen basket underneath their abdomen (see the leafcutter "
+"bee from the Megachilidae family on the right above)"
+msgstr ""
+"Andere haben Pollenhöschen unter ihrem Hinterleib (siehe die "
+"Blattschneiderbiene aus der Familie der Megachilidae rechts oben)."
+
+# photos intro_text
+#: BR
+msgid ""
+"Among the 3000 species of solitary bee, there is a lot of variation in size,"
+" colour and how hairy they appear. See some examples above:"
+msgstr ""
+"Unter den 3000 Arten von Solitärbienen gibt es eine große Vielfalt an Größe,"
+" Farbe und Behaarung. Einige Beispiele sind oben abgebildet."
+
+# photos caption_1
+#: BR
+msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
+msgstr "Biene der Gattung Oxaea aus der Familie der Andrenidae."
+
+# photos caption_2
+#: BR
+msgid ""
+"The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
+"and lack structures for carrying pollen."
+msgstr ""
+"Die Gattung Hylaeus (Familie Colletidae) kann Wespen sehr ähnlich sehen, sie"
+" hat aber keine Strukturen zum Tragen von Pollen."
+
+# photos caption_3
+#: BR
+msgid ""
+"Bees from the Halictidae family are usually dark-coloured and often "
+"metallic."
+msgstr ""
+"Bienen aus der Familie der Halictidae sind meist dunkel gefärbt und oft "
+"metallisch."
+
+# photos caption_4
+#: BR
+msgid ""
+"The leafcutter bees (genus <i>Megachile</i>) have the pollen basket "
+"underneath their abdomen and cut pieces of leaf and petals to build their "
+"nests."
+msgstr ""
+"Die Blattschneiderbienen (Gattung Megachile) tragen Pollenhöschen unter "
+"ihrem Hinterleib und schneiden Blattstücke und Blütenblätter ab, um ihre "
+"Nester zu bauen."
+
+# photos intro_text
+#: UK CY IE BR
+msgid ""
+"There are many different species of wasp, but the most familiar are the "
+"social wasps such as the one shown above."
+msgstr ""
+"Es gibt viele verschiedene Wespenarten, aber die bekanntesten sind die "
+"Faltenwespen wie die oben abgebildete."
+
+# photos caption_1
+#: UK CY IE BR
+msgid "Long antennae (distinguishes them from most flies)"
+msgstr "Lange Fühler (unterscheidet sie von den meisten Fliegen)"
+
+# photos caption_2
+#: UK CY IE BR
+msgid ""
+"There are some hairs on the body, but wasps are usually much less dense and "
+"furry compared to bees"
+msgstr ""
+"Es gibt einige Haare auf dem Körper, jedoch sind Wespen im Vergleich zu "
+"Bienen normalerweise viel weniger dicht behaart und weniger pelzig"
+
+# photos caption_3
+#: UK CY IE BR
+msgid ""
+"Social wasps and some of the solitary species have bold black and yellow "
+"stripes"
+msgstr ""
+"Faltenwespen und einige Arten der Solitärwespen haben auffällige schwarz-"
+"gelbe Streifen"
+
+# photos caption_4
+#: UK CY IE BR
+msgid "Some wasps have their wings rolled up when at rest"
+msgstr "Manche Wespen haben im Ruhezustand ihre Flügel eingerollt"
+
+# photos caption_5
+#: UK CY IE BR
+msgid ""
+"Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
+msgstr ""
+"Wespen haben eine sehr schmale \"Wespentaille\" an der Verbindung zwischen "
+"Thorax und Abdomen"
+
+# photos intro_text
+#: UK CY IE BR
+msgid ""
+"There is a lot of variation in size, shape and markings among the solitary "
+"wasps. They are usually not obviously hairy, and since they do not collect "
+"pollen they have no pollen basket (although pollen may become stuck to their"
+" bodies)."
+msgstr ""
+"Solitärwespen unterscheiden sich stark in Größe, Form und Zeichnung. Sie "
+"sind in der Regel nicht behaart und da sie keinen Pollen sammeln, haben sie "
+"keine Pollenhöschen (obwohl Pollen an ihrem Körper haften bleiben kann)."
+
+# photos caption_1
+#: UK CY IE
+msgid "Many solitary wasps have a distinctive broad, boxy head shape"
+msgstr ""
+"Viele Solitärwespen haben einen charakteristischen breiten und "
+"kastenförmigen Kopf"
+
+# photos caption_2
+#: UK CY IE
+msgid "Some have typical black and yellow wasp stripes"
+msgstr "Einige haben die typischen schwarzen und gelben Wespenstreifen"
+
+# photos caption_3
+#: UK CY IE
+msgid "Others may be black and red, or all black as in this example"
+msgstr ""
+"Andere können schwarz und rot oder ganz schwarz sein, wie in diesem Beispiel"
+
+# photos extraText
+#: UK CY IE BR
+msgid ""
+"Solitary wasps generally nest in burrows or holes, in a similar manner to "
+"the solitary bees."
+msgstr ""
+"Solitärwespen nisten ähnlich wie die Solitärbienen im Allgemeinen in Höhlen "
+"oder Löchern."
+
+# photos intro_text
+#: UK IE CY BR
+msgid ""
+"There are many different parasitic wasps, some of which visit flowers for "
+"nectar. Two examples are shown above."
+msgstr ""
+"Es gibt viele verschiedene Schlupfwespen, von denen einige Blüten wegen des "
+"Nektars besuchen. Zwei Beispiele sind oben abgebildet."
+
+# photos caption_1
+#: UK IE CY BR
+msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
+msgstr ""
+"Viele Schlupfwespen sind sehr lang und dünn, mit einer winzigen Wespentaille"
+
+# photos caption_2
+#: UK IE CY BR
+msgid ""
+"The majority of species have very long antennae, made up of lots of "
+"individual segments"
+msgstr ""
+"Die meisten Arten haben sehr lange Fühler, die sich aus vielen einzelnen "
+"Segmenten zusammensetzen"
+
+# photos caption_3
+#: UK IE CY BR
+msgid ""
+"Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
+"some species this is very long"
+msgstr ""
+"Weibliche Schlupfwespen können einen scharfen Legebohrer haben, der zur "
+"Eiablage dient - bei einigen Arten ist dieser sehr lang"
+
+# photos caption_4
+#: UK IE CY BR
+msgid ""
+"Colours are usually a mix of black and red or yellow – some species are all-"
+"black"
+msgstr ""
+"Die Farben sind in der Regel eine Mischung aus Schwarz und Rot oder Gelb - "
+"einige Arten sind ganz schwarz"
+
+# photos extraText
+#: UK IE CY BR
+msgid ""
+"Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
+" the larvae of the wasps consume the host invertebrate."
+msgstr ""
+"Schlupfwespen legen ihre Eier in andere wirbellose Tiere oder in deren "
+"Nester. Ihre Larven fressen die Wirtsorganismen."
+
+# photos extraText
+#: BR
+msgid ""
+"Wasps feed their young on captured prey (usually other insects), but adult "
+"wasps often visit flowers for nectar. There are social wasp species, "
+"solitary wasp species and parasitic wasp species."
+msgstr ""
+"Wespen ernähren ihre Brut mit gefangener Beute (meist andere Insekten). "
+"Ausgewachsene Wespen besuchen häufig Blüten, um Nektar zu sammeln. Es gibt "
+"soziale, solitär lebende und parasitische Wespenarten."
+
+# photos caption_1
+#: BR
+msgid "Solitary wasp of the genus <i>Ammophila</i>"
+msgstr "Solitärwespe der Gattung Ammophila (Sandwespen)"
+
+# photos caption_2
+#: BR
+msgid "Solitary wasp of the genus <i>Monobia</i>"
+msgstr "Solitärwespe der Gattung Monopia (Töpferwespen, neotropisch)"
+
+# photos intro_text
+#: UK CY IE
+msgid ""
+"Hoverflies are very active and agile flyers, and are frequently seen "
+"hovering, as you would expect from their name. "
+msgstr ""
+"Schwebfliegen sind sehr aktive und wendige Flieger und werden, wie ihr Name "
+"schon sagt, häufig im Schwebeflug beobachtet. "
+
+# photos caption_1
+#: UK CY IE
+msgid ""
+"Large eyes, covering most of the head in males (as shown above) or with a "
+"small gap between the eyes at the top of the head in females"
+msgstr ""
+"Große Augen, die bei den Männchen den größten Teil des Kopfes bedecken (wie "
+"oben gezeigt) oder bei den Weibchen eine kleine Lücke zwischen den Augen am "
+"oberen Ende des Kopfes aufweisen"
+
+# photos caption_2
+#: UK CY IE BR
+msgid "Most hoverflies have much shorter antennae than bees and wasps"
+msgstr ""
+"Die meisten Schwebfliegen haben viel kürzere Fühler als Bienen und Wespen"
+
+# photos caption_3
+#: UK CY IE
+msgid ""
+"In the wings there is a ‘false margin’ wing vein, running more-or-less "
+"parallel to the true edge of the wing"
+msgstr ""
+"Auf den Flügeln befindet sich eine \"falsche Randader\", die mehr oder "
+"weniger parallel zum eigentlichen Flügelrand verläuft"
+
+# photos caption_4
+#: UK CY IE BR
+msgid ""
+"Many hoverfly species have black and yellow stripes, but some are all dark "
+"or have other patterns"
+msgstr ""
+"Viele Schwebfliegenarten haben schwarze und gelbe Streifen. Einige sind auch"
+" ganz dunkel oder haben andere Muster"
+
+# photos caption_5
+#: UK CY IE BR
+msgid ""
+"Hoverflies are not usually as hairy as bees (but there are some "
+"exceptions!), and they do not usually have prominent bristles on the body "
+"(some other types of fly are obviously bristly)"
+msgstr ""
+"Schwebfliegen sind in der Regel nicht so behaart wie Bienen (aber es gibt "
+"auch Ausnahmen!) und sie haben meistens keine auffälligen Borsten am Körper "
+"(einige andere Fliegenarten sind deutlich borstig)"
+
+# photos extraText
+#: UK
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr ""
+"Schwebfliegen ernähren sich von Nektar und Pollen, sammeln jedoch keinen "
+"Nektar und haben auch keine Pollenhöschen. In UK gibt es etwa 285 Arten von "
+"Schwebfliegen."
+
+# photos extraText
+#: CY
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 52 species of hoverfly in Cyprus."
+msgstr ""
+"Schwebfliegen ernähren sich von Nektar und Pollen, jedoch sammeln sie keinen"
+" Nektar und haben auch keine Pollenhöschen. Auf Zypern gibt es etwa 52 Arten"
+" von Schwebfliegen."
+
+# photos extraText
+#: IE
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 180 species of hoverfly in Ireland."
+msgstr ""
+
+# photos intro_text
+#: UK IE CY
+msgid ""
+"Many hoverflies have the typical black and yellow markings, but there is "
+"quite a lot of variety in shape, size and marking among the full range of "
+"species. Some examples are shown above."
+msgstr ""
+"Viele Schwebfliegen haben die typische schwarz-gelbe Zeichnung, aber es gibt"
+" bei allen Arten eine große Vielfalt an Formen, Größen und Zeichnungen. "
+"Einige Beispiele sind oben abgebildet."
+
+# photos caption_1
+#: UK IE
+msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
+msgstr ""
+"Mistbienen (Eristalix tenax) haben viel kürzere Fühler als Honigbienen"
+
+# photos caption_2
+#: UK IE CY
+msgid "The eyes cover more of the head"
+msgstr "Die Augen bedecken einen größeren Teil des Kopfes"
+
+# photos caption_3
+#: UK IE CY
+msgid ""
+"The back legs are much narrower than the broad flattened legs of honeybees"
+msgstr ""
+"Die Hinterbeine sind viel schmaler als die breiten und abgeflachten Beine "
+"der Honigbienen"
+
+# photos caption_4
+#: UK IE CY
+msgid "The typical ‘false margin’ wing vein is present"
+msgstr "Die typische \"falsche Randader\" auf dem Flügel ist vorhanden"
+
+# photos caption_5
+#: UK IE CY
+msgid ""
+"Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
+" of the wing"
+msgstr ""
+"Mistbienen (Eristalix tenax) haben eine charakteristische \"Schleife\" in "
+"der Flügelader nahe der Flügelspitze"
+
+# photos caption_1
+#: CY
+msgid ""
+"Drone-fly hoverflies have much shorter antennae than honeybees (UK example "
+"shown) "
+msgstr ""
+"Mistbienen (Eristalix tenax) haben viel kürzere Fühler als Honigbienen "
+"(Beispiel aus UK) "
+
+# photos caption_1
+#: UK
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
+"is a good mimic of hornets, but note the short antennae"
+msgstr ""
+"Die Hornissenschwebfliege (Volucella zonaria) ist unsere größte Schwebfliege"
+" und ahmt Hornissen gut nach. Aber beachte die kurzen Fühler"
+
+# photos caption_2
+#: UK IE
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour"
+msgstr ""
+"Einige Arten haben verlängerte \"Nasen\" - dies ist die Gemeine "
+"Schnauzenschwebfliege (Rhingia campestris), eine weit verbreitete Art mit "
+"einer unverwechselbaren grau-orangenen Färbung"
+
+# photos caption_3
+#: UK CY IE
+msgid ""
+"A few hoverflies are very good bumblebee mimics – check the antennae to be "
+"sure they are not bumblebees!"
+msgstr ""
+"Einige Schwebfliegen ahmen Hummeln sehr gut nach - überprüfen Sie die "
+"Fühler, um sicher zu sein, dass es keine Hummeln sind!"
+
+# photos caption_4
+#: UK CY IE
+msgid ""
+"Some hoverflies are small and mostly dark in colour, but have the typical "
+"wing veins (if you can get close enough to see them) and in flight will "
+"hover like typical hoverflies"
+msgstr ""
+"Einige Schwebfliegen sind klein und meist dunkel gefärbt, haben aber die "
+"typischen Flügeladern (wenn man nahe genug herankommt, um sie zu sehen) und "
+"schweben im Flug wie typische Schwebfliegen"
+
+# photos caption_1
+#: CY
+msgid ""
+"The Hornet Hoverfly (<i>Volucella zonaria</i>) is one of the largest "
+"hoverfly species and is a good mimic of hornets, but note the short antennae"
+" (example from Greece shown) "
+msgstr ""
+"Die Hornissenschwebfliege (Volucella zonaria) ist unsere größte Schwebfliege"
+" und ahmt Hornissen gut nach, aber beachten Sie die kurzen Fühler (Beispiel "
+"aus Griechenland)"
+
+# photos caption_2
+#: CY
+msgid ""
+"A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
+" a widespread species with a distinctive grey and orange colour (UK example "
+"shown)"
+msgstr ""
+"Einige Arten haben verlängerte \"Nasen\" - dies ist die Gemeine "
+"Schnauzenschwebfliege (Rhingia campestris), eine weit verbreitete Art mit "
+"einer unverwechselbaren grau-orangenen Farbe (Beispiel aus UK)"
+
+# photos caption_1
+#: IE
+msgid ""
+"The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most "
+"common hoverflies"
+msgstr ""
+
+# photos intro_text
+#: BR
+msgid ""
+"There are many different flies that you may see visiting flowers. Hoverflies"
+" are very active and agile flyers, and are frequently seen hovering, as you "
+"would expect from their name. "
+msgstr ""
+"Es gibt viele verschiedene Fliegen, die man beim Blütenbesuch beobachten "
+"kann. Schwebfliegen sind sehr aktive und wendige Flieger, die man - wie ihr "
+"Name schon sagt - häufig schwebend sieht. "
+
+# photos caption_1
+#: BR
+msgid "Large eyes, covering most of the head"
+msgstr "Große Augen bedecken den größten Teil des Kopfes"
+
+# photos extraText
+#: BR
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets."
+msgstr ""
+"Schwebfliegen ernähren sich von Nektar und Pollen, sammeln jedoch keinen "
+"Nektar und haben keine Pollenhöschen. "
+
+# photos intro_text
+#: BR
+msgid ""
+"Other flies do not have the ability to hover. Two examples are shown above."
+msgstr ""
+"Andere Fliegen besitzen nicht die Fähigkeit zum Schweben. Zwei Beispiele "
+"sind oben abgebildet."
+
+# photos caption_1
+#: BR
+msgid "This is a fly of the family Empididae"
+msgstr "Dies ist eine Fliege aus der Familie der Tanzfliegen (Empididae)"
+
+# photos caption_2
+#: BR
+msgid "Empididae flies have a long thin proboscis under the head"
+msgstr ""
+"Tanzfliegen (Empididae) haben einen langen dünnen Rüssel unter dem Kopf"
+
+# photos caption_3
+#: BR
+msgid "Many Empididae flies have a distinctly humped thorax"
+msgstr "Viele Tanzfliegen (Empididae) haben einen deutlich gehöckerten Thorax"
+
+# photos caption_4
+#: BR
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body. This is a parasitic fly from family Tachinidae"
+msgstr ""
+"Einige der größeren Fliegen, die Du auf den Blüten sehen wirst, gehören zu "
+"den \"Calyptratae\"-Familien. Die meisten von ihnen sind eher rundliche "
+"Insekten mit deutlichen Borsten an den Beinen und am Körper. Dies ist eine "
+"parasitische Fliege aus der Familie der Raupenfliegen (Tachinidae)"
+
+# photos caption_5
+#: BR UK IE CY
+msgid "It has prominent bristles on the abdomen"
+msgstr "Sie hat auffällige Borsten am Hinterleib"
+
+# photos extraText
+#: BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “flies”!"
+msgstr ""
+"Für eine FIT-Zählung muss man die einzelnen Arten nicht erkennen, sie werden"
+" alle als \"Fliegen\" gezählt!"
+
+# photos intro_text
+#: UK IE CY
+msgid ""
+"There are many different flies that you may see visiting flowers – for the "
+"FIT Count all you need to do is separate them into “hoverflies” and all "
+"“other flies”! Don’t forget that hoverflies can hover, an ability that some "
+"but not many other flies have. Two examples of “other flies” are shown above"
+" and two on the next screen."
+msgstr ""
+"Es gibt viele verschiedene Fliegen, die Blüten besuchen - für die FIT-"
+"Zählung musst du sie nur in \"Schwebfliegen\" und alle \"anderen Fliegen\" "
+"unterteilen! Vergiss nicht, dass Schwebfliegen schweben können, eine "
+"Fähigkeit, die einige, aber nicht viele andere Fliegen haben. Zwei Beispiele"
+" für \"andere Fliegen\" sind oben und zwei auf dem nächsten Bildschirm zu "
+"sehen."
+
+# photos caption_1
+#: UK IE
+msgid "This is a dance fly (family Empididae). "
+msgstr "Dies ist eine Tanzfliege (Familie Empididae). "
+
+# photos caption_2
+#: UK IE CY
+msgid "Many dance flies have a long thin proboscis under the head"
+msgstr ""
+"Tanzfliegen (Empididae) haben einen langen dünnen Rüssel unter dem Kopf"
+
+# photos caption_3
+#: UK IE CY
+msgid "Many dance flies have a distinctly humped thorax"
+msgstr "Viele Tanzfliegen (Empididae) haben einen deutlich gehöckerten Thorax"
+
+# photos caption_4
+#: UK IE
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on hogweed and related flowers"
+msgstr ""
+"Dies ist eine Goldgrüne Waffenfliege (Chloromyia formosa), die oft auf "
+"Bärenklau und verwandten Blüten zu sehen ist"
+
+# photos caption_5
+#: UK IE CY
+msgid "The abdomen is broader and flatter than in hoverflies"
+msgstr "Der Hinterleib ist breiter und flacher als bei den Schwebfliegen"
+
+# photos caption_6
+#: UK IE CY
+msgid ""
+"The wing venation is different to hoverflies, with no ‘false margin’ wing "
+"vein parallel to the true edge of the wing"
+msgstr ""
+"Die Flügeläderung unterscheidet sich von der der Schwebfliegen, denn es gibt"
+" keine parallel zum eigentlichen Rand des Flügels verlaufende \"falsche "
+"Randader\""
+
+# photos caption_1
+#: CY
+msgid "This is a dance fly (family Empididae, photo from the UK)"
+msgstr "Dies ist eine Tanzfliege (Familie Empididae, Foto aus UK). "
+
+# photos caption_4
+#: CY
+msgid ""
+"This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
+" seen on flowers (UK example shown)"
+msgstr ""
+"Dies ist eine Goldgrüne Waffenfliege (Chloromyia formosa), die oft auf "
+"Bärenklau und verwandten Blüten zu sehen ist (Beispiel aus UK)"
+
+# photos intro_text
+#: UK IE CY
+msgid ""
+"Some of the larger flies that you will see on flowers are from ‘calypterate’"
+" families, most of which are rather rounded insects with obvious bristles on"
+" the legs and body."
+msgstr ""
+"Einige der größeren Fliegen, die man auf den Blüten sieht, gehören zu den "
+"\"Calyptratae\"-Familien. Die meisten von ihnen sind eher rundliche Insekten"
+" mit deutlichen Borsten an den Beinen und am Körper. "
+
+# photos caption_1
+#: UK IE
+msgid "This is a parasitic fly from family Tachinidae"
+msgstr ""
+"Dies ist eine parasitische Fliege aus der Familie der Raupenfliegen "
+"(Tachinidae)"
+
+# photos caption_3
+#: UK IE
+msgid "This is the Yellow Dung-fly (family Scathophagidae)"
+msgstr "Dies ist eine Gelbe Dungfliege (Familie Scathophagidae)"
+
+# photos caption_4
+#: UK IE CY
+msgid ""
+"It has bristles on the body and legs, and the males in particular have "
+"fluffy yellow hairs on the body"
+msgstr ""
+"Sie hat Borsten am Körper und an den Beinen.Vor allem die Männchen haben "
+"flauschige gelbe Haare am Körper"
+
+# photos caption_1
+#: CY
+msgid "This is a parasitic fly from family Tachinidae (UK example shown)"
+msgstr ""
+"Dies ist eine parasitische Fliege aus der Familie der Raupenfliegen "
+"(Tachinidae, Beispiel aus UK)"
+
+# photos caption_3
+#: CY
+msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
+msgstr ""
+"Dies ist eine Gelbe Dungfliege (Familie Scathophagidae, Beispiel aus UK)"
+
+# photos intro_text
+#: UK IE
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day or by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+
+# photos caption_1
+#: UK IE
+msgid "Small Tortoiseshell butterfly"
+msgstr "Kleiner Fuchs (Aglais urticae)"
+
+# photos caption_2
+#: UK IE CY
+msgid "Common Blue butterfly"
+msgstr "Hauhechel-Bläuling (Polyommatus icarus)"
+
+# photos extraText
+#: UK IE CY BR
+msgid ""
+"For the FIT Count there is no need to distinguish between butterflies and "
+"moths – they are all counted in the same category."
+msgstr ""
+"Für die FIT-Zählung muss nicht zwischen Tag- und Nachtfaltern unterschieden "
+"werden - sie werden alle in der gleichen Kategorie erfasst."
+
+# photos intro_text
+#: UK IE CY
+msgid ""
+"A range of day-flying moths can be seen visiting flowers. Some of these are "
+"quite large (“macro-moths”) and colourful, and some are very small (“micro-"
+"moths”). All moths have patterns and colours produced by the tiny scales on "
+"their wings."
+msgstr ""
+"Es gibt eine Reihe von tagaktiven Nachtfaltern, die auch Blüten besuchen. "
+"Einige von ihnen sind recht groß und farbenfroh, andere sind sehr klein "
+"(\"Kleinschmetterlinge\"). Alle Falter haben Muster und Farben, die von den "
+"winzigen Schuppen auf ihren Flügeln erzeugt werden."
+
+# photos caption_1
+#: UK IE
+msgid "Six-spot Burnet moth (a macro-moth)"
+msgstr "Sechsfleck-Widderchen (Zygaena filipendula)"
+
+# photos caption_2
+#: UK IE
+msgid "Nettle-tap moth (a micro-moth)"
+msgstr "Brennnessel-Spreizflügelfalter (Anthophila fabriciana)"
+
+# photos intro_text
+#: CY
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day of by "
+"night. Some moths (see next screen) are quite small and could be overlooked "
+"as other types of insect."
+msgstr ""
+"Tagfalter sind sehr bekannte Blütenbesucher. Nachtfalter werden vielleicht "
+"weniger häufig wahrgenommen, besuchen aber ebenfalls regelmäßig Blüten - und"
+" zwar sowohl bei Tag als auch bei Nacht. Einige Nachtfalter (siehe nächstes "
+"Bild) sind recht klein und könnten als andere Insektenarten übersehen "
+"werden."
+
+# photos caption_1
+#: CY
+msgid "Painted Lady butterfly"
+msgstr "Distelfalter (Vanessa cardui)"
+
+# photos caption_1
+#: CY
+msgid "Six-spot Burnet moth (a macro-moth, UK example shown)"
+msgstr "Sechsfleck-Widderchen (Zygaena filipendula, Beispiel aus UK)"
+
+# photos caption_2
+#: CY
+msgid "Micro-moths"
+msgstr "Kleinschmetterlinge"
+
+# photos intro_text
+#: BR
+msgid ""
+"Butterflies are very familiar flower visitors. Moths are perhaps less "
+"frequently noticed but also visit flowers regularly, either by day or by "
+"night. "
+msgstr ""
+"Tagfalter sind sehr bekannte Blütenbesucher. Nachtfalter werden vielleicht "
+"weniger häufig wahrgenommen, besuchen aber ebenfalls regelmäßig Blüten - "
+"entweder bei Tag oder bei Nacht. "
+
+# photos caption_1
+#: BR
+msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
+msgstr "Phaeochlaena lampra (eine auffällige Motte)"
+
+# photos caption_2
+#: BR
+msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
+msgstr "Diaethria clymena (Weitverbreiteter Schmetterling)"
+
+# photos intro_text
+#: UK CY IE BR
+msgid ""
+"There are relatively few beetle species that visit flowers, but those that "
+"do can be very abundant. The different species vary a lot in size, shape and"
+" colour, but can be recognised as beetles by the hard wing cases covering "
+"their abdomen."
+msgstr ""
+"Es gibt relativ wenige Käferarten, die Blüten besuchen, aber die, die es "
+"tun, können sehr zahlreich sein. Die verschiedenen Arten variieren stark in "
+"Größe, Form und Farbe, sind aber an den harten Flügeldecken, die ihren "
+"Hinterleib bedecken, als Käfer zu erkennen."
+
+# photos caption_1
+#: UK CY IE BR
+msgid ""
+"Beetles have forewings that have become hardened and act as covers for the "
+"softer hindwings and abdomen"
+msgstr ""
+"Käfer haben verhärtete Vorderflügel, die als Hülle für die weicheren "
+"Hinterflügel und den Hinterleib dienen."
+
+# photos caption_2
+#: UK CY IE BR
+msgid "Beetles have chewing mouthparts"
+msgstr "Käfer besitzen beißend-kauende Mundwerkzeuge"
+
+# photos caption_3
+#: UK CY IE
+msgid ""
+"This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
+"which the males have distinctive thickened hind legs"
+msgstr ""
+"Dieser Käfer ist ein Grüner Scheinbockkäfer (Oedemera nobilis), bei dem die "
+"Männchen auffallend verdickte Hinterbeine haben"
+
+# photos intro_text
+#: UK IE CY
+msgid "Above are two more examples of beetles that regularly visit flowers."
+msgstr ""
+"Oben sind zwei weitere Beispiele für Käfer, die regelmäßig Blüten besuchen."
+
+# photos caption_1
+#: UK IE
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer"
+msgstr ""
+"Roter Weichkäfer (Rhagonycha fulva) mit schwarzen Spitzen an den "
+"Flügeldecken - im Hochsommer sehr zahlreich an Blüten zu finden"
+
+# photos caption_2
+#: UK IE
+msgid ""
+"Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
+" larvae live in decaying wood"
+msgstr ""
+"Gefleckter Schmalbock (Rutpela maculata), ein großer Käfer - die Larven "
+"leben in morschem Holz"
+
+# photos caption_1
+#: CY
+msgid ""
+"Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
+" very abundant on flowers in mid-summer "
+msgstr ""
+"Roter Weichkäfer (Rhagonycha fulva) mit schwarzen Spitzen an den "
+"Flügeldecken - im Hochsommer sehr zahlreich an Blüten zu finden"
+
+# photos caption_2
+#: CY
+msgid ""
+"Black and yellow longhorn beetle (<i>Chlorophorus</i> sp.),  a large beetle "
+"– larvae live in decaying wood"
+msgstr ""
+"Gefleckter Schmalbock (Rutpela maculata), ein großer Käfer - die Larven "
+"leben in morschem Holz"
+
+# photos caption_3
+#: BR
+msgid ""
+"This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
+" similar species by the rounded margins of the forewings"
+msgstr ""
+"Dieser Käfer ist Chauliognathus flavipes, eine Art, die sich durch die "
+"abgerundeten Ränder der Vorderflügel von ähnlichen Arten unterscheidet"
+
+# photos intro_text
+#: BR
+msgid "Another example of beetle that visits flowers is shown above."
+msgstr ""
+"Ein weiteres Beispiel für einen Käfer, der Blüten besucht, ist oben "
+"abgebildet."
+
+# photos caption_1
+#: BR
+msgid ""
+"<i>Macraspis clavate</i> is a beetle species of the family Scarabaeidae that"
+" occurs in Brazil"
+msgstr ""
+"Macraspis clavate ist eine Käferart aus der Familie der Scarabaeidae, die in"
+" Brasilien vorkommt"
+
+# photos intro_text
+#: UK IE BR CY
+msgid ""
+"This category is for any insects under 3mm long. These can be hard to assign"
+" to a particular group without peering at them closely (which would disturb "
+"other insects visiting the flowers). Just count them (or estimate them if "
+"there is a large number) and assign them all to this category."
+msgstr ""
+"In diese Kategorie fallen alle Insekten unter 3 mm Länge. Es kann schwierig "
+"sein, sie einer bestimmten Gruppe zuzuordnen, ohne sie genau zu betrachten "
+"(was andere Insekten, die die Blüten besuchen, stören würde). Zähle sie "
+"einfach (oder schätze sie, wenn es eine zu große Anzahl ist) und ordne sie "
+"alle dieser Kategorie zu."
+
+# photos caption_1
+#: UK IE
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) – "
+"other “small insects” may include tiny flies and parasitic wasps"
+msgstr ""
+"Dieses Beispiel zeigt eine Blüte mit vielen Glanzkäfern (Familie "
+"Nitidulidae) - andere \"kleine Insekten\" können winzige Fliegen und "
+"parasitische Wespen sein"
+
+# photos caption_1
+#: BR CY
+msgid ""
+"This example shows a flower with many pollen beetles (family Nitidulidae) "
+"and other “small insects” which may include tiny flies and parasitic wasps"
+msgstr ""
+"Dieses Beispiel zeigt eine Blüte mit vielen Glanzkäfern (Familie "
+"Nitidulidae) und anderen \"kleinen Insekten\", zu denen winzige Fliegen und "
+"parasitische Wespen gehören können"
+
+# photos intro_text
+#: BR
+msgid ""
+"Stingless bees are group of social bees with high diversity. Species may be "
+"small or large as honeybees."
+msgstr ""
+"Stachellose Bienen sind eine Gruppe sozialer Bienen mit großer Vielfalt. Die"
+" Arten können klein oder groß wie Honigbienen sein."
+
+# photos caption_1
+#: BR
+msgid "Lack of functional sting"
+msgstr "Fehlen eines funktionalen Stachels"
+
+# photos caption_2
+#: BR
+msgid "Reduced wing venation"
+msgstr "Reduzierte Flügeläderung"
+
+# photos caption_3
+#: BR
+msgid "Pollen baskets for carrying pollen"
+msgstr "Pollenhöschen zum Tragen von Pollen"
+
+# photos caption_4
+#: BR
+msgid "<i>Tetragonisca angustula</i>, also known as “jataí” in Brazil"
+msgstr "Tetragonisca angustula, in Brasilien auch als \"jataí\" bekannt"
+
+# photos intro_text
+#: BR
+msgid ""
+"There are more than 240 species of stingless bees in Brazil, with different "
+"sizes and colour patterns."
+msgstr ""
+"In Brasilien gibt es mehr als 240 Arten von Stachellosen Bienen mit "
+"unterschiedlichen Größen und Farbmustern."
+
+# photos caption_1
+#: BR
+msgid "<i>Trigona spinipes</i>, also known as “irapuá”"
+msgstr "Trigona spinipes, auch als \"irapuá\" bekannt"
+
+# photos caption_2
+#: BR
+msgid "The genus <i>Melipona</i> shows robusts and furry bees"
+msgstr "Die Gattung Melipona weist robuste und pelzige Bienen auf"
+
+# photos caption_3
+#: BR
+msgid ""
+"The genus <i>Plebeia</i> includes small species and are known as “mirim”"
+msgstr "Die Gattung Plebeia umfasst kleine Arten und ist als \"mirim\" bekannt."
+
+# photos caption_4
+#: BR
+msgid "Melipona quadrifasciata, also known as “mandaçaia”"
+msgstr "Melipona quadrifasciata, auch als \"mandaçaia\" bekannt"
+
+# photos extraText
+#: BR
+msgid ""
+"You don’t need to recognise the individual species to do a FIT Count, they "
+"all get counted as “stingless bees”!"
+msgstr ""
+"Für eine FIT-Zählung muss man die einzelnen Arten nicht erkennen, sie werden"
+" alle als \"Stachellose Bienen\" gezählt!"
+
+# photos intro_text
+#: BR
+msgid ""
+"Orchid bees are very colorful (green, purple, blue, red, or brassy) and "
+"metallic, while some are black, sometimes with yellow, reddish or whitish "
+"hair. This bee group is often associated to orchids because males are "
+"attracted to and pollinate many of these plants. They usually fly fast and "
+"are large and robust."
+msgstr ""
+"Prachtbienen sind sehr farbenfroh (grün, violett, blau, rot oder "
+"messingfarben) und metallisch, während einige schwarz sind - manchmal mit "
+"gelben, rötlichen oder weißlichen Haaren. Diese Bienengruppe wird oft mit "
+"Orchideen in Verbindung gebracht, da die Männchen von vielen dieser Pflanzen"
+" angezogen werden und sie bestäuben. Prachtbienen fliegen in der Regel "
+"schnell und sind groß und robust."
+
+# photos caption_1
+#: BR
+msgid "Males have enlarged tibias on their hind legs."
+msgstr "Männchen haben eine vergrößerte Tibia an den Hinterbeinen."
+
+# photos intro_text
+#: BR
+msgid ""
+"Females rarely visit orchid flowers and use other species as food source."
+msgstr ""
+"Weibchen besuchen selten Orchideenblüten und nutzen andere Arten als "
+"Nahrungsquelle."
+
+# photos caption_1
+#: BR
+msgid "Females have pollen baskets on their hind legs."
+msgstr "Weibchen haben Pollenhöschen an den Hinterbeinen."
+
+# photos caption_2
+#: BR
+msgid ""
+"Sometimes is possible to observe their long tongues while they are grooming "
+"and/or flying."
+msgstr ""
+"Manchmal kann man ihre langen Zungen beobachten, während sie sich putzen "
+"und/oder fliegen."
+
+# photos intro_text
+#: BR
+msgid ""
+"This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
+"of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
+"America to South America."
+msgstr ""
+"Diese Kategorie ist für alle blütenbesuchenden Fledermäuse. Glossophaginae "
+"ist eine Unterfamilie der Blattnasenfledermäuse (Phyllostomidae), die vom "
+"südlichen Nordamerika bis nach Südamerika vorkommt."
+
+# photos caption_1
+#: BR
+msgid ""
+"This example shows a flower being visited by a <i>Glossophaga soricine</i> "
+"bat"
+msgstr ""
+"Dieses Beispiel zeigt eine Blüte, die von einer Glossophaga soricine "
+"Fledermaus besucht wird"
+
+# photos intro_text
+#: BR
+msgid ""
+"Hummingbirds are birds native to the Americas and comprise the biological "
+"family Trochilidae. With about 360 species, they occur from Alaska to Tierra"
+" del Fuego, but the vast majority of the species are found in the tropics. "
+"They are small birds, with most species measuring 7.5–13 cm (3–5 in) in "
+"length. Many plants pollinated by hummingbirds produce flowers in shades of "
+"red, orange, and bright pink, though the birds take nectar from flowers of "
+"other colors, as well."
+msgstr ""
+"Kolibris sind in Nord- und Südamerika beheimatete Vögel und gehören zur "
+"Familie der Trochilidae. Mit etwa 360 Arten kommen sie von Alaska bis "
+"Feuerland vor, aber die meisten Arten sind in den Tropen zu finden. Es "
+"handelt sich um kleine Vögel, von denen die meisten Arten eine Länge von "
+"7,5-13 cm erreichen. Viele Pflanzen, die von Kolibris bestäubt werden, haben"
+" Blüten in Rot-, Orange- und Rosatönen, aber die Vögel ernähren sich auch "
+"von Nektar andersfarbiger Blüten."
+
+# photos caption_1
+#: BR
+msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
+msgstr "Saphiramazilie (Amazilia lactea)"
+
+# photos caption_2
+#: BR
+msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
+msgstr "Goldbauch-Smaragdkolibri (Chlorostilbon lucidus)"
+
+# photos intro_text
+#: UK IE BR CY
+msgid ""
+"This category is for any insects that don’t fit into the other insect "
+"groups, and can also be used for any insects that you can’t identify into a "
+"group at all. Please count all the insects you see, and use “other insects” "
+"for any that you don’t recognise. For example, sawflies are counted as "
+"“other insects”. Sawflies are related to bees and wasps but there are a "
+"number of differences."
+msgstr ""
+"Diese Kategorie ist für alle Insekten, die nicht in die anderen "
+"Insektengruppen passen und kann auch für alle Insekten verwendet werden, die"
+" keiner Gruppe zugeordnet werden können. Bitte zähle alle Insekten, die Du "
+"siehst und verwende \"andere Insekten\" für alle, die Du nicht erkennst. "
+"Pflanzenwespen zum Beispiel werden als \"andere Insekten\" gezählt. "
+"Pflanzenwespen sind mit Bienen und Wespen verwandt, unterscheiden sich aber "
+"in einigen Dingen von ihnen."
+
+# photos caption_1
+#: UK IE BR CY
+msgid ""
+"Other insects you may see include sawflies, which come in a variety of "
+"colours and sizes - some look rather like wasps"
+msgstr ""
+"Andere Insekten, die du beobachten könntest sind z.B. Pflanzenwespen, die es"
+" in verschiedenen Farben und Größen gibt - einige sehen eher wie Wespen aus."
+
+# photos caption_2
+#: UK IE BR CY
+msgid ""
+"They do not have a “wasp waist” – there is no gap between the abdomen and "
+"thorax"
+msgstr ""
+"Sie haben keine \"Wespentaille\" - zwischen Abdomen und Thorax ist keine "
+"Lücke"
+
+# photos caption_3
+#: UK IE BR CY
+msgid "Sawflies are not hairy and do not have a pollen basket"
+msgstr "Pflanzenwespen sind nicht haarig und haben keine Pollenhöschen"
+
+# photos caption_4
+#: UK IE
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps"
+msgstr ""
+"Sie bewegen sich in der Regel recht langsam und haben einen schwächeren Flug"
+" als Bienen oder Wespen."
+
+# photos caption_4
+#: BR CY
+msgid ""
+"They are usually quite slow-moving, with a weaker flight than bees or wasps "
+"(UK example shown)"
+msgstr ""
+"Sie bewegen sich in der Regel recht langsam und haben einen schwächeren Flug"
+" als Bienen oder Wespen (Beispiel aus UK)"
+
+# photos intro_text
+#: UK BR IE CY
+msgid ""
+"True bugs do not often visit flowers but you may encounter them "
+"occasionally, and if so they are counted in the “other insects” category. "
+"They are sometimes confused with beetles."
+msgstr ""
+"Wanzen besuchen meist keine Blüten, aber man kann ihnen gelegentlich "
+"begegnen. Dann werden sie zur Kategorie \"andere Insekten\" gezählt. "
+"Manchmal werden sie mit Käfern verwechselt."
+
+# photos caption_1
+#: UK BR IE CY
+msgid ""
+"True bugs have wings that overlap, so there is no clear midline along the "
+"abdomen – the wings form a X-shape"
+msgstr ""
+"Wanzen haben Flügel, die sich überlappen, so dass es keine klare Mittellinie"
+" entlang des Hinterleibs gibt - die Flügel bilden eine X-Form"
+
+# photos caption_2
+#: UK BR IE CY
+msgid ""
+"Some bugs have a more-or-less triangular “scutellum” covering part of the "
+"abdomen, and adding to the X-shape effect"
+msgstr ""
+"Einige Wanzen haben ein mehr oder weniger dreieckiges \"Scutellum\", das "
+"einen Teil des Hinterleibs bedeckt und den X-Effekt noch verstärkt"
+
+# photos caption_3
+#: UK BR IE CY
+msgid ""
+"True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
+"this is usually hidden away underneath the bug)"
+msgstr ""
+"Wanzen haben saugende Mundwerkzeuge mit einem langen Rüssel oder Rostrum "
+"(dieser ist jedoch normalerweise unter der Wanze versteckt)."
+
+# photos caption_4
+#: UK BR IE CY
+msgid ""
+"Some bugs are very colourful, while others are shades or green or brown"
+msgstr "Einige Wanzen sind sehr bunt, andere sind grün oder braun"
+
+# photos intro_text
+#: BR
+msgid ""
+"This category is for any floral visitors that don’t fit into the other "
+"pollinator groups, and can also be used for any pollinator that you can’t "
+"identify into a group at all."
+msgstr ""
+"Diese Kategorie ist für alle Blütenbesucher gedacht, die nicht in die "
+"anderen Bestäubergruppen passen, und kann auch für alle Bestäuber verwendet "
+"werden, die du nicht in eine Gruppe einordnen kannst."
+
+# photos caption_1
+#: BR
+msgid ""
+"Please use the category “other insects” if you can identify the pollinator "
+"as an insect, even though you don’t recognize which insect group it is."
+msgstr ""
+"Bitte verwende die Kategorie \"andere Insekten\", wenn du den Bestäuber als "
+"Insekt identifizieren kannst, auch wenn du nicht weißt, um welche "
+"Insektengruppe es sich handelt."
