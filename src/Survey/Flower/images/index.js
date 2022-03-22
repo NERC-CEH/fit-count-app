@@ -44,3 +44,4 @@ import './whiteMustard.jpg?originalName';
 import './wildPlantain.jpg?originalName';
 import './lantanaBR.jpg?originalName';
 import './orchids.jpg?originalName';
+import './redClover.jpg?originalName';

@@ -264,62 +264,62 @@ msgid "Other habitat"
 msgstr "Other habitat"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Garden"
 msgstr "Garden"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "School Grounds"
 msgstr "School Grounds"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Parkland with trees"
 msgstr "Parkland with trees"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Churchyard"
 msgstr "Churchyard"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Grassy verge or hedgerow edge"
 msgstr "Grassy verge or hedgerow edge"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY IE
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr "Grassland with wild flowers (e.g. meadow)"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Amenity grassland (usually mown short)"
 msgstr "Amenity grassland (usually mown short)"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Farm crops or grassy pasture"
 msgstr "Farm crops or grassy pasture"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Upland moorland"
 msgstr "Upland moorland"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Lowland heath"
 msgstr "Lowland heath"
 
 # habitats value
-#: UK BR
+#: UK BR IE
 msgid "Waste ground or brownfield site"
 msgstr "Waste ground or brownfield site"
 
 # habitats value
-#: UK
+#: UK IE
 msgid "Woodland"
 msgstr "Woodland"
 
@@ -646,72 +646,72 @@ msgid "Press <1></1> to add."
 msgstr "Press <1></1> to add."
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Bramble"
 msgstr "Bramble"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Buddleja"
 msgstr "Buddleja"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Buttercup"
 msgstr "Buttercup"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Dandelion"
 msgstr "Dandelion"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Hawthorn"
 msgstr "Hawthorn"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Heather"
 msgstr "Heather"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Hogweed"
 msgstr "Hogweed"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Ivy"
 msgstr "Ivy"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Knapweed"
 msgstr "Knapweed"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Lavender"
 msgstr "Lavender"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Ragwort"
 msgstr "Ragwort"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "Thistle"
 msgstr "Thistle"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "White Clover"
 msgstr "White Clover"
 
 # flowers name
-#: UK
+#: UK IE
 msgid "White Dead-nettle"
 msgstr "White Dead-nettle"
 
@@ -799,6 +799,11 @@ msgstr "Milk Thistle"
 #: BR
 msgid "Orchids"
 msgstr "Orchids"
+
+# flowers name
+#: IE
+msgid "Red Clover"
+msgstr "Red Clover"
 
 # Survey species selection page read more message
 #: interface
@@ -1329,7 +1334,7 @@ msgid "Identify the flower visitors into their broad groups (bumblebees, hoverfl
 msgstr "Identify the flower visitors into their broad groups (bumblebees, hoverflies etc.) – any that you don't recognise should be counted as \"other insects\" or \"don't know\"."
 
 # From survey pages
-#: UK BR CL CY AR
+#: UK BR CL CY AR IE
 msgid "Other"
 msgstr "Other"
 
@@ -1386,52 +1391,52 @@ msgid "Discard local data"
 msgstr "Discard local data"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Beetles"
 msgstr "Beetles"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Bumblebees"
 msgstr "Bumblebees"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Butterflies and moths"
 msgstr "Butterflies and moths"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Honeybees"
 msgstr "Honeybees"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Hoverflies"
 msgstr "Hoverflies"
 
 # pollinator name
-#: UK CY
+#: UK CY IE
 msgid "Other flies"
 msgstr "Other flies"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Other insects"
 msgstr "Other insects"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Small insects (<3mm)"
 msgstr "Small insects (<3mm)"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Solitary bees"
 msgstr "Solitary bees"
 
 # pollinator name
-#: UK BR CY
+#: UK BR CY IE
 msgid "Wasps"
 msgstr "Wasps"
 
@@ -3366,6 +3371,41 @@ msgstr ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
 
+# photos extraText
+#: IE
+msgid "There is just one species of honeybee in Ireland. They nest in artificial hives,with occasional colonies establishing in the wild."
+msgstr "There is just one species of honeybee in Ireland. They nest in artificial hives,with occasional colonies establishing in the wild."
+
+# photos extraText
+#: IE
+msgid "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 21 species in Ireland."
+msgstr "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 21 species in Ireland."
+
+# photos extraText
+#: IE
+msgid "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 78 species in Ireland."
+msgstr "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 78 species in Ireland."
+
+# photos caption_3
+#: IE
+msgid "This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary bees, at around 5-7mm long"
+msgstr "This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary bees, at around 5-7mm long"
+
+# photos extraText
+#: IE
+msgid "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 180 species of hoverfly in Ireland."
+msgstr "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 180 species of hoverfly in Ireland."
+
+# photos caption_1
+#: IE
+msgid "The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most common hoverflies"
+msgstr "The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most common hoverflies"
+
+# photos intro_text
+#: UK IE
+msgid "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
+msgstr "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect."
+
 # name
 #: BR
 msgid "Oxalis"
@@ -3462,7 +3502,7 @@ msgid "Cerrado"
 msgstr "Cerrado"
 
 # name
-#: BR CL
+#: BR CL IE
 msgid "Orchid bees"
 msgstr "Orchid bees"
 

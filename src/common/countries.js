@@ -4,6 +4,7 @@ import UK from 'common/images/ukFlag.svg';
 import CY from 'common/images/cypFlag.svg';
 import BR from 'common/images/braFlag.svg';
 import SE from 'common/images/seFlag.svg';
+import IE from 'common/images/ieFlag.svg';
 import 'common/images/chlFlag.svg';
 import 'common/images/argFlag.svg';
 
@@ -33,6 +34,11 @@ if (isDemo) {
         flag: SE,
         label: 'Sweden',
         value: 'SE',
+      },
+      {
+        flag: IE,
+        label: 'Ireland',
+        value: 'IE',
       },
       // {
       //   flag: CL,

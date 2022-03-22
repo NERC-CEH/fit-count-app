@@ -3,7 +3,7 @@ const fs = require('fs');
 const fetchSheet = require('@flumens/fetch-onedrive-excel'); // eslint-disable-line
 const gettextParser = require('gettext-parser'); // eslint-disable-line import/no-extraneous-dependencies
 
-const countries = ['UK', 'BR', 'CL', 'CY', 'AR'];
+const countries = ['UK', 'BR', 'CL', 'CY', 'AR', 'IE'];
 
 const drive =
   'sites/flumensio.sharepoint.com,6230bb4b-9d52-4589-a065-9bebfdb9ce63,21520adc-6195-4b5f-91f6-7af0b129ff5c/drive';
