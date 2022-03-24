@@ -1493,52 +1493,52 @@ msgstr ""
 # ============================================================================
 # ============================================================================
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Beetles"
 msgstr "Escarabajos"
 
 # insects name
-#: UK CY IE
+#: UK CY IE GR
 msgid "Bumblebees"
 msgstr "Abejorros"
 
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Butterflies and moths"
 msgstr "Mariposas y polillas"
 
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Honeybees"
 msgstr "Abejas de la miel"
 
 # insects name
-#: UK CY IE
+#: UK CY IE GR
 msgid "Hoverflies"
 msgstr "Moscas de las flores"
 
 # insects name
-#: UK CY IE
+#: UK CY IE GR
 msgid "Other flies"
 msgstr "Otras moscas"
 
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Other insects"
 msgstr "Otros insectos"
 
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Small insects (<3mm)"
 msgstr "Pequeños insectos (<3mm)"
 
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Solitary bees"
 msgstr "Abejas solitarias"
 
 # insects name
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Wasps"
 msgstr "Avispas\t"
 
@@ -1553,7 +1553,7 @@ msgid "Hummingbirds"
 msgstr "Colibrís"
 
 # insects name
-#: BR IE
+#: BR
 msgid "Orchid bees"
 msgstr ""
 
@@ -1577,8 +1577,13 @@ msgstr "Moscas"
 msgid "Don't know"
 msgstr "No lo sé"
 
+# insects name
+#: GR
+msgid "Carpenter bees"
+msgstr ""
+
 # habitats value
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Garden"
 msgstr "Jardín"
 
@@ -1603,12 +1608,12 @@ msgid "Grassy verge or hedgerow edge"
 msgstr ""
 
 # habitats value
-#: UK BR CY IE
+#: UK BR CY IE GR
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr ""
 
 # habitats value
-#: UK BR IE
+#: UK BR IE GR
 msgid "Amenity grassland (usually mown short)"
 msgstr ""
 
@@ -1628,7 +1633,7 @@ msgid "Lowland heath"
 msgstr "Brezal de tierras bajas"
 
 # habitats value
-#: UK BR IE
+#: UK BR IE GR
 msgid "Waste ground or brownfield site"
 msgstr "Terreno baldío o terreno abandonado"
 
@@ -1643,7 +1648,7 @@ msgid "Botanical garden"
 msgstr "Jardín botánico"
 
 # habitats value
-#: BR CY
+#: BR CY GR
 msgid "Forest"
 msgstr "Bosque"
 
@@ -1678,7 +1683,7 @@ msgid "Roadside verges"
 msgstr "Borde de carretera"
 
 # habitats value
-#: UK BR CY
+#: UK BR CY GR
 msgid "Other"
 msgstr ""
 
@@ -1697,78 +1702,113 @@ msgstr "Plantación forestal"
 msgid "Cerrado"
 msgstr ""
 
+# habitats value
+#: GR
+msgid "Grassy verge "
+msgstr ""
+
+# habitats value
+#: GR
+msgid "Hedgerow edge "
+msgstr ""
+
+# habitats value
+#: GR
+msgid "Verge along a stream or river "
+msgstr ""
+
+# habitats value
+#: GR
+msgid "Forest edge "
+msgstr ""
+
+# habitats value
+#: GR
+msgid "Field margins "
+msgstr ""
+
+# habitats value
+#: GR
+msgid "Orchard meadow "
+msgstr ""
+
+# habitats value
+#: GR
+msgid "Fallow land "
+msgstr ""
+
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Bramble"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Buddleja"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Buttercup"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Dandelion"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Hawthorn"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Heather"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Hogweed"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Ivy"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Knapweed"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Lavender"
 msgstr "Lavanda"
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Ragwort"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "Thistle"
 msgstr ""
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "White Clover"
 msgstr "Trébol blanco"
 
 # flowers name
-#: UK IE
+#: UK IE GR
 msgid "White Dead-nettle"
 msgstr "Ortiga blanca"
 
 # flowers name
-#: IE
+#: IE GR
 msgid "Red Clover"
 msgstr ""
 
@@ -1933,7 +1973,7 @@ msgid "Ipe"
 msgstr ""
 
 # photos intro_text
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -1942,28 +1982,28 @@ msgstr ""
 "abejas solitarias y más pequeñas que la mayoría de los abejorros."
 
 # photos caption_1
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr ""
 "Antenas largas y delgadas, a menudo en ángulo tomando una forma de \"codo\""
 
 # photos caption_2
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Eyes covering the sides of the head"
 msgstr "Ojos cubriendo los lados de la cabeza"
 
 # photos caption_3
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Hind legs broad and flattened"
 msgstr "Patas traseras anchas y aplanadas"
 
 # photos caption_4
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr "Abdomen puede variar de mayormente oscuro a mayormente naranja"
 
 # photos caption_5
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Celda larga y estrecha en las venas al borde del ala"
 
@@ -1976,6 +2016,13 @@ msgstr ""
 "Solo hay una especie de abeja de la miel en el Reino Unido. Anidan en "
 "colmenas artificiales, con colonias ocasionales que se establecen en la "
 "naturaleza."
+
+# photos extraText
+#: GR
+msgid ""
+"There is just one species of honeybee in Germany. They nest in artificial "
+"hives,with occasional colonies establishing in the wild."
+msgstr ""
 
 # photos extraText
 #: CY
@@ -2002,7 +2049,7 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "Most of the honeybees you see will be workers, which are female, and collect"
 " pollen into a moistened ball on the outside of the hind legs"
@@ -2012,14 +2059,14 @@ msgstr ""
 "las patas traseras."
 
 # photos extraText
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
 "Los machos de abejas melíferas (zánganos) son similares pero tienen ojos "
 "mucho más grandes."
 
 # photos intro_text
-#: UK IE CY
+#: UK GR IE CY
 msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
@@ -2029,12 +2076,12 @@ msgstr ""
 "pequeñas, pero son más grandes que la mayoría de las abejas solitarias."
 
 # photos caption_1
-#: UK IE CY BR
+#: UK GR IE CY BR
 msgid "Very hairy / fluffy bees"
 msgstr "Abejas muy peludas / esponjosas"
 
 # photos caption_2
-#: UK IE CY BR
+#: UK GR IE CY BR
 msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
@@ -2043,7 +2090,7 @@ msgstr ""
 "cuando visitan las flores."
 
 # photos caption_4
-#: UK IE CY
+#: UK GR IE CY
 msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
@@ -2052,7 +2099,7 @@ msgstr ""
 " blancos, negros), otras pueden ser rojizas por todas partes."
 
 # photos caption_5
-#: UK IE CY
+#: UK GR IE CY
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
 "Los ojos cubren los lados de la cabeza, con mucho pelo entre los ojos."
@@ -2065,6 +2112,13 @@ msgid ""
 msgstr ""
 
 # photos extraText
+#: UK GR
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are 40 species in Germany."
+msgstr ""
+
+# photos extraText
 #: IE
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
@@ -2072,21 +2126,21 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
 msgstr ""
 
 # photos caption_2
-#: UK
+#: UK GR
 msgid ""
 "This bumblebee is one of the species that are more-or-less ginger-coloured "
 "all over"
 msgstr ""
 
 # photos extraText
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
@@ -2157,34 +2211,34 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
 
 # photos caption_1
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Usually quite elongate in shape (but there is lots of variety)"
 msgstr ""
 
 # photos caption_2
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
 msgstr ""
 
 # photos caption_3
-#: UK CY IE
+#: UK GR CY IE
 msgid "Colours usually more subdued and less contrasting than bumblebees"
 msgstr ""
 
 # photos caption_4
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Long antennae, often held straight out in front"
 msgstr ""
 
 # photos caption_5
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
@@ -2195,6 +2249,13 @@ msgstr ""
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr ""
+
+# photos extraText
+#: UK GR
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 560 species in Germany."
 msgstr ""
 
 # photos extraText
@@ -2212,21 +2273,21 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
 msgstr ""
 
 # photos caption_2
-#: UK IE
+#: UK IE GR
 msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
 msgstr ""
 
 # photos extraText
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "Solitary bees generally nest in burrows or holes. One large group, the "
 "mining bees, dig burrows into soil. Another group, including the mason bees "
@@ -2248,20 +2309,20 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK GR IE
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
 
 # photos caption_2
-#: UK IE
+#: UK GR IE
 msgid ""
 "The nomad bees (genus <i>Nomada</i>) can look very similar to wasps, but "
 "they have bee-like hairs on part of their body, and most are similar in "
@@ -2269,21 +2330,21 @@ msgid ""
 msgstr ""
 
 # photos caption_3
-#: UK
+#: UK GR
 msgid ""
 "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
 "bees, at around 4mm long"
 msgstr ""
 
 # photos caption_4
-#: UK IE
+#: UK GR IE
 msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
 
 # photos extraText
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
@@ -2394,44 +2455,44 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
 msgstr ""
 
 # photos caption_1
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid "Long antennae (distinguishes them from most flies)"
 msgstr ""
 
 # photos caption_2
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
 msgstr ""
 
 # photos caption_3
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "Social wasps and some of the solitary species have bold black and yellow "
 "stripes"
 msgstr ""
 
 # photos caption_4
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid "Some wasps have their wings rolled up when at rest"
 msgstr ""
 
 # photos caption_5
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 msgstr ""
 
 # photos intro_text
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "There is a lot of variation in size, shape and markings among the solitary "
 "wasps. They are usually not obviously hairy, and since they do not collect "
@@ -2440,62 +2501,62 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK CY IE
+#: UK CY IE GR
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
 msgstr ""
 
 # photos caption_2
-#: UK CY IE
+#: UK CY IE GR
 msgid "Some have typical black and yellow wasp stripes"
 msgstr ""
 
 # photos caption_3
-#: UK CY IE
+#: UK CY IE GR
 msgid "Others may be black and red, or all black as in this example"
 msgstr ""
 
 # photos extraText
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "Solitary wasps generally nest in burrows or holes, in a similar manner to "
 "the solitary bees."
 msgstr ""
 
 # photos intro_text
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid ""
 "There are many different parasitic wasps, some of which visit flowers for "
 "nectar. Two examples are shown above."
 msgstr ""
 
 # photos caption_1
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 msgstr ""
 
 # photos caption_2
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid ""
 "The majority of species have very long antennae, made up of lots of "
 "individual segments"
 msgstr ""
 
 # photos caption_3
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid ""
 "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
 "some species this is very long"
 msgstr ""
 
 # photos caption_4
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid ""
 "Colours are usually a mix of black and red or yellow – some species are all-"
 "black"
 msgstr ""
 
 # photos extraText
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid ""
 "Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
 " the larvae of the wasps consume the host invertebrate."
@@ -2520,40 +2581,40 @@ msgid "Solitary wasp of the genus <i>Monobia</i>"
 msgstr ""
 
 # photos intro_text
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
 msgstr ""
 
 # photos caption_1
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
 msgstr ""
 
 # photos caption_2
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
 
 # photos caption_3
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
 msgstr ""
 
 # photos caption_4
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
 msgstr ""
 
 # photos caption_5
-#: UK CY IE BR
+#: UK GR CY IE BR
 msgid ""
 "Hoverflies are not usually as hairy as bees (but there are some "
 "exceptions!), and they do not usually have prominent bristles on the body "
@@ -2565,6 +2626,13 @@ msgstr ""
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr ""
+
+# photos extraText
+#: UK GR
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 285 species of hoverfly in Germany."
 msgstr ""
 
 # photos extraText
@@ -2582,7 +2650,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "Many hoverflies have the typical black and yellow markings, but there is "
 "quite a lot of variety in shape, size and marking among the full range of "
@@ -2590,28 +2658,28 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr ""
 
 # photos caption_2
-#: UK IE CY
+#: UK IE GR CY
 msgid "The eyes cover more of the head"
 msgstr ""
 
 # photos caption_3
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "The back legs are much narrower than the broad flattened legs of honeybees"
 msgstr ""
 
 # photos caption_4
-#: UK IE CY
+#: UK IE GR CY
 msgid "The typical ‘false margin’ wing vein is present"
 msgstr ""
 
 # photos caption_5
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
 " of the wing"
@@ -2625,28 +2693,28 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK
+#: UK GR
 msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
 
 # photos caption_2
-#: UK IE
+#: UK GR IE
 msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
 
 # photos caption_3
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
 
 # photos caption_4
-#: UK CY IE
+#: UK GR CY IE
 msgid ""
 "Some hoverflies are small and mostly dark in colour, but have the typical "
 "wing veins (if you can get close enough to see them) and in flight will "
@@ -2726,7 +2794,7 @@ msgid ""
 msgstr ""
 
 # photos caption_5
-#: BR UK IE CY
+#: BR UK IE GR CY
 msgid "It has prominent bristles on the abdomen"
 msgstr ""
 
@@ -2738,7 +2806,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "There are many different flies that you may see visiting flowers – for the "
 "FIT Count all you need to do is separate them into “hoverflies” and all "
@@ -2748,34 +2816,34 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid "This is a dance fly (family Empididae). "
 msgstr ""
 
 # photos caption_2
-#: UK IE CY
+#: UK IE GR CY
 msgid "Many dance flies have a long thin proboscis under the head"
 msgstr ""
 
 # photos caption_3
-#: UK IE CY
+#: UK IE GR CY
 msgid "Many dance flies have a distinctly humped thorax"
 msgstr ""
 
 # photos caption_4
-#: UK IE
+#: UK IE GR
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
 msgstr ""
 
 # photos caption_5
-#: UK IE CY
+#: UK IE GR CY
 msgid "The abdomen is broader and flatter than in hoverflies"
 msgstr ""
 
 # photos caption_6
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
@@ -2794,7 +2862,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "Some of the larger flies that you will see on flowers are from ‘calypterate’"
 " families, most of which are rather rounded insects with obvious bristles on"
@@ -2802,17 +2870,17 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid "This is a parasitic fly from family Tachinidae"
 msgstr ""
 
 # photos caption_3
-#: UK IE
+#: UK IE GR
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
 msgstr ""
 
 # photos caption_4
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
@@ -2829,7 +2897,7 @@ msgid "This is the Yellow Dung-fly (family Scathophagidae, UK example shown)"
 msgstr ""
 
 # photos intro_text
-#: UK IE
+#: UK IE GR
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
 "frequently noticed but also visit flowers regularly, either by day or by "
@@ -2838,24 +2906,24 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid "Small Tortoiseshell butterfly"
 msgstr ""
 
 # photos caption_2
-#: UK IE CY
+#: UK IE GR CY
 msgid "Common Blue butterfly"
 msgstr ""
 
 # photos extraText
-#: UK IE CY BR
+#: UK IE GR CY BR
 msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
 msgstr ""
 
 # photos intro_text
-#: UK IE CY
+#: UK IE GR CY
 msgid ""
 "A range of day-flying moths can be seen visiting flowers. Some of these are "
 "quite large (“macro-moths”) and colourful, and some are very small (“micro-"
@@ -2864,12 +2932,12 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid "Six-spot Burnet moth (a macro-moth)"
 msgstr ""
 
 # photos caption_2
-#: UK IE
+#: UK IE GR
 msgid "Nettle-tap moth (a micro-moth)"
 msgstr ""
 
@@ -2916,7 +2984,7 @@ msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
 msgstr ""
 
 # photos intro_text
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "There are relatively few beetle species that visit flowers, but those that "
 "do can be very abundant. The different species vary a lot in size, shape and"
@@ -2925,38 +2993,38 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
 msgstr ""
 
 # photos caption_2
-#: UK CY IE BR
+#: UK CY IE GR BR
 msgid "Beetles have chewing mouthparts"
 msgstr ""
 
 # photos caption_3
-#: UK CY IE
+#: UK CY IE GR
 msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
 
 # photos intro_text
-#: UK IE CY
+#: UK IE GR CY
 msgid "Above are two more examples of beetles that regularly visit flowers."
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
 msgstr ""
 
 # photos caption_2
-#: UK IE
+#: UK IE GR
 msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
@@ -2996,7 +3064,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK IE BR CY
+#: UK IE GR BR CY
 msgid ""
 "This category is for any insects under 3mm long. These can be hard to assign"
 " to a particular group without peering at them closely (which would disturb "
@@ -3005,7 +3073,7 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE
+#: UK IE GR
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
@@ -3151,7 +3219,7 @@ msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
 msgstr ""
 
 # photos intro_text
-#: UK IE BR CY
+#: UK IE GR BR CY
 msgid ""
 "This category is for any insects that don’t fit into the other insect "
 "groups, and can also be used for any insects that you can’t identify into a "
@@ -3162,26 +3230,26 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE BR CY
+#: UK IE GR BR CY
 msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
 
 # photos caption_2
-#: UK IE BR CY
+#: UK IE GR BR CY
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
 
 # photos caption_3
-#: UK IE BR CY
+#: UK IE GR BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
 msgstr ""
 
 # photos caption_4
-#: UK IE
+#: UK IE GR
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
@@ -3194,7 +3262,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK BR IE CY
+#: UK BR IE GR CY
 msgid ""
 "True bugs do not often visit flowers but you may encounter them "
 "occasionally, and if so they are counted in the “other insects” category. "
@@ -3202,28 +3270,28 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK BR IE CY
+#: UK BR IE GR CY
 msgid ""
 "True bugs have wings that overlap, so there is no clear midline along the "
 "abdomen – the wings form a X-shape"
 msgstr ""
 
 # photos caption_2
-#: UK BR IE CY
+#: UK BR IE GR CY
 msgid ""
 "Some bugs have a more-or-less triangular “scutellum” covering part of the "
 "abdomen, and adding to the X-shape effect"
 msgstr ""
 
 # photos caption_3
-#: UK BR IE CY
+#: UK BR IE GR CY
 msgid ""
 "True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
 "this is usually hidden away underneath the bug)"
 msgstr ""
 
 # photos caption_4
-#: UK BR IE CY
+#: UK BR IE GR CY
 msgid ""
 "Some bugs are very colourful, while others are shades or green or brown"
 msgstr ""
@@ -3241,4 +3309,12 @@ msgstr ""
 msgid ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
+msgstr ""
+
+# photos intro_text
+#: GR
+msgid ""
+"The blue-black carpenter bee is a very large and conspicuous species of bee "
+"with a black hairy body and blackish to violet shimmering wings. ​The "
+"warmth-loving species has spread in Germany in recent years.​"
 msgstr ""

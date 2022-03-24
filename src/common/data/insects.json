@@ -7,7 +7,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "bumblebees",
@@ -16,7 +17,8 @@
     "name": "Bumblebees",
     "UK": true,
     "CY": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -26,7 +28,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "honeybees",
@@ -36,7 +39,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "hoverflies",
@@ -45,7 +49,8 @@
     "name": "Hoverflies",
     "UK": true,
     "CY": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "otherFlies",
@@ -54,7 +59,8 @@
     "name": "Other flies",
     "UK": true,
     "CY": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "otherInsects",
@@ -64,7 +70,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "smallInsects",
@@ -74,7 +81,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "solitaryBees",
@@ -84,7 +92,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "wasps",
@@ -94,7 +103,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "bats",
@@ -115,8 +125,7 @@
     "warehouseId": 538656,
     "sort": 0,
     "name": "Orchid bees",
-    "BR": true,
-    "IE": "                                   "
+    "BR": true
   },
   {
     "id": "stinglessBees",
@@ -145,5 +154,10 @@
     "sort": 0,
     "name": "Don't know",
     "BR": true
+  },
+  {
+    "id": "carpenterbees",
+    "name": "Carpenter bees",
+    "GR": true
   }
 ]

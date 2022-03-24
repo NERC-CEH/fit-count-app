@@ -5,7 +5,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "warehouseId": 13558,
@@ -39,14 +40,16 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "warehouseId": 13563,
     "value": "Amenity grassland (usually mown short)",
     "UK": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "warehouseId": 13564,
@@ -72,7 +75,8 @@
     "value": "Waste ground or brownfield site",
     "UK": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "warehouseId": 13568,
@@ -90,7 +94,8 @@
     "warehouseId": 18786,
     "value": "Forest",
     "CY": true,
-    "BR": true
+    "BR": true,
+    "GR": true
   },
   {
     "warehouseId": 18787,
@@ -128,7 +133,8 @@
     "value": "Other",
     "UK": true,
     "CY": true,
-    "BR": true
+    "BR": true,
+    "GR": true
   },
   {
     "warehouseId": 18900,
@@ -144,5 +150,33 @@
     "warehouseId": 18902,
     "value": "Cerrado",
     "BR": true
+  },
+  {
+    "value": "Grassy verge ",
+    "GR": true
+  },
+  {
+    "value": "Hedgerow edge ",
+    "GR": true
+  },
+  {
+    "value": "Verge along a stream or river ",
+    "GR": true
+  },
+  {
+    "value": "Forest edge ",
+    "GR": true
+  },
+  {
+    "value": "Field margins ",
+    "GR": true
+  },
+  {
+    "value": "Orchard meadow ",
+    "GR": true
+  },
+  {
+    "value": "Fallow land ",
+    "GR": true
   }
 ]
