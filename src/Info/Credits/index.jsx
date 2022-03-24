@@ -124,6 +124,10 @@ const Credits = () => {
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Malcolm Storey via BioImages</li>
                 <li>Trounce via Wikimedia</li>
+                <li>Liam Lysaght</li>
+                <li>Colm Moriarty</li>
+                <li>John Walsh</li>
+                <li>Mary Douglas</li>
               </ul>
             )}
             {isBrazil && (
