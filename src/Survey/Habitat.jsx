@@ -93,6 +93,7 @@ class Habitat extends React.Component {
     return hasHabitat;
   };
 
+  // eslint-disable-next-line
   componentDidUpdate = () => {
     const { sample } = this.props;
 

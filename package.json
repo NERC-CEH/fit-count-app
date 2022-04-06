@@ -2,10 +2,10 @@
   "name": "uk.ac.ceh.fit",
   "version": "1.1.0",
   "scripts": {
-    "start": "webpack serve --progress --watch --content-base build --port 8000",
-    "build": "NODE_ENV=production webpack",
-    "build:production": "npm run clean && npm run build && npx cap sync && npm run build:resources",
-    "build:resources": "mkdir -p resources && cp -R other/designs/android resources && cp -R other/designs/splash.png resources && npx sharp -i other/designs/icon.svg -o resources/icon.png resize 1024 1024 -- removeAlpha && npx cordova-res ios --skip-config --resources resources --copy && npx cordova-res android --skip-config --resources resources --copy",
+    "start": "webpack serve --progress --port 8000",
+    "build": "webpack",
+    "build:production": "npm run clean && NODE_ENV=production npm run build && npx cap sync && npm run build:resources",
+    "build:resources": "mkdir -p resources && cp -R other/designs/android resources && cp -R other/designs/*.png resources && npx cordova-res ios --skip-config --resources resources --copy && npx cordova-res android --skip-config --resources resources --copy",
     "deploy": "vercel --prod -A other/now.json -t $VERCEL_TOKEN --confirm",
     "deploy:production": "bitrise ci",
     "clean": "rm -rf build resources",
@@ -89,36 +89,33 @@
     "yup": "0.32.9"
   },
   "devDependencies": {
-    "@babel/core": "7.12.10",
-    "@babel/plugin-proposal-class-properties": "7.12.1",
-    "@babel/plugin-proposal-decorators": "7.12.12",
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-proposal-class-properties": "^7.16.5",
+    "@babel/plugin-proposal-decorators": "^7.16.5",
     "@babel/plugin-syntax-dynamic-import": "7.8.3",
-    "@babel/plugin-transform-exponentiation-operator": "7.12.1",
-    "@babel/preset-env": "7.12.11",
-    "@babel/preset-react": "7.12.10",
+    "@babel/plugin-transform-exponentiation-operator": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
     "@capacitor/cli": "2.4.6",
-    "@flumens/eslint-config": "0.4.0",
-    "@flumens/webpack-config": "1.0.0",
-    "babel-eslint": "10.1.0",
-    "babel-jest": "26.6.3",
+    "@flumens/eslint-config": "^2.0.0",
+    "@flumens/webpack-config": "^4.1.0",
+    "babel-jest": "^27.4.5",
     "babel-plugin-module-resolver": "4.1.0",
     "cordova-res": "0.15.2",
     "dotenv": "8.2.0",
-    "eslint": "7.18.0",
-    "eslint-import-resolver-babel-module": "5.2.0",
-    "eslint-plugin-import": "2.22.1",
+    "eslint": "^8.4.1",
+    "eslint-plugin-import": "^2.26.0",
     "gettext-parser": "^4.0.4",
     "husky": "^6.0.0",
-    "jest": "26.6.3",
-    "jest-transform-stub": "2.0.0",
-    "prettier-eslint": "12.0.0",
-    "prettier-eslint-cli": "5.0.0",
-    "regenerator-runtime": "0.13.7",
-    "sharp-cli": "1.14.1",
+    "jest": "^27.4.5",
+    "jest-transform-stub": "^2.0.0",
+    "regenerator-runtime": "^0.13.9",
     "vercel": "21.1.0",
-    "webpack": "5.16.0",
-    "webpack-cli": "4.4.0",
-    "webpack-dev-server": "3.11.2"
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "browserslist": [
     "Android >= 5.1",
@@ -135,7 +132,6 @@
   },
   "babel": {
     "presets": [
-      "@babel/preset-react",
       [
         "@babel/env",
         {
@@ -147,9 +143,17 @@
           "corejs": "3.0.0",
           "useBuiltIns": "usage"
         }
-      ]
+      ],
+      "@babel/react",
+      "@babel/typescript"
     ],
     "plugins": [
+      [
+        "@babel/transform-runtime",
+        {
+          "regenerator": true
+        }
+      ],
       [
         "module-resolver",
         {
@@ -161,39 +165,61 @@
             "common": "./src/common",
             "helpers": "./src/common/helpers",
             "models": "./src/common/models",
-            "Components": "./src/common/Components"
+            "Components": "./src/common/Components",
+            "Surveys": "./src/Surveys"
           }
         }
       ],
       [
-        "@babel/plugin-proposal-decorators",
+        "@babel/proposal-decorators",
         {
           "legacy": true
         }
       ],
-      "@babel/plugin-transform-exponentiation-operator",
       [
-        "@babel/plugin-proposal-class-properties",
+        "@babel/proposal-private-property-in-object",
         {
           "loose": true
         }
       ],
-      "@babel/plugin-syntax-dynamic-import"
+      "@babel/transform-exponentiation-operator",
+      [
+        "@babel/proposal-private-methods",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      "@babel/syntax-dynamic-import"
     ]
   },
   "eslintConfig": {
-    "env": {
-      "browser": true
-    },
-    "parser": "babel-eslint",
-    "extends": "@flumens",
-    "settings": {
-      "import/resolver": {
-        "babel-module": {}
-      }
-    },
+    "extends": [
+      "@flumens"
+    ],
     "rules": {
-      "jsx-a11y/accessible-emoji": 0
+      "react/function-component-definition": 0,
+      "arrow-body-style": 0,
+      "camelcase": 0,
+      "jsx-a11y/no-noninteractive-element-interactions": 0,
+      "prefer-arrow-callback": 0,
+      "react/no-unused-class-component-methods": 0,
+      "sort-class-members/sort-class-members": 0,
+      "react/prop-types": 0,
+      "react/jsx-no-useless-fragment": 0,
+      "@typescript-eslint/no-empty-function": 0,
+      "react/jsx-no-bind": 0,
+      "class-methods-use-this": 0,
+      "@typescript-eslint/no-var-requires": 0,
+      "no-restricted-exports": 0,
+      "default-param-last": 0,
+      "@typescript-eslint/no-this-alias": 0,
+      "@getify/proper-arrows/name": 0
     }
   },
   "prettier": {
@@ -205,21 +231,28 @@
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react@1.0.21"
+      "compiler": "bit.envs/compilers/react-typescript@4.0.0"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
   },
   "jest": {
-    "globals": {},
+    "testEnvironment": "jsdom",
     "transform": {
-      "^.+\\.jsx?$": "babel-jest"
+      "^.+\\.(t|j)sx?$": [
+        "babel-jest",
+        {
+          "presets": [
+            "@babel/env"
+          ]
+        }
+      ]
     },
     "testRegex": "((src/\\.|/*.)(spec))\\.js?$",
     "moduleNameMapper": {
-      "^.+.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+.(css|style|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
       "ionic-native": "jest-transform-stub",
-      "react-photoswipe": "jest-transform-stub"
+      "swiper": "jest-transform-stub"
     },
     "moduleDirectories": [
       "node_modules",
@@ -230,7 +263,7 @@
       "<rootDir>/test/setupTests.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!@ionic-native|@ionic|@bit)"
+      "node_modules/(?!@ionic|@bit|@stencil|ionicons)"
     ]
   }
 }
