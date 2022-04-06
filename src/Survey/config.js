@@ -5,6 +5,7 @@ import userModel from 'models/user';
 import appModel from 'models/app';
 import i18n from 'i18next';
 import insectGroups from 'common/data';
+import countries from 'common/countries';
 import habitats from 'common/data/habitats.json';
 import flowers from 'common/data/flowers.json';
 import habitatIcon from 'common/images/habitatIcon.svg';
@@ -225,6 +226,13 @@ const survey = {
       },
     },
 
+    country: {
+      remote: {
+        id: 1640,
+        values: countries.map(intoSelectValue),
+      },
+    },
+
     surveyStartTime: {
       remote: {
         id: isProd ? 1056 : 1516,
@@ -410,6 +418,8 @@ const survey = {
   },
 
   create(Sample, Occurrence) {
+    const { country } = appModel.attrs;
+
     const sample = new Sample({
       metadata: {
         survey: survey.name,
@@ -434,6 +444,7 @@ const survey = {
         'weather-sky': null,
         'weather-shade': null,
         'weather-wind': null,
+        country,
       },
     });
 
@@ -443,7 +454,6 @@ const survey = {
       sample.occurrences.push(occ);
     };
 
-    const { country } = appModel.attrs;
     const byCountry = sp => sp[country];
     insectGroups.filter(byCountry).forEach(createOccurrence);
 

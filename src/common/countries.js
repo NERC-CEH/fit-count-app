@@ -13,21 +13,25 @@ const countries = [
     flag: UK,
     label: 'United Kingdom',
     value: 'UK',
+    warehouseId: 18965,
   },
   {
     flag: CY,
     label: 'Cyprus',
     value: 'CY',
+    warehouseId: 18967,
   },
   {
     flag: BR,
     label: 'Brazil',
     value: 'BR',
+    warehouseId: 18971,
   },
   {
     flag: IE,
     label: 'Ireland',
     value: 'IE',
+    warehouseId: 20076,
   },
 ];
 
@@ -39,16 +43,20 @@ if (isDemo) {
         flag: SE,
         label: 'Sweden',
         value: 'SE',
+        // warehouseId: -1,
       },
       // {
       //   flag: CL,
       //   label: 'Chile',
       //   value: 'CHL',
+      //   warehouseId: 18973
+
       // },
       // {
       //   flag: AR,
       //   label: 'Argentina',
       //   value: 'AR',
+      //   warehouseId: 18969
       // },
     ]
   );
