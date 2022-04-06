@@ -1,15 +1,10 @@
 import { Plugins, FilesystemDirectory } from '@capacitor/core';
 import { isPlatform } from '@ionic/react';
 
-const isProd = process.env.NODE_ENV === 'production';
+const backendUrl = process.env.APP_BACKEND_URL || 'https://fitcount.ceh.ac.uk';
 
-const backendUrl = isProd
-  ? 'https://fitcount.ceh.ac.uk'
-  : 'https://dev-ceh-fitcount9.pantheonsite.io';
-
-const indiciaUrl = isProd
-  ? 'https://warehouse1.indicia.org.uk'
-  : 'https://devwarehouse.indicia.org.uk';
+const indiciaUrl =
+  process.env.APP_BACKEND_INDICIA_URL || 'https://warehouse1.indicia.org.uk';
 
 const isTestEnv = process.env.NODE_ENV === 'test';
 
