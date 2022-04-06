@@ -1,10 +1,8 @@
 import React from 'react';
-import { IonIcon } from '@ionic/react';
 import { Page, Main, Section } from '@apps';
 import appModel from 'models/app';
 import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';
-import { openOutline } from 'ionicons/icons';
 import './styles.scss';
 
 const { P } = Section;
@@ -214,16 +212,16 @@ const Manual = () => {
             {isRestOfWorld && guide}
           </P>
           <P skipTranslation>
-            <T>Further information and guides are available at</T>
-            <a
-              href={
-                isIreland
-                  ? 'https://biodiversityireland.ie/surveys/fit-counts'
-                  : 'http://ukpoms.org.uk/fit-counts'
-              }
-            >
-              <IonIcon src={openOutline} />
-            </a>
+            <T>Further information and guides are available at</T>:{' '}
+            {isIreland ? (
+              <a href="https://biodiversityireland.ie/surveys/fit-counts">
+                https://biodiversityireland.ie/surveys/fit-counts
+              </a>
+            ) : (
+              <a href="http://ukpoms.org.uk/fit-counts">
+                http://ukpoms.org.uk/fit-counts
+              </a>
+            )}
           </P>
         </Section>
       </Main>
