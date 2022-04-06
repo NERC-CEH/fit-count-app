@@ -364,6 +364,11 @@ msgstr "Ya soy un miembro"
 msgid "Sign In"
 msgstr "Iniciar sesión"
 
+# Website link
+#: interface
+msgid "website"
+msgstr ""
+
 # User registration page
 #: interface
 msgid "How did you hear about us?"
@@ -1683,7 +1688,7 @@ msgid "Roadside verges"
 msgstr "Borde de carretera"
 
 # habitats value
-#: UK BR CY GR
+#: UK BR CY IE GR
 msgid "Other"
 msgstr ""
 

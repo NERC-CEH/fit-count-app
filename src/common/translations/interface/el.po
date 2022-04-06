@@ -367,6 +367,11 @@ msgstr "Είμαι ήδη μέλος"
 msgid "Sign In"
 msgstr "Είσοδος"
 
+# Website link
+#: interface
+msgid "website"
+msgstr ""
+
 # User registration page
 #: interface
 msgid "How did you hear about us?"
@@ -1715,7 +1720,7 @@ msgid "Roadside verges"
 msgstr "Περιθώρια δρόμων"
 
 # habitats value
-#: UK BR CY GR
+#: UK BR CY IE GR
 msgid "Other"
 msgstr "Άλλο"
 
