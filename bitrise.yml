@@ -48,6 +48,7 @@ workflows:
     steps:
       - npm@1:
           title: Deploy to demo site
+          run_if: enveq "BUILD_ONLY" ""
           inputs:
             - command: run deploy
       - deploy-to-bitrise-io@1:
@@ -61,10 +62,12 @@ workflows:
           inputs:
             - notify_user_groups: none
       - google-play-deploy@3:
+          run_if: enveq "BUILD_ONLY" ""
           inputs:
             - package_name: $BITRISE_PROJECT_NAME
             - service_account_json_key_path: $BITRISEIO_GOOGLE_SERVICE_KEY_URL
       - deploy-to-itunesconnect-application-loader@0:
+          run_if: enveq "BUILD_ONLY" ""
           inputs:
             - password: $ITUNES_CONNECT_PASS
             - app_password: $ITUNES_CONNECT_APP_PASS
@@ -92,6 +95,19 @@ workflows:
             - export_method: app-store
   web:
     steps:
+      - nvm@1: {}
+      - script@1:
+          title: Print system info
+          inputs:
+            - content: |
+                #!/usr/bin/env bash
+
+                echo "Node version:"
+                node --version
+                npm --version
+                xcodebuild -version
+                sw_vers
+                uname -av
       - get-npm-package-version@1: {}
       - npm@1:
           title: Config Bit.dev
