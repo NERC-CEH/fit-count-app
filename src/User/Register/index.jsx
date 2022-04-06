@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { NavContext } from '@ionic/react';
 import { Trans as T, useTranslation } from 'react-i18next';
-import { Page, device, toast, alert, loader, Header } from '@apps';
+import { Page, device, toast, alert, loader, Header } from '@flumens';
 import Main from './Main';
 import './styles.scss';
 

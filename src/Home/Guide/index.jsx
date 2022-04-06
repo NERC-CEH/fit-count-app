@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { observer } from 'mobx-react';
 import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
-import { Page, Main, ModalHeader, UserFeedbackRequest } from '@apps';
+import { Page, Main, ModalHeader, UserFeedbackRequest } from '@flumens';
 import config from 'common/config';
 import { withTranslation, Trans as T } from 'react-i18next';
 import insectsData from 'common/data';

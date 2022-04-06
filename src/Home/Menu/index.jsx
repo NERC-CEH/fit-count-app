@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import config from 'common/config';
 import { observer } from 'mobx-react';
-import { Page, alert, toast, loader } from '@apps';
+import { Page, alert, toast, loader } from '@flumens';
 import { IonItem, IonLabel, IonCheckbox } from '@ionic/react';
 import Main from './Main';
 import './styles.scss';

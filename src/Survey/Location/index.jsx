@@ -7,7 +7,7 @@ import {
   InfoButton,
   InfoMessage,
   toast,
-} from '@apps';
+} from '@flumens';
 import { locationOutline, searchOutline } from 'ionicons/icons';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';

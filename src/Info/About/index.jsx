@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Main, Section, Header } from '@apps';
+import { Page, Main, Section, Header } from '@flumens';
 import config from 'common/config';
 import appModel from 'models/app';
 import { IonIcon } from '@ionic/react';

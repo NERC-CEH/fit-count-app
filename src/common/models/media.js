@@ -1,4 +1,4 @@
-import { Media } from '@apps';
+import { Media } from '@flumens';
 import { isPlatform } from '@ionic/react';
 import Log from 'helpers/log';
 import config from 'common/config';

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { NavContext, isPlatform } from '@ionic/react';
 import Sample from 'models/sample';
-import { alert } from '@apps';
+import { alert } from '@flumens';
 import { Trans as T } from 'react-i18next';
 import appModel from 'models/app';
 import userModel from 'models/user';

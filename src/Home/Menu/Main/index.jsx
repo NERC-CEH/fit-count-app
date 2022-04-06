@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Main, Toggle, MenuAttrItem, InfoMessage } from '@apps';
+import { Main, Toggle, MenuAttrItem, InfoMessage } from '@flumens';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import exact from 'prop-types-exact';

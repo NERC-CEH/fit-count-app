@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { observer } from 'mobx-react';
 import { NavContext } from '@ionic/react';
-import { Page, Header } from '@apps';
+import { Page, Header } from '@flumens';
 import Main from './Main';
 
 function SelectCountry({ appModel }) {

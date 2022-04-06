@@ -2,7 +2,7 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main, InfoButton, InfoMessage } from '@apps';
+import { Page, Attr, Main, InfoButton, InfoMessage } from '@flumens';
 import { locationOutline } from 'ionicons/icons';
 import { NavContext } from '@ionic/react';
 import Header from './Components/Header';

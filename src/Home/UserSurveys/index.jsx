@@ -11,7 +11,7 @@ import {
   IonList,
 } from '@ionic/react';
 import { observer } from 'mobx-react';
-import { Page, Main } from '@apps';
+import { Page, Main } from '@flumens';
 import { Trans as T } from 'react-i18next';
 import InfoBackgroundMessage from 'common/Components/InfoBackgroundMessage';
 import Survey from './components/Survey';

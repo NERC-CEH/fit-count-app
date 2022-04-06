@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Main, Section } from '@apps';
+import { Page, Main, Section } from '@flumens';
 import appModel from 'models/app';
 import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';

@@ -1,4 +1,4 @@
-import { Sample, showInvalidsMessage } from '@apps';
+import { Sample, showInvalidsMessage } from '@flumens';
 import config from 'common/config';
 import userModel from './user';
 import GPSExtension from './sampleGPSExt';

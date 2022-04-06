@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { alert, date, device, toast } from '@apps';
+import { alert, date, device, toast } from '@flumens';
 import userModel from 'models/user';
 import { observer } from 'mobx-react';
 import {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { InfoBackgroundMessage } from '@apps';
+import { InfoBackgroundMessage } from '@flumens';
 import appModel from 'models/app';
 
 export default props => (

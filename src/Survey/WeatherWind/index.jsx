@@ -11,7 +11,7 @@ import {
   device,
   toast,
   showInvalidsMessage,
-} from '@apps';
+} from '@flumens';
 import appModel from 'models/app';
 import userModel from 'models/user';
 import { NavContext, IonItem, IonIcon, IonLabel } from '@ionic/react';

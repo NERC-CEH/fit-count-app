@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page } from '@apps';
+import { Page } from '@flumens';
 import { observer } from 'mobx-react';
 import { IonItem, isPlatform } from '@ionic/react';
 import { pauseOutline, playOutline } from 'ionicons/icons';

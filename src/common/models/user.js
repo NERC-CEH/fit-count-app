@@ -3,7 +3,7 @@
  **************************************************************************** */
 import Log from 'helpers/log';
 import CONFIG from 'common/config';
-import { DrupalUserModel, loader, toast } from '@apps';
+import { DrupalUserModel, loader, toast } from '@flumens';
 import * as Yup from 'yup';
 import i18n from 'i18next';
 import { genericStore } from './store';

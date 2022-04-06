@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Main } from '@apps';
+import { Page, Main } from '@flumens';
 import { observer } from 'mobx-react';
 import {
   IonSlides,

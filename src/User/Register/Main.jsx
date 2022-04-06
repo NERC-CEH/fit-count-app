@@ -17,7 +17,7 @@ import {
   InputWithValidation,
   ToggleWithValidation,
   SelectWithValidation,
-} from '@apps';
+} from '@flumens';
 import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 
 const optionsIdentificationExperience = [

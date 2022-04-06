@@ -9,7 +9,7 @@ import {
   InfoMessage,
   InfoButton,
   MenuAttrItemFromModel,
-} from '@apps';
+} from '@flumens';
 import { informationCircleOutline } from 'ionicons/icons';
 import { NavContext, IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonGrid, IonList, IonRow, IonCol } from '@ionic/react';
-import { Header, Page, Main, Section } from '@apps';
+import { Header, Page, Main, Section } from '@flumens';
 import appModel from 'models/app';
 import { Trans as T } from 'react-i18next';
 import surpassLogo from './images/SURPASS_logo.png';

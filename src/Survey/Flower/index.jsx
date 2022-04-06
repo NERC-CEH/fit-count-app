@@ -11,7 +11,7 @@ import {
   MenuAttrItemFromModel,
   InfoMessage,
   InfoButton,
-} from '@apps';
+} from '@flumens';
 import { informationCircleOutline } from 'ionicons/icons';
 import Media from 'models/media';
 import { IonItemDivider } from '@ionic/react';

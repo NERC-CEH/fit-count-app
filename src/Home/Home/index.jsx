@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Main } from '@apps';
+import { Page, Main } from '@flumens';
 import { IonItem, IonItemGroup, IonLabel, IonRouterLink } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';

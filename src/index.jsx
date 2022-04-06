@@ -7,7 +7,7 @@ import savedSamples from 'models/savedSamples';
 import { Plugins, StatusBarStyle } from '@capacitor/core';
 import i18n from 'i18next';
 import config from 'common/config';
-import { initAnalytics } from '@apps';
+import { initAnalytics } from '@flumens';
 import { initReactI18next } from 'react-i18next';
 import { configure as mobxConfigure } from 'mobx';
 import languages from 'common/languages';

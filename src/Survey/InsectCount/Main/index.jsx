@@ -15,7 +15,7 @@ import {
   IonImg,
   IonButton,
 } from '@ionic/react';
-import { Main } from '@apps';
+import { Main } from '@flumens';
 import { removeOutline } from 'ionicons/icons';
 import species from 'common/data/index';
 import clsx from 'clsx';

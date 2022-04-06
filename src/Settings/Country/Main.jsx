@@ -9,7 +9,7 @@ import {
   IonRadio,
   IonLabel,
 } from '@ionic/react';
-import { Main } from '@apps';
+import { Main } from '@flumens';
 import { Trans as T } from 'react-i18next';
 import countries from 'common/countries';
 

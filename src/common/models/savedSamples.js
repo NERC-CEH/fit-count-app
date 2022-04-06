@@ -1,4 +1,4 @@
-import { initStoredSamples } from '@apps';
+import { initStoredSamples } from '@flumens';
 import Log from 'helpers/log';
 import Sample from 'models/sample';
 import { modelStore } from './store';

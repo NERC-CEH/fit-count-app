@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import * as Yup from 'yup';
-import { date } from '@apps';
+import { date } from '@flumens';
 import userModel from 'models/user';
 import appModel from 'models/app';
 import i18n from 'i18next';

@@ -2,7 +2,7 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Page, Attr, Main, InfoMessage, InfoButton } from '@apps';
+import { Page, Attr, Main, InfoMessage, InfoButton } from '@flumens';
 import { informationCircleOutline } from 'ionicons/icons';
 import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';

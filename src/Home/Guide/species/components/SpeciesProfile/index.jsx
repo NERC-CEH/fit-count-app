@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { Main, Gallery } from '@apps';
+import { Main, Gallery } from '@flumens';
 import { IonSlides, IonSlide, IonLifeCycleContext } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import ImageWithBackground from 'common/Components/ImageWithBackground';
