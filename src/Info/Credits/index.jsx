@@ -14,7 +14,8 @@ const Credits = () => {
   const { country } = appModel.attrs;
   const isCyprus = country === 'CY';
   const isBrazil = country === 'BR';
-  const isRestOfWorld = !isCyprus && !isBrazil;
+  const isIreland = country === 'IE';
+  const isRestOfWorld = !isCyprus && !isBrazil && !isIreland;
 
   return (
     <Page id="credits">
@@ -123,6 +124,20 @@ const Credits = () => {
                 <li>David Navrátil & 8K postprocessing M.Hoskovec</li>
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Malcolm Storey via BioImages</li>
+                <li>Trounce via Wikimedia</li>
+                <li>Liam Lysaght</li>
+                <li>Colm Moriarty</li>
+                <li>John Walsh</li>
+                <li>Mary Douglas</li>
+              </ul>
+            )}
+            {isIreland && (
+              <ul>
+                <li>Aiwok via Wikimedia</li>
+                <li>Gail Hampshire via Wikimedia</li>
+                <li>Gilles San Martin vias Wikispecies</li>
+                <li>Malcolm Storey via BioImages</li>
+                <li>Peter O'Connor via Flickr CC </li>
                 <li>Trounce via Wikimedia</li>
                 <li>Liam Lysaght</li>
                 <li>Colm Moriarty</li>
