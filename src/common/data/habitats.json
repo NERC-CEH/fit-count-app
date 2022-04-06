@@ -61,21 +61,18 @@
   {
     "warehouseId": 13565,
     "value": "Upland moorland",
-    "UK": true,
-    "IE": true
+    "UK": true
   },
   {
     "warehouseId": 13566,
     "value": "Lowland heath",
-    "UK": true,
-    "IE": true
+    "UK": true
   },
   {
     "warehouseId": 13567,
     "value": "Waste ground or brownfield site",
     "UK": true,
     "BR": true,
-    "IE": true,
     "GR": true
   },
   {
@@ -178,5 +175,20 @@
   {
     "value": "Fallow land ",
     "GR": true
+  },
+  {
+    "warehouseId": 13565,
+    "value": "Upland bog/heath",
+    "IE": true
+  },
+  {
+    "warehouseId": 13566,
+    "value": "Lowland bog/heath",
+    "IE": true
+  },
+  {
+    "warehouseId": 13567,
+    "value": "Waste ground",
+    "IE": true
   }
 ]

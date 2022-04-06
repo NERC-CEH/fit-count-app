@@ -1639,17 +1639,17 @@ msgid "Farm crops or grassy pasture"
 msgstr "Farm crops or grassy pasture"
 
 # habitats value
-#: UK IE
+#: UK
 msgid "Upland moorland"
 msgstr "Upland moorland"
 
 # habitats value
-#: UK IE
+#: UK
 msgid "Lowland heath"
 msgstr "Lowland heath"
 
 # habitats value
-#: UK BR IE GR
+#: UK BR GR
 msgid "Waste ground or brownfield site"
 msgstr "Waste ground or brownfield site"
 
@@ -1753,6 +1753,21 @@ msgstr "Orchard meadow "
 msgid "Fallow land "
 msgstr "Fallow land "
 
+# habitats value
+#: IE
+msgid "Upland bog/heath"
+msgstr "Upland bog/heath"
+
+# habitats value
+#: IE
+msgid "Lowland bog/heath"
+msgstr "Lowland bog/heath"
+
+# habitats value
+#: IE
+msgid "Waste ground"
+msgstr "Waste ground"
+
 # flowers name
 #: UK IE GR
 msgid "Bramble"
@@ -1769,7 +1784,7 @@ msgid "Buttercup"
 msgstr "Buttercup"
 
 # flowers name
-#: UK IE GR
+#: UK BR IE GR
 msgid "Dandelion"
 msgstr "Dandelion"
 
@@ -2323,10 +2338,10 @@ msgstr ""
 #: IE
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 78 species in Ireland."
+"sunshine. Most species do not hover. There are about 79 species in Ireland."
 msgstr ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 78 species in Ireland."
+"sunshine. Most species do not hover. There are about 79 species in Ireland."
 
 # photos caption_1
 #: UK IE GR
@@ -3620,9 +3635,11 @@ msgstr ""
 #: GR
 msgid ""
 "The blue-black carpenter bee is a very large and conspicuous species of bee "
-"with a black hairy body and blackish to violet shimmering wings. ​The "
-"warmth-loving species has spread in Germany in recent years.​"
+"with a black hairy body and blackish to violet shimmering wings. The warmth-"
+"loving species has spread in recent years. In Germany there are two other "
+"species of the genus Xylocopa that look very similar, but are much rarer."
 msgstr ""
 "The blue-black carpenter bee is a very large and conspicuous species of bee "
-"with a black hairy body and blackish to violet shimmering wings. ​The "
-"warmth-loving species has spread in Germany in recent years.​"
+"with a black hairy body and blackish to violet shimmering wings. The warmth-"
+"loving species has spread in recent years. In Germany there are two other "
+"species of the genus Xylocopa that look very similar, but are much rarer."

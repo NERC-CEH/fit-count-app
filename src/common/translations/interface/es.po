@@ -1623,17 +1623,17 @@ msgid "Farm crops or grassy pasture"
 msgstr "Cultivos agrícolas o pastos cubiertos de hierba"
 
 # habitats value
-#: UK IE
+#: UK
 msgid "Upland moorland"
 msgstr "Páramos de montaña"
 
 # habitats value
-#: UK IE
+#: UK
 msgid "Lowland heath"
 msgstr "Brezal de tierras bajas"
 
 # habitats value
-#: UK BR IE GR
+#: UK BR GR
 msgid "Waste ground or brownfield site"
 msgstr "Terreno baldío o terreno abandonado"
 
@@ -1737,6 +1737,21 @@ msgstr ""
 msgid "Fallow land "
 msgstr ""
 
+# habitats value
+#: IE
+msgid "Upland bog/heath"
+msgstr ""
+
+# habitats value
+#: IE
+msgid "Lowland bog/heath"
+msgstr ""
+
+# habitats value
+#: IE
+msgid "Waste ground"
+msgstr ""
+
 # flowers name
 #: UK IE GR
 msgid "Bramble"
@@ -1753,7 +1768,7 @@ msgid "Buttercup"
 msgstr ""
 
 # flowers name
-#: UK IE GR
+#: UK BR IE GR
 msgid "Dandelion"
 msgstr ""
 
@@ -2269,7 +2284,7 @@ msgstr ""
 #: IE
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 78 species in Ireland."
+"sunshine. Most species do not hover. There are about 79 species in Ireland."
 msgstr ""
 
 # photos caption_1
@@ -3315,6 +3330,7 @@ msgstr ""
 #: GR
 msgid ""
 "The blue-black carpenter bee is a very large and conspicuous species of bee "
-"with a black hairy body and blackish to violet shimmering wings. ​The "
-"warmth-loving species has spread in Germany in recent years.​"
+"with a black hairy body and blackish to violet shimmering wings. The warmth-"
+"loving species has spread in recent years. In Germany there are two other "
+"species of the genus Xylocopa that look very similar, but are much rarer."
 msgstr ""

@@ -1602,7 +1602,7 @@ msgstr "Ich weiß es nicht"
 # insects name
 #: GR
 msgid "Carpenter bees"
-msgstr ""
+msgstr "Holzbienen"
 
 # habitats value
 #: UK BR CY IE GR
@@ -1645,17 +1645,17 @@ msgid "Farm crops or grassy pasture"
 msgstr "Acker oder Weidefläche"
 
 # habitats value
-#: UK IE
+#: UK
 msgid "Upland moorland"
 msgstr "Hochmoor"
 
 # habitats value
-#: UK IE
+#: UK
 msgid "Lowland heath"
 msgstr "Heide"
 
 # habitats value
-#: UK BR IE GR
+#: UK BR GR
 msgid "Waste ground or brownfield site"
 msgstr "Deponie oder Industriebrache"
 
@@ -1727,36 +1727,51 @@ msgstr "Cerrado"
 # habitats value
 #: GR
 msgid "Grassy verge "
-msgstr ""
+msgstr "Grasiger Saum"
 
 # habitats value
 #: GR
 msgid "Hedgerow edge "
-msgstr ""
+msgstr "Heckensaum"
 
 # habitats value
 #: GR
 msgid "Verge along a stream or river "
-msgstr ""
+msgstr "Saum an Bach oder Fluss"
 
 # habitats value
 #: GR
 msgid "Forest edge "
-msgstr ""
+msgstr "Waldrand"
 
 # habitats value
 #: GR
 msgid "Field margins "
-msgstr ""
+msgstr "Feldrain"
 
 # habitats value
 #: GR
 msgid "Orchard meadow "
-msgstr ""
+msgstr "Obstwiese"
 
 # habitats value
 #: GR
 msgid "Fallow land "
+msgstr "Brache"
+
+# habitats value
+#: IE
+msgid "Upland bog/heath"
+msgstr ""
+
+# habitats value
+#: IE
+msgid "Lowland bog/heath"
+msgstr ""
+
+# habitats value
+#: IE
+msgid "Waste ground"
 msgstr ""
 
 # flowers name
@@ -1775,7 +1790,7 @@ msgid "Buttercup"
 msgstr "Hahnenfuß"
 
 # flowers name
-#: UK IE GR
+#: UK BR IE GR
 msgid "Dandelion"
 msgstr "Löwenzahn"
 
@@ -1832,7 +1847,7 @@ msgstr "Weiße Taubnessel"
 # flowers name
 #: IE GR
 msgid "Red Clover"
-msgstr ""
+msgstr "Rot-Klee"
 
 # flowers name
 #: CY
@@ -2045,6 +2060,8 @@ msgid ""
 "There is just one species of honeybee in Germany. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"In Deutschland gibt es nur eine Honigbienenart. Sie nisten in künstlichen "
+"Bienenstöcken, wobei sich gelegentlich Kolonien in der freien Natur bilden."
 
 # photos extraText
 #: CY
@@ -2061,6 +2078,8 @@ msgid ""
 "There is just one species of honeybee in Ireland. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"In Irland gibt es nur eine Honigbienenart. Sie nisten in künstlichen "
+"Bienenstöcken, wobei sich gelegentlich Kolonien in der freien Natur bilden."
 
 # photos intro_text
 #: BR
@@ -2143,6 +2162,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 40 species in Germany."
 msgstr ""
+"Hummeln haben ein charakteristisches \"brummendes\" Flugmuster und schweben "
+"nicht. In Deutschland gibt es 40 Arten."
 
 # photos extraText
 #: IE
@@ -2150,6 +2171,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 21 species in Ireland."
 msgstr ""
+"Hummeln haben ein charakteristisches \"brummendes\" Flugmuster und schweben "
+"nicht. In Irland gibt es 21 Arten."
 
 # photos caption_1
 #: UK GR CY IE
@@ -2312,6 +2335,9 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 560 species in Germany."
 msgstr ""
+"Solitärbienen fliegen aktiv von Blüte zu Blüte und ruhen manchmal in der "
+"Sonne. Die meisten Arten schweben nicht. In Deutschland gibt es etwa 560 "
+"Arten."
 
 # photos extraText
 #: CY
@@ -2326,7 +2352,7 @@ msgstr ""
 #: IE
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
-"sunshine. Most species do not hover. There are about 78 species in Ireland."
+"sunshine. Most species do not hover. There are about 79 species in Ireland."
 msgstr ""
 
 # photos caption_1
@@ -2474,6 +2500,8 @@ msgid ""
 "This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary"
 " bees, at around 5-7mm long"
 msgstr ""
+"Diese Maskenbiene (Gattung Hylaeus) ist mit einer Länge von 5-7 mm eine der "
+"kleinsten Solitärbienen"
 
 # photos intro_text
 #: BR
@@ -2791,6 +2819,9 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in Germany."
 msgstr ""
+"Schwebfliegen ernähren sich von Nektar und Pollen, sammeln jedoch keinen "
+"Nektar und haben auch keine Pollenhöschen. In Deutschland gibt es etwa 285 "
+"Arten von Schwebfliegen."
 
 # photos extraText
 #: CY
@@ -2808,6 +2839,9 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 180 species of hoverfly in Ireland."
 msgstr ""
+"Schwebfliegen ernähren sich von Nektar und Pollen, sammeln jedoch keinen "
+"Nektar und haben auch keine Pollenhöschen. In Irland gibt es etwa 180 Arten "
+"von Schwebfliegen."
 
 # photos intro_text
 #: UK IE GR CY
@@ -2929,6 +2963,8 @@ msgid ""
 "The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most "
 "common hoverflies"
 msgstr ""
+"Die Hainschwebfliege (Episyrphus balteatus) ist eine der häufigsten "
+"Schwebfliegen"
 
 # photos intro_text
 #: BR
@@ -3128,6 +3164,11 @@ msgid ""
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
+"Tagfalter sind sehr bekannte Blütenbesucher. Nachtfalter werden vielleicht "
+"weniger häufig wahrgenommen, besuchen aber ebenfalls regelmäßig Blüten - und"
+" zwar sowohl bei Tag als auch bei Nacht. Einige Nachtfalter (siehe nächstes "
+"Bild) sind recht klein und könnten als andere Insektenarten übersehen "
+"werden."
 
 # photos caption_1
 #: UK IE GR
@@ -3645,6 +3686,7 @@ msgstr ""
 #: GR
 msgid ""
 "The blue-black carpenter bee is a very large and conspicuous species of bee "
-"with a black hairy body and blackish to violet shimmering wings. ​The "
-"warmth-loving species has spread in Germany in recent years.​"
+"with a black hairy body and blackish to violet shimmering wings. The warmth-"
+"loving species has spread in recent years. In Germany there are two other "
+"species of the genus Xylocopa that look very similar, but are much rarer."
 msgstr ""

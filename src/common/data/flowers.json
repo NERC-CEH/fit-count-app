@@ -36,6 +36,7 @@
     "sort": 4,
     "name": "Dandelion",
     "UK": true,
+    "BR": true,
     "IE": true,
     "GR": true
   },
@@ -141,6 +142,7 @@
   },
   {
     "id": "redClover",
+    "warehouseId": 20078,
     "type": "Head",
     "name": "Red Clover",
     "IE": true,
@@ -299,7 +301,8 @@
     "CY": true,
     "AR": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "GR": true
   },
   {
     "id": "oxalis",
