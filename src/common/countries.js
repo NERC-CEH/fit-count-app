@@ -24,6 +24,11 @@ const countries = [
     label: 'Brazil',
     value: 'BR',
   },
+  {
+    flag: IE,
+    label: 'Ireland',
+    value: 'IE',
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
@@ -34,11 +39,6 @@ if (isDemo) {
         flag: SE,
         label: 'Sweden',
         value: 'SE',
-      },
-      {
-        flag: IE,
-        label: 'Ireland',
-        value: 'IE',
       },
       // {
       //   flag: CL,
