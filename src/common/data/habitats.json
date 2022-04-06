@@ -131,6 +131,7 @@
     "UK": true,
     "CY": true,
     "BR": true,
+    "IE": true,
     "GR": true
   },
   {
@@ -177,17 +178,17 @@
     "GR": true
   },
   {
-    "warehouseId": 13565,
+    "warehouseId": 20081,
     "value": "Upland bog/heath",
     "IE": true
   },
   {
-    "warehouseId": 13566,
+    "warehouseId": 20080,
     "value": "Lowland bog/heath",
     "IE": true
   },
   {
-    "warehouseId": 13567,
+    "warehouseId": 20079,
     "value": "Waste ground",
     "IE": true
   }
