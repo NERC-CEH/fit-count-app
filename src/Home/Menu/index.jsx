@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import config from 'common/config';
 import { observer } from 'mobx-react';
-import { Page, alert } from '@apps';
+import { Page, alert, toast, loader } from '@apps';
 import { IonItem, IonLabel, IonCheckbox } from '@ionic/react';
 import Main from './Main';
 import './styles.scss';
@@ -70,6 +70,30 @@ const MenuController = ({ userModel, savedSamples }) => {
 
   const isLoggedIn = !!userModel.attrs.id;
 
+  const resendVerificationEmail = async () => {
+    if (!isLoggedIn) {
+      toast.warn('Please log in first.');
+      return;
+    }
+
+    await loader.show('Please wait...');
+
+    try {
+      await userModel.resendVerificationEmail();
+      toast.success(
+        'A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders.',
+        { duration: 5000 }
+      );
+    } catch (e) {
+      toast.error(e.message);
+    }
+
+    loader.hide();
+  };
+
+  const isVerified = userModel.attrs.verified;
+  const refreshAccount = () => userModel.checkActivation();
+
   return (
     <Page id="home-menu">
       <Main
@@ -81,6 +105,9 @@ const MenuController = ({ userModel, savedSamples }) => {
         isLoggedIn={isLoggedIn}
         user={userModel.attrs}
         logOut={logOut}
+        isVerified={isVerified}
+        refreshAccount={refreshAccount}
+        resendVerificationEmail={resendVerificationEmail}
       />
     </Page>
   );

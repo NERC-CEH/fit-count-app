@@ -367,6 +367,25 @@ msgstr "Είμαι ήδη μέλος"
 msgid "Sign In"
 msgstr "Είσοδος"
 
+# User registration page
+#: interface
+msgid ""
+"Looks like your <1>{{email}}</1> email hasn't been verified "
+"yet.<3><0>Refresh</0><1>Resend Email</1></3>"
+msgstr ""
+
+# User registration page
+#: interface
+msgid ""
+"A new verification email was successfully sent now. If you did not receive "
+"the email, then check your Spam or Junk email folders."
+msgstr ""
+
+# Country page content
+#: interface
+msgid "Ireland"
+msgstr ""
+
 # Website link
 #: interface
 msgid "website"

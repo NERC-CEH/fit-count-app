@@ -5,7 +5,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const backendUrl = isProd
   ? 'https://fitcount.ceh.ac.uk'
-  : 'https://dev-ceh-fitcount.pantheonsite.io';
+  : 'https://dev-ceh-fitcount9.pantheonsite.io';
 
 const indiciaUrl = isProd
   ? 'https://warehouse1.indicia.org.uk'

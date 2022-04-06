@@ -10,6 +10,7 @@ import {
   IonList,
   IonItemDivider,
   IonLabel,
+  IonButton,
 } from '@ionic/react';
 import {
   openOutline,
@@ -27,6 +28,7 @@ import languages from 'common/languages';
 import countries from 'common/countries';
 import flumensLogo from 'common/images/flumens.svg';
 import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
+import './styles.scss';
 
 function MenuComponent({
   onToggle,
@@ -35,6 +37,9 @@ function MenuComponent({
   language,
   country,
   isLoggedIn,
+  isVerified,
+  resendVerificationEmail,
+  refreshAccount,
   user,
   logOut,
 }) {
@@ -44,7 +49,7 @@ function MenuComponent({
   const selectedCountries = countries.find(countryName) || {};
 
   return (
-    <Main>
+    <Main class="app-menu">
       <h1>
         <T>Menu</T>
       </h1>
@@ -61,6 +66,21 @@ function MenuComponent({
               {': '}
               {user.fullName}
             </IonItem>
+          )}
+
+          {isLoggedIn && !isVerified && (
+            <InfoMessage className="verification-warning">
+              Looks like your <b>{{ email: user.email }}</b> email hasn't been
+              verified yet.
+              <div>
+                <IonButton fill="outline" onClick={refreshAccount}>
+                  Refresh
+                </IonButton>
+                <IonButton fill="clear" onClick={resendVerificationEmail}>
+                  Resend Email
+                </IonButton>
+              </div>
+            </InfoMessage>
           )}
 
           {!isLoggedIn && (
@@ -170,8 +190,11 @@ MenuComponent.propTypes = exact({
   config: PropTypes.object.isRequired,
   language: PropTypes.string.isRequired,
   isLoggedIn: PropTypes.bool.isRequired,
+  isVerified: PropTypes.bool.isRequired,
   user: PropTypes.object.isRequired,
   logOut: PropTypes.func.isRequired,
+  refreshAccount: PropTypes.func.isRequired,
+  resendVerificationEmail: PropTypes.func.isRequired,
   country: PropTypes.string.isRequired,
 });
 
