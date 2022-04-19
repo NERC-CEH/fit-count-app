@@ -659,14 +659,14 @@ msgstr ""
 "de sua estrutura.</p><p>Se você escolheu uma flor alvo de nossa lista, o "
 "tipo floral é mostrado por padrão.</p><p>Se você escolheu \"Outra\" flor "
 "alvo, por favor conte:</p><5><0><0>Flores individuais</0> - cada flor conta "
-"como uma unidade</0><1><0>Inflorescências em capítulo</0> (quando há várias "
+"como uma unidade</0><1><0>Inflorescências circulares</0> (quando há várias "
 "flores pequenas dentro de uma grande inflorescência, p.ex. dente-de-leão ou "
 "margarida) – cada inflorescência conta como uma unidade</1><2><0>Umbelas</0>"
 " (para inflorescências que possuem pequenas flores agrupadas em umbela, como"
 " guarda-chuvas invertidos, p.ex. falsa-erva-de-rato) – cada umbela conta "
-"como uma unidade</2><3><0>Espigas</0> (quando um número de flores pequenas "
-"estão arranjadas ao longo de um eixo, p.ex. lavanda) – cada espiga conta "
-"como uma unidade</3></5></5>"
+"como uma unidade</2><3><0>Inflorescências compridas</0> (quando um número de"
+" flores pequenas estão arranjadas ao longo de um eixo, p.ex. lavanda) – cada"
+" inflorescência conta como uma unidade</3></5></5>"
 
 # Survey flower count page info header
 #: interface
@@ -686,7 +686,7 @@ msgstr "Flor Individual"
 # Survey flower count page content
 #: interface
 msgid "Head"
-msgstr "Inflorescência em capítulo"
+msgstr "Inflorescência circular"
 
 # Survey flower count page content
 #: interface
@@ -696,7 +696,7 @@ msgstr "Umbela"
 # Survey flower count page content
 #: interface
 msgid "Spike"
-msgstr "Espiga"
+msgstr "Inflorescência comprida"
 
 # My surveys page content
 #: interface
