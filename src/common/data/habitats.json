@@ -6,13 +6,15 @@
     "CY": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "warehouseId": 13558,
     "value": "School Grounds",
     "UK": true,
-    "IE": true
+    "IE": true,
+    "CH": true
   },
   {
     "warehouseId": 13559,
@@ -20,7 +22,8 @@
     "UK": true,
     "CY": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "CH": true
   },
   {
     "warehouseId": 13560,
@@ -41,7 +44,8 @@
     "CY": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "warehouseId": 13563,
@@ -49,14 +53,15 @@
     "UK": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "warehouseId": 13564,
     "value": "Farm crops or grassy pasture",
     "UK": true,
     "BR": true,
-    "IE": true
+    "IE": true,
+    "CH": true
   },
   {
     "warehouseId": 13565,
@@ -73,7 +78,7 @@
     "value": "Waste ground or brownfield site",
     "UK": true,
     "BR": true,
-    "GR": true
+    "DE": true
   },
   {
     "warehouseId": 13568,
@@ -92,7 +97,8 @@
     "value": "Forest",
     "CY": true,
     "BR": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "warehouseId": 18787,
@@ -132,7 +138,8 @@
     "CY": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "warehouseId": 18900,
@@ -150,32 +157,39 @@
     "BR": true
   },
   {
+    "warehouseId": 20084,
     "value": "Grassy verge ",
-    "GR": true
+    "DE": true
   },
   {
+    "warehouseId": 20085,
     "value": "Hedgerow edge ",
-    "GR": true
+    "DE": true
   },
   {
+    "warehouseId": 20086,
     "value": "Verge along a stream or river ",
-    "GR": true
+    "DE": true
   },
   {
+    "warehouseId": 20087,
     "value": "Forest edge ",
-    "GR": true
+    "DE": true
   },
   {
+    "warehouseId": 20088,
     "value": "Field margins ",
-    "GR": true
+    "DE": true
   },
   {
+    "warehouseId": 20089,
     "value": "Orchard meadow ",
-    "GR": true
+    "DE": true
   },
   {
+    "warehouseId": 20090,
     "value": "Fallow land ",
-    "GR": true
+    "DE": true
   },
   {
     "warehouseId": 20081,
@@ -191,5 +205,17 @@
     "warehouseId": 20079,
     "value": "Waste ground",
     "IE": true
+  },
+  {
+    "value": "Lake or river edge",
+    "CH": true
+  },
+  {
+    "value": "Shrubland",
+    "CH": true
+  },
+  {
+    "value": "Vegtable patch",
+    "CH": true
   }
 ]

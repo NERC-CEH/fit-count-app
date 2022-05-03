@@ -5,6 +5,7 @@ import CY from 'common/images/cypFlag.svg';
 import BR from 'common/images/braFlag.svg';
 import SE from 'common/images/seFlag.svg';
 import IE from 'common/images/ieFlag.svg';
+import DE from 'common/images/deFlag.svg';
 import 'common/images/chlFlag.svg';
 import 'common/images/argFlag.svg';
 
@@ -44,6 +45,12 @@ if (isDemo) {
         label: 'Sweden',
         value: 'SE',
         // warehouseId: -1,
+      },
+      {
+        flag: DE,
+        label: 'Germany',
+        value: 'DE',
+        warehouseId: 20076,
       },
       // {
       //   flag: CL,

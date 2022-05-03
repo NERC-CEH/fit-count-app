@@ -14,4 +14,5 @@ import './otherInsects.png?originalName';
 import './smallInsects.png?originalName';
 import './solitaryBees.png?originalName';
 import './stinglessBees.png?originalName';
+import './carpenterbees.png?originalName';
 import './unknown.png?originalName';

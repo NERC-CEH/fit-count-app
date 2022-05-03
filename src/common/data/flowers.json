@@ -7,7 +7,7 @@
     "name": "Bramble",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "buddleja",
@@ -17,7 +17,7 @@
     "name": "Buddleja",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "buttercup",
@@ -27,7 +27,7 @@
     "name": "Buttercup",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "dandelion",
@@ -38,7 +38,8 @@
     "UK": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "id": "hawthorn",
@@ -48,7 +49,7 @@
     "name": "Hawthorn",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "heather",
@@ -58,7 +59,7 @@
     "name": "Heather",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "hogweed",
@@ -68,7 +69,7 @@
     "name": "Hogweed",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "ivy",
@@ -78,7 +79,7 @@
     "name": "Ivy",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "knapweed",
@@ -88,7 +89,7 @@
     "name": "Knapweed",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "lavender",
@@ -98,7 +99,7 @@
     "name": "Lavender",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "ragwort",
@@ -108,7 +109,7 @@
     "name": "Ragwort",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "thistle",
@@ -118,7 +119,7 @@
     "name": "Thistle",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "whiteClover",
@@ -128,7 +129,7 @@
     "name": "White Clover",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "whiteDeadNettle",
@@ -138,7 +139,7 @@
     "name": "White Dead-nettle",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "redClover",
@@ -146,7 +147,7 @@
     "type": "Head",
     "name": "Red Clover",
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "fennel",
@@ -302,14 +303,16 @@
     "AR": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "id": "oxalis",
     "warehouseId": 18903,
     "type": "Individual Flower",
     "name": "Oxalis",
-    "BR": true
+    "BR": true,
+    "CH": true
   },
   {
     "id": "basil",
@@ -415,5 +418,82 @@
     "type": "Umbel",
     "name": "Ipe",
     "BR": true
+  },
+  {
+    "id": "daisy",
+    "type": "Individual Flower",
+    "name": "Daisy",
+    "scientificName": "Bellis perennis",
+    "CH": true
+  },
+  {
+    "id": "fuchsia",
+    "type": "Individual Flower",
+    "name": "Fuchsia",
+    "scientificName": "Fuchsia magellanica",
+    "CH": true
+  },
+  {
+    "id": "azara",
+    "type": "Head",
+    "name": "Azara",
+    "scientificName": "Azara",
+    "CH": true
+  },
+  {
+    "id": "magnolia",
+    "type": "Individual Flower",
+    "name": "Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "CH": true
+  },
+  {
+    "id": "cherry",
+    "type": "Individual Flower",
+    "name": "Cherry",
+    "scientificName": "Prunus cerasus",
+    "CH": true
+  },
+  {
+    "id": "canelo",
+    "type": "Umbel",
+    "name": "Canelo",
+    "scientificName": "Drimys winteri",
+    "CH": true
+  },
+  {
+    "id": "acacia",
+    "type": "Head",
+    "name": "Acacia",
+    "scientificName": "Acacia",
+    "CH": true
+  },
+  {
+    "id": "rose",
+    "type": "Individual Flower",
+    "name": "Rose",
+    "scientificName": "Rosa",
+    "CH": true
+  },
+  {
+    "id": "arrayan",
+    "type": "Umbel",
+    "name": "Arrayan",
+    "scientificName": "Luma",
+    "CH": true
+  },
+  {
+    "id": "murta",
+    "type": "Spike",
+    "name": "Murta",
+    "scientificName": "Ugni molinae",
+    "CH": true
+  },
+  {
+    "id": "copihue",
+    "type": "Individual Flower",
+    "name": "Copihue",
+    "scientificName": "Lapageria rosea",
+    "CH": true
   }
 ]

@@ -9,7 +9,8 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "UK": true
+    "UK": true,
+    "CH": true
   },
   {
     "id": "honeybees",
@@ -21,7 +22,7 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in Germany. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "GR": true
+    "DE": true
   },
   {
     "id": "honeybees",
@@ -66,7 +67,8 @@
     "UK": true,
     "CY": true,
     "IE": true,
-    "GR": true
+    "DE": true,
+    "CH": true
   },
   {
     "id": "honeybees",
@@ -98,7 +100,7 @@
     "caption_5": "Eyes cover the sides of the head, with lots of hair between the eyes",
     "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 40 species in Germany.",
     "UK": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "bumblebees",
@@ -119,7 +121,7 @@
     "caption_2": "This bumblebee is one of the species that are more-or-less ginger-coloured all over",
     "extraText": "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar.",
     "UK": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "bumblebees",
@@ -170,6 +172,35 @@
     "BR": true
   },
   {
+    "id": "bumblebees",
+    "pictureId": 1,
+    "intro_text": "European bumblebees are very rounded and furry bees. The queens are among our largest bees; workers are larger than most native bees.",
+    "caption_1": "Very hairy / fluffy bees",
+    "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
+    "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "CH": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": "CH1",
+    "caption_1": "European bumblebees can be easily identified by their white/buff rump.",
+    "CH": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": "CH2",
+    "intro_text": "The Giant bumblebee (Bombus dahlbomii) is the largest bee in the world, up to 40mm. It is the only native bumblebee of Chile and is easy to identify due to its red-orange colour.",
+    "CH": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": "CH3",
+    "caption_1": "very fluffly , large, red-orange bee",
+    "caption_2": "Large eyes covering most of the sides of the head",
+    "caption_3": "Black legs and underside",
+    "CH": true
+  },
+  {
     "id": "solitaryBees",
     "pictureId": 1,
     "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. ",
@@ -191,8 +222,7 @@
     "caption_4": "Long antennae, often held straight out in front",
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
     "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 560 species in Germany.",
-    "UK": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "solitaryBees",
@@ -226,7 +256,7 @@
     "extraText": "Solitary bees generally nest in burrows or holes. One large group, the mining bees, dig burrows into soil. Another group, including the mason bees and leafcutter bees, make use of holes in wood, plants or walls.",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "solitaryBees",
@@ -246,7 +276,7 @@
     "caption_4": "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen",
     "extraText": "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!",
     "UK": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "solitaryBees",
@@ -300,6 +330,31 @@
     "BR": true
   },
   {
+    "id": "solitaryBees",
+    "pictureId": "CH4",
+    "intro_text": "Native Chilean bees are typically solitary. The carpenter bee (Xylocopa augusti) presents two different colour morphs, the dark morph is pictured above.",
+    "caption_1": "Dark eyes and head",
+    "caption_2": "Abdomen is dark with orange flanks",
+    "caption_3": "Pollen that has been deposited on its back or legs",
+    "CH": true
+  },
+  {
+    "id": "solitaryBees",
+    "pictureId": "CH5",
+    "intro_text": "The yellow or golden morph of the carpenter bee (Xylocopa augusti) is pictured above.",
+    "caption_1": "Bright greenish eyes",
+    "caption_2": "Fuzzy golden yellow body and legs",
+    "CH": true
+  },
+  {
+    "id": "solitaryBees",
+    "pictureId": "Ch6",
+    "intro_text": "Cadeguala occidentalis is probably the native bee that most resembles the European honeybee",
+    "caption_1": "Large, dark eyes",
+    "caption_2": "Fuzzy orange body and legs",
+    "CH": true
+  },
+  {
     "id": "wasps",
     "pictureId": 1,
     "intro_text": "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above.",
@@ -311,7 +366,7 @@
     "UK": true,
     "CY": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "wasps",
@@ -324,7 +379,7 @@
     "UK": true,
     "CY": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "wasps",
@@ -337,7 +392,7 @@
     "extraText": "Parasitic wasps lay their eggs into other invertebrates, or their nests, and the larvae of the wasps consume the host invertebrate.",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "wasps",
@@ -383,6 +438,24 @@
     "BR": true
   },
   {
+    "id": "wasps",
+    "pictureId": 1,
+    "intro_text": "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above. All wasps pictured are UK species for reference.",
+    "caption_1": "Long antennae (distinguishes them from most flies)",
+    "caption_2": "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees",
+    "caption_3": "Social wasps and some of the solitary species have bold black and yellow stripes",
+    "caption_4": "Some wasps have their wings rolled up when at rest",
+    "caption_5": "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen",
+    "CH": true
+  },
+  {
+    "id": "wasps",
+    "pictureId": 2,
+    "intro_text": "There is a lot of variation in size, shape and markings among solitary wasps. They are usually not obviously hairy, and they do not have no pollen basket.",
+    "caption_1": "Many solitary wasps have a distinctive broad, boxy head shape",
+    "CH": true
+  },
+  {
     "id": "hoverflies",
     "pictureId": 1,
     "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. ",
@@ -404,8 +477,7 @@
     "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
     "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
     "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in Germany.",
-    "UK": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "hoverflies",
@@ -442,7 +514,7 @@
     "caption_5": "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip of the wing",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "hoverflies",
@@ -464,7 +536,7 @@
     "caption_3": "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies",
     "UK": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "hoverflies",
@@ -485,6 +557,24 @@
     "caption_3": "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies",
     "IE": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": "CH7",
+    "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name.",
+    "caption_1": "Large eyes, covering most of the head in males",
+    "caption_2": "Short antennae",
+    "caption_3": "They can have black and yellow stripes, but some are all dark or have other patterns",
+    "CH": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": "CH8",
+    "intro_text": "The fly Toxomerus vertebratus pictured here also has:",
+    "caption_1": "Large eyes, covering most of the head in males",
+    "caption_2": "Short antennae",
+    "caption_3": "All dark abdomen, or black and yellow stripes",
+    "CH": true
   },
   {
     "id": "fliesBr",
@@ -521,7 +611,7 @@
     "caption_6": "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "otherFlies",
@@ -545,7 +635,7 @@
     "caption_4": "It has bristles on the body and legs, and the males in particular have fluffy yellow hairs on the body",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "otherFlies",
@@ -558,6 +648,18 @@
     "CY": true
   },
   {
+    "id": "otherFlies",
+    "pictureId": 1,
+    "intro_text": "There are many different flies that you may see visiting flowers – for the FIT Count all you need to do is separate them into “hoverflies” and all “other flies”! Don’t forget that hoverflies can hover, an ability that some but not many other flies have. The two examples shown here are UK species for reference.",
+    "caption_1": "This is a dance fly (family Empididae)",
+    "caption_2": "Many dance flies have a long thin proboscis under the head",
+    "caption_3": "Many dance flies have a distinctly humped thorax",
+    "caption_4": "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often seen on hogweed and related flowers",
+    "caption_5": "The abdomen is broader and flatter than in hoverflies",
+    "caption_6": "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing",
+    "CH": true
+  },
+  {
     "id": "butterfliesAndMoths",
     "pictureId": 1,
     "intro_text": "Butterflies are very familiar flower visitors. Moths are perhaps less frequently noticed but also visit flowers regularly, either by day or by night. Some moths (see next screen) are quite small and could be overlooked as other types of insect.",
@@ -566,7 +668,7 @@
     "extraText": "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category.",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -576,7 +678,7 @@
     "caption_2": "Nettle-tap moth (a micro-moth)",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -605,6 +707,26 @@
     "BR": true
   },
   {
+    "id": "butterfliesAndMoths",
+    "pictureId": "CH9",
+    "intro_text": "Butterflies are very familiar flower visitors. The butterfly Vanessa carye, pictured here is one of the most common butterfly species in Chile.",
+    "CH": true
+  },
+  {
+    "id": "butterfliesAndMoths",
+    "pictureId": "CH10",
+    "intro_text": "Above are two pictures of another common butterfly, Pieris brassicae. It has mostly white wings with a dark wing edge, and a pair of dark spots on the dorsal side",
+    "CH": true
+  },
+  {
+    "id": "butterfliesAndMoths",
+    "pictureId": "CH11",
+    "intro_text": "Moths also visit flowers regularly, either by day or by night.",
+    "caption_1": "The Hyles annei moth pictured here is a regular flower visitor. It is a large moth and from a distance can be confused with a hummingbird",
+    "caption_2": "Other moths include Ormiscodes amphinome, pictured here",
+    "CH": true
+  },
+  {
     "id": "beetles",
     "pictureId": 1,
     "intro_text": "There are relatively few beetle species that visit flowers, but those that do can be very abundant. The different species vary a lot in size, shape and colour, but can be recognised as beetles by the hard wing cases covering their abdomen.",
@@ -614,7 +736,7 @@
     "UK": true,
     "CY": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "beetles",
@@ -624,7 +746,7 @@
     "caption_2": "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "beetles",
@@ -651,13 +773,21 @@
     "BR": true
   },
   {
+    "id": "beetles",
+    "pictureId": "CH12",
+    "intro_text": "The Cylindrophora maulica beetle is a rare flower visitor but is easily identified.",
+    "caption_1": "A metallic/iridescent body",
+    "caption_2": "Short antennae",
+    "CH": true
+  },
+  {
     "id": "smallInsects",
     "pictureId": 1,
     "intro_text": "This category is for any insects under 3mm long. These can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category.",
     "caption_1": "This example shows a flower with many pollen beetles (family Nitidulidae) – other “small insects” may include tiny flies and parasitic wasps",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "smallInsects",
@@ -719,6 +849,28 @@
     "BR": true
   },
   {
+    "id": "hummingbirds",
+    "pictureId": "CH14",
+    "intro_text": "Hummingbirds are small, maximum 20cm in length",
+    "caption_1": "Males of the Green-backed firecrown (Sephanoides sephaniodes) have iridescent red/orange feathers on their crown. Females have a green crown.",
+    "caption_2": "Both males and females have grey bellies, with a mottled appearance",
+    "CH": true
+  },
+  {
+    "id": "hummingbirds",
+    "pictureId": "CH15",
+    "intro_text": "Hummingbirds can hover or perch as they drink nectar from flowers. They can fly forwards and backwards and are very fast.",
+    "caption_1": "Males of the Oasis hummingbird (Rhodopis vesper) have iridescent violet feathers on their throats",
+    "CH": true
+  },
+  {
+    "id": "hummingbirds",
+    "pictureId": "CH16",
+    "intro_text": "Both males and females of the Giant hummingbird (Patagona gigas) are mostly greyish/green, with a buff throat and belly and do not have iridescent feathers",
+    "caption_1": "Buff throat and belly, mottled with rusty orange.",
+    "CH": true
+  },
+  {
     "id": "otherInsects",
     "pictureId": 1,
     "intro_text": "This category is for any insects that don’t fit into the other insect groups, and can also be used for any insects that you can’t identify into a group at all. Please count all the insects you see, and use “other insects” for any that you don’t recognise. For example, sawflies are counted as “other insects”. Sawflies are related to bees and wasps but there are a number of differences.",
@@ -728,7 +880,7 @@
     "caption_4": "They are usually quite slow-moving, with a weaker flight than bees or wasps",
     "UK": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "otherInsects",
@@ -752,7 +904,7 @@
     "UK": true,
     "BR": true,
     "IE": true,
-    "GR": true
+    "DE": true
   },
   {
     "id": "otherInsects",
@@ -765,6 +917,14 @@
     "CY": true
   },
   {
+    "id": "otherInsects",
+    "pictureId": "CH13",
+    "intro_text": "Some insects don’t fit into any other category. The bug Oncopeltus miles is a rare flower visitor",
+    "caption_1": "Wings overlap and there is no clear midline along the abdomen",
+    "caption_2": "Bright, contrasting colours are common",
+    "CH": true
+  },
+  {
     "id": "unknown",
     "pictureId": "BR1",
     "intro_text": "This category is for any floral visitors that don’t fit into the other pollinator groups, and can also be used for any pollinator that you can’t identify into a group at all.",
@@ -775,6 +935,6 @@
     "id": "carpenterbee",
     "pictureId": 1,
     "intro_text": "The blue-black carpenter bee is a very large and conspicuous species of bee with a black hairy body and blackish to violet shimmering wings. The warmth-loving species has spread in recent years. In Germany there are two other species of the genus Xylocopa that look very similar, but are much rarer.",
-    "GR": true
+    "DE": true
   }
 ]
