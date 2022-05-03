@@ -129,6 +129,11 @@ msgstr "Cyprus"
 
 # Country page content
 #: interface
+msgid "Germany"
+msgstr "Germany"
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "United Kingdom"
 
