@@ -2,11 +2,12 @@
 # Translators:
 # Diana Kurch, 2022
 # Elisabeth Kühn, 2022
+# Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Elisabeth Kühn, 2022\n"
+"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -379,6 +380,9 @@ msgid ""
 "A new verification email was successfully sent now. If you did not receive "
 "the email, then check your Spam or Junk email folders."
 msgstr ""
+"Eine neue Bestätigungs-E-Mail wurde jetzt erfolgreich gesendet. Wenn Sie die"
+" E-Mail nicht erhalten haben, überprüfen Sie Ihre Spam- oder Junk-E-Mail-"
+"Ordner."
 
 # Country page content
 #: interface
@@ -3714,3 +3718,8 @@ msgid ""
 "loving species has spread in recent years. In Germany there are two other "
 "species of the genus Xylocopa that look very similar, but are much rarer."
 msgstr ""
+"Die Blauschwarze Holzbiene ist eine sehr große und auffällige Bienenart mit "
+"einem schwarz behaarten Körper und schwärzlich bis violet schimmernden "
+"Flügeln. Die wärmeliebende Art hat sich in den letzten Jahren ausgebreitet. "
+"In Deutschalnd gibt es noch zwei weitere Arten der Gattung Xylocopa, die "
+"sehr ähnlich aussehen, jedoch viel seltener sind."

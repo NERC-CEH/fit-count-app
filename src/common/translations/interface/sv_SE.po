@@ -1556,7 +1556,7 @@ msgstr "Humlor"
 # insects name
 #: UK BR CY IE GR
 msgid "Butterflies and moths"
-msgstr "Fjärilar, dag- och nattfjärilar"
+msgstr "Dag- och nattfjärilar"
 
 # insects name
 #: UK BR CY IE GR
