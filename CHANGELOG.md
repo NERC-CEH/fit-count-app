@@ -2,6 +2,10 @@
 
 Added Germany.
 
+# 1.1.1
+
+Fixed android storage.
+
 # 1.1.0
 
 Added Brazil and Ireland.
