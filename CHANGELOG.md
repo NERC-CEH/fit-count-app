@@ -1,3 +1,7 @@
+# 1.1.2
+
+Fixed android camera.
+
 # 1.1.1
 
 Fixed android storage.
