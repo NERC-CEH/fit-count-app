@@ -141,6 +141,11 @@ msgstr "Chipre"
 
 # Country page content
 #: interface
+msgid "Germany"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Reino Unido"
 
@@ -2124,7 +2129,7 @@ msgid "Copihue"
 msgstr ""
 
 # photos intro_text
-#: UK CH DE CY IE
+#: UK DE CY IE CH
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -2133,35 +2138,35 @@ msgstr ""
 "(mas não todas) e são menores do que a maioria das mamangavas."
 
 # photos caption_1
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr ""
 "Antena longa e fina, normalmente com um ângulo em formato de 'cotovelo'"
 
 # photos caption_2
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Eyes covering the sides of the head"
 msgstr "Olhos cobrindo as laterais da cabeça"
 
 # photos caption_3
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Hind legs broad and flattened"
 msgstr "Pernas traseiras largas e achatadas"
 
 # photos caption_4
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr ""
 "O abdome pode variar de majoritariamente escuro a majoritariamente "
 "alaranjado"
 
 # photos caption_5
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Célula longa e estreita em veias na borda da asa"
 
 # photos extraText
-#: UK CH
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
@@ -2192,6 +2197,14 @@ msgstr ""
 msgid ""
 "There is just one species of honeybee in Ireland. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
+msgstr ""
+
+# photos extraText
+#: UK CH
+msgid ""
+"There is just one species of honeybee in Chile (The European Honeybee). They"
+" nest in artificial hives, with occasional colonies establishing in the "
+"wild.”?"
 msgstr ""
 
 # photos intro_text

@@ -139,6 +139,11 @@ msgstr "Chipre"
 
 # Country page content
 #: interface
+msgid "Germany"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Reino Unido"
 
@@ -2077,7 +2082,7 @@ msgid "Copihue"
 msgstr ""
 
 # photos intro_text
-#: UK CH DE CY IE
+#: UK DE CY IE CH
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -2086,33 +2091,33 @@ msgstr ""
 "abejas solitarias y más pequeñas que la mayoría de los abejorros."
 
 # photos caption_1
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr ""
 "Antenas largas y delgadas, a menudo en ángulo tomando una forma de \"codo\""
 
 # photos caption_2
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Eyes covering the sides of the head"
 msgstr "Ojos cubriendo los lados de la cabeza"
 
 # photos caption_3
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Hind legs broad and flattened"
 msgstr "Patas traseras anchas y aplanadas"
 
 # photos caption_4
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr "Abdomen puede variar de mayormente oscuro a mayormente naranja"
 
 # photos caption_5
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Celda larga y estrecha en las venas al borde del ala"
 
 # photos extraText
-#: UK CH
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
@@ -2142,6 +2147,14 @@ msgstr ""
 msgid ""
 "There is just one species of honeybee in Ireland. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
+msgstr ""
+
+# photos extraText
+#: UK CH
+msgid ""
+"There is just one species of honeybee in Chile (The European Honeybee). They"
+" nest in artificial hives, with occasional colonies establishing in the "
+"wild.”?"
 msgstr ""
 
 # photos intro_text

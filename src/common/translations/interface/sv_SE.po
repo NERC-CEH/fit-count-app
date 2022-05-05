@@ -141,6 +141,11 @@ msgstr "Cypern"
 
 # Country page content
 #: interface
+msgid "Germany"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Storbritannien"
 
@@ -2104,7 +2109,7 @@ msgid "Copihue"
 msgstr ""
 
 # photos intro_text
-#: UK CH DE CY IE
+#: UK DE CY IE CH
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -2113,34 +2118,34 @@ msgstr ""
 "de flesta humlor."
 
 # photos caption_1
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr "Långa, smala antenner, ofta med en skarp \"knäböj\""
 
 # photos caption_2
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Eyes covering the sides of the head"
 msgstr "Ögonen täcker huvudets sidor"
 
 # photos caption_3
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Hind legs broad and flattened"
 msgstr "Bakbenen är breda och platta"
 
 # photos caption_4
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr ""
 "Bakkroppens färg varierar från nästan helt mörk till helt orange. Ofta är "
 "den randig i dessa färger."
 
 # photos caption_5
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Långt, smalt fält mellan ribborna nära vingkanten"
 
 # photos extraText
-#: UK CH
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
@@ -2174,6 +2179,14 @@ msgid ""
 msgstr ""
 "Det finns bara en art av honungsbi på Irland. De bor i bikupor, men ibland "
 "kan en svärm skapa en koloni i naturen."
+
+# photos extraText
+#: UK CH
+msgid ""
+"There is just one species of honeybee in Chile (The European Honeybee). They"
+" nest in artificial hives, with occasional colonies establishing in the "
+"wild.”?"
+msgstr ""
 
 # photos intro_text
 #: BR

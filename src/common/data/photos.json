@@ -9,8 +9,7 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "UK": true,
-    "CH": true
+    "UK": true
   },
   {
     "id": "honeybees",
@@ -47,6 +46,19 @@
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in Ireland. They nest in artificial hives,with occasional colonies establishing in the wild.",
     "IE": true
+  },
+  {
+    "id": "honeybees",
+    "pictureId": 1,
+    "intro_text": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. ",
+    "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_2": "Eyes covering the sides of the head",
+    "caption_3": "Hind legs broad and flattened",
+    "caption_4": "Abdomen can vary from mostly dark to mostly orange",
+    "caption_5": "Long narrow cell in veins at edge of wing",
+    "extraText": "There is just one species of honeybee in Chile (The European Honeybee). They nest in artificial hives, with occasional colonies establishing in the wild.”?",
+    "UK": true,
+    "CH": true
   },
   {
     "id": "honeybees",

@@ -139,6 +139,11 @@ msgstr "Cyprus"
 
 # Country page content
 #: interface
+msgid "Germany"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Y Deyrnas Unedig"
 
@@ -2100,7 +2105,7 @@ msgid "Copihue"
 msgstr ""
 
 # photos intro_text
-#: UK CH DE CY IE
+#: UK DE CY IE CH
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -2109,32 +2114,32 @@ msgstr ""
 "maent yn llai na'r rhan fwyaf o gacwn."
 
 # photos caption_1
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr "Teimlyddion hir a thenau, ar ongl yn aml fel siâp 'penelin'"
 
 # photos caption_2
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Eyes covering the sides of the head"
 msgstr "Llygaid yn gorchuddio ochrau'r pen"
 
 # photos caption_3
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Hind legs broad and flattened"
 msgstr "Y coesau ôl yn llydan ac yn fflat"
 
 # photos caption_4
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr "Gall yr abdomen amrywio o bennaf dywyll i bennaf oren"
 
 # photos caption_5
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Cell hir a chul yn y gwythiennau ar ymyl yr adain"
 
 # photos extraText
-#: UK CH
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
@@ -2162,6 +2167,14 @@ msgstr ""
 msgid ""
 "There is just one species of honeybee in Ireland. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
+msgstr ""
+
+# photos extraText
+#: UK CH
+msgid ""
+"There is just one species of honeybee in Chile (The European Honeybee). They"
+" nest in artificial hives, with occasional colonies establishing in the "
+"wild.”?"
 msgstr ""
 
 # photos intro_text

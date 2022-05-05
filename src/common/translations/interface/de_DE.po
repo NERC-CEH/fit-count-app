@@ -140,6 +140,11 @@ msgstr "Zypern"
 
 # Country page content
 #: interface
+msgid "Germany"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Großbritannien"
 
@@ -2103,7 +2108,7 @@ msgid "Copihue"
 msgstr ""
 
 # photos intro_text
-#: UK CH DE CY IE
+#: UK DE CY IE CH
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -2112,34 +2117,34 @@ msgstr ""
 "kleiner als die meisten Hummeln."
 
 # photos caption_1
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr "Lange, dünne Fühler, oft in Form eines Ellbogens abgewinkelt"
 
 # photos caption_2
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Eyes covering the sides of the head"
 msgstr "Augen bedecken die Seiten des Kopfes"
 
 # photos caption_3
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Hind legs broad and flattened"
 msgstr "Hinterbeine breit und abgeflacht"
 
 # photos caption_4
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr ""
 "Farbe des Abdomens kann variieren von überwiegend dunkel bis überwiegend "
 "orange "
 
 # photos caption_5
-#: UK CH DE CY IE BR
+#: UK DE CY IE CH BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Lange schmale Zelle in den Adern am Flügelrand"
 
 # photos extraText
-#: UK CH
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
@@ -2173,6 +2178,14 @@ msgid ""
 msgstr ""
 "In Irland gibt es nur eine Honigbienenart. Sie nisten in künstlichen "
 "Bienenstöcken, wobei sich gelegentlich Kolonien in der freien Natur bilden."
+
+# photos extraText
+#: UK CH
+msgid ""
+"There is just one species of honeybee in Chile (The European Honeybee). They"
+" nest in artificial hives, with occasional colonies establishing in the "
+"wild.”?"
+msgstr ""
 
 # photos intro_text
 #: BR
