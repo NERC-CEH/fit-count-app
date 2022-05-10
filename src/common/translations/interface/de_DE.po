@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Diana Kurch, 2022
-# Elisabeth Kühn, 2022
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
+# Elisabeth Kühn, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2022\n"
+"Last-Translator: Elisabeth Kühn, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,7 +141,7 @@ msgstr "Zypern"
 # Country page content
 #: interface
 msgid "Germany"
-msgstr ""
+msgstr "Deutschland"
 
 # Country page content
 #: interface
@@ -187,7 +187,8 @@ msgstr ""
 # Survey content
 #: interface
 msgid "Use the map to zoom in and tap on your <1>location</1>."
-msgstr "Verwende die Karte zum Hineinzoomen und tippe auf Deinen Standort"
+msgstr ""
+"Verwende die Karte zum Hineinzoomen und tippe auf Deinen <1>Standort</1>"
 
 # Survey content
 #: interface
@@ -222,17 +223,18 @@ msgid ""
 "website.</p></3>"
 msgstr ""
 "Um Deinen Standort festzulegen, aktiviere GPS oder zoome in die Karte und "
-"tippe anschließend auf Deinen Standort. Dieser kann überall dort sein, wo es"
-" Blüten gibt, die bestäubende Insekten anlocken, wo Du die Erlaubnis hast, "
-"Dich aufzuhalten und wo es sicher ist. Geeignete Orte für die FIT-Zählungen "
-"sind beispielsweise Gärten, Parks, Bauernhöfe oder Naturschutzgebiete. Bitte"
-" zoome in die Karte, um den Ort zu finden, der am besten mit Deinem Standort"
-" übereinstimmt. Vergewissere Dich, dass das GPS eingeschaltet ist und die "
-"Berechtigungen erteilt wurden. Wenn du eine FIT-Zählung offline oder ohne "
-"Netzwerkverbindung durchführst, findet die App Deinen Standort nicht auf der"
-" Karte, Dein GPS sollte ihn jedoch speichern, um ihn später hochzuladen. "
-"Deine Ergebnisse werden in einer Auflösung von einem Quadratkilometer über "
-"die UKPoMS-Website für andere sichtbar sein."
+"tippe anschließend auf Deinen <1>Standort</1>. <3><p>Dieser kann überall "
+"dort sein, wo es Blüten gibt, die bestäubende Insekten anlocken, wo Du die "
+"Erlaubnis hast, Dich aufzuhalten und wo es sicher ist. </p><p>Geeignete Orte"
+" für die FIT-Zählungen sind beispielsweise Gärten, Parks, Bauernhöfe oder "
+"Naturschutzgebiete. </p><p>Bitte zoome in die Karte, um den Ort zu finden, "
+"der am besten mit Deinem Standort übereinstimmt. </p><p>Vergewissere Dich, "
+"dass das GPS eingeschaltet ist und die Berechtigungen erteilt wurden. Wenn "
+"du eine FIT-Zählung offline oder ohne Netzwerkverbindung durchführst, findet"
+" die App Deinen Standort nicht auf der Karte, Dein GPS sollte ihn jedoch "
+"speichern, um ihn später hochzuladen. </p><p>Deine Ergebnisse werden in "
+"einer Auflösung von einem Quadratkilometer über die UKPoMS-Website für "
+"andere sichtbar sein.</p></3>"
 
 # Survey Location alert messag
 #: interface
@@ -257,9 +259,10 @@ msgid ""
 "listed here, please select “Other” and type in a short description of the "
 "habitat.</p></3>"
 msgstr ""
-"Wähle den Lebensraum aus, der den für Deine Zählung ausgewählten 50x50 cm "
-"großen Standort am besten beschreibt. Wenn er hier nicht aufgeführt ist, "
-"wähle \"Sonstige\" und gib eine kurze Habitatbeschreibung ein."
+"Wähle den <1>Lebensraum</1> aus, der am Besten passt. <3><p>Wähle den "
+"Lebensraum, der den für Deine Zählung ausgewählten 50x50 cm großen Standort "
+"am besten beschreibt. </p><p>Wenn er hier nicht aufgeführt ist, wähle "
+"\"Sonstige\" und gib eine kurze Habitatbeschreibung ein.</p></3>"
 
 # Survey habitat page other placeholder text
 #: interface
@@ -287,10 +290,10 @@ msgid ""
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
 "by the leaves of the target plant).</p></3>"
 msgstr ""
-"Wie hoch ist die Bedeckung Deiner Zielblüte auf deinem 50x50 cm-Standort? "
-"Schätze, wie hoch der Anteil der Fläche auf den ausgewählten 50x50 cm ist, "
-"der von der Zielblüte (aber nicht von den Blättern der Zielpflanze) bedeckt "
-"wird."
+"Wie hoch ist die <1>Bedeckung Deiner Zielblüte</1> auf deinem 50x50 cm-"
+"Standort? <3><p>Schätze, wie hoch der Anteil der Fläche auf den ausgewählten"
+" 50x50 cm ist, der von der Zielblüte (aber nicht von den Blättern der "
+"Zielpflanze) bedeckt wird.</p></3>"
 
 # Survey flower-cover info message header
 #: interface
@@ -354,8 +357,8 @@ msgid ""
 " Conditions</6>"
 msgstr ""
 "Indem Du auf Registrieren klickst, erklärst Du Dich mit unserer "
-"Datenschutzrichtlinie und den Allgemeinen Geschäftsbedingungen "
-"einverstanden."
+"<2>Datenschutzrichtlinie</2> und den <6>Allgemeinen Geschäftsbedingungen</6>"
+" einverstanden."
 
 # User registration page
 #: interface
@@ -378,6 +381,8 @@ msgid ""
 "Looks like your <1>{{email}}</1> email hasn't been verified "
 "yet.<3><0>Refresh</0><1>Resend Email</1></3>"
 msgstr ""
+"Es scheint, als ob Deine <1>{{email}}</1> noch nicht bestätigt wurde. "
+"<3><0>Aktualisiere</0><1>Sende Deine Email erneut</1></3>"
 
 # User registration page
 #: interface
@@ -385,19 +390,18 @@ msgid ""
 "A new verification email was successfully sent now. If you did not receive "
 "the email, then check your Spam or Junk email folders."
 msgstr ""
-"Eine neue Bestätigungs-E-Mail wurde jetzt erfolgreich gesendet. Wenn Sie die"
-" E-Mail nicht erhalten haben, überprüfen Sie Ihre Spam- oder Junk-E-Mail-"
-"Ordner."
+"Eine neue Bestätigungs-E-Mail wurde jetzt erfolgreich gesendet. Wenn Du die "
+"E-Mail nicht erhalten hast, überprüfe Deinen Spam- oder Junk-E-Mail-Ordner."
 
 # Country page content
 #: interface
 msgid "Ireland"
-msgstr ""
+msgstr "Irland"
 
 # Website link
 #: interface
 msgid "website"
-msgstr ""
+msgstr "Webseite"
 
 # User registration page
 #: interface
@@ -559,7 +563,7 @@ msgstr "Hochgeladen"
 # My surveys page content
 #: interface
 msgid "<0>You have no finished surveys.</0>"
-msgstr "Du hast keine abgeschlossenen Erfassungen."
+msgstr "<0>Du hast keine abgeschlossenen Erfassungen.</0>"
 
 # My surveys page content
 #: interface
@@ -569,7 +573,7 @@ msgstr "Keine hochgeladenen Erfassungen"
 # Survey species selection page species list
 #: interface
 msgid "<0>Which</0> target flower have you chosen?"
-msgstr "Welche Zielblüte hast Du ausgewählt?"
+msgstr "<0>Welche</0> Zielblüte hast Du ausgewählt?"
 
 # Survey species selection page species list
 #: interface
@@ -584,7 +588,7 @@ msgstr "Es wurde kein Foto hinzugefügt"
 # Survey species selection page info message
 #: interface
 msgid "Press <1></1> to add."
-msgstr "Drücke auf Hinzufügen"
+msgstr "Drücke auf <1></1>Hinzufügen"
 
 # Survey species selection page read more message
 #: interface
@@ -598,14 +602,15 @@ msgid ""
 " upload one or two photos of your target flower.</p><p>This allows us to "
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
-"<3>Welche Zielblüte hast Du ausgewählt? Bitte wähle nach Möglichkeit einen "
-"Standort mit einer der Zielblüten aus der Liste aus. Wenn keine der "
-"gelisteten Pflanzen an Deinem Standort zu finden ist, dann wähle eine andere"
-" Blüte, die Insekten anzieht, klicke auf \"Weitere\" und trage dort den "
-"Namen ein. Deine Zielblüte kann auf einem Standort wachsen, auf dem "
-"ausschließlich Blüten dieser Art oder diese Art gemischt mit anderen Arten "
-"vorkommt. Bitte lade für jede FIT-Zählung ein oder zwei Fotos Deiner "
-"Zielblüte hoch, sodass wir diese nochmals nachbestimmen können."
+"Welche <1>Zielblüte</1> hast Du ausgewählt? <3><p>Bitte wähle nach "
+"Möglichkeit einen Standort mit einer der Zielblüten aus der Liste aus. "
+"</p><p>Wenn keine der gelisteten Pflanzen an Deinem Standort zu finden ist, "
+"dann wähle eine andere Blüte, die Insekten anzieht, klicke auf \"Weitere\" "
+"und trage dort den Namen ein. </p><p>Deine Zielblüte kann auf einem Standort"
+" wachsen, auf dem ausschließlich Blüten dieser Art oder diese Art gemischt "
+"mit anderen Arten vorkommt. </p><p>Bitte lade für jede FIT-Zählung ein oder "
+"zwei Fotos Deiner Zielblüte hoch, </p><p>sodass wir diese nochmals "
+"nachbestimmen können.</p></3>"
 
 # Survey species selection page read more header
 #: interface
@@ -656,9 +661,9 @@ msgid ""
 "flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
 " unit</3></5></5>"
 msgstr ""
-"Wie viele und welcher Blütentyp kommt auf Deinem Standort vor? Die Anzahl der Blüten auf einem Standort kann in engem Zusammenhang mit der Anzahl der erfassten Insekten stehen. Deshalb ist es wichtig, diese Information mit anzugeben. Zähle nur relativ frische Blüten, die wahrscheinlich Insekten anziehen - vertrocknete Blüten oder Samenköpfe sollten nicht gezählt werden. Blüten müssen je nach ihrer Struktur auf unterschiedliche Weise gezählt werden. Wenn Du eine Ziel-Büte aus unserer Liste ausgewählt hast, wird der Blütentyp standardmäßig angezeigt. Wenn Du als Ziel-Blüte \"Andere\" ausgewählt hast, zähle bitte: einzelne Blüten - jede Blüte zählt als eine Einheit. Blütenköpfe (mit vielen kleinen Blüten innerhalb eines größeren Blütenkopfes, z. B. Löwenzahn oder Gänseblümchen) - jeder Blütenkopf zählt als eine Einheit\n"
-"Dolden (oder Blüten mit kleinen Blüten, die in \"Dolden\" gruppiert sind, wie umgedrehte Regenschirme, z. B. Bärenklau) - jede Dolde zählt als eine Einheit\n"
-"Ähren (wo eine Anzahl kleiner Blüten entlang eines Stiels angeordnet sind, z. B. Lavendel) - jede Ähre zählt als eine Einheit"
+"Welche <1>Anzahl</1> und welcher <3>Blütentyp</3> kommt auf Deinem Standort vor? <5><p>Die Anzahl der Blüten auf einem Standort kann in engem Zusammenhang mit der Anzahl der erfassten Insekten stehen. Deshalb ist es wichtig, diese Information mit anzugeben. </p><p>Zähle nur relativ frische Blüten, die wahrscheinlich Insekten anziehen - vertrocknete Blüten oder Samenköpfe sollten nicht gezählt werden. </p><p>Blüten müssen je nach ihrer Struktur auf unterschiedliche Weise gezählt werden. </p><p>Wenn Du eine Zielblüte aus unserer Liste ausgewählt hast, wird der Blütentyp standardmäßig angezeigt. </p><p>Wenn Du als Zielblüte \"Andere\" ausgewählt hast, zähle bitte: </p><5><0><0>einzelne Blüten</0> - jede Blüte zählt als eine Einheit</0><1><0>. Blütenköpfe</0> (mit vielen kleinen Blüten innerhalb eines größeren Blütenkopfes, z. B. Löwenzahn oder Gänseblümchen) - jeder Blütenkopf zählt als eine Einheit</1><2><0>\n"
+"Dolden</0> (oder Blüten mit kleinen Blüten, die in \"Dolden\" gruppiert sind, wie umgedrehte Regenschirme, z. B. Bärenklau) - jede Dolde zählt als eine Einheit</2><3><0>\n"
+"Ähren</0> (wo eine Anzahl kleiner Blüten entlang eines Stiels angeordnet sind, z. B. Lavendel) - jede Ähre zählt als eine Einheit</3></5></5>"
 
 # Survey flower count page info header
 #: interface
@@ -763,7 +768,7 @@ msgstr "Vielen Dank an die folgenden Personen für zusätzliche Fotos"
 # Credits page content
 #: interface
 msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
-msgstr "Icons erstellt von Freepik von www.flaticon.com"
+msgstr "Icons erstellt von <2>Freepik</2> von <6>www.flaticon.com</6>"
 
 # Credits page content
 #: interface
@@ -773,7 +778,7 @@ msgstr "Illustration des App-Handbuches von"
 # Survey flower page info message
 #: interface
 msgid "Which target <1>flower</1> have you chosen?"
-msgstr "Welche Zielblüte hast Du ausgewählt?"
+msgstr "Welche <1>Zielblüte</1> hast Du ausgewählt?"
 
 # Survey flower page section divider
 #: interface
@@ -808,10 +813,10 @@ msgid ""
 "insects.</p><p>Please indicate the situation that best describes the area "
 "around your flower patch (roughly within 5 metres).</p></3>"
 msgstr ""
-"Wächst Dein 50x50cm großer Blütenstandort: Die Umgebung eines "
-"Blütenstandortes kann seine Attraktivität für Insekten beeinflussen. Bitte "
-"beschreibe die Umgebung Deines Blütenstandortes (im Umkreis von ca. 5 "
-"Metern)."
+"Wächst der 50x50cm großer Standort Deiner <1>Zielblüte</1>: <3><p>Die "
+"Umgebung eines Blütenstandortes kann seine Attraktivität für Insekten "
+"beeinflussen. </p><p>Bitte beschreibe die Umgebung Deines Blütenstandortes "
+"(im Umkreis von ca. 5 Metern).</p></3>"
 
 # Survey flower patch info button label
 #: interface
@@ -914,8 +919,8 @@ msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
 msgstr ""
-"Bestäubende Insekten sind wichtig. Bitte hilf uns, sie mit einer FIT-Zählung"
-" (Flower-Insect Timed Count) zu erfassen."
+"<0>Bestäubende Insekten sind wichtig. </0><br/>Bitte hilf uns, sie mit einer"
+" FIT-Zählung (Flower-Insect Timed Count) zu erfassen."
 
 # Onboarding content
 #: interface
@@ -926,10 +931,11 @@ msgid ""
 "when your ten minutes is up</4><5>Save your count, and upload it to the "
 "website</5></0>"
 msgstr ""
-"Warte auf gutes Wetter. Finde einen Standort mit Zielblüten. Zähle die "
-"Blüten auf diesem Standort. Zähle alle Insekten, die auf der Zielblüte "
-"landen. Die App wird Dir mitteilen, wenn die 10 Minuten vorbei sind. "
-"Speichere Deine Zählung und lade sie auf der Website hoch."
+"<0><0>Warte auf gutes Wetter. </0><1>Finde einen Standort mit Zielblüten. "
+"</1><2>Zähle die Blüten auf diesem Standort</2><3> Zähle<1> alle</1> "
+"Insekten, die auf der <6>Zielblüte</6><3> landen</3></3><4>. Die App wird "
+"Dir mitteilen, wenn die 10 Minuten vorbei sind</4><5> Speichere Deine "
+"Zählung und lade sie auf der Website hoch</5></0>"
 
 # Onboarding content
 #: interface
@@ -958,7 +964,7 @@ msgstr "Die Anmeldedaten des Benutzers waren falsch."
 # How To page content
 #: interface
 msgid "How To"
-msgstr "Wie man"
+msgstr "So gehts"
 
 # How To page content
 #: interface
@@ -1138,18 +1144,19 @@ msgstr "Dies ist die Fehlerereignis-ID: {{eventId}}"
 # From survey pages
 #: interface
 msgid "What is the <1>sky</1> above your location?"
-msgstr "Wie sieht der Himmel über Deinem Standort aus?"
+msgstr "Wie sieht der <1>Himmel</1> über Deinem Standort aus?"
 
 # From survey pages
 #: interface
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 msgstr ""
-"Wie viel Sonne fiel während der FIT-Zählung auf Deinen Standort; war es:"
+"Wie viel <1>Sonne</1> fiel während der FIT-Zählung auf Deinen Standort; war "
+"es:"
 
 # From survey pages
 #: interface
 msgid "What was the <1>wind</1> strength?"
-msgstr "Wie war die Windstärke?"
+msgstr "Wie war die <1>Windstärke</1>?"
 
 # Button label
 #: interface
@@ -1225,14 +1232,14 @@ msgid ""
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
 "insects per count."
 msgstr ""
-"Du hast insgesamt {{numberOfOccurrences}} Insekten gezählt - der britische "
-"Durchschnitt für {{month}} ist {{averageInsectCountForThisMonth}} Insekten "
-"pro Zählung."
+"Du hast insgesamt <1>{{numberOfOccurrences}} </1>Insekten gezählt - der "
+"britische Durchschnitt für <3>{{month}}</3> ist "
+"<6>{{averageInsectCountForThisMonth}}</6> Insekten pro Zählung."
 
 # Alert message at the end of survey - non UK
 #: interface
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
-msgstr "Du hast insgesamt {{numberOfOccurrences}} Insekten gezählt."
+msgstr "Du hast insgesamt <1>{{numberOfOccurrences}}</1> Insekten gezählt."
 
 # Alert message at the end of survey
 #: interface
@@ -1383,7 +1390,7 @@ msgid ""
 msgstr ""
 "FIT-Zählungen sind für alle geeignet, ob in der Stadt oder auf dem Land, und"
 " können jederzeit während der FIT-Zählsaison durchgeführt werden - schau in "
-"der Kurzanleitung nach, wann in Deinem Land Zählsaison ist."
+"der Kurzanleitung<1></1> nach, wann in Deinem Land Zählsaison ist."
 
 # About page content
 #: interface
@@ -1425,7 +1432,7 @@ msgid ""
 "and can be contacted <1>here</1>."
 msgstr ""
 "Das Projekt FIT-Zählung wird vom britischen Zentrum für Ökologie und "
-"Hydrologie (CEH) unterstützt und kann hier kontaktiert werden."
+"Hydrologie (CEH) unterstützt und kann <1>hier</1> kontaktiert werden."
 
 # Credits page content
 #: interface
@@ -1795,32 +1802,32 @@ msgstr "Brache"
 # habitats value
 #: IE
 msgid "Upland bog/heath"
-msgstr ""
+msgstr "Hochmoor"
 
 # habitats value
 #: IE
 msgid "Lowland bog/heath"
-msgstr ""
+msgstr "Niedermoor"
 
 # habitats value
 #: IE
 msgid "Waste ground"
-msgstr ""
+msgstr "Ödland"
 
 # habitats value
 #: CH
 msgid "Lake or river edge"
-msgstr ""
+msgstr "See- oder Flußufer"
 
 # habitats value
 #: CH
 msgid "Shrubland"
-msgstr ""
+msgstr "Gebüsch"
 
 # habitats value
 #: CH
 msgid "Vegtable patch"
-msgstr ""
+msgstr "Gemüsebeet"
 
 # flowers name
 #: UK IE DE
@@ -2060,12 +2067,12 @@ msgstr "Ipe"
 # flowers name
 #: CH
 msgid "Daisy"
-msgstr ""
+msgstr "Gänseblümchen"
 
 # flowers name
 #: CH
 msgid "Fuchsia"
-msgstr ""
+msgstr "Fuchsie"
 
 # flowers name
 #: CH
@@ -2075,12 +2082,12 @@ msgstr ""
 # flowers name
 #: CH
 msgid "Magnolia"
-msgstr ""
+msgstr "Magnolie"
 
 # flowers name
 #: CH
 msgid "Cherry"
-msgstr ""
+msgstr "Kirsche"
 
 # flowers name
 #: CH
@@ -2090,7 +2097,7 @@ msgstr ""
 # flowers name
 #: CH
 msgid "Rose"
-msgstr ""
+msgstr "Rose"
 
 # flowers name
 #: CH
@@ -2329,23 +2336,24 @@ msgstr ""
 # photos caption_1
 #: BR
 msgid "<i>Xylocopa</i> has a hairless and shiny abdomen"
-msgstr "Xylocopa hat einen unbehaarten und glänzenden Hinterleib"
+msgstr "<i>Xylocopa</i> hat einen unbehaarten und glänzenden Hinterleib"
 
 # photos caption_2
 #: BR
 msgid "<i>Xylocopa</i> does not have a pollen basket in the hind legs"
-msgstr "Xylocopa hat keine Pollenhöschen an den Hinterbeinen"
+msgstr "<i>Xylocopa</i> hat keine Pollenhöschen an den Hinterbeinen"
 
 # photos caption_3
 #: BR
 msgid "<i>Bombus</i> has a round shape, with furry abdomen"
-msgstr "Bombus hat eine runde Form, mit pelzigem Hinterleib"
+msgstr "<i>Bombus</i> hat eine runde Form, mit pelzigem Hinterleib"
 
 # photos caption_4
 #: BR
 msgid "<i>Bombus</i> has a pollen basket in the hind legs for carrying pollen"
 msgstr ""
-"Bombus hat Pollenhöschen an den Hinterbeinen, um Pollen zu transportieren"
+"<i>Bombus</i> hat Pollenhöschen an den Hinterbeinen, um Pollen zu "
+"transportieren"
 
 # photos extraText
 #: BR
@@ -2354,9 +2362,9 @@ msgid ""
 "and <i>Bombus</i> - they are counted in the same category “bumblebees sensu "
 "lato”."
 msgstr ""
-"Bei der FIT-Zählung muss nicht zwischen Xylocopa und Bombus unterschieden "
-"werden - sie werden in der gleichen Kategorie \"Hummeln im weiteren Sinne\" "
-"gezählt."
+"Bei der FIT-Zählung muss nicht zwischen <i>Xylocopa</i> und <i>Bombus</i> "
+"unterschieden werden - sie werden in der gleichen Kategorie \"Hummeln im "
+"weiteren Sinne\" gezählt."
 
 # photos intro_text
 #: BR
@@ -2557,7 +2565,8 @@ msgstr ""
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
-"Die Graue Sandbiene (Andrena cineraria) ist schwarz und grau gestreift"
+"Die Graue Sandbiene (<i>Andrena cineraria</i>) ist schwarz und grau "
+"gestreift"
 
 # photos caption_2
 #: UK DE IE
@@ -2566,10 +2575,10 @@ msgid ""
 "they have bee-like hairs on part of their body, and most are similar in "
 "shape and with a mix of black, red and yellow colours"
 msgstr ""
-"Wespenbienen (Gattung Nomada) können Wespen sehr ähnlich sehen, aber sie "
-"haben bienenähnliche Haare auf einem Teil ihres Körpers. Die meisten sind "
-"ähnlich geformt und haben eine Mischung aus schwarzen, roten und gelben "
-"Farben"
+"Wespenbienen (Gattung <i>Nomada</i>) können Wespen sehr ähnlich sehen, aber "
+"sie haben bienenähnliche Haare auf einem Teil ihres Körpers. Die meisten "
+"sind ähnlich geformt und haben eine Mischung aus schwarzen, roten und gelben"
+" Farben"
 
 # photos caption_3
 #: UK DE
@@ -2577,8 +2586,8 @@ msgid ""
 "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
 "bees, at around 4mm long"
 msgstr ""
-"Die Scherenbiene (Gattung Chelostoma) ist mit einer Länge von etwa 4 mm eine"
-" der kleinsten Solitärbienen"
+"Die Scherenbiene (Gattung <i>Chelostoma</i>) ist mit einer Länge von etwa 4 "
+"mm eine der kleinsten Solitärbienen"
 
 # photos caption_4
 #: UK DE IE
@@ -2586,9 +2595,9 @@ msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
-"Im Spätsommer besucht die Efeu-Seidenbiene (Colletes hederae) Efeublüten - "
-"in frischem Zustand haben diese Bienen deutliche schwarze und gelbe Streifen"
-" auf dem Hinterleib"
+"Im Spätsommer besucht die Efeu-Seidenbiene (<i>Colletes hederae</i>) "
+"Efeublüten - in frischem Zustand haben diese Bienen deutliche schwarze und "
+"gelbe Streifen auf dem Hinterleib"
 
 # photos extraText
 #: UK DE CY IE BR
@@ -2602,7 +2611,8 @@ msgstr ""
 # photos caption_1
 #: CY
 msgid "Ground bees (genus  <i>Andrena </i>) have black and grey stripes"
-msgstr "Sandbienen (Gattung Andrena ) haben schwarze und graue Streifen"
+msgstr ""
+"Sandbienen (Gattung <i>Andrena</i> ) haben schwarze und graue Streifen"
 
 # photos caption_2
 #: CY
@@ -2611,10 +2621,10 @@ msgid ""
 "they have bee-like hairs on part of their body, and most are similar in "
 "shape and with a mix of black, red and yellow colours (UK example shown) "
 msgstr ""
-"Wespenbienen (Gattung Nomada) können Wespen sehr ähnlich sehen, aber sie "
-"haben bienenähnliche Haare auf einem Teil ihres Körpers. Die meisten sind "
-"ähnlich geformt und haben eine Mischung aus schwarzen, roten und gelben "
-"Farben (Beispiel für UK)"
+"Wespenbienen (Gattung <i>Nomada</i>) können Wespen sehr ähnlich sehen, aber "
+"sie haben bienenähnliche Haare auf einem Teil ihres Körpers. Die meisten "
+"sind ähnlich geformt und haben eine Mischung aus schwarzen, roten und gelben"
+" Farben (Beispiel für UK)"
 
 # photos caption_3
 #: CY
@@ -2623,8 +2633,9 @@ msgid ""
 "Some species are among the smallest in size solitary bees, at around 3mm "
 "long. "
 msgstr ""
-"Bienen der Gattung Lasioglossum sind mittelgroße Solitärbienen. Einige Arten"
-" gehören mit einer Länge von etwa 3 mm zu den kleinsten Solitärbienen."
+"Bienen der Gattung <i>Lasioglossum</i> sind mittelgroße Solitärbienen. "
+"Einige Arten gehören mit einer Länge von etwa 3 mm zu den kleinsten "
+"Solitärbienen."
 
 # photos caption_4
 #: CY
@@ -2632,8 +2643,8 @@ msgid ""
 "Bees of the genus  <i>Colletes </i> have distinct black and yellow stripes "
 "on the abdomen (UK example shown)"
 msgstr ""
-"Bienen der Gattung Colletes (Seidenbienen) haben ausgeprägte schwarze und "
-"gelbe Streifen auf dem Hinterleib (Beispiel aus UK)"
+"Bienen der Gattung <i>Colletes</i> (Seidenbienen) haben ausgeprägte schwarze"
+" und gelbe Streifen auf dem Hinterleib (Beispiel aus UK)"
 
 # photos caption_3
 #: IE
@@ -2641,8 +2652,8 @@ msgid ""
 "This yellow-faced bee (genus <i>Hylaeus</i>) is one of the smallest solitary"
 " bees, at around 5-7mm long"
 msgstr ""
-"Diese Maskenbiene (Gattung Hylaeus) ist mit einer Länge von 5-7 mm eine der "
-"kleinsten Solitärbienen"
+"Diese Maskenbiene (Gattung <i>Hylaeus</i>) ist mit einer Länge von 5-7 mm "
+"eine der kleinsten Solitärbienen"
 
 # photos intro_text
 #: BR
@@ -2703,7 +2714,7 @@ msgstr ""
 # photos caption_1
 #: BR
 msgid "Bee of the genus <i>Oxaea</i> from the family Andrenidae."
-msgstr "Biene der Gattung Oxaea aus der Familie der Andrenidae."
+msgstr "Biene der Gattung <i>Oxaea</i> aus der Familie der Andrenidae."
 
 # photos caption_2
 #: BR
@@ -2711,8 +2722,8 @@ msgid ""
 "The genus <i>Hylaeus</i> (Family Colletidae) can look very similar to wasps "
 "and lack structures for carrying pollen."
 msgstr ""
-"Die Gattung Hylaeus (Familie Colletidae) kann Wespen sehr ähnlich sehen, sie"
-" hat aber keine Strukturen zum Tragen von Pollen."
+"Die Gattung <i>Hylaeus</i> (Familie Colletidae) kann Wespen sehr ähnlich "
+"sehen, sie hat aber keine Strukturen zum Tragen von Pollen."
 
 # photos caption_3
 #: BR
@@ -2940,12 +2951,12 @@ msgstr ""
 # photos caption_1
 #: BR
 msgid "Solitary wasp of the genus <i>Ammophila</i>"
-msgstr "Solitärwespe der Gattung Ammophila (Sandwespen)"
+msgstr "Solitärwespe der Gattung <i>Ammophila</i> (Sandwespen)"
 
 # photos caption_2
 #: BR
 msgid "Solitary wasp of the genus <i>Monobia</i>"
-msgstr "Solitärwespe der Gattung Monopia (Töpferwespen, neotropisch)"
+msgstr "Solitärwespe der Gattung <i>Monopia</i> (Töpferwespen, neotropisch)"
 
 # photos intro_text
 #: CH
@@ -2962,6 +2973,8 @@ msgid ""
 "wasps. They are usually not obviously hairy, and they do not have no pollen "
 "basket."
 msgstr ""
+"Solitärwespen unterscheiden sich stark in Größe, Form und Zeichnung. Sie "
+"sind in der Regel nicht behaart und sie haben keine Pollenhöschen."
 
 # photos intro_text
 #: UK DE CY IE
@@ -3116,8 +3129,8 @@ msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
-"Die Hornissenschwebfliege (Volucella zonaria) ist unsere größte Schwebfliege"
-" und ahmt Hornissen gut nach. Aber beachte die kurzen Fühler"
+"Die Hornissenschwebfliege (<i>Volucella zonaria</i>) ist unsere größte "
+"Schwebfliege und ahmt Hornissen gut nach. Aber beachte die kurzen Fühler"
 
 # photos caption_2
 #: UK DE IE
@@ -3126,8 +3139,8 @@ msgid ""
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
 "Einige Arten haben verlängerte \"Nasen\" - dies ist die Gemeine "
-"Schnauzenschwebfliege (Rhingia campestris), eine weit verbreitete Art mit "
-"einer unverwechselbaren grau-orangenen Färbung"
+"Schnauzenschwebfliege (<i>Rhingia campestris</i>), eine weit verbreitete Art"
+" mit einer unverwechselbaren grau-orangenen Färbung"
 
 # photos caption_3
 #: UK DE CY IE
@@ -3168,8 +3181,8 @@ msgid ""
 "shown)"
 msgstr ""
 "Einige Arten haben verlängerte \"Nasen\" - dies ist die Gemeine "
-"Schnauzenschwebfliege (Rhingia campestris), eine weit verbreitete Art mit "
-"einer unverwechselbaren grau-orangenen Farbe (Beispiel aus UK)"
+"Schnauzenschwebfliege (<i>Rhingia campestris</i>), eine weit verbreitete Art"
+" mit einer unverwechselbaren grau-orangenen Farbe (Beispiel aus UK)"
 
 # photos caption_1
 #: IE
@@ -3177,7 +3190,7 @@ msgid ""
 "The Marmalade Hoverfly (<i>Episyrphus balteatus</i>) is one of our most "
 "common hoverflies"
 msgstr ""
-"Die Hainschwebfliege (Episyrphus balteatus) ist eine der häufigsten "
+"Die Hainschwebfliege (<i>Episyrphus balteatus</i>) ist eine der häufigsten "
 "Schwebfliegen"
 
 # photos intro_text
@@ -3186,16 +3199,18 @@ msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name."
 msgstr ""
+"Schwebfliegen sind sehr aktive und wendige Flieger und werden, wie ihr Name "
+"schon sagt, häufig im Schwebeflug beobachtet. "
 
 # photos caption_1
 #: CH
 msgid "Large eyes, covering most of the head in males"
-msgstr ""
+msgstr "Große Augen bedecken bei den Männchen den größten Teil des Kopfes"
 
 # photos caption_2
 #: CH
 msgid "Short antennae"
-msgstr ""
+msgstr "Kurze Fühler"
 
 # photos caption_3
 #: CH
@@ -3203,6 +3218,8 @@ msgid ""
 "They can have black and yellow stripes, but some are all dark or have other "
 "patterns"
 msgstr ""
+"Manche haben schwarze und gelbe Streifen. Einige sind auch ganz dunkel oder "
+"haben andere Muster"
 
 # photos intro_text
 #: CH
@@ -3327,8 +3344,8 @@ msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
 msgstr ""
-"Dies ist eine Goldgrüne Waffenfliege (Chloromyia formosa), die oft auf "
-"Bärenklau und verwandten Blüten zu sehen ist"
+"Dies ist eine Goldgrüne Waffenfliege (<i>Chloromyia formosa</i>), die oft "
+"auf Bärenklau und verwandten Blüten zu sehen ist"
 
 # photos caption_5
 #: UK IE DE CY CH
@@ -3356,8 +3373,8 @@ msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on flowers (UK example shown)"
 msgstr ""
-"Dies ist eine Goldgrüne Waffenfliege (Chloromyia formosa), die oft auf "
-"Bärenklau und verwandten Blüten zu sehen ist (Beispiel aus UK)"
+"Dies ist eine Goldgrüne Waffenfliege (<i>Chloromyia formosa</i>), die oft "
+"auf Bärenklau und verwandten Blüten zu sehen ist (Beispiel aus UK)"
 
 # photos intro_text
 #: UK IE DE CY
@@ -3518,12 +3535,12 @@ msgstr ""
 # photos caption_1
 #: BR
 msgid "<i>Phaeochlaena lampra</i> (a member of Prominent Moths)"
-msgstr "Phaeochlaena lampra (eine auffällige Motte)"
+msgstr "<i>Phaeochlaena lampra</i> (eine auffällige Motte)"
 
 # photos caption_2
 #: BR
 msgid "<i>Diaethria clymena</i> (Widespread Eighty-Eight butterfly)"
-msgstr "Diaethria clymena (Weitverbreiteter Schmetterling)"
+msgstr "<i>Diaethria clymena</i> (Weitverbreiteter Schmetterling)"
 
 # photos intro_text
 #: CH
@@ -3590,8 +3607,8 @@ msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
-"Dieser Käfer ist ein Grüner Scheinbockkäfer (Oedemera nobilis), bei dem die "
-"Männchen auffallend verdickte Hinterbeine haben"
+"Dieser Käfer ist ein Grüner Scheinbockkäfer (<i>Oedemera nobilis</i>), bei "
+"dem die Männchen auffallend verdickte Hinterbeine haben"
 
 # photos intro_text
 #: UK IE DE CY
@@ -3605,7 +3622,7 @@ msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
 msgstr ""
-"Roter Weichkäfer (Rhagonycha fulva) mit schwarzen Spitzen an den "
+"Roter Weichkäfer (<i>Rhagonycha fulva</i>) mit schwarzen Spitzen an den "
 "Flügeldecken - im Hochsommer sehr zahlreich an Blüten zu finden"
 
 # photos caption_2
@@ -3614,8 +3631,8 @@ msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
 msgstr ""
-"Gefleckter Schmalbock (Rutpela maculata), ein großer Käfer - die Larven "
-"leben in morschem Holz"
+"Gefleckter Schmalbock (<i>Rutpela maculata</i>), ein großer Käfer - die "
+"Larven leben in morschem Holz"
 
 # photos caption_1
 #: CY
@@ -3641,8 +3658,8 @@ msgid ""
 "This beetle is the <i>Chauliognathus flavipes</i> beetle, which differs from"
 " similar species by the rounded margins of the forewings"
 msgstr ""
-"Dieser Käfer ist Chauliognathus flavipes, eine Art, die sich durch die "
-"abgerundeten Ränder der Vorderflügel von ähnlichen Arten unterscheidet"
+"Dieser Käfer ist <i>Chauliognathus flavipes</i>, eine Art, die sich durch "
+"die abgerundeten Ränder der Vorderflügel von ähnlichen Arten unterscheidet"
 
 # photos intro_text
 #: BR
