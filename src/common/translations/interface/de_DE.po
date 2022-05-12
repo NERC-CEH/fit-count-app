@@ -3,11 +3,12 @@
 # Diana Kurch, 2022
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # Elisabeth Kühn, 2022
+# Karolis, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Elisabeth Kühn, 2022\n"
+"Last-Translator: Karolis, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1777,7 +1778,7 @@ msgstr "Heckensaum"
 # habitats value
 #: DE CH
 msgid "Freshwater edge"
-msgstr ""
+msgstr "Ferbereich von Flüssen, Bächen oder Seen"
 
 # habitats value
 #: DE
