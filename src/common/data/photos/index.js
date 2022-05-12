@@ -60,4 +60,4 @@ import './wasps_4.jpg?originalName';
 import './wasps_BR1.jpg?originalName';
 import './wasps_BR2.jpg?originalName';
 import './wasps_BR3.jpg?originalName';
-import './carpenterbee_1.jpg?originalName';
+import './carpenterbees_1.jpg?originalName';
