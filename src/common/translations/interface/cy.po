@@ -1765,8 +1765,8 @@ msgid "Hedgerow edge "
 msgstr ""
 
 # habitats value
-#: DE
-msgid "Verge along a stream or river "
+#: DE CH
+msgid "Freshwater edge"
 msgstr ""
 
 # habitats value
@@ -1802,11 +1802,6 @@ msgstr ""
 # habitats value
 #: IE
 msgid "Waste ground"
-msgstr ""
-
-# habitats value
-#: CH
-msgid "Lake or river edge"
 msgstr ""
 
 # habitats value

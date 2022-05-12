@@ -168,8 +168,9 @@
   },
   {
     "warehouseId": 20086,
-    "value": "Verge along a stream or river ",
-    "DE": true
+    "value": "Freshwater edge",
+    "DE": true,
+    "CH": true
   },
   {
     "warehouseId": 20087,
@@ -205,10 +206,6 @@
     "warehouseId": 20079,
     "value": "Waste ground",
     "IE": true
-  },
-  {
-    "value": "Lake or river edge",
-    "CH": true
   },
   {
     "value": "Shrubland",

@@ -1769,9 +1769,9 @@ msgid "Hedgerow edge "
 msgstr "Häck-kant"
 
 # habitats value
-#: DE
-msgid "Verge along a stream or river "
-msgstr "Kant längs bäck eller flod"
+#: DE CH
+msgid "Freshwater edge"
+msgstr ""
 
 # habitats value
 #: DE
@@ -1807,11 +1807,6 @@ msgstr "Hedmark nedanför fjällen, t ex ljunghed."
 #: IE
 msgid "Waste ground"
 msgstr "Industrimark"
-
-# habitats value
-#: CH
-msgid "Lake or river edge"
-msgstr ""
 
 # habitats value
 #: CH

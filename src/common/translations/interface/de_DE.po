@@ -1775,9 +1775,9 @@ msgid "Hedgerow edge "
 msgstr "Heckensaum"
 
 # habitats value
-#: DE
-msgid "Verge along a stream or river "
-msgstr "Saum an Bach oder Fluss"
+#: DE CH
+msgid "Freshwater edge"
+msgstr ""
 
 # habitats value
 #: DE
@@ -1813,11 +1813,6 @@ msgstr "Niedermoor"
 #: IE
 msgid "Waste ground"
 msgstr "Ödland"
-
-# habitats value
-#: CH
-msgid "Lake or river edge"
-msgstr "See- oder Flußufer"
 
 # habitats value
 #: CH
