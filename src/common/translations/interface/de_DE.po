@@ -1778,7 +1778,7 @@ msgstr "Heckensaum"
 # habitats value
 #: DE CH
 msgid "Freshwater edge"
-msgstr "Ferbereich von Flüssen, Bächen oder Seen"
+msgstr "Uferbereich von Flüssen, Bächen oder Seen"
 
 # habitats value
 #: DE
