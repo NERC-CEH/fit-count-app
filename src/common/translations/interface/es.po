@@ -1,11 +1,12 @@
 # 
 # Translators:
 # Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
+# Giselle Muschett <giselle.muschett@pucv.cl>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022\n"
+"Last-Translator: Giselle Muschett <giselle.muschett@pucv.cl>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -595,15 +596,15 @@ msgid ""
 " upload one or two photos of your target flower.</p><p>This allows us to "
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
-"¿Qué <1>flor </1>objetivo has elegido?<3><p>Siempre que sea posible, elija "
-"un parche de flores de uno de los grupos de flores objetivo de la "
+"¿Qué <1>flor </1>objetivo ha elegido?<3><p>Siempre que sea posible, elija un"
+" parche de flores de uno de los grupos de flores objetivo de la "
 "lista.</p><p>Si ninguna de ellas está disponible en su ubicación, puede "
 "elegir otra flor que atraiga a los insectos y seleccionar \"Otra\", y luego "
 "escribir el nombre.</p><p>Su flor objetivo puede estar creciendo en un "
 "parche de la misma flor, o entre diferentes especies de flores.</p><p>Para "
 "cada recuento FIT, cargue una o dos fotos de su flor objetivo.</p><p>Esto "
 "nos permite comprobar de nuevo las especies de flores utilizadas para los "
-"recuentos.</p></3>"
+"recuentos.</p>"
 
 # Survey species selection page read more header
 #: interface
@@ -701,7 +702,7 @@ msgstr "Umbela"
 # Survey flower count page content
 #: interface
 msgid "Spike"
-msgstr "Spina"
+msgstr "Espiga"
 
 # My surveys page content
 #: interface
@@ -726,7 +727,7 @@ msgstr "Ayer"
 # My surveys page content info background message
 #: interface
 msgid "To delete any surveys swipe it to the left."
-msgstr "Para borrar los registros deslice lo hacia la izquierda."
+msgstr "Para borrar los registros deslícelo hacia la izquierda."
 
 # My surveys page content info background message button
 #: interface
@@ -741,7 +742,7 @@ msgstr "No tiene registros terminados"
 # Add Photo message
 #: interface
 msgid "Choose a method to upload a photo"
-msgstr "Elige un método para subir una foto"
+msgstr "Elija un método para subir una foto"
 
 # Add Photo message
 #: interface
@@ -801,12 +802,12 @@ msgstr "Flor objetivo elegida"
 # Survey flower patch page values
 #: interface
 msgid "In a larger patch of the same flower"
-msgstr "En una parche más grande de la misma flor"
+msgstr "En un parche más grande de la misma flor"
 
 # Survey flower patch page values
 #: interface
 msgid "In a larger patch of many different flowers"
-msgstr "En una parcela más grande de muchas flores diferentes"
+msgstr "En un parche más grande de muchas flores diferentes"
 
 # Survey flower patch page values
 #: interface
@@ -1006,7 +1007,7 @@ msgstr ""
 # How To page content
 #: interface
 msgid "Mark out a 50 × 50 cm patch containing your target."
-msgstr "Marca un parche de 50 × 50 cm que contenga tu objetivo."
+msgstr "Marque un parche de 50 × 50 cm que contenga tu objetivo."
 
 # How To page content
 #: interface
@@ -1357,7 +1358,7 @@ msgid ""
 msgstr ""
 "Los recuentos FIT son adecuados para todos, en zonas urbanas o rurales, y se"
 " pueden realizar en cualquier momento durante la temporada del recuento FIT;"
-" consulte la guía rápida <1></1> para la temporada en tu país."
+" consulte la guía rápida <1></1> para la temporada en su país."
 
 # About page content
 #: interface
@@ -1417,7 +1418,7 @@ msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
 msgstr ""
-"El desarrollo de la aplicacione ha sido apoyado por los patrocinadores y "
+"El desarrollo de la aplicacion ha sido apoyado por los patrocinadores y "
 "socios de estos proyectos de polinizadores en todo el mundo."
 
 # Survey validation message
@@ -1493,7 +1494,7 @@ msgstr "No, gracias"
 # Asking user for a feedback on app stores
 #: interface
 msgid "OK, sure"
-msgstr "Si, claro"
+msgstr "Sí, claro"
 
 # Asking user for a feedback on app stores
 #: interface
@@ -1569,7 +1570,7 @@ msgstr "Abejas solitarias"
 # insects name
 #: UK BR CY IE DE CH
 msgid "Wasps"
-msgstr "Avispas\t"
+msgstr "Avispas"
 
 # insects name
 #: BR
