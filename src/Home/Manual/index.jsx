@@ -192,7 +192,30 @@ const Manual = () => {
   const isUK = country === 'UK';
   const isBrazil = country === 'BR';
   const isIreland = country === 'IE';
+  const isGermany = country === 'DE';
   const isRestOfWorld = !isUK && !isBrazil;
+
+  let furtherLink = (
+    <a href="http://ukpoms.org.uk/fit-counts">
+      http://ukpoms.org.uk/fit-counts
+    </a>
+  );
+
+  if (isIreland) {
+    furtherLink = (
+      <a href="https://biodiversityireland.ie/surveys/fit-counts">
+        https://biodiversityireland.ie/surveys/fit-counts
+      </a>
+    );
+  }
+
+  if (isGermany) {
+    furtherLink = (
+      <a href="https://www.ufz.de/spring-pollination/index.php?de=49254">
+        https://www.ufz.de/spring-pollination/index.php?de=49254
+      </a>
+    );
+  }
 
   return (
     <Page id="manual">
@@ -213,15 +236,7 @@ const Manual = () => {
           </P>
           <P skipTranslation>
             <T>Further information and guides are available at</T>:{' '}
-            {isIreland ? (
-              <a href="https://biodiversityireland.ie/surveys/fit-counts">
-                https://biodiversityireland.ie/surveys/fit-counts
-              </a>
-            ) : (
-              <a href="http://ukpoms.org.uk/fit-counts">
-                http://ukpoms.org.uk/fit-counts
-              </a>
-            )}
+            {furtherLink}
           </P>
         </Section>
       </Main>

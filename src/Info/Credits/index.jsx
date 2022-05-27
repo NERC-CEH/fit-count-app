@@ -15,7 +15,8 @@ const Credits = () => {
   const isCyprus = country === 'CY';
   const isBrazil = country === 'BR';
   const isIreland = country === 'IE';
-  const isRestOfWorld = !isCyprus && !isBrazil && !isIreland;
+  const isGermany = country === 'DE';
+  const isRestOfWorld = !isCyprus && !isBrazil && !isIreland && !isGermany;
 
   return (
     <Page id="credits">
@@ -179,6 +180,17 @@ const Credits = () => {
                 <li>Maurício Mercadante via flickr</li>
                 <li>Vengolis via Wikimedia Commons</li>
                 <li>JPC Raleigh via flickr</li>
+              </ul>
+            )}
+            {isGermany && (
+              <ul>
+                <li>Aiwok via Wikimedia</li>
+                <li>Gail Hampshire via Wikimedia</li>
+                <li>Gilles San Martin vias Wikispecies</li>
+                <li>Malcolm Storey via BioImages</li>
+                <li>Peter O'Connor via Flickr CC </li>
+                <li>Trounce via Wikimedia</li>
+                <li>Thomas Schmitt</li>
               </ul>
             )}
             {isRestOfWorld && (

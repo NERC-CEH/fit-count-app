@@ -34,6 +34,12 @@ const countries = [
     value: 'IE',
     warehouseId: 20076,
   },
+  {
+    flag: DE,
+    label: 'Germany',
+    value: 'DE',
+    warehouseId: 20076,
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
@@ -46,12 +52,7 @@ if (isDemo) {
         value: 'SE',
         // warehouseId: -1,
       },
-      {
-        flag: DE,
-        label: 'Germany',
-        value: 'DE',
-        warehouseId: 20076,
-      },
+
       // {
       //   flag: CL,
       //   label: 'Chile',
