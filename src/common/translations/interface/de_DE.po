@@ -1,14 +1,13 @@
 # 
 # Translators:
 # Diana Kurch, 2022
-# Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # Elisabeth Kühn, 2022
-# Karolis, 2022
+# Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2022\n"
+"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -934,9 +933,9 @@ msgid ""
 msgstr ""
 "<0><0>Warte auf gutes Wetter. </0><1>Finde einen Standort mit Zielblüten. "
 "</1><2>Zähle die Blüten auf diesem Standort</2><3> Zähle<1> alle</1> "
-"Insekten, die auf der <6>Zielblüte</6><3> landen</3></3><4>. Die App wird "
-"Dir mitteilen, wenn die 10 Minuten vorbei sind</4><5> Speichere Deine "
-"Zählung und lade sie auf der Website hoch</5></0>"
+"Insekten, die auf der <6>Zielblüte</6><3> landen</3></3><4>Die App wird Dir "
+"mitteilen, wenn die 10 Minuten vorbei sind</4><5> Speichere Deine Zählung "
+"und lade sie auf der Website hoch</5></0>"
 
 # Onboarding content
 #: interface
@@ -1673,7 +1672,7 @@ msgstr "Grasiger Saum oder Heckensaum"
 # habitats value
 #: UK BR CY IE DE CH
 msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "blütenreiche Wiesen und Weiden"
+msgstr "Blütenreiche Wiesen und Weiden"
 
 # habitats value
 #: UK BR IE DE

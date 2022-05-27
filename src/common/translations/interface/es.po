@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Generator: POEditor.com\n"
 
 # Button title
@@ -141,7 +141,7 @@ msgstr "Chipre"
 # Country page content
 #: interface
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 # Country page content
 #: interface
@@ -376,6 +376,8 @@ msgid ""
 "Looks like your <1>{{email}}</1> email hasn't been verified "
 "yet.<3><0>Refresh</0><1>Resend Email</1></3>"
 msgstr ""
+"Parece que tu correo electrónico <1> {{email}} </1> aún no ha sido "
+"verificado. <3><0>Actualizar</0><1> reenviar correo electrónico</1></3>"
 
 # User registration page
 #: interface
@@ -383,16 +385,19 @@ msgid ""
 "A new verification email was successfully sent now. If you did not receive "
 "the email, then check your Spam or Junk email folders."
 msgstr ""
+"Un nuevo correo electrónico de verificación ha sido enviado con éxito. Si no"
+" ha recibido el correo electrónico, revise sus carpetas de correo no deseado"
+" o spam."
 
 # Country page content
 #: interface
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 # Website link
 #: interface
 msgid "website"
-msgstr ""
+msgstr "sitio web"
 
 # User registration page
 #: interface
@@ -513,6 +518,8 @@ msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
 msgstr ""
+"Antes de empezar cualquier conteo, revisa tu correo electrónico y haz clic "
+"en el enlace de verificación."
 
 # Settings page label
 #: interface
@@ -777,22 +784,22 @@ msgstr "Gracias a los siguientes por las fotos adicionales"
 # Credits page content
 #: interface
 msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
-msgstr ""
+msgstr "Iconos realizados por <2>Freepik</2> de <6>www.flaticon.com</6>"
 
 # Credits page content
 #: interface
 msgid "App guide illustrations made by"
-msgstr ""
+msgstr "Las ilustraciones de la guía de la aplicación fueron realizadas por"
 
 # Survey flower page info message
 #: interface
 msgid "Which target <1>flower</1> have you chosen?"
-msgstr ""
+msgstr "¿Qué <1>flor</1> objetivo ha elegido?"
 
 # Survey flower page section divider
 #: interface
 msgid "Photo of your target flower"
-msgstr ""
+msgstr "Foto de su flor objetivo"
 
 # Survey flower page section divider
 #: interface
@@ -929,6 +936,8 @@ msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
 msgstr ""
+"<0>Los polinizadores son importantes!</0> <br/>Ayúdenos a monitorearlos con "
+"un conteo cronometrado de flores e insectos"
 
 # Onboarding content
 #: interface
@@ -939,11 +948,11 @@ msgid ""
 "when your ten minutes is up</4><5>Save your count, and upload it to the "
 "website</5></0>"
 msgstr ""
-"<0><0>¡Espera al buen tiempo! </0><1>Encuentra un parche de flores "
-"objetivo</1><2>Cuenta las flores en tu parche</2><3>Cuenta <1>todos</1> los "
+"<0><0>¡Espere al buen tiempo! </0><1>Encuentre un parche de flores "
+"objetivo</1><2>Cuenta las flores en su parche</2><3>Cuente <1>todos</1> los "
 "insectos que <3>se posan</3> en las <6>flores objetivo</6></3><4>La "
-"aplicación te avisará cuando se acaben tus diez minutos</4><5>Guarda tu "
-"recuento y súbelo al sitio web</5></0>"
+"aplicación le avisará cuando se acaben sus diez minutos</4><5>Guarde su "
+"recuento y súbalo al sitio web</5></0>"
 
 # Onboarding content
 #: interface
@@ -951,31 +960,33 @@ msgid ""
 "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
 " get started!"
 msgstr ""
+"Lea la guía \"cómo hacerlo\", consulte las páginas de identificación de "
+"insectos y ¡ya está listo para empezar!"
 
 # Onboarding content
 #: interface
 msgid "Let's start the count!"
-msgstr ""
+msgstr "Empecemos el conteo!"
 
 # User authentication toast message
 #: interface
 msgid "Sorry"
-msgstr ""
+msgstr "Lo siento"
 
 # User authentication toast message
 #: interface
 msgid "The user credentials were incorrect."
-msgstr ""
+msgstr "Las credenciales del usuario eran incorrectas."
 
 # How To page content
 #: interface
 msgid "How To"
-msgstr ""
+msgstr "Cómo hacerlo"
 
 # How To page content
 #: interface
 msgid "FIT Count quick guide"
-msgstr ""
+msgstr "Guía rápida"
 
 # How To page content
 #: interface
@@ -983,6 +994,9 @@ msgid ""
 "FIT Counts take about 10–15 minutes, during which you are asked to count "
 "every insect that lands on the flowers of your chosen target flower species."
 msgstr ""
+"Los conteos FIT duran unos 10-15 minutos, durante los cuales se le pide que "
+"cuente todos los insectos que se posan en las flores de la especie de flor "
+"objetivo elegida."
 
 # How To page content
 #: interface
@@ -990,11 +1004,14 @@ msgid ""
 "You can complete a FIT Count in good weather between 1 April and 30 "
 "September."
 msgstr ""
+"Puede realizar un recuento FIT con buen tiempo entre el 11 de septiembre y "
+"el 30 de marzo. "
 
 # How To page content (non-UK)
 #: interface
 msgid "You can complete a FIT Count in good weather at any time of year."
 msgstr ""
+"Puede realizar un conteo FIT con buen tiempo y en cualquier época del año."
 
 # How To page content
 #: interface
@@ -1003,6 +1020,10 @@ msgid ""
 "one of the FIT Count target flowers, but if you can't find one from the list"
 " you can choose a different flower as the target."
 msgstr ""
+"Elija un solo tipo de flor como objetivo: siempre que sea posible, utilice "
+"una de las flores objetivo del conteo incluidos en la aplicación FIT, pero "
+"si no puede encontrar ninguna de la lista, puede elegir una flor diferente "
+"como objetivo."
 
 # How To page content
 #: interface
@@ -1025,21 +1046,24 @@ msgid ""
 " on the target flowers (ignore other flowers, and do your best to count each"
 " individual insect once only!)."
 msgstr ""
+"Utilizando el cronómetro de la aplicación, dedique diez minutos a contar "
+"todos los insectos que se posan en las flores objetivo (ignore las demás "
+"flores y haga todo lo posible por contar cada insecto una sola vez)."
 
 # How To page content
 #: interface
 msgid "Fill in some simple weather details."
-msgstr ""
+msgstr "Rellene algunos datos meteorológicos sencillos."
 
 # How To page content
 #: interface
 msgid "Save your count, and upload it to the website."
-msgstr ""
+msgstr "Guarde su conteo y súbalo al sitio web."
 
 # How To page content
 #: interface
 msgid "Further information and guides are available at"
-msgstr ""
+msgstr "Puede encontrar más información y guías en"
 
 # How To page content
 #: interface
@@ -1047,6 +1071,8 @@ msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
+"Identifique los insectos de acuerdo con su grupo general (abejorros, moscas,"
+" etc.); los que no reconozca deben contarse como \"otros insectos\"."
 
 # How To page content
 #: interface
@@ -1054,11 +1080,13 @@ msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
 msgstr ""
+"\"Buen clima\" es seco, y con una temperatura de al menos 13°C en "
+"condiciones de sol, o de al menos 15°C cuando esté nublado."
 
 # Context term
 #: interface
 msgid "The timer will now start!"
-msgstr ""
+msgstr "El cronómetro comenzará ahora!"
 
 # Context term
 #: interface
@@ -1066,6 +1094,8 @@ msgid ""
 "Count every insect that lands on the target flowers (count each individual "
 "once)."
 msgstr ""
+"Cuente cada insecto que se pose en las flores objetivo (cuente cada "
+"individuo una sola vez)."
 
 # Context term
 #: interface
@@ -1073,11 +1103,13 @@ msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
 msgstr ""
+"Toque las imágenes de los insectos para aumentar su conteo (los botones con "
+"el signo menos disminuirán el conteo)"
 
 # Context term
 #: interface
 msgid "Start Count"
-msgstr ""
+msgstr "Inicie el conteo"
 
 # Context term
 #: BR
@@ -1086,6 +1118,9 @@ msgid ""
 "every flower visitor that lands on the flowers of your chosen target flower "
 "species."
 msgstr ""
+"Los conteos FIT duran unos 10-15 minutos, durante los cuales se le pide que "
+"cuente todos los insectos que se posan en las flores de la especie de flor "
+"objetivo elegida."
 
 # Context term
 #: BR
@@ -1094,6 +1129,9 @@ msgid ""
 "that land on the target flowers (ignore other flowers, and do your best to "
 "count each individual flower visitor once only!)."
 msgstr ""
+"Utilizando el cronómetro de la aplicación, dedique diez minutos a contar "
+"todos los insectos que se posan en las flores objetivo (ignore las demás "
+"flores y haga todo lo posible por contar cada insecto una sola vez)."
 
 # Context term
 #: BR
@@ -1102,21 +1140,24 @@ msgid ""
 " etc.) – any that you don't recognise should be counted as \"other insects\""
 " or \"don't know\"."
 msgstr ""
+"Identifique los insectos de acuerdo con su grupo general (abejorros, moscas,"
+" etc.); los que no reconozca deben contarse como \"otros insectos\" o \"no "
+"sé\"."
 
 # From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
-msgstr ""
+msgstr "Nota: permanecerá en la galería."
 
 # From survey pages
 #: interface
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "¡Uy! Algo salió mal."
 
 # From survey pages
 #: interface
 msgid "This is the error event id: {{eventId}}"
-msgstr ""
+msgstr "Este es el id de evento de error: {{eventId}}"
 
 # From survey pages
 #: interface
@@ -1131,28 +1172,30 @@ msgstr "Cuánto <1>sol</1> había en su parche durante el recuento FIT; fue de:"
 # From survey pages
 #: interface
 msgid "What was the <1>wind</1> strength?"
-msgstr ""
+msgstr "¿Qué tan fuerte era el <1>viento</1>?"
 
 # Button label
 #: interface
 msgid "Upload"
-msgstr ""
+msgstr "Cargar"
 
 # Context term
 #: interface
 msgid ""
 "If you don't know which insect group, add to the \"Other insects\" category."
 msgstr ""
+"Si no sabe a qué grupo de insectos pertenece, añádalo a la categoría \"Otros"
+" insectos\"."
 
 # Logout message
 #: interface
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "¿Está seguro de que quiere cerrar la sesión?"
 
 # Logout message
 #: interface
 msgid "Discard local data"
-msgstr ""
+msgstr "Descartar datos locales"
 
 # Survey back button label
 #: interface
@@ -1195,6 +1238,8 @@ msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
 " populations."
 msgstr ""
+"Gracias por completar su conteo FIT - todos los resultados nos ayudan a "
+"monitorear las poblaciones de insectos."
 
 # Alert message at the end of survey
 #: interface
@@ -1585,12 +1630,12 @@ msgstr "Colibrís"
 # insects name
 #: BR
 msgid "Orchid bees"
-msgstr ""
+msgstr "Abejas de las orquídeas"
 
 # insects name
 #: BR
 msgid "Stingless bees"
-msgstr ""
+msgstr "Abeja sin aguijón"
 
 # insects name
 #: BR
@@ -1715,7 +1760,7 @@ msgstr "Borde de carretera"
 # habitats value
 #: UK BR CY IE DE CH
 msgid "Other"
-msgstr ""
+msgstr "Otro"
 
 # habitats value
 #: BR
@@ -1955,7 +2000,7 @@ msgstr ""
 # flowers name
 #: BR
 msgid "Basil"
-msgstr ""
+msgstr "Albahaca"
 
 # flowers name
 #: BR
@@ -2030,12 +2075,12 @@ msgstr ""
 # flowers name
 #: CH
 msgid "Daisy"
-msgstr ""
+msgstr "Margarita"
 
 # flowers name
 #: CH
 msgid "Fuchsia"
-msgstr ""
+msgstr "Fuchsia"
 
 # flowers name
 #: CH
@@ -2050,32 +2095,32 @@ msgstr ""
 # flowers name
 #: CH
 msgid "Cherry"
-msgstr ""
+msgstr "Cerezo"
 
 # flowers name
 #: CH
 msgid "Canelo"
-msgstr ""
+msgstr "Canelo"
 
 # flowers name
 #: CH
 msgid "Rose"
-msgstr ""
+msgstr "Rosa"
 
 # flowers name
 #: CH
 msgid "Arrayan"
-msgstr ""
+msgstr "Arrayán"
 
 # flowers name
 #: CH
 msgid "Murta"
-msgstr ""
+msgstr "Murta"
 
 # flowers name
 #: CH
 msgid "Copihue"
-msgstr ""
+msgstr "Copihue"
 
 # photos intro_text
 #: UK DE CY IE CH

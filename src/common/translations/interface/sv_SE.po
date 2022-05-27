@@ -3,13 +3,13 @@
 # Carin Kullberg <carin@ckg.se>, 2021
 # Karolis, 2021
 # Fredrik Östrand, 2021
-# Harriet Arnberg, 2022
 # Lars Pettersson <lars.pettersson@biol.lu.se>, 2022
+# Harriet Arnberg, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Lars Pettersson <lars.pettersson@biol.lu.se>, 2022\n"
+"Last-Translator: Harriet Arnberg, 2022\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/ceh/teams/116172/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -567,7 +567,7 @@ msgstr "Inga insända Blombesöksräkningar"
 # Survey species selection page species list
 #: interface
 msgid "<0>Which</0> target flower have you chosen?"
-msgstr "<0>Vilken</0> målarts-blomma har du valt?"
+msgstr "<0>Vilken</0> blomma har du valt?"
 
 # Survey species selection page species list
 #: interface
@@ -596,11 +596,11 @@ msgid ""
 " upload one or two photos of your target flower.</p><p>This allows us to "
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
-"Vilken <1>målarts-blomma</1> har du valt? <3><p>Välj om möjligt en av de "
-"listade blommorna</p><p>Om ingen av dessa växter finns där du befinner dig "
-"kan du välja en annan blomma som lockar insekter, välja \"Annan\" och skriva"
-" in växtens namn.</p><p>Målarts-blomman kan utgöra en liten del av ett "
-"större bestånd av samma art eller en planta bland många andra slags "
+"Vilken <1>blomma</1> har du valt? <3><p>Välj om möjligt en av de listade "
+"blommorna</p><p>Om ingen av dessa växter finns där du befinner dig kan du "
+"välja en annan blomma som lockar insekter, välja \"Annan\" och skriva in "
+"växtens namn.</p><p>Målarts-blomman kan utgöra en liten del av ett större "
+"bestånd av samma art eller en planta bland många andra slags "
 "växter.</p><p>Ladda upp en eller ett par bilder på målartsblomman för varje "
 "Blombesöksräkning du gör.</p><p>Det gör det möjligt att dubbelkolla vilken "
 "art som använts vid räkningen. </p></3>"
@@ -626,8 +626,7 @@ msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
 msgstr ""
-"Ange vilken målarts-blomma du valt och gå tillbaka till sidan för Målarts-"
-"blommor"
+"Ange vilken blomma du valt och gå tillbaka till sidan för Målarts-blommor"
 
 # Survey flower count page divider label
 #: interface
@@ -654,21 +653,21 @@ msgid ""
 "flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
 " unit</3></5></5>"
 msgstr ""
-"Vilket <1>antal</1>och<3>typ</3> av blomställning har målarts-blomman i din "
-"ruta?<5><p>Antalet blommor i en ruta kan påverka hur många insekter som "
+"Vilket <1>antal</1>och<3>typ</3> av blomställning har den valda blomman i "
+"din ruta?<5><p>Antalet blommor i en ruta kan påverka hur många insekter som "
 "besöker den. Därför är det viktigt att ange hur många "
 "blommor/blomställningar det finns!</p><p>Räkna bara de blommor som är så "
 "färska att de kan locka insekter – vissna blommor och fröställningar räknas "
 "ej.</p><p>Blommorna räknas på olika sätt beroende på hur de ser ut.</p><p>Om"
-" du valt en målarts-blomma från listan visas blomställningen "
-"automatiskt.</p><p>Om du valt \"Annan\" målarts-blomma måste du "
-"räkna:<p><5><0><0>Enskilda blommor</0>- varje blomma räknas som en "
-"enhet</0><1><0>Blomhuvuden/korgar</0>(många små blommor tätt tillsammans i "
-"ett blomhuvud, t.ex. maskros eller klöver) - varje blomhuvud räknas som en "
-"enhet</1><2><0>Blomflockar/kvastar</0>(många små blommor i flata eller lite "
-"kupade blomställningar, t.ex. björnloka) – varje flock räknas som en "
-"enhet</2><3><0>Blomklasar/ax</0>(flera små blommor längs en gemensam stjälk,"
-" t.ex. lavendel eller ljung) – varje klase räknas som en enhet</3></5></5>"
+" du valt en blomma från listan visas blomställningen automatiskt.</p><p>Om "
+"du valt \"Annan\" blomma måste du räkna:<p><5><0><0>Enskilda blommor</0>- "
+"varje blomma räknas som en enhet</0><1><0>Blomhuvuden/korgar</0>(många små "
+"blommor tätt tillsammans i ett blomhuvud, t.ex. maskros eller klöver) - "
+"varje blomhuvud räknas som en enhet</1><2><0>Blomflockar/kvastar</0>(många "
+"små blommor i flata eller lite kupade blomställningar, t.ex. björnloka) – "
+"varje flock räknas som en enhet</2><3><0>Blomklasar/ax</0>(flera små blommor"
+" längs en gemensam stjälk, t.ex. lavendel eller ljung) – varje klase räknas "
+"som en enhet</3></5></5>"
 
 # Survey flower count page info header
 #: interface
@@ -783,17 +782,17 @@ msgstr "Illustrationer i appens guide är gjorda av"
 # Survey flower page info message
 #: interface
 msgid "Which target <1>flower</1> have you chosen?"
-msgstr "Vilken<1>målarts-blomma</1> har du valt?"
+msgstr "Vilken<1>blomma</1> har du valt?"
 
 # Survey flower page section divider
 #: interface
 msgid "Photo of your target flower"
-msgstr "Foto av din målarts-blomma"
+msgstr "Foto av din valda blomma"
 
 # Survey flower page section divider
 #: interface
 msgid "Target flower chosen"
-msgstr "Vald målarts-blomma"
+msgstr "Vald blomma"
 
 # Survey flower patch page values
 #: interface
@@ -818,7 +817,7 @@ msgid ""
 "insects.</p><p>Please indicate the situation that best describes the area "
 "around your flower patch (roughly within 5 metres).</p></3>"
 msgstr ""
-"Hur ser det ut runt din 50 × 50 cm ruta med <1>målartsblommor</1><3><p>Hur "
+"Hur ser det ut runt din 50 × 50 cm ruta med <1>målarts-blommor</1><3><p>Hur "
 "omgivningen runt rutan ser ut kan påverka hur lockande den är för "
 "insekter.</p><p>Välj det alternativ som bäst beskriver området runt rutan "
 "(ca. 5 meter runt om).</p></3>"
@@ -937,8 +936,8 @@ msgid ""
 "website</5></0>"
 msgstr ""
 "<0><0>Vänta tills det är fint väder!</0><1>Leta upp en plats med målarts-"
-"blommor</1><2>Räkna målartsblommorna i din ruta</2><3>Räkna <1>alla</1> "
-"insekter som<3>landar</3>på en <6>målartsblomma</6></3><4>Appen säger till "
+"blommor</1><2>Räkna valda blommor i din ruta</2><3>Räkna <1>alla</1> "
+"insekter som<3>landar</3>på din valda <6>blomma</6></3><4>Appen säger till "
 "när 10 minuter har gått</4><5>Spara din räkning och ladda upp den till "
 "websidan</5></0>"
 
@@ -1021,7 +1020,7 @@ msgstr "Märk ut en ruta på 50x50 cm som innehåller din målart"
 msgid ""
 "Count the number of individual flowers for your target species that are "
 "within your patch."
-msgstr "Räkna antalet enskilda blommor av din målväxtart i rutan."
+msgstr "Räkna antalet enskilda blommor av din valda växtart i rutan."
 
 # How To page content
 #: interface
@@ -1031,7 +1030,7 @@ msgid ""
 " individual insect once only!)."
 msgstr ""
 "Använd timern i appen för att under tio minuter räkna alla insekter som "
-"landar på målartens blommor (bortse från andra blommor, och försök räkna "
+"landar på blommorna du valt (bortse från andra blommor, och försök räkna "
 "varje insekt bara en gång!)"
 
 # How To page content
@@ -1078,8 +1077,8 @@ msgid ""
 "Count every insect that lands on the target flowers (count each individual "
 "once)."
 msgstr ""
-"Räkna varje insekt som landar på målartens blommor (räkna varje individ bara"
-" en gång)"
+"Räkna varje insekt som landar på blommorna du valt (räkna varje individ "
+"endast en gång)"
 
 # Context term
 #: interface
@@ -1102,7 +1101,7 @@ msgid ""
 "species."
 msgstr ""
 "En blombesöksräkning tar ca 10-15 minuter och under den tiden ska du räkna "
-"varje blombesökare som landar på blommorna av din valda mål-art. "
+"varje blombesökare som landar på blommorna av din valda art. "
 
 # Context term
 #: BR
