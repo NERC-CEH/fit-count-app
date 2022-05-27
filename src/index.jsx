@@ -11,7 +11,7 @@ import { initAnalytics } from '@flumens';
 import { initReactI18next } from 'react-i18next';
 import { configure as mobxConfigure } from 'mobx';
 import languages from 'common/languages';
-import getLangCodeFromDevice from 'common/Components/getLangCodeFromDevice';
+import getLangCodeFromDevice from 'common/helpers/getLangCodeFromDevice';
 import 'common/translations/translator';
 import App from './App';
 
