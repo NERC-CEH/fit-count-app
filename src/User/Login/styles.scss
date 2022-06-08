@@ -45,6 +45,10 @@
       color: var(--ion-color-dark);
     }
 
+    input {
+      background: transparent;
+    }
+
     ion-button[type='submit'] {
       margin-bottom: 60px;
     }
