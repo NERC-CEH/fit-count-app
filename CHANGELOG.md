@@ -2,6 +2,10 @@
 
 Added Germany.
 
+# 1.1.3
+
+Improved login/registration UX.
+
 # 1.1.2
 
 Fixed android camera.
