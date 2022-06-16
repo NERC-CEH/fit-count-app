@@ -1210,7 +1210,7 @@ msgstr "Ubicación"
 # Survey back button label
 #: interface
 msgid "Count"
-msgstr ""
+msgstr "Conteo"
 
 # Survey back button label
 #: interface
@@ -2090,7 +2090,7 @@ msgstr "Azara"
 # flowers name
 #: CH
 msgid "Magnolia"
-msgstr ""
+msgstr "Magnolia"
 
 # flowers name
 #: CH
