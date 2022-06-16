@@ -10,7 +10,7 @@ const languages = {
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   Object.assign(languages, {
-    // es: 'Español',
+    es: 'Español',
     se: 'Svenska',
     de: 'Deutsch',
   });

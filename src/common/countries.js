@@ -6,7 +6,7 @@ import BR from 'common/images/braFlag.svg';
 import SE from 'common/images/seFlag.svg';
 import IE from 'common/images/ieFlag.svg';
 import DE from 'common/images/deFlag.svg';
-import 'common/images/chlFlag.svg';
+import CL from 'common/images/chlFlag.svg';
 import 'common/images/argFlag.svg';
 
 const countries = [
@@ -53,13 +53,12 @@ if (isDemo) {
         // warehouseId: -1,
       },
 
-      // {
-      //   flag: CL,
-      //   label: 'Chile',
-      //   value: 'CHL',
-      //   warehouseId: 18973
-
-      // },
+      {
+        flag: CL,
+        label: 'Chile',
+        value: 'CH',
+        warehouseId: 18973,
+      },
       // {
       //   flag: AR,
       //   label: 'Argentina',
