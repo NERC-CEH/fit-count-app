@@ -3,11 +3,12 @@
 # Diana Kurch, 2022
 # Elisabeth Kühn, 2022
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
+# Vilius Stankaitis <vilius@flumens.io>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2022\n"
+"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -198,7 +199,7 @@ msgstr "Abbrechen"
 # Survey content
 #: interface
 msgid "Delete Survey"
-msgstr "Lösche Beobachtung"
+msgstr "Beobachtung löschen"
 
 # Survey content
 #: interface
@@ -1151,7 +1152,7 @@ msgstr "Wie sieht der <1>Himmel</1> über Deinem Standort aus?"
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 msgstr ""
 "Wie viel <1>Sonne</1> fiel während der FIT-Zählung auf Deinen Standort; war "
-"es:"
+"er:"
 
 # From survey pages
 #: interface
@@ -1259,7 +1260,7 @@ msgstr "Erledigt"
 # User registration "Happy to be contacted" label
 #: interface
 msgid "Happy to be contacted"
-msgstr "Wir freuen uns über deine Kontaktaufnahme"
+msgstr "Ich freue mich, kontaktiert zu werden"
 
 # Delete survey alert message
 #: interface
@@ -1389,8 +1390,8 @@ msgid ""
 "for the season in your country."
 msgstr ""
 "FIT-Zählungen sind für alle geeignet, ob in der Stadt oder auf dem Land, und"
-" können jederzeit während der FIT-Zählsaison durchgeführt werden - schau in "
-"der Kurzanleitung<1></1> nach, wann in Deinem Land Zählsaison ist."
+" können jederzeit während der FIT-Zählsaison von April bis September "
+"durchgeführt werden."
 
 # About page content
 #: interface
@@ -4070,8 +4071,8 @@ msgid ""
 "loving species has spread in recent years. In Germany there are two other "
 "species of the genus Xylocopa that look very similar, but are much rarer."
 msgstr ""
-"Die Blauschwarze Holzbiene ist eine sehr große und auffällige Bienenart mit "
-"einem schwarz behaarten Körper und schwärzlich bis violet schimmernden "
-"Flügeln. Die wärmeliebende Art hat sich in den letzten Jahren ausgebreitet. "
-"In Deutschalnd gibt es noch zwei weitere Arten der Gattung Xylocopa, die "
-"sehr ähnlich aussehen, jedoch viel seltener sind."
+"Die Blauschwarze Holzbiene (Xylocopa violacea) ist eine sehr große und "
+"auffällige Bienenart mit einem schwarz behaarten Körper und schwärzlich bis "
+"violet schimmernden Flügeln. Die wärmeliebende Art hat sich in den letzten "
+"Jahren ausgebreitet. In Deutschland gibt es noch zwei weitere Arten der "
+"Gattung Xylocopa, die sehr ähnlich aussehen, jedoch viel seltener sind."
