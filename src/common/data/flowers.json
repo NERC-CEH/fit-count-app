@@ -246,8 +246,7 @@
     "sort": 25,
     "name": "Acacia",
     "scientificName": "Acacia saligna",
-    "CY": true,
-    "CH": true
+    "CY": true
   },
   {
     "id": "bermudaButtercup",
@@ -494,6 +493,15 @@
     "type": "Individual Flower",
     "name": "Copihue",
     "scientificName": "Lapageria rosea",
+    "CH": true
+  },
+  {
+    "id": "acaciaCH",
+    "warehouseId": 18803,
+    "type": "Individual Flower",
+    "sort": 25,
+    "name": "Acacia",
+    "scientificName": "Acacia saligna",
     "CH": true
   }
 ]

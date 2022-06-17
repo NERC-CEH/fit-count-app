@@ -45,7 +45,7 @@ import './wildPlantain.jpg?originalName';
 import './lantanaBR.jpg?originalName';
 import './orchids.jpg?originalName';
 import './redClover.jpg?originalName';
-import './acacia_CH.jpg?originalName';
+import './acaciaCH.jpg?originalName';
 import './arrayan.jpg?originalName';
 import './azara.jpg?originalName';
 import './canelo.jpg?originalName';
