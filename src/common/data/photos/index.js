@@ -4,8 +4,6 @@ import './beetles_1.jpg?originalName';
 import './beetles_2.jpg?originalName';
 import './beetles_3.jpg?originalName';
 import './beetles_BR1.jpg?originalName';
-import './beetles_BR1.jpg?originalName';
-import './beetles_BR2.jpg?originalName';
 import './beetles_BR2.jpg?originalName';
 import './bumblebees_1.jpg?originalName';
 import './bumblebees_2.jpg?originalName';
