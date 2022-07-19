@@ -6,7 +6,6 @@ const languages = {
   el: 'Eλληνικά',
   pt: 'Português',
   de: 'Deutsch',
-
 };
 
 const isDemo = !isPlatform('hybrid');
