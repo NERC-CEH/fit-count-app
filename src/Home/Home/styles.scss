@@ -48,12 +48,14 @@
           font-weight: 600;
           letter-spacing: 2px;
           box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
-        }
-        ion-label {
-          width: 100%;
-          padding: 6px;
-          text-align: center;
-          text-transform: uppercase;
+
+          ion-label {
+            width: 100%;
+            padding: 6px;
+            text-align: center;
+            text-transform: uppercase;
+            white-space: normal;
+          }
         }
       }
     }

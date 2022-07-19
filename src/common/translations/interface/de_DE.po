@@ -2,13 +2,13 @@
 # Translators:
 # Diana Kurch, 2022
 # Elisabeth Kühn, 2022
-# Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # Vilius Stankaitis <vilius@flumens.io>, 2022
+# Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2022\n"
+"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1053,9 +1053,9 @@ msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
-"Bestimme die Insekten nach ihren großen Gruppen (Hummeln, Schwebfliegen "
-"usw.) - alle, die du nicht erkennst, sollten als \"andere Insekten\" gezählt"
-" werden."
+"Bestimme die Insekten nach ihren Gruppen (Hummeln, Schwebfliegen usw. ) – "
+"alle, die Du nicht erkennst, kannst Du in der Gruppe „andere Insekten“ "
+"erfassen."
 
 # How To page content
 #: interface
@@ -1063,8 +1063,8 @@ msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
 msgstr ""
-"\"Gutes Wetter\" ist trocken mit mindestens 13°C bei Sonnenschein oder "
-"mindestens 15°C bei bewölktem Wetter."
+"“Gutes Wetter“ ist trocken mit mindestens 130C und Sonnenschein oder "
+"mindestens 150C und Bewölkung."
 
 # Context term
 #: interface
@@ -1260,7 +1260,7 @@ msgstr "Erledigt"
 # User registration "Happy to be contacted" label
 #: interface
 msgid "Happy to be contacted"
-msgstr "Ich freue mich, kontaktiert zu werden"
+msgstr "Ich freue mich über weitere Informationen."
 
 # Delete survey alert message
 #: interface
