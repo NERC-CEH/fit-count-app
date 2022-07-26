@@ -1,0 +1,28 @@
+.select-with-validation.error {
+  --border-width: 0;
+  border-bottom: 1px solid var(--ion-color-danger);
+}
+
+.select-with-validation.error + .error-container {
+  .error-message {
+    display: flex;
+    margin: calc(var(--page-margin) / 2) 0;
+    padding: 5px 10px;
+    background: rgba(var(--ion-color-danger-rgb), 0.1);
+    color: var(--ion-color-danger);
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 500;
+
+    ion-icon {
+      font-size: 1.2em;
+      padding: 0 7px;
+    }
+  }
+}
+
+ion-select {
+  width: 100% !important;
+  margin: 0;
+  --placeholder-opacity: 0.5;
+}

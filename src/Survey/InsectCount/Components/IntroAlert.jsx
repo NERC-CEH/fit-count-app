@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import { Trans as T } from 'react-i18next';
 import { stopwatchOutline } from 'ionicons/icons';

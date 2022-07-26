@@ -1,6 +1,3 @@
-/* eslint-disable @getify/proper-arrows/name */
-/* eslint-disable no-param-reassign */
-/* eslint-disable camelcase */
 import en from './interface/en.pot';
 import es from './interface/es.po';
 import el from './interface/el.po';
@@ -23,6 +20,7 @@ const rawToKeyVal = lang =>
 
     if (pluralVals.length) {
       const pluralValsWrap = (plural, index) => {
+        // eslint-disable-next-line no-param-reassign
         agg[`${key}_${index + 1}`] = plural;
       };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import { createRef, Component } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Main, Gallery } from '@flumens';
@@ -15,7 +15,7 @@ const fixIonicSlideBug = e => {
   e.target.update();
 };
 
-class SpeciesProfile extends React.Component {
+class SpeciesProfile extends Component {
   static contextType = IonLifeCycleContext;
 
   state = {
@@ -23,7 +23,7 @@ class SpeciesProfile extends React.Component {
     activeSlide: 0,
   };
 
-  slider = React.createRef();
+  slider = createRef();
 
   getFullScreenPhotoViewer = () => {
     const { showGallery } = this.state;
@@ -43,13 +43,9 @@ class SpeciesProfile extends React.Component {
       initialSlide = showGallery;
     }
 
-    if (!items.length) {
-      return null;
-    }
-
     return (
       <Gallery
-        isOpen
+        isOpen={!!items.length}
         items={items}
         initialSlide={initialSlide}
         onClose={setShowGallery}

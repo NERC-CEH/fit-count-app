@@ -1,4 +1,4 @@
-import React from 'react';
+import { createRef, Component } from 'react';
 import { observer } from 'mobx-react';
 import { withTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
@@ -45,7 +45,7 @@ const intoChunksOfSix = (slidesArray, item, index) => {
 };
 
 @observer
-class SpeciesMainComponent extends React.Component {
+class SpeciesMainComponent extends Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
     history: PropTypes.object, // eslint-disable-line
@@ -59,7 +59,7 @@ class SpeciesMainComponent extends React.Component {
     onDecreaseCount: PropTypes.func,
   });
 
-  slideRef = React.createRef();
+  slideRef = createRef();
 
   getSpeciesTile = (sp, i) => {
     const { onSelect, onDecreaseCount, t } = this.props;

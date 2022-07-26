@@ -1,15 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Main, Toggle, MenuAttrItem, InfoMessage } from '@flumens';
+import { FC } from 'react';
+import { Main, MenuAttrToggle, MenuAttrItem, InfoMessage } from '@flumens';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
-import exact from 'prop-types-exact';
 import {
   IonIcon,
   IonItem,
   IonList,
   IonItemDivider,
-  IonLabel,
   IonButton,
 } from '@ionic/react';
 import {
@@ -24,32 +21,48 @@ import {
   exitOutline,
   informationCircleOutline,
 } from 'ionicons/icons';
+import config from 'common/config';
 import languages from 'common/languages';
 import countries from 'common/countries';
 import flumensLogo from 'common/images/flumens.svg';
 import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 import './styles.scss';
 
-function MenuComponent({
+type Props = {
+  onToggle: any;
+  sendAnalytics: boolean;
+  language: string;
+  isLoggedIn: boolean;
+  isVerified: boolean;
+  email: string;
+  userName: string;
+  country: string;
+  logOut: any;
+  refreshAccount: any;
+  resendVerificationEmail: any;
+};
+
+const MenuComponent: FC<Props> = ({
   onToggle,
   sendAnalytics,
-  config,
   language,
   country,
   isLoggedIn,
   isVerified,
   resendVerificationEmail,
   refreshAccount,
-  user,
+  email,
+  userName,
   logOut,
-}) {
-  const onSendAnalyticsToggle = checked => onToggle('sendAnalytics', checked);
+}) => {
+  const onSendAnalyticsToggle = (checked: boolean) =>
+    onToggle('sendAnalytics', checked);
 
-  const countryName = ({ value }) => value === country;
-  const selectedCountries = countries.find(countryName) || {};
+  const countryName = ({ value }: any) => value === country;
+  const selectedCountries: any = countries.find(countryName) || {};
 
   return (
-    <Main class="app-menu">
+    <Main className="app-menu">
       <h1>
         <T>Menu</T>
       </h1>
@@ -64,14 +77,13 @@ function MenuComponent({
               <IonIcon icon={exitOutline} size="small" slot="start" />
               <T>Logout</T>
               {': '}
-              {user.fullName}
+              {userName}
             </IonItem>
           )}
 
           {isLoggedIn && !isVerified && (
             <InfoMessage className="verification-warning">
-              Looks like your <b>{{ email: user.email }}</b> email hasn't been
-              verified yet.
+              Looks like your <b>{{ email }}</b> email hasn't been verified yet.
               <div>
                 <IonButton fill="outline" onClick={refreshAccount}>
                   Refresh
@@ -142,7 +154,7 @@ function MenuComponent({
         <div className="rounded">
           <MenuAttrItem
             routerLink="/settings/language"
-            value={languages[language]}
+            value={(languages as any)[language]}
             label="Language"
             icon={languageOutline}
             routerOptions={{ unmount: true }} // Pick a new language on return
@@ -155,13 +167,13 @@ function MenuComponent({
             icon={globeOutline}
           />
 
-          <IonItem className="exception-rounded">
-            <IonIcon icon={shareSocialOutline} size="small" slot="start" />
-            <IonLabel>
-              <T>Share App Analytics</T>
-            </IonLabel>
-            <Toggle onToggle={onSendAnalyticsToggle} checked={sendAnalytics} />
-          </IonItem>
+          <MenuAttrToggle
+            className="exception-rounded"
+            icon={shareSocialOutline}
+            label="Share App Analytics"
+            value={sendAnalytics}
+            onChange={onSendAnalyticsToggle}
+          />
 
           <InfoMessage color="medium">
             Share app crash data so we can make the app more reliable.
@@ -182,20 +194,6 @@ function MenuComponent({
       </IonList>
     </Main>
   );
-}
-
-MenuComponent.propTypes = exact({
-  onToggle: PropTypes.func.isRequired,
-  sendAnalytics: PropTypes.bool.isRequired,
-  config: PropTypes.object.isRequired,
-  language: PropTypes.string.isRequired,
-  isLoggedIn: PropTypes.bool.isRequired,
-  isVerified: PropTypes.bool.isRequired,
-  user: PropTypes.object.isRequired,
-  logOut: PropTypes.func.isRequired,
-  refreshAccount: PropTypes.func.isRequired,
-  resendVerificationEmail: PropTypes.func.isRequired,
-  country: PropTypes.string.isRequired,
-});
+};
 
 export default observer(MenuComponent);

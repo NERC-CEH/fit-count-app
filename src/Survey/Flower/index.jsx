@@ -1,4 +1,4 @@
-import React from 'react';
+import { createRef, Component } from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -7,7 +7,6 @@ import {
   Page,
   Attr,
   Main,
-  PhotoPicker,
   MenuAttrItemFromModel,
   InfoMessage,
   InfoButton,
@@ -16,6 +15,7 @@ import { informationCircleOutline } from 'ionicons/icons';
 import Media from 'models/media';
 import { IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
+import PhotoPicker from 'Components/PhotoPicker';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import RequiredLabel from '../Components/RequiredLabel';
@@ -26,7 +26,7 @@ const PAGE_INDEX = 3;
 const NEXT_PAGE = 'flower-count';
 
 @observer
-class Flower extends React.Component {
+class Flower extends Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
     match: PropTypes.object, // eslint-disable-line
@@ -35,7 +35,7 @@ class Flower extends React.Component {
     isDisabled: PropTypes.bool, // eslint-disable-line
   });
 
-  contentRef = React.createRef();
+  contentRef = createRef();
 
   onValueChange = value => {
     const { sample } = this.props;
@@ -86,7 +86,6 @@ class Flower extends React.Component {
     const hasSpeciesSet = flower !== 'Other' ? !!flower : !!flowerManualEntry;
 
     const hasPhoto = !!sample.media.length;
-
     return hasSpeciesSet && hasPhoto;
   };
 
@@ -109,7 +108,7 @@ class Flower extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
-    const attr = surveyConfig.attrs.flower;
+    const { attrProps } = surveyConfig.attrs.flower.pageProps;
 
     const value = sample.attrs.flower;
 
@@ -172,12 +171,7 @@ class Flower extends React.Component {
               {!isMissingFlower && <RequiredLabel />}
             </div>
           </IonItemDivider>
-          <Attr
-            component={attr.type}
-            componentProps={attr.componentProps()}
-            onChange={this.onValueChange}
-            value={value}
-          />
+          <Attr attr="flower" model={sample} {...attrProps} />
 
           {this.getManualEntry()}
         </Main>

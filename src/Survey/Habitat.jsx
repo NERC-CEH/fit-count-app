@@ -1,4 +1,4 @@
-import React from 'react';
+import { createRef, Component } from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -21,7 +21,7 @@ const PAGE_INDEX = 2;
 
 const NEXT_PAGE = 'flower';
 
-class Habitat extends React.Component {
+class Habitat extends Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -31,7 +31,7 @@ class Habitat extends React.Component {
     location: PropTypes.object, // eslint-disable-line
   });
 
-  contentRef = React.createRef();
+  contentRef = createRef();
 
   onValueChange = value => {
     const { sample } = this.props;
@@ -106,9 +106,7 @@ class Habitat extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
-    const attr = surveyConfig.attrs.habitat;
-
-    const value = sample.attrs.habitat;
+    const { attrProps } = surveyConfig.attrs.habitat.pageProps;
 
     return (
       <Page id="survey-habitat-page">
@@ -130,12 +128,7 @@ class Habitat extends React.Component {
             </InfoButton>
           </InfoMessage>
 
-          <Attr
-            component={attr.type}
-            componentProps={attr.componentProps()}
-            onChange={this.onValueChange}
-            value={value}
-          />
+          <Attr attr="habitat" model={sample} {...attrProps} />
 
           {this.getManualEntry()}
         </Main>

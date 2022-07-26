@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Main } from '@flumens';
@@ -12,7 +12,6 @@ import {
   IonIcon,
   IonFooter,
 } from '@ionic/react';
-import Log from 'helpers/log';
 import { arrowForward, checkmarkOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';
@@ -23,7 +22,7 @@ const SplashScreen = ({ appModel }) => {
   const [isEnd, setIsEnd] = useState(false);
 
   function exit() {
-    Log('Info:Welcome:Controller: exit.');
+    console.log('Info:Welcome:Controller: exit.');
     // eslint-disable-next-line no-param-reassign
     appModel.attrs.showedWelcome = true;
     appModel.save();

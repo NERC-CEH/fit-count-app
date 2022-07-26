@@ -1,4 +1,3 @@
-import React from 'react';
 import { Page, Main } from '@flumens';
 import { IonItem, IonItemGroup, IonLabel, IonRouterLink } from '@ionic/react';
 import { Trans as T } from 'react-i18next';

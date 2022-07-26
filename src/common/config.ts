@@ -1,4 +1,4 @@
-import { Plugins, FilesystemDirectory } from '@capacitor/core';
+import { Filesystem, Directory } from '@capacitor/filesystem';
 import { isPlatform } from '@ionic/react';
 
 const backendUrl = process.env.APP_BACKEND_URL || 'https://fitcount.ceh.ac.uk';
@@ -6,18 +6,15 @@ const backendUrl = process.env.APP_BACKEND_URL || 'https://fitcount.ceh.ac.uk';
 const indiciaUrl =
   process.env.APP_BACKEND_INDICIA_URL || 'https://warehouse1.indicia.org.uk';
 
-const isTestEnv = process.env.NODE_ENV === 'test';
-
-const CONFIG = {
-  environment: process.env.NODE_ENV,
-  version: process.env.APP_VERSION,
-  build: process.env.APP_BUILD,
-
+const config = {
+  environment: process.env.NODE_ENV as string,
+  version: process.env.APP_VERSION as string,
+  build: process.env.APP_BUILD as string,
+  
   DEFAULT_LANGUAGE: 'en',
 
-  log: !isTestEnv,
 
-  sentryDNS: !isTestEnv && process.env.APP_SENTRY_KEY,
+  sentryDNS: process.env.APP_SENTRY_KEY as string,
 
   feedbackLink: 'https://fitcount.ceh.ac.uk/contact',
   feedbackLinkCY: 'https://www.ris-ky.info/poms-ky',
@@ -26,15 +23,15 @@ const CONFIG = {
   feedbackEmailCY: 'pomscyprus%40gmail.com',
 
   map: {
-    mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY,
+    mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY as string,
     mapboxOsmId: 'cehapps/ckghr3uxz01xb19udplq7wi6x',
     mapboxSatelliteId: 'cehapps/cipqvo0c0000jcknge1z28ejp',
   },
 
   backend: {
     url: backendUrl,
-    clientId: process.env.APP_BACKEND_CLIENT_ID,
-    clientPass: process.env.APP_BACKEND_CLIENT_PASS,
+    clientId: process.env.APP_BACKEND_CLIENT_ID as string,
+    clientPass: process.env.APP_BACKEND_CLIENT_PASS as string,
 
     mediaUrl: `${indiciaUrl}/upload/`,
 
@@ -42,16 +39,18 @@ const CONFIG = {
       url: indiciaUrl,
     },
   },
+
+  dataPath: '',
 };
 
 (async function getMediaDirectory() {
   if (isPlatform('hybrid')) {
-    const { uri } = await Plugins.Filesystem.getUri({
+    const { uri } = await Filesystem.getUri({
       path: '',
-      directory: FilesystemDirectory.Data,
+      directory: Directory.Data,
     });
-    CONFIG.dataPath = uri;
+    config.dataPath = uri;
   }
 })();
 
-export default CONFIG;
+export default config;

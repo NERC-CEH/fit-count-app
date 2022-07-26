@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -12,7 +12,7 @@ const PAGE_INDEX = 9;
 
 const NEXT_PAGE = 'weather-wind';
 
-class WeatherShade extends React.Component {
+class WeatherShade extends Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -41,9 +41,7 @@ class WeatherShade extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
-    const attr = surveyConfig.attrs['weather-shade'];
-
-    const value = sample.attrs['weather-shade'];
+    const { attrProps } = surveyConfig.attrs['weather-shade'].pageProps;
 
     return (
       <Page id="survey-weather-shade-page">
@@ -54,12 +52,7 @@ class WeatherShade extends React.Component {
             How much <b>sun</b> fell on your patch during the FIT Count; was it:
           </InfoMessage>
 
-          <Attr
-            component={attr.type}
-            componentProps={attr.componentProps}
-            onChange={this.onValueChange}
-            value={value}
-          />
+          <Attr attr="weather-shade" model={sample} {...attrProps} />
         </Main>
 
         {this.isValueValid() && <Footer link={NEXT_PAGE} />}

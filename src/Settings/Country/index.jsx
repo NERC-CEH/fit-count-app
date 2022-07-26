@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { observer } from 'mobx-react';

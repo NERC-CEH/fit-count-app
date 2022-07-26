@@ -1,8 +1,8 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { alert, date, device, toast } from '@flumens';
-import userModel from 'models/user';
+import { useAlert, date, useToast } from '@flumens';
+import { useUserStatusCheck } from 'models/user';
+import { useValidateCheck } from 'models/sample';
 import { observer } from 'mobx-react';
 import {
   IonItem,
@@ -12,13 +12,11 @@ import {
   IonItemOption,
   IonBadge,
 } from '@ionic/react';
-import { Trans as T, useTranslation } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import OnlineStatus from './components/OnlineStatus';
 import './styles.scss';
 
-const { warn } = toast;
-
-function deleteSurvey(sample) {
+function deleteSurvey(sample, alert) {
   alert({
     header: 'Delete',
     message: <T>Are you sure you want to delete this survey?</T>,
@@ -26,18 +24,17 @@ function deleteSurvey(sample) {
       {
         text: 'Cancel',
         role: 'cancel',
-        cssClass: 'primary',
       },
       {
         text: 'Delete',
-        cssClass: 'secondary',
+        role: 'destructive',
         handler: () => sample.destroy(),
       },
     ],
   });
 }
 
-const uploadedSurveyMessage = () => {
+const uploadedSurveyMessage = alert => {
   alert({
     message: (
       <T>
@@ -82,8 +79,11 @@ function getSampleInfo(sample) {
 }
 
 const Survey = ({ sample }) => {
-  const { t } = useTranslation();
   const survey = sample.getSurvey();
+  const toast = useToast();
+  const alert = useAlert();
+  const checkSampleStatus = useValidateCheck(sample);
+  const checkUserStatus = useUserStatusCheck();
 
   const { synchronising } = sample.remote;
   const uploaded = sample.isUploaded();
@@ -91,25 +91,21 @@ const Survey = ({ sample }) => {
   const href =
     !synchronising && !uploaded && `/${survey.name}/new/${sample.cid}/location`;
 
-  const deleteSurveyWrap = () => deleteSurvey(sample);
+  const deleteSurveyWrap = () => deleteSurvey(sample, alert);
   const onUpload = async e => {
     e.preventDefault();
     e.stopPropagation();
 
-    if (!device.isOnline()) {
-      warn(t('Looks like you are offline!'));
-      return;
-    }
+    const isUserOK = await checkUserStatus();
+    if (!isUserOK) return;
 
-    const isActivated = await userModel.checkActivation();
-    if (!isActivated) {
-      return;
-    }
+    const isValid = checkSampleStatus();
+    if (!isValid) return;
 
-    sample.upload();
+    sample.upload().catch(toast.error);
   };
 
-  const onClick = uploaded ? uploadedSurveyMessage : undefined;
+  const onClick = uploaded ? () => uploadedSurveyMessage(alert) : undefined;
 
   return (
     <IonItemSliding class="survey-list-item">

@@ -46,22 +46,22 @@ export const verifyLocationSchema = Yup.mixed().test(
 
 const flowerCoverValues = [
   {
-    id: isProd ? 13576 : 17856,
+    id: 13576,
     value: 'Less than half',
     icon: flowerCoverSmallGroupImage,
   },
   {
-    id: isProd ? 13577 : 17857,
+    id: 13577,
     value: 'Half of patch',
     icon: flowerCoverMediumGroupImage,
   },
   {
-    id: isProd ? 13578 : 17858,
+    id: 13578,
     value: 'More than half of patch',
     icon: flowerCoverLargeGroupImage,
   },
   {
-    id: isProd ? 13603 : 17859,
+    id: 13603,
     value: 'Not recorded',
   },
 ];
@@ -91,22 +91,22 @@ const flowerSelectionValues = flowers.map(intoSelectValue);
 
 const flowerCountValues = [
   {
-    id: isProd ? 13579 : 17860,
+    id: 13579,
     value: 'Individual Flower',
     icon: individualFlowerTypeImage,
   },
   {
-    id: isProd ? 13580 : 17861,
+    id: 13580,
     value: 'Head',
     icon: headTypeImage,
   },
   {
-    id: isProd ? 13581 : 17862,
+    id: 13581,
     value: 'Umbel',
     icon: umbelTypeImage,
   },
   {
-    id: isProd ? 13582 : 17863,
+    id: 13582,
     value: 'Spike',
     icon: spikeTypeImage,
   },
@@ -114,19 +114,19 @@ const flowerCountValues = [
 
 const flowerPatchValues = [
   {
-    id: isProd ? 13583 : 17864,
+    id: 13583,
     value: 'In a larger patch of the same flower',
   },
   {
-    id: isProd ? 13584 : 17865,
+    id: 13584,
     value: 'In a larger patch of many different flowers',
   },
   {
-    id: isProd ? 13585 : 17866,
+    id: 13585,
     value: 'More or less isolated',
   },
   {
-    id: isProd ? 13604 : 17867,
+    id: 13604,
     value: 'Not recorded',
   },
 ];
@@ -135,57 +135,57 @@ const habitatValues = habitats.map(intoSelectValue);
 
 const weatherSkyValues = [
   {
-    id: isProd ? 13586 : 17868,
+    id: 13586,
     value: 'All or mostly blue',
   },
   {
-    id: isProd ? 13587 : 17869,
+    id: 13587,
     value: 'Half blue and half cloud',
   },
   {
-    id: isProd ? 13588 : 17870,
+    id: 13588,
     value: 'All or mostly cloud',
   },
   {
-    id: isProd ? 13605 : 17871,
+    id: 13605,
     value: 'Not recorded',
   },
 ];
 
 const weatherShadeValues = [
   {
-    id: isProd ? 13750 : 17876,
+    id: 13750,
     value: 'Entirely in sunshine',
   },
   {
-    id: isProd ? 13751 : 17877,
+    id: 13751,
     value: 'Partly in sun and partly shaded',
   },
   {
-    id: isProd ? 13752 : 17878,
+    id: 13752,
     value: 'Entirely shaded',
   },
   {
-    id: isProd ? 13753 : 17879,
+    id: 13753,
     value: 'Not recorded',
   },
 ];
 
 const weatherWindValues = [
   {
-    id: isProd ? 13589 : 17872,
+    id: 13589,
     value: 'Leaves still/moving occasionally',
   },
   {
-    id: isProd ? 13590 : 17873,
+    id: 13590,
     value: 'Leaves moving gently all the time',
   },
   {
-    id: isProd ? 13591 : 17874,
+    id: 13591,
     value: 'Leaves moving strongly',
   },
   {
-    id: isProd ? 13606 : 17875,
+    id: 13606,
     value: 'Not recorded',
   },
 ];
@@ -196,7 +196,7 @@ const dateTimeFormat = new Intl.DateTimeFormat('en-GB', {
 });
 
 const survey = {
-  id: isProd ? 641 : 599,
+  id: 641,
   name: 'survey',
 
   SURVEY_STEP_COUNT: 10,
@@ -210,9 +210,7 @@ const survey = {
       },
     },
     recorder: {
-      remote: {
-        id: 127,
-      },
+      remote: { id: 127 },
     },
     location: {
       id: 'location',
@@ -227,82 +225,87 @@ const survey = {
     },
 
     country: {
-      remote: {
-        id: 1640,
-        values: countries.map(intoSelectValue),
-      },
+      remote: { id: 1640, values: countries.map(intoSelectValue) },
     },
 
     surveyStartTime: {
       remote: {
-        id: isProd ? 1056 : 1516,
+        id: 1056,
         values: value => dateTimeFormat.format(new Date(value)),
       },
     },
 
     habitat: {
-      type: 'radio',
-      componentProps() {
-        const { country } = appModel.attrs;
-        const byCountry = sp => sp[country];
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: () => {
+            const { country } = appModel.attrs;
+            const byCountry = sp => sp[country];
 
-        const options = habitats
-          .filter(byCountry)
-          .map(intoSelectValue)
-          .sort(alphabeticallyWithOtherLast);
+            const options = habitats
+              .filter(byCountry)
+              .map(intoSelectValue)
+              .sort(alphabeticallyWithOtherLast);
 
-        return { options };
+            return { options };
+          },
+        },
       },
-      remote: {
-        id: isProd ? 1048 : 1508,
-        values: habitatValues,
-      },
+      remote: { id: 1048, values: habitatValues },
     },
+
     'habitat-manual-entry': {
-      label: 'Other habitat',
-      icon: habitatIcon,
-      info:
-        'Please type in the name of the habitat you have chosen then go back to the habitat page',
-      componentProps: {
-        placeholder: 'Other habitat',
+      menuProps: { label: 'Other habitat', icon: habitatIcon },
+      pageProps: {
+        headerProps: { title: 'Other habitat' },
+        attrProps: {
+          input: 'textarea',
+          info: 'Please type in the name of the habitat you have chosen then go back to the habitat page',
+          inputProps: { placeholder: 'Other habitat' },
+        },
       },
-      type: 'textarea',
-      remote: {
-        id: isProd ? 1049 : 1509,
-      },
+      remote: { id: 1049 },
     },
 
     'flower-cover': {
-      type: 'radio',
-      componentProps: {
-        options: flowerCoverValues,
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: { options: flowerCoverValues },
+        },
       },
       remote: {
-        id: isProd ? 1052 : 1512,
+        id: 1052,
         values: flowerCoverValues,
       },
     },
 
     flower: {
-      type: 'radio',
-      componentProps() {
-        // country specific options only
-        const { country } = appModel.attrs;
-        const byCountry = sp => sp[country];
-        const getOption = val => ({
-          ...val,
-          id: val.warehouseId,
-          label: val.name,
-          icon: val.id !== 'other' && `/images/${val.id}.jpg`,
-          value: val.name,
-        });
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: () => {
+            // country specific options only
+            const { country } = appModel.attrs;
+            const byCountry = sp => sp[country];
+            const getOption = val => ({
+              ...val,
+              id: val.warehouseId,
+              label: val.name,
+              icon: val.id !== 'other' && `/images/${val.id}.jpg`,
+              value: val.name,
+            });
 
-        const countryFlowers = flowers
-          .filter(byCountry)
-          .map(getOption)
-          .sort(alphabeticallyWithOtherLast);
-        return { options: countryFlowers };
+            const countryFlowers = flowers
+              .filter(byCountry)
+              .map(getOption)
+              .sort(alphabeticallyWithOtherLast);
+            return { options: countryFlowers };
+          },
+        },
       },
+
       remote: {
         id: 1050,
         values: flowerSelectionValues, // must be full array for all countries
@@ -310,83 +313,97 @@ const survey = {
     },
 
     'flower-manual-entry': {
-      type: 'textarea',
-      label: 'Other flower name',
-      icon: flowerIcon,
-      info:
-        'Please type in the name of the target flower you have chosen then go back to the target flower page',
-      componentProps: {
-        placeholder: 'Other flower name',
+      menuProps: { label: 'Other flower name', icon: flowerIcon },
+      pageProps: {
+        headerProps: { title: 'Other flower name' },
+        attrProps: {
+          input: 'textarea',
+          info: 'Please type in the name of the target flower you have chosen then go back to the target flower page',
+          inputProps: { placeholder: 'Other flower name' },
+        },
       },
       remote: {
-        id: isProd ? 1051 : 1511,
+        id: 1051,
       },
     },
 
     'flower-count': {
-      type: 'radio',
-      componentProps: {
-        options: flowerCountValues,
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: { options: flowerCountValues },
+        },
       },
       remote: {
-        id: isProd ? 1054 : 1514,
+        id: 1054,
         values: flowerCountValues,
       },
     },
 
     'flower-count-number': {
-      type: 'slider',
-      componentProps: {
-        max: 3000,
-        min: 0,
-        step: 1,
+      pageProps: {
+        attrProps: {
+          input: 'slider',
+          inputProps: {
+            max: 3000,
+            min: 0,
+            step: 1,
+          },
+        },
       },
-      skipValueTranslation: true,
       remote: {
-        id: isProd ? 1053 : 1513,
+        id: 1053,
       },
     },
 
     'flower-patch': {
-      type: 'radio',
-      componentProps: {
-        options: flowerPatchValues,
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: { options: flowerPatchValues },
+        },
       },
       remote: {
-        id: isProd ? 1055 : 1515,
+        id: 1055,
         values: flowerPatchValues,
       },
     },
 
     'weather-sky': {
-      type: 'radio',
-      componentProps: {
-        options: weatherSkyValues,
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: { options: weatherSkyValues },
+        },
       },
       remote: {
-        id: isProd ? 1057 : 1517,
+        id: 1057,
         values: weatherSkyValues,
       },
     },
 
     'weather-shade': {
-      type: 'radio',
-      componentProps: {
-        options: weatherShadeValues,
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: { options: weatherShadeValues },
+        },
       },
       remote: {
-        id: isProd ? 1061 : 1519,
+        id: 1061,
         values: weatherShadeValues,
       },
     },
 
     'weather-wind': {
-      type: 'radio',
-      componentProps: {
-        options: weatherWindValues,
+      pageProps: {
+        attrProps: {
+          input: 'radio',
+          inputProps: { options: weatherWindValues },
+        },
       },
       remote: {
-        id: isProd ? 1058 : 1518,
+        id: 1058,
         values: weatherWindValues,
       },
     },
@@ -401,9 +418,7 @@ const survey = {
         },
       },
       count: {
-        remote: {
-          id: isProd ? 666 : 841,
-        },
+        remote: { id: 666 },
       },
     },
 

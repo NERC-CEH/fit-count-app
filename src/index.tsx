@@ -1,43 +1,44 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import { setupConfig, isPlatform } from '@ionic/react';
+import { setupIonicReact, isPlatform } from '@ionic/react';
 import appModel from 'models/app';
 import userModel from 'models/user';
 import savedSamples from 'models/savedSamples';
-import { Plugins, StatusBarStyle } from '@capacitor/core';
+import { StatusBar, Style as StatusBarStyle } from '@capacitor/status-bar';
+import { SplashScreen } from '@capacitor/splash-screen';
+import { App as AppPlugin } from '@capacitor/app';
 import i18n from 'i18next';
-import config from 'common/config';
-import { initAnalytics } from '@flumens';
 import { initReactI18next } from 'react-i18next';
-import { configure as mobxConfigure } from 'mobx';
+import config from 'common/config';
+import { configure as mobxConfig } from 'mobx';
 import languages from 'common/languages';
 import getLangCodeFromDevice from 'common/helpers/getLangCodeFromDevice';
-import 'common/translations/translator';
+import { initAnalytics } from '@flumens';
 import App from './App';
-
+import 'common/translations/translator';
+import '@capacitor/core';
 import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 import 'common/theme.scss';
 
-const { App: AppPlugin, StatusBar, SplashScreen } = Plugins;
+console.log('🚩 App starting.'); // eslint-disable-line
 
 i18n.use(initReactI18next).init({
   lng: config.DEFAULT_LANGUAGE,
 });
 
-mobxConfigure({
+mobxConfig({
   enforceActions: 'never',
 });
 
-setupConfig({
+setupIonicReact({
   hardwareBackButton: false, // android back button
   swipeBackEnabled: false,
 });
 
 async function init() {
-  await appModel._init;
-  await userModel._init;
-  await savedSamples._init;
+  await appModel.ready;
+  await userModel.ready;
+  await savedSamples.ready;
 
   if (!appModel.attrs.language) {
     const langCode =
@@ -54,20 +55,13 @@ async function init() {
       environment: config.environment,
       build: config.build,
       release: config.version,
-      userId: userModel.attrs.id,
+      userId: userModel.id,
       tags: {
         'app.appSession': appModel.attrs.appSession,
       },
     });
 
   appModel.attrs.appSession += 1;
-
-  if (appModel.attrs.country === 'CYP') {
-    // This is just to be backwards compatible
-    // TODO: remove in the next update
-    console.warn('Fixing old Cyprus code');
-    appModel.attrs.country = 'CY';
-  }
   appModel.save();
 
   ReactDOM.render(<App />, document.getElementById('root'));
@@ -84,5 +78,5 @@ async function init() {
     });
   }
 }
-window.app = appModel;
+
 init();

@@ -1,5 +1,9 @@
 #survey-location-page {
   .info-message {
+    z-index: 10000000;
+    margin: 0;
+    border-radius: 0;
+
     ion-label {
       padding: 0 !important;
     }
@@ -21,10 +25,15 @@
       font-size: 1em;
       margin-top: 0.2em;
     }
+
+    .auto-suggest-input-attr {
+      margin-top: -6px;
+    }
   }
 
-  #location-page-content {
+  .model-location-map {
     height: calc(100% - 96px - 54px);
+    bottom: 0;
   }
 
   #survey-footer {

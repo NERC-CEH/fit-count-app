@@ -1,4 +1,3 @@
-import React from 'react';
 import { Page, Main, Section, Header } from '@flumens';
 import config from 'common/config';
 import appModel from 'models/app';
@@ -46,6 +45,9 @@ const About = () => {
             the insects to species level, only to within broad groups e.g.
             bumblebees, hoverflies, butterflies & moths, wasps.
           </P>
+        </Section>
+
+        <Section>
           <P>
             The FIT Count was originally developed through the UK Pollinator
             Monitoring Scheme (PoMS). Similar methods are now being adopted in
@@ -80,7 +82,9 @@ const About = () => {
               </a>
             </li>
           </ul>
+        </Section>
 
+        <Section>
           <P>
             The FIT Count project is supported by the UK Centre for Ecology &
             Hydrology and can be contacted <a href={feedback}>here</a>.

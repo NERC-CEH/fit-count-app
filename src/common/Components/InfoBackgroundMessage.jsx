@@ -1,4 +1,3 @@
-import React from 'react';
 import { InfoBackgroundMessage } from '@flumens';
 import appModel from 'models/app';
 

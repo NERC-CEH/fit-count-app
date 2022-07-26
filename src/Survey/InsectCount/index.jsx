@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page } from '@flumens';
@@ -9,12 +9,10 @@ import Header from 'Survey/Components/Header';
 import Footer from 'Survey/Components/Footer';
 import surveyConfig from 'Survey/config';
 import CountdownClock from 'Survey/Components/CountdownClock';
-import { Plugins, HapticsImpactStyle } from '@capacitor/core';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import IntroAlert from './Components/IntroAlert';
 import Main from './Main';
 import './styles.scss';
-
-const { Haptics } = Plugins;
 
 const PAGE_INDEX = 7;
 
@@ -53,7 +51,7 @@ function InsectCount({ sample }) {
       return;
     }
 
-    isPlatform('hybrid') && Haptics.impact({ style: HapticsImpactStyle.Light });
+    isPlatform('hybrid') && Haptics.impact({ style: ImpactStyle.Light });
 
     occurrence.attrs.count += 1;
     occurrence.save();
@@ -128,7 +126,7 @@ function InsectCount({ sample }) {
         sample={sample}
       />
 
-      {hasCountdownTimedOut && <Footer isEnabled link={NEXT_PAGE} />}
+      {hasCountdownTimedOut && <Footer link={NEXT_PAGE} />}
 
       {!hasCountStarted && <IntroAlert onContinue={setSurveyStartTime} />}
     </Page>

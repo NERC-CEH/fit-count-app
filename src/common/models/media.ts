@@ -1,15 +1,13 @@
 import { Media } from '@flumens';
 import { isPlatform } from '@ionic/react';
-import Log from 'helpers/log';
 import config from 'common/config';
-import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
-
-const { Filesystem } = Plugins;
+import { Capacitor } from '@capacitor/core';
+import { Filesystem, Directory } from '@capacitor/filesystem';
 
 export default class AppMedia extends Media {
-  async destroy(silent) {
+  async destroy(silent?: boolean) {
     // remove from internal storage
-    if (!isPlatform('hybrid') || window.testing) {
+    if (!isPlatform('hybrid')) {
       if (!this.parent) {
         return null;
       }
@@ -28,7 +26,7 @@ export default class AppMedia extends Media {
     try {
       await Filesystem.deleteFile({
         path: URL,
-        directory: FilesystemDirectory.Data,
+        directory: Directory.Data,
       });
 
       if (!this.parent) {
@@ -43,7 +41,7 @@ export default class AppMedia extends Media {
 
       return this.parent.save();
     } catch (err) {
-      Log(err, 'e');
+      console.error(err);
     }
 
     return null;

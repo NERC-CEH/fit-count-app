@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -15,7 +15,7 @@ const PAGE_INDEX = 4;
 
 const NEXT_PAGE = 'flower-cover';
 
-class NumberFlower extends React.Component {
+class NumberFlower extends Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
     match: PropTypes.object, // eslint-disable-line
@@ -43,8 +43,9 @@ class NumberFlower extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
-    const attr = surveyConfig.attrs['flower-count-number'];
-    const flowerCountAttr = surveyConfig.attrs['flower-count'];
+    const { attrProps: attrPropsNumber } =
+      surveyConfig.attrs['flower-count-number'].pageProps;
+    const { attrProps } = surveyConfig.attrs['flower-count'].pageProps;
 
     const flowerType = sample.attrs['flower-count'];
 
@@ -110,10 +111,9 @@ class NumberFlower extends React.Component {
           </IonItemDivider>
 
           <Attr
-            component={attr.type}
-            componentProps={attr.componentProps}
-            onChange={this.onValueChangeSlider}
-            value={flowerNumber}
+            attr="flower-count-number"
+            model={sample}
+            {...attrPropsNumber}
           />
 
           <IonItemDivider mode="ios" className="survey-divider">
@@ -122,12 +122,7 @@ class NumberFlower extends React.Component {
             </div>
           </IonItemDivider>
 
-          <Attr
-            component={flowerCountAttr.type}
-            componentProps={flowerCountAttr.componentProps}
-            onChange={this.onValueChange}
-            value={flowerType}
-          />
+          <Attr attr="flower-count" model={sample} {...attrProps} />
         </Main>
 
         {this.isValueValid() && <Footer link={NEXT_PAGE} />}

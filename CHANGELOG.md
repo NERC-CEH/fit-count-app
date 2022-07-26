@@ -1,3 +1,7 @@
+# 1.3.0
+
+Added user account delete.
+
 # 1.2.0
 
 Added Germany.

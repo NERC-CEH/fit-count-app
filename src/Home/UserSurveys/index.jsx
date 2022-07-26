@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import {
@@ -24,7 +24,7 @@ function byCreateTime(m1, m2) {
 }
 
 @observer
-class UserSurveyComponent extends React.Component {
+class UserSurveyComponent extends Component {
   static propTypes = exact({
     savedSamples: PropTypes.array.isRequired,
   });

@@ -1,4 +1,3 @@
-import React from 'react';
 import { IonGrid, IonList, IonRow, IonCol } from '@ionic/react';
 import { Header, Page, Main, Section } from '@flumens';
 import appModel from 'models/app';
@@ -86,7 +85,9 @@ const Credits = () => {
               </IonRow>
             </IonGrid>
           </IonList>
+        </Section>
 
+        <Section>
           <H>Graphics:</H>
           <P skipTranslation>
             <T>FIT Count logo</T>: Heather Harris (UKCEH)

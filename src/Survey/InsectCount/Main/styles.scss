@@ -133,13 +133,13 @@
 
     .swiper-pagination-bullet {
       opacity: 1;
-      --bullet-background: #8a8a8a;
+      background: #8a8a8a;
       padding: 5px;
     }
 
     .swiper-pagination-bullet-active {
       opacity: 1;
-      --bullet-background-active: var(--ion-color-primary);
+      background: var(--ion-color-primary);
     }
   }
 }

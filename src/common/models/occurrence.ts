@@ -1,15 +1,18 @@
-import { Occurrence } from '@flumens';
+import { Occurrence, OccurrenceAttrs, validateRemoteModel } from '@flumens';
 import Media from './media';
 
+type Attrs = OccurrenceAttrs & {
+  count: number;
+};
+
 export default class AppOccurrence extends Occurrence {
-  static fromJSON(json) {
+  static fromJSON(json: any) {
     return super.fromJSON(json, Media);
   }
 
-  // eslint-disable-next-line class-methods-use-this
-  validateRemote() {
-    return null;
-  }
+  attrs: Attrs = this.attrs;
+
+  validateRemote = validateRemoteModel;
 
   _hasZeroCount() {
     return !this.attrs.count;
@@ -22,5 +25,9 @@ export default class AppOccurrence extends Occurrence {
     }
 
     return super.getSubmission();
+  }
+
+  isDisabled() {
+    return this.isUploaded();
   }
 }

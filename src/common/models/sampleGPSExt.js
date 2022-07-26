@@ -29,7 +29,7 @@ const extension = {
     this.gps = observable({ locating: null });
   },
 
-  startGPS(accuracyLimit = DEFAULT_ACCURACY_LIMIT) {
+  async startGPS(accuracyLimit = DEFAULT_ACCURACY_LIMIT) {
     // eslint-disable-next-line
     const that = this;
     const options = {
@@ -53,15 +53,15 @@ const extension = {
       },
     };
 
-    this.gps.locating = GPS.start(options);
+    this.gps.locating = await GPS.start(options);
   },
 
-  stopGPS() {
+  async stopGPS() {
     if (!this.gps.locating) {
       return;
     }
 
-    GPS.stop(this.gps.locating);
+    await GPS.stop(this.gps.locating);
     this.gps.locating = null;
   },
 

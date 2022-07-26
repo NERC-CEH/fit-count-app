@@ -59,7 +59,7 @@
 
       .swiper-pagination-bullet-active {
         opacity: 0.8;
-        --bullet-background-active: var(--ion-color-primary);
+        background: var(--ion-color-primary);
       }
     }
   }

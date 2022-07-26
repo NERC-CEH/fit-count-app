@@ -1,8 +1,6 @@
-import React from 'react';
 import { Page, Main, Section } from '@flumens';
 import appModel from 'models/app';
 import { Trans as T } from 'react-i18next';
-import appLogo from 'common/images/appLogo.png';
 import './styles.scss';
 
 const { P } = Section;
@@ -220,20 +218,19 @@ const Manual = () => {
   return (
     <Page id="manual">
       <Main>
-        <div className="app-logo-wrapper-no-background">
-          <img className="app-logo" src={appLogo} alt="appLogo" />
-        </div>
-
-        <h1>
-          <T>FIT Count quick guide</T>
-        </h1>
-
         <Section>
+          <h1>
+            <T>FIT Count quick guide</T>
+          </h1>
+
           <P skipTranslation>
             {isBrazil && brazilianGuide}
             {isUK && UKGuide}
             {isRestOfWorld && guide}
           </P>
+        </Section>
+
+        <Section>
           <P skipTranslation>
             <T>Further information and guides are available at</T>:{' '}
             {furtherLink}

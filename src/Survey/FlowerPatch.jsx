@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
@@ -12,7 +12,7 @@ const PAGE_INDEX = 6;
 
 const NEXT_PAGE = 'insect-count';
 
-class FlowerPatch extends React.Component {
+class FlowerPatch extends Component {
   static contextType = NavContext;
 
   static propTypes = exact({
@@ -41,9 +41,7 @@ class FlowerPatch extends React.Component {
     const { sample } = this.props;
 
     const surveyConfig = sample.getSurvey();
-    const attr = surveyConfig.attrs['flower-patch'];
-
-    const value = sample.attrs['flower-patch'];
+    const { attrProps } = surveyConfig.attrs['flower-patch'].pageProps;
 
     return (
       <Page id="survey-flower-patch-page">
@@ -65,13 +63,7 @@ class FlowerPatch extends React.Component {
             </InfoButton>
           </InfoMessage>
 
-          <Attr
-            className="survey-radio-list"
-            component={attr.type}
-            componentProps={attr.componentProps}
-            onChange={this.onValueChange}
-            value={value}
-          />
+          <Attr attr="flower-patch" model={sample} {...attrProps} />
         </Main>
 
         {this.isValueValid() && <Footer link={NEXT_PAGE} />}

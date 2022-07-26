@@ -1,6 +1,4 @@
-import { Plugins } from '@capacitor/core';
-
-const { Device } = Plugins;
+import { Device } from '@capacitor/device';
 
 function getLangCodeFromDevice(languages) {
   const languageFromDevice = Device.getLanguageCode();

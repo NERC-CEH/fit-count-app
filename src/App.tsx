@@ -1,4 +1,4 @@
-import React from 'react';
+import { FC } from 'react';
 import appModel from 'models/app';
 import { Route, Redirect } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
@@ -16,7 +16,7 @@ const HomeRedirect = () => {
   return <Redirect to="home" />;
 };
 
-const App = () => (
+const App: FC = () => (
   <IonApp>
     <CountriesSelectRequire>
       <OnBoardingScreens appModel={appModel}>

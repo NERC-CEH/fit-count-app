@@ -1,7 +1,7 @@
 #user-register {
   ion-toolbar {
     position: fixed;
-    --ion-toolbar-background: transparent;
+    --background: transparent;
 
     ion-back-button {
       color: var(--ion-color-light-contrast);
@@ -10,35 +10,8 @@
 
   ion-content {
     --padding-top: 40px; // header
-    --padding-bottom: 40px;
-  }
 
-  ion-list,
-  ion-item {
-    --background: transparent;
-    background: transparent;
-    padding: 0 !important;
-
-    ion-icon {
-      &:first-of-type:not(:last-child) {
-        margin-right: 25px; // gives more space to text
-      }
-    }
-  }
-
-  ion-item {
-    &:last-of-type {
-      ion-label.md {
-        font-size: 16px;
-      }
-      ion-label.ios {
-        font-size: 17px;
-      }
-    }
-  }
-
-  ion-content {
-    ion-icon {
+    ion-button ion-icon {
       color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 1);
     }
 
@@ -57,12 +30,19 @@
       color: var(--ion-color-dark);
     }
 
-    input {
-      background: transparent;
+    ion-icon.faint {
+      opacity: 0.6;
     }
 
     ion-button[type='submit'] {
-      margin-bottom: 50px;
+      margin: 15px auto;
+      width: calc(100% - 30px);
+      max-width: 200px;
+      margin-bottom: 60px;
+    }
+
+    .menu-attr-toggle ion-icon {
+      font-size: 18px !important;
     }
 
     .signin-button {
@@ -70,32 +50,8 @@
       text-align: center;
     }
   }
-}
 
-.user-register-alert-styles .alert-wrapper {
-  width: 100% !important;
-
-  .alert-tappable {
-    overflow: hidden;
-    height: none;
-    display: contents;
-
-    .alert-button-inner {
-      height: initial;
-      border-bottom: 1px solid lightgray;
-    }
-
-    &:last-of-type {
-      .alert-button-inner {
-        border-bottom: none;
-      }
-    }
-  }
-  .alert-radio-group {
-    max-height: 80%;
-
-    .alert-radio-label {
-      white-space: normal;
-    }
+  input {
+    background: transparent;
   }
 }
