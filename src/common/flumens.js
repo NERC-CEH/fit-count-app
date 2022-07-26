@@ -45,6 +45,7 @@ export { default as ModelLocation } from '@flumens/ionic/dist/components/ModelLo
 export { default as UserFeedbackRequest } from '@flumens/ionic/dist/components/UserFeedbackRequest';
 export { useToast, useAlert, useLoader } from '@flumens/ionic/dist/hooks';
 export * from '@flumens/ionic/dist/utils/validation';
+export * from '@flumens/ionic/dist/utils/type';
 export * from '@flumens/ionic/dist/utils/image';
 export * from '@flumens/ionic/dist/utils/location';
 export { default as date } from '@flumens/ionic/dist/utils/date';

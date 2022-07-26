@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Main, MenuAttrToggle, MenuAttrItem, InfoMessage } from '@flumens';
+import { Main, InfoMessage } from '@flumens';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import {
@@ -12,41 +12,29 @@ import {
 import {
   openOutline,
   lockClosedOutline,
-  shareSocialOutline,
   heartOutline,
-  languageOutline,
-  globeOutline,
   personAddOutline,
   personOutline,
   exitOutline,
   informationCircleOutline,
+  settingsOutline,
 } from 'ionicons/icons';
 import config from 'common/config';
-import languages from 'common/languages';
-import countries from 'common/countries';
 import flumensLogo from 'common/images/flumens.svg';
 import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 import './styles.scss';
 
 type Props = {
-  onToggle: any;
-  sendAnalytics: boolean;
-  language: string;
   isLoggedIn: boolean;
   isVerified: boolean;
   email: string;
   userName: string;
-  country: string;
   logOut: any;
   refreshAccount: any;
   resendVerificationEmail: any;
 };
 
 const MenuComponent: FC<Props> = ({
-  onToggle,
-  sendAnalytics,
-  language,
-  country,
   isLoggedIn,
   isVerified,
   resendVerificationEmail,
@@ -55,12 +43,6 @@ const MenuComponent: FC<Props> = ({
   userName,
   logOut,
 }) => {
-  const onSendAnalyticsToggle = (checked: boolean) =>
-    onToggle('sendAnalytics', checked);
-
-  const countryName = ({ value }: any) => value === country;
-  const selectedCountries: any = countries.find(countryName) || {};
-
   return (
     <Main className="app-menu">
       <h1>
@@ -150,34 +132,11 @@ const MenuComponent: FC<Props> = ({
         <IonItemDivider>
           <T>Settings</T>
         </IonItemDivider>
-
         <div className="rounded">
-          <MenuAttrItem
-            routerLink="/settings/language"
-            value={(languages as any)[language]}
-            label="Language"
-            icon={languageOutline}
-            routerOptions={{ unmount: true }} // Pick a new language on return
-            skipValueTranslation
-          />
-          <MenuAttrItem
-            routerLink="/settings/country"
-            value={selectedCountries.label}
-            label="Country"
-            icon={globeOutline}
-          />
-
-          <MenuAttrToggle
-            className="exception-rounded"
-            icon={shareSocialOutline}
-            label="Share App Analytics"
-            value={sendAnalytics}
-            onChange={onSendAnalyticsToggle}
-          />
-
-          <InfoMessage color="medium">
-            Share app crash data so we can make the app more reliable.
-          </InfoMessage>
+          <IonItem routerLink="/settings/menu" detail>
+            <IonIcon icon={settingsOutline} size="small" slot="start" />
+            <T>App</T>
+          </IonItem>
         </div>
 
         <div className="flumens-section">

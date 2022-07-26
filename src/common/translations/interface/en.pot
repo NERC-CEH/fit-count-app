@@ -57,6 +57,31 @@ msgstr "Settings"
 msgid "App"
 msgstr "App"
 
+# User account delete in the settings
+#: interface
+msgid "Delete account"
+msgstr "Delete account"
+
+# User account delete in the settings
+#: interface
+msgid "You can delete your user account from the system."
+msgstr "You can delete your user account from the system."
+
+# User account delete in the settings
+#: interface
+msgid "This will remove your account on the FIT Count website. You will lose access to any records that you have previously submitted using the app or website."
+msgstr "This will remove your account on the FIT Count website. You will lose access to any records that you have previously submitted using the app or website."
+
+# User account delete in the settings
+#: interface
+msgid "Account delete"
+msgstr "Account delete"
+
+# User account delete in the settings
+#: interface
+msgid "Are you sure you want to delete your account?"
+msgstr "Are you sure you want to delete your account?"
+
 # Menu page content
 #: interface
 msgid "Cymraeg"

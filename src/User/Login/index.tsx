@@ -20,8 +20,7 @@ const LoginController: FC<Props> = ({ userModel }) => {
   const loader = useLoader();
 
   const onSuccessReturn = () => {
-    const { email } = userModel.attrs;
-    toast.success(`Successfully logged in as: ${email}`);
+    toast.success('Successfully logged in');
     context.navigate('/home/surveys', 'root');
   };
 

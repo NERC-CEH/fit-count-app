@@ -82,10 +82,6 @@ const MenuController: FC = () => {
     loader.hide();
   };
 
-  const onToggle = (key: string, val: boolean) => {
-    (appModel.attrs as any)[key] = val;
-  };
-
   return (
     <Page id="home-menu">
       <Main
@@ -93,10 +89,6 @@ const MenuController: FC = () => {
         userName={userModel.attrs.fullName}
         isLoggedIn={isLoggedIn}
         isVerified={!!userModel.attrs.verified}
-        onToggle={onToggle}
-        sendAnalytics={appModel.attrs.sendAnalytics}
-        language={appModel.attrs.language}
-        country={appModel.attrs.country}
         logOut={logOut}
         refreshAccount={checkActivation}
         resendVerificationEmail={resendVerificationEmail}
