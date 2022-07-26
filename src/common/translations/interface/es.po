@@ -2,11 +2,12 @@
 # Translators:
 # Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
 # Giselle Muschett <giselle.muschett@pucv.cl>, 2022
+# Karolis, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Giselle Muschett <giselle.muschett@pucv.cl>, 2022\n"
+"Last-Translator: Karolis, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +60,11 @@ msgstr "Créditos"
 #: interface
 msgid "Settings"
 msgstr "Configuración"
+
+# Menu page content
+#: interface
+msgid "App"
+msgstr ""
 
 # Menu page content
 #: interface
@@ -583,7 +589,7 @@ msgstr "Por favor añada foto de la especie"
 
 # Survey species selection page species list
 #: interface
-msgid "No photo has been added."
+msgid "No photo has been added.<br/>Press <3></3> to add."
 msgstr "Sin fotos añadidas"
 
 # Survey species selection page info message
@@ -929,6 +935,13 @@ msgstr "Logo de Registro FIT"
 #: interface
 msgid "Successfully logged in"
 msgstr "Se ha conectado con éxito"
+
+# Message when logging out
+#: interface
+msgid ""
+"Your pending and uploaded <1>records will not be deleted </1> from this "
+"device."
+msgstr ""
 
 # Onboarding content
 #: interface

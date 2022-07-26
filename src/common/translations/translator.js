@@ -9,11 +9,10 @@ const DEFAULT_LANGUAGE = 'en';
 window.getNewTerms = function getNewTermsWrap() {
   window.dic = window.dic || [];
   let all = '';
-  const newLocal = word => {
+  const showUntranslatedTerms = word => {
     all += `\n# Context term \nmsgid "${word}"\nmsgstr "${word}"\n`;
   };
-  window.dic.forEach(newLocal);
-
+  window.dic.forEach(showUntranslatedTerms);
   console.log(all);
 };
 
@@ -22,9 +21,11 @@ window.getNewTerms = function getNewTermsWrap() {
 function saveMissingKey(key) {
   window.dic = window.dic || [];
 
-  if (window.dic.includes(key)) {
-    return;
-  }
+  if (window.dic.includes(key)) return;
+
+  if (!`${key}`.trim()) return;
+
+  if (Number.isFinite(parseInt(key, 10))) return;
 
   console.warn(`🇬🇧: ${key}`);
   window.dic.push(key);

@@ -2,12 +2,12 @@
 # Translators:
 # POMS CYPRUS <pomscyprus@gmail.com>, 2021
 # Ioanna Angelidou <joanna.angelidou12@gmail.com>, 2021
-# Karolis, 2021
+# Karolis, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: Karolis, 2022\n"
 "Language-Team: Greek (https://www.transifex.com/ceh/teams/116172/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,11 @@ msgstr "Συντελεστές"
 #: interface
 msgid "Settings"
 msgstr "Ρυθμίσεις"
+
+# Menu page content
+#: interface
+msgid "App"
+msgstr ""
 
 # Menu page content
 #: interface
@@ -577,7 +582,7 @@ msgstr "Προσθέστε μια εικόνα από το φυτό-στόχο"
 
 # Survey species selection page species list
 #: interface
-msgid "No photo has been added."
+msgid "No photo has been added.<br/>Press <3></3> to add."
 msgstr "Δεν έχει προστεθεί φωτογραφία."
 
 # Survey species selection page info message
@@ -920,6 +925,13 @@ msgstr "Λογότυπο FIT Count"
 #: interface
 msgid "Successfully logged in"
 msgstr "Συνδεθήκατε με επιτυχία"
+
+# Message when logging out
+#: interface
+msgid ""
+"Your pending and uploaded <1>records will not be deleted </1> from this "
+"device."
+msgstr ""
 
 # Onboarding content
 #: interface

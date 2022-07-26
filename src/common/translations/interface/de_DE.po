@@ -4,11 +4,12 @@
 # Elisabeth Kühn, 2022
 # Vilius Stankaitis <vilius@flumens.io>, 2022
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
+# Karolis, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2022\n"
+"Last-Translator: Karolis, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,6 +61,11 @@ msgstr "Impressum"
 #: interface
 msgid "Settings"
 msgstr "Einstellungen"
+
+# Menu page content
+#: interface
+msgid "App"
+msgstr ""
 
 # Menu page content
 #: interface
@@ -583,7 +589,7 @@ msgstr "Bitte Bild der Art hinzufügen"
 
 # Survey species selection page species list
 #: interface
-msgid "No photo has been added."
+msgid "No photo has been added.<br/>Press <3></3> to add."
 msgstr "Es wurde kein Foto hinzugefügt"
 
 # Survey species selection page info message
@@ -913,6 +919,13 @@ msgstr "FIT-Zählung Logo"
 #: interface
 msgid "Successfully logged in"
 msgstr "Erfolgreich angemeldet"
+
+# Message when logging out
+#: interface
+msgid ""
+"Your pending and uploaded <1>records will not be deleted </1> from this "
+"device."
+msgstr ""
 
 # Onboarding content
 #: interface

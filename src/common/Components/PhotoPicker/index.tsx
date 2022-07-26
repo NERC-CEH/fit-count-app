@@ -2,6 +2,7 @@ import { FC, ComponentProps } from 'react';
 import { PhotoPicker, captureImage } from '@flumens';
 import { observer } from 'mobx-react';
 import { useIonActionSheet } from '@ionic/react';
+import { useTranslation } from 'react-i18next';
 import Media from 'models/media';
 import Sample from 'models/sample';
 import Occurrence from 'models/occurrence';
@@ -10,17 +11,18 @@ import './styles.scss';
 
 export function usePromptImageSource() {
   const [presentActionSheet] = useIonActionSheet();
+  const { t } = useTranslation();
 
   const message = (
     resolve: (value: boolean | PromiseLike<boolean | null> | null) => void
   ): void => {
     presentActionSheet({
       buttons: [
-        { text: 'Gallery', handler: () => resolve(false) },
-        { text: 'Camera', handler: () => resolve(true) },
-        { text: 'Cancel', role: 'cancel', handler: () => resolve(null) },
+        { text: t('Gallery'), handler: () => resolve(false) },
+        { text: t('Camera'), handler: () => resolve(true) },
+        { text: t('Cancel'), role: 'cancel', handler: () => resolve(null) },
       ],
-      header: 'Choose a method to upload a photo',
+      header: t('Choose a method to upload a photo'),
     });
   };
   const promptMessage = () => new Promise<boolean | null>(message);

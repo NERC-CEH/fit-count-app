@@ -54,6 +54,11 @@ msgstr "Settings"
 
 # Menu page content
 #: interface
+msgid "App"
+msgstr "App"
+
+# Menu page content
+#: interface
 msgid "Cymraeg"
 msgstr "Cymraeg"
 
@@ -565,8 +570,8 @@ msgstr "Please add species image"
 
 # Survey species selection page species list
 #: interface
-msgid "No photo has been added."
-msgstr "No photo has been added."
+msgid "No photo has been added.<br/>Press <3></3> to add."
+msgstr "No photo has been added.<br/>Press <3></3> to add."
 
 # Survey species selection page info message
 #: interface
@@ -907,6 +912,11 @@ msgstr "FIT Count logo"
 #: interface
 msgid "Successfully logged in"
 msgstr "Successfully logged in"
+
+# Message when logging out
+#: interface
+msgid "Your pending and uploaded <1>records will not be deleted </1> from this device."
+msgstr "Your pending and uploaded <1>records will not be deleted </1> from this device."
 
 # Onboarding content
 #: interface
