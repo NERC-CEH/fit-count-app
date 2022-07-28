@@ -51,9 +51,6 @@ const WeatherWind: FC<Props> = ({ sample }) => {
   };
 
   const onFinish = async () => {
-    const isValid = checkSampleStatus();
-    if (!isValid) return;
-
     if (!sample.metadata.saved) {
       await _processDraft();
     }

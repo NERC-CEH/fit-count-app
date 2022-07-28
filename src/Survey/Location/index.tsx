@@ -7,12 +7,21 @@ import {
   InfoButton,
   InfoMessage,
   useToast,
+  device,
+  prettyPrintLocation,
 } from '@flumens';
 import Sample from 'models/sample';
 import appModel from 'models/app';
 import config from 'common/config';
 import { Map } from 'leaflet';
-import { locationOutline, searchOutline } from 'ionicons/icons';
+import { Trans as T, useTranslation } from 'react-i18next';
+import { IonButton, IonSpinner, IonIcon } from '@ionic/react';
+import {
+  locationOutline,
+  searchOutline,
+  warningOutline,
+  locateOutline,
+} from 'ionicons/icons';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import './styles.scss';
@@ -25,6 +34,7 @@ type Props = {
 
 const Location: FC<Props> = ({ sample: model }) => {
   const toast = useToast();
+  const { t } = useTranslation();
 
   const [map, setMap] = useState<Map | null>();
 
@@ -62,6 +72,10 @@ const Location: FC<Props> = ({ sample: model }) => {
   country = country === 'UK' ? 'GB' : country; // UK -> GB
   country = country || 'GB'; // default GB
 
+  const startGPS = () => !model.isGPSRunning() && model.startGPS();
+
+  const prettyLocation = prettyPrintLocation(location) || t('missing');
+
   return (
     <Page id="survey-location-page">
       <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Home" />
@@ -96,32 +110,65 @@ const Location: FC<Props> = ({ sample: model }) => {
           </InfoButton>
         </InfoMessage>
 
-        <ModelLocation.Header.LocationName
-          value={locationName}
-          onChange={onLocationNameSearch}
-          geocodingParams={{
-            access_token: config.map.mapboxApiKey,
-            types: 'locality,place,district,neighborhood,region,postcode',
-            country,
-          }}
-          icon={searchOutline}
-          placeholder="Search for a location..."
-          inputProps={{
-            autofocus: false,
-          }}
-        />
+        {!device.isOnline && (
+          <InfoMessage icon={warningOutline} className="warning">
+            Looks like you're offline. The map view is only available with an
+            internet connection. You can still use the GPS to set your current
+            survey location.
+          </InfoMessage>
+        )}
 
-        <ModelLocation.Map
-          model={model}
-          location={location}
-          setLocation={setLocation}
-          mapProviderOptions={config.map}
-          onGPSClick={ModelLocation.utils.onGPSClick}
-          whenCreated={setMap}
-        />
+        {device.isOnline && (
+          <ModelLocation.Header.LocationName
+            value={locationName}
+            onChange={onLocationNameSearch}
+            geocodingParams={{
+              access_token: config.map.mapboxApiKey,
+              types: 'locality,place,district,neighborhood,region,postcode',
+              country,
+            }}
+            icon={searchOutline}
+            placeholder="Search for a location..."
+            inputProps={{
+              autofocus: false,
+            }}
+          />
+        )}
+
+        {device.isOnline && (
+          <ModelLocation.Map
+            model={model}
+            location={location}
+            setLocation={setLocation}
+            mapProviderOptions={config.map}
+            onGPSClick={ModelLocation.utils.onGPSClick}
+            whenCreated={setMap}
+          />
+        )}
+
+        {!device.isOnline && (
+          <div className="offline-survey-location rounded">
+            <T>
+              Current survey location: <b>{{ location: prettyLocation }}</b>
+            </T>
+            <IonButton
+              fill="outline"
+              expand="block"
+              size="small"
+              onClick={startGPS}
+            >
+              <IonIcon icon={locateOutline} slot="start" />
+              {model.isGPSRunning() ? <IonSpinner /> : <T>Refresh</T>}
+            </IonButton>
+          </div>
+        )}
       </Main>
 
       {isValueValid() && <Footer link="habitat" />}
+
+      {!isValueValid() && !device.isOnline && (
+        <Footer link="habitat" title="Skip" className="skip-button" />
+      )}
     </Page>
   );
 };

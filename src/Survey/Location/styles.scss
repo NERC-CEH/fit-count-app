@@ -9,6 +9,35 @@
     }
   }
 
+  .info-message.warning {
+    --background: rgba(var(--ion-color-secondary-rgb), 0.1);
+    background: white; // needed for opacity
+
+    ion-note,
+    ion-icon {
+      color: var(--ion-color-secondary-dark) !important;
+    }
+  }
+
+  .offline-survey-location {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+
+    b {
+      font-size: 16px;
+    }
+
+    ion-button {
+      max-width: 200px;
+      margin: 10px auto 0;
+
+      ion-spinner {
+        height: 15px;
+      }
+    }
+  }
+
   .location-name-attr {
     --ion-toolbar-background: white;
     color: var(--ion-color-primary);
@@ -41,5 +70,10 @@
     bottom: 0;
     background: transparent;
     width: 100%;
+
+    .skip-button {
+      --ion-background-color: grey;
+      box-shadow: none;
+    }
   }
 }

@@ -251,6 +251,36 @@ msgstr ""
 "results will be visible to others at the 1 km square level via the UKPoMS "
 "website.</p></3>"
 
+# Survey Location
+#: interface
+msgid "missing"
+msgstr "missing"
+
+# Survey Location
+#: interface
+msgid "Looks like you're offline. The map view is only available with an internet connection. You can still use the GPS to set your current survey location."
+msgstr "Looks like you're offline. The map view is only available with an internet connection. You can still use the GPS to set your current survey location."
+
+# Survey Location
+#: interface
+msgid "Current survey location: <1>{{location}}</1>"
+msgstr "Current survey location: <1>{{location}}</1>"
+
+# Survey Location
+#: interface
+msgid "Refresh"
+msgstr "Refresh"
+
+# Survey Location
+#: interface
+msgid "Skip"
+msgstr "Skip"
+
+# Survey Location
+#: interface
+msgid "Please set a survey location."
+msgstr "Please set a survey location."
+
 # Survey Location alert messag
 #: interface
 msgid "Please select a more accurate location"

@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import exact from 'prop-types-exact';
+import { FC } from 'react';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import { IonItem, IonLabel, IonFooter, IonIcon } from '@ionic/react';
@@ -7,10 +6,15 @@ import clsx from 'clsx';
 import './styles.scss';
 import { flagOutline, chevronForwardOutline } from 'ionicons/icons';
 
-function Footer(props) {
-  const { link, title, onClick } = props;
+type Props = {
+  link?: string;
+  onClick?: any;
+  title?: string;
+  className?: string;
+};
 
-  const navigateTo = link || false;
+const Footer: FC<Props> = ({ link, title, onClick, className }) => {
+  const navigateTo = link || undefined;
 
   const footerTitle = title || 'Next';
 
@@ -22,7 +26,7 @@ function Footer(props) {
       <div id="survey-footer">
         <IonItem
           lines="none"
-          className={clsx('next-button', title && 'finish-button')}
+          className={clsx('next-button', title && 'finish-button', className)}
           routerLink={navigateTo}
           routerOptions={{ unmount: true }}
           onClick={onClick}
@@ -36,12 +40,6 @@ function Footer(props) {
       </div>
     </IonFooter>
   );
-}
-
-Footer.propTypes = exact({
-  link: PropTypes.string,
-  onClick: PropTypes.func,
-  title: PropTypes.string,
-});
+};
 
 export default observer(Footer);
