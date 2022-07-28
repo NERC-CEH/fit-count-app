@@ -1,6 +1,8 @@
 # 1.3.0
 
 Added user account delete.
+Improved offline surveying - allow to skip survey location.
+Bug fixes.
 
 # 1.2.0
 
