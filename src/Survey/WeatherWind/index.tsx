@@ -90,7 +90,11 @@ const WeatherWind: FC<Props> = ({ sample }) => {
 
   return (
     <Page id="survey-weather-wind-page">
-      <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Shade" />
+      <Header
+        sample={sample}
+        surveyProgressIndex={PAGE_INDEX}
+        backButtonLabel="Shade"
+      />
 
       <Main>
         <InfoMessage icon={informationCircleOutline}>

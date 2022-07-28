@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import exact from 'prop-types-exact';
+import { FC } from 'react';
 import {
   IonHeader,
   IonToolbar,
@@ -9,17 +8,26 @@ import {
 } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
-import surveyConfig from '../../config';
+import Sample from 'models/sample';
 import BackButton from './BackButton';
 import './styles.scss';
 
-function SurveyHeader({
+type Props = {
+  sample: Sample;
+  onCancel?: any;
+  backButtonLabel: any;
+  surveyProgressIndex: any;
+  rightSlot?: any;
+};
+
+const SurveyHeader: FC<Props> = ({
   onCancel,
   surveyProgressIndex,
   backButtonLabel,
   rightSlot,
-}) {
-  const { SURVEY_STEP_COUNT } = surveyConfig;
+  sample,
+}) => {
+  const surveyStepCount = sample.getSurveyStepCount();
 
   return (
     <IonHeader id="survey-header">
@@ -28,29 +36,22 @@ function SurveyHeader({
           <BackButton onCancel={onCancel} backButtonLabel={backButtonLabel} />
         </IonButtons>
 
-        <IonTitle mode="ios">
+        <IonTitle>
           <b>{surveyProgressIndex}</b>{' '}
           <span>
-            <T>of</T> {SURVEY_STEP_COUNT}
+            <T>of</T> {surveyStepCount}
           </span>
         </IonTitle>
 
         <IonProgressBar
           color="secondary"
-          value={surveyProgressIndex / SURVEY_STEP_COUNT}
+          value={surveyProgressIndex / surveyStepCount}
         />
 
         {rightSlot}
       </IonToolbar>
     </IonHeader>
   );
-}
-
-SurveyHeader.propTypes = exact({
-  surveyProgressIndex: PropTypes.number.isRequired,
-  backButtonLabel: PropTypes.string.isRequired,
-  onCancel: PropTypes.func,
-  rightSlot: PropTypes.object,
-});
+};
 
 export default observer(SurveyHeader);

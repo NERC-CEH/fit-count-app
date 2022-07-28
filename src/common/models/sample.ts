@@ -20,6 +20,7 @@ type Attrs = SampleAttrs & {
   location: any;
   surveyStartTime?: any;
   'weather-wind'?: any;
+  'location-name'?: any;
 };
 
 class AppSample extends Sample {
@@ -92,6 +93,13 @@ class AppSample extends Sample {
     return this.occurrences
       .filter(hasAbundance)
       .reduce(addUpOccurrencesCounts, 0);
+  };
+
+  getSurveyStepCount = () => {
+    const { SURVEY_STEP_COUNT } = this.getSurvey();
+    const needsLocationName =
+      !this.attrs.location?.latitude || this.attrs['location-name'];
+    return needsLocationName ? SURVEY_STEP_COUNT + 1 : SURVEY_STEP_COUNT;
   };
 
   async upload() {

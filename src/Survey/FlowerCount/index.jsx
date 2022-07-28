@@ -53,7 +53,11 @@ class NumberFlower extends Component {
 
     return (
       <Page id="survey-flower-count-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Flower" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Flower"
+        />
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>

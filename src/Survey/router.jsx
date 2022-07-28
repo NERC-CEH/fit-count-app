@@ -3,6 +3,7 @@ import savedSamples from 'models/savedSamples';
 import StartNewSurvey from './StartNewSurvey';
 import survey from './config';
 import Location from './Location';
+import LocationName from './LocationName';
 import Habitat from './Habitat';
 import FlowerCover from './FlowerCover';
 import Flower from './Flower';
@@ -20,6 +21,7 @@ const { AttrPageFromRoute } = AttrPage;
 const routes = [
   [`${baseURL}`, StartNewSurvey.with(survey), true],
   [`${baseURL}/:smpId/location`, Location],
+  [`${baseURL}/:smpId/location-name`, LocationName],
   [`${baseURL}/:smpId/habitat`, Habitat],
   [`${baseURL}/:smpId/habitat/:attr`, AttrPageFromRoute],
   [`${baseURL}/:smpId/flower-cover`, FlowerCover],

@@ -45,7 +45,11 @@ class WeatherSky extends Component {
 
     return (
       <Page id="survey-weather-sky-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Insect" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Insect"
+        />
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>

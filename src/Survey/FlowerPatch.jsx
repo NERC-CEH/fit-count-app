@@ -45,7 +45,11 @@ class FlowerPatch extends Component {
 
     return (
       <Page id="survey-flower-patch-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Cover" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Cover"
+        />
 
         <Main>
           <InfoMessage icon={locationOutline}>

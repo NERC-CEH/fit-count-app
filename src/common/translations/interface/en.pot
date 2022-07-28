@@ -286,6 +286,21 @@ msgstr "Please set a survey location."
 msgid "Please select a more accurate location"
 msgstr "Please select a more accurate location"
 
+# Survey Location Name
+#: interface
+msgid "Enter your survey location name."
+msgstr "Enter your survey location name."
+
+# Survey Location Name
+#: interface
+msgid "Location name"
+msgstr "Location name"
+
+# Survey Location Name
+#: interface
+msgid "Site name eg nearby village"
+msgstr "Site name eg nearby village"
+
 # Survey content
 #: interface
 msgid "Next"

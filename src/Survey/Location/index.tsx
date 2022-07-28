@@ -76,9 +76,15 @@ const Location: FC<Props> = ({ sample: model }) => {
 
   const prettyLocation = prettyPrintLocation(location) || t('missing');
 
+  const hasLocationName = !!model.attrs['location-name'];
+
   return (
     <Page id="survey-location-page">
-      <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Home" />
+      <Header
+        sample={model}
+        surveyProgressIndex={PAGE_INDEX}
+        backButtonLabel="Home"
+      />
 
       <Main>
         <InfoMessage icon={locationOutline}>
@@ -164,10 +170,12 @@ const Location: FC<Props> = ({ sample: model }) => {
         )}
       </Main>
 
-      {isValueValid() && <Footer link="habitat" />}
+      {isValueValid() && (
+        <Footer link={hasLocationName ? 'location-name' : 'habitat'} />
+      )}
 
       {!isValueValid() && !device.isOnline && (
-        <Footer link="habitat" title="Skip" className="skip-button" />
+        <Footer link="location-name" title="Skip" className="skip-button" />
       )}
     </Page>
   );

@@ -225,6 +225,18 @@ const survey = {
       },
     },
 
+    'location-name': {
+      pageProps: {
+        attrProps: {
+          input: 'input',
+          inputProps: {
+            placeholder: 'Site name eg nearby village',
+          },
+        },
+      },
+      remote: { id: 'location_name' },
+    },
+
     country: {
       remote: { id: 1640, values: countries.map(intoSelectValue) },
     },

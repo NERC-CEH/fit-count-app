@@ -120,7 +120,11 @@ class Flower extends Component {
 
     return (
       <Page id="survey-flower-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Habitat" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Habitat"
+        />
 
         <Main ref={this.contentRef} fullscreen="true">
           <InfoMessage icon={informationCircleOutline}>

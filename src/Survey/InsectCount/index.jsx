@@ -115,6 +115,7 @@ function InsectCount({ sample }) {
   return (
     <Page id="survey-insect-count-page">
       <Header
+        sample={sample}
         surveyProgressIndex={PAGE_INDEX}
         backButtonLabel="Patch"
         rightSlot={clock}

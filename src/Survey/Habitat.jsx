@@ -110,7 +110,11 @@ class Habitat extends Component {
 
     return (
       <Page id="survey-habitat-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Location" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Location"
+        />
 
         <Main ref={this.contentRef}>
           <InfoMessage icon={informationCircleOutline}>

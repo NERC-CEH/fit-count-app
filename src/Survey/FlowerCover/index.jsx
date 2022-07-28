@@ -46,7 +46,11 @@ class FlowerCover extends Component {
 
     return (
       <Page id="survey-flower-cover-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Count" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Count"
+        />
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>

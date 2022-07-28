@@ -45,7 +45,11 @@ class WeatherShade extends Component {
 
     return (
       <Page id="survey-weather-shade-page">
-        <Header surveyProgressIndex={PAGE_INDEX} backButtonLabel="Sky" />
+        <Header
+          sample={sample}
+          surveyProgressIndex={PAGE_INDEX}
+          backButtonLabel="Sky"
+        />
 
         <Main>
           <InfoMessage icon={informationCircleOutline}>
