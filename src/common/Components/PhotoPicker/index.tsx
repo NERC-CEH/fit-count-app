@@ -1,7 +1,8 @@
 import { FC, ComponentProps } from 'react';
 import { PhotoPicker, captureImage } from '@flumens';
 import { observer } from 'mobx-react';
-import { useIonActionSheet } from '@ionic/react';
+import { Capacitor } from '@capacitor/core';
+import { useIonActionSheet, isPlatform } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import Media from 'models/media';
 import Sample from 'models/sample';
@@ -51,7 +52,10 @@ const AppPhotoPicker: FC<Props> = ({ model, isDisabled, ...restProps }) => {
       return null;
     }
 
-    const imageModel = await Media.getImageModel(image, config.dataPath);
+    const imageModel = await Media.getImageModel(
+      isPlatform('hybrid') ? Capacitor.convertFileSrc(image) : image,
+      config.dataPath
+    );
 
     return imageModel;
   }
