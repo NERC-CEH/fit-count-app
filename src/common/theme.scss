@@ -143,3 +143,31 @@ h1 {
 .info-message ion-note {
   font-size: 1em;
 }
+
+.user-register-alert-styles .alert-wrapper {
+  width: 100% !important;
+
+  .alert-tappable {
+    overflow: hidden;
+    height: none;
+    display: contents;
+
+    .alert-button-inner {
+      height: initial;
+      border-bottom: 1px solid lightgray;
+    }
+
+    &:last-of-type {
+      .alert-button-inner {
+        border-bottom: none;
+      }
+    }
+  }
+  .alert-radio-group {
+    max-height: 80%;
+
+    .alert-radio-label {
+      white-space: normal;
+    }
+  }
+}
