@@ -154,7 +154,12 @@ h1 {
 
     .alert-button-inner {
       height: initial;
-      border-bottom: 1px solid lightgray;
+      border-bottom: 1px solid var(--ion-item-border-color);
+    }
+
+    .alert-button-inner.sc-ion-alert-ios {
+      height: initial;
+      border-bottom: 0.55px solid var(--ion-item-border-color);
     }
 
     &:last-of-type {
