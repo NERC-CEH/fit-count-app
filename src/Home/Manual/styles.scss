@@ -1,4 +1,8 @@
 #manual {
+  ion-content {
+    --padding-top: env(safe-area-inset-top) !important;
+  }
+
   ol {
     list-style: none;
     counter-reset: steps;

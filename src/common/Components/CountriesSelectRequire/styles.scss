@@ -1,4 +1,8 @@
 #country-select {
+  ion-content {
+    --padding-top: env(safe-area-inset-top) !important;
+  }
+
   .header {
     width: 100%;
     z-index: 2;

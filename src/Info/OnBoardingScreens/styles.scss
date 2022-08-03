@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: env(safe-area-inset-top) !important;
   }
 }
 
@@ -106,7 +106,7 @@
     max-height: calc(100% - 54px); // - footer
     overflow: scroll;
     margin-bottom: 100px;
-    padding-top: 20px;
+    padding-top: env(safe-area-inset-top) !important;
 
     ol {
       list-style: none;
