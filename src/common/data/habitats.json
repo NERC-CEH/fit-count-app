@@ -4,26 +4,29 @@
     "value": "Garden",
     "UK": true,
     "CY": true,
+    "AR": true,
     "BR": true,
     "IE": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 13558,
     "value": "School Grounds",
     "UK": true,
+    "AR": true,
     "IE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 13559,
     "value": "Parkland with trees",
     "UK": true,
     "CY": true,
+    "AR": true,
     "BR": true,
     "IE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 13560,
@@ -35,6 +38,7 @@
     "warehouseId": 13561,
     "value": "Grassy verge or hedgerow edge",
     "UK": true,
+    "AR": true,
     "IE": true
   },
   {
@@ -42,15 +46,17 @@
     "value": "Grassland with wild flowers (e.g. meadow)",
     "UK": true,
     "CY": true,
+    "AR": true,
     "BR": true,
     "IE": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 13563,
     "value": "Amenity grassland (usually mown short)",
     "UK": true,
+    "AR": true,
     "BR": true,
     "IE": true,
     "DE": true
@@ -59,14 +65,16 @@
     "warehouseId": 13564,
     "value": "Farm crops or grassy pasture",
     "UK": true,
+    "AR": true,
     "BR": true,
     "IE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 13565,
     "value": "Upland moorland",
-    "UK": true
+    "UK": true,
+    "AR": true
   },
   {
     "warehouseId": 13566,
@@ -77,6 +85,7 @@
     "warehouseId": 13567,
     "value": "Waste ground or brownfield site",
     "UK": true,
+    "AR": true,
     "BR": true,
     "DE": true
   },
@@ -84,42 +93,49 @@
     "warehouseId": 13568,
     "value": "Woodland",
     "UK": true,
+    "AR": true,
     "IE": true
   },
   {
     "warehouseId": 18785,
     "value": "Botanical garden",
     "CY": true,
+    "AR": true,
     "BR": true
   },
   {
     "warehouseId": 18786,
     "value": "Forest",
     "CY": true,
+    "AR": true,
     "BR": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 18787,
     "value": "Cultivation",
-    "CY": true
+    "CY": true,
+    "AR": true
   },
   {
     "warehouseId": 18788,
     "value": "Salt marsh",
-    "CY": true
+    "CY": true,
+    "AR": true
   },
   {
     "warehouseId": 18789,
     "value": "Freshwater wetland",
     "CY": true,
+    "AR": true,
     "BR": true
   },
   {
     "warehouseId": 18790,
     "value": "Dry shrub",
-    "CY": true
+    "CY": true,
+    "AR": true
   },
   {
     "warehouseId": 18791,
@@ -129,17 +145,19 @@
   {
     "warehouseId": 18792,
     "value": "Roadside verges",
-    "CY": true
+    "CY": true,
+    "AR": true
   },
   {
     "warehouseId": 13569,
     "value": "Other",
     "UK": true,
     "CY": true,
+    "AR": true,
     "BR": true,
     "IE": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 18900,
@@ -169,8 +187,9 @@
   {
     "warehouseId": 20086,
     "value": "Freshwater edge",
+    "AR": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "warehouseId": 20087,
@@ -209,10 +228,10 @@
   },
   {
     "value": "Shrubland",
-    "CH": true
+    "CL": true
   },
   {
     "value": "Vegtable patch",
-    "CH": true
+    "CL": true
   }
 ]

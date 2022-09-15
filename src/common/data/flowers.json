@@ -36,10 +36,11 @@
     "sort": 4,
     "name": "Dandelion",
     "UK": true,
+    "AR": true,
     "BR": true,
     "IE": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "id": "hawthorn",
@@ -219,7 +220,8 @@
     "sort": 22,
     "name": "Tree Tobacco",
     "scientificName": "Nicotiana glauca",
-    "CY": true
+    "CY": true,
+    "AR": true
   },
   {
     "id": "jasmine",
@@ -228,7 +230,8 @@
     "sort": 23,
     "name": "Spanish Jasmine",
     "scientificName": "Jasminum grandiflorum",
-    "CY": true
+    "CY": true,
+    "AR": true
   },
   {
     "id": "lantana",
@@ -304,7 +307,7 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "CH": true
+    "CL": true
   },
   {
     "id": "oxalis",
@@ -312,7 +315,7 @@
     "type": "Individual Flower",
     "name": "Oxalis",
     "BR": true,
-    "CH": true
+    "CL": true
   },
   {
     "id": "basil",
@@ -424,42 +427,46 @@
     "type": "Individual Flower",
     "name": "Daisy",
     "scientificName": "Bellis perennis",
-    "CH": true
+    "AR": true,
+    "CL": true
   },
   {
     "id": "fuchsia",
     "type": "Individual Flower",
     "name": "Fuchsia",
     "scientificName": "Fuchsia magellanica",
-    "CH": true
+    "AR": true,
+    "CL": true
   },
   {
     "id": "azara",
     "type": "Head",
     "name": "Azara",
     "scientificName": "Azara",
-    "CH": true
+    "CL": true
   },
   {
     "id": "magnolia",
     "type": "Individual Flower",
     "name": "Magnolia",
     "scientificName": "Magnolia grandiflora",
-    "CH": true
+    "AR": true,
+    "CL": true
   },
   {
     "id": "cherry",
     "type": "Individual Flower",
     "name": "Cherry",
     "scientificName": "Prunus cerasus",
-    "CH": true
+    "CL": true
   },
   {
     "id": "canelo",
     "type": "Umbel",
     "name": "Canelo",
     "scientificName": "Drimys winteri",
-    "CH": true
+    "AR": true,
+    "CL": true
   },
   {
     "id": "acacia",
@@ -472,28 +479,28 @@
     "type": "Individual Flower",
     "name": "Rose",
     "scientificName": "Rosa",
-    "CH": true
+    "CL": true
   },
   {
     "id": "arrayan",
     "type": "Umbel",
     "name": "Arrayan",
     "scientificName": "Luma",
-    "CH": true
+    "CL": true
   },
   {
     "id": "murta",
     "type": "Spike",
     "name": "Murta",
     "scientificName": "Ugni molinae",
-    "CH": true
+    "CL": true
   },
   {
     "id": "copihue",
     "type": "Individual Flower",
     "name": "Copihue",
     "scientificName": "Lapageria rosea",
-    "CH": true
+    "CL": true
   },
   {
     "id": "acaciaCH",
@@ -502,6 +509,69 @@
     "sort": 25,
     "name": "Acacia",
     "scientificName": "Acacia saligna",
-    "CH": true
+    "CL": true
+  },
+  {
+    "id": "cicuta",
+    "type": "Umbel",
+    "name": "Cicuta",
+    "scientificName": "Conium maculatum",
+    "AR": true
+  },
+  {
+    "id": "ligustro",
+    "type": "Spike",
+    "name": "Ligustro",
+    "scientificName": "Ligustrum lucidum",
+    "AR": true
+  },
+  {
+    "id": "campanilla",
+    "type": "Individual Flower",
+    "name": "Campanilla",
+    "scientificName": "Ipomoea spp",
+    "AR": true
+  },
+  {
+    "id": "opuntia",
+    "type": "Individual Flower",
+    "name": "Tuna",
+    "scientificName": "Opuntia spp",
+    "AR": true
+  },
+  {
+    "id": "citrus",
+    "type": "Individual Flower",
+    "name": "Naranjo/Limonero",
+    "scientificName": "Citrus spp.",
+    "AR": true
+  },
+  {
+    "id": "achira",
+    "type": "Spike",
+    "name": "Achira",
+    "scientificName": "Canna spp",
+    "AR": true
+  },
+  {
+    "id": "guaran",
+    "type": "Spike",
+    "name": "Guarán",
+    "scientificName": "Tecoma stans",
+    "AR": true
+  },
+  {
+    "id": "senecio",
+    "type": "Head",
+    "name": "Senecio",
+    "scientificName": "Senecio spp",
+    "AR": true
+  },
+  {
+    "id": "pocoto",
+    "type": "Individual Flower",
+    "name": "Pocoto",
+    "scientificName": "Solanum palinacanthum",
+    "AR": true
   }
 ]

@@ -43,7 +43,7 @@ const countries = [
   {
     flag: CL,
     label: 'Chile',
-    value: 'CH',
+    value: 'CL',
     warehouseId: 18973,
   },
 ];
