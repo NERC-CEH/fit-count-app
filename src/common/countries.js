@@ -7,6 +7,7 @@ import SE from 'common/images/seFlag.svg';
 import IE from 'common/images/ieFlag.svg';
 import DE from 'common/images/deFlag.svg';
 import CL from 'common/images/chlFlag.svg';
+import AR from 'common/images/arFlag.svg';
 import 'common/images/argFlag.svg';
 
 const countries = [
@@ -58,13 +59,12 @@ if (isDemo) {
         value: 'SE',
         // warehouseId: -1,
       },
-
-      // {
-      //   flag: AR,
-      //   label: 'Argentina',
-      //   value: 'AR',
-      //   warehouseId: 18969
-      // },
+      {
+        flag: AR,
+        label: 'Argentina',
+        value: 'AR',
+        warehouseId: 18969,
+      },
     ]
   );
 }
