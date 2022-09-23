@@ -147,7 +147,7 @@ const Location: FC<Props> = ({ sample: model }) => {
             location={location}
             setLocation={setLocation}
             mapProviderOptions={config.map}
-            onGPSClick={ModelLocation.utils.onGPSClick}
+            onGPSClick={startGPS}
             whenCreated={setMap}
           />
         )}
