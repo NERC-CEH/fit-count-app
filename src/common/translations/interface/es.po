@@ -3,11 +3,12 @@
 # Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
 # Karolis, 2022
 # Giselle Muschett <giselle.muschett@pucv.cl>, 2022
+# Eduardo E. Zattara <ezattara@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Giselle Muschett <giselle.muschett@pucv.cl>, 2022\n"
+"Last-Translator: Eduardo E. Zattara <ezattara@gmail.com>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -197,7 +198,7 @@ msgstr "Inicio"
 # Home page button label
 #: interface
 msgid "Start Survey"
-msgstr "Empezar encuesta"
+msgstr "Comenzar registro"
 
 # Start survey alert message
 #: interface
@@ -217,7 +218,7 @@ msgstr "Borrador"
 # Start survey alert button message
 #: interface
 msgid "Previous survey draft exists, would you like to continue it?"
-msgstr "Existe un borrador de la encuesta anterior, ¿le gustaría continuarlo?"
+msgstr "Existe un borrador del registro anterior, ¿le gustaría continuarlo?"
 
 # Survey content
 #: interface
@@ -272,7 +273,7 @@ msgstr ""
 # Survey Location
 #: interface
 msgid "missing"
-msgstr ""
+msgstr "no encontrado"
 
 # Survey Location
 #: interface
@@ -280,26 +281,29 @@ msgid ""
 "Looks like you're offline. The map view is only available with an internet "
 "connection. You can still use the GPS to set your current survey location."
 msgstr ""
+"Parece que no estás conectado a la red. La vista de mapa sólo está "
+"disponible con una conexión a Internet. Puedes usar el GPS para definir la "
+"localización de tu observación actual ."
 
 # Survey Location
 #: interface
 msgid "Current survey location: <1>{{location}}</1>"
-msgstr ""
+msgstr "Localización del registro actual: <1>{{location}}</1>"
 
 # Survey Location
 #: interface
 msgid "Refresh"
-msgstr ""
+msgstr "Actualizar"
 
 # Survey Location
 #: interface
 msgid "Skip"
-msgstr ""
+msgstr "Saltear"
 
 # Survey Location
 #: interface
 msgid "Please set a survey location."
-msgstr ""
+msgstr "Por favor, define la localización del registro."
 
 # Survey Location alert messag
 #: interface
@@ -309,17 +313,17 @@ msgstr "Por favor, seleccione una ubicación más precisa"
 # Survey Location Name
 #: interface
 msgid "Enter your survey location name."
-msgstr ""
+msgstr "Ingresa el nombre de la localización de tu registro."
 
 # Survey Location Name
 #: interface
 msgid "Location name"
-msgstr ""
+msgstr "Nombre de la localización"
 
 # Survey Location Name
 #: interface
 msgid "Site name eg nearby village"
-msgstr ""
+msgstr "Nombre del lugar (e.g., población cercana)"
 
 # Survey content
 #: interface
@@ -832,7 +836,7 @@ msgstr "No tiene registros terminados"
 # Add Photo message
 #: interface
 msgid "Choose a method to upload a photo"
-msgstr "Elija un método para subir una foto"
+msgstr "Elija un método para enviar una foto"
 
 # Add Photo message
 #: interface
@@ -1001,7 +1005,7 @@ msgstr "¡El tiempo expira!"
 # My Records page info message
 #: interface
 msgid "Please do not forget to upload any pending surveys!"
-msgstr "¡No olvide cargar ningún registro pendiente!"
+msgstr "¡No olvide enviar cualquier registro pendiente!"
 
 # Credit page
 #: interface
@@ -1019,6 +1023,8 @@ msgid ""
 "Your pending and uploaded <1>records will not be deleted </1> from this "
 "device."
 msgstr ""
+"Tus <1>registros pendientes y enviados \n"
+"no serán eliminados </1> de este dispositivo."
 
 # Onboarding content
 #: interface
@@ -1338,6 +1344,9 @@ msgid ""
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
 "insects per count."
 msgstr ""
+"Contaste <1>{{numberOfOccurrences}} </1>insecto(s) en total - el promedio en"
+" el Reino Unido para <3>{{month}}</3> es "
+"<6>{{averageInsectCountForThisMonth}}</6> insectos por conteo."
 
 # Alert message at the end of survey - non UK
 #: interface
@@ -1730,7 +1739,7 @@ msgstr "Abeja sin aguijón"
 # insects name
 #: BR AR
 msgid "Bumblebees sensu lato"
-msgstr ""
+msgstr "Abejorros y abejas carpinteras"
 
 # insects name
 #: BR AR
@@ -1745,7 +1754,7 @@ msgstr "No lo sé"
 # insects name
 #: DE
 msgid "Carpenter bees"
-msgstr ""
+msgstr "Abejas carpinteras"
 
 # habitats value
 #: UK BR CL CY AR IE DE
@@ -1765,12 +1774,12 @@ msgstr "Parque con árboles"
 # habitats value
 #: UK IE
 msgid "Churchyard"
-msgstr ""
+msgstr "Patio de iglesia o capilla"
 
 # habitats value
 #: UK AR IE
 msgid "Grassy verge or hedgerow edge"
-msgstr ""
+msgstr "Vereda con césped o borde de cerco vivo"
 
 # habitats value
 #: UK BR CL CY AR IE DE
@@ -1780,7 +1789,7 @@ msgstr "Pastizales con flores silvestres (por ejemplo, praderas)"
 # habitats value
 #: UK BR AR IE DE
 msgid "Amenity grassland (usually mown short)"
-msgstr ""
+msgstr "Césped (en general, cortado)"
 
 # habitats value
 #: UK BR CL AR IE
@@ -1840,7 +1849,7 @@ msgstr "Arbusto seco"
 # habitats value
 #: CY
 msgid "Acacia stands"
-msgstr ""
+msgstr "Acacias"
 
 # habitats value
 #: CY AR
@@ -1870,12 +1879,12 @@ msgstr ""
 # habitats value
 #: DE
 msgid "Grassy verge "
-msgstr ""
+msgstr "Vereda con césped "
 
 # habitats value
 #: DE
 msgid "Hedgerow edge "
-msgstr ""
+msgstr "Borde de cerco vivo "
 
 # habitats value
 #: CL AR DE
@@ -1885,37 +1894,37 @@ msgstr "Borde de agua dulce"
 # habitats value
 #: DE
 msgid "Forest edge "
-msgstr ""
+msgstr "Borde de bosque "
 
 # habitats value
 #: DE
 msgid "Field margins "
-msgstr ""
+msgstr "Márgenes de cultivo "
 
 # habitats value
 #: DE
 msgid "Orchard meadow "
-msgstr ""
+msgstr "Pradera de huerto/chacra "
 
 # habitats value
 #: DE
 msgid "Fallow land "
-msgstr ""
+msgstr "Tierra en barbecho "
 
 # habitats value
 #: IE
 msgid "Upland bog/heath"
-msgstr ""
+msgstr "Humedal de altura"
 
 # habitats value
 #: IE
 msgid "Lowland bog/heath"
-msgstr ""
+msgstr "Pantano/brezal de tierras bajas"
 
 # habitats value
 #: IE
 msgid "Waste ground"
-msgstr ""
+msgstr "Terreno baldío"
 
 # habitats value
 #: CL
@@ -1930,7 +1939,7 @@ msgstr "Huerta"
 # flowers name
 #: UK IE DE
 msgid "Bramble"
-msgstr ""
+msgstr "Zarza"
 
 # flowers name
 #: UK IE DE
@@ -2308,6 +2317,8 @@ msgid ""
 "There is just one species of honeybee in Germany. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"Hay una única especie de abeja melífera en Alemania. Anidan en colmenas "
+"artificiales, ocasionalmente estableciendo colmenas silvestres."
 
 # photos extraText
 #: CY AR
@@ -2324,6 +2335,8 @@ msgid ""
 "There is just one species of honeybee in Ireland. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"Hay una única especie de abeja melífera en Irlanda. Anidan en colmenas "
+"artificiales, ocasionalmente estableciendo colmenas silvestres."
 
 # photos extraText
 #: CL

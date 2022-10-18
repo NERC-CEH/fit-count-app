@@ -1,15 +1,14 @@
 # 
 # Translators:
 # Diana Kurch, 2022
-# Elisabeth Kühn, 2022
 # Vilius Stankaitis <vilius@flumens.io>, 2022
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
-# Karolis, 2022
+# Elisabeth Kühn, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2022\n"
+"Last-Translator: Elisabeth Kühn, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,17 +64,17 @@ msgstr "Einstellungen"
 # Menu page content
 #: interface
 msgid "App"
-msgstr ""
+msgstr "App"
 
 # User account delete in the settings
 #: interface
 msgid "Delete account"
-msgstr ""
+msgstr "Benutzerkonto löschen"
 
 # User account delete in the settings
 #: interface
 msgid "You can delete your user account from the system."
-msgstr ""
+msgstr "Du kannst Dein Benutzerkonto aus dem System löschen."
 
 # User account delete in the settings
 #: interface
@@ -83,16 +82,19 @@ msgid ""
 "This will remove your account on the FIT Count website. You will lose access"
 " to any records that you have previously submitted using the app or website."
 msgstr ""
+"Dein Benutzerkonto auf der FIT-Count-Website wird gelöscht. Du verlierst den"
+" Zugriff auf alle Datensätze, die Du zuvor über die App oder die Website "
+"erfasst hast."
 
 # User account delete in the settings
 #: interface
 msgid "Account delete"
-msgstr ""
+msgstr "Benutzerkonto löschen"
 
 # User account delete in the settings
 #: interface
 msgid "Are you sure you want to delete your account?"
-msgstr ""
+msgstr "Bist Du sicher, dass Du Dein Benutzerkonto löschen möchtest?"
 
 # Menu page content
 #: interface
@@ -273,7 +275,7 @@ msgstr ""
 # Survey Location
 #: interface
 msgid "missing"
-msgstr ""
+msgstr "fehlt"
 
 # Survey Location
 #: interface
@@ -281,26 +283,29 @@ msgid ""
 "Looks like you're offline. The map view is only available with an internet "
 "connection. You can still use the GPS to set your current survey location."
 msgstr ""
+"Sieht aus, als ob Du offline bist. Die Kartenansicht ist nur mit einer "
+"Internetverbindung verfügbar. Du kannst dennoch das GPS verwenden, um Deinen"
+" aktuellen Beobachtungsstandort festzulegen."
 
 # Survey Location
 #: interface
 msgid "Current survey location: <1>{{location}}</1>"
-msgstr ""
+msgstr "Aktueller Beobachtungsort: <1>{{Ort}}</1>"
 
 # Survey Location
 #: interface
 msgid "Refresh"
-msgstr ""
+msgstr "Aktualisieren"
 
 # Survey Location
 #: interface
 msgid "Skip"
-msgstr ""
+msgstr "Überspringen"
 
 # Survey Location
 #: interface
 msgid "Please set a survey location."
-msgstr ""
+msgstr "Bitte lege einen Beobachtungsstandort fest."
 
 # Survey Location alert messag
 #: interface
@@ -310,17 +315,17 @@ msgstr "Bitte wähle einen präziseren Standort"
 # Survey Location Name
 #: interface
 msgid "Enter your survey location name."
-msgstr ""
+msgstr "Gib den Namen Deines Beobachtungsstandortes ein."
 
 # Survey Location Name
 #: interface
 msgid "Location name"
-msgstr ""
+msgstr "Name des Beobachtungsstandortes"
 
 # Survey Location Name
 #: interface
 msgid "Site name eg nearby village"
-msgstr ""
+msgstr "Name des Ortes, z. B. nahe gelegenes Dorf"
 
 # Survey content
 #: interface
@@ -664,7 +669,7 @@ msgstr "Bitte Bild der Art hinzufügen"
 # Survey species selection page species list
 #: interface
 msgid "No photo has been added.<br/>Press <3></3> to add."
-msgstr "Es wurde kein Foto hinzugefügt"
+msgstr "Es wurde kein Foto hinzugefügt. <br/>Drücke <3></3>zum Hinzufügen."
 
 # Survey species selection page info message
 #: interface
@@ -1000,6 +1005,8 @@ msgid ""
 "Your pending and uploaded <1>records will not be deleted </1> from this "
 "device."
 msgstr ""
+"Deine ausstehenden und hochgeladenen <1>Datensätze werden nicht von diesem "
+"Gerät gelöscht</1>."
 
 # Onboarding content
 #: interface

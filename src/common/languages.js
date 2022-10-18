@@ -6,12 +6,12 @@ const languages = {
   el: 'Eλληνικά',
   pt: 'Português',
   de: 'Deutsch',
+  es: 'Español',
 };
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   Object.assign(languages, {
-    es: 'Español',
     se: 'Svenska',
   });
 }
