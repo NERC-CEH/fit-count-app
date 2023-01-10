@@ -3,12 +3,12 @@
 # Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
 # Karolis, 2022
 # Giselle Muschett <giselle.muschett@pucv.cl>, 2022
-# Eduardo E. Zattara <ezattara@gmail.com>, 2022
+# Eduardo E. Zattara <ezattara@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Eduardo E. Zattara <ezattara@gmail.com>, 2022\n"
+"Last-Translator: Eduardo E. Zattara <ezattara@gmail.com>, 2023\n"
 "Language-Team: Spanish (https://www.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2049,12 +2049,12 @@ msgstr ""
 # flowers name
 #: CY AR
 msgid "Tree Tobacco"
-msgstr ""
+msgstr "Palán-palán o tabaco moro"
 
 # flowers name
 #: CY AR
 msgid "Spanish Jasmine"
-msgstr ""
+msgstr "Jazmín español"
 
 # flowers name
 #: CY
@@ -2224,47 +2224,47 @@ msgstr "Copihue"
 # flowers name
 #: AR
 msgid "Cicuta"
-msgstr ""
+msgstr "Cicuta"
 
 # flowers name
 #: AR
 msgid "Ligustro"
-msgstr ""
+msgstr "Ligustro"
 
 # flowers name
 #: AR
 msgid "Campanilla"
-msgstr ""
+msgstr "Campanilla"
 
 # flowers name
 #: AR
 msgid "Tuna"
-msgstr ""
+msgstr "Tuna o higo chumbo"
 
 # flowers name
 #: AR
 msgid "Naranjo/Limonero"
-msgstr ""
+msgstr "Naranjo/limonero"
 
 # flowers name
 #: AR
 msgid "Achira"
-msgstr ""
+msgstr "Achira"
 
 # flowers name
 #: AR
 msgid "Guarán"
-msgstr ""
+msgstr "Guarán"
 
 # flowers name
 #: AR
 msgid "Senecio"
-msgstr ""
+msgstr "Senecio"
 
 # flowers name
 #: AR
 msgid "Pocoto"
-msgstr ""
+msgstr "Pocoto"
 
 # photos intro_text
 #: UK DE CY AR IE CL
@@ -2504,6 +2504,10 @@ msgid ""
 "largest bees; workers can be quite small, but are larger than most solitary "
 "bees. "
 msgstr ""
+"Los abejorros son abejas sociales redondeadas y bastante peludas. Las reinas"
+" están entre las abejas más grandes; las obreras  pueden ser bastante "
+"pequeñas, pero en general son más grandes que la mayoría de las abejas "
+"solitarias."
 
 # photos caption_4
 #: BR AR
@@ -2511,6 +2515,8 @@ msgid ""
 "Some species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be all black"
 msgstr ""
+"Algunas especies tienen franjas de colores contrastantes (amarillo, blanco, "
+"negro); otras pueden ser de un único color (naranja o negro)."
 
 # photos extraText
 #: BR AR
@@ -2518,6 +2524,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover."
 msgstr ""
+"Los abejorros tienen un zumbido y patrón de vuelo bamboleante "
+"característicos, y no pueden mantenerse suspendidos en el aire."
 
 # photos intro_text
 #: CL
@@ -2567,26 +2575,33 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
+"Las abejas solitarias son más estilizadas que los abejorros, y en general "
+"son más pequeñas que abejorros o abejas melíferas."
 
 # photos caption_1
 #: UK DE CY IE AR BR
 msgid "Usually quite elongate in shape (but there is lots of variety)"
 msgstr ""
+"Generalmente de forma bastante estilizada (aunque hay una gran variedad)"
 
 # photos caption_2
 #: UK DE CY IE AR BR
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
 msgstr ""
+"Generalmente peludas, pero a menudo con un pelaje menos denso que el de los "
+"abejorros"
 
 # photos caption_3
 #: UK DE CY IE AR
 msgid "Colours usually more subdued and less contrasting than bumblebees"
 msgstr ""
+"De colores generalmente más apagados y menos contrastante que los de los "
+"abejorros"
 
 # photos caption_4
 #: UK DE CY IE AR BR
 msgid "Long antennae, often held straight out in front"
-msgstr ""
+msgstr "Antenas largas, generalmente extendidas hacia adelante"
 
 # photos caption_5
 #: UK DE CY IE AR
@@ -2594,6 +2609,8 @@ msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
 msgstr ""
+"Más pequeñas que las reinas de abejorros, pero las solitarias más grandes "
+"son mayores que obreras pequeñas de abejorros"
 
 # photos extraText
 #: UK
@@ -2629,6 +2646,9 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover."
 msgstr ""
+"Las abejas solitarias vuelan activamente entre las flores, y a veces se "
+"calientan al sol. La mayoría de las especies no es capaz de mantenerse "
+"suspendidas en vuelo."
 
 # photos caption_1
 #: UK IE DE
@@ -2882,6 +2902,8 @@ msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
 msgstr ""
+"Hay muchas especies diferentes de avispas, pero las más familiares son las "
+"avispas sociales, como la que se ve arriba."
 
 # photos caption_1
 #: UK CY AR IE DE BR CL
@@ -3050,6 +3072,8 @@ msgstr ""
 #: UK DE CY IE BR AR
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
+"La mayoría de las moscas florícolas tienen antenas mucho más cortas que las "
+"de abejas o avispas"
 
 # photos caption_3
 #: UK DE CY IE
@@ -3064,6 +3088,8 @@ msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
 msgstr ""
+"Muchas especies de moscas florícolas tienen franjas negras y amarillas, pero"
+" algunas son completamente oscuras o tienen otros patrones."
 
 # photos caption_5
 #: UK DE CY IE BR AR
@@ -3072,6 +3098,9 @@ msgid ""
 "exceptions!), and they do not usually have prominent bristles on the body "
 "(some other types of fly are obviously bristly)"
 msgstr ""
+"Las moscas florícolas son menos peludas que las abejas (aunque hay "
+"excepciones) y generalmente no tienen cerdas prominentes en el cuerpo (otros"
+" tipos de moscas tienen muchas cerdas)"
 
 # photos extraText
 #: UK
@@ -3241,11 +3270,14 @@ msgid ""
 " are very active and agile flyers, and are frequently seen hovering, as you "
 "would expect from their name. "
 msgstr ""
+"Hay muchos tipos de moscas que pueden verse visitando flores. Las moscas "
+"florícolas son voladores activos y ágiles, y frecuentemente se ven "
+"suspendidas en el aire, manteniendo una posición fija durante el vuelo."
 
 # photos caption_1
 #: BR AR
 msgid "Large eyes, covering most of the head"
-msgstr ""
+msgstr "Ojos grandes, cubriendo la mayor parte de la cabeza"
 
 # photos extraText
 #: BR AR
@@ -3253,27 +3285,35 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets."
 msgstr ""
+"Las moscas florícolas se alimentan de néctar y polen, pero no recolectan "
+"néctar ni tienen estructuras especializadas para juntar polen."
 
 # photos intro_text
 #: BR AR
 msgid ""
 "Other flies do not have the ability to hover. Two examples are shown above."
 msgstr ""
+"Otras moscas no tienen la habilidad de mantenerse suspendidas en el aire. "
+"Arriba se muestran dos ejemplos."
 
 # photos caption_1
 #: BR AR
 msgid "This is a fly of the family Empididae"
-msgstr ""
+msgstr "Esta es una mosca de la familia Empididae"
 
 # photos caption_2
 #: BR AR
 msgid "Empididae flies have a long thin proboscis under the head"
 msgstr ""
+"Las moscas de la familia Empididae tienen una trompa larga y delgada debajo "
+"de la cabeza"
 
 # photos caption_3
 #: BR AR
 msgid "Many Empididae flies have a distinctly humped thorax"
 msgstr ""
+"Muchas moscas de la familia Empididae tienen un tórax jorobado "
+"característico"
 
 # photos caption_4
 #: BR AR
@@ -3282,11 +3322,15 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body. This is a parasitic fly from family Tachinidae"
 msgstr ""
+"Algunas de las moscas más grandes que vas a ver en las flores son de "
+"familias \"caliptradas\", la mayoría de las cuales son insectos más bien "
+"redondeados con cerdas evidentes en patas y cuerpo. Esta es una mosca "
+"parasítica de la familia Tachinidae"
 
 # photos caption_5
 #: BR AR UK IE DE CY
 msgid "It has prominent bristles on the abdomen"
-msgstr ""
+msgstr "Tiene cerdas prominentes en el abdomen"
 
 # photos extraText
 #: BR AR
@@ -3294,6 +3338,8 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “flies”!"
 msgstr ""
+"No es necesario reconocer la especie individual para hacer un Conteo FIT. "
+"¡Todas son contadas como \"moscas\"!"
 
 # photos intro_text
 #: UK IE DE CY
@@ -3512,7 +3558,7 @@ msgstr ""
 # photos intro_text
 #: AR
 msgid "Butterflies are very familiar flower visitors."
-msgstr ""
+msgstr "Las mariposas son visitantes florales muy conocidos."
 
 # photos intro_text
 #: CL
@@ -3555,6 +3601,10 @@ msgid ""
 " colour, but can be recognised as beetles by the hard wing cases covering "
 "their abdomen."
 msgstr ""
+"Hay relativamente pocas especies de escarabajo que visiten flores, pero las "
+"que lo hacen pueden ser muy abundantes. Aunque hay una gran diversidad de "
+"tamaños, formas y colores, pueden ser reconocidas como escarabajos por las "
+"alas endurecidas que cubren su abdomen."
 
 # photos caption_1
 #: UK CY AR IE DE BR
@@ -3562,11 +3612,13 @@ msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
 msgstr ""
+"Los escarabajos tienen élitros: un par de alas delanteras endurecidas que "
+"cubren y protegen las delicadas alas traseras y el abdomen"
 
 # photos caption_2
 #: UK CY AR IE DE BR
 msgid "Beetles have chewing mouthparts"
-msgstr ""
+msgstr "Los escarabajos tienen piezas bucales que sirven para masticar"
 
 # photos caption_3
 #: UK CY AR IE DE
@@ -3574,6 +3626,8 @@ msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
+"Este es el escarabajo metálico de fémur grueso (<i>Oedemera nobilis</i>), "
+"especie en la que los machos tienen patas traseras ensanchadas"
 
 # photos intro_text
 #: UK IE DE CY
@@ -3649,6 +3703,11 @@ msgid ""
 "other insects visiting the flowers). Just count them (or estimate them if "
 "there is a large number) and assign them all to this category."
 msgstr ""
+"Esta categoría es para cualquier insecto de menos de 3mm de largo. Estos "
+"insectos pueden ser difíciles de asignar a un grupo particular sin "
+"observarlos muy de cerca (lo que perturbaría a otros insectos visitando las "
+"flores). Simplemente contalos (o hacé una estimación si están en gran "
+"cantidad) y asignalos a todos a esta categoría. "
 
 # photos caption_1
 #: UK AR IE DE
@@ -3656,6 +3715,9 @@ msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
 msgstr ""
+"Este ejemplo muestra una flor con muchos escarabajos del polen (familia "
+"Nitidulidae) - otros \"insectos pequeños\" pueden incluir moscas minúsculas "
+"y avispas parasitoides"
 
 # photos caption_1
 #: BR CY
@@ -3766,6 +3828,9 @@ msgid ""
 "of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
 "America to South America."
 msgstr ""
+"Esta categoría es para cualquier murciélago nectarívoro. Glossophaginae es "
+"una subfamilia de murciélagos de hoja nasal (Phyllostomidae) que puede ser "
+"observada en el sur de Norteamérica, y en todo Centroamérica y Sudamérica. "
 
 # photos caption_1
 #: BR AR
@@ -3773,6 +3838,8 @@ msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
 msgstr ""
+"Este ejemplo muestra una flor siendo visitada por un murciélago de la "
+"especie <i>Glossophaga soricine</i> "
 
 # photos intro_text
 #: BR
@@ -3862,6 +3929,12 @@ msgid ""
 "“other insects”. Sawflies are related to bees and wasps but there are a "
 "number of differences."
 msgstr ""
+"Esta categoría es para cualquier insecto que no encaja en ningún otro grupo "
+"de insectos, y también puede usarse para cualquier insecto que no llegues a "
+"identificar en absoluto. Por favor, contá todos los insectos que veas, y usá"
+" \"otros insectos\" para cualquiera que no reconozcas. Por ejemplo, las "
+"moscas de sierra están emparentadas con abejas y avispas, pero presentan "
+"varias diferencias con estas."
 
 # photos caption_1
 #: UK AR IE DE BR CY
@@ -3869,6 +3942,9 @@ msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
+"Otros insectos que podrías observar incluyen a las moscas de sierra, que "
+"vienen en una variedad de colores y tamaños - algunas de las cuales se "
+"parecen bastante a las avispas"
 
 # photos caption_2
 #: UK AR IE DE BR CY
@@ -3876,17 +3952,20 @@ msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
+"No tienen \"cintura de avispa\" - no hay una angostura entre abdomen y tórax"
 
 # photos caption_3
 #: UK AR IE DE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr ""
+msgstr "Las moscas de sierra no son peludas ni tienen una canastilla de polen"
 
 # photos caption_4
 #: UK AR IE DE
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
+"En general se mueve de modo más lento y con un vuelo más débil que abejas o "
+"avispas"
 
 # photos caption_4
 #: BR CY
