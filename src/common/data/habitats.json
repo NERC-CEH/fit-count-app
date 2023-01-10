@@ -227,10 +227,12 @@
     "IE": true
   },
   {
+    "warehouseId": 20296,
     "value": "Shrubland",
     "CL": true
   },
   {
+    "warehouseId": 20297,
     "value": "Vegtable patch",
     "CL": true
   }

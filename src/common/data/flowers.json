@@ -424,6 +424,7 @@
   },
   {
     "id": "daisy",
+    "warehouseId": 20298,
     "type": "Individual Flower",
     "name": "Daisy",
     "scientificName": "Bellis perennis",
@@ -432,6 +433,7 @@
   },
   {
     "id": "fuchsia",
+    "warehouseId": 20299,
     "type": "Individual Flower",
     "name": "Fuchsia",
     "scientificName": "Fuchsia magellanica",
@@ -440,6 +442,7 @@
   },
   {
     "id": "azara",
+    "warehouseId": 20300,
     "type": "Head",
     "name": "Azara",
     "scientificName": "Azara",
@@ -447,6 +450,7 @@
   },
   {
     "id": "magnolia",
+    "warehouseId": 20301,
     "type": "Individual Flower",
     "name": "Magnolia",
     "scientificName": "Magnolia grandiflora",
@@ -455,6 +459,7 @@
   },
   {
     "id": "cherry",
+    "warehouseId": 20302,
     "type": "Individual Flower",
     "name": "Cherry",
     "scientificName": "Prunus cerasus",
@@ -462,6 +467,7 @@
   },
   {
     "id": "canelo",
+    "warehouseId": 20303,
     "type": "Umbel",
     "name": "Canelo",
     "scientificName": "Drimys winteri",
@@ -470,12 +476,14 @@
   },
   {
     "id": "acacia",
+    "warehouseId": 18803,
     "type": "Head",
     "name": "Acacia",
     "scientificName": "Acacia"
   },
   {
     "id": "rose",
+    "warehouseId": 20305,
     "type": "Individual Flower",
     "name": "Rose",
     "scientificName": "Rosa",
@@ -483,6 +491,7 @@
   },
   {
     "id": "arrayan",
+    "warehouseId": 20306,
     "type": "Umbel",
     "name": "Arrayan",
     "scientificName": "Luma",
@@ -490,6 +499,7 @@
   },
   {
     "id": "murta",
+    "warehouseId": 20307,
     "type": "Spike",
     "name": "Murta",
     "scientificName": "Ugni molinae",
@@ -497,6 +507,7 @@
   },
   {
     "id": "copihue",
+    "warehouseId": 20308,
     "type": "Individual Flower",
     "name": "Copihue",
     "scientificName": "Lapageria rosea",
@@ -513,6 +524,7 @@
   },
   {
     "id": "cicuta",
+    "warehouseId": 20309,
     "type": "Umbel",
     "name": "Cicuta",
     "scientificName": "Conium maculatum",
@@ -520,6 +532,7 @@
   },
   {
     "id": "ligustro",
+    "warehouseId": 20310,
     "type": "Spike",
     "name": "Ligustro",
     "scientificName": "Ligustrum lucidum",
@@ -527,6 +540,7 @@
   },
   {
     "id": "campanilla",
+    "warehouseId": 20311,
     "type": "Individual Flower",
     "name": "Campanilla",
     "scientificName": "Ipomoea spp",
@@ -534,6 +548,7 @@
   },
   {
     "id": "opuntia",
+    "warehouseId": 20312,
     "type": "Individual Flower",
     "name": "Tuna",
     "scientificName": "Opuntia spp",
@@ -541,6 +556,7 @@
   },
   {
     "id": "citrus",
+    "warehouseId": 20313,
     "type": "Individual Flower",
     "name": "Naranjo/Limonero",
     "scientificName": "Citrus spp.",
@@ -548,6 +564,7 @@
   },
   {
     "id": "achira",
+    "warehouseId": 20314,
     "type": "Spike",
     "name": "Achira",
     "scientificName": "Canna spp",
@@ -555,6 +572,7 @@
   },
   {
     "id": "guaran",
+    "warehouseId": 20315,
     "type": "Spike",
     "name": "Guarán",
     "scientificName": "Tecoma stans",
@@ -562,6 +580,7 @@
   },
   {
     "id": "senecio",
+    "warehouseId": 20316,
     "type": "Head",
     "name": "Senecio",
     "scientificName": "Senecio spp",
@@ -569,6 +588,7 @@
   },
   {
     "id": "pocoto",
+    "warehouseId": 20317,
     "type": "Individual Flower",
     "name": "Pocoto",
     "scientificName": "Solanum palinacanthum",
