@@ -5,6 +5,7 @@ import pt from './interface/pt_BR.po';
 import cy from './interface/cy.po';
 import se from './interface/sv_SE.po';
 import de from './interface/de_DE.po';
+import hr from './interface/hr_HR.po';
 
 const rawToKeyVal = lang =>
   Object.entries(lang).reduce((agg, pair) => {
@@ -52,5 +53,8 @@ export default {
   },
   de: {
     interface: rawToKeyVal(de),
+  },
+  hr: {
+    interface: rawToKeyVal(hr),
   },
 };
