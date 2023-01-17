@@ -59,6 +59,7 @@ import './wasps_BR1.jpg?originalName';
 import './wasps_BR2.jpg?originalName';
 import './wasps_BR3.jpg?originalName';
 import './carpenterbees_1.jpg?originalName';
+import './carpenterbees_HR1.jpg?originalName';
 import './beetles_CH12.jpg?originalName';
 import './bumblebees_CH1.jpg?originalName';
 import './bumblebees_CH2.jpg?originalName';

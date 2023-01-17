@@ -16,3 +16,5 @@ import './solitaryBees.png?originalName';
 import './stinglessBees.png?originalName';
 import './carpenterbees.png?originalName';
 import './unknown.png?originalName';
+import './socialWasps.png?originalName';
+import './otherWasps.png?originalName';

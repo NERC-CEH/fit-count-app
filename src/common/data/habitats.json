@@ -8,7 +8,9 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "warehouseId": 13558,
@@ -26,7 +28,9 @@
     "AR": true,
     "BR": true,
     "IE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "warehouseId": 13560,
@@ -39,7 +43,8 @@
     "value": "Grassy verge or hedgerow edge",
     "UK": true,
     "AR": true,
-    "IE": true
+    "IE": true,
+    "SE": true
   },
   {
     "warehouseId": 13562,
@@ -50,7 +55,9 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "warehouseId": 13563,
@@ -59,7 +66,8 @@
     "AR": true,
     "BR": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true
   },
   {
     "warehouseId": 13564,
@@ -74,12 +82,14 @@
     "warehouseId": 13565,
     "value": "Upland moorland",
     "UK": true,
-    "AR": true
+    "AR": true,
+    "SE": true
   },
   {
     "warehouseId": 13566,
     "value": "Lowland heath",
-    "UK": true
+    "UK": true,
+    "SE": true
   },
   {
     "warehouseId": 13567,
@@ -110,26 +120,31 @@
     "AR": true,
     "BR": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "HR": true
   },
   {
     "warehouseId": 18787,
     "value": "Cultivation",
     "CY": true,
-    "AR": true
+    "AR": true,
+    "SE": true,
+    "HR": true
   },
   {
     "warehouseId": 18788,
     "value": "Salt marsh",
     "CY": true,
-    "AR": true
+    "AR": true,
+    "SE": true
   },
   {
     "warehouseId": 18789,
     "value": "Freshwater wetland",
     "CY": true,
     "AR": true,
-    "BR": true
+    "BR": true,
+    "SE": true
   },
   {
     "warehouseId": 18790,
@@ -146,7 +161,8 @@
     "warehouseId": 18792,
     "value": "Roadside verges",
     "CY": true,
-    "AR": true
+    "AR": true,
+    "HR": true
   },
   {
     "warehouseId": 13569,
@@ -157,7 +173,9 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "warehouseId": 18900,
@@ -193,22 +211,24 @@
   },
   {
     "warehouseId": 20087,
-    "value": "Forest edge ",
-    "DE": true
+    "value": "Forest edge ",
+    "DE": true,
+    "HR": true
   },
   {
     "warehouseId": 20088,
-    "value": "Field margins ",
-    "DE": true
+    "value": "Field margins ",
+    "DE": true,
+    "SE": true
   },
   {
     "warehouseId": 20089,
-    "value": "Orchard meadow ",
+    "value": "Orchard meadow ",
     "DE": true
   },
   {
     "warehouseId": 20090,
-    "value": "Fallow land ",
+    "value": "Fallow land ",
     "DE": true
   },
   {
@@ -229,11 +249,56 @@
   {
     "warehouseId": 20296,
     "value": "Shrubland",
-    "CL": true
+    "CL": true,
+    "HR": true
   },
   {
     "warehouseId": 20297,
     "value": "Vegtable patch",
     "CL": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Rocky habitat",
+    "HR": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Wet habitat",
+    "HR": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Urban green spaces",
+    "HR": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Waste ground/exploited land"
+  },
+  {
+    "warehouseId": -1,
+    "value": "Coniferous forest",
+    "SE": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Decidous forest",
+    "SE": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Shrubland",
+    "SE": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Bare land",
+    "SE": true
+  },
+  {
+    "warehouseId": -1,
+    "value": "Artificial land",
+    "SE": true
   }
 ]

@@ -8,6 +8,7 @@ import IE from 'common/images/ieFlag.svg';
 import DE from 'common/images/deFlag.svg';
 import CL from 'common/images/chlFlag.svg';
 import AR from 'common/images/arFlag.svg';
+import HR from 'common/images/hrFlag.svg';
 import 'common/images/argFlag.svg';
 
 const countries = [
@@ -63,6 +64,12 @@ if (isDemo) {
         flag: SE,
         label: 'Sweden',
         value: 'SE',
+        // warehouseId: -1,
+      },
+      {
+        flag: HR,
+        label: 'Croatia',
+        value: 'HR',
         // warehouseId: -1,
       },
     ]

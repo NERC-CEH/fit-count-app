@@ -2,7 +2,7 @@ const fs = require('fs');
 // require('dotenv').config({ silent: true, path: '../../../.env' }); // eslint-disable-line
 const fetchSheet = require('@flumens/fetch-onedrive-excel'); // eslint-disable-line
 
-const countries = ['UK', 'BR', 'CL', 'CY', 'AR', 'IE', 'DE'];
+const countries = ['UK', 'BR', 'CL', 'CY', 'AR', 'IE', 'DE', 'SE', 'HR'];
 
 const drive =
   'sites/flumensio.sharepoint.com,6230bb4b-9d52-4589-a065-9bebfdb9ce63,21520adc-6195-4b5f-91f6-7af0b129ff5c/drive';

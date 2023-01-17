@@ -7,7 +7,8 @@
     "name": "Bramble",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "buddleja",
@@ -27,7 +28,8 @@
     "name": "Buttercup",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "dandelion",
@@ -40,7 +42,9 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "hawthorn",
@@ -60,7 +64,8 @@
     "name": "Heather",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true
   },
   {
     "id": "hogweed",
@@ -80,7 +85,8 @@
     "name": "Ivy",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "knapweed",
@@ -90,7 +96,8 @@
     "name": "Knapweed",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "lavender",
@@ -100,7 +107,8 @@
     "name": "Lavender",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "ragwort",
@@ -120,7 +128,8 @@
     "name": "Thistle",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true
   },
   {
     "id": "whiteClover",
@@ -130,7 +139,8 @@
     "name": "White Clover",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true
   },
   {
     "id": "whiteDeadNettle",
@@ -151,6 +161,13 @@
     "DE": true
   },
   {
+    "id": "redCloverHR",
+    "warehouseId": 20078,
+    "type": "Head",
+    "name": "Red Clover",
+    "HR": true
+  },
+  {
     "id": "fennel",
     "warehouseId": 18793,
     "type": "Umbel",
@@ -160,6 +177,15 @@
     "CY": true
   },
   {
+    "id": "fennelHR",
+    "warehouseId": 18793,
+    "type": "Umbel",
+    "sort": 15,
+    "name": "Fennel",
+    "scientificName": "Foeniculum vulgare",
+    "HR": true
+  },
+  {
     "id": "myrtle",
     "warehouseId": 18794,
     "type": "Head",
@@ -167,6 +193,15 @@
     "name": "Myrtle",
     "scientificName": "Myrtus communis",
     "CY": true
+  },
+  {
+    "id": "myrtleHR",
+    "warehouseId": 18794,
+    "type": "Head",
+    "sort": 16,
+    "name": "Myrtle",
+    "scientificName": "Myrtus communis",
+    "HR": true
   },
   {
     "id": "olive",
@@ -194,6 +229,15 @@
     "name": "Rock-roses",
     "scientificName": "Cistus spp.",
     "CY": true
+  },
+  {
+    "id": "rockRoseHR",
+    "warehouseId": 18797,
+    "type": "Individual Flower",
+    "sort": 19,
+    "name": "Rock-roses",
+    "scientificName": "Cistus spp.",
+    "HR": true
   },
   {
     "id": "anemone",
@@ -307,7 +351,9 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "oxalis",
@@ -593,5 +639,109 @@
     "name": "Pocoto",
     "scientificName": "Solanum palinacanthum",
     "AR": true
+  },
+  {
+    "id": "commonSage",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Common sage",
+    "scientificName": "Salvia officinalis",
+    "HR": true
+  },
+  {
+    "id": "bugleherb",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Bugleherb",
+    "scientificName": "Ajuga reptans",
+    "HR": true
+  },
+  {
+    "id": "commonChicory",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Common chicory ",
+    "scientificName": "Cichorium intybus",
+    "HR": true
+  },
+  {
+    "id": "blueberry",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Blueberry",
+    "scientificName": "Vaccinium myrtillus",
+    "SE": true
+  },
+  {
+    "id": "cowberry",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Cowberry",
+    "scientificName": "Vaccinium vitis-idaea",
+    "SE": true
+  },
+  {
+    "id": "geranium",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Geranium",
+    "scientificName": "Geranium spp",
+    "SE": true
+  },
+  {
+    "id": "devilScabious",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Devil's-bit Scabious/Field Scabious",
+    "scientificName": "Succisa pratensis/Knautia arvensis",
+    "SE": true
+  },
+  {
+    "id": "brownGreaterKnapweed",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Brown knapweed/Greater knapweed",
+    "scientificName": "Centaurea jacea/Centaurea scabiosa ",
+    "SE": true
+  },
+  {
+    "id": "goldenrod",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "European goldenrod",
+    "scientificName": "Solidago virgaurea",
+    "SE": true
+  },
+  {
+    "id": "resebay",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Rosebay willowherb",
+    "scientificName": "Chamaenerion angustifolium",
+    "SE": true
+  },
+  {
+    "id": "redZigZagClover",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Red clover/Zigzag clover",
+    "scientificName": "Trifolium pratense/medium",
+    "SE": true
+  },
+  {
+    "id": "leontodon",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Leontodon, Picris, Hypochaeris and others",
+    "scientificName": "(Leontodon, Picris, Hypochaeris and others incl Hieracium, Pilosella)",
+    "SE": true
+  },
+  {
+    "id": "hogweedAngelica",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Hogweed/wild angelica/garden angelica",
+    "scientificName": "Heracleum sphondylium/Angelica sylvestris/Angelica archangelica",
+    "SE": true
   }
 ]

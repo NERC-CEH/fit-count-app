@@ -9,7 +9,8 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "UK": true
+    "UK": true,
+    "SE": true
   },
   {
     "id": "honeybees",
@@ -62,6 +63,18 @@
   },
   {
     "id": "honeybees",
+    "pictureId": 1,
+    "intro_text": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. ",
+    "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_2": "Eyes covering the sides of the head",
+    "caption_3": "Hind legs broad and flattened",
+    "caption_4": "Abdomen can vary from mostly dark to mostly orange",
+    "caption_5": "Long narrow cell in veins at edge of wing",
+    "extraText": "There is just one species of honeybee in Croatia. They nest in artificial hives, with occasional colonies establishing in the wild.",
+    "HR": true
+  },
+  {
+    "id": "honeybees",
     "pictureId": "BR1",
     "intro_text": "Honeybees are known in Brazil as “european bees” or “africanized bees”. Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. ",
     "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
@@ -81,7 +94,9 @@
     "AR": true,
     "IE": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "honeybees",
@@ -100,7 +115,20 @@
     "caption_4": "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over",
     "caption_5": "Eyes cover the sides of the head, with lots of hair between the eyes",
     "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK.",
-    "UK": true
+    "UK": true,
+    "SE": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": 1,
+    "intro_text": "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees.",
+    "caption_1": "Very hairy / fluffy bees",
+    "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
+    "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_4": "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over",
+    "caption_5": "Eyes cover the sides of the head, with lots of hair between the eyes",
+    "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are about 40 species in Croatia.",
+    "HR": true
   },
   {
     "id": "bumblebees",
@@ -133,7 +161,9 @@
     "caption_2": "This bumblebee is one of the species that are more-or-less ginger-coloured all over",
     "extraText": "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar.",
     "UK": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "bumblebees",
@@ -223,7 +253,8 @@
     "caption_4": "Long antennae, often held straight out in front",
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
     "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK.",
-    "UK": true
+    "UK": true,
+    "SE": true
   },
   {
     "id": "solitaryBees",
@@ -236,6 +267,18 @@
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
     "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 560 species in Germany.",
     "DE": true
+  },
+  {
+    "id": "solitaryBees",
+    "pictureId": 1,
+    "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. ",
+    "caption_1": "Usually quite elongate in shape (but there is lots of variety)",
+    "caption_2": "Usually hairy, but often less densely covered in hairs than bumblebees",
+    "caption_3": "Colours usually more subdued and less contrasting than bumblebees",
+    "caption_4": "Long antennae, often held straight out in front",
+    "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
+    "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 650 species in Croatia.",
+    "HR": true
   },
   {
     "id": "solitaryBees",
@@ -271,7 +314,8 @@
     "caption_4": "Long antennae, often held straight out in front",
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
     "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover.",
-    "AR": true
+    "AR": true,
+    "HR": true
   },
   {
     "id": "solitaryBees",
@@ -281,7 +325,9 @@
     "extraText": "Solitary bees generally nest in burrows or holes. One large group, the mining bees, dig burrows into soil. Another group, including the mason bees and leafcutter bees, make use of holes in wood, plants or walls.",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "solitaryBees",
@@ -301,7 +347,9 @@
     "caption_4": "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – when fresh these bees have clear black and yellow stripes on the abdomen",
     "extraText": "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!",
     "UK": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "solitaryBees",
@@ -392,7 +440,8 @@
     "CY": true,
     "AR": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "wasps",
@@ -405,7 +454,8 @@
     "UK": true,
     "CY": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "wasps",
@@ -418,7 +468,8 @@
     "extraText": "Parasitic wasps lay their eggs into other invertebrates, or their nests, and the larvae of the wasps consume the host invertebrate.",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
   },
   {
     "id": "wasps",
@@ -491,7 +542,8 @@
     "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
     "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
     "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK.",
-    "UK": true
+    "UK": true,
+    "SE": true
   },
   {
     "id": "hoverflies",
@@ -526,6 +578,18 @@
     "caption_3": "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing",
     "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
     "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
+    "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 230 species of hoverfly in Croatia.",
+    "HR": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": 1,
+    "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. ",
+    "caption_1": "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females",
+    "caption_2": "Most hoverflies have much shorter antennae than bees and wasps",
+    "caption_3": "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing",
+    "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
+    "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
     "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 180 species of hoverfly in Ireland.",
     "IE": true
   },
@@ -540,7 +604,9 @@
     "caption_5": "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip of the wing",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "hoverflies",
@@ -562,7 +628,9 @@
     "caption_3": "A few hoverflies are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies",
     "UK": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "hoverflies",
@@ -639,7 +707,9 @@
     "caption_6": "The wing venation is different to hoverflies, with no ‘false margin’ wing vein parallel to the true edge of the wing",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "otherFlies",
@@ -663,7 +733,9 @@
     "caption_4": "It has bristles on the body and legs, and the males in particular have fluffy yellow hairs on the body",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "otherFlies",
@@ -696,7 +768,9 @@
     "extraText": "For the FIT Count there is no need to distinguish between butterflies and moths – they are all counted in the same category.",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -706,7 +780,9 @@
     "caption_2": "Nettle-tap moth (a micro-moth)",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -772,7 +848,9 @@
     "CY": true,
     "AR": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "beetles",
@@ -782,7 +860,9 @@
     "caption_2": "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle – larvae live in decaying wood",
     "UK": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "beetles",
@@ -824,7 +904,9 @@
     "UK": true,
     "AR": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "smallInsects",
@@ -921,7 +1003,18 @@
     "UK": true,
     "AR": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "HR": true
+  },
+  {
+    "id": "otherInsects",
+    "pictureId": 1,
+    "intro_text": "This category is for any insects that don’t fit into the other insect groups, and can also be used for any insects that you can’t identify into a group at all. Please count all the insects you see, and use “other insects” for any that you don’t recognise. For example, solitary wasps, parasitic wasps and sawflies are counted as “other insects”. Sawflies are related to bees and wasps but there are a number of differences.",
+    "caption_1": "Other insects you may see include sawflies, which come in a variety of colours and sizes - some look rather like wasps",
+    "caption_2": "They do not have a “wasp waist” – there is no gap between the abdomen and thorax",
+    "caption_3": "Sawflies are not hairy and do not have a pollen basket",
+    "caption_4": "They are usually quite slow-moving, with a weaker flight than bees or wasps (UK example shown)",
+    "SE": true
   },
   {
     "id": "otherInsects",
@@ -945,7 +1038,9 @@
     "UK": true,
     "BR": true,
     "IE": true,
-    "DE": true
+    "DE": true,
+    "SE": true,
+    "HR": true
   },
   {
     "id": "otherInsects",
@@ -977,5 +1072,22 @@
     "pictureId": 1,
     "intro_text": "The blue-black carpenter bee is a very large and conspicuous species of bee with a black hairy body and blackish to violet shimmering wings. The warmth-loving species has spread in recent years. In Germany there are two other species of the genus Xylocopa that look very similar, but are much rarer.",
     "DE": true
+  },
+  {
+    "id": "carpenterbees",
+    "pictureId": "HR1",
+    "intro_text": "The blue-black carpenter bee is a very large and conspicuous species of bee with a black or gray hairy body and blackish to violet shimmering wings.",
+    "HR": true
+  },
+  {
+    "id": "socialwasps",
+    "pictureId": 1,
+    "intro_text": "There are many different species of wasp, but the most familiar are the social wasps such as the one shown above.",
+    "caption_1": "Long antennae (distinguishes them from most flies)",
+    "caption_2": "There are some hairs on the body, but wasps are usually much less dense and furry compared to bees",
+    "caption_3": "Social wasps have bold black and yellow stripes",
+    "caption_4": "Some wasps have their wings rolled up when at rest",
+    "caption_5": "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen",
+    "SE": true
   }
 ]

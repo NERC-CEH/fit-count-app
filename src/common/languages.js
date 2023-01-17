@@ -14,6 +14,10 @@ if (isDemo) {
   Object.assign(languages, {
     se: 'Svenska',
   });
+
+  Object.assign(languages, {
+    hr: 'Hrvatski',
+  });
 }
 
 export default languages;
