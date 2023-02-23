@@ -1,9 +1,10 @@
 [main]
 host = https://www.transifex.com
 
-[fit-count-app.app]
-file_filter = src/common/translations/interface/<lang>.po
+[o:ceh:p:fit-count-app:r:app]
+file_filter  = src/common/translations/interface/<lang>.po
+source_file  = src/common/translations/interface/en.pot
+source_lang  = en
+type         = PO
 minimum_perc = 0
-source_file = src/common/translations/interface/en.pot
-source_lang = en
-type = PO
+

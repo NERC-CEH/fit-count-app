@@ -1,15 +1,15 @@
 # 
 # Translators:
 # Carin Kullberg <carin@ckg.se>, 2021
+# Karolis, 2021
 # Fredrik Östrand, 2021
 # Lars Pettersson <lars.pettersson@biol.lu.se>, 2022
-# Harriet Arnberg, 2022
-# Karolis, 2022
+# Harriet Arnberg, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2022\n"
+"Last-Translator: Harriet Arnberg, 2023\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/ceh/teams/116172/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,17 +65,17 @@ msgstr "Inställningar"
 # Menu page content
 #: interface
 msgid "App"
-msgstr ""
+msgstr "App"
 
 # User account delete in the settings
 #: interface
 msgid "Delete account"
-msgstr ""
+msgstr "Radera konto"
 
 # User account delete in the settings
 #: interface
 msgid "You can delete your user account from the system."
-msgstr ""
+msgstr "Du kan radera ditt användarkonto från systemet. "
 
 # User account delete in the settings
 #: interface
@@ -83,16 +83,18 @@ msgid ""
 "This will remove your account on the FIT Count website. You will lose access"
 " to any records that you have previously submitted using the app or website."
 msgstr ""
+"Detta kommer radera ditt konto från FIT Counts hemsida. Du kommer förlora "
+"tillgång till alla uppgifter du lagt till i appen och på hemsidan."
 
 # User account delete in the settings
 #: interface
 msgid "Account delete"
-msgstr ""
+msgstr "Ta bort konto"
 
 # User account delete in the settings
 #: interface
 msgid "Are you sure you want to delete your account?"
-msgstr ""
+msgstr "Är du säker på att du vill radera ditt konto? "
 
 # Menu page content
 #: interface
@@ -174,7 +176,7 @@ msgstr "Cypern"
 # Country page content
 #: interface
 msgid "Germany"
-msgstr ""
+msgstr "Tyskland"
 
 # Country page content
 #: interface
@@ -189,7 +191,7 @@ msgstr "Sverige"
 # Country page content
 #: interface
 msgid "Croatia"
-msgstr ""
+msgstr "Kroatien"
 
 # Home page toolbar label
 #: interface
@@ -273,7 +275,7 @@ msgstr ""
 # Survey Location
 #: interface
 msgid "missing"
-msgstr ""
+msgstr "saknas"
 
 # Survey Location
 #: interface
@@ -281,26 +283,29 @@ msgid ""
 "Looks like you're offline. The map view is only available with an internet "
 "connection. You can still use the GPS to set your current survey location."
 msgstr ""
+"Det verkar som att du är offline. Kartvyn är endast tillgänglig vid "
+"internetåtkomst. Du kan fortfarande använda GPS:en för att ställa in din "
+"position."
 
 # Survey Location
 #: interface
 msgid "Current survey location: <1>{{location}}</1>"
-msgstr ""
+msgstr "Nuvarande position: <1>{{position}}</1>"
 
 # Survey Location
 #: interface
 msgid "Refresh"
-msgstr ""
+msgstr "Uppdatera"
 
 # Survey Location
 #: interface
 msgid "Skip"
-msgstr ""
+msgstr "Hoppa över"
 
 # Survey Location
 #: interface
 msgid "Please set a survey location."
-msgstr ""
+msgstr "Vänligen välj position."
 
 # Survey Location alert messag
 #: interface
@@ -310,17 +315,17 @@ msgstr "Ange platsen mer noggrant."
 # Survey Location Name
 #: interface
 msgid "Enter your survey location name."
-msgstr ""
+msgstr "Skriv in positionens namn. "
 
 # Survey Location Name
 #: interface
 msgid "Location name"
-msgstr ""
+msgstr "Positionsnamn"
 
 # Survey Location Name
 #: interface
 msgid "Site name eg nearby village"
-msgstr ""
+msgstr "Platsnamn, ex närliggande ort"
 
 # Survey content
 #: interface
@@ -661,7 +666,7 @@ msgstr "Lägg till en artbild"
 # Survey species selection page species list
 #: interface
 msgid "No photo has been added.<br/>Press <3></3> to add."
-msgstr "Artbild saknas"
+msgstr "Foto saknas. <br/> Tryck <3></3> för att lägga till. "
 
 # Survey species selection page info message
 #: interface
@@ -1007,6 +1012,8 @@ msgid ""
 "Your pending and uploaded <1>records will not be deleted </1> from this "
 "device."
 msgstr ""
+"Dina väntande och uppladdade <1> uppgifter kommer inte raderas </1> från "
+"denna enhet."
 
 # Onboarding content
 #: interface
@@ -1731,12 +1738,12 @@ msgstr "Snickarbin"
 # insects name
 #: SE
 msgid "Social wasps"
-msgstr ""
+msgstr "Sociala getingar"
 
 # insects name
 #: SE
 msgid "Other wasps"
-msgstr ""
+msgstr "Övriga getingar"
 
 # habitats value
 #: UK BR CL CY AR IE DE SE HR
@@ -1871,27 +1878,27 @@ msgstr "Häck-kant"
 # habitats value
 #: CL AR DE
 msgid "Freshwater edge"
-msgstr ""
+msgstr "Sötvattensgräns"
 
 # habitats value
 #: DE HR
 msgid "Forest edge "
-msgstr ""
+msgstr "Skogsbryn"
 
 # habitats value
 #: DE SE
 msgid "Field margins "
-msgstr ""
+msgstr "Åkerkant"
 
 # habitats value
 #: DE
 msgid "Orchard meadow "
-msgstr ""
+msgstr "Fruktträdgårdsäng"
 
 # habitats value
 #: DE
 msgid "Fallow land "
-msgstr ""
+msgstr "Träda"
 
 # habitats value
 #: IE
@@ -1911,51 +1918,51 @@ msgstr "Industrimark"
 # habitats value
 #: CL HR SE
 msgid "Shrubland"
-msgstr ""
+msgstr "Buskmark"
 
 # habitats value
 #: CL
 msgid "Vegtable patch"
-msgstr ""
+msgstr "Grönsaksland"
 
 # habitats value
 #: HR
 msgid "Rocky habitat"
-msgstr ""
+msgstr "Stenig mark"
 
 # habitats value
 #: HR
 msgid "Wet habitat"
-msgstr ""
+msgstr "Våtmark"
 
 # habitats value
 #: HR
 msgid "Urban green spaces"
-msgstr ""
+msgstr "Urbana grönområden"
 
 # habitats value
 msgid "Waste ground/exploited land"
-msgstr ""
+msgstr "Exploaterad mark"
 
 # habitats value
 #: SE
 msgid "Coniferous forest"
-msgstr ""
+msgstr "Barrskog"
 
 # habitats value
 #: SE
 msgid "Decidous forest"
-msgstr ""
+msgstr "Lövskog"
 
 # habitats value
 #: SE
 msgid "Bare land"
-msgstr ""
+msgstr "Bar mark"
 
 # habitats value
 #: SE
 msgid "Artificial land"
-msgstr ""
+msgstr "Artificiell mark"
 
 # flowers name
 #: UK IE DE HR
@@ -2195,162 +2202,162 @@ msgstr "Handroanthus"
 # flowers name
 #: CL AR
 msgid "Daisy"
-msgstr ""
+msgstr "Tusensköna"
 
 # flowers name
 #: CL AR
 msgid "Fuchsia"
-msgstr ""
+msgstr "Fuchsia"
 
 # flowers name
 #: CL
 msgid "Azara"
-msgstr ""
+msgstr "Azara"
 
 # flowers name
 #: CL AR
 msgid "Magnolia"
-msgstr ""
+msgstr "Magnolia"
 
 # flowers name
 #: CL
 msgid "Cherry"
-msgstr ""
+msgstr "Körsbär"
 
 # flowers name
 #: CL AR
 msgid "Canelo"
-msgstr ""
+msgstr "Kanel"
 
 # flowers name
 #: CL
 msgid "Rose"
-msgstr ""
+msgstr "Ros"
 
 # flowers name
 #: CL
 msgid "Arrayan"
-msgstr ""
+msgstr "Myrtel"
 
 # flowers name
 #: CL
 msgid "Murta"
-msgstr ""
+msgstr "Myrten"
 
 # flowers name
 #: CL
 msgid "Copihue"
-msgstr ""
+msgstr "Lapageria rosea"
 
 # flowers name
 #: AR
 msgid "Cicuta"
-msgstr ""
+msgstr "Sprängört"
 
 # flowers name
 #: AR
 msgid "Ligustro"
-msgstr ""
+msgstr "Liguster"
 
 # flowers name
 #: AR
 msgid "Campanilla"
-msgstr ""
+msgstr "Golden trumpet"
 
 # flowers name
 #: AR
 msgid "Tuna"
-msgstr ""
+msgstr "Opuntia"
 
 # flowers name
 #: AR
 msgid "Naranjo/Limonero"
-msgstr ""
+msgstr "Apelsin/Citron"
 
 # flowers name
 #: AR
 msgid "Achira"
-msgstr ""
+msgstr "Arrowroot"
 
 # flowers name
 #: AR
 msgid "Guarán"
-msgstr ""
+msgstr "Guarana"
 
 # flowers name
 #: AR
 msgid "Senecio"
-msgstr ""
+msgstr "Korsört"
 
 # flowers name
 #: AR
 msgid "Pocoto"
-msgstr ""
+msgstr "Solanum palinacanthum"
 
 # flowers name
 #: HR
 msgid "Common sage"
-msgstr ""
+msgstr "Salvia"
 
 # flowers name
 #: HR
 msgid "Bugleherb"
-msgstr ""
+msgstr "Revsuga"
 
 # flowers name
 #: HR
 msgid "Common chicory "
-msgstr ""
+msgstr "Cikoria"
 
 # flowers name
 #: SE
 msgid "Blueberry"
-msgstr ""
+msgstr "Blåbär"
 
 # flowers name
 #: SE
 msgid "Cowberry"
-msgstr ""
+msgstr "Lingon"
 
 # flowers name
 #: SE
 msgid "Geranium"
-msgstr ""
+msgstr "Nävor"
 
 # flowers name
 #: SE
 msgid "Devil's-bit Scabious/Field Scabious"
-msgstr ""
+msgstr "Ängsvädd/Åkervädd"
 
 # flowers name
 #: SE
 msgid "Brown knapweed/Greater knapweed"
-msgstr ""
+msgstr "Rödklint/Väddklint"
 
 # flowers name
 #: SE
 msgid "European goldenrod"
-msgstr ""
+msgstr "Gullris"
 
 # flowers name
 #: SE
 msgid "Rosebay willowherb"
-msgstr ""
+msgstr "Mjölke"
 
 # flowers name
 #: SE
 msgid "Red clover/Zigzag clover"
-msgstr ""
+msgstr "Rödklöver/Skogsklöver"
 
 # flowers name
 #: SE
 msgid "Leontodon, Picris, Hypochaeris and others"
-msgstr ""
+msgstr "Fibblor"
 
 # flowers name
 #: SE
 msgid "Hogweed/wild angelica/garden angelica"
-msgstr ""
+msgstr "Björnloka/strätta/kvanne"
 
 # photos intro_text
 #: UK SE DE CY AR IE CL HR
@@ -2431,6 +2438,8 @@ msgid ""
 " nest in artificial hives, with occasional colonies establishing in the "
 "wild.”?"
 msgstr ""
+"Det finns endast en art honungsbi i Chile (Europeiskt honungsbi). De bor i "
+"artificiella kupor, med endast tillfälliga kolonier i det vilda. "
 
 # photos extraText
 #: HR
@@ -2438,6 +2447,8 @@ msgid ""
 "There is just one species of honeybee in Croatia. They nest in artificial "
 "hives, with occasional colonies establishing in the wild."
 msgstr ""
+"Det finns endast en art honungsbi i Kroatien. De bor i artificiella kupor, "
+"med endast tillfälliga kolonier i det vilda. "
 
 # photos intro_text
 #: BR
@@ -2518,6 +2529,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are about 40 species in Croatia."
 msgstr ""
+"Humlor har ett karakteristiskt surrande flygsätt och hovrar inte. Det finns "
+"ungefär 40 arter i Kroatien."
 
 # photos extraText
 #: DE
@@ -2644,11 +2657,15 @@ msgid ""
 "European bumblebees are very rounded and furry bees. The queens are among "
 "our largest bees; workers are larger than most native bees."
 msgstr ""
+"Europeiska humlor är väldigt runda och pälsiga bin. Honorna, drottningarna, "
+"är bland våra största bin; arbetare är större än de flesta andra bin. "
 
 # photos caption_1
 #: CL
 msgid "European bumblebees can be easily identified by their white/buff rump."
 msgstr ""
+"Europeiska humlor kan enkelt identifieras på deras vita eller matt gula "
+"rumpa. "
 
 # photos intro_text
 #: CL
@@ -2657,21 +2674,24 @@ msgid ""
 "to 40mm. It is the only native bumblebee of Chile and is easy to identify "
 "due to its red-orange colour."
 msgstr ""
+"Bombus dahlbomii är det största biet i världen, upp till 40mm. Det är den "
+"enda inhemska humlan i Chile och identifieras enkelt på deras röd-orangea "
+"färg."
 
 # photos caption_1
 #: CL
 msgid "very fluffly , large, red-orange bee"
-msgstr ""
+msgstr "väldigt pälsigt, stort, röd-oranget bi"
 
 # photos caption_2
 #: CL
 msgid "Large eyes covering most of the sides of the head"
-msgstr ""
+msgstr "Stora ögon som täcker större delen av huvudets sidor. "
 
 # photos caption_3
 #: CL
 msgid "Black legs and underside"
-msgstr ""
+msgstr "Svarta ben och undersida"
 
 # photos intro_text
 #: UK SE DE HR CY IE AR
@@ -2741,6 +2761,8 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 650 species in Croatia."
 msgstr ""
+"Solitärbin flyger aktivt mellan blommor, och vilar ibland i solen. De flesta"
+" arter hovrar inte. Det finns ungefär 650 arter i Kroatien. "
 
 # photos extraText
 #: CY
@@ -2768,6 +2790,8 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover."
 msgstr ""
+"Solitärbin flyger aktivt mellan blommor, och vilar ibland i solen. De flesta"
+" arter hovrar inte. "
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -3008,21 +3032,23 @@ msgid ""
 "augusti) presents two different colour morphs, the dark morph is pictured "
 "above."
 msgstr ""
+"Inhemska chilenska bin är typiskt solitära. Tapetserarbiet (Xylocopa "
+"augusti) uppvisar två olika färgmorfer, den mörka syns på bilden ovan."
 
 # photos caption_1
 #: CL
 msgid "Dark eyes and head"
-msgstr ""
+msgstr "Mörka ögon och huvud"
 
 # photos caption_2
 #: CL
 msgid "Abdomen is dark with orange flanks"
-msgstr ""
+msgstr "Bakkroppen är mörk med orangea sidor"
 
 # photos caption_3
 #: CL
 msgid "Pollen that has been deposited on its back or legs"
-msgstr ""
+msgstr "Pollen som har blivit samlat på ryggen eller benen"
 
 # photos intro_text
 #: CL
@@ -3030,16 +3056,18 @@ msgid ""
 "The yellow or golden morph of the carpenter bee (Xylocopa augusti) is "
 "pictured above."
 msgstr ""
+"Den gula eller gyllene morfen av tapetserarbiet (Xylocopa augusti) syns på "
+"bilden ovan. "
 
 # photos caption_1
 #: CL
 msgid "Bright greenish eyes"
-msgstr ""
+msgstr "Ljusa grönaktiga ögon"
 
 # photos caption_2
 #: CL
 msgid "Fuzzy golden yellow body and legs"
-msgstr ""
+msgstr "Pälsig gyllene/gul kropp och ben"
 
 # photos intro_text
 #: CL
@@ -3047,16 +3075,18 @@ msgid ""
 "Cadeguala occidentalis is probably the native bee that most resembles the "
 "European honeybee"
 msgstr ""
+"Cadeguala occidentalis är antagligen det inhemska biet som mest liknar det "
+"europeiska honungsbiet. "
 
 # photos caption_1
 #: CL
 msgid "Large, dark eyes"
-msgstr ""
+msgstr "Stora, mörka ögon"
 
 # photos caption_2
 #: CL
 msgid "Fuzzy orange body and legs"
-msgstr ""
+msgstr "Pälsig orange kropp och ben"
 
 # photos intro_text
 #: UK CY AR IE DE HR BR SE
@@ -3217,6 +3247,8 @@ msgid ""
 "social wasps such as the one shown above. All wasps pictured are UK species "
 "for reference."
 msgstr ""
+"Det finns många olika sorters getingar, men de mest välkända är sociala "
+"getingar, såsom den som syns ovan. Alla bilder visar engelska arter.  "
 
 # photos intro_text
 #: CL
@@ -3225,6 +3257,8 @@ msgid ""
 "wasps. They are usually not obviously hairy, and they do not have no pollen "
 "basket."
 msgstr ""
+"Det är stor variation i storlek, form och färg mellan solitära getingar. De "
+"är oftast inte tydligt håriga, och de har inga pollenkorgar."
 
 # photos intro_text
 #: UK SE DE CY HR IE
@@ -3312,6 +3346,8 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 230 species of hoverfly in Croatia."
 msgstr ""
+"Blomflugor äter nektar och pollen, men samlar inte nektar och har inga "
+"pollenkorgar. Det finns ungefär 230 arter av blomflugor i Kroatien."
 
 # photos extraText
 #: IE
@@ -3446,16 +3482,18 @@ msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name."
 msgstr ""
+"Blomflugor är väldigt aktiva och smidiga flygare och syns ofta hovra, som "
+"man kan ana från deras namn. "
 
 # photos caption_1
 #: CL
 msgid "Large eyes, covering most of the head in males"
-msgstr ""
+msgstr "Stora ögon som täcker det mesta av huvudet, hos hanar."
 
 # photos caption_2
 #: CL
 msgid "Short antennae"
-msgstr ""
+msgstr "Korta antenner"
 
 # photos caption_3
 #: CL
@@ -3463,16 +3501,18 @@ msgid ""
 "They can have black and yellow stripes, but some are all dark or have other "
 "patterns"
 msgstr ""
+"De kan ha svarta och gula ränder, men några är mörka eller har andra "
+"mönster."
 
 # photos intro_text
 #: CL
 msgid "The fly Toxomerus vertebratus pictured here also has:"
-msgstr ""
+msgstr "Flugan Toxomerus vertebratus, på bilden, har även:"
 
 # photos caption_3
 #: CL
 msgid "All dark abdomen, or black and yellow stripes"
-msgstr ""
+msgstr "Helt mörk kropp, eller svarta och gula ränder"
 
 # photos intro_text
 #: BR AR
@@ -3670,11 +3710,15 @@ msgid ""
 "but not many other flies have. The two examples shown here are UK species "
 "for reference."
 msgstr ""
+"Det finns många olika sorters flugor som ses besöka blommor - För "
+"blombesöksräkningen behöver du endast dela in dem i \"Blomflugor\" och "
+"\"Övriga flugor\". Glöm inte att blomflugor kan hovra, en förmåga som få "
+"andra flugor har. De två exemplen här är engelska arter."
 
 # photos caption_1
 #: CL
 msgid "This is a dance fly (family Empididae)"
-msgstr ""
+msgstr "Detta är en dansfluga (familjen Empididae)"
 
 # photos intro_text
 #: UK IE DE SE HR
@@ -3791,11 +3835,13 @@ msgid ""
 "Butterflies are very familiar flower visitors. The butterfly Vanessa carye, "
 "pictured here is one of the most common butterfly species in Chile."
 msgstr ""
+"Fjärilar är bekanta blombesökare. Fjärilen Vanessa carye, på bilden, är en "
+"av de vanligaste arterna i Chile."
 
 # photos intro_text
 #: AR
 msgid "Butterflies are very familiar flower visitors."
-msgstr ""
+msgstr "Fjärilar är väldigt bekanta blombesökare"
 
 # photos intro_text
 #: CL
@@ -3804,11 +3850,15 @@ msgid ""
 " mostly white wings with a dark wing edge, and a pair of dark spots on the "
 "dorsal side"
 msgstr ""
+"Ovan syns två bilder av en annan vanlig fjäril, Pieris brassicae. Den har "
+"vita vingar med en mört vingspets och ett par mörka fläckar på ovansidan. "
 
 # photos intro_text
 #: CL AR
 msgid "Moths also visit flowers regularly, either by day or by night."
 msgstr ""
+"Nattfjärilar besöker också blommor regelbundet, antingen på dagen eller på "
+"natten."
 
 # photos caption_1
 #: CL AR
@@ -3816,11 +3866,13 @@ msgid ""
 "The Hyles annei moth pictured here is a regular flower visitor. It is a "
 "large moth and from a distance can be confused with a hummingbird"
 msgstr ""
+"Nattfjärilen Hyles annei som syns på bilden är en regelbunden blombesökare. "
+"Det är en stor fjäril som på avstånd kan misstas för en kolibri."
 
 # photos caption_2
 #: CL AR
 msgid "Other moths include Ormiscodes amphinome, pictured here"
-msgstr ""
+msgstr "Andra nattfjärilar kan vara Ormiscodes amphinome, som syns på bilden"
 
 # photos intro_text
 #: UK CY AR IE DE SE HR BR
@@ -3928,11 +3980,13 @@ msgid ""
 "The Cylindrophora maulica beetle is a rare flower visitor but is easily "
 "identified."
 msgstr ""
+"Skalbaggen Cylindrophora maulica besöker sällan blommor, men känns enkelt "
+"igen. "
 
 # photos caption_1
 #: CL
 msgid "A metallic/iridescent body"
-msgstr ""
+msgstr "En metallisk/iriserande kropp"
 
 # photos intro_text
 #: UK AR IE DE SE HR BR CY
@@ -4123,7 +4177,7 @@ msgstr "Glanssmaragd (<i>Chlorostilbon lucidus</i>)"
 # photos intro_text
 #: CL AR
 msgid "Hummingbirds are small, maximum 20cm in length"
-msgstr ""
+msgstr "Kolibrier är små, max 20cm långa"
 
 # photos caption_1
 #: CL AR
@@ -4131,11 +4185,13 @@ msgid ""
 "Males of the Green-backed firecrown (Sephanoides sephaniodes) have "
 "iridescent red/orange feathers on their crown. Females have a green crown."
 msgstr ""
+"Hanar av Sephanoides sephanoides har iriserande rödorangea fjädrar på sin "
+"krona. Honor har grön krona. "
 
 # photos caption_2
 #: CL AR
 msgid "Both males and females have grey bellies, with a mottled appearance"
-msgstr ""
+msgstr "Både hanar och honor har grå mage med ett fläckigt utseende"
 
 # photos intro_text
 #: CL AR
@@ -4143,13 +4199,15 @@ msgid ""
 "Hummingbirds can hover or perch as they drink nectar from flowers. They can "
 "fly forwards and backwards and are very fast."
 msgstr ""
+"Kolibrier kan hovra eller landa medan de dricker nektar från blommor. De kan"
+" flyga både fram. och baklänges och är väldigt snabba. "
 
 # photos caption_1
 #: CL AR
 msgid ""
 "Males of the Oasis hummingbird (Rhodopis vesper) have iridescent violet "
 "feathers on their throats"
-msgstr ""
+msgstr "Hanar av Rhodopis vester har iriserande violetta fjädrar på halsen. "
 
 # photos intro_text
 #: CL
@@ -4158,11 +4216,13 @@ msgid ""
 "greyish/green, with a buff throat and belly and do not have iridescent "
 "feathers"
 msgstr ""
+"Både hanar och honor av Patagonia gigas är till största delen grågröna, med "
+"ljusgul hals och mage och saknar iriserande fjädrar."
 
 # photos caption_1
 #: CL
 msgid "Buff throat and belly, mottled with rusty orange."
-msgstr ""
+msgstr "Ljust gul hals och mage, med inslag av rostbrunt/orange"
 
 # photos intro_text
 #: UK AR IE DE HR BR CY
@@ -4221,6 +4281,12 @@ msgid ""
 "wasps and sawflies are counted as “other insects”. Sawflies are related to "
 "bees and wasps but there are a number of differences."
 msgstr ""
+"Denna kategori är till för alla insekter som inte passar i någon annan "
+"insektsgupp, och kan också användas för alla insekter du inte kan sortera in"
+" i en grupp. Vänligen räkna alla insekter du ser, och använd \"Övriga "
+"insekter\" för det du inte känner igen. Exempelvis solitära getingar, "
+"parasitiska getingar och bladsteklar hamnar i \"Övriga insekter\". "
+"Bladsteklar är släkt med bin och getingar men har flera skillnader."
 
 # photos caption_4
 #: SE BR CY
@@ -4282,16 +4348,19 @@ msgid ""
 "Some insects don’t fit into any other category. The bug Oncopeltus miles is "
 "a rare flower visitor"
 msgstr ""
+"Vissa insekter passar inte i någon kategori. Insekten Oncopeltus miles är en"
+" sällsynt blombesökare."
 
 # photos caption_1
 #: CL
 msgid "Wings overlap and there is no clear midline along the abdomen"
 msgstr ""
+"Vingarna överlappar och det finns ingen tydlig mittlinje längs med kroppen"
 
 # photos caption_2
 #: CL
 msgid "Bright, contrasting colours are common"
-msgstr ""
+msgstr "Ljusa, kontrastrika färger är vanliga"
 
 # photos intro_text
 #: BR
@@ -4332,8 +4401,10 @@ msgid ""
 "The blue-black carpenter bee is a very large and conspicuous species of bee "
 "with a black or gray hairy body and blackish to violet shimmering wings."
 msgstr ""
+"Svartsnickarviet är ett stort iögonfallande bi med svart eller grå hårig "
+"kropp och svart till lila skimrande vingar. "
 
 # photos caption_3
 #: SE
 msgid "Social wasps have bold black and yellow stripes"
-msgstr ""
+msgstr "Sociala getingar har tydligt markerade svarta och gula ränder"
