@@ -42,24 +42,24 @@ const countries = [
     value: 'DE',
     warehouseId: 20082,
   },
-  {
-    flag: CL,
-    label: 'Chile',
-    value: 'CL',
-    warehouseId: 18973,
-  },
-  {
-    flag: AR,
-    label: 'Argentina',
-    value: 'AR',
-    warehouseId: 18969,
-  },
 ];
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   countries.push(
     ...[
+      {
+        flag: CL,
+        label: 'Chile',
+        value: 'CL',
+        warehouseId: 18973,
+      },
+      {
+        flag: AR,
+        label: 'Argentina',
+        value: 'AR',
+        warehouseId: 18969,
+      },
       {
         flag: SE,
         label: 'Sweden',
