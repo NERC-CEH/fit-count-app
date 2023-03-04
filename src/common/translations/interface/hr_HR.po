@@ -35,9 +35,9 @@ msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
-"FIT prebrojavanje (FIT Count) je 10-minutno istraživanje koje se sastoji od "
-"brojanja kukaca koji posjećuju cvijeće. \"FIT Count\" je kratica engleskog "
-"naziva Flower-Insect Timed Count."
+"FIT prebrojavanje (FIT Count) je jednostavna metoda istraživanja oprašivača "
+"koja se sastoji od 10-minutnog brojanja kukaca koji posjećuju cvijeće. \"FIT"
+" Count\" je kratica engleskog naziva Flower-Insect Timed Count."
 
 # Menu page content
 #: interface
@@ -80,7 +80,7 @@ msgid ""
 "This will remove your account on the FIT Count website. You will lose access"
 " to any records that you have previously submitted using the app or website."
 msgstr ""
-"Ovime će Vaš korisnički račun biti izbrisan s FIT Count web stranice. "
+"Ovime će vaš korisnički račun biti izbrisan s FIT Count web stranice. "
 "Izgubiti ćete pristup svim opažanjima koja ste prijavili kroz aplikaciju ili"
 " web stranicu, koristeći ovaj korisnički račun."
 
@@ -107,12 +107,12 @@ msgstr "Jezik"
 # Menu page content
 #: interface
 msgid "Country"
-msgstr "Zemlja"
+msgstr "Država"
 
 # Menu page content
 #: interface
 msgid "Share App Analytics"
-msgstr "Podijeli analitiku o aplikaciji"
+msgstr "Dijeli podatke o aplikaciji"
 
 # Menu page content
 #: interface
@@ -229,7 +229,7 @@ msgstr "Koristite kartu za zumiranje i označite svoju <1>lokaciju</1>."
 # Survey content
 #: interface
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Nazad"
 
 # Survey content
 #: interface
@@ -259,15 +259,15 @@ msgid ""
 msgstr ""
 "Omogućite GPS da odredi vašu lokaciju ili povećajte kartu i sami označite "
 "svoju <1>lokaciju</1>. <3><p> Vaša lokacija prebrojavanja može biti bilo "
-"gdje, ako tamo smijete biti, ako ima cvijeća koje privlači kukce i ako je "
-"sigurno. Vrt, park, polje ili zaštićeno područje su izvrsne lokacije za FIT "
-"prebrojavanje. </p><p>Zumirajte kako biste pronašli mjesto koje najbolje "
-"odgovara vašoj lokaciji.</p><p>Provjerite jeste li uključili GPS i imate li "
-"dopuštenje. Ako provodite FIT prebrojavanje izvan signala ili bez interneta,"
-" aplikacija neće pronaći vašu lokaciju na karti, ali bi ju vaš GPS trebao "
-"zabilježiti za kasnije učitavanje.</p><p> Ako ste u Veikoj Britaniji, vaši "
-"rezultati prebrojavanja bit će vidljivi drugima na razini od 1 kvadratnog "
-"kilometra putem web stranice UKPoMS.</p></3>"
+"gdje gdje ima cvijeća koje privlači kukce, na javnim i privatnim površinama,"
+" ako imate dopuštenje vlasnika. Dvorište, park, polje ili šuma su sve "
+"izvrsne lokacije za FIT prebrojavanje. </p><p>Zumirajte kako biste pronašli "
+"mjesto koje najbolje odgovara vašoj lokaciji.</p><p>Provjerite jeste li "
+"uključili GPS. Ako provodite FIT prebrojavanje izvan dosega signala ili bez "
+"interneta, aplikacija neće pronaći vašu lokaciju na karti, ali bi ju vaš GPS"
+" trebao zabilježiti za kasnije učitavanje.</p><p> Ako ste u Velikoj "
+"Britaniji, vaši rezultati prebrojavanja bit će vidljivi drugima na razini od"
+" 1 kvadratnog kilometra putem web stranice UKPoMS.</p></3>"
 
 # Survey Location
 #: interface
@@ -343,7 +343,7 @@ msgid ""
 "habitat.</p></3>"
 msgstr ""
 "Odaberite jedno <1>stanište</1> koje najbolje odgovara. <3><p>Odaberite "
-"stanište koje najbolje opisuje kvadrat od 50x50 cm koji ste odabrali za "
+"stanište koje najbolje opisuje kvadrat od 50 x 50 cm koji ste odabrali za "
 "prebrojavanje. </p><p>Ako nije navedeno odaberite \"Ostalo\" i unesite "
 "kratak opis staništa. </p></3>"
 
@@ -353,8 +353,7 @@ msgid ""
 "Please type in the name of the habitat you have chosen then go back to the "
 "habitat page"
 msgstr ""
-"Molim unesite naziv staništa koje ste odabrali i potome se vratite na "
-"stranicu staništa."
+"Opišite mjesto gdje se nalazite i zatim se vratite na stranicu staništa."
 
 # Survey habitat page other header label
 #: interface
@@ -364,7 +363,7 @@ msgstr "Stanište"
 # Survey habitat page divider label
 #: interface
 msgid "Other habitat"
-msgstr "Druga staništa"
+msgstr "Ostala staništa"
 
 # Survey flower-cover info message
 #: interface
@@ -373,8 +372,8 @@ msgid ""
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
 "by the leaves of the target plant).</p></3>"
 msgstr ""
-"Koja je pokrovnost ciljnog <1>cvijeta</1>u Vašem 50x50 cm kvadratu? "
-"<3><p>Procijenite koliko površine vašeg 50x50 cm kvadrata pokriva ciljni "
+"Koja je pokrovnost ciljnog <1>cvijeta</1> u vašem 50 x 50 cm kvadratu? "
+"<3><p>Procijenite koliko površine vašeg 50 x 50 cm kvadrata pokriva ciljni "
 "cvijet (ali ne i listovi ciljnog cvijeta).</p></3>"
 
 # Survey flower-cover info message header
@@ -405,7 +404,7 @@ msgstr "Nije zabilježeno"
 # User registration page
 #: interface
 msgid "Create a free account"
-msgstr "Stvorite besplatan korisnički račun"
+msgstr "Izradite svoj korisnički račun"
 
 # User registration page
 #: interface
@@ -438,8 +437,8 @@ msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
-"Klikom na \"Registriraj se\" prihvaćate našu <2> politiku privatnosti</2> te"
-" <6>uvjete korištenja</6>"
+"Registracijom prihvaćate našu <2> politiku privatnosti</2> te <6>uvjete "
+"korištenja</6>"
 
 # User registration page
 #: interface
@@ -543,7 +542,7 @@ msgstr "Dobrodošli natrag"
 # User login page
 #: interface
 msgid "Sign in to your account to start"
-msgstr "Za početak se prijavite u Vaš korisnički račun"
+msgstr "Prijavite se u vaš korisnički račun"
 
 # User login page
 #: interface
@@ -681,13 +680,14 @@ msgid ""
 " upload one or two photos of your target flower.</p><p>This allows us to "
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
-"Koji ciljni <1>cvijet</1>ste odabrali?<3><p>Ako je moguće odaberite jedan od"
-" ciljnih cvjetova sa našeg popisa. </p><p>Ako nijedan od njih nije prisutan "
-"odaberite neki drugi cvijet koji privlači kukce i odaberite \"Ostalo\" te "
-"unesite ime cvijeta.</p><p>Vaš ciljni cvijet može rasti samostalno ili "
-"zajedno sa drugim vrstama cvijeća.</p><p>Za svako FIT prebrojavanje učitajte"
-" jednu do dvije fotografije vašeg ciljnog cvijeta.</p><p>Ovo omogućava "
-"dodatnu provjeru vrste cvijeta korištenu za probrojavanje.</p></3>"
+"Koji ciljni <1>cvijet</1> ste odabrali?<3><p>Ako je moguće odaberite jedan "
+"od ciljnih cvjetova sa našeg popisa. </p><p>Ako nijedan od njih nije "
+"prisutan odaberite neki drugi cvijet koji privlači kukce i odaberite "
+"\"Ostalo\" te unesite ime cvijeta.</p><p>Vaš ciljni cvijet može rasti "
+"samostalno ili zajedno sa drugim vrstama cvijeća.</p><p>Za svako FIT "
+"prebrojavanje učitajte jednu do dvije fotografije vašeg ciljnog "
+"cvijeta.</p><p>Ovo omogućava dodatnu provjeru vrste cvijeta korištenu za "
+"probrojavanje.</p></3>"
 
 # Survey species selection page read more header
 #: interface
@@ -702,7 +702,7 @@ msgstr "Molimo dodajte ime cvijeta"
 # Survey species selection page label
 #: interface
 msgid "Other flower name"
-msgstr "Drugo ime cvijeta"
+msgstr "Naziv vašeg cvijeta"
 
 # Survey species manual entry placeholder
 #: interface
@@ -738,19 +738,19 @@ msgid ""
 "flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
 " unit</3></5></5>"
 msgstr ""
-"Koji je <1>broj</1> i <3>tip</3>cvjetova u vašem kvadratu?<5><p>Broj "
+"Koji je <1>broj</1> i <3>tip</3> cvjetova u vašem kvadratu?<5><p>Broj "
 "cvjetova može znatno utjecati na broj cvjetnih posjeta kukaca, zbog toga je "
 "važno zabilježiti taj podatak!</p><p>Brojite samo cvjetove koji su dovoljno "
 "svježi da privuku kukce - nemojte brojati suhe i uvenule cvjetne glavice, "
 "niti one koje su se osjemenile.</p><p>Cvjetovi različitih struktura se broje"
 " na različite načine.</p><p>Ako ste odabrali ciljni cvijet sa našeg popisa, "
-"tip cvijeta biti će prikazan.</p><p>Ako ste odabrali ciljni cvijet pod "
+"tip cvijeta će biti prikazan.</p><p>Ako ste odabrali ciljni cvijet pod "
 "\"Ostalo\", molim prebrojite:</p><5><0><0>Individualni cvjetovi</0>- svaki "
-"cvijet brojite kao jednu jedinicu</0><1><0>Cvjetne glavice</0>(kada ima puno"
-" pojedinačnih malih cvjetova, kao kod maslačka i tratinčice) -  svaka "
-"cvijetna glavica se broji kao jedna jedinica</1><2><0>Štitac</0>(za male "
+"cvijet brojite kao jednu jedinicu</0><1><0>Cvjetne glavice</0> (kada ima "
+"puno pojedinačnih malih cvjetova, kao kod maslačka i tratinčice) -  svaka "
+"cvijetna glavica se broji kao jedna jedinica</1><2><0>Štitac</0> (za male "
 "cvjetove koji su grupirani u 'štitac', kao preokrenuti kišobran, npr. divlja"
-" mrkva) - svaki štitac brojite kao jednu jedinicu</2><3><0>Klasovi</0>(niz "
+" mrkva) - svaki štitac brojite kao jednu jedinicu</2><3><0>Klasovi</0> (niz "
 "manjih cvjetova duž stabljike, npr. lavanda) - svaki klas se broji kao jedna"
 " jedinica</3></5></5>"
 
@@ -872,7 +872,7 @@ msgstr "Koji ciljni <1>cvijet</1> ste odabrali?"
 # Survey flower page section divider
 #: interface
 msgid "Photo of your target flower"
-msgstr "Fotografija Vašeg ciljnog cvijeta"
+msgstr "Fotografija vašeg ciljnog cvijeta"
 
 # Survey flower page section divider
 #: interface
@@ -902,10 +902,10 @@ msgid ""
 "insects.</p><p>Please indicate the situation that best describes the area "
 "around your flower patch (roughly within 5 metres).</p></3>"
 msgstr ""
-"Raste li vaš 50x50 cm kvadrat <1>ciljnog cvijeta</1>:<3><p> Okruženje "
+"Raste li vaš 50 x 50 cm kvadrat <1>ciljnog cvijeta</1>:<3><p> Okruženje "
 "cvjetnog kvadrata može utjecati na njegovu privlačnost kukcima.</p><p> "
-"odaberite situaciju koja najbolje opisuje okolinu vašeg cvjetnog kvadrata (u"
-" okruženju od otprilike 5 metara).</p></3>"
+"Odaberite opis koji najbolje odgovara okolini vašeg cvjetnog kvadrata (u "
+"krugu od otprilike 5 metara).</p></3>"
 
 # Survey flower patch info button label
 #: interface
@@ -1076,7 +1076,7 @@ msgid ""
 "every insect that lands on the flowers of your chosen target flower species."
 msgstr ""
 "FIT prebrojavanje traje 10-15 minuta, tijekom kojih trebate prebrojati "
-"svakog kukca koji sleti na vaš odabrani ciljni cvijet. "
+"svakog kukca koji sleti na vaš odabrani cvijet. "
 
 # How To page content
 #: interface
@@ -1102,8 +1102,8 @@ msgid ""
 " you can choose a different flower as the target."
 msgstr ""
 "Odaberite samo jedan tip cvijeta za ciljni cvijet - ako možete odaberite "
-"jedan od cvjetova sa našeg popisa, ali ako ih ne možete pronaći odaberite "
-"neki neku drugu vrstu kao ciljni cvijet. "
+"jedan od cvjetova sa našeg popisa, ali ako ih nema odaberite neku drugu "
+"vrstu kao ciljni cvijet. "
 
 # How To page content
 #: interface
@@ -1165,7 +1165,7 @@ msgstr ""
 # Context term
 #: interface
 msgid "The timer will now start!"
-msgstr "Sada će započeti mjerenje vremena!"
+msgstr "Započinje mjerenje vremena!"
 
 # Context term
 #: interface
@@ -1181,7 +1181,8 @@ msgstr ""
 msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
-msgstr "Klikni na sliku kukca da ga pribrojiš ('minus' gumb će smanjiti broj)"
+msgstr ""
+"Klikni na sliku kukca da ga pribrojiš ('minus' gumb će smanjiti broj)."
 
 # Context term
 #: interface
@@ -1238,13 +1239,13 @@ msgstr "Ovo je ID greške: {{eventId}}"
 # From survey pages
 #: interface
 msgid "What is the <1>sky</1> above your location?"
-msgstr "Kakvo je <1>nebo</1>iznad vaše lokacije?"
+msgstr "Kakvo je <1>nebo</1> iznad vaše lokacije?"
 
 # From survey pages
 #: interface
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
 msgstr ""
-"Koliko <1>sunca</1>je bilo u kvadratu tijekom vašeg prebrojavanja; je li "
+"Koliko <1>sunca</1> je bilo u kvadratu tijekom vašeg prebrojavanja; je li "
 "bilo:"
 
 # From survey pages
@@ -1348,7 +1349,7 @@ msgstr "Korisnik"
 # User registration identification experience button label
 #: interface
 msgid "Done"
-msgstr "Gotovo"
+msgstr "Potvrdi"
 
 # User registration "Happy to be contacted" label
 #: interface
@@ -1483,8 +1484,9 @@ msgid ""
 "done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
-"FIT prebrojavanja su za svakoga, u gradu i u prirodi, bilokad unutar sezone "
-"prebrojavanja - u kratkom vodiču <1></1>provjerite sezonu za vašu državu."
+"FIT prebrojavanja su za svakoga, u gradu i u prirodi, bilo kada unutar "
+"sezone - u kratkom vodiču <1></1>provjerite sezonu prebrojavanja za vašu "
+"državu."
 
 # About page content
 #: interface
@@ -1497,12 +1499,12 @@ msgid ""
 "need to identify the insects to species level, only to within broad groups "
 "e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 msgstr ""
-"Sve veći broj dokaza ukazuje na pad broja vrsta oprašivača u mnogim "
-"dijelovima svijeta, s tim da najaviše dokaza dolazi iz Europe i Sjeverne "
-"Amerike. Ali manje znamo o promjenama u brojnosti oprašivača i potrebno nam "
-"je puno više podataka. Vi možete pomoći provodeći FIT prebrojavanja, možda "
-"čak i više puta tijekom sezone. Ne morate znati prepoznavati vrste kukaca, "
-"već samo glavne skupine, npr. bumbari, muhe lebdjelice, leptiri, ose."
+"Sve više dokaza ukazuje na pad broja vrsta oprašivača diljem svijeta, s "
+"najviše dokaza iz Europe i Sjeverne Amerike. Međutim, manje znamo o "
+"promjenama u samoj brojnosti oprašivača i potrebno nam je više podataka. "
+"Provodeći FIT prebrojavanja i vi možete doprinjeti našem razumijevanju "
+"populacija oprašivača. Ne morate znati vrste kukaca, već samo prepoznati "
+"glavne skupine, npr. bumbari, muhe lebdjelice, leptiri, ose."
 
 # About page content
 #: interface
@@ -1511,9 +1513,9 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
-"FIT prebrojavanje je originalno osmišljeno za potrebe monitoringa oprašivača"
-" u Velikoj Britaniji (UK POMS). Slične metoda monitoringe se sada koriste u "
-"mnogim zemljama, a ovu aplikaciju koriste mnogobrojni projekti na "
+"FIT prebrojavanje je originalno osmišljeno za monitoring oprašivača u "
+"Velikoj Britaniji (UK POMS). Slični programi monitoringa se sada provode i u"
+" drugim državama, a ovu aplikaciju koriste mnogobrojni projekti na "
 "oprašivačima:"
 
 # About page content
@@ -1547,7 +1549,7 @@ msgstr ""
 # Survey validation message
 #: interface
 msgid "Please add at least 1 photo."
-msgstr "Molim dodajte barem 1 fotografiju"
+msgstr "Molim dodajte barem 1 fotografiju."
 
 # Survey validation message
 #: interface
@@ -1582,7 +1584,7 @@ msgstr "obavijest o privatnosti"
 # Menu path adress
 #: interface
 msgid "terms"
-msgstr "Uvjeti"
+msgstr "uvjeti"
 
 # Location name search on a map
 #: interface
@@ -2388,7 +2390,8 @@ msgstr "Stražnje noge široke i plosnate"
 #: UK SE DE CY AR IE CL HR BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr ""
-"Boja stražnjeg dijela tijela varira od uglavnom tamne do uglavnom narančaste"
+"Stražnji dio tijela je tamno siv sa narančastim prugama, ali može varirati "
+"od potpuno svjetle do potpuno tamne obojenosti"
 
 # photos caption_5
 #: UK SE DE CY AR IE CL HR BR
@@ -2456,8 +2459,8 @@ msgid ""
 " pollen into a moistened ball on the outside of the hind legs"
 msgstr ""
 "Većina medonosnih pčela koje možete vidjeti su radilice, koje su ženke. "
-"Radilice sakupljaju pelud u vlažnu kuglicu koju nose na vanjskoj strani "
-"stražnjih nogu."
+"Radilice sakupljaju pelud u vlažnu kuglicu koju nose s vanjske strane "
+"stražnjih nogu"
 
 # photos extraText
 #: UK CL CY AR IE DE SE HR BR
@@ -2471,13 +2474,13 @@ msgid ""
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
 "Bumbari su velike, okrugle pčele sa dugim i gustim dlakama. Matice bumbara "
-"su jedne od najvećih pčela. Radilice bumbara mogu biti relativno male, ali "
-"su često veće nego solitarne pčele."
+"su jedne od naših najvećih pčela. Radilice bumbara su manje, ali su uglavnom"
+" veće nego mnoge solitarne pčele."
 
 # photos caption_1
 #: UK SE HR DE IE CY BR AR CL
 msgid "Very hairy / fluffy bees"
-msgstr "Vrlo dlakave / paperjaste pčele."
+msgstr "Vrlo dlakave, paperjaste pčele"
 
 # photos caption_2
 #: UK SE HR DE IE CY BR AR CL
@@ -2485,8 +2488,8 @@ msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
 msgstr ""
-"Zaobljene, gotovo okrugle, stražnji dio tijela prilikom posjeta cvjetovima "
-"često savinut prema unutra."
+"Okruglastog tijela, stražnji dio tijela prilikom posjeta cvjetovima često "
+"savinut prema unutra"
 
 # photos caption_4
 #: UK SE HR DE IE CY
@@ -2495,12 +2498,12 @@ msgid ""
 "blacks), others can be ginger all over"
 msgstr ""
 "Mnoge vrste imaju jednostavne, kontrastne pruge (žute, crne, bijele), a neke"
-" vrste mogu biti gotovo potpuno narančaste."
+" vrste mogu biti gotovo potpuno narančaste"
 
 # photos caption_5
 #: UK SE HR DE IE CY
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
-msgstr "Oči pokrivaju bočne strane glave, područje između očiju je dlakavo."
+msgstr "Oči pokrivaju bočne strane glave, područje između očiju je dlakavo"
 
 # photos extraText
 #: UK SE
@@ -2516,7 +2519,7 @@ msgid ""
 "not hover. There are about 40 species in Croatia."
 msgstr ""
 "Bumbari imaju karakteristično nezgrapan let uz glasno i duboko zujanje, i "
-"nikada ne lebde u mjestu. U Hrvatskoji ima oko 40 vrsta bumbara. "
+"nikada ne lebde u mjestu. U Hrvatskoji ima oko 40 vrsta bumbara."
 
 # photos extraText
 #: DE
@@ -2538,16 +2541,15 @@ msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
 msgstr ""
-"Matice i radilice bumbara sakupljaju pelud u vlažnu kuglicu koju nose na "
-"vanjskoj strani stražnjih nogu."
+"Matice i radilice bumbara sakupljaju pelud u vlažnu kuglicu koju nose s "
+"vanjske strane stražnjih nogu"
 
 # photos caption_2
 #: UK DE SE HR
 msgid ""
 "This bumblebee is one of the species that are more-or-less ginger-coloured "
 "all over"
-msgstr ""
-"Ovo je jedna od vrsta bumbara koji su manje ili više potpuno narančasti."
+msgstr "Ovo je jedna od vrsta bumbara koja je manje-više narančasta"
 
 # photos extraText
 #: UK DE SE HR CY IE
@@ -2663,23 +2665,24 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
-"Solitarne pčele su manje okruglaste od bumbara, i većina vrsta je manja i od"
-" bumbara i od medonosne pčele. "
+"Solitarne pčele su vitkije od bumbara, a veličinom su uglavnom manje i od "
+"bumbara i od medonosne pčele. "
 
 # photos caption_1
 #: UK SE DE HR CY IE AR BR
 msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr "Često izdužena tijela (ali može varirati)."
+msgstr ""
+"Oblikom tijela mogu biti vrlo varijabilne (ali mnoge vrste su duguljaste)"
 
 # photos caption_2
 #: UK SE DE HR CY IE AR BR
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr "Uglavnom dlakave, ali dlake većinom nisu tako guste kao kod bumbara."
+msgstr "Uglavnom dlakave, ali dlake većinom nisu tako guste kao kod bumbara"
 
 # photos caption_3
 #: UK SE DE HR CY IE AR
 msgid "Colours usually more subdued and less contrasting than bumblebees"
-msgstr "Boje uglavnom zagasitije i manje izražene nego kod bumbara."
+msgstr "Boje uglavnom zagasitije i manje izražene nego kod bumbara"
 
 # photos caption_4
 #: UK SE DE HR CY IE AR BR
@@ -2692,7 +2695,7 @@ msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
 msgstr ""
-"Uglavnom manje od matica bumbara, iako su naše najveće solitarne pčele veće."
+"Uglavnom manje od matica bumbara, iako su naše najveće solitarne pčele veće"
 
 # photos extraText
 #: UK SE
@@ -2714,7 +2717,7 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 650 species in Croatia."
 msgstr ""
-"Solitarne pčele aktivno lete od cvijeta da cvijeta i ponekad se sunčaju. "
+"Solitarne pčele aktivno lete od cvijeta do cvijeta i ponekad se sunčaju. "
 "Većina vrsta ne lebdi u mjestu. U Hrvatskoj ima oko 650 različitih vrsta."
 
 # photos extraText
@@ -2746,8 +2749,8 @@ msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
 msgstr ""
-"Neke solitarne pčele sakupljaju suh pelud u peludnu košaricu na stražnjim "
-"nogama (iznad lijevo, pčele pješčarke)"
+"Neke solitarne pčele pelud sakupljaju u košaricu na stražnjim nogama (iznad "
+"lijevo, pčele pješčarke)"
 
 # photos caption_2
 #: UK IE DE SE HR
@@ -2755,8 +2758,8 @@ msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
 msgstr ""
-"Druge imaju peludnu košaricu sa donje strane zatka (kao pčela rezačica desno"
-" iznad)"
+"Druge pčele imaju peludnu košaricu sa donje strane zatka (kao pčela "
+"rezačica, desno iznad)"
 
 # photos extraText
 #: UK IE DE SE HR CY
@@ -2765,9 +2768,10 @@ msgid ""
 "mining bees, dig burrows into soil. Another group, including the mason bees "
 "and leafcutter bees, make use of holes in wood, plants or walls."
 msgstr ""
-"Solitarne pčele uglavnom gnijezde u rupama. Jedna velika skupina, pčele "
-"pješčarke, same kopaju rupe u tlu. Druge skupine, kao što su pčele rezačice "
-"i zidarice, koriste postojeće rupe u drvetu, biljkama ili zidovima. "
+"Solitarne pčele uglavnom gnijezde u raznim rupama. Pčele pješčarke, jedna "
+"raznolika skupina, same kopaju rupe u tlu. Druge skupine, kao što su pčele "
+"rezačice i zidarice, koriste već postojeće šupljine u drvetu, biljkama ili "
+"zidovima. "
 
 # photos caption_1
 #: CY
@@ -2789,15 +2793,15 @@ msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
 msgstr ""
-"Vrste solitarnih pčela razlikuju se po veličini, bojama i tome koliko su "
-"dlakave. Neki od primjera su pokazani iznad."
+"Solitarne pčele se razlikuju u veličini, bojama i dlakavosti - neki od "
+"primjera su pokazani iznad."
 
 # photos caption_1
 #: UK DE SE HR IE
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
-"Obična pčela pješčarka (<i>Andrena cineraria</i>) ima crne i sive pruge."
+"Obična pčela pješčarka (<i>Andrena cineraria</i>) ima crne i sive pruge"
 
 # photos caption_2
 #: UK DE SE HR IE
@@ -2808,7 +2812,7 @@ msgid ""
 msgstr ""
 "Skupina nomadskih pčela (rod <i>Nomada</i>) može izgledati slično osama, ali"
 " imaju dlake na nekim dijelovima tijela. Imaju karakterističan oblik tijela "
-"i neku kombinaciju crne, crvene i žute obojenosti."
+"i neku kombinaciju crne, crvene i žute obojenosti"
 
 # photos caption_3
 #: UK DE SE HR
@@ -2826,7 +2830,7 @@ msgid ""
 "when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
 "Krajem ljeta pčele bršljanke (<i>Colletes hederae</i>) posjećuju cvijeće "
-"bršljana - ove pčele imaju jasne crno žute pruge na zatku kada su mlade."
+"bršljana - ove pčele imaju jasne crno žute pruge na zatku kada su mlade"
 
 # photos extraText
 #: UK DE SE HR CY IE BR
@@ -3045,9 +3049,9 @@ msgid ""
 "pollen they have no pollen basket (although pollen may become stuck to their"
 " bodies)."
 msgstr ""
-"Solitarne ose su vrlo varijabilne u veličini, obliku i obojenosti. Obično "
-"nisu dlakave i budući da ne sakupljaju pelud nemaju peludne košarice (iako "
-"se zrnca peludi mogu zaljepiti za njihovo tijelo)."
+"Solitarne ose mogu biti različitih veličina, oblika i obojenosti. Obično "
+"nisu dlakave i ne sakupljaju pelud, tako da nemaju peludne košarice (iako se"
+" zrnca peludi ponekad mogu zaljepiti za njih)."
 
 # photos caption_1
 #: UK CY IE DE HR CL
@@ -3170,8 +3174,9 @@ msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
 msgstr ""
-"Velike oči koje zauzimaju većinu glave kod mužjaka (pokazano iznad) ili sa "
-"malim razmakom između očiju na vrhu glave kod ženki"
+"Oči su vrlo velike - zauzimaju većinu glave. Oči su spojene kod većine "
+"mužjaka (slika iznad), a ženke imaju mali razmak između očiju, na vrhu "
+"glave."
 
 # photos caption_2
 #: UK SE DE CY HR IE BR AR
@@ -3184,8 +3189,8 @@ msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
 msgstr ""
-"Krila imaju \"lažni rub\", krilnu venu koja se pruža manje više paralelno sa"
-" stvarnim rubom krila"
+"Krila imaju \"lažni rub\", krilnu venu koja se pruža uzduž stvarnog ruba "
+"krila"
 
 # photos caption_4
 #: UK SE DE CY HR IE BR AR
@@ -3300,7 +3305,7 @@ msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
-"Muha stršljenica (<i> Volucella zonaria</i>) je naša najveća lebdjelica i "
+"Muha stršljenica (<i>Volucella zonaria</i>) je naša najveća lebdjelica i "
 "vrlo dobar imitator stršljena, ali primjetite kratka ticala"
 
 # photos caption_2
@@ -3459,11 +3464,11 @@ msgid ""
 "but not many other flies have. Two examples of “other flies” are shown above"
 " and two on the next screen."
 msgstr ""
-"Cvijeće posjećuju mnoge vrste muha - za FIT prebrojavanje samo trebaš "
+"Cvijeće posjećuju mnoge vrste muha - za FIT prebrojavanje samo trebate "
 "prepoznati spadaju li u \"muhe lebdjelice\" ili \"ostale muhe\"! Ne "
-"zaboravite da lebdjelice mogu lebdjeti, sposobnost koju imaju malo koje "
-"druge muhe. Neki primjeri \"ostalih muha\" su pokazani iznad i na sljedeće "
-"dvije strane."
+"zaboravite da lebdjelice mogu lebdjeti u mjestu, sposobnost koju imaju malo "
+"koje druge muhe. Neki primjeri \"ostalih muha\" su pokazani iznad i na "
+"sljedećoj strani."
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -3478,8 +3483,7 @@ msgstr "Mnoge plesalice imaju dugo tanko rilo s donje strane glave"
 # photos caption_3
 #: UK IE DE SE HR CY CL
 msgid "Many dance flies have a distinctly humped thorax"
-msgstr ""
-"Mnoge plesalice imaju izrazitu grbu na toraksu, srednjem dijelu tijela"
+msgstr "Srednji dio tijela kod plesalica može imati vidljivu grbu"
 
 # photos caption_4
 #: UK IE DE SE HR CL
@@ -3501,8 +3505,8 @@ msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
 msgstr ""
-"Venacija krila je drugačija nego kod lebdjelica, bez vena \"lažnog ruba\" "
-"paralelnog stvarnom rubu krila"
+"Venacija krila je drugačija nego kod muha lebdjelica, bez vena \"lažnog "
+"ruba\" uzduž ruba krila"
 
 # photos caption_1
 #: CY
@@ -3578,7 +3582,7 @@ msgid ""
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
-"Leptiri su vrlo česti posjetitelji cvijeća. Noćne leptire viđamo rjeđe od "
+"Leptiri su vrlo česti cvjetni posjetitelji. Noćne leptire viđamo rjeđe od "
 "danjih, ali i oni često posjećuju cvijeće, i noću i danju. Neki noćni "
 "leptiri (vidi iduću stranu) su prilično mali i lako ih možete zamijeniti za "
 "druge kukce."
@@ -3742,7 +3746,7 @@ msgstr ""
 # photos intro_text
 #: UK IE DE SE HR CY
 msgid "Above are two more examples of beetles that regularly visit flowers."
-msgstr "Iznad su još dva primjera kornjaša koji redovito posjećuju cvijeće."
+msgstr "Ovo su još dva primjera kornjaša koji redovito posjećuju cvijeće."
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -3827,7 +3831,7 @@ msgid ""
 "other “small insects” may include tiny flies and parasitic wasps"
 msgstr ""
 "Ovo je primjer cvijeta sa mnogim sjajnicima (porodica Nitidulidae) - drugi "
-"\"mali kukci\" mogu uključiti sičušne muhe i i parazitske osice "
+"\"mali kukci\" su sičušne muhe i parazitske osice "
 
 # photos caption_1
 #: BR CY
@@ -4022,12 +4026,11 @@ msgid ""
 "“other insects”. Sawflies are related to bees and wasps but there are a "
 "number of differences."
 msgstr ""
-"Ova kategorija je za kukce koji ne pripadaju u navedene skupine, ili za koje"
-" ne znate kamo pripadaju. Naprosto prebrojite sve kukce koje opazite, a ovoj"
-" kategoriji pribrojite one koje ne prepoznajete kao pripadnike drugih "
-"skupina. Na primjer, ose biljarice se broje kao \"drugi kukci\". Ose "
-"biljarice su srodne ostalim osama i pčelama, ali su po nekim obilježjima "
-"različite."
+"Ova kategorija je za kukce koji ne pripadaju u nijednu drugu skupinu, ili za"
+" koje ne znate kamo pripadaju. Naprosto prebrojite sve kukce koje opazite, a"
+" ovoj kategoriji pribrojite one koje ne možete drugdje smjestiti. Na "
+"primjer, ose biljarice se broje kao \"ostali kukci\". Ose biljarice su "
+"srodne ostalim osama i pčelama, ali su po nekim obilježjima različite."
 
 # photos caption_1
 #: UK AR IE DE HR SE BR CY
@@ -4035,9 +4038,9 @@ msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
-"Drugi kukci koje možete vidjeti su npr. ose biljarice, koje mogu biti raznih"
-" boja i oblika i kod kojih neke mogu ličiti na uskozačane ose, ose sa uskim "
-"strukom."
+"Ostali kukci koje možete vidjeti su npr. ose biljarice, koje mogu biti "
+"raznih boja i oblika i koje mogu ličiti na tzv. uskozačane ose, ose s uskim "
+"strukom"
 
 # photos caption_2
 #: UK AR IE DE HR SE BR CY
@@ -4046,12 +4049,12 @@ msgid ""
 "thorax"
 msgstr ""
 "Nemaju osoliki, uski struk - nema suženja između srednjeg i stražnjeg dijela"
-" tijela."
+" tijela"
 
 # photos caption_3
 #: UK AR IE DE HR SE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr "Ose biljarice nisu dlakave i nemaju košarice za pelud."
+msgstr "Ose biljarice nisu dlakave i nemaju košarice za pelud"
 
 # photos caption_4
 #: UK AR IE DE HR
@@ -4086,9 +4089,9 @@ msgid ""
 "occasionally, and if so they are counted in the “other insects” category. "
 "They are sometimes confused with beetles."
 msgstr ""
-"Polukrilci nisu jako česti cvjetni posjetitelji, ali ćete ih možda povremeno"
-" vidjeti. U tom slučaju ih pribrojite kategoriji \"drugi kukci\". Nekada ih "
-"se može zamjeniti sa kornjašima."
+"Polukrilci nisu jako česti cvjetni posjetitelji, ali ćete ih možda vidjeti. "
+"Pribrojite ih u kategoriji \"ostali kukci\". Nekada ih se može zamjeniti sa "
+"kornjašima."
 
 # photos caption_1
 #: UK BR IE DE SE HR CY
@@ -4097,7 +4100,7 @@ msgid ""
 "abdomen – the wings form a X-shape"
 msgstr ""
 "Polukrilci imaju krila koja se preklapaju, tako da nema jasne linije duž "
-"sredine tijela - krila formiraju oblik slova X"
+"sredine tijela - krila formiraju X"
 
 # photos caption_2
 #: UK BR IE DE SE HR CY
