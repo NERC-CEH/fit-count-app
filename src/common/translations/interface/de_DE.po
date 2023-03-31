@@ -2,13 +2,13 @@
 # Translators:
 # Diana Kurch, 2022
 # Vilius Stankaitis <vilius@flumens.io>, 2022
-# Jim Chiazzese <JimChi@ceh.ac.uk>, 2022
 # Elisabeth Kühn, 2023
+# Jim Chiazzese <JimChi@ceh.ac.uk>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Elisabeth Kühn, 2023\n"
+"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2023\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1892,22 +1892,22 @@ msgstr "Uferbereich von Flüssen, Bächen oder Seen"
 # habitats value
 #: DE HR
 msgid "Forest edge "
-msgstr ""
+msgstr "Waldrand"
 
 # habitats value
 #: DE SE
 msgid "Field margins "
-msgstr ""
+msgstr "Feldrand/Feldsaum"
 
 # habitats value
 #: DE
 msgid "Orchard meadow "
-msgstr ""
+msgstr "Obstwiese"
 
 # habitats value
 #: DE
 msgid "Fallow land "
-msgstr ""
+msgstr "Brache"
 
 # habitats value
 #: IE

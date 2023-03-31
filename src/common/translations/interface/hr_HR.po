@@ -129,7 +129,7 @@ msgstr "Zahvalni smo svim ljudima koji su pomogli u stvaranju ove aplikacije:"
 # Credits page content
 #: interface
 msgid "App design concepts"
-msgstr "Koncepti dizajna aplikacije:"
+msgstr "Koncepti dizajna aplikacije"
 
 # Onboarding Page button label
 #: interface
@@ -710,8 +710,8 @@ msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
 msgstr ""
-"Molim unesite naziv ciljnog cvijeta koji ste odabrali i potom se vratite na "
-"stranicu ciljnog cvijeta."
+"Molim upišite ime cvijeta kojeg ste odabrali i potom se vratite na stranicu "
+"ciljnog cvijeta."
 
 # Survey flower count page divider label
 #: interface
@@ -852,7 +852,7 @@ msgstr "Fotografije cvjetova i kukaca:"
 # Credits page content
 #: interface
 msgid "Thanks to the following for additional photos"
-msgstr "Za dodatne fotografije zahvaljujemo sljedećima"
+msgstr "Za dodatne fotografije zahvaljujemo "
 
 # Credits page content
 #: interface
@@ -980,7 +980,7 @@ msgstr "Pauzirano"
 # Survey insect count page counter button label
 #: interface
 msgid "Time's up!"
-msgstr "Vrijeme istječe!"
+msgstr "Vrijeme je isteklo!"
 
 # Survey insect count page counter warning message
 #: interface
@@ -1218,7 +1218,7 @@ msgid ""
 " or \"don't know\"."
 msgstr ""
 "Cvjetne posjetitelje svrstajte u jednu od glavnih kategorija (bumbari, muhe "
-"lebdjelice, itd.) - svakog kukca kojeg ne možete prepoznati brojite pod "
+"lebdjelice, itd.) - svakog kukca kojeg ne prepoznajete pribrojite pod "
 "\"ostali kukci\" ili \"ne znam\"."
 
 # From survey pages
@@ -2474,8 +2474,8 @@ msgid ""
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
 "Bumbari su velike, okrugle pčele sa dugim i gustim dlakama. Matice bumbara "
-"su jedne od naših najvećih pčela. Radilice bumbara su manje, ali su uglavnom"
-" veće nego mnoge solitarne pčele."
+"su jedne od naših najvećih pčela. Radilice bumbara su manje od matice, ali "
+"su veće nego većina naših solitarnih pčela."
 
 # photos caption_1
 #: UK SE HR DE IE CY BR AR CL
@@ -2665,8 +2665,8 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
-"Solitarne pčele su vitkije od bumbara, a veličinom su uglavnom manje i od "
-"bumbara i od medonosne pčele. "
+"Solitarne pčele su vitkije od bumbara, i uglavnom manje i od bumbara i od "
+"medonosne pčele. "
 
 # photos caption_1
 #: UK SE DE HR CY IE AR BR
@@ -2812,7 +2812,7 @@ msgid ""
 msgstr ""
 "Skupina nomadskih pčela (rod <i>Nomada</i>) može izgledati slično osama, ali"
 " imaju dlake na nekim dijelovima tijela. Imaju karakterističan oblik tijela "
-"i neku kombinaciju crne, crvene i žute obojenosti"
+"i razne kombinacije crne, crvene i žute boje"
 
 # photos caption_3
 #: UK DE SE HR
@@ -3175,8 +3175,7 @@ msgid ""
 "small gap between the eyes at the top of the head in females"
 msgstr ""
 "Oči su vrlo velike - zauzimaju većinu glave. Oči su spojene kod većine "
-"mužjaka (slika iznad), a ženke imaju mali razmak između očiju, na vrhu "
-"glave."
+"mužjaka (slika iznad), a ženke imaju mali razmak između očiju, na vrhu glave"
 
 # photos caption_2
 #: UK SE DE CY HR IE BR AR
@@ -3210,7 +3209,7 @@ msgid ""
 msgstr ""
 "Muhe lebdjelice su obično manje dlakave nego pčele (makar iznimke postoje!) "
 "i na tijelu nemaju jake čekinje (neke druge skupine muha su jasno "
-"čekinjaste). "
+"čekinjaste)"
 
 # photos extraText
 #: UK SE
@@ -3256,9 +3255,8 @@ msgid ""
 "quite a lot of variety in shape, size and marking among the full range of "
 "species. Some examples are shown above."
 msgstr ""
-"Mnoge lebdjelice imaju tipične crne i žute oznake, ali mnoge vrste variraju "
-"u obliku i veličini tijela i uzorku obojenosti. Iznad su pokazani neki "
-"primjeri."
+"Muhe lebdjelice tipično imaju crno-žute oznake, ali mnoge vrste variraju u "
+"obliku, veličini i obojenosti. Iznad su pokazani neki primjeri."
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -3268,7 +3266,7 @@ msgstr "Pčelolika cvjetarica ima puno kraća ticala od medonosne pčele"
 # photos caption_2
 #: UK IE DE SE HR CY
 msgid "The eyes cover more of the head"
-msgstr "Oči pokrivaju veći dio glave."
+msgstr "Oči pokrivaju veći dio glave"
 
 # photos caption_3
 #: UK IE DE SE HR CY
@@ -3281,7 +3279,7 @@ msgstr ""
 # photos caption_4
 #: UK IE DE SE HR CY
 msgid "The typical ‘false margin’ wing vein is present"
-msgstr "\"Lažni rub\" je prisutan na krilima."
+msgstr "\"Lažni rub\" je prisutan na krilima"
 
 # photos caption_5
 #: UK IE DE SE HR CY
@@ -3315,7 +3313,7 @@ msgid ""
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
 "Nekoliko vrsta ima izdužen \"nos\" - ovo je <i>Rhingia campestris</i>, "
-"široko rasprostranjena vrsta sivo-narančaste boje. "
+"široko rasprostranjena vrsta sivo-narančaste boje "
 
 # photos caption_3
 #: UK DE SE HR CY IE
@@ -3323,8 +3321,8 @@ msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
-"Neke lebdjelice izgledaju vrlo slično bumbarima - provjerite ticala da "
-"budete sigurni da nisu bumbari! "
+"Neke lebdjelice liče na bumbare - provjerite ticala da budete sigurni da "
+"nisu bumbari! "
 
 # photos caption_4
 #: UK DE SE HR CY IE
@@ -3717,8 +3715,8 @@ msgid ""
 "their abdomen."
 msgstr ""
 "Kornjaši mogu biti vrlo brojni cvjetni posjetitelji. Vrste variraju u "
-"velični tijela, obliku i bojama, ali možete ih prepoznati kao kornjaše po "
-"čvrstom prednjem paru krila koji im pokriva zadak. "
+"velični, obliku i bojama, ali sve kornjaše možete prepoznati po očvrsnulom "
+"prednjem paru krila koja im pokrivaju zadak. "
 
 # photos caption_1
 #: UK CY AR IE DE SE HR BR
@@ -4048,20 +4046,20 @@ msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
-"Nemaju osoliki, uski struk - nema suženja između srednjeg i stražnjeg dijela"
-" tijela"
+"Ose biljarice nemaju osoliki, uski struk - nema suženja između srednjeg i "
+"stražnjeg dijela tijela"
 
 # photos caption_3
 #: UK AR IE DE HR SE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr "Ose biljarice nisu dlakave i nemaju košarice za pelud"
+msgstr "Nisu dlakave i nemaju košarice za pelud"
 
 # photos caption_4
 #: UK AR IE DE HR
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
-"Obično se kreću prilično sporo, slabiji su letači od pčela ili osa sa uskim "
+"Obično se kreću prilično sporo, slabiji su letači od pčela i osa sa uskim "
 "strukom"
 
 # photos intro_text
@@ -4118,7 +4116,7 @@ msgid ""
 "this is usually hidden away underneath the bug)"
 msgstr ""
 "Polukrilci imaju usta prilagođena za bodenje i sisanje, sa dugačkim rilom "
-"(koje je uglavnom sklopljeno ispod tijela kukca)"
+"(koje je uglavnom sklopljeno ispod tijela)"
 
 # photos caption_4
 #: UK BR IE DE SE HR CY
@@ -4174,8 +4172,9 @@ msgid ""
 "The blue-black carpenter bee is a very large and conspicuous species of bee "
 "with a black or gray hairy body and blackish to violet shimmering wings."
 msgstr ""
-"Plavo-ljubičasta drvorovka je velika i upadljiva solitarna pčela s crnim ili"
-" sivim dlakama na tijelu i tamnim krilima ljubičastog sjaja."
+"Plavo-ljubičasta drvorovka (rod Xylocopa) je velika i upadljiva solitarna "
+"pčela s crnim ili sivim dlakama na tijelu i tamnim krilima ljubičastog "
+"sjaja."
 
 # photos caption_3
 #: SE
