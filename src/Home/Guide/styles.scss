@@ -11,12 +11,15 @@
     padding: 10px 20px;
 
     #feedback-request {
-      text-transform: capitalize;
       margin: 8px;
       position: relative;
       border-radius: 10px;
       background-color: #fefeffbf;
       box-shadow: 0 0 10px #bb107a30, 0 0 5px #f4a90038;
+
+      ion-button {
+        text-transform: capitalize;
+      }
 
       ion-card-title {
         font-weight: 500;
