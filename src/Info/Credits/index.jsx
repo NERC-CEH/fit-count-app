@@ -15,7 +15,9 @@ const Credits = () => {
   const isBrazil = country === 'BR';
   const isIreland = country === 'IE';
   const isGermany = country === 'DE';
-  const isRestOfWorld = !isCyprus && !isBrazil && !isIreland && !isGermany;
+  const isCroatia = country === 'HR';
+  const isRestOfWorld =
+    !isCyprus && !isBrazil && !isIreland && !isGermany && !isCroatia;
 
   return (
     <Page id="credits">
@@ -131,6 +133,14 @@ const Credits = () => {
                 <li>Colm Moriarty</li>
                 <li>John Walsh</li>
                 <li>Mary Douglas</li>
+              </ul>
+            )}
+            {isCroatia && (
+              <ul>
+                <li> Igor Boršić</li>
+                <li>Tamara Kirin</li>
+                <li>Ana Ješovnik</li>
+                <li>Fir0002 via Wikimedia</li>
               </ul>
             )}
             {isIreland && (
