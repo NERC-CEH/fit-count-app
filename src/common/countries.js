@@ -42,24 +42,6 @@ const countries = [
     value: 'DE',
     warehouseId: 20082,
   },
-  {
-    flag: CL,
-    label: 'Chile',
-    value: 'CL',
-    warehouseId: 18973,
-  },
-  {
-    flag: AR,
-    label: 'Argentina',
-    value: 'AR',
-    warehouseId: 18969,
-  },
-  {
-    flag: HR,
-    label: 'Croatia',
-    value: 'HR',
-    warehouseId: 20645,
-  },
 ];
 
 const isDemo = !isPlatform('hybrid');
@@ -71,6 +53,24 @@ if (isDemo) {
         label: 'Sweden',
         value: 'SE',
         warehouseId: 20646,
+      },
+      {
+        flag: CL,
+        label: 'Chile',
+        value: 'CL',
+        warehouseId: 18973,
+      },
+      {
+        flag: AR,
+        label: 'Argentina',
+        value: 'AR',
+        warehouseId: 18969,
+      },
+      {
+        flag: HR,
+        label: 'Croatia',
+        value: 'HR',
+        warehouseId: 20645,
       },
     ]
   );
