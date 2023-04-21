@@ -642,7 +642,7 @@
   },
   {
     "id": "commonSage",
-    "warehouseId": -1,
+    "warehouseId": 20660,
     "type": "Spike",
     "name": "Common sage",
     "scientificName": "Salvia officinalis",
@@ -650,7 +650,7 @@
   },
   {
     "id": "bugleherb",
-    "warehouseId": -1,
+    "warehouseId": 20661,
     "type": "Spike",
     "name": "Bugleherb",
     "scientificName": "Ajuga reptans",
@@ -658,7 +658,7 @@
   },
   {
     "id": "commonChicory",
-    "warehouseId": -1,
+    "warehouseId": 20662,
     "type": "Head",
     "name": "Common chicory ",
     "scientificName": "Cichorium intybus",
@@ -713,7 +713,7 @@
     "SE": true
   },
   {
-    "id": "resebay",
+    "id": "rosebay",
     "warehouseId": -1,
     "type": "Spike",
     "name": "Rosebay willowherb",
