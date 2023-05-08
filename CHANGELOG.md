@@ -1,6 +1,7 @@
 # 1.4.0
 
 Updated translations.
+Added Croatia.
 
 # 1.3.1
 
