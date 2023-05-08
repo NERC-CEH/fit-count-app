@@ -1,3 +1,7 @@
+# 1.4.0
+
+Updated translations.
+
 # 1.3.1
 
 Updated translations.
