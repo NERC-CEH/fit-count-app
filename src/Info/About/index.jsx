@@ -77,7 +77,7 @@ const About = () => {
               <a href="https://pollinators.ie">All-Ireland Pollinator Plan</a>
             </li>{' '}
             <li>
-              <a href="www.ufz.de/spring-pollination/index.php?en=49053">
+              <a href="https://www.ufz.de/spring-pollination/index.php?en=49053">
                 EU-Projekt SPRING
               </a>
             </li>
