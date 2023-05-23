@@ -1,3 +1,7 @@
+# 1.4.1
+
+Fixed content links.
+
 # 1.4.0
 
 Updated translations.
