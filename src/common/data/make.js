@@ -95,9 +95,7 @@ ${translationsText}
   fs.writeFileSync('../translations/interface/en.pot', newText);
 }
 
-function checkHasNoTrailingWhiteSpace(data, keysToCheck) {
-  const missing = [];
-
+function cleanUpTrailingWhiteSpace(data, keysToCheck) {
   const checkExists = sp => {
     const checkKeyValyeExistsInTranslations = key => {
       const text = sp[key];
@@ -105,18 +103,13 @@ function checkHasNoTrailingWhiteSpace(data, keysToCheck) {
         (typeof str === 'string' && /^[\n]/.test(text)) ||
         /[\n]$/.test(text)
       ) {
-        missing.push(text);
-        missing.push();
+        // eslint-disable-next-line no-param-reassign
+        sp[key] = text.replace(/[\n]$/, '');
       }
     };
     keysToCheck.forEach(checkKeyValyeExistsInTranslations);
   };
   data.forEach(checkExists);
-
-  if (missing.length) {
-    console.warn(`\n⛑  White space found:\n`);
-    console.warn('\x1b[45m', `${missing.join('\n\n')}\n`, '\x1b[0m');
-  }
 }
 
 function checkImagesExist(data, path, fileNameProcess) {
@@ -163,7 +156,7 @@ const getData = async () => {
 
   sheetData = await fetchSheet({ drive, file, sheet: 'insect-guide-photos' });
   saveSpeciesToFile(sheetData, 'photos');
-  checkHasNoTrailingWhiteSpace(sheetData, [
+  cleanUpTrailingWhiteSpace(sheetData, [
     'intro_text',
     'caption_1',
     'caption_2',
