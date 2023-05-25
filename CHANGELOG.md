@@ -1,6 +1,7 @@
 # 1.4.1
 
 Fixed content links.
+Added Chile.
 
 # 1.4.0
 
