@@ -1,16 +1,16 @@
 import { Device } from '@capacitor/device';
 
-function getLangCodeFromDevice(languages) {
-  const languageFromDevice = Device.getLanguageCode();
+async function getLangCodeFromDevice(languages) {
+  const deviceISOkey = await Device.getLanguageCode();
+  // const deviceISOkey = { value: 'pt' };
 
-  const findLanguageCode = deviceISOkey => {
-    const byLanguageCode = languageISOKey =>
-      languageISOKey === deviceISOkey.value;
+  // eslint-disable-next-line no-restricted-syntax
+  for (const [languageISOKey, languageOptionsOrLabel] of languages) {
+    if (languageISOKey === deviceISOkey.value)
+      return languageOptionsOrLabel.default || languageISOKey;
+  }
 
-    return languages.find(byLanguageCode);
-  };
-
-  return languageFromDevice.then(findLanguageCode);
+  return '';
 }
 
 export default getLangCodeFromDevice;

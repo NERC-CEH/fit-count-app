@@ -11,7 +11,7 @@ import { initReactI18next } from 'react-i18next';
 import config from 'common/config';
 import { configure as mobxConfig } from 'mobx';
 import languages from 'common/languages';
-import getLangCodeFromDevice from 'common/helpers/getLangCodeFromDevice';
+import getLangCodeFromDevice from 'helpers/getLangCodeFromDevice';
 import { initAnalytics } from '@flumens';
 import App from './App';
 import 'common/translations/translator';
@@ -42,7 +42,7 @@ async function init() {
 
   if (!appModel.attrs.language) {
     const langCode =
-      (await getLangCodeFromDevice(Object.keys(languages))) ||
+      (await getLangCodeFromDevice(Object.entries(languages))) ||
       config.DEFAULT_LANGUAGE;
 
     appModel.attrs.language = langCode;
