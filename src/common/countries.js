@@ -8,6 +8,7 @@ import IE from 'common/images/ieFlag.svg';
 import DE from 'common/images/deFlag.svg';
 import CL from 'common/images/chlFlag.svg';
 import AR from 'common/images/arFlag.svg';
+import PT from 'common/images/ptFlag.svg';
 import HR from 'common/images/hrFlag.svg';
 import 'common/images/argFlag.svg';
 
@@ -71,6 +72,12 @@ if (isDemo) {
         label: 'Argentina',
         value: 'AR',
         warehouseId: 18969,
+      },
+      {
+        flag: PT,
+        label: 'Portugal',
+        value: 'PT',
+        warehouseId: -1,
       },
     ]
   );

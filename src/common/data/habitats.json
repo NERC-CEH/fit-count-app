@@ -10,7 +10,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "warehouseId": 13558,
@@ -44,7 +45,8 @@
     "UK": true,
     "AR": true,
     "IE": true,
-    "SE": true
+    "SE": true,
+    "PT": true
   },
   {
     "warehouseId": 13562,
@@ -57,7 +59,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "warehouseId": 13563,
@@ -76,7 +79,8 @@
     "AR": true,
     "BR": true,
     "IE": true,
-    "CL": true
+    "CL": true,
+    "PT": true
   },
   {
     "warehouseId": 13565,
@@ -121,7 +125,8 @@
     "BR": true,
     "DE": true,
     "CL": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "warehouseId": 18787,
@@ -144,7 +149,8 @@
     "CY": true,
     "AR": true,
     "BR": true,
-    "SE": true
+    "SE": true,
+    "PT": true
   },
   {
     "warehouseId": 18790,
@@ -162,7 +168,8 @@
     "value": "Roadside verges",
     "CY": true,
     "AR": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "warehouseId": 13569,
@@ -175,7 +182,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "warehouseId": 18900,
@@ -185,7 +193,8 @@
   {
     "warehouseId": 18901,
     "value": "Plantation forest",
-    "BR": true
+    "BR": true,
+    "PT": true
   },
   {
     "warehouseId": 18902,
@@ -207,7 +216,8 @@
     "value": "Freshwater edge",
     "AR": true,
     "DE": true,
-    "CL": true
+    "CL": true,
+    "PT": true
   },
   {
     "warehouseId": 20087,
@@ -250,7 +260,8 @@
     "warehouseId": 20296,
     "value": "Shrubland",
     "CL": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "warehouseId": 20297,
@@ -300,5 +311,17 @@
     "warehouseId": -1,
     "value": "Artificial land",
     "SE": true
+  },
+  {
+    "value": "Balcony and small porches",
+    "PT": true
+  },
+  {
+    "value": "Dune systems",
+    "PT": true
+  },
+  {
+    "value": "Montado (Low density trees)",
+    "PT": true
   }
 ]

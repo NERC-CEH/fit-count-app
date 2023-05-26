@@ -1,3 +1,7 @@
+# 1.5.0
+
+Added Portugal.
+
 # 1.4.1
 
 Fixed content links.

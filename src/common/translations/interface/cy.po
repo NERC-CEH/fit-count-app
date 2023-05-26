@@ -186,6 +186,11 @@ msgstr ""
 
 # Country page content
 #: interface
+msgid "Portugal"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "Croatia"
 msgstr ""
 
@@ -1636,12 +1641,12 @@ msgstr ""
 # ============================================================================
 # ============================================================================
 # insects name
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR PT
 msgid "Beetles"
 msgstr "Chwilod"
 
 # insects name
-#: UK CL CY IE DE SE HR
+#: UK CL CY IE DE SE HR PT
 msgid "Bumblebees"
 msgstr "Cacwn"
 
@@ -1651,27 +1656,27 @@ msgid "Butterflies and moths"
 msgstr "Pili-palod a gwyfynod"
 
 # insects name
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR PT
 msgid "Honeybees"
 msgstr "Gwenyn mêl"
 
 # insects name
-#: UK CL CY IE DE SE HR
+#: UK CL CY IE DE SE HR PT
 msgid "Hoverflies"
 msgstr "Pryfed hofran"
 
 # insects name
-#: UK CL CY IE DE SE HR
+#: UK CL CY IE DE SE HR PT
 msgid "Other flies"
 msgstr "Clêr"
 
 # insects name
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR PT
 msgid "Other insects"
 msgstr "Pryfed eraill"
 
 # insects name
-#: UK BR CY AR IE DE SE HR
+#: UK BR CY AR IE DE SE HR PT
 msgid "Small insects (<3mm)"
 msgstr "Pryfed bychain (<3mm)"
 
@@ -1681,7 +1686,7 @@ msgid "Solitary bees"
 msgstr "Gwenyn unig"
 
 # insects name
-#: UK BR CL CY AR IE DE HR
+#: UK BR CL CY AR IE DE HR PT
 msgid "Wasps"
 msgstr "Gwenyn meirch"
 
@@ -1716,7 +1721,7 @@ msgid "Flies"
 msgstr ""
 
 # insects name
-#: BR
+#: BR PT
 msgid "Don't know"
 msgstr ""
 
@@ -1735,8 +1740,28 @@ msgstr ""
 msgid "Other wasps"
 msgstr ""
 
+# insects name
+#: PT
+msgid "Small wildbees (smaller than honeybee)"
+msgstr ""
+
+# insects name
+#: PT
+msgid "Big wildbees (bigger than honeybee)"
+msgstr ""
+
+# insects name
+#: PT
+msgid "Butterflies"
+msgstr ""
+
+# insects name
+#: PT
+msgid "Moths"
+msgstr ""
+
 # habitats value
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR PT
 msgid "Garden"
 msgstr "Gardd"
 
@@ -1756,12 +1781,12 @@ msgid "Churchyard"
 msgstr "Mynwent eglwys"
 
 # habitats value
-#: UK AR IE SE
+#: UK AR IE SE PT
 msgid "Grassy verge or hedgerow edge"
 msgstr "Ymyl glaswelltog neu ymyl gwrych"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR PT
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
 
@@ -1771,7 +1796,7 @@ msgid "Amenity grassland (usually mown short)"
 msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
 
 # habitats value
-#: UK BR CL AR IE
+#: UK BR CL AR IE PT
 msgid "Farm crops or grassy pasture"
 msgstr "Cnydau fferm neu dir pori glaswelltog"
 
@@ -1801,7 +1826,7 @@ msgid "Botanical garden"
 msgstr ""
 
 # habitats value
-#: BR CL CY AR DE HR
+#: BR CL CY AR DE HR PT
 msgid "Forest"
 msgstr ""
 
@@ -1816,7 +1841,7 @@ msgid "Salt marsh"
 msgstr ""
 
 # habitats value
-#: BR CY AR SE
+#: BR CY AR SE PT
 msgid "Freshwater wetland"
 msgstr ""
 
@@ -1831,12 +1856,12 @@ msgid "Acacia stands"
 msgstr ""
 
 # habitats value
-#: CY AR HR
+#: CY AR HR PT
 msgid "Roadside verges"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR PT
 msgid "Other"
 msgstr "Arall"
 
@@ -1846,7 +1871,7 @@ msgid "Caatinga"
 msgstr ""
 
 # habitats value
-#: BR
+#: BR PT
 msgid "Plantation forest"
 msgstr ""
 
@@ -1866,7 +1891,7 @@ msgid "Hedgerow edge "
 msgstr ""
 
 # habitats value
-#: CL AR DE
+#: CL AR DE PT
 msgid "Freshwater edge"
 msgstr ""
 
@@ -1906,7 +1931,7 @@ msgid "Waste ground"
 msgstr ""
 
 # habitats value
-#: CL HR SE
+#: CL HR PT SE
 msgid "Shrubland"
 msgstr ""
 
@@ -1954,8 +1979,23 @@ msgstr ""
 msgid "Artificial land"
 msgstr ""
 
+# habitats value
+#: PT
+msgid "Balcony and small porches"
+msgstr ""
+
+# habitats value
+#: PT
+msgid "Dune systems"
+msgstr ""
+
+# habitats value
+#: PT
+msgid "Montado (Low density trees)"
+msgstr ""
+
 # flowers name
-#: UK IE DE HR
+#: UK IE DE HR PT
 msgid "Bramble"
 msgstr "Miaren"
 
@@ -1965,12 +2005,12 @@ msgid "Buddleja"
 msgstr "Buddleja"
 
 # flowers name
-#: UK IE DE HR
+#: UK IE DE HR PT
 msgid "Buttercup"
 msgstr "Blodyn menyn"
 
 # flowers name
-#: UK BR CL AR IE DE SE HR
+#: UK BR CL AR IE DE SE HR PT
 msgid "Dandelion"
 msgstr "Dant y llew"
 
@@ -1980,7 +2020,7 @@ msgid "Hawthorn"
 msgstr "Draenen wen"
 
 # flowers name
-#: UK IE DE SE
+#: UK IE DE SE PT
 msgid "Heather"
 msgstr "Grug"
 
@@ -1990,7 +2030,7 @@ msgid "Hogweed"
 msgstr "Efwr"
 
 # flowers name
-#: UK IE DE HR
+#: UK IE DE HR PT
 msgid "Ivy"
 msgstr "Iorwg"
 
@@ -2000,7 +2040,7 @@ msgid "Knapweed"
 msgstr "Y Bengaled"
 
 # flowers name
-#: UK IE DE HR
+#: UK IE DE HR PT
 msgid "Lavender"
 msgstr "Lafant"
 
@@ -2010,7 +2050,7 @@ msgid "Ragwort"
 msgstr "Llysiau'r gingroen"
 
 # flowers name
-#: UK IE DE SE
+#: UK IE DE SE PT
 msgid "Thistle"
 msgstr "Ysgall"
 
@@ -2050,8 +2090,13 @@ msgid "White Mustard"
 msgstr ""
 
 # flowers name
-#: CY HR
+#: CY PT
 msgid "Rock-roses"
+msgstr ""
+
+# flowers name
+#: HR
+msgid "Rock Roses"
 msgstr ""
 
 # flowers name
@@ -2080,12 +2125,12 @@ msgid "Common Lantana"
 msgstr ""
 
 # flowers name
-#: CY CL
+#: CY PT CL
 msgid "Acacia"
 msgstr ""
 
 # flowers name
-#: CY
+#: CY PT
 msgid "Bermuda Buttercup"
 msgstr ""
 
@@ -2135,7 +2180,7 @@ msgid "Calliandra"
 msgstr ""
 
 # flowers name
-#: BR
+#: BR PT
 msgid "Asteraceae (herbaceous)"
 msgstr ""
 
@@ -2145,7 +2190,7 @@ msgid "Orchids"
 msgstr ""
 
 # flowers name
-#: BR
+#: BR PT
 msgid "Clover/Trefoil"
 msgstr ""
 
@@ -2296,7 +2341,7 @@ msgstr ""
 
 # flowers name
 #: HR
-msgid "Common chicory "
+msgid "Common chicory"
 msgstr ""
 
 # flowers name
@@ -2347,6 +2392,41 @@ msgstr ""
 # flowers name
 #: SE
 msgid "Hogweed/wild angelica/garden angelica"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Brooms and gorses"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Crucifers"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Mint and Thyme"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Echium"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Fruit trees and Hawthorn"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Umbellifers"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Mallows"
 msgstr ""
 
 # photos intro_text
@@ -2447,7 +2527,7 @@ msgstr ""
 "maent yn casglu paill yn belen wedi'i gwlychu ar y tu allan i'r coesau ôl"
 
 # photos extraText
-#: UK CL CY AR IE DE SE HR BR
+#: UK CL CY AR IE DE SE HR BR PT
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
 "Mae gwenyn mêl gwrywaidd (gwenyn gormes) yn debyg ond mae eu llygaid yn "
@@ -2524,7 +2604,7 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK DE SE HR CY IE
+#: UK DE SE HR CY IE PT
 msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
@@ -2542,7 +2622,7 @@ msgstr ""
 "i gyd"
 
 # photos extraText
-#: UK DE SE HR CY IE
+#: UK DE SE HR CY IE PT
 msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
@@ -3276,7 +3356,7 @@ msgstr ""
 "gormes, deimlyddion llawer byrrach na gwenyn mêl"
 
 # photos caption_2
-#: UK IE DE SE HR CY
+#: UK IE DE SE HR CY PT
 msgid "The eyes cover more of the head"
 msgstr "Mae'r llygaid yn gorchuddio'r rhan fwyaf o'r pen"
 
@@ -3288,7 +3368,7 @@ msgstr ""
 "Mae'r coesau ôl yn llawer teneuach na choesau llydan a fflat gwenyn mêl"
 
 # photos caption_4
-#: UK IE DE SE HR CY
+#: UK IE DE SE HR CY PT
 msgid "The typical ‘false margin’ wing vein is present"
 msgstr "Mae'r wythïen ‘ymyl ffug’ nodweddiadol i'w gweld ar yr adain"
 
@@ -4194,4 +4274,735 @@ msgstr ""
 # photos caption_3
 #: SE
 msgid "Social wasps have bold black and yellow stripes"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"This single species is around 10 millimetres, a medium size for a bee. It is"
+" our reference to determine big and small wild bees."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Long thin antennae (different from most flies)"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Eyes covered with hairs"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"Abdomen with short and light brown hairs and surface orange to dark brown."
+msgstr ""
+
+# photos caption_5
+#: PT
+msgid "“Banana shape” marginal cell on front wing"
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"Honeybee nest in artificial hives, with occasional colonies establishing in "
+"the wild."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Most of the honeybees you see will be workers, which are females, that "
+"collect pollen into a moistened ball on the outside of the hind legs, often "
+"quite visible."
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Small wild bees fly actively between flowers. Wild bees have wide range of "
+"sizes, colours, shapes and body structures. There are 733 species from "
+"continental Portugal, 16 in Madeira and 15 in Azores."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Long antennae (different from most flies)"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Hind legs without broadened, shinny and bare segments, and often covered "
+"with hairs of different shapes and colours that might carry pollen"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Abdomen not as cylindrical as in the honeybee and with different appearance "
+"(surface colour and hair colours or arrangement)"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid "Smaller than an honeybee (< 10 mm)"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Small wild bees are very diverse and here determined as any other bee "
+"smaller than an honeybee, different from the honeybee and bumblebees (which "
+"have very particular looks). Above are some examples."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Colletes"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Osmia"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid "Andrena"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid "Lasioglossum"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Most wild bees are solitary and each female gathers and transports the "
+"pollen for their offspring to the nest that exists in the surroundings. The "
+"pollen is gathered in a specialized hairy structure called scopa, either on "
+"the hind legs or under the abdomen, depending on the family"
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Scopa on the hind legs (non Megachilidae family), as in Andrena"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Scopa under the abdomen (Megachilidae family), as in Heriades"
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"Solitary bees generally nest in burrows or holes. One large group dig "
+"burrows into the soil. Other groups, including the Megachilidae, make use of"
+" holes in wood, plants or walls"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Wild bees vary a lot in size, shape, colour and how hairy they appear. Not "
+"all the wild bees are “bee like” at first glance! Some examples of small "
+"wild bees are shown here."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Ceratina species (12 mainland) have a shinny body (blue, black or green) "
+"with pale markings on the face (a line or a triangle)"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Hylaeus species (39 mainland, 2 Madeira and 3 Azores) are often very small "
+"and fast flying bees with a black body and pale markings on the face, legs "
+"and thorax. The face markings might be two separate marks or extensively "
+"pale all over"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Species from Nomada (77 mainland) have a dark body with extensive pale "
+"markings all over the body, of yellow, red and orange tones. The wings are "
+"often darkened with a transparent area near the wing margin. This genus is "
+"included in the parasitic bees (163 in mainland and 1 in Madeira) that visit"
+" flowers for nectar, often having a wasp like appearance"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"The tribe Anthiidini (a group of genera) is constituted by robust bees that "
+"often present yellow or orange markings; females present scopa under the "
+"abdomen (except the parasitic genus Stelis)"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Big wild bees fly actively between flowers. Wild bees have wide range of "
+"sizes, colours, shapes and body structures. There are 733 species from "
+"continental Portugal, 16 in Madeira and 15 in Azores"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid "Bigger than an honeybee (>= 10 mm)"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Big wild bees are very diverse and here determined as any other bee bigger "
+"or equal to the honeybee, different from the honeybee and bumblebees (which "
+"have very particular looks). Here are some examples."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Dasypoda"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Anthophora"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid "Eucera"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid "Xylocopa"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Scopa under the abdomen (Megachilidae family), as in Megachile"
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"Solitary bees generally nest in burrows or holes. One large group dig "
+"burrows into soil. Other groups, including the Megachilidae, make use of "
+"holes in wood, plants or walls"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Wild bees vary a lot in size, shape, colour and how hairy they appear. Not "
+"all the wild bees are “bee like” at first glance! Some examples of big wild "
+"bees are shown here"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"The tribe Anthiidini (a group of genera) is constituted by robust bees that "
+"often present yellow or orange markings; females present scopa under the "
+"abdomen"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Butterflies are very familiar flower visitors. In most cases they can be "
+"identifiable to species level by the surface pattern above and under the "
+"wings. They are closely related to moths but are separated by these "
+"characteristics."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Antennae are club-shaped"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"When in rest, butterflies open their wings wide, showing their four wings "
+"and the abdomen. They can also close the wings vertically on the back of the"
+" body"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Butterflies visit the flowers looking for nectar. Butterfly species might "
+"vary a lot depending on the conditions of the habitat, where they can find "
+"their host plants to feed on as larvae."
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"Butterflies visit the flowers looking for nectar. Butterfly species might "
+"vary a lot depending on the conditions of the habitat, where they can find "
+"their host plants to feed on as larvae"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"There are many different fly species that may be visiting flowers, other "
+"than hoverflies. Some of them may look very similar and you should consider "
+"the specific traits that differentiate them."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Frequently, other flies have thick and upright hairs on the body, mainly in "
+"the thorax, abdomen or legs – hoverflies do not have this type of hairs"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Wing venation is different from hoverflies, as most times the wings do not "
+"present a ‘false margin’ – the vena spuria wing vein is absent"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Most flies do not have yellowish or reddish markings, especially not in "
+"combination with metallic surfaces"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Most of the other flies that you will see on flowers have a clearly "
+"different body shape, especially modified, elongated or rounded, frequently "
+"including bristles on the legs and body (1). Nevertheless there are some "
+"families that might pose a challenge."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Conopidae might have yellow and red markings all over the body, but the "
+"abdomen is curved downwards, and they have a long ‘tongue’ (proboscis)"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Bombyliidae might have pale markings or be very similar to hoverflies, but "
+"lack a ‘false margin’ in the wing, and present a long proboscis"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Stratiomyidae could show similar colour patterns to hoverflies but they have"
+" a especially flattened body, a cut short abdomen and lack a ‘false margin’ "
+"in the wing"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"There are many different species of wasps, and they visit flowers mostly for"
+" nectar to complement their diet. Wasps may be similar to some bees and "
+"hoverflies, so these are the features you should look for. "
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Long or extremely long antennae"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Less dense and furry hairs on the body in comparison with bees (in most "
+"cases)"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid "Wings rolled up when at rest (in some wasps)"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"Very narrow “wasp waist” at the joint between thorax and abdomen (except the"
+" suborder Symphyta). They can also show additional abdomen constrictions"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Wasps are very commonly spotted on flowers. Some species may look very "
+"familiar, others not so much, but overall very “wasp like”. There are more "
+"than one hundred species that might be seen on flowers. These are some of "
+"the very common wasps."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Vespula"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Polistes"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid "Eumenes"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid "Vespa velutina (a common invasive species)"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Be aware that wasps present a lot of variation in size, shape and marking "
+"patterns in the body."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Some groups like Crabronidae, often show bulky heads or enlarged eyes"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"The presence of thick and upright hairs on the legs or abdomen is common for"
+" some groups like Scoliidae"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"The species belonging to the Chrysididae show very intense pink, green and "
+"blue metallic shininess"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"Many parasitic wasps like the Ichneumonidae show very long and thin bodies, "
+"that are variable in colour pattern, with long antennae and a ovipositor on "
+"the abdomen used for egg-laying (females)"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Some beetle species also visit flowers mostly for feeding purposes. The "
+"different species vary a lot in size, shape and colour, but can be quickly "
+"recognised as beetles."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Hardened forewings that act as covers for the softer hindwings and abdomen"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid "Their chewing mouthparts"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Beetles are incredibly abundant and diverse. Amongst the most common "
+"families visiting flowers are: Oedemeridae, Scarabaeidae (1), Nitidulidae "
+"(2), Tenebrionidae (3), Curculionidae (4), Buprestidae, Cantharidae or "
+"Cerambycidae"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Moths are perhaps less frequently noticed, but also visit flowers regularly,"
+" either during the day or the night. Some moths are quite small and could be"
+" overlooked as other types of insects. Moths can be distinguished from "
+"butterflies by the traits above. "
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Non club-shaped antennae"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"When resting, the wings are folded, covering most of the rear pair of wings "
+"and the abdomen, having an overall triangular shape"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"A range of moths can be seen visiting flowers. Some of these may look like a"
+" butterfly, for example, Zygaenidae (1) and Crambidae (2) or other insects, "
+"for example, Sesiidae (3) and Sphingidae (4). "
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"As in butterflies, all moths have colour patterns on the wings produced by "
+"the scales on the wing surface."
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"This category is for any insects under 3 mm long.  These can be hard to "
+"assign to a particular group without peering at them closely (which would "
+"disturb other insects visiting the flowers). Just count them (or estimate "
+"them if there is a large number) and assign them all to this category. "
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"This may include many beetles and other small bodied insects like flies and "
+"parasitic wasps"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"This category is for any insects that do not fit into the other categories, "
+"and can also be used for the ones that you cannot identify. Above are some "
+"of the most frequent."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Hemiptera have wings that overlap, so there is no clear midline along the "
+"abdomen. They have a more-or-less triangular plate covering part of the "
+"abdomen and also possess long sucking mouthparts (usually hidden underneath "
+"the body)"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Most Neuroptera have very fragile slim and long body, long antennae and "
+"large transparent wings, with very developed venation"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Orthoptera have big legs, especially the overdeveloped last pair of legs. "
+"Most times, nymphs are observed, with green or paler tones"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"Ants (Formicidae) have a clear segmented body (head, thorax and abdomen), "
+"with thin legs and no wings (in most of the times)."
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Bumblebees are very rounded and furry bees. The queens are among our largest"
+" bees; workers vary in size, mostly larger than a honeybee, but might be "
+"smaller."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "In comparison to flies, bumblebees have long, thin antennae"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Compared to flies, their eyes cover the sides of the head, with lots of hair"
+" between the eyes"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Bumblebees differ from most bees because of the dense and long hair on the "
+"body"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"In comparison to bees, bumblebees have contrasting colour bands (yellow, "
+"white, black or orange) on their body, some are ginger all over"
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"Bumblebees have a characteristic buzzing flight pattern and do not hover. "
+"There are 16 species in continental Portugal, 1 in Madeira and 3 in Azores."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "In comparison to flies, they have long thin antennae"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Also considering flies, their eyes cover the sides of the head, with lots of"
+" hair between the eyes"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"They differ from most bees because of the dense and long hair on the body"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"Bumblebees also differ from other bees due to the presence of contrasting "
+"colour bands (yellow, white, black or orange), some are ginger all over"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Hoverflies are very active and agile flyers, and are frequently seen "
+"hovering around the flowers. They might be confused with other flies, bees "
+"and wasps."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Hoverflies have larger eyes, covering most of the head, differing from most "
+"bees and wasps"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Compared to bees and wasps, they have much shorter antennae (in most "
+"species)"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"In comparison with other flies, hoverflies have wings with ‘false margin’ "
+"wing vein, running more-or-less parallel to the true edge of the wing (3.1)."
+" Hoverflies also have a unique vein called “vena spuria”, only visible in "
+"very good photos (3.2)"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"The presence of black and yellow markings is more frequent than in other "
+"flies but be aware that some hoverflies are all dark and shiny metallic"
+msgstr ""
+
+# photos caption_5
+#: PT
+msgid ""
+"Hoverflies are not usually as hairy as bees, and do not have thick and "
+"upright hairs on the body as in other flies"
+msgstr ""
+
+# photos extraText
+#: PT
+msgid ""
+"Hoverflies feed on nectar and pollen, only to feed themselves, not "
+"collecting pollen for the offspring nor having pollen baskets. There are "
+"about 214 species of hoverflies in mainland Portugal, 24 in Azores and 30 in"
+" Madeira."
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"It is important to gain field experience, because some species can be "
+"challenging to identify in the beginning. Some genera have a close "
+"resemblance to the honeybee, such as the genus Eristalis (in the picture). "
+"Nevertheless there are a number of differences to look out for."
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid "Much shorter antennae"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"The back legs are much narrower than the broad flattened legs of the "
+"honeybee"
+msgstr ""
+
+# photos intro_text
+#: PT
+msgid ""
+"Many hoverflies have the typical black and yellow markings, but there is "
+"quite a lot of variety in shape, size and markings among them, often "
+"mimicking other insects like bees and wasps. The generic hoverfly traits "
+"presented before should always work. Some examples are shown above. "
+msgstr ""
+
+# photos caption_1
+#: PT
+msgid ""
+"Very common genera present very elongated bodies, as in Sphaerophoria (in "
+"the image), Melanostoma or Syritta"
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
+"Slight elongated bodies with metallic dark or green are very common in "
+"genera like Cheilosia"
+msgstr ""
+
+# photos caption_3
+#: PT
+msgid ""
+"Some species of the genus Merodon are very good bumblebee mimics – check the"
+" antennae to be sure they are not bumblebees!"
+msgstr ""
+
+# photos caption_4
+#: PT
+msgid ""
+"Some hoverflies are small and mostly dark in colour, but have the generic "
+"hoverfly traits, as in Paragus"
 msgstr ""

@@ -8,7 +8,8 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "buddleja",
@@ -29,7 +30,8 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "dandelion",
@@ -44,7 +46,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "hawthorn",
@@ -65,7 +68,8 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "SE": true
+    "SE": true,
+    "PT": true
   },
   {
     "id": "hogweed",
@@ -86,7 +90,8 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "knapweed",
@@ -108,7 +113,8 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "ragwort",
@@ -129,7 +135,8 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "SE": true
+    "SE": true,
+    "PT": true
   },
   {
     "id": "whiteClover",
@@ -228,14 +235,15 @@
     "sort": 19,
     "name": "Rock-roses",
     "scientificName": "Cistus spp.",
-    "CY": true
+    "CY": true,
+    "PT": true
   },
   {
     "id": "rockRoseHR",
     "warehouseId": 18797,
     "type": "Individual Flower",
     "sort": 19,
-    "name": "Rock-roses",
+    "name": "Rock Roses",
     "scientificName": "Cistus spp.",
     "HR": true
   },
@@ -302,7 +310,8 @@
     "sort": 26,
     "name": "Bermuda Buttercup",
     "scientificName": "Oxalis pes-caprae",
-    "CY": true
+    "CY": true,
+    "PT": true
   },
   {
     "id": "boxthorn",
@@ -353,7 +362,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "oxalis",
@@ -396,7 +406,8 @@
     "warehouseId": 18908,
     "type": "Head",
     "name": "Asteraceae (herbaceous)",
-    "BR": true
+    "BR": true,
+    "PT": true
   },
   {
     "id": "orchids",
@@ -410,7 +421,8 @@
     "warehouseId": 18910,
     "type": "Head",
     "name": "Clover/Trefoil",
-    "BR": true
+    "BR": true,
+    "PT": true
   },
   {
     "id": "brazilianGrapeTree",
@@ -525,7 +537,8 @@
     "warehouseId": 18803,
     "type": "Head",
     "name": "Acacia",
-    "scientificName": "Acacia"
+    "scientificName": "Acacia",
+    "PT": true
   },
   {
     "id": "rose",
@@ -660,7 +673,7 @@
     "id": "commonChicory",
     "warehouseId": 20662,
     "type": "Head",
-    "name": "Common chicory ",
+    "name": "Common chicory",
     "scientificName": "Cichorium intybus",
     "HR": true
   },
@@ -743,5 +756,54 @@
     "name": "Hogweed/wild angelica/garden angelica",
     "scientificName": "Heracleum sphondylium/Angelica sylvestris/Angelica archangelica",
     "SE": true
+  },
+  {
+    "id": "broomsAndgorses",
+    "type": "Individual Flower",
+    "name": "Brooms and gorses",
+    "scientificName": "Cytisus spp./Ulex spp./Genista spp.",
+    "PT": true
+  },
+  {
+    "id": "crucifers",
+    "type": "Individual Flower",
+    "name": "Crucifers",
+    "scientificName": "Diplotaxis spp./Brassica spp./Raphanus spp. ",
+    "PT": true
+  },
+  {
+    "id": "mintAndthyme",
+    "type": "Spike",
+    "name": "Mint and Thyme",
+    "scientificName": "Mentha spp. ",
+    "PT": true
+  },
+  {
+    "id": "echium",
+    "type": "Individual Flower",
+    "name": "Echium",
+    "scientificName": "Echium spp.",
+    "PT": true
+  },
+  {
+    "id": "fruitAndhawthorn",
+    "type": "Individual Flower",
+    "name": "Fruit trees and Hawthorn",
+    "scientificName": "Prunus spp./ Crataegus monogyna",
+    "PT": true
+  },
+  {
+    "id": "umbellifers",
+    "type": "Umbel",
+    "name": "Umbellifers",
+    "scientificName": "Daucus spp./Oenanthe spp./ Conopodium spp. ",
+    "PT": true
+  },
+  {
+    "id": "mallows",
+    "type": "Individual Flower",
+    "name": "Mallows",
+    "scientificName": "Malva spp.",
+    "PT": true
   }
 ]

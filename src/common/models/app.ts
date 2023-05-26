@@ -36,6 +36,23 @@ const defaults: Attrs = {
 };
 
 export class AppModel extends Model {
+  constructor(options: any) {
+    super(options);
+
+    // fix old language choices - TODO: remove in the future
+    this.ready?.then(() => {
+      if (this.attrs.language === 'es') {
+        console.log('Changing es to es-CL');
+        this.attrs.language = 'es-CL';
+        this.save();
+      } else if (this.attrs.language === 'pt') {
+        console.log('Changing pt to pt-BR');
+        this.attrs.language = 'pt-BR';
+        this.save();
+      }
+    });
+  }
+
   attrs: Attrs = Model.extendAttrs(this.attrs, defaults);
 
   resetDefaults() {

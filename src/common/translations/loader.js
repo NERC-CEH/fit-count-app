@@ -1,7 +1,8 @@
 import en from './interface/en.pot';
-import es from './interface/es.po';
+import esCL from './interface/es.po';
 import el from './interface/el.po';
-import pt from './interface/pt_BR.po';
+import ptBR from './interface/pt_BR.po';
+import ptPT from './interface/pt_PT.po';
 import cy from './interface/cy.po';
 import se from './interface/sv_SE.po';
 import de from './interface/de_DE.po';
@@ -36,14 +37,17 @@ export default {
   en: {
     interface: rawToKeyVal(en),
   },
-  es: {
-    interface: rawToKeyVal(es),
+  'es-CL': {
+    interface: rawToKeyVal(esCL),
   },
   el: {
     interface: rawToKeyVal(el),
   },
-  pt: {
-    interface: rawToKeyVal(pt),
+  'pt-BR': {
+    interface: rawToKeyVal(ptBR),
+  },
+  'pt-PT': {
+    interface: rawToKeyVal(ptPT),
   },
   cy: {
     interface: rawToKeyVal(cy),

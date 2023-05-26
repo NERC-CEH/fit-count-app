@@ -12,7 +12,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "bumblebees",
@@ -25,7 +26,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -55,7 +57,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "hoverflies",
@@ -68,7 +71,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "otherFlies",
@@ -81,7 +85,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "otherInsects",
@@ -96,7 +101,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "smallInsects",
@@ -110,7 +116,8 @@
     "IE": true,
     "DE": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "solitaryBees",
@@ -139,7 +146,8 @@
     "IE": true,
     "DE": true,
     "CL": true,
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "bats",
@@ -193,7 +201,8 @@
     "warehouseId": 538660,
     "sort": 0,
     "name": "Don't know",
-    "BR": true
+    "BR": true,
+    "PT": true
   },
   {
     "id": "carpenterbees",
@@ -216,5 +225,25 @@
     "sort": 0,
     "name": "Other wasps",
     "SE": true
+  },
+  {
+    "id": "smallwildbees",
+    "name": "Small wildbees (smaller than honeybee)",
+    "PT": true
+  },
+  {
+    "id": "big wildbees",
+    "name": "Big wildbees (bigger than honeybee)",
+    "PT": true
+  },
+  {
+    "id": "butterflies",
+    "name": "Butterflies",
+    "PT": true
+  },
+  {
+    "id": "moths",
+    "name": "Moths",
+    "PT": true
   }
 ]

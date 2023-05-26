@@ -1089,5 +1089,263 @@
     "caption_4": "Some wasps have their wings rolled up when at rest",
     "caption_5": "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen",
     "SE": true
+  },
+  {
+    "id": "honeybee",
+    "pictureId": "PT1",
+    "intro_text": "This single species is around 10 millimetres, a medium size for a bee. It is our reference to determine big and small wild bees.\n",
+    "caption_1": "Long thin antennae (different from most flies)\n",
+    "caption_2": "Eyes covered with hairs\n",
+    "caption_3": "Eyes covered with hairs\n",
+    "caption_4": "Abdomen with short and light brown hairs and surface orange to dark brown.\n",
+    "caption_5": "“Banana shape” marginal cell on front wing\n",
+    "extraText": "Honeybee nest in artificial hives, with occasional colonies establishing in the wild.\n",
+    "PT": true
+  },
+  {
+    "id": "honeybee",
+    "pictureId": "PT2",
+    "intro_text": "Male honeybees (drones) are similar but have much larger eyes.\n",
+    "caption_1": "Most of the honeybees you see will be workers, which are females, that collect pollen into a moistened ball on the outside of the hind legs, often quite visible.\n",
+    "PT": true
+  },
+  {
+    "id": "smallwildbees",
+    "pictureId": "PT1",
+    "intro_text": "Small wild bees fly actively between flowers. Wild bees have wide range of sizes, colours, shapes and body structures. There are 733 species from continental Portugal, 16 in Madeira and 15 in Azores.",
+    "caption_1": "Long antennae (different from most flies)\n",
+    "caption_2": "Hind legs without broadened, shinny and bare segments, and often covered with hairs of different shapes and colours that might carry pollen\n",
+    "caption_3": "Abdomen not as cylindrical as in the honeybee and with different appearance (surface colour and hair colours or arrangement)\n",
+    "caption_4": "Smaller than an honeybee (< 10 mm)\n",
+    "PT": true
+  },
+  {
+    "id": "smallwildbees",
+    "pictureId": "PT2",
+    "intro_text": "Small wild bees are very diverse and here determined as any other bee smaller than an honeybee, different from the honeybee and bumblebees (which have very particular looks). Above are some examples.\n",
+    "caption_1": "Colletes\n",
+    "caption_2": "Osmia\n",
+    "caption_3": "Andrena\n",
+    "caption_4": "Lasioglossum\n",
+    "PT": true
+  },
+  {
+    "id": "smallwildbees",
+    "pictureId": "PT3",
+    "intro_text": "Most wild bees are solitary and each female gathers and transports the pollen for their offspring to the nest that exists in the surroundings. The pollen is gathered in a specialized hairy structure called scopa, either on the hind legs or under the abdomen, depending on the family\n",
+    "caption_1": "Scopa on the hind legs (non Megachilidae family), as in Andrena\n",
+    "caption_2": "Scopa under the abdomen (Megachilidae family), as in Heriades\n",
+    "extraText": "Solitary bees generally nest in burrows or holes. One large group dig burrows into the soil. Other groups, including the Megachilidae, make use of holes in wood, plants or walls\n",
+    "PT": true
+  },
+  {
+    "id": "smallwildbees",
+    "pictureId": "PT4",
+    "intro_text": "Wild bees vary a lot in size, shape, colour and how hairy they appear. Not all the wild bees are “bee like” at first glance! Some examples of small wild bees are shown here.\n",
+    "caption_1": "Ceratina species (12 mainland) have a shinny body (blue, black or green) with pale markings on the face (a line or a triangle)\n",
+    "caption_2": "Hylaeus species (39 mainland, 2 Madeira and 3 Azores) are often very small and fast flying bees with a black body and pale markings on the face, legs and thorax. The face markings might be two separate marks or extensively pale all over\n",
+    "caption_3": "Species from Nomada (77 mainland) have a dark body with extensive pale markings all over the body, of yellow, red and orange tones. The wings are often darkened with a transparent area near the wing margin. This genus is included in the parasitic bees (163 in mainland and 1 in Madeira) that visit flowers for nectar, often having a wasp like appearance\n",
+    "caption_4": "The tribe Anthiidini (a group of genera) is constituted by robust bees that often present yellow or orange markings; females present scopa under the abdomen (except the parasitic genus Stelis)\n",
+    "PT": true
+  },
+  {
+    "id": "bigwildbees",
+    "pictureId": "PT1",
+    "intro_text": "Big wild bees fly actively between flowers. Wild bees have wide range of sizes, colours, shapes and body structures. There are 733 species from continental Portugal, 16 in Madeira and 15 in Azores\n",
+    "caption_1": "Long antennae (different from most flies)\n",
+    "caption_2": "Hind legs without broadened, shinny and bare segments, and often covered with hairs of different shapes and colours that might carry pollen\n",
+    "caption_3": "Abdomen not as cylindrical as in the honeybee and with different appearance (surface colour and hair colours or arrangement)\n",
+    "caption_4": "Bigger than an honeybee (>= 10 mm)\n",
+    "PT": true
+  },
+  {
+    "id": "bigwildbees",
+    "pictureId": "PT2",
+    "intro_text": "Big wild bees are very diverse and here determined as any other bee bigger or equal to the honeybee, different from the honeybee and bumblebees (which have very particular looks). Here are some examples.\n",
+    "caption_1": "Dasypoda",
+    "caption_2": "Anthophora",
+    "caption_3": "Eucera",
+    "caption_4": "Xylocopa",
+    "PT": true
+  },
+  {
+    "id": "bigwildbees",
+    "pictureId": "PT3",
+    "intro_text": "Most wild bees are solitary and each female gathers and transports the pollen for their offspring to the nest that exists in the surroundings. The pollen is gathered in a specialized hairy structure called scopa, either on the hind legs or under the abdomen, depending on the family\n",
+    "caption_1": "Scopa on the hind legs (non Megachilidae family), as in Andrena",
+    "caption_2": "Scopa under the abdomen (Megachilidae family), as in Megachile",
+    "extraText": "Solitary bees generally nest in burrows or holes. One large group dig burrows into soil. Other groups, including the Megachilidae, make use of holes in wood, plants or walls\n",
+    "PT": true
+  },
+  {
+    "id": "bigwildbees",
+    "pictureId": "PT4",
+    "intro_text": "Wild bees vary a lot in size, shape, colour and how hairy they appear. Not all the wild bees are “bee like” at first glance! Some examples of big wild bees are shown here\n",
+    "caption_1": "Species from Nomada (77 mainland) have a dark body with extensive pale markings all over the body, of yellow, red and orange tones. The wings are often darkened with a transparent area near the wing margin. This genus is included in the parasitic bees (163 in mainland and 1 in Madeira) that visit flowers for nectar, often having a wasp like appearance",
+    "caption_2": "The tribe Anthiidini (a group of genera) is constituted by robust bees that often present yellow or orange markings; females present scopa under the abdomen",
+    "PT": true
+  },
+  {
+    "id": "butterflies",
+    "pictureId": "PT1",
+    "intro_text": "Butterflies are very familiar flower visitors. In most cases they can be identifiable to species level by the surface pattern above and under the wings. They are closely related to moths but are separated by these characteristics.\n",
+    "caption_1": "Antennae are club-shaped",
+    "caption_2": "When in rest, butterflies open their wings wide, showing their four wings and the abdomen. They can also close the wings vertically on the back of the body",
+    "PT": true
+  },
+  {
+    "id": "butterflies",
+    "pictureId": "PT2",
+    "intro_text": "Butterflies visit the flowers looking for nectar. Butterfly species might vary a lot depending on the conditions of the habitat, where they can find their host plants to feed on as larvae.\n",
+    "extraText": "Butterflies visit the flowers looking for nectar. Butterfly species might vary a lot depending on the conditions of the habitat, where they can find their host plants to feed on as larvae",
+    "PT": true
+  },
+  {
+    "id": "otherflies",
+    "pictureId": "PT1",
+    "intro_text": "There are many different fly species that may be visiting flowers, other than hoverflies. Some of them may look very similar and you should consider the specific traits that differentiate them.\n",
+    "caption_1": "Frequently, other flies have thick and upright hairs on the body, mainly in the thorax, abdomen or legs – hoverflies do not have this type of hairs\n",
+    "caption_2": "Wing venation is different from hoverflies, as most times the wings do not present a ‘false margin’ – the vena spuria wing vein is absent\n",
+    "caption_3": "Most flies do not have yellowish or reddish markings, especially not in combination with metallic surfaces\n",
+    "PT": true
+  },
+  {
+    "id": "otherflies",
+    "pictureId": "PT2",
+    "intro_text": "Most of the other flies that you will see on flowers have a clearly different body shape, especially modified, elongated or rounded, frequently including bristles on the legs and body (1). Nevertheless there are some families that might pose a challenge.\n",
+    "caption_1": "Conopidae might have yellow and red markings all over the body, but the abdomen is curved downwards, and they have a long ‘tongue’ (proboscis)\n",
+    "caption_2": "Bombyliidae might have pale markings or be very similar to hoverflies, but lack a ‘false margin’ in the wing, and present a long proboscis\n",
+    "caption_3": "Stratiomyidae could show similar colour patterns to hoverflies but they have a especially flattened body, a cut short abdomen and lack a ‘false margin’ in the wing\n",
+    "PT": true
+  },
+  {
+    "id": "wasps",
+    "pictureId": "PT1",
+    "intro_text": "There are many different species of wasps, and they visit flowers mostly for nectar to complement their diet. Wasps may be similar to some bees and hoverflies, so these are the features you should look for. \n",
+    "caption_1": "Long or extremely long antennae",
+    "caption_2": "Less dense and furry hairs on the body in comparison with bees (in most cases)",
+    "caption_3": "Wings rolled up when at rest (in some wasps)",
+    "caption_4": "Very narrow “wasp waist” at the joint between thorax and abdomen (except the suborder Symphyta). They can also show additional abdomen constrictions",
+    "PT": true
+  },
+  {
+    "id": "wasps",
+    "pictureId": "PT2",
+    "intro_text": "Wasps are very commonly spotted on flowers. Some species may look very familiar, others not so much, but overall very “wasp like”. There are more than one hundred species that might be seen on flowers. These are some of the very common wasps.",
+    "caption_1": "Vespula",
+    "caption_2": "Polistes",
+    "caption_3": "Eumenes",
+    "caption_4": "Vespa velutina (a common invasive species)",
+    "PT": true
+  },
+  {
+    "id": "wasps",
+    "pictureId": "PT3",
+    "intro_text": "Be aware that wasps present a lot of variation in size, shape and marking patterns in the body.",
+    "caption_1": "Some groups like Crabronidae, often show bulky heads or enlarged eyes",
+    "caption_2": "The presence of thick and upright hairs on the legs or abdomen is common for some groups like Scoliidae",
+    "caption_3": "The species belonging to the Chrysididae show very intense pink, green and blue metallic shininess",
+    "caption_4": "Many parasitic wasps like the Ichneumonidae show very long and thin bodies, that are variable in colour pattern, with long antennae and a ovipositor on the abdomen used for egg-laying (females)",
+    "PT": true
+  },
+  {
+    "id": "beetles",
+    "pictureId": "PT1",
+    "intro_text": "Some beetle species also visit flowers mostly for feeding purposes. The different species vary a lot in size, shape and colour, but can be quickly recognised as beetles.\n",
+    "caption_1": "Hardened forewings that act as covers for the softer hindwings and abdomen\n",
+    "caption_2": "Their chewing mouthparts\n",
+    "PT": true
+  },
+  {
+    "id": "beetles",
+    "pictureId": "PT2",
+    "intro_text": "Beetles are incredibly abundant and diverse. Amongst the most common families visiting flowers are: Oedemeridae, Scarabaeidae (1), Nitidulidae (2), Tenebrionidae (3), Curculionidae (4), Buprestidae, Cantharidae or Cerambycidae\n",
+    "PT": true
+  },
+  {
+    "id": "moths",
+    "pictureId": "PT1",
+    "intro_text": "Moths are perhaps less frequently noticed, but also visit flowers regularly, either during the day or the night. Some moths are quite small and could be overlooked as other types of insects. Moths can be distinguished from butterflies by the traits above. \n",
+    "caption_1": "Non club-shaped antennae\n",
+    "caption_2": "When resting, the wings are folded, covering most of the rear pair of wings and the abdomen, having an overall triangular shape\n",
+    "PT": true
+  },
+  {
+    "id": "moths",
+    "pictureId": "PT2",
+    "intro_text": "A range of moths can be seen visiting flowers. Some of these may look like a butterfly, for example, Zygaenidae (1) and Crambidae (2) or other insects, for example, Sesiidae (3) and Sphingidae (4). \n",
+    "extraText": "As in butterflies, all moths have colour patterns on the wings produced by the scales on the wing surface.\n",
+    "PT": true
+  },
+  {
+    "id": "smallinsects",
+    "pictureId": "PT1",
+    "intro_text": "This category is for any insects under 3 mm long. \n\nThese can be hard to assign to a particular group without peering at them closely (which would disturb other insects visiting the flowers). Just count them (or estimate them if there is a large number) and assign them all to this category. \n",
+    "extraText": "This may include many beetles and other small bodied insects like flies and parasitic wasps\n",
+    "PT": true
+  },
+  {
+    "id": "otherinsects",
+    "pictureId": "PT1",
+    "intro_text": "This category is for any insects that do not fit into the other categories, and can also be used for the ones that you cannot identify. Above are some of the most frequent.\n",
+    "caption_1": "Hemiptera have wings that overlap, so there is no clear midline along the abdomen. They have a more-or-less triangular plate covering part of the abdomen and also possess long sucking mouthparts (usually hidden underneath the body)\n",
+    "caption_2": "Most Neuroptera have very fragile slim and long body, long antennae and large transparent wings, with very developed venation\n",
+    "caption_3": "Orthoptera have big legs, especially the overdeveloped last pair of legs. Most times, nymphs are observed, with green or paler tones\n",
+    "caption_4": "Ants (Formicidae) have a clear segmented body (head, thorax and abdomen), with thin legs and no wings (in most of the times).\n",
+    "PT": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": "PT1",
+    "intro_text": "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers vary in size, mostly larger than a honeybee, but might be smaller.\n",
+    "caption_1": "In comparison to flies, bumblebees have long, thin antennae\n",
+    "caption_2": "Compared to flies, their eyes cover the sides of the head, with lots of hair between the eyes\n",
+    "caption_3": "Bumblebees differ from most bees because of the dense and long hair on the body\n",
+    "caption_4": "In comparison to bees, bumblebees have contrasting colour bands (yellow, white, black or orange) on their body, some are ginger all over\n",
+    "extraText": "Bumblebees have a characteristic buzzing flight pattern and do not hover. There are 16 species in continental Portugal, 1 in Madeira and 3 in Azores.",
+    "PT": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": "PT2",
+    "intro_text": "Queen and worker bumblebees collect pollen into a moistened ball on the outside of the hind legs\n",
+    "caption_1": "In comparison to flies, they have long thin antennae\n",
+    "caption_2": "Also considering flies, their eyes cover the sides of the head, with lots of hair between the eyes\n",
+    "caption_3": "They differ from most bees because of the dense and long hair on the body\n",
+    "caption_4": "Bumblebees also differ from other bees due to the presence of contrasting colour bands (yellow, white, black or orange), some are ginger all over\n",
+    "extraText": "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar.\n",
+    "PT": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": "PT1",
+    "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering around the flowers. They might be confused with other flies, bees and wasps.\n",
+    "caption_1": "Hoverflies have larger eyes, covering most of the head, differing from most bees and wasps\n",
+    "caption_2": "Compared to bees and wasps, they have much shorter antennae (in most species)\n",
+    "caption_3": "In comparison with other flies, hoverflies have wings with ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing (3.1). Hoverflies also have a unique vein called “vena spuria”, only visible in very good photos (3.2)\n",
+    "caption_4": "The presence of black and yellow markings is more frequent than in other flies but be aware that some hoverflies are all dark and shiny metallic\n",
+    "caption_5": "Hoverflies are not usually as hairy as bees, and do not have thick and upright hairs on the body as in other flies\n",
+    "extraText": "Hoverflies feed on nectar and pollen, only to feed themselves, not collecting pollen for the offspring nor having pollen baskets. There are about 214 species of hoverflies in mainland Portugal, 24 in Azores and 30 in Madeira.\n",
+    "PT": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": "PT2",
+    "intro_text": "It is important to gain field experience, because some species can be challenging to identify in the beginning. Some genera have a close resemblance to the honeybee, such as the genus Eristalis (in the picture). Nevertheless there are a number of differences to look out for.\n",
+    "caption_1": "Much shorter antennae\n",
+    "caption_2": "The eyes cover more of the head\n",
+    "caption_3": "The back legs are much narrower than the broad flattened legs of the honeybee\n",
+    "caption_4": "The typical ‘false margin’ wing vein is present\n",
+    "PT": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": "PT3",
+    "intro_text": "Many hoverflies have the typical black and yellow markings, but there is quite a lot of variety in shape, size and markings among them, often mimicking other insects like bees and wasps. The generic hoverfly traits presented before should always work. Some examples are shown above. \n",
+    "caption_1": "Very common genera present very elongated bodies, as in Sphaerophoria (in the image), Melanostoma or Syritta",
+    "caption_2": "Slight elongated bodies with metallic dark or green are very common in genera like Cheilosia",
+    "caption_3": "Some species of the genus Merodon are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
+    "caption_4": "Some hoverflies are small and mostly dark in colour, but have the generic hoverfly traits, as in Paragus",
+    "PT": true
   }
 ]
