@@ -1,19 +1,16 @@
 # 
 # Translators:
-# Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
-# Karolis, 2022
-# Giselle Muschett <giselle.muschett@pucv.cl>, 2022
-# Eduardo E. Zattara <ezattara@gmail.com>, 2023
+# Karolis, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Eduardo E. Zattara <ezattara@gmail.com>, 2023\n"
-"Language-Team: Spanish (https://app.transifex.com/ceh/teams/116172/es/)\n"
+"Last-Translator: Karolis, 2023\n"
+"Language-Team: Spanish (Chile) (https://app.transifex.com/ceh/teams/116172/es_CL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
+"Language: es_CL\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Generator: POEditor.com\n"
 

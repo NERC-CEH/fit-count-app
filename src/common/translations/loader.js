@@ -1,5 +1,5 @@
 import en from './interface/en.pot';
-import esCL from './interface/es.po';
+import esCL from './interface/es_CL.po';
 import el from './interface/el.po';
 import ptBR from './interface/pt_BR.po';
 import ptPT from './interface/pt_PT.po';
