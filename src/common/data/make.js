@@ -2,7 +2,7 @@ const fs = require('fs');
 // require('dotenv').config({ silent: true, path: '../../../.env' }); // eslint-disable-line
 const fetchSheet = require('@flumens/fetch-onedrive-excel'); // eslint-disable-line
 
-const countries = ['UK', 'BR', 'CL', 'CY', 'AR', 'IE', 'DE', 'SE', 'HR'];
+const countries = ['UK', 'BR', 'CL', 'CY', 'AR', 'IE', 'DE', 'SE', 'HR', 'PT'];
 
 const drive =
   'sites/flumensio.sharepoint.com,6230bb4b-9d52-4589-a065-9bebfdb9ce63,21520adc-6195-4b5f-91f6-7af0b129ff5c/drive';
@@ -98,13 +98,9 @@ ${translationsText}
 function cleanUpTrailingWhiteSpace(data, keysToCheck) {
   const checkExists = sp => {
     const checkKeyValyeExistsInTranslations = key => {
-      const text = sp[key];
-      if (
-        (typeof str === 'string' && /^[\n]/.test(text)) ||
-        /[\n]$/.test(text)
-      ) {
+      if (sp[key]?.includes('\n')) {
         // eslint-disable-next-line no-param-reassign
-        sp[key] = text.replace(/[\n]$/, '');
+        sp[key] = sp[key].replaceAll('\n\n', ' ').replaceAll('\n', '');
       }
     };
     keysToCheck.forEach(checkKeyValyeExistsInTranslations);
