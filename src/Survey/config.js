@@ -22,8 +22,8 @@ import spikeTypeImage from './FlowerCount/images/spikeType.png';
 
 const isProd = process.env.NODE_ENV === 'production';
 
-const DEFAULT_SURVEY_TIME = 1 * 10 * 1000; // 10min
-const DEV_SURVEY_TIME = 1 * 10 * 1000; // 1min
+const DEFAULT_SURVEY_TIME = 10 * 60 * 1000; // 10min
+const DEV_SURVEY_TIME = 1 * 60 * 1000; // 1min
 
 const fixedLocationSchema = Yup.object().shape({
   latitude: Yup.number().required(),
