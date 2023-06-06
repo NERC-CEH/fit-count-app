@@ -4231,3 +4231,53 @@ msgstr "Some species of the genus Merodon are very good bumblebee mimics – che
 #: PT
 msgid "Some hoverflies are small and mostly dark in colour, but have the generic hoverfly traits, as in Paragus"
 msgstr "Some hoverflies are small and mostly dark in colour, but have the generic hoverfly traits, as in Paragus"
+
+# Back button label
+#: interface
+msgid "Strength"
+msgstr "Strength"
+
+# Survey activity page information dialog message
+#: interface 
+msgid "Do you participate in the other <1>project</1>?"
+msgstr "Do you participate in the other <1>project</1>?"
+
+# Survey activity page information dialog message
+#: interface 
+msgid "To refresh projects list pull page down."
+msgstr "To refresh projects list pull page down."
+
+# Survey activity page information dialog message
+#: interface 
+msgid "To access more information about the project, please swipe project to the right."
+msgstr "To access more information about the project, please swipe project to the right."
+
+# Survey activity page label
+#: interface
+msgid "Information"
+msgstr "Information"
+
+# Survey activity page message
+#: interface
+msgid "Please pull down the page to see projects."
+msgstr "Please pull down the page to see projects."
+
+# Survey activity page divider message
+#: interface
+msgid "My past project"
+msgstr "My past project"
+
+# Survey activity page divider message 
+#: interface
+msgid "Projects list"
+msgstr "Projects list"
+
+# Survey activity page divider message 
+#: interface
+msgid "Projects list"
+msgstr "Projects list"
+
+# Photo picker message
+#: interface
+msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
+msgstr "No photo has been added.<br/>Press <4><0></0></4> to add."

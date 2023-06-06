@@ -22,8 +22,8 @@ import spikeTypeImage from './FlowerCount/images/spikeType.png';
 
 const isProd = process.env.NODE_ENV === 'production';
 
-const DEFAULT_SURVEY_TIME = 10 * 60 * 1000; // 10min
-const DEV_SURVEY_TIME = 1 * 60 * 1000; // 1min
+const DEFAULT_SURVEY_TIME = 1 * 10 * 1000; // 10min
+const DEV_SURVEY_TIME = 1 * 10 * 1000; // 1min
 
 const fixedLocationSchema = Yup.object().shape({
   latitude: Yup.number().required(),
@@ -200,7 +200,7 @@ const survey = {
   id: 641,
   name: 'survey',
 
-  SURVEY_STEP_COUNT: 10,
+  SURVEY_STEP_COUNT: 11,
 
   DEFAULT_SURVEY_TIME: isProd ? DEFAULT_SURVEY_TIME : DEV_SURVEY_TIME,
 
@@ -222,6 +222,29 @@ const survey = {
           const lon = parseFloat(location.longitude);
           return `${lat.toFixed(7)}, ${lon.toFixed(7)}`;
         },
+      },
+    },
+
+    activity: {
+      values(activityValue, submission) {
+        const activityList = appModel.attrs.activities.length;
+        if (!activityList) return;
+
+        const activityID = [...appModel.attrs.activities].find(
+          activity => activity.name === activityValue
+        ).id;
+
+        // set past activity
+        appModel.attrs.pastActivity = activityID;
+        appModel.save();
+
+        // eslint-disable-next-line
+        submission.values = {
+          ...submission.values,
+        };
+
+        // eslint-disable-next-line no-param-reassign
+        submission.values['smpAttr:1759'] = activityID;
       },
     },
 

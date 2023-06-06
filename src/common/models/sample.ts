@@ -18,6 +18,7 @@ import Media from './media';
 type Attrs = SampleAttrs & {
   date: any;
   location: any;
+  activity?: string;
   surveyStartTime?: any;
   'weather-wind'?: any;
   'location-name'?: any;

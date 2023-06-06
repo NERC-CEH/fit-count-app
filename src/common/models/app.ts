@@ -1,6 +1,14 @@
 import { Model, ModelAttrs } from '@flumens';
 import { genericStore } from './store';
 
+export interface ActivityProp {
+  id: string;
+  name: string;
+  country_name: string;
+  country_code: string;
+  website_url: string;
+}
+
 export interface Attrs extends ModelAttrs {
   sendAnalytics: boolean;
   appSession: number;
@@ -9,6 +17,9 @@ export interface Attrs extends ModelAttrs {
 
   feedbackGiven: boolean;
   showedWelcome: boolean;
+
+  activities?: ActivityProp[] | null;
+  pastActivity?: ActivityProp | null;
 
   // draft survey pointers
   'draftId:survey'?: string;
@@ -23,6 +34,9 @@ const defaults: Attrs = {
   appSession: 0,
   language: '',
   country: '',
+
+  pastActivity: null,
+  activities: null,
 
   feedbackGiven: false,
   showedWelcome: false,

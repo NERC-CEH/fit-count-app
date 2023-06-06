@@ -48,6 +48,7 @@ export * from '@flumens/ionic/dist/utils/validation';
 export * from '@flumens/ionic/dist/utils/type';
 export * from '@flumens/ionic/dist/utils/image';
 export * from '@flumens/ionic/dist/utils/location';
+export * from '@flumens/ionic/dist/utils/errors';
 export { default as date } from '@flumens/ionic/dist/utils/date';
 export { default as initAnalytics } from '@flumens/ionic/dist/utils/analytics';
 export { default as device } from '@flumens/ionic/dist/utils/device';

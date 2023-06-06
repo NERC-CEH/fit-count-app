@@ -3,16 +3,22 @@ import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { observer } from 'mobx-react';
 import { NavContext } from '@ionic/react';
-import { Page, Header } from '@flumens';
+import { Page, Header, useLoader, useToast } from '@flumens';
+import syncActivities from 'Survey/Activities/services';
 import Main from './Main';
 
 function SelectCountry({ appModel }) {
   const navigate = useContext(NavContext);
 
+  const loader = useLoader();
+  const toast = useToast();
+
   const onSelect = e => {
     appModel.attrs.country = e.target.value; // eslint-disable-line no-param-reassign
     appModel.save();
     navigate.goBack();
+
+    syncActivities(loader, toast);
   };
 
   return (

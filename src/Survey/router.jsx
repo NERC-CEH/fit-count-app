@@ -13,6 +13,7 @@ import InsectCount from './InsectCount';
 import WeatherSky from './WeatherSky';
 import WeatherShade from './WeatherShade';
 import WeatherWind from './WeatherWind';
+import Activities from './Activities';
 
 const baseURL = `/survey/new`;
 
@@ -33,6 +34,7 @@ const routes = [
   [`${baseURL}/:smpId/weather-sky`, WeatherSky],
   [`${baseURL}/:smpId/weather-shade`, WeatherShade],
   [`${baseURL}/:smpId/weather-wind`, WeatherWind],
+  [`${baseURL}/:smpId/activities`, Activities],
 ];
 
 export default RouteWithModels.fromArray(savedSamples, routes);
