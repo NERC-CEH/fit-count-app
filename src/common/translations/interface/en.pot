@@ -57,6 +57,11 @@ msgstr "Settings"
 msgid "App"
 msgstr "App"
 
+# User account error.
+#: interface
+msgid "User re-login is required."
+msgstr "User re-login is required."
+
 # User account delete in the settings
 #: interface
 msgid "Delete account"

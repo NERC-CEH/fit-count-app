@@ -247,18 +247,16 @@ const ActivityController: FC<Props> = ({ sample }) => {
           className="info-message"
           skipTranslation
         >
-          <T>
-            Do you participate in the other <b>project</b>?
-          </T>
+          <T>Is this survey part of a project?</T>
           <InfoButton label="Information" header="Info" skipTranslation>
             <p>
-              <T>To refresh projects list pull page down.</T>
+              <T>To refresh the projects list, pull the page down.</T>
             </p>
 
             <p>
               <T>
-                To access more information about the project, please swipe
-                project to the right.
+                To see more information about a project, please swipe the
+                project to the right and tap on the link.
               </T>
             </p>
 
