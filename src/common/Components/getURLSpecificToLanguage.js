@@ -6,7 +6,8 @@ function getURLSpecificToLanguage(path) {
 
   const defaultURL = `${baseURL}/${path}`;
 
-  const specificToLanguageURL = `${baseURL}/${appModel.attrs.language}/${path}`;
+  const language = `${appModel.attrs.language}`.toLowerCase();
+  const specificToLanguageURL = `${baseURL}/${language}/${path}`;
 
   const isLanguageDefault = appModel.attrs.language === 'en';
 
