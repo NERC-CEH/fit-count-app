@@ -10,9 +10,8 @@ const config = {
   environment: process.env.NODE_ENV as string,
   version: process.env.APP_VERSION as string,
   build: process.env.APP_BUILD as string,
-  
-  DEFAULT_LANGUAGE: 'en',
 
+  DEFAULT_LANGUAGE: 'en',
 
   sentryDNS: process.env.APP_SENTRY_KEY as string,
 
@@ -24,8 +23,6 @@ const config = {
 
   map: {
     mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY as string,
-    mapboxOsmId: 'cehapps/ckghr3uxz01xb19udplq7wi6x',
-    mapboxSatelliteId: 'cehapps/cipqvo0c0000jcknge1z28ejp',
   },
 
   backend: {
