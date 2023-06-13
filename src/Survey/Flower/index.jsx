@@ -94,7 +94,8 @@ class Flower extends Component {
 
     const surveyConfig = sample.getSurvey();
 
-    const flowersOptions = surveyConfig.attrs.flower.componentProps().options;
+    const flowersOptions =
+      surveyConfig.attrs.flower.pageProps.attrProps.inputProps().options;
 
     const byFlowerName = flower => flower.value === selectedFlowerName;
 
@@ -175,7 +176,12 @@ class Flower extends Component {
               {!isMissingFlower && <RequiredLabel />}
             </div>
           </IonItemDivider>
-          <Attr attr="flower" model={sample} {...attrProps} />
+          <Attr
+            attr="flower"
+            model={sample}
+            onChange={this.onValueChange}
+            {...attrProps}
+          />
 
           {this.getManualEntry()}
         </Main>
