@@ -12,7 +12,7 @@ import {
   useLoader,
 } from '@flumens';
 import appModel, { ActivityProp } from 'models/app';
-import { useUserStatusCheck } from 'models/user';
+import userModel, { useUserStatusCheck } from 'models/user';
 import Sample, { useValidateCheck } from 'models/sample';
 import {
   IonItem,
@@ -82,6 +82,8 @@ const ActivityController: FC<Props> = ({ sample }) => {
   };
 
   const onFinish = async () => {
+    setPastActivity();
+
     if (!sample.metadata.saved) {
       await _processDraft();
     }
@@ -100,24 +102,14 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
     sample.upload().catch(toast.error);
 
-    setPastActivity();
-
-    try {
-      await loader.show('Please wait...');
-
-      syncActivities();
-    } catch (err: any) {
-      toast.error(err);
-    }
-
-    loader.hide();
-
     goHome();
   };
 
   const isValueValid = () => !!sample.attrs['weather-wind'];
 
   useEffect(() => {
+    if (!device.isOnline || !userModel.isLoggedIn()) return;
+
     const updateActivities = async () => {
       const isActivitiesSynced = activities !== null;
       if (isActivitiesSynced) return;
