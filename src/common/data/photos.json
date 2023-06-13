@@ -1266,7 +1266,7 @@
   {
     "id": "moths",
     "pictureId": "PT1",
-    "intro_text": "Moths are perhaps less frequently noticed, but also visit flowers regularly, either during the day or the night. Some moths are quite small and could be overlooked as other types of insects. Moths can be distinguished from butterflies by the traits above.",
+    "intro_text": "Moths are perhaps less frequently noticed, but also visit flowers regularly, either during the day or the night. Some moths are quite small and could be overlooked as other types of insects. Moths can be distinguished from butterflies by the traits above. ",
     "caption_1": "Non club-shaped antennae",
     "caption_2": "When resting, the wings are folded, covering most of the rear pair of wings and the abdomen, having an overall triangular shape",
     "PT": true
@@ -1274,7 +1274,7 @@
   {
     "id": "moths",
     "pictureId": "PT2",
-    "intro_text": "A range of moths can be seen visiting flowers. Some of these may look like a butterfly, for example, Zygaenidae (1) and Crambidae (2) or other insects, for example, Sesiidae (3) and Sphingidae (4).",
+    "intro_text": "A range of moths can be seen visiting flowers. Some of these may look like a butterfly, for example, Zygaenidae (1) and Crambidae (2) or other insects, for example, Sesiidae (3) and Sphingidae (4). ",
     "extraText": "As in butterflies, all moths have colour patterns on the wings produced by the scales on the wing surface.",
     "PT": true
   },

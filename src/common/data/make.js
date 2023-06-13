@@ -151,7 +151,6 @@ const getData = async () => {
   );
 
   sheetData = await fetchSheet({ drive, file, sheet: 'insect-guide-photos' });
-  saveSpeciesToFile(sheetData, 'photos');
   cleanUpTrailingWhiteSpace(sheetData, [
     'intro_text',
     'caption_1',
@@ -162,6 +161,8 @@ const getData = async () => {
     'caption_6',
     'extraText',
   ]);
+  saveSpeciesToFile(sheetData, 'photos');
+
   translations.push(
     generateTranslations(
       sheetData,

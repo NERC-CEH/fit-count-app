@@ -2,19 +2,18 @@
   {
     "id": "acacia",
     "warehouseId": 18803,
+    "type": "Head",
+    "name": "Acacia",
+    "scientificName": "Acacia"
+  },
+  {
+    "id": "acacia",
+    "warehouseId": 18803,
     "type": "Individual Flower",
     "sort": 25,
     "name": "Acacia",
     "scientificName": "Acacia saligna",
     "CY": true
-  },
-  {
-    "id": "acacia",
-    "warehouseId": 18803,
-    "type": "Head",
-    "name": "Acacia",
-    "scientificName": "Acacia",
-    "PT": true
   },
   {
     "id": "acaciaCH",
@@ -24,6 +23,14 @@
     "name": "Acacia",
     "scientificName": "Acacia saligna",
     "CL": true
+  },
+  {
+    "id": "acaciaPT",
+    "warehouseId": 18803,
+    "type": "Head",
+    "name": "Acacia",
+    "scientificName": "Acacia",
+    "PT": true
   },
   {
     "id": "acerolaCherry",
@@ -69,7 +76,13 @@
     "warehouseId": 18908,
     "type": "Head",
     "name": "Asteraceae (herbaceous)",
-    "BR": true,
+    "BR": true
+  },
+  {
+    "id": "asteraceaePT",
+    "warehouseId": 18907,
+    "type": "Head",
+    "name": "Asteraceae (herbaceous)",
     "PT": true
   },
   {
@@ -94,7 +107,15 @@
     "sort": 26,
     "name": "Bermuda Buttercup",
     "scientificName": "Oxalis pes-caprae",
-    "CY": true,
+    "CY": true
+  },
+  {
+    "id": "bermudaButtercupPT",
+    "warehouseId": 18803,
+    "type": "Head",
+    "sort": 26,
+    "name": "Bermuda Buttercup",
+    "scientificName": "Oxalis pes-caprae",
     "PT": true
   },
   {
@@ -182,7 +203,14 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true,
+    "HR": true
+  },
+  {
+    "id": "buttercupPT",
+    "warehouseId": 14100,
+    "type": "Individual Flower",
+    "sort": 3,
+    "name": "Buttercup",
     "PT": true
   },
   {
@@ -243,12 +271,18 @@
     "AR": true
   },
   {
+    "id": "cloverPT",
+    "warehouseId": 18910,
+    "type": "Head",
+    "name": "Clover/Trefoil",
+    "PT": true
+  },
+  {
     "id": "cloverTrefoil",
     "warehouseId": 18910,
     "type": "Head",
     "name": "Clover/Trefoil",
-    "BR": true,
-    "PT": true
+    "BR": true
   },
   {
     "id": "commonChicory",
@@ -311,7 +345,14 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true,
+    "HR": true
+  },
+  {
+    "id": "dandelionPT",
+    "warehouseId": 13571,
+    "type": "Head",
+    "sort": 4,
+    "name": "Dandelion",
     "PT": true
   },
   {
@@ -406,7 +447,14 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "SE": true,
+    "SE": true
+  },
+  {
+    "id": "heatherPT",
+    "warehouseId": 13609,
+    "type": "Spike",
+    "sort": 6,
+    "name": "Heather",
     "PT": true
   },
   {
@@ -443,7 +491,14 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true,
+    "HR": true
+  },
+  {
+    "id": "ivyPT",
+    "warehouseId": 14064,
+    "type": "Head",
+    "sort": 8,
+    "name": "Ivy",
     "PT": true
   },
   {
@@ -492,7 +547,14 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "HR": true,
+    "HR": true
+  },
+  {
+    "id": "lavenderPT",
+    "warehouseId": 13611,
+    "type": "Spike",
+    "sort": 10,
+    "name": "Lavender",
     "PT": true
   },
   {
@@ -682,14 +744,16 @@
     "SE": true
   },
   {
+    "id": "rockRose"
+  },
+  {
     "id": "rockRose",
     "warehouseId": 18797,
     "type": "Individual Flower",
     "sort": 19,
     "name": "Rock-roses",
     "scientificName": "Cistus spp.",
-    "CY": true,
-    "PT": true
+    "CY": true
   },
   {
     "id": "rockRoseHR",
@@ -698,7 +762,8 @@
     "sort": 19,
     "name": "Rock Roses",
     "scientificName": "Cistus spp.",
-    "HR": true
+    "HR": true,
+    "PT": true
   },
   {
     "id": "rose",
@@ -740,7 +805,14 @@
     "UK": true,
     "IE": true,
     "DE": true,
-    "SE": true,
+    "SE": true
+  },
+  {
+    "id": "thistlePT",
+    "warehouseId": 13614,
+    "type": "Head",
+    "sort": 12,
+    "name": "Thistle",
     "PT": true
   },
   {
