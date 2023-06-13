@@ -4,9 +4,9 @@ import { genericStore } from './store';
 export interface ActivityProp {
   id: string;
   name: string;
-  country_name: string;
-  country_code: string;
-  website_url: string;
+  countryName: string;
+  countryCode: string;
+  websiteUrl: string;
 }
 
 export interface Attrs extends ModelAttrs {
@@ -19,7 +19,7 @@ export interface Attrs extends ModelAttrs {
   showedWelcome: boolean;
 
   activities?: ActivityProp[] | null;
-  pastActivity?: ActivityProp | null;
+  pastActivities?: any;
 
   // draft survey pointers
   'draftId:survey'?: string;
@@ -35,8 +35,8 @@ const defaults: Attrs = {
   language: '',
   country: '',
 
-  pastActivity: null,
   activities: null,
+  pastActivities: [],
 
   feedbackGiven: false,
   showedWelcome: false,

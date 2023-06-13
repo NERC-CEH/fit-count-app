@@ -227,24 +227,13 @@ const survey = {
 
     activity: {
       values(activityValue, submission) {
-        const activityList = appModel.attrs.activities.length;
-        if (!activityList) return;
-
-        const activityID = [...appModel.attrs.activities].find(
-          activity => activity.name === activityValue
-        ).id;
-
-        // set past activity
-        appModel.attrs.pastActivity = activityID;
-        appModel.save();
-
         // eslint-disable-next-line
         submission.values = {
           ...submission.values,
         };
 
         // eslint-disable-next-line no-param-reassign
-        submission.values['smpAttr:1759'] = activityID;
+        submission.values['smpAttr:1759'] = activityValue.id;
       },
     },
 

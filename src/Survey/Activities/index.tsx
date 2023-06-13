@@ -1,5 +1,5 @@
-import { FC, useContext, useState, useEffect } from 'react';
-import { useTranslation, Trans as T } from 'react-i18next';
+import { FC, useState, useEffect, useContext } from 'react';
+import { Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
 import {
   Page,
@@ -15,7 +15,6 @@ import appModel, { ActivityProp } from 'models/app';
 import { useUserStatusCheck } from 'models/user';
 import Sample, { useValidateCheck } from 'models/sample';
 import {
-  NavContext,
   IonItem,
   IonIcon,
   IonLabel,
@@ -28,18 +27,15 @@ import {
   IonItemOptions,
   IonItemOption,
   IonItemDivider,
+  NavContext,
 } from '@ionic/react';
-import {
-  checkmarkOutline,
-  informationCircleOutline,
-  openOutline,
-} from 'ionicons/icons';
+import { informationCircleOutline, openOutline } from 'ionicons/icons';
 import helpIcon from './images/helpIcon.jpg';
-import surveyStatistics from './surveyStatistics.json';
-import CustomAlert from '../Components/CustomAlert';
+import ThankYouAlert from './ThankYouAlert';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import syncActivities from './services';
+import unPinIcon from './unpinIcon.svg';
 import './styles.scss';
 
 const PAGE_INDEX = 11;
@@ -50,27 +46,31 @@ type Props = {
 
 const ActivityController: FC<Props> = ({ sample }) => {
   const { navigate } = useContext(NavContext);
-  const { t } = useTranslation();
   const toast = useToast();
   const loader = useLoader();
-  const checkSampleStatus = useValidateCheck(sample);
   const checkUserStatus = useUserStatusCheck();
+  const checkSampleStatus = useValidateCheck(sample);
 
   const [showThanks, setShowThanks] = useState(false);
 
-  const { country, activities } = appModel.attrs;
-  const isUK = country === 'UK';
-  const isRestOfWorld = !isUK;
+  const { activities } = appModel.attrs;
 
   const countryActivities = Array.isArray(activities) && activities?.length;
 
-  const numberOfOccurrences = sample.getInsectCount();
+  const setPastActivity = () => {
+    const currentSelectedActivityId = sample.attrs.activity?.id;
 
-  const englishFormat = Intl.DateTimeFormat('en', { month: 'long' });
+    appModel.attrs.pastActivities.push(currentSelectedActivityId);
 
-  const englishMonth = englishFormat.format(
-    new Date(sample.metadata.created_on)
-  );
+    const pastActivities = [...appModel.attrs.pastActivities];
+
+    const uniqueActivities = new Set(pastActivities);
+
+    const uniquePastActivitiesIds = [...uniqueActivities];
+
+    appModel.attrs.pastActivities = uniquePastActivitiesIds;
+    appModel.save();
+  };
 
   const _processDraft = async () => {
     appModel.attrs['draftId:survey'] = '';
@@ -79,6 +79,14 @@ const ActivityController: FC<Props> = ({ sample }) => {
     // eslint-disable-next-line no-param-reassign
     sample.metadata.saved = true;
     sample.save();
+  };
+
+  const onFinish = async () => {
+    if (!sample.metadata.saved) {
+      await _processDraft();
+    }
+
+    setShowThanks(true);
   };
 
   const goHome = () => navigate('/home/surveys', 'root');
@@ -92,37 +100,41 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
     sample.upload().catch(toast.error);
 
-    goHome();
-  };
+    setPastActivity();
 
-  const onFinish = async () => {
-    if (!sample.metadata.saved) {
-      await _processDraft();
+    try {
+      await loader.show('Please wait...');
+
+      syncActivities();
+    } catch (err: any) {
+      toast.error(err);
     }
 
-    setShowThanks(true);
+    loader.hide();
+
+    goHome();
   };
 
   const isValueValid = () => !!sample.attrs['weather-wind'];
 
-  const getAverageInsectCount = (month: any) => {
-    const byMonth = (obj: any) => obj.month_name === month;
+  useEffect(() => {
+    const updateActivities = async () => {
+      const isActivitiesSynced = activities !== null;
+      if (isActivitiesSynced) return;
 
-    const insectsData = surveyStatistics.find(byMonth);
-    if (!insectsData) return null;
+      try {
+        await loader.show('Please wait...');
 
-    return parseFloat(insectsData.average as any).toFixed(0);
-  };
-  const month = t(englishMonth);
-  const averageInsectCountForThisMonth = getAverageInsectCount(month);
+        syncActivities();
+      } catch (err: any) {
+        console.log(err);
+      }
 
-  const syncActivitiesForTheFirstTime = () => {
-    const isActivitiesSynced = activities !== null;
-    if (isActivitiesSynced) return;
+      loader.hide();
+    };
 
-    syncActivities(loader, toast);
-  };
-  useEffect(syncActivitiesForTheFirstTime, []);
+    updateActivities();
+  }, []);
 
   const refreshReport = async () => {
     if (!device.isOnline) {
@@ -133,7 +145,15 @@ const ActivityController: FC<Props> = ({ sample }) => {
     const isUserOK = await checkUserStatus();
     if (!isUserOK) return;
 
-    syncActivities(loader, toast);
+    try {
+      await loader.show('Please wait...');
+
+      await syncActivities();
+    } catch (err: any) {
+      toast.error(err);
+    }
+
+    loader.hide();
   };
 
   const onListRefreshPull = (e: any) => {
@@ -142,42 +162,56 @@ const ActivityController: FC<Props> = ({ sample }) => {
   };
 
   const onChange = (e: any) => {
+    const projects = appModel.attrs.activities || [];
+
+    const activity = projects.find(
+      (activityObj: ActivityProp) => activityObj.name === e.detail.value
+    );
+
     // eslint-disable-next-line no-param-reassign
-    sample.attrs.activity = e.detail.value;
+    sample.attrs.activity = activity;
     sample.save();
   };
 
-  const byPastActivity = (activity: any) =>
-    activity.id === appModel.attrs.pastActivity;
+  const byPastActivities = (activity: any) =>
+    appModel.attrs.pastActivities.includes(activity.id);
 
   const byNonFavorite = (activity: any) =>
-    activity.id !== appModel.attrs.pastActivity;
+    !appModel.attrs.pastActivities.includes(activity.id);
 
-  const activitiesList = appModel.attrs.activities?.length
-    ? [...appModel.attrs.activities]
-    : [];
-
-  const favoriteActivities = activitiesList.filter(byPastActivity);
+  const activitiesList = appModel.attrs.activities || [];
+  const favoriteActivities = activitiesList.filter(byPastActivities);
   const remainingActivities = activitiesList.filter(byNonFavorite);
 
-  const getActivityEntries = (activitiesData: ActivityProp[]) => {
+  const getActivityEntries = (
+    activitiesData: ActivityProp[],
+    isPastActivity: boolean
+  ) => {
     const alphabetically = (activityA: ActivityProp, activityB: ActivityProp) =>
       activityA.name.localeCompare(activityB.name);
 
     return activitiesData.sort(alphabetically).map((activity: ActivityProp) => {
-      const { name, id, website_url } = activity;
+      const { name = '', id, websiteUrl } = activity;
 
       const navigateTo = () => {
-        window.location.href = website_url;
+        window.location.href = websiteUrl;
+      };
+
+      const unpinFromPastActivityList = () => {
+        const index = appModel.attrs.pastActivities.indexOf(id);
+        appModel.attrs.pastActivities.splice(index, 1);
+        appModel.save();
       };
 
       return (
         <IonItemSliding>
-          <IonItemOptions side="start" className="copy-slider">
-            <IonItemOption color="tertiary" onClick={navigateTo}>
-              <IonIcon icon={openOutline} />
-            </IonItemOption>
-          </IonItemOptions>
+          {websiteUrl && (
+            <IonItemOptions side="start">
+              <IonItemOption color="tertiary" onClick={navigateTo}>
+                <IonIcon icon={openOutline} />
+              </IonItemOption>
+            </IonItemOptions>
+          )}
           <IonItem
             key={`${name} + ${id}`}
             className="radio-input-default-option"
@@ -185,6 +219,14 @@ const ActivityController: FC<Props> = ({ sample }) => {
             <IonLabel>{name}</IonLabel>
             <IonRadio value={name} />
           </IonItem>
+
+          {isPastActivity && (
+            <IonItemOptions side="end">
+              <IonItemOption color="medium" onClick={unpinFromPastActivityList}>
+                <IonIcon icon={unPinIcon} />
+              </IonItemOption>
+            </IonItemOptions>
+          )}
         </IonItemSliding>
       );
     });
@@ -210,15 +252,15 @@ const ActivityController: FC<Props> = ({ sample }) => {
     return (
       <IonList lines="full" className="radio-input-attr">
         <IonRadioGroup allowEmptySelection onIonChange={onChange}>
-          {appModel.attrs.pastActivity && (
+          {!!favoriteActivities.length && (
             <>
               <IonItemDivider mode="ios" className="survey-divider">
                 <div>
-                  <T>My past project</T>
+                  <T>My past projects</T>
                 </div>
               </IonItemDivider>
 
-              {getActivityEntries(favoriteActivities)}
+              {getActivityEntries(favoriteActivities, true)}
             </>
           )}
 
@@ -227,7 +269,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
               <T>Projects list</T>
             </div>
           </IonItemDivider>
-          {getActivityEntries(remainingActivities)}
+          {getActivityEntries(remainingActivities, false)}
         </IonRadioGroup>
       </IonList>
     );
@@ -271,65 +313,15 @@ const ActivityController: FC<Props> = ({ sample }) => {
         {getActivitiesList()}
       </Main>
 
-      {isValueValid() && <Footer title="Save my count" onClick={onFinish} />}
-
       {showThanks && (
-        <CustomAlert>
-          <div className="center">
-            <IonIcon icon={checkmarkOutline} />
-          </div>
-
-          <h3>
-            <T>
-              Thanks for completing your FIT Count - all results help us to
-              monitor insect populations.
-            </T>
-          </h3>
-
-          {!!averageInsectCountForThisMonth && isUK && (
-            <p>
-              <T>
-                You counted <b>{{ numberOfOccurrences }} </b>insect(s)
-                altogether - the UK average for <b>{{ month }}</b> is{' '}
-                <b>{{ averageInsectCountForThisMonth }}</b> insects per count.
-              </T>
-            </p>
-          )}
-
-          {isRestOfWorld && (
-            <p>
-              <T>
-                You counted <b>{{ numberOfOccurrences }} </b>insect(s)
-                altogether.
-              </T>
-            </p>
-          )}
-
-          <div className="button-wrapper">
-            <IonItem
-              color="secondary"
-              onClick={uploadSurvey}
-              className="next-button"
-              lines="none"
-            >
-              <IonLabel>
-                <T>Upload</T>
-              </IonLabel>
-            </IonItem>
-
-            <IonItem
-              color="medium"
-              onClick={goHome}
-              className="next-button home"
-              lines="none"
-            >
-              <IonLabel>
-                <T>Go Home</T>
-              </IonLabel>
-            </IonItem>
-          </div>
-        </CustomAlert>
+        <ThankYouAlert
+          sample={sample}
+          uploadSurvey={uploadSurvey}
+          goHome={goHome}
+        />
       )}
+
+      {isValueValid() && <Footer title="Save my count" onClick={onFinish} />}
     </Page>
   );
 };

@@ -1,8 +1,21 @@
+import * as Yup from 'yup';
 import userModel from 'models/user';
-import appModel from 'models/app';
+import appModel, { ActivityProp } from 'models/app';
 import config from 'common/config';
 import axios, { AxiosRequestConfig } from 'axios';
 import { isAxiosNetworkError, HandledError, device } from '@flumens';
+
+const schemaBackend = Yup.object().shape({
+  data: Yup.array().of(
+    Yup.object().shape({
+      id: Yup.string().required(),
+      name: Yup.string().required(),
+      // country_name: Yup.string(),
+      // country_code: Yup.string(),
+      // website_url: Yup.string()
+    })
+  ),
+});
 
 async function fetchActivitiesReport() {
   const country_code = appModel.attrs.country;
@@ -22,7 +35,22 @@ async function fetchActivitiesReport() {
   try {
     const { data: response } = await axios(options);
 
-    return response.data;
+    const isValidResponse = await schemaBackend.isValid(response);
+    if (!isValidResponse) throw new Error('Invalid server response.');
+
+    const format = (activity: any) => {
+      return {
+        countryCode: activity.country_code,
+        countryName: activity.country_name,
+        id: activity.id,
+        name: activity.name,
+        websiteUrl: activity.website_url,
+      };
+    };
+
+    const formatData = response.data.map(format);
+
+    return formatData;
   } catch (error: any) {
     if (isAxiosNetworkError(error))
       throw new HandledError(
@@ -33,19 +61,30 @@ async function fetchActivitiesReport() {
   }
 }
 
-export default async function syncActivities(loader: any, toast: any) {
+const checkIfPastActivitiesStillActive = (data: ActivityProp[]) => {
+  data.forEach((activity: ActivityProp, index: number) => {
+    const expiredActivity = ![...appModel.attrs.pastActivities].includes(
+      activity.id
+    );
+
+    if (expiredActivity) {
+      appModel.attrs.pastActivities.splice(index, 1);
+      appModel.save();
+    }
+  });
+};
+
+export default async function syncActivities() {
   if (!device.isOnline || !userModel.isLoggedIn()) return;
 
   try {
-    await loader.show('Please wait...');
-
     const data = await fetchActivitiesReport();
+
+    checkIfPastActivitiesStillActive(data);
 
     appModel.attrs.activities = data;
     appModel.save();
   } catch (err: any) {
-    toast.error(err);
+    console.log(err);
   }
-
-  loader.hide();
 }
