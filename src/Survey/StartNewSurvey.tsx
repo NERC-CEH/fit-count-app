@@ -1,7 +1,7 @@
 import { useEffect, useContext } from 'react';
 import { NavContext, isPlatform } from '@ionic/react';
 import Sample from 'models/sample';
-import { useAlert } from '@flumens';
+import { useAlert, useDisableBackButton } from '@flumens';
 import { Trans as T } from 'react-i18next';
 import appModel from 'models/app';
 import userModel from 'models/user';
@@ -68,6 +68,8 @@ async function getDraft(draftIdKey: string, alert: any) {
 function StartNewSurvey({ match, survey }: any) {
   const context = useContext(NavContext);
   const alert = useAlert();
+
+  useDisableBackButton();
 
   const draftIdKey = `draftId:${survey.name}`;
 

@@ -1,13 +1,16 @@
+import { useEffect } from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import userModel from 'models/user';
 import appModel from 'models/app';
 import savedSamples from 'models/savedSamples';
+import { App as AppPlugin } from '@capacitor/app';
 import {
   IonTabs,
   IonTabButton,
   IonIcon,
   IonTabBar,
   IonRouterOutlet,
+  useIonRouter,
 } from '@ionic/react';
 import {
   homeOutline,
@@ -33,6 +36,21 @@ const UserSurveys = () => <Surveys savedSamples={savedSamples} />;
 const GuideWrap = () => <Guide appModel={appModel} />;
 
 const HomeComponent = () => {
+  const ionRouter = useIonRouter();
+
+  const exitApp = () => {
+    const onExitApp = () => !ionRouter.canGoBack() && AppPlugin.exitApp();
+
+    const exit = ev => ev.detail.register(-1, onExitApp);
+    // eslint-disable-next-line @getify/proper-arrows/name
+    document.addEventListener('ionBackButton', exit);
+
+    const removeEventListener = () =>
+      document.addEventListener('ionBackButton', onExitApp);
+    return removeEventListener;
+  };
+  useEffect(exitApp, []);
+
   return (
     <>
       <IonTabs>

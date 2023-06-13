@@ -31,7 +31,6 @@ mobxConfig({
 });
 
 setupIonicReact({
-  hardwareBackButton: false, // android back button
   swipeBackEnabled: false,
 });
 
