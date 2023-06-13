@@ -16,6 +16,8 @@ const Credits = () => {
   const isIreland = country === 'IE';
   const isGermany = country === 'DE';
   const isCroatia = country === 'HR';
+  const isPortugal = country === 'PT';
+
   const isRestOfWorld =
     !isCyprus && !isBrazil && !isIreland && !isGermany && !isCroatia;
 
@@ -204,6 +206,53 @@ const Credits = () => {
                 <li>Thomas Schmitt</li>
               </ul>
             )}
+            {isPortugal && (
+              <ul>
+                <li>Silvia Castro</li>
+                <li>Sara Lopes</li>
+                <li>Viridi Green, Unsplash</li>
+                <li>Lazlo, Pixabay</li>
+                <li>Ivar Leidus, Wikimedia Commons</li>
+                <li>Vera Buhl, Wikimedia Commons</li>
+                <li>Charles J. Sharp, Wikimedia Commons</li>
+                <li>Andreas Trepte, Wikimedia Commons</li>
+                <li>Gideon Pisanty, Wikimedia Commons</li>
+                <li>Fritz Geller-Grimm, Wikimedia Commons</li>
+                <li>Gail Hampshire, Wikimedia Commons</li>
+                <li>Bob Peterson, Wikimedia Commons</li>
+                <li>Hectonichus, Wikimedia Commons</li>
+                <li>Sandra H Statner , Wikimedia Commons</li>
+                <li>Dick Belgers, Wikimedia Commons</li>
+                <li>S. Rae, Wikimedia Commons</li>
+                <li>Wofl, Wikimedia Commons</li>
+                <li>Лобачев Владимир, Wikimedia Commons</li>
+                <li>Jacy Lucier, Wikimedia Commons</li>
+                <li>Frank Vassen, Wikimedia Commons</li>
+                <li>Alvesgaspar, Wikimedia Commons</li>
+                <li>Sandy Rae, Wikimedia Commons</li>
+                <li>Zeynel Cebeci, Wikimedia Commons</li>
+                <li>invertebradosdehuesca.com , Wikimedia Commons </li>
+                <li>Quartl, Wikimedia Commons</li>
+                <li>Vengolis, Wikimedia Commons</li>
+                <li>JJ Harrison, Wikimedia Commons</li>
+                <li>Richard Bartz, Wikimedia Commons</li>
+                <li>Amada44, Wikimedia Commons</li>
+                <li>Bruce Marlin, Wikimedia Commons</li>
+                <li>Davefoc, Wikimedia Commons</li>
+                <li>Quartl, Wikimedia Commons</li>
+                <li>Juan Emilio, Wikimedia Commons</li>
+                <li>Tsaag Valren, Wikimedia Commons</li>
+                <li>Didier Descouens, Wikimedia Commons</li>
+                <li>Ąžuolas, Wikimedia Commons</li>
+                <li>Luis Fernández García, Wikimedia Commons</li>
+                <li>Syrio, Wikimedia Commons</li>
+                <li>Svdmolen, Wikimedia Commons</li>
+                <li>Bj.schoenmakers Wikimedia Commons</li>
+                <li>Thebombzen, Wikimedia Commons</li>
+                <li>Kaldari, Wikimedia Commons</li>
+                <li>GT1976, Wikimedia Commons</li>
+              </ul>
+            )}
             {isRestOfWorld && (
               <ul>
                 <li>Aiwok via Wikimedia</li>
@@ -226,6 +275,11 @@ const Credits = () => {
               www.flaticon.com
             </a>
           </P>
+
+          <P skipTranslation>
+            <a href="https://www.svgrepo.com/author/Esri/">Esri</a>
+          </P>
+
           <P skipTranslation>
             <T>App guide illustrations made by</T>:
             <ul>
