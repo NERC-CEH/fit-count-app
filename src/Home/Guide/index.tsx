@@ -46,7 +46,7 @@ const Guide: FC = () => {
     const { country } = appModel.attrs;
 
     const bySortId = (a: any, b: any) => a.sort - b.sort;
-    const byCountry = (sp: any) => sp[country];
+    const byCountry = (sp: any) => sp[country] && sp.id !== 'unknown';
 
     const speciesColumns = flowersOrInsectsData
       .sort(bySortId)
