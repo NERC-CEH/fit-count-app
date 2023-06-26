@@ -67,6 +67,11 @@ msgstr "Inställningar"
 msgid "App"
 msgstr "App"
 
+# User account error.
+#: interface
+msgid "User re-login is required."
+msgstr ""
+
 # User account delete in the settings
 #: interface
 msgid "Delete account"
@@ -1639,6 +1644,68 @@ msgstr ""
 "Besök projektets websida för att se dina inskickade Blombesöksräkningar. Den"
 " svenska sidan finns <2>här</2>"
 
+# Back button label
+#: interface
+msgid "Strength"
+msgstr ""
+
+# Survey activity page label
+#: interface
+msgid "Information"
+msgstr ""
+
+# Survey activity page divider message
+#: interface
+msgid "Projects"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Incorrect password or email"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Is this survey part of a <1>project</1>?"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Sorry, looks like you're offline."
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Pull the page down to refresh the list of projects."
+msgstr ""
+
+#  Survey activity page message
+#: interface
+msgid ""
+"To see more information about a project, swipe the project entry to the "
+"right and tap on the link."
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "My past projects"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Your selected country does not have any projects."
+msgstr ""
+
+# Photo picker content
+#: interface
+msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Please pull down the page to see projects list."
+msgstr ""
+
 # ============================================================================
 # ============================================================================
 # ============================================================================
@@ -2001,9 +2068,89 @@ msgid "Montado (Low density trees)"
 msgstr ""
 
 # flowers name
+#: CY CL PT
+msgid "Acacia"
+msgstr "Akacia"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr "Malpighia glabra (Acerola)"
+
+# flowers name
+#: AR
+msgid "Achira"
+msgstr "Arrowroot"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr "Sippor"
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr "Anthurium (Kobrakallor)"
+
+# flowers name
+#: CL
+msgid "Arrayan"
+msgstr "Myrtel"
+
+# flowers name
+#: BR PT
+msgid "Asteraceae (herbaceous)"
+msgstr "Korgblommiga växter (örtarade)"
+
+# flowers name
+#: CL
+msgid "Azara"
+msgstr "Azara"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Basilika"
+
+# flowers name
+#: CY PT
+msgid "Bermuda Buttercup"
+msgstr "Getoxalis"
+
+# flowers name
+#: SE
+msgid "Blueberry"
+msgstr "Blåbär"
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr "Lycium ferocissimum"
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Bramble"
 msgstr "Björnbär"
+
+# flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr "Jabuticaba"
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr "Bromeliader"
+
+# flowers name
+#: PT
+msgid "Brooms and gorses"
+msgstr ""
+
+# flowers name
+#: SE
+msgid "Brown knapweed/Greater knapweed"
+msgstr "Rödklint/Väddklint"
 
 # flowers name
 #: UK IE DE
@@ -2011,14 +2158,129 @@ msgid "Buddleja"
 msgstr "Buddleja"
 
 # flowers name
+#: HR
+msgid "Bugleherb"
+msgstr "Revsuga"
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Buttercup"
 msgstr "Smörblomma"
 
 # flowers name
+#: BR
+msgid "Calliandra"
+msgstr "Calliandra"
+
+# flowers name
+#: AR
+msgid "Campanilla"
+msgstr "Golden trumpet"
+
+# flowers name
+#: CL AR
+msgid "Canelo"
+msgstr "Kanel"
+
+# flowers name
+#: CL
+msgid "Cherry"
+msgstr "Körsbär"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr "Krysantemum"
+
+# flowers name
+#: AR
+msgid "Cicuta"
+msgstr "Sprängört"
+
+# flowers name
+#: AR
+msgid "Naranjo/Limonero"
+msgstr "Apelsin/Citron"
+
+# flowers name
+#: PT BR
+msgid "Clover/Trefoil"
+msgstr "Klöver"
+
+# flowers name
+#: HR
+msgid "Common chicory"
+msgstr ""
+
+# flowers name
+#: HR
+msgid "Common sage"
+msgstr "Salvia"
+
+# flowers name
+#: CL
+msgid "Copihue"
+msgstr "Lapageria rosea"
+
+# flowers name
+#: SE
+msgid "Cowberry"
+msgstr "Lingon"
+
+# flowers name
+#: PT
+msgid "Crucifers"
+msgstr ""
+
+# flowers name
+#: CL AR
+msgid "Daisy"
+msgstr "Tusensköna"
+
+# flowers name
 #: UK BR CL AR IE DE SE HR PT
 msgid "Dandelion"
 msgstr "Maskros"
+
+# flowers name
+#: SE
+msgid "Devil's-bit Scabious/Field Scabious"
+msgstr "Ängsvädd/Åkervädd"
+
+# flowers name
+#: PT
+msgid "Echium"
+msgstr ""
+
+# flowers name
+#: CY HR
+msgid "Fennel"
+msgstr "Fänkål"
+
+# flowers name
+#: PT
+msgid "Fruit trees and Hawthorn"
+msgstr ""
+
+# flowers name
+#: CL AR
+msgid "Fuchsia"
+msgstr "Fuchsia"
+
+# flowers name
+#: SE
+msgid "Geranium"
+msgstr "Nävor"
+
+# flowers name
+#: SE
+msgid "European goldenrod"
+msgstr "Gullris"
+
+# flowers name
+#: AR
+msgid "Guarán"
+msgstr "Guarana"
 
 # flowers name
 #: UK IE DE
@@ -2036,9 +2298,24 @@ msgid "Hogweed"
 msgstr "Björnloka"
 
 # flowers name
+#: SE
+msgid "Hogweed/wild angelica/garden angelica"
+msgstr "Björnloka/strätta/kvanne"
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr "Handroanthus"
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Ivy"
 msgstr "Murgröna"
+
+# flowers name
+#: CY AR
+msgid "Spanish Jasmine"
+msgstr "Jasminum grandiflorum"
 
 # flowers name
 #: UK IE DE HR
@@ -2046,39 +2323,59 @@ msgid "Knapweed"
 msgstr "Röd/väddklint"
 
 # flowers name
+#: CY
+msgid "Common Lantana"
+msgstr "Eldkrona"
+
+# flowers name
+#: BR
+msgid "Lantana"
+msgstr "Lantana (Eldkrona)"
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Lavender"
 msgstr "Lavendel"
 
 # flowers name
-#: UK IE DE
-msgid "Ragwort"
-msgstr "Stånds"
+#: SE
+msgid "Leontodon, Picris, Hypochaeris and others"
+msgstr "Fibblor"
 
 # flowers name
-#: UK IE DE SE PT
-msgid "Thistle"
-msgstr "Tistel"
+#: AR
+msgid "Ligustro"
+msgstr "Liguster"
 
 # flowers name
-#: UK IE DE SE
-msgid "White Clover"
-msgstr "Vitklöver"
+#: CL AR
+msgid "Magnolia"
+msgstr "Magnolia"
 
 # flowers name
-#: UK IE DE
-msgid "White Dead-nettle"
-msgstr "Vitplister"
+#: PT
+msgid "Mallows"
+msgstr ""
 
 # flowers name
-#: IE DE HR
-msgid "Red Clover"
-msgstr "Rödklöver"
+#: CY
+msgid "Milk Thistle"
+msgstr "Mariatistel"
 
 # flowers name
-#: CY HR
-msgid "Fennel"
-msgstr "Fänkål"
+#: BR
+msgid "Mimosa"
+msgstr "Mimosa"
+
+# flowers name
+#: PT
+msgid "Mint and Thyme"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Murta"
+msgstr "Myrten"
 
 # flowers name
 #: CY HR
@@ -2091,74 +2388,14 @@ msgid "Olive"
 msgstr "Oliv"
 
 # flowers name
-#: CY
-msgid "White Mustard"
-msgstr "Vitsenap"
+#: AR
+msgid "Tuna"
+msgstr "Opuntia"
 
 # flowers name
-#: CY PT
-msgid "Rock-roses"
-msgstr "Solvändor"
-
-# flowers name
-#: HR
-msgid "Rock Roses"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr "Sippor"
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr "Krysantemum"
-
-# flowers name
-#: CY AR
-msgid "Tree Tobacco"
-msgstr "Blåtobak"
-
-# flowers name
-#: CY AR
-msgid "Spanish Jasmine"
-msgstr "Jasminum grandiflorum"
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr "Eldkrona"
-
-# flowers name
-#: CY PT CL
-msgid "Acacia"
-msgstr "Akacia"
-
-# flowers name
-#: CY PT
-msgid "Bermuda Buttercup"
-msgstr "Getoxalis"
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr "Lycium ferocissimum"
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr "Blyblomma"
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr "Echium angustifolium"
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr "Mariatistel"
+#: BR
+msgid "Orchids"
+msgstr "Orkidéer"
 
 # flowers name
 #: BR CL
@@ -2167,168 +2404,13 @@ msgstr "Oxalis"
 
 # flowers name
 #: BR
-msgid "Basil"
-msgstr "Basilika"
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr "Lantana (Eldkrona)"
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr "Anthurium (Kobrakallor)"
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr "Calliandra"
-
-# flowers name
-#: BR PT
-msgid "Asteraceae (herbaceous)"
-msgstr "Korgblommiga växter (örtarade)"
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr "Orkidéer"
-
-# flowers name
-#: BR PT
-msgid "Clover/Trefoil"
-msgstr "Klöver"
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr "Jabuticaba"
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr "Malpighia glabra (Acerola)"
-
-# flowers name
-#: BR
-msgid "Wild plantain/Heliconia"
-msgstr "Heliconia (Hummerklo-växter)"
-
-# flowers name
-#: BR
 msgid "Passionfruit"
 msgstr "Passionsfrukt"
 
 # flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr "Malvaviscus (Bärmalvor)"
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr "Mimosa"
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr "Bromeliader"
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr "Handroanthus"
-
-# flowers name
-#: CL AR
-msgid "Daisy"
-msgstr "Tusensköna"
-
-# flowers name
-#: CL AR
-msgid "Fuchsia"
-msgstr "Fuchsia"
-
-# flowers name
-#: CL
-msgid "Azara"
-msgstr "Azara"
-
-# flowers name
-#: CL AR
-msgid "Magnolia"
-msgstr "Magnolia"
-
-# flowers name
-#: CL
-msgid "Cherry"
-msgstr "Körsbär"
-
-# flowers name
-#: CL AR
-msgid "Canelo"
-msgstr "Kanel"
-
-# flowers name
-#: CL
-msgid "Rose"
-msgstr "Ros"
-
-# flowers name
-#: CL
-msgid "Arrayan"
-msgstr "Myrtel"
-
-# flowers name
-#: CL
-msgid "Murta"
-msgstr "Myrten"
-
-# flowers name
-#: CL
-msgid "Copihue"
-msgstr "Lapageria rosea"
-
-# flowers name
-#: AR
-msgid "Cicuta"
-msgstr "Sprängört"
-
-# flowers name
-#: AR
-msgid "Ligustro"
-msgstr "Liguster"
-
-# flowers name
-#: AR
-msgid "Campanilla"
-msgstr "Golden trumpet"
-
-# flowers name
-#: AR
-msgid "Tuna"
-msgstr "Opuntia"
-
-# flowers name
-#: AR
-msgid "Naranjo/Limonero"
-msgstr "Apelsin/Citron"
-
-# flowers name
-#: AR
-msgid "Achira"
-msgstr "Arrowroot"
-
-# flowers name
-#: AR
-msgid "Guarán"
-msgstr "Guarana"
-
-# flowers name
-#: AR
-msgid "Senecio"
-msgstr "Korsört"
+#: CY
+msgid "Blue Plumbago"
+msgstr "Blyblomma"
 
 # flowers name
 #: AR
@@ -2336,54 +2418,14 @@ msgid "Pocoto"
 msgstr "Solanum palinacanthum"
 
 # flowers name
-#: HR
-msgid "Common sage"
-msgstr "Salvia"
+#: UK IE DE
+msgid "Ragwort"
+msgstr "Stånds"
 
 # flowers name
-#: HR
-msgid "Bugleherb"
-msgstr "Revsuga"
-
-# flowers name
-#: HR
-msgid "Common chicory"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Blueberry"
-msgstr "Blåbär"
-
-# flowers name
-#: SE
-msgid "Cowberry"
-msgstr "Lingon"
-
-# flowers name
-#: SE
-msgid "Geranium"
-msgstr "Nävor"
-
-# flowers name
-#: SE
-msgid "Devil's-bit Scabious/Field Scabious"
-msgstr "Ängsvädd/Åkervädd"
-
-# flowers name
-#: SE
-msgid "Brown knapweed/Greater knapweed"
-msgstr "Rödklint/Väddklint"
-
-# flowers name
-#: SE
-msgid "European goldenrod"
-msgstr "Gullris"
-
-# flowers name
-#: SE
-msgid "Rosebay willowherb"
-msgstr "Mjölke"
+#: IE DE HR
+msgid "Red Clover"
+msgstr "Rödklöver"
 
 # flowers name
 #: SE
@@ -2391,39 +2433,44 @@ msgid "Red clover/Zigzag clover"
 msgstr "Rödklöver/Skogsklöver"
 
 # flowers name
+#: CY
+msgid "Rock-roses"
+msgstr "Solvändor"
+
+# flowers name
+#: HR PT
+msgid "Rock Roses"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Rose"
+msgstr "Ros"
+
+# flowers name
 #: SE
-msgid "Leontodon, Picris, Hypochaeris and others"
-msgstr "Fibblor"
+msgid "Rosebay willowherb"
+msgstr "Mjölke"
 
 # flowers name
-#: SE
-msgid "Hogweed/wild angelica/garden angelica"
-msgstr "Björnloka/strätta/kvanne"
+#: AR
+msgid "Senecio"
+msgstr "Korsört"
 
 # flowers name
-#: PT
-msgid "Brooms and gorses"
-msgstr ""
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr "Malvaviscus (Bärmalvor)"
 
 # flowers name
-#: PT
-msgid "Crucifers"
-msgstr ""
+#: UK IE DE SE PT
+msgid "Thistle"
+msgstr "Tistel"
 
 # flowers name
-#: PT
-msgid "Mint and Thyme"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Echium"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Fruit trees and Hawthorn"
-msgstr ""
+#: CY AR
+msgid "Tree Tobacco"
+msgstr "Blåtobak"
 
 # flowers name
 #: PT
@@ -2431,9 +2478,29 @@ msgid "Umbellifers"
 msgstr ""
 
 # flowers name
-#: PT
-msgid "Mallows"
-msgstr ""
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
+msgstr "Echium angustifolium"
+
+# flowers name
+#: UK IE DE SE
+msgid "White Clover"
+msgstr "Vitklöver"
+
+# flowers name
+#: UK IE DE
+msgid "White Dead-nettle"
+msgstr "Vitplister"
+
+# flowers name
+#: CY
+msgid "White Mustard"
+msgstr "Vitsenap"
+
+# flowers name
+#: BR
+msgid "Wild plantain/Heliconia"
+msgstr "Heliconia (Hummerklo-växter)"
 
 # photos intro_text
 #: UK SE DE CY AR IE CL HR
@@ -4439,7 +4506,7 @@ msgid "Bright, contrasting colours are common"
 msgstr "Ljusa, kontrastrika färger är vanliga"
 
 # photos intro_text
-#: BR
+#: BR PT
 msgid ""
 "This category is for any floral visitors that don’t fit into the other "
 "pollinator groups, and can also be used for any pollinator that you can’t "
@@ -4450,7 +4517,7 @@ msgstr ""
 "vilken grupp de tillhör."
 
 # photos caption_1
-#: BR
+#: BR PT
 msgid ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
@@ -4987,7 +5054,7 @@ msgstr ""
 # photos intro_text
 #: PT
 msgid ""
-"This category is for any insects under 3 mm long.  These can be hard to "
+"This category is for any insects under 3 mm long. These can be hard to "
 "assign to a particular group without peering at them closely (which would "
 "disturb other insects visiting the flowers). Just count them (or estimate "
 "them if there is a large number) and assign them all to this category. "

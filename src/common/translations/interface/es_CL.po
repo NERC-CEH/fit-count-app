@@ -64,6 +64,11 @@ msgstr "Configuración"
 msgid "App"
 msgstr "Aplicación"
 
+# User account error.
+#: interface
+msgid "User re-login is required."
+msgstr ""
+
 # User account delete in the settings
 #: interface
 msgid "Delete account"
@@ -1666,6 +1671,68 @@ msgstr ""
 "Para ver los datos de FIT Count después del envío, visite el sitio web del "
 "proyecto para su país, donde esté disponible (por ejemplo, <2>UK PoMS</2>)"
 
+# Back button label
+#: interface
+msgid "Strength"
+msgstr ""
+
+# Survey activity page label
+#: interface
+msgid "Information"
+msgstr ""
+
+# Survey activity page divider message
+#: interface
+msgid "Projects"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Incorrect password or email"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Is this survey part of a <1>project</1>?"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Sorry, looks like you're offline."
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Pull the page down to refresh the list of projects."
+msgstr ""
+
+#  Survey activity page message
+#: interface
+msgid ""
+"To see more information about a project, swipe the project entry to the "
+"right and tap on the link."
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "My past projects"
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Your selected country does not have any projects."
+msgstr ""
+
+# Photo picker content
+#: interface
+msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
+msgstr ""
+
+# Survey activity page message
+#: interface
+msgid "Please pull down the page to see projects list."
+msgstr ""
+
 # ============================================================================
 # ============================================================================
 # ============================================================================
@@ -2028,13 +2095,98 @@ msgid "Montado (Low density trees)"
 msgstr ""
 
 # flowers name
+#: CY CL PT
+msgid "Acacia"
+msgstr "Acacia"
+
+# flowers name
+#: BR
+msgid "Acerola cherry"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Achira"
+msgstr "Achira"
+
+# flowers name
+#: CY
+msgid "Anemone"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Anthurium"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Arrayan"
+msgstr "Arrayán"
+
+# flowers name
+#: BR PT
+msgid "Asteraceae (herbaceous)"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Azara"
+msgstr "Azara"
+
+# flowers name
+#: BR
+msgid "Basil"
+msgstr "Albahaca"
+
+# flowers name
+#: CY PT
+msgid "Bermuda Buttercup"
+msgstr ""
+
+# flowers name
+#: SE
+msgid "Blueberry"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "African Boxthorn"
+msgstr ""
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Bramble"
 msgstr "Zarza"
 
 # flowers name
+#: BR
+msgid "Brazilian grape tree/Jabuticaba"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Bromeliads"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Brooms and gorses"
+msgstr ""
+
+# flowers name
+#: SE
+msgid "Brown knapweed/Greater knapweed"
+msgstr ""
+
+# flowers name
 #: UK IE DE
 msgid "Buddleja"
+msgstr ""
+
+# flowers name
+#: HR
+msgid "Bugleherb"
 msgstr ""
 
 # flowers name
@@ -2043,9 +2195,119 @@ msgid "Buttercup"
 msgstr ""
 
 # flowers name
+#: BR
+msgid "Calliandra"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Campanilla"
+msgstr "Campanilla"
+
+# flowers name
+#: CL AR
+msgid "Canelo"
+msgstr "Canelo"
+
+# flowers name
+#: CL
+msgid "Cherry"
+msgstr "Cerezo"
+
+# flowers name
+#: CY
+msgid "Chrysanthemum"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Cicuta"
+msgstr "Cicuta"
+
+# flowers name
+#: AR
+msgid "Naranjo/Limonero"
+msgstr "Naranjo/limonero"
+
+# flowers name
+#: PT BR
+msgid "Clover/Trefoil"
+msgstr ""
+
+# flowers name
+#: HR
+msgid "Common chicory"
+msgstr ""
+
+# flowers name
+#: HR
+msgid "Common sage"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Copihue"
+msgstr "Copihue"
+
+# flowers name
+#: SE
+msgid "Cowberry"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Crucifers"
+msgstr ""
+
+# flowers name
+#: CL AR
+msgid "Daisy"
+msgstr "Margarita"
+
+# flowers name
 #: UK BR CL AR IE DE SE HR PT
 msgid "Dandelion"
 msgstr "Diente de león"
+
+# flowers name
+#: SE
+msgid "Devil's-bit Scabious/Field Scabious"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Echium"
+msgstr ""
+
+# flowers name
+#: CY HR
+msgid "Fennel"
+msgstr "Hinojo"
+
+# flowers name
+#: PT
+msgid "Fruit trees and Hawthorn"
+msgstr ""
+
+# flowers name
+#: CL AR
+msgid "Fuchsia"
+msgstr "Chilco"
+
+# flowers name
+#: SE
+msgid "Geranium"
+msgstr ""
+
+# flowers name
+#: SE
+msgid "European goldenrod"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Guarán"
+msgstr "Guarán"
 
 # flowers name
 #: UK IE DE
@@ -2063,13 +2325,38 @@ msgid "Hogweed"
 msgstr ""
 
 # flowers name
+#: SE
+msgid "Hogweed/wild angelica/garden angelica"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Ipe"
+msgstr ""
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Ivy"
 msgstr ""
 
 # flowers name
+#: CY AR
+msgid "Spanish Jasmine"
+msgstr "Jazmín español"
+
+# flowers name
 #: UK IE DE HR
 msgid "Knapweed"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Common Lantana"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Lantana"
 msgstr ""
 
 # flowers name
@@ -2078,13 +2365,148 @@ msgid "Lavender"
 msgstr "Lavanda"
 
 # flowers name
+#: SE
+msgid "Leontodon, Picris, Hypochaeris and others"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Ligustro"
+msgstr "Ligustro"
+
+# flowers name
+#: CL AR
+msgid "Magnolia"
+msgstr "Magnolia"
+
+# flowers name
+#: PT
+msgid "Mallows"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Milk Thistle"
+msgstr ""
+
+# flowers name
+#: BR
+msgid "Mimosa"
+msgstr ""
+
+# flowers name
+#: PT
+msgid "Mint and Thyme"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Murta"
+msgstr "Murta"
+
+# flowers name
+#: CY HR
+msgid "Myrtle"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Olive"
+msgstr "Olivo"
+
+# flowers name
+#: AR
+msgid "Tuna"
+msgstr "Tuna o higo chumbo"
+
+# flowers name
+#: BR
+msgid "Orchids"
+msgstr "Orquídeas"
+
+# flowers name
+#: BR CL
+msgid "Oxalis"
+msgstr "Oxalis"
+
+# flowers name
+#: BR
+msgid "Passionfruit"
+msgstr "Fruta de la pasión"
+
+# flowers name
+#: CY
+msgid "Blue Plumbago"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Pocoto"
+msgstr "Pocoto"
+
+# flowers name
 #: UK IE DE
 msgid "Ragwort"
 msgstr ""
 
 # flowers name
+#: IE DE HR
+msgid "Red Clover"
+msgstr ""
+
+# flowers name
+#: SE
+msgid "Red clover/Zigzag clover"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Rock-roses"
+msgstr ""
+
+# flowers name
+#: HR PT
+msgid "Rock Roses"
+msgstr ""
+
+# flowers name
+#: CL
+msgid "Rose"
+msgstr "Rosa"
+
+# flowers name
+#: SE
+msgid "Rosebay willowherb"
+msgstr ""
+
+# flowers name
+#: AR
+msgid "Senecio"
+msgstr "Senecio"
+
+# flowers name
+#: BR
+msgid "Sleeping hibiscus/Malvaviscus"
+msgstr ""
+
+# flowers name
 #: UK IE DE SE PT
 msgid "Thistle"
+msgstr ""
+
+# flowers name
+#: CY AR
+msgid "Tree Tobacco"
+msgstr "Palán-palán o tabaco moro"
+
+# flowers name
+#: PT
+msgid "Umbellifers"
+msgstr ""
+
+# flowers name
+#: CY
+msgid "Narrow-leaved Viper’s-bugloss"
 msgstr ""
 
 # flowers name
@@ -2098,368 +2520,13 @@ msgid "White Dead-nettle"
 msgstr "Ortiga blanca"
 
 # flowers name
-#: IE DE HR
-msgid "Red Clover"
-msgstr ""
-
-# flowers name
-#: CY HR
-msgid "Fennel"
-msgstr "Hinojo"
-
-# flowers name
-#: CY HR
-msgid "Myrtle"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Olive"
-msgstr "Olivo"
-
-# flowers name
 #: CY
 msgid "White Mustard"
 msgstr ""
 
 # flowers name
-#: CY PT
-msgid "Rock-roses"
-msgstr ""
-
-# flowers name
-#: HR
-msgid "Rock Roses"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Anemone"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Chrysanthemum"
-msgstr ""
-
-# flowers name
-#: CY AR
-msgid "Tree Tobacco"
-msgstr "Palán-palán o tabaco moro"
-
-# flowers name
-#: CY AR
-msgid "Spanish Jasmine"
-msgstr "Jazmín español"
-
-# flowers name
-#: CY
-msgid "Common Lantana"
-msgstr ""
-
-# flowers name
-#: CY PT CL
-msgid "Acacia"
-msgstr "Acacia"
-
-# flowers name
-#: CY PT
-msgid "Bermuda Buttercup"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "African Boxthorn"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Blue Plumbago"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Narrow-leaved Viper’s-bugloss"
-msgstr ""
-
-# flowers name
-#: CY
-msgid "Milk Thistle"
-msgstr ""
-
-# flowers name
-#: BR CL
-msgid "Oxalis"
-msgstr "Oxalis"
-
-# flowers name
-#: BR
-msgid "Basil"
-msgstr "Albahaca"
-
-# flowers name
-#: BR
-msgid "Lantana"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Anthurium"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Calliandra"
-msgstr ""
-
-# flowers name
-#: BR PT
-msgid "Asteraceae (herbaceous)"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Orchids"
-msgstr "Orquídeas"
-
-# flowers name
-#: BR PT
-msgid "Clover/Trefoil"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Brazilian grape tree/Jabuticaba"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Acerola cherry"
-msgstr ""
-
-# flowers name
 #: BR
 msgid "Wild plantain/Heliconia"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Passionfruit"
-msgstr "Fruta de la pasión"
-
-# flowers name
-#: BR
-msgid "Sleeping hibiscus/Malvaviscus"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Mimosa"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Bromeliads"
-msgstr ""
-
-# flowers name
-#: BR
-msgid "Ipe"
-msgstr ""
-
-# flowers name
-#: CL AR
-msgid "Daisy"
-msgstr "Margarita"
-
-# flowers name
-#: CL AR
-msgid "Fuchsia"
-msgstr "Chilco"
-
-# flowers name
-#: CL
-msgid "Azara"
-msgstr "Azara"
-
-# flowers name
-#: CL AR
-msgid "Magnolia"
-msgstr "Magnolia"
-
-# flowers name
-#: CL
-msgid "Cherry"
-msgstr "Cerezo"
-
-# flowers name
-#: CL AR
-msgid "Canelo"
-msgstr "Canelo"
-
-# flowers name
-#: CL
-msgid "Rose"
-msgstr "Rosa"
-
-# flowers name
-#: CL
-msgid "Arrayan"
-msgstr "Arrayán"
-
-# flowers name
-#: CL
-msgid "Murta"
-msgstr "Murta"
-
-# flowers name
-#: CL
-msgid "Copihue"
-msgstr "Copihue"
-
-# flowers name
-#: AR
-msgid "Cicuta"
-msgstr "Cicuta"
-
-# flowers name
-#: AR
-msgid "Ligustro"
-msgstr "Ligustro"
-
-# flowers name
-#: AR
-msgid "Campanilla"
-msgstr "Campanilla"
-
-# flowers name
-#: AR
-msgid "Tuna"
-msgstr "Tuna o higo chumbo"
-
-# flowers name
-#: AR
-msgid "Naranjo/Limonero"
-msgstr "Naranjo/limonero"
-
-# flowers name
-#: AR
-msgid "Achira"
-msgstr "Achira"
-
-# flowers name
-#: AR
-msgid "Guarán"
-msgstr "Guarán"
-
-# flowers name
-#: AR
-msgid "Senecio"
-msgstr "Senecio"
-
-# flowers name
-#: AR
-msgid "Pocoto"
-msgstr "Pocoto"
-
-# flowers name
-#: HR
-msgid "Common sage"
-msgstr ""
-
-# flowers name
-#: HR
-msgid "Bugleherb"
-msgstr ""
-
-# flowers name
-#: HR
-msgid "Common chicory"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Blueberry"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Cowberry"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Geranium"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Devil's-bit Scabious/Field Scabious"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Brown knapweed/Greater knapweed"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "European goldenrod"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Rosebay willowherb"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Red clover/Zigzag clover"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Leontodon, Picris, Hypochaeris and others"
-msgstr ""
-
-# flowers name
-#: SE
-msgid "Hogweed/wild angelica/garden angelica"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Brooms and gorses"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Crucifers"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Mint and Thyme"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Echium"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Fruit trees and Hawthorn"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Umbellifers"
-msgstr ""
-
-# flowers name
-#: PT
-msgid "Mallows"
 msgstr ""
 
 # photos intro_text
@@ -4265,7 +4332,7 @@ msgid "Bright, contrasting colours are common"
 msgstr "Los colores brillantes y contrastantes son comunes."
 
 # photos intro_text
-#: BR
+#: BR PT
 msgid ""
 "This category is for any floral visitors that don’t fit into the other "
 "pollinator groups, and can also be used for any pollinator that you can’t "
@@ -4273,7 +4340,7 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: BR
+#: BR PT
 msgid ""
 "Please use the category “other insects” if you can identify the pollinator "
 "as an insect, even though you don’t recognize which insect group it is."
@@ -4802,7 +4869,7 @@ msgstr ""
 # photos intro_text
 #: PT
 msgid ""
-"This category is for any insects under 3 mm long.  These can be hard to "
+"This category is for any insects under 3 mm long. These can be hard to "
 "assign to a particular group without peering at them closely (which would "
 "disturb other insects visiting the flowers). Just count them (or estimate "
 "them if there is a large number) and assign them all to this category. "

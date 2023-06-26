@@ -1641,8 +1641,8 @@ msgstr "Information"
 
 # Survey activity page divider message 
 #: interface
-msgid "Projects list"
-msgstr "Projects list"
+msgid "Projects"
+msgstr "Projects"
 
 # Survey activity page message 
 #: interface
@@ -1651,18 +1651,23 @@ msgstr "Incorrect password or email"
 
 # Survey activity page message 
 #: interface
-msgid "Is this survey part of a project?"
-msgstr "Is this survey part of a project?"
+msgid "Is this survey part of a <1>project</1>?"
+msgstr "Is this survey part of a <1>project</1>?"
 
 # Survey activity page message 
 #: interface
-msgid "To refresh the projects list, pull the page down."
-msgstr "To refresh the projects list, pull the page down."
+msgid "Sorry, looks like you're offline."
+msgstr "Sorry, looks like you're offline."
+
+# Survey activity page message 
+#: interface
+msgid "Pull the page down to refresh the list of projects."
+msgstr "Pull the page down to refresh the list of projects."
 
 #  Survey activity page message 
 #: interface
-msgid "To see more information about a project, please swipe the project to the right and tap on the link."
-msgstr "To see more information about a project, please swipe the project to the right and tap on the link."
+msgid "To see more information about a project, swipe the project entry to the right and tap on the link."
+msgstr "To see more information about a project, swipe the project entry to the right and tap on the link."
 
 # Survey activity page message 
 #: interface

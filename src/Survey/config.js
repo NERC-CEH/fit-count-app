@@ -225,17 +225,7 @@ const survey = {
       },
     },
 
-    activity: {
-      values(activityValue, submission) {
-        // eslint-disable-next-line
-        submission.values = {
-          ...submission.values,
-        };
-
-        // eslint-disable-next-line no-param-reassign
-        submission.values['smpAttr:1759'] = activityValue.id;
-      },
-    },
+    activity: { id: 1759, values: ({ id }) => id },
 
     'location-name': {
       pageProps: {

@@ -11,7 +11,7 @@ import {
   InfoButton,
   useLoader,
 } from '@flumens';
-import appModel, { ActivityProp } from 'models/app';
+import appModel, { Activity } from 'models/app';
 import userModel, { useUserStatusCheck } from 'models/user';
 import Sample, { useValidateCheck } from 'models/sample';
 import {
@@ -34,7 +34,6 @@ import helpIcon from './images/helpIcon.jpg';
 import ThankYouAlert from './ThankYouAlert';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import syncActivities from './services';
 import unPinIcon from './unpinIcon.svg';
 import './styles.scss';
 
@@ -53,9 +52,8 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
   const [showThanks, setShowThanks] = useState(false);
 
-  const { activities } = appModel.attrs;
-
-  const countryActivities = Array.isArray(activities) && activities?.length;
+  const fetchedActivities = Array.isArray(appModel.attrs.activities);
+  const activities = fetchedActivities ? appModel.attrs.activities! : [];
 
   const setPastActivity = () => {
     const currentSelectedActivityId = sample.attrs.activity?.id;
@@ -105,20 +103,16 @@ const ActivityController: FC<Props> = ({ sample }) => {
     goHome();
   };
 
-  const isValueValid = () => !!sample.attrs['weather-wind'];
-
-  useEffect(() => {
-    if (!device.isOnline || !userModel.isLoggedIn()) return;
+  const fetchActivitiesForFirstTime = () => {
+    if (fetchedActivities || !device.isOnline || !userModel.isLoggedIn())
+      return;
 
     const updateActivities = async () => {
-      const isActivitiesSynced = activities !== null;
-      if (isActivitiesSynced) return;
-
       try {
         await loader.show('Please wait...');
-
-        syncActivities();
+        await appModel.syncActivities();
       } catch (err: any) {
+        // silent, log in the server only
         console.log(err);
       }
 
@@ -126,9 +120,12 @@ const ActivityController: FC<Props> = ({ sample }) => {
     };
 
     updateActivities();
-  }, []);
+  };
+  useEffect(fetchActivitiesForFirstTime, []);
 
-  const refreshReport = async () => {
+  const refreshActivities = async (e: any) => {
+    e?.detail?.complete(); // refresh pull update
+
     if (!device.isOnline) {
       toast.warn("Sorry, looks like you're offline.");
       return;
@@ -139,8 +136,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
     try {
       await loader.show('Please wait...');
-
-      await syncActivities();
+      await appModel.syncActivities();
     } catch (err: any) {
       toast.error(err);
     }
@@ -148,20 +144,13 @@ const ActivityController: FC<Props> = ({ sample }) => {
     loader.hide();
   };
 
-  const onListRefreshPull = (e: any) => {
-    refreshReport();
-    e?.detail?.complete(); // refresh pull update
-  };
-
   const onChange = (e: any) => {
-    const projects = appModel.attrs.activities || [];
-
-    const activity = projects.find(
-      (activityObj: ActivityProp) => activityObj.name === e.detail.value
+    const selectedActivity = activities.find(
+      (activity: Activity) => activity.id === e.detail.value
     );
 
     // eslint-disable-next-line no-param-reassign
-    sample.attrs.activity = activity;
+    sample.attrs.activity = JSON.parse(JSON.stringify(selectedActivity));
     sample.save();
   };
 
@@ -171,22 +160,21 @@ const ActivityController: FC<Props> = ({ sample }) => {
   const byNonFavorite = (activity: any) =>
     !appModel.attrs.pastActivities.includes(activity.id);
 
-  const activitiesList = appModel.attrs.activities || [];
-  const favoriteActivities = activitiesList.filter(byPastActivities);
-  const remainingActivities = activitiesList.filter(byNonFavorite);
+  const favouriteActivities = activities.filter(byPastActivities);
+  const remainingActivities = activities.filter(byNonFavorite);
 
   const getActivityEntries = (
-    activitiesData: ActivityProp[],
+    activitiesData: Activity[],
     isPastActivity: boolean
   ) => {
-    const alphabetically = (activityA: ActivityProp, activityB: ActivityProp) =>
+    const alphabetically = (activityA: Activity, activityB: Activity) =>
       activityA.name.localeCompare(activityB.name);
 
-    return activitiesData.sort(alphabetically).map((activity: ActivityProp) => {
+    return activitiesData.sort(alphabetically).map((activity: Activity) => {
       const { name = '', id, websiteUrl } = activity;
 
       const navigateTo = () => {
-        window.location.href = websiteUrl;
+        window.location.href = websiteUrl!;
       };
 
       const unpinFromPastActivityList = () => {
@@ -196,7 +184,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
       };
 
       return (
-        <IonItemSliding>
+        <IonItemSliding key={`${name} + ${id}`}>
           {websiteUrl && (
             <IonItemOptions side="start">
               <IonItemOption color="tertiary" onClick={navigateTo}>
@@ -204,12 +192,9 @@ const ActivityController: FC<Props> = ({ sample }) => {
               </IonItemOption>
             </IonItemOptions>
           )}
-          <IonItem
-            key={`${name} + ${id}`}
-            className="radio-input-default-option"
-          >
+          <IonItem className="radio-input-default-option">
             <IonLabel>{name}</IonLabel>
-            <IonRadio value={name} />
+            <IonRadio value={id} />
           </IonItem>
 
           {isPastActivity && (
@@ -225,15 +210,15 @@ const ActivityController: FC<Props> = ({ sample }) => {
   };
 
   const getActivitiesList = () => {
-    if (!activities) {
+    if (!fetchedActivities) {
       return (
         <InfoBackgroundMessage>
-          Please pull down the page to see projects list.
+          Pull the page down to refresh the list of projects.
         </InfoBackgroundMessage>
       );
     }
 
-    if (!countryActivities) {
+    if (fetchedActivities && !activities.length) {
       return (
         <InfoBackgroundMessage>
           Your selected country does not have any projects.
@@ -243,8 +228,12 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
     return (
       <IonList lines="full" className="radio-input-attr">
-        <IonRadioGroup allowEmptySelection onIonChange={onChange}>
-          {!!favoriteActivities.length && (
+        <IonRadioGroup
+          allowEmptySelection
+          onIonChange={onChange}
+          value={sample.attrs.activity?.id}
+        >
+          {!!favouriteActivities.length && (
             <>
               <IonItemDivider mode="ios" className="survey-divider">
                 <div>
@@ -252,14 +241,16 @@ const ActivityController: FC<Props> = ({ sample }) => {
                 </div>
               </IonItemDivider>
 
-              {getActivityEntries(favoriteActivities, true)}
+              {getActivityEntries(favouriteActivities, true)}
             </>
           )}
 
           <IonItemDivider mode="ios" className="survey-divider">
-            <div>
-              <T>Projects list</T>
-            </div>
+            {!!favouriteActivities.length && (
+              <div>
+                <T>Projects</T>
+              </div>
+            )}
           </IonItemDivider>
           {getActivityEntries(remainingActivities, false)}
         </IonRadioGroup>
@@ -281,16 +272,17 @@ const ActivityController: FC<Props> = ({ sample }) => {
           className="info-message"
           skipTranslation
         >
-          <T>Is this survey part of a project?</T>
+          <T>
+            Is this survey part of a <b>project</b>?
+          </T>
           <InfoButton label="Information" header="Info" skipTranslation>
             <p>
-              <T>To refresh the projects list, pull the page down.</T>
+              <T>Pull the page down to refresh the list of projects.</T>
             </p>
-
             <p>
               <T>
-                To see more information about a project, please swipe the
-                project to the right and tap on the link.
+                To see more information about a project, swipe the project entry
+                to the right and tap on the link.
               </T>
             </p>
 
@@ -298,7 +290,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
           </InfoButton>
         </InfoMessage>
 
-        <IonRefresher slot="fixed" onIonRefresh={onListRefreshPull}>
+        <IonRefresher slot="fixed" onIonRefresh={refreshActivities}>
           <IonRefresherContent />
         </IonRefresher>
 
@@ -313,7 +305,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
         />
       )}
 
-      {isValueValid() && <Footer title="Save my count" onClick={onFinish} />}
+      <Footer title="Save my count" onClick={onFinish} />
     </Page>
   );
 };

@@ -1,12 +1,14 @@
 import { Model, ModelAttrs } from '@flumens';
+import { observe } from 'mobx';
+import ActivitiesExtension from './appActivitiesExt';
 import { genericStore } from './store';
 
-export interface ActivityProp {
-  id: string;
+export interface Activity {
+  id: number;
   name: string;
-  countryName: string;
-  countryCode: string;
-  websiteUrl: string;
+  countryName?: string;
+  countryCode?: string;
+  websiteUrl?: string;
 }
 
 export interface Attrs extends ModelAttrs {
@@ -18,7 +20,7 @@ export interface Attrs extends ModelAttrs {
   feedbackGiven: boolean;
   showedWelcome: boolean;
 
-  activities?: ActivityProp[] | null;
+  activities?: Activity[] | null;
   pastActivities?: any;
 
   // draft survey pointers
@@ -50,6 +52,8 @@ const defaults: Attrs = {
 };
 
 export class AppModel extends Model {
+  syncActivities: any; // from extension
+
   constructor(options: any) {
     super(options);
 
@@ -65,6 +69,11 @@ export class AppModel extends Model {
         this.save();
       }
     });
+
+    Object.assign(this, ActivitiesExtension);
+    const syncActivities = ({ newValue }: any) =>
+      !!newValue && this.syncActivities();
+    observe(this.attrs, 'country', syncActivities);
   }
 
   attrs: Attrs = Model.extendAttrs(this.attrs, defaults);

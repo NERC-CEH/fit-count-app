@@ -7,7 +7,7 @@ import {
   useAlert,
 } from '@flumens';
 import userModel from 'models/user';
-import { ActivityProp } from 'models/app';
+import { Activity } from 'models/app';
 import config from 'common/config';
 import surveyConfig from 'Survey/config';
 import GPSExtension from './sampleGPSExt';
@@ -19,7 +19,7 @@ import Media from './media';
 type Attrs = SampleAttrs & {
   date: any;
   location: any;
-  activity?: ActivityProp;
+  activity?: Activity;
   surveyStartTime?: any;
   'weather-wind'?: any;
   'location-name'?: any;

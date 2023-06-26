@@ -4,7 +4,6 @@ import exact from 'prop-types-exact';
 import { observer } from 'mobx-react';
 import { NavContext } from '@ionic/react';
 import { Page, Header } from '@flumens';
-import syncActivities from 'Survey/Activities/services';
 import Main from './Main';
 
 function SelectCountry({ appModel }) {
@@ -14,8 +13,6 @@ function SelectCountry({ appModel }) {
     appModel.attrs.country = e.target.value; // eslint-disable-line no-param-reassign
     appModel.save();
     navigate.goBack();
-
-    syncActivities();
   };
 
   return (
