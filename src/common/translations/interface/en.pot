@@ -1799,13 +1799,13 @@ msgstr "Other wasps"
 
 # insects name
 #: PT
-msgid "Small wildbees (smaller than honeybee)"
-msgstr "Small wildbees (smaller than honeybee)"
+msgid "Small wildbees (< 10mm)"
+msgstr "Small wildbees (< 10mm)"
 
 # insects name
 #: PT
-msgid "Big wildbees (bigger than honeybee)"
-msgstr "Big wildbees (bigger than honeybee)"
+msgid "Big wildbees (=> 10mm)"
+msgstr "Big wildbees (=> 10mm)"
 
 # insects name
 #: PT
@@ -3782,12 +3782,12 @@ msgstr "Long thin antennae (different from most flies)"
 msgid "Eyes covered with hairs"
 msgstr "Eyes covered with hairs"
 
-# photos caption_4
+# photos caption_3
 #: PT
 msgid "Abdomen with short and light brown hairs and surface orange to dark brown."
 msgstr "Abdomen with short and light brown hairs and surface orange to dark brown."
 
-# photos caption_5
+# photos caption_4
 #: PT
 msgid "“Banana shape” marginal cell on front wing"
 msgstr "“Banana shape” marginal cell on front wing"
@@ -3849,8 +3849,8 @@ msgstr "Andrena"
 
 # photos caption_4
 #: PT
-msgid "Lasioglossum"
-msgstr "Lasioglossum"
+msgid "Halictus"
+msgstr "Halictus"
 
 # photos intro_text
 #: PT
@@ -3904,8 +3904,8 @@ msgstr "Big wild bees fly actively between flowers. Wild bees have wide range of
 
 # photos caption_4
 #: PT
-msgid "Bigger than an honeybee (>= 10 mm)"
-msgstr "Bigger than an honeybee (>= 10 mm)"
+msgid "Bigger than a honeybee (>= 10 mm)"
+msgstr "Bigger than a honeybee (>= 10 mm)"
 
 # photos intro_text
 #: PT

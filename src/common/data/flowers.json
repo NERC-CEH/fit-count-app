@@ -163,6 +163,7 @@
   },
   {
     "id": "broomsAndgorses",
+    "warehouseId": -1,
     "type": "Individual Flower",
     "name": "Brooms and gorses",
     "scientificName": "Cytisus spp./Ulex spp./Genista spp.",
@@ -744,7 +745,8 @@
     "SE": true
   },
   {
-    "id": "rockRose"
+    "id": "rockRose",
+    "warehouseId": -1
   },
   {
     "id": "rockRose",
@@ -827,6 +829,7 @@
   },
   {
     "id": "umbellifers",
+    "warehouseId": -1,
     "type": "Umbel",
     "name": "Umbellifers",
     "scientificName": "Daucus spp./Oenanthe spp./ Conopodium spp. ",

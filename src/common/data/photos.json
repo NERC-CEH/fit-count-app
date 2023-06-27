@@ -1097,9 +1097,8 @@
     "intro_text": "This single species is around 10 millimetres, a medium size for a bee. It is our reference to determine big and small wild bees.",
     "caption_1": "Long thin antennae (different from most flies)",
     "caption_2": "Eyes covered with hairs",
-    "caption_3": "Eyes covered with hairs",
-    "caption_4": "Abdomen with short and light brown hairs and surface orange to dark brown.",
-    "caption_5": "“Banana shape” marginal cell on front wing",
+    "caption_3": "Abdomen with short and light brown hairs and surface orange to dark brown.",
+    "caption_4": "“Banana shape” marginal cell on front wing",
     "extraText": "Honeybee nest in artificial hives, with occasional colonies establishing in the wild.",
     "PT": true
   },
@@ -1127,7 +1126,7 @@
     "caption_1": "Colletes",
     "caption_2": "Osmia",
     "caption_3": "Andrena",
-    "caption_4": "Lasioglossum",
+    "caption_4": "Halictus",
     "PT": true
   },
   {
@@ -1156,7 +1155,7 @@
     "caption_1": "Long antennae (different from most flies)",
     "caption_2": "Hind legs without broadened, shinny and bare segments, and often covered with hairs of different shapes and colours that might carry pollen",
     "caption_3": "Abdomen not as cylindrical as in the honeybee and with different appearance (surface colour and hair colours or arrangement)",
-    "caption_4": "Bigger than an honeybee (>= 10 mm)",
+    "caption_4": "Bigger than a honeybee (>= 10 mm)",
     "PT": true
   },
   {

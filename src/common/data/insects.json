@@ -150,6 +150,13 @@
     "PT": true
   },
   {
+    "id": "waspsPT",
+    "warehouseId": 418856,
+    "sort": 4,
+    "name": "Wasps",
+    "PT": true
+  },
+  {
     "id": "bats",
     "warehouseId": 538661,
     "sort": 0,
@@ -228,12 +235,12 @@
   },
   {
     "id": "smallwildbees",
-    "name": "Small wildbees (smaller than honeybee)",
+    "name": "Small wildbees (< 10mm)",
     "PT": true
   },
   {
     "id": "bigwildbees",
-    "name": "Big wildbees (bigger than honeybee)",
+    "name": "Big wildbees (=> 10mm)",
     "PT": true
   },
   {

@@ -3,11 +3,12 @@
 # Hugo Manuel Silva Gaspar, 2023
 # FLOWer Lab, 2023
 # Karolis, 2023
+# Jim Chiazzese <JimChi@ceh.ac.uk>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2023\n"
+"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2023\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/ceh/teams/116172/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1849,13 +1850,13 @@ msgstr "Outras vespas"
 
 # insects name
 #: PT
-msgid "Small wildbees (smaller than honeybee)"
-msgstr "Abelhas selvagens pequenas (< abelha-do-mel)"
+msgid "Small wildbees (< 10mm)"
+msgstr ""
 
 # insects name
 #: PT
-msgid "Big wildbees (bigger than honeybee)"
-msgstr "Abelhas selvagens grandes (=> abelha-do-mel)"
+msgid "Big wildbees (=> 10mm)"
+msgstr ""
 
 # insects name
 #: PT
@@ -4676,7 +4677,7 @@ msgstr "Antenas longas e finas (diferente da maioria das moscas)"
 msgid "Eyes covered with hairs"
 msgstr "Superfície dos olhos coberta de pelos"
 
-# photos caption_4
+# photos caption_3
 #: PT
 msgid ""
 "Abdomen with short and light brown hairs and surface orange to dark brown."
@@ -4684,7 +4685,7 @@ msgstr ""
 "Abdómen com superfície laranja a castanha escura e com pelos curtos de cor "
 "castanha clara"
 
-# photos caption_5
+# photos caption_4
 #: PT
 msgid "“Banana shape” marginal cell on front wing"
 msgstr "Célula marginal em \"forma de banana\" na asa dianteira"
@@ -4780,8 +4781,8 @@ msgstr "Andrena"
 
 # photos caption_4
 #: PT
-msgid "Lasioglossum"
-msgstr "Lasioglossum"
+msgid "Halictus"
+msgstr ""
 
 # photos intro_text
 #: PT
@@ -4896,8 +4897,8 @@ msgstr ""
 
 # photos caption_4
 #: PT
-msgid "Bigger than an honeybee (>= 10 mm)"
-msgstr "Igual ou maior que a abelha-do-mel (=> 10 mm)"
+msgid "Bigger than a honeybee (>= 10 mm)"
+msgstr ""
 
 # photos intro_text
 #: PT
@@ -5325,6 +5326,11 @@ msgid ""
 "disturb other insects visiting the flowers). Just count them (or estimate "
 "them if there is a large number) and assign them all to this category. "
 msgstr ""
+"Esta categoria é para todos os insetos com menos de 3 mm de comprimento. "
+"Pode ser difícil atribuí-los a um determinado grupo sem examiná-los de perto"
+" (o que perturbaria outros insetos que visitam as flores). Basta contá-los "
+"(ou estimar o seu número se houver um número elevado) e atribuí-los todos a "
+"esta categoria."
 
 # photos extraText
 #: PT
