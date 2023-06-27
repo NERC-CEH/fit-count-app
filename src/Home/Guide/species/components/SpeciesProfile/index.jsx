@@ -101,9 +101,9 @@ class SpeciesProfile extends Component {
   };
 
   getCaption = ({ captions }) => {
-    const getCaptionListItem = caption => {
+    const getCaptionListItem = (caption, index) => {
       return (
-        <li key={caption}>
+        <li key={caption + index}>
           <T>{caption}</T>
         </li>
       );
