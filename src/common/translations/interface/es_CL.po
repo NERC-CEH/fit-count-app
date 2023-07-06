@@ -1842,12 +1842,12 @@ msgstr ""
 
 # insects name
 #: PT
-msgid "Small wildbees (smaller than honeybee)"
+msgid "Small wildbees (< 10mm)"
 msgstr ""
 
 # insects name
 #: PT
-msgid "Big wildbees (bigger than honeybee)"
+msgid "Big wildbees (=> 10mm)"
 msgstr ""
 
 # insects name
@@ -4384,13 +4384,13 @@ msgstr ""
 msgid "Eyes covered with hairs"
 msgstr ""
 
-# photos caption_4
+# photos caption_3
 #: PT
 msgid ""
 "Abdomen with short and light brown hairs and surface orange to dark brown."
 msgstr ""
 
-# photos caption_5
+# photos caption_4
 #: PT
 msgid "“Banana shape” marginal cell on front wing"
 msgstr ""
@@ -4467,7 +4467,7 @@ msgstr ""
 
 # photos caption_4
 #: PT
-msgid "Lasioglossum"
+msgid "Halictus"
 msgstr ""
 
 # photos intro_text
@@ -4549,7 +4549,7 @@ msgstr ""
 
 # photos caption_4
 #: PT
-msgid "Bigger than an honeybee (>= 10 mm)"
+msgid "Bigger than a honeybee (>= 10 mm)"
 msgstr ""
 
 # photos intro_text

@@ -1851,12 +1851,12 @@ msgstr "Outras vespas"
 # insects name
 #: PT
 msgid "Small wildbees (< 10mm)"
-msgstr ""
+msgstr "Abelhas selvagens pequenas (< 10 mm)"
 
 # insects name
 #: PT
 msgid "Big wildbees (=> 10mm)"
-msgstr ""
+msgstr "Abelhas selvagens grandes (=> 10 mm)."
 
 # insects name
 #: PT

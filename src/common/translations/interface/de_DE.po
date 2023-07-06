@@ -2,13 +2,13 @@
 # Translators:
 # Diana Kurch, 2022
 # Vilius Stankaitis <vilius@flumens.io>, 2022
-# Elisabeth Kühn, 2023
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2023
+# Elisabeth Kühn, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2023\n"
+"Last-Translator: Elisabeth Kühn, 2023\n"
 "Language-Team: German (Germany) (https://app.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,7 +69,7 @@ msgstr "App"
 # User account error.
 #: interface
 msgid "User re-login is required."
-msgstr ""
+msgstr "Benutzer muss sich erneut anmelden."
 
 # User account delete in the settings
 #: interface
@@ -197,12 +197,12 @@ msgstr "Schweden"
 # Country page content
 #: interface
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 # Country page content
 #: interface
 msgid "Croatia"
-msgstr ""
+msgstr "Kroatien"
 
 # Home page toolbar label
 #: interface
@@ -1660,37 +1660,38 @@ msgstr ""
 # Back button label
 #: interface
 msgid "Strength"
-msgstr ""
+msgstr "Stärke"
 
 # Survey activity page label
 #: interface
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 # Survey activity page divider message
 #: interface
 msgid "Projects"
-msgstr ""
+msgstr "Projekte"
 
 # Survey activity page message
 #: interface
 msgid "Incorrect password or email"
-msgstr ""
+msgstr "Falsches Passwort oder Email"
 
 # Survey activity page message
 #: interface
 msgid "Is this survey part of a <1>project</1>?"
-msgstr ""
+msgstr "Ist diese Zählung Teil eines <1>Projektes</1>?"
 
 # Survey activity page message
 #: interface
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Sieht so aus, als wärst du offline"
 
 # Survey activity page message
 #: interface
 msgid "Pull the page down to refresh the list of projects."
 msgstr ""
+"Zieh die Seite nach unten, um die Liste der Projekte zu aktualisieren."
 
 #  Survey activity page message
 #: interface
@@ -1698,26 +1699,30 @@ msgid ""
 "To see more information about a project, swipe the project entry to the "
 "right and tap on the link."
 msgstr ""
+"Um weitere Informationen zu einem Projekt zu erhalten, streiche den "
+"Projekteintrag nach rechts und tippe auf den Link."
 
 # Survey activity page message
 #: interface
 msgid "My past projects"
-msgstr ""
+msgstr "Meine vergangenen Projekte"
 
 # Survey activity page message
 #: interface
 msgid "Your selected country does not have any projects."
-msgstr ""
+msgstr "In dem von Dir gewählten Land gibt es keine Projekte."
 
 # Photo picker content
 #: interface
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
 msgstr ""
+"Es wurde noch kein Foto hinzugefügt.<br/>Drücke<4><0></0></4> zum "
+"Hinzufügen."
 
 # Survey activity page message
 #: interface
 msgid "Please pull down the page to see projects list."
-msgstr ""
+msgstr "Zieh die Seite nach unten, um die Liste der Projekte zu sehen."
 
 # ============================================================================
 # ============================================================================
@@ -1819,32 +1824,32 @@ msgstr "Holzbienen"
 # insects name
 #: SE
 msgid "Social wasps"
-msgstr ""
+msgstr "Soziale Wespen"
 
 # insects name
 #: SE
 msgid "Other wasps"
-msgstr ""
+msgstr "Andere Wespen"
 
 # insects name
 #: PT
-msgid "Small wildbees (smaller than honeybee)"
-msgstr ""
+msgid "Small wildbees (< 10mm)"
+msgstr "Kleine Wildbienen (< 10mm)"
 
 # insects name
 #: PT
-msgid "Big wildbees (bigger than honeybee)"
-msgstr ""
+msgid "Big wildbees (=> 10mm)"
+msgstr "Große Wildbienen (=> 10mm)"
 
 # insects name
 #: PT
 msgid "Butterflies"
-msgstr ""
+msgstr "Tagfalter"
 
 # insects name
 #: PT
 msgid "Moths"
-msgstr ""
+msgstr "Nachtfalter"
 
 # habitats value
 #: UK BR CL CY AR IE DE SE HR PT
@@ -2029,56 +2034,56 @@ msgstr "Gemüsebeet"
 # habitats value
 #: HR
 msgid "Rocky habitat"
-msgstr ""
+msgstr "Steiniger Lebensraum"
 
 # habitats value
 #: HR
 msgid "Wet habitat"
-msgstr ""
+msgstr "Nasser Lebensraum"
 
 # habitats value
 #: HR
 msgid "Urban green spaces"
-msgstr ""
+msgstr "Städtische Grünflächen"
 
 # habitats value
 msgid "Waste ground/exploited land"
-msgstr ""
+msgstr "Brachland"
 
 # habitats value
 #: SE
 msgid "Coniferous forest"
-msgstr ""
+msgstr "Nadelwald"
 
 # habitats value
 #: SE
 msgid "Decidous forest"
-msgstr ""
+msgstr "Laubwald"
 
 # habitats value
 #: SE
 msgid "Bare land"
-msgstr ""
+msgstr "Kahle Fläche"
 
 # habitats value
 #: SE
 msgid "Artificial land"
-msgstr ""
+msgstr "KÜnstliche Fläche"
 
 # habitats value
 #: PT
 msgid "Balcony and small porches"
-msgstr ""
+msgstr "Balkone und kleine Vorgärten"
 
 # habitats value
 #: PT
 msgid "Dune systems"
-msgstr ""
+msgstr "Dünen"
 
 # habitats value
 #: PT
 msgid "Montado (Low density trees)"
-msgstr ""
+msgstr "Montado (Korkeichen-Wald)"
 
 # flowers name
 #: CY CL PT
@@ -2133,7 +2138,7 @@ msgstr "Nickender Sauerklee"
 # flowers name
 #: SE
 msgid "Blueberry"
-msgstr ""
+msgstr "Blaubeere"
 
 # flowers name
 #: CY
@@ -4572,13 +4577,13 @@ msgstr ""
 msgid "Eyes covered with hairs"
 msgstr ""
 
-# photos caption_4
+# photos caption_3
 #: PT
 msgid ""
 "Abdomen with short and light brown hairs and surface orange to dark brown."
 msgstr ""
 
-# photos caption_5
+# photos caption_4
 #: PT
 msgid "“Banana shape” marginal cell on front wing"
 msgstr ""
@@ -4655,7 +4660,7 @@ msgstr ""
 
 # photos caption_4
 #: PT
-msgid "Lasioglossum"
+msgid "Halictus"
 msgstr ""
 
 # photos intro_text
@@ -4737,7 +4742,7 @@ msgstr ""
 
 # photos caption_4
 #: PT
-msgid "Bigger than an honeybee (>= 10 mm)"
+msgid "Bigger than a honeybee (>= 10 mm)"
 msgstr ""
 
 # photos intro_text
