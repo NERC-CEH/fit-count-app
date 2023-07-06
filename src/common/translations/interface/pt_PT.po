@@ -2,13 +2,13 @@
 # Translators:
 # Hugo Manuel Silva Gaspar, 2023
 # FLOWer Lab, 2023
-# Karolis, 2023
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2023
+# Karolis, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jim Chiazzese <JimChi@ceh.ac.uk>, 2023\n"
+"Last-Translator: Karolis, 2023\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/ceh/teams/116172/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4750,7 +4750,7 @@ msgstr ""
 # photos caption_4
 #: PT
 msgid "Smaller than an honeybee (< 10 mm)"
-msgstr "Mais pequenas do que a abelha-do-mel (< 10 mm)"
+msgstr "Mais pequenas do que a abelha-do-mel (menos de 10 mm)"
 
 # photos intro_text
 #: PT
