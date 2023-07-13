@@ -1,6 +1,7 @@
 # 1.5.0
 
 Added Portugal.
+Added survey projects.
 
 # 1.4.1
 
