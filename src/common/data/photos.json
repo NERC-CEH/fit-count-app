@@ -1219,8 +1219,8 @@
     "PT": true
   },
   {
-    "id": "wasps",
-    "pictureId": "PT1",
+    "id": "waspsPT",
+    "pictureId": 1,
     "intro_text": "There are many different species of wasps, and they visit flowers mostly for nectar to complement their diet. Wasps may be similar to some bees and hoverflies, so these are the features you should look for. ",
     "caption_1": "Long or extremely long antennae",
     "caption_2": "Less dense and furry hairs on the body in comparison with bees (in most cases)",
@@ -1229,8 +1229,8 @@
     "PT": true
   },
   {
-    "id": "wasps",
-    "pictureId": "PT2",
+    "id": "waspsPT",
+    "pictureId": 2,
     "intro_text": "Wasps are very commonly spotted on flowers. Some species may look very familiar, others not so much, but overall very “wasp like”. There are more than one hundred species that might be seen on flowers. These are some of the very common wasps.",
     "caption_1": "Vespula",
     "caption_2": "Polistes",
@@ -1239,8 +1239,8 @@
     "PT": true
   },
   {
-    "id": "wasps",
-    "pictureId": "PT3",
+    "id": "waspsPT",
+    "pictureId": 3,
     "intro_text": "Be aware that wasps present a lot of variation in size, shape and marking patterns in the body.",
     "caption_1": "Some groups like Crabronidae, often show bulky heads or enlarged eyes",
     "caption_2": "The presence of thick and upright hairs on the legs or abdomen is common for some groups like Scoliidae",
