@@ -57,6 +57,9 @@ const AppPhotoPicker: FC<Props> = ({ model, isDisabled, ...restProps }) => {
       config.dataPath
     );
 
+    // TODO: remove once we migrate to the new Indicia models which don't add thumbnails
+    delete imageModel.attrs.thumbnail;
+
     return imageModel;
   }
 
