@@ -130,17 +130,17 @@ const ActivityController: FC<Props> = ({ sample }) => {
   const byNonFavorite = (activity: any) =>
     !appModel.attrs.pastActivities.includes(activity.id);
 
-  const favouriteActivities = activities.filter(byPastActivities);
+  const pastActivities = activities.filter(byPastActivities);
   const remainingActivities = activities.filter(byNonFavorite);
 
   const getActivityEntries = (
     activitiesData: Activity[],
-    isPastActivity: boolean
+    isPastActivity?: boolean
   ) => {
     const alphabetically = (activityA: Activity, activityB: Activity) =>
       activityA.name.localeCompare(activityB.name);
 
-    return activitiesData.sort(alphabetically).map((activity: Activity) => {
+    const getActivityEntry = (activity: Activity) => {
       const { name = '', id, websiteUrl } = activity;
 
       const navigateTo = () => {
@@ -176,7 +176,9 @@ const ActivityController: FC<Props> = ({ sample }) => {
           )}
         </IonItemSliding>
       );
-    });
+    };
+
+    return activitiesData.sort(alphabetically).map(getActivityEntry);
   };
 
   const getActivitiesList = () => {
@@ -213,7 +215,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
           onIonChange={onChange}
           value={sample.attrs.activity?.id || ''}
         >
-          {!!favouriteActivities.length && (
+          {!!pastActivities.length && (
             <>
               <IonItemDivider mode="ios" className="survey-divider">
                 <div>
@@ -221,12 +223,12 @@ const ActivityController: FC<Props> = ({ sample }) => {
                 </div>
               </IonItemDivider>
 
-              {getActivityEntries(favouriteActivities, true)}
+              {getActivityEntries(pastActivities, true)}
             </>
           )}
 
           <IonItemDivider mode="ios" className="survey-divider">
-            {!!favouriteActivities.length && (
+            {!!pastActivities.length && (
               <div>
                 <T>Projects</T>
               </div>
@@ -235,7 +237,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
           {defaultEmptySelection}
 
-          {getActivityEntries(remainingActivities, false)}
+          {getActivityEntries(remainingActivities)}
         </IonRadioGroup>
       </IonList>
     );

@@ -59,17 +59,15 @@ async function fetchActivitiesReport(token: string): Promise<Activity[]> {
   }
 }
 
-const checkIfPastActivitiesStillActive = (data: Activity[]) => {
-  data.forEach((activity: Activity, index: number) => {
-    const expiredActivity = ![...appModel.attrs.pastActivities].includes(
-      activity.id
+const checkIfPastActivitiesStillActive = (newActivities: Activity[]) => {
+  const notExpired = (pastActivity: number) =>
+    newActivities.find(
+      (newActivity: Activity) => newActivity.id === pastActivity
     );
 
-    if (expiredActivity) {
-      appModel.attrs.pastActivities.splice(index, 1);
-      appModel.save();
-    }
-  });
+  const validPastActivities = appModel.attrs.pastActivities.filter(notExpired);
+  appModel.attrs.pastActivities = validPastActivities;
+  appModel.save();
 };
 
 async function fetchActivities(token: string) {

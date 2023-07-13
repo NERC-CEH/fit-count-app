@@ -71,9 +71,20 @@ export class AppModel extends Model {
     });
 
     Object.assign(this, ActivitiesExtension);
-    const syncActivities = ({ newValue }: any) =>
-      !!newValue && this.syncActivities();
-    observe(this.attrs, 'country', syncActivities);
+
+    this.ready?.then(() => {
+      const shouldSyncFirstTime =
+        !this.attrs.activities?.length && this.attrs.country === 'UK';
+
+      if (shouldSyncFirstTime) {
+        this.syncActivities();
+      }
+
+      // add country change auto-sync
+      const syncActivities = ({ newValue }: any) =>
+        !!newValue && this.syncActivities();
+      observe(this.attrs, 'country', syncActivities);
+    });
   }
 
   attrs: Attrs = Model.extendAttrs(this.attrs, defaults);
