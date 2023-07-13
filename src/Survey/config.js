@@ -1,24 +1,22 @@
 /* eslint-disable react/jsx-filename-extension */
+import i18n from 'i18next';
 import * as Yup from 'yup';
 import { date } from '@flumens';
-import userModel from 'models/user';
-import appModel from 'models/app';
-import i18n from 'i18next';
-import insectGroups from 'common/data';
 import countries from 'common/countries';
-import habitats from 'common/data/habitats.json';
+import insectGroups from 'common/data';
 import flowers from 'common/data/flowers.json';
-import habitatIcon from 'common/images/habitatIcon.svg';
+import habitats from 'common/data/habitats.json';
 import flowerIcon from 'common/images/flowerIcon.svg';
-
+import habitatIcon from 'common/images/habitatIcon.svg';
+import appModel from 'models/app';
+import userModel from 'models/user';
+import headTypeImage from './FlowerCount/images/headType.png';
+import individualFlowerTypeImage from './FlowerCount/images/individualFlowerType.png';
+import spikeTypeImage from './FlowerCount/images/spikeType.png';
+import umbelTypeImage from './FlowerCount/images/umbelType.png';
 import flowerCoverLargeGroupImage from './FlowerCover/images/groupLarge.png';
 import flowerCoverMediumGroupImage from './FlowerCover/images/groupMedium.png';
 import flowerCoverSmallGroupImage from './FlowerCover/images/groupSmall.png';
-
-import individualFlowerTypeImage from './FlowerCount/images/individualFlowerType.png';
-import headTypeImage from './FlowerCount/images/headType.png';
-import umbelTypeImage from './FlowerCount/images/umbelType.png';
-import spikeTypeImage from './FlowerCount/images/spikeType.png';
 
 const isProd = process.env.NODE_ENV === 'production';
 

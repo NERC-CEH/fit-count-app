@@ -1,12 +1,12 @@
+import cy from './interface/cy.po';
+import de from './interface/de_DE.po';
+import el from './interface/el.po';
 import en from './interface/en.pot';
 import esCL from './interface/es_CL.po';
-import el from './interface/el.po';
+import hr from './interface/hr_HR.po';
 import ptBR from './interface/pt_BR.po';
 import ptPT from './interface/pt_PT.po';
-import cy from './interface/cy.po';
 import se from './interface/sv_SE.po';
-import de from './interface/de_DE.po';
-import hr from './interface/hr_HR.po';
 
 const rawToKeyVal = lang =>
   Object.entries(lang).reduce((agg, pair) => {

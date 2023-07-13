@@ -1,14 +1,5 @@
 import { FC } from 'react';
-import { Main, InfoMessage } from '@flumens';
 import { observer } from 'mobx-react';
-import { Trans as T } from 'react-i18next';
-import {
-  IonIcon,
-  IonItem,
-  IonList,
-  IonItemDivider,
-  IonButton,
-} from '@ionic/react';
 import {
   openOutline,
   lockClosedOutline,
@@ -19,9 +10,18 @@ import {
   informationCircleOutline,
   settingsOutline,
 } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
+import { Main, InfoMessage } from '@flumens';
+import {
+  IonIcon,
+  IonItem,
+  IonList,
+  IonItemDivider,
+  IonButton,
+} from '@ionic/react';
+import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 import config from 'common/config';
 import flumensLogo from 'common/images/flumens.svg';
-import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 import './styles.scss';
 
 type Props = {

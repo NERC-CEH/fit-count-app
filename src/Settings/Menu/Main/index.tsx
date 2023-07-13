@@ -1,6 +1,14 @@
 import { FC } from 'react';
 import { observer } from 'mobx-react';
 import {
+  warningOutline,
+  personRemoveOutline,
+  shareSocialOutline,
+  globeOutline,
+  languageOutline,
+} from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
+import {
   Main,
   useAlert,
   InfoMessage,
@@ -14,16 +22,8 @@ import {
   IonLabel,
   IonItemDivider,
 } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
-import {
-  warningOutline,
-  personRemoveOutline,
-  shareSocialOutline,
-  globeOutline,
-  languageOutline,
-} from 'ionicons/icons';
-import languages from 'common/languages';
 import countries from 'common/countries';
+import languages from 'common/languages';
 import './styles.scss';
 
 function useUserDeleteDialog(deleteUser: any) {
@@ -124,7 +124,7 @@ const MenuMain: FC<Props> = ({
           </InfoMessage>
         </div>
 
-        <div className="rounded destructive-item">
+        <div className="destructive-item rounded">
           {isLoggedIn && (
             <>
               <IonItem onClick={showUserDeleteDialog}>

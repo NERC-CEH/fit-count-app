@@ -1,9 +1,9 @@
-import { Page, Main, Section, Header } from '@flumens';
-import config from 'common/config';
-import appModel from 'models/app';
-import { IonIcon } from '@ionic/react';
 import { informationCircleOutline } from 'ionicons/icons';
+import { Page, Main, Section, Header } from '@flumens';
+import { IonIcon } from '@ionic/react';
+import config from 'common/config';
 import appLogo from 'common/images/appLogo.png';
+import appModel from 'models/app';
 import './styles.scss';
 
 const { P } = Section;

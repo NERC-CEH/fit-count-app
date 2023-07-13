@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import { observer } from 'mobx-react';
+import clsx from 'clsx';
+import { flagOutline, chevronForwardOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { IonItem, IonLabel, IonFooter, IonIcon } from '@ionic/react';
-import clsx from 'clsx';
 import './styles.scss';
-import { flagOutline, chevronForwardOutline } from 'ionicons/icons';
 
 type Props = {
   link?: string;

@@ -1,6 +1,6 @@
+import { stopwatchOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import { Trans as T } from 'react-i18next';
-import { stopwatchOutline } from 'ionicons/icons';
 import { IonIcon, IonItem, IonLabel } from '@ionic/react';
 import CustomAlert from '../../Components/CustomAlert';
 

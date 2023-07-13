@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import { observer } from 'mobx-react';
-import { Page, Attr, Main, InfoMessage } from '@flumens';
 import { informationCircleOutline } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
+import { Page, Attr, Main, InfoMessage } from '@flumens';
 import { IonItemDivider } from '@ionic/react';
 import Sample from 'models/sample';
-import { Trans as T } from 'react-i18next';
-import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Header from './Components/Header';
 import RequiredLabel from './Components/RequiredLabel';
 
 const PAGE_INDEX = 2;

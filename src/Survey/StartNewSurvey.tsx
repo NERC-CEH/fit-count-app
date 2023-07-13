@@ -1,12 +1,12 @@
 import { useEffect, useContext } from 'react';
-import { NavContext, isPlatform } from '@ionic/react';
-import Sample from 'models/sample';
-import { useAlert, useDisableBackButton } from '@flumens';
 import { Trans as T } from 'react-i18next';
+import { useAlert, useDisableBackButton } from '@flumens';
+import { NavContext, isPlatform } from '@ionic/react';
 import appModel from 'models/app';
-import userModel from 'models/user';
 import Occurrence from 'models/occurrence';
+import Sample from 'models/sample';
 import savedSamples from 'models/savedSamples';
+import userModel from 'models/user';
 
 async function showDraftAlert(alert: any) {
   const alertWrap = (resolve: any) => {

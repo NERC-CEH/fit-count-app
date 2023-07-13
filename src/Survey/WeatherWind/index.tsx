@@ -1,11 +1,11 @@
 import { FC } from 'react';
 import { observer } from 'mobx-react';
+import { informationCircleOutline } from 'ionicons/icons';
 import { Page, Attr, Main, InfoMessage } from '@flumens';
 import Sample from 'models/sample';
-import { informationCircleOutline } from 'ionicons/icons';
 import FinishFooter from 'Survey/Components/FinishFooter';
-import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import Header from '../Components/Header';
 import './styles.scss';
 
 const PAGE_INDEX = 10;

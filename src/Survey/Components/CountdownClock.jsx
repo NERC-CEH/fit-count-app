@@ -1,9 +1,9 @@
+import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import Countdown, { zeroPad } from 'react-countdown-now';
-import { IonLabel } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-import clsx from 'clsx';
+import { IonLabel } from '@ionic/react';
 
 function CountdownClock({ isPaused, countdown, onComplete, hasStarted }) {
   function renderer({ minutes, seconds, completed }) {

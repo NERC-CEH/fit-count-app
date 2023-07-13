@@ -1,4 +1,6 @@
 import { FC } from 'react';
+import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
 import {
   IonHeader,
   IonToolbar,
@@ -6,8 +8,6 @@ import {
   IonTitle,
   IonProgressBar,
 } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
-import { observer } from 'mobx-react';
 import Sample from 'models/sample';
 import BackButton from './BackButton';
 import './styles.scss';

@@ -1,10 +1,10 @@
 import { FC, useContext } from 'react';
-import { isPlatform, NavContext } from '@ionic/react';
+import { observer } from 'mobx-react';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { Page, Header, useToast, PickByType, useLoader } from '@flumens';
+import { isPlatform, NavContext } from '@ionic/react';
 import appModel, { Attrs as AppModelAttrs } from 'models/app';
 import userModel from 'models/user';
-import { observer } from 'mobx-react';
 import Main from './Main';
 
 const useDeleteUser = () => {

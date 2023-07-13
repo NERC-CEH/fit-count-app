@@ -1,7 +1,9 @@
 import { createRef, Component } from 'react';
 import { observer } from 'mobx-react';
+import { informationCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
+import { Trans as T } from 'react-i18next';
 import {
   Page,
   Attr,
@@ -10,11 +12,9 @@ import {
   InfoButton,
   MenuAttrItemFromModel,
 } from '@flumens';
-import { informationCircleOutline } from 'ionicons/icons';
 import { NavContext, IonItemDivider } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
-import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Header from './Components/Header';
 import RequiredLabel from './Components/RequiredLabel';
 
 const PAGE_INDEX = 2;

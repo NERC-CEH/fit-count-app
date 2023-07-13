@@ -6,15 +6,15 @@ import {
   device,
   useAlert,
 } from '@flumens';
-import userModel from 'models/user';
-import { Activity } from 'models/app';
 import config from 'common/config';
+import { Activity } from 'models/app';
+import userModel from 'models/user';
 import surveyConfig from 'Survey/config';
+import Media from './media';
+import Occurrence from './occurrence';
 import GPSExtension from './sampleGPSExt';
 import VibrateExtension from './sample_vibrate_ext';
 import { modelStore } from './store';
-import Occurrence from './occurrence';
-import Media from './media';
 
 type Attrs = SampleAttrs & {
   date: any;

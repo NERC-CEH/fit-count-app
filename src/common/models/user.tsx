@@ -2,7 +2,6 @@
  * User model describing the user model on backend. Persistent.
  **************************************************************************** */
 import { useContext } from 'react';
-import CONFIG from 'common/config';
 import * as Yup from 'yup';
 import {
   DrupalUserModel,
@@ -13,6 +12,7 @@ import {
   DrupalUserModelAttrs,
 } from '@flumens';
 import { NavContext } from '@ionic/react';
+import CONFIG from 'common/config';
 import { genericStore } from './store';
 
 export interface Attrs extends DrupalUserModelAttrs {

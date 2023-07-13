@@ -51,9 +51,9 @@
     "leaflet": "^1.9.3",
     "localforage-cordovasqlitedriver": "1.8.0",
     "lodash": "^4.17.21",
+    "mapbox-gl": "2.4.1",
     "mobx": "^6.9.0",
     "mobx-react": "^7.6.0",
-    "mapbox-gl": "2.4.1",
     "mobx-utils": "^6.0.6",
     "mock-geolocation": "1.0.11",
     "proj4": "^2.9.0",
@@ -83,6 +83,7 @@
     "@capacitor/cli": "^4.8.0",
     "@flumens/eslint-config": "^2.0.1",
     "@flumens/fetch-onedrive-excel": "^0.3.0",
+    "@flumens/prettier-config": "^0.2.3",
     "@flumens/webpack-config": "^5.2.0",
     "@types/jest": "^27.5.1",
     "@types/leaflet": "^1.9.3",
@@ -202,13 +203,7 @@
       "@getify/proper-arrows/name": 0
     }
   },
-  "prettier": {
-    "printWidth": 80,
-    "singleQuote": true,
-    "jsxBracketSameLine": false,
-    "trailingComma": "es5",
-    "arrowParens": "avoid"
-  },
+  "prettier": "@flumens/prettier-config",
   "jest": {
     "testEnvironment": "jsdom",
     "transform": {

@@ -1,8 +1,8 @@
-import * as Yup from 'yup';
-import appModel, { Activity } from 'models/app';
-import config from 'common/config';
 import axios, { AxiosRequestConfig } from 'axios';
+import * as Yup from 'yup';
 import { isAxiosNetworkError, HandledError, device } from '@flumens';
+import config from 'common/config';
+import appModel, { Activity } from 'models/app';
 import userModel from './user';
 
 const schemaBackend = Yup.object().shape({

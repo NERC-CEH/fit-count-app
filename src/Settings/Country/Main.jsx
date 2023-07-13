@@ -1,6 +1,8 @@
+import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
+import { Main } from '@flumens';
 import {
   IonList,
   IonItem,
@@ -8,8 +10,6 @@ import {
   IonRadio,
   IonLabel,
 } from '@ionic/react';
-import { Main } from '@flumens';
-import { Trans as T } from 'react-i18next';
 import countries from 'common/countries';
 
 const getCountriesOptions = () => {

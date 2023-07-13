@@ -1,6 +1,14 @@
 import { useState, FC } from 'react';
 import { observer } from 'mobx-react';
 import {
+  locationOutline,
+  searchOutline,
+  warningOutline,
+  locateOutline,
+} from 'ionicons/icons';
+import Leaflet, { LatLngExpression, Map } from 'leaflet';
+import { Trans as T, useTranslation } from 'react-i18next';
+import {
   Page,
   ModelLocation,
   Main,
@@ -10,19 +18,11 @@ import {
   device,
   prettyPrintLocation,
 } from '@flumens';
-import Sample from 'models/sample';
-import appModel from 'models/app';
+import { IonButton, IonSpinner, IonIcon } from '@ionic/react';
 import config from 'common/config';
 import hasWebGL from 'common/helpers/webGLSupport';
-import Leaflet, { LatLngExpression, Map } from 'leaflet';
-import { Trans as T, useTranslation } from 'react-i18next';
-import { IonButton, IonSpinner, IonIcon } from '@ionic/react';
-import {
-  locationOutline,
-  searchOutline,
-  warningOutline,
-  locateOutline,
-} from 'ionicons/icons';
+import appModel from 'models/app';
+import Sample from 'models/sample';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import COUNTRIES_CENTROID from './country_centroide';

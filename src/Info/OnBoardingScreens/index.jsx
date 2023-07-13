@@ -1,8 +1,10 @@
 import { useRef, useState } from 'react';
+import { observer } from 'mobx-react';
+import { arrowForward, checkmarkOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
+import { Trans as T } from 'react-i18next';
 import { Page, Main } from '@flumens';
-import { observer } from 'mobx-react';
 import {
   IonSlides,
   IonSlide,
@@ -12,8 +14,6 @@ import {
   IonIcon,
   IonFooter,
 } from '@ionic/react';
-import { arrowForward, checkmarkOutline } from 'ionicons/icons';
-import { Trans as T } from 'react-i18next';
 import appLogo from 'common/images/appLogo.png';
 import first from './images/first.jpg';
 import './styles.scss';

@@ -1,6 +1,7 @@
 import { FC, useEffect } from 'react';
-import { Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
+import { informationCircleOutline, openOutline } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
 import {
   Page,
   InfoBackgroundMessage,
@@ -11,9 +12,6 @@ import {
   InfoButton,
   useLoader,
 } from '@flumens';
-import appModel, { Activity } from 'models/app';
-import userModel, { useUserStatusCheck } from 'models/user';
-import Sample from 'models/sample';
 import {
   IonItem,
   IonIcon,
@@ -28,12 +26,14 @@ import {
   IonItemOption,
   IonItemDivider,
 } from '@ionic/react';
-import { informationCircleOutline, openOutline } from 'ionicons/icons';
+import appModel, { Activity } from 'models/app';
+import Sample from 'models/sample';
+import userModel, { useUserStatusCheck } from 'models/user';
 import FinishFooter from 'Survey/Components/FinishFooter';
-import helpIcon from './images/helpIcon.jpg';
 import Header from '../Components/Header';
-import unPinIcon from './unpinIcon.svg';
+import helpIcon from './images/helpIcon.jpg';
 import './styles.scss';
+import unPinIcon from './unpinIcon.svg';
 
 const PAGE_INDEX = 11;
 

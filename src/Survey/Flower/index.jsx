@@ -1,8 +1,9 @@
 import { createRef, Component } from 'react';
 import { observer } from 'mobx-react';
+import { informationCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import config from 'common/config';
+import { Trans as T } from 'react-i18next';
 import {
   Page,
   Attr,
@@ -11,13 +12,12 @@ import {
   InfoMessage,
   InfoButton,
 } from '@flumens';
-import { informationCircleOutline } from 'ionicons/icons';
-import Media from 'models/media';
 import { IonItemDivider } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
+import config from 'common/config';
+import Media from 'models/media';
 import PhotoPicker from 'Components/PhotoPicker';
-import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import Header from '../Components/Header';
 import RequiredLabel from '../Components/RequiredLabel';
 import './images';
 import './styles.scss';
@@ -25,7 +25,6 @@ import './styles.scss';
 const PAGE_INDEX = 3;
 const NEXT_PAGE = 'flower-count';
 
-@observer
 class Flower extends Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
@@ -192,4 +191,4 @@ class Flower extends Component {
   }
 }
 
-export default Flower;
+export default observer(Flower);

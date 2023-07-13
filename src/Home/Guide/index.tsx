@@ -1,11 +1,11 @@
 import { useState, FC } from 'react';
 import { observer } from 'mobx-react';
-import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
-import { Page, Main, ModalHeader, UserFeedbackRequest } from '@flumens';
-import config from 'common/config';
-import appModel from 'models/app';
 import { useTranslation, Trans as T } from 'react-i18next';
+import { Page, Main, ModalHeader, UserFeedbackRequest } from '@flumens';
+import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
+import config from 'common/config';
 import insectsData from 'common/data';
+import appModel from 'models/app';
 import SpeciesProfile from './species/components/SpeciesProfile';
 import './styles.scss';
 

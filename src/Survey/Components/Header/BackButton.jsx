@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { IonBackButton, IonButton } from '@ionic/react';
 import { useTranslation, Trans as T } from 'react-i18next';
+import { IonBackButton, IonButton } from '@ionic/react';
 
 const BackButton = ({ onCancel, backButtonLabel }) => {
   const { t } = useTranslation();

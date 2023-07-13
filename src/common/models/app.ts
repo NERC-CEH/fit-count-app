@@ -1,5 +1,5 @@
-import { Model, ModelAttrs } from '@flumens';
 import { observe } from 'mobx';
+import { Model, ModelAttrs } from '@flumens';
 import ActivitiesExtension from './appActivitiesExt';
 import { genericStore } from './store';
 

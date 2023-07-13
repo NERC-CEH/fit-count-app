@@ -1,8 +1,11 @@
 import { createRef, Component } from 'react';
 import { observer } from 'mobx-react';
-import { withTranslation } from 'react-i18next';
+import clsx from 'clsx';
+import { removeOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
+import { withTranslation } from 'react-i18next';
+import { Main } from '@flumens';
 import {
   IonGrid,
   IonCol,
@@ -15,11 +18,7 @@ import {
   IonImg,
   IonButton,
 } from '@ionic/react';
-import { Main } from '@flumens';
-import { removeOutline } from 'ionicons/icons';
 import species from 'common/data/index';
-import clsx from 'clsx';
-
 import './styles.scss';
 
 const fixIonicSlideBug = e => {
@@ -44,7 +43,6 @@ const intoChunksOfSix = (slidesArray, item, index) => {
   return slidesArray;
 };
 
-@observer
 class SpeciesMainComponent extends Component {
   static propTypes = exact({
     sample: PropTypes.object.isRequired,
@@ -174,4 +172,4 @@ class SpeciesMainComponent extends Component {
   }
 }
 
-export default withTranslation()(SpeciesMainComponent);
+export default withTranslation()(observer(SpeciesMainComponent));

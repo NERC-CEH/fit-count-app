@@ -1,7 +1,7 @@
 import { useContext } from 'react';
+import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
-import { observer } from 'mobx-react';
 import { Page, Main, Header } from '@flumens';
 import {
   IonList,

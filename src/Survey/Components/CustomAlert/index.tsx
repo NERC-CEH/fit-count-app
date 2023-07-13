@@ -1,7 +1,7 @@
+import { ReactNode } from 'react';
+import clsx from 'clsx';
 import { IonBackdrop } from '@ionic/react';
 import './styles.scss';
-import clsx from 'clsx';
-import { ReactNode } from 'react';
 
 type Props = {
   children: ReactNode;

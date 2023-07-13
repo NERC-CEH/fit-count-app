@@ -1,12 +1,12 @@
 import { Component } from 'react';
 import { observer } from 'mobx-react';
+import { informationCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Main, Attr, InfoMessage, InfoButton } from '@flumens';
-import { informationCircleOutline } from 'ionicons/icons';
 import { NavContext } from '@ionic/react';
-import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import Header from '../Components/Header';
 import './styles.scss';
 
 const PAGE_INDEX = 5;

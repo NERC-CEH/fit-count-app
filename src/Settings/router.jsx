@@ -1,8 +1,8 @@
 import { Route } from 'react-router-dom';
 import appModel from 'models/app';
-import Menu from './Menu';
-import Language from './Language';
 import Country from './Country';
+import Language from './Language';
+import Menu from './Menu';
 
 const LanguageWrap = () => <Language appModel={appModel} />;
 

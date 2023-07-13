@@ -1,9 +1,9 @@
 import { FC } from 'react';
+import clsx from 'clsx';
+import { informationCircleOutline } from 'ionicons/icons';
+import { Trans as T, useTranslation } from 'react-i18next';
 import { JSX } from '@ionic/core';
 import { IonIcon, IonItem, IonSelectOption, IonSelect } from '@ionic/react';
-import { Trans as T, useTranslation } from 'react-i18next';
-import { informationCircleOutline } from 'ionicons/icons';
-import clsx from 'clsx';
 import './styles.scss';
 
 type Props = JSX.IonSelect & {

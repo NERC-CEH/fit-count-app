@@ -1,12 +1,12 @@
 import { Component } from 'react';
 import { observer } from 'mobx-react';
+import { informationCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
 import { Page, Attr, Main, InfoMessage } from '@flumens';
 import { NavContext } from '@ionic/react';
-import { informationCircleOutline } from 'ionicons/icons';
-import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Header from './Components/Header';
 
 const PAGE_INDEX = 9;
 

@@ -1,16 +1,16 @@
 import { FC } from 'react';
-import appModel from 'models/app';
+import { observer } from 'mobx-react';
 import { Route, Redirect } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { observer } from 'mobx-react';
 import CountriesSelectRequire from 'common/Components/CountriesSelectRequire';
-import OnBoardingScreens from './Info/OnBoardingScreens';
+import appModel from 'models/app';
 import Home from './Home';
+import OnBoardingScreens from './Info/OnBoardingScreens';
 import Info from './Info/router';
 import Settings from './Settings/router';
-import User from './User/router';
 import Survey from './Survey/router';
+import User from './User/router';
 
 const HomeRedirect = () => {
   return <Redirect to="home" />;

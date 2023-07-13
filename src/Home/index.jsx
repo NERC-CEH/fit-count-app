@@ -1,8 +1,11 @@
 import { useEffect } from 'react';
+import {
+  homeOutline,
+  informationCircleOutline,
+  menuOutline,
+  layersOutline,
+} from 'ionicons/icons';
 import { Route, Redirect } from 'react-router-dom';
-import userModel from 'models/user';
-import appModel from 'models/app';
-import savedSamples from 'models/savedSamples';
 import { App as AppPlugin } from '@capacitor/app';
 import {
   IonTabs,
@@ -12,19 +15,16 @@ import {
   IonRouterOutlet,
   useIonRouter,
 } from '@ionic/react';
-import {
-  homeOutline,
-  informationCircleOutline,
-  menuOutline,
-  layersOutline,
-} from 'ionicons/icons';
 import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
 import flyIcon from 'common/images/fly.svg';
-import Home from './Home';
-import Menu from './Menu';
+import appModel from 'models/app';
+import savedSamples from 'models/savedSamples';
+import userModel from 'models/user';
 import Guide from './Guide';
-import Surveys from './UserSurveys';
+import Home from './Home';
 import Manual from './Manual';
+import Menu from './Menu';
+import Surveys from './UserSurveys';
 import './styles.scss';
 
 const MenuWrap = () => (

@@ -1,19 +1,19 @@
 import { RouteWithModels, AttrPage } from '@flumens';
 import savedSamples from 'models/savedSamples';
-import StartNewSurvey from './StartNewSurvey';
-import survey from './config';
-import Location from './Location';
-import LocationName from './LocationName';
-import Habitat from './Habitat';
-import FlowerCover from './FlowerCover';
+import Activities from './Activities';
 import Flower from './Flower';
 import FlowerCount from './FlowerCount';
+import FlowerCover from './FlowerCover';
 import FlowerPatch from './FlowerPatch';
+import Habitat from './Habitat';
 import InsectCount from './InsectCount';
-import WeatherSky from './WeatherSky';
+import Location from './Location';
+import LocationName from './LocationName';
+import StartNewSurvey from './StartNewSurvey';
 import WeatherShade from './WeatherShade';
+import WeatherSky from './WeatherSky';
 import WeatherWind from './WeatherWind';
-import Activities from './Activities';
+import survey from './config';
 
 const baseURL = `/survey/new`;
 

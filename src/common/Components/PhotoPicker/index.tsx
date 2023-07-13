@@ -1,13 +1,13 @@
 import { FC, ComponentProps } from 'react';
-import { PhotoPicker, captureImage } from '@flumens';
 import { observer } from 'mobx-react';
-import { Capacitor } from '@capacitor/core';
-import { useIonActionSheet, isPlatform } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import Media from 'models/media';
-import Sample from 'models/sample';
-import Occurrence from 'models/occurrence';
+import { Capacitor } from '@capacitor/core';
+import { PhotoPicker, captureImage } from '@flumens';
+import { useIonActionSheet, isPlatform } from '@ionic/react';
 import config from 'common/config';
+import Media from 'models/media';
+import Occurrence from 'models/occurrence';
+import Sample from 'models/sample';
 import './styles.scss';
 
 export function usePromptImageSource() {

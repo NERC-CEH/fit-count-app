@@ -1,16 +1,15 @@
 import { isPlatform } from '@ionic/react';
-
-import UK from 'common/images/ukFlag.svg';
-import CY from 'common/images/cypFlag.svg';
-import BR from 'common/images/braFlag.svg';
-import SE from 'common/images/seFlag.svg';
-import IE from 'common/images/ieFlag.svg';
-import DE from 'common/images/deFlag.svg';
-import CL from 'common/images/chlFlag.svg';
 import AR from 'common/images/arFlag.svg';
-import PT from 'common/images/ptFlag.svg';
-import HR from 'common/images/hrFlag.svg';
 import 'common/images/argFlag.svg';
+import BR from 'common/images/braFlag.svg';
+import CL from 'common/images/chlFlag.svg';
+import CY from 'common/images/cypFlag.svg';
+import DE from 'common/images/deFlag.svg';
+import HR from 'common/images/hrFlag.svg';
+import IE from 'common/images/ieFlag.svg';
+import PT from 'common/images/ptFlag.svg';
+import SE from 'common/images/seFlag.svg';
+import UK from 'common/images/ukFlag.svg';
 
 const countries = [
   {

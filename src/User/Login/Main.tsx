@@ -1,6 +1,5 @@
 import { FC, useState } from 'react';
-import { IonIcon, IonButton, IonList } from '@ionic/react';
-import { Link } from 'react-router-dom';
+import { Formik, Form } from 'formik';
 import {
   keyOutline,
   personOutline,
@@ -8,9 +7,10 @@ import {
   eyeOffOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { AnySchema } from 'yup';
-import { Formik, Form } from 'formik';
 import { Main, InputWithValidation } from '@flumens';
+import { IonIcon, IonButton, IonList } from '@ionic/react';
 
 type Props = {
   schema: AnySchema;

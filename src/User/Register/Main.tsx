@@ -1,5 +1,5 @@
 import { FC, useState } from 'react';
-import { IonIcon, IonButton, IonList, IonRouterLink } from '@ionic/react';
+import { Formik, Form } from 'formik';
 import {
   personOutline,
   mailOutline,
@@ -10,8 +10,8 @@ import {
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { AnySchema } from 'yup';
-import { Formik, Form } from 'formik';
 import { Main, InputWithValidation, MenuAttrToggle } from '@flumens';
+import { IonIcon, IonButton, IonList, IonRouterLink } from '@ionic/react';
 import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
 import SelectWithValidation from './SelectWithValidation';
 

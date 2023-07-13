@@ -1,8 +1,8 @@
+import { Capacitor } from '@capacitor/core';
+import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Media } from '@flumens';
 import { isPlatform } from '@ionic/react';
 import config from 'common/config';
-import { Capacitor } from '@capacitor/core';
-import { Filesystem, Directory } from '@capacitor/filesystem';
 
 export default class AppMedia extends Media {
   async destroy(silent?: boolean) {

@@ -1,8 +1,8 @@
-import { NavContext } from '@ionic/react';
-import Sample, { useValidateCheck } from 'models/sample';
-import appModel from 'models/app';
 import { useContext, useState } from 'react';
 import { useToast } from '@flumens';
+import { NavContext } from '@ionic/react';
+import appModel from 'models/app';
+import Sample, { useValidateCheck } from 'models/sample';
 import { useUserStatusCheck } from 'models/user';
 import Footer from '../Footer';
 import ThankYouAlert from './ThankYouAlert';

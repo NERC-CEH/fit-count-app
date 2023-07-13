@@ -1,6 +1,9 @@
 import { Component } from 'react';
+import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import exact from 'prop-types-exact';
+import { Trans as T } from 'react-i18next';
+import { Page, Main } from '@flumens';
 import {
   IonHeader,
   IonToolbar,
@@ -10,9 +13,6 @@ import {
   IonBadge,
   IonList,
 } from '@ionic/react';
-import { observer } from 'mobx-react';
-import { Page, Main } from '@flumens';
-import { Trans as T } from 'react-i18next';
 import InfoBackgroundMessage from 'common/Components/InfoBackgroundMessage';
 import Survey from './components/Survey';
 import './styles.scss';
@@ -23,7 +23,6 @@ function byCreateTime(m1, m2) {
   return date2.getTime() - date1.getTime();
 }
 
-@observer
 class UserSurveyComponent extends Component {
   static propTypes = exact({
     savedSamples: PropTypes.array.isRequired,
@@ -166,4 +165,4 @@ class UserSurveyComponent extends Component {
   }
 }
 
-export default UserSurveyComponent;
+export default observer(UserSurveyComponent);

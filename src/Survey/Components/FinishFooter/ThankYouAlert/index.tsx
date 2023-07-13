@@ -1,14 +1,13 @@
 import { FC } from 'react';
+import { checkmarkOutline } from 'ionicons/icons';
 import { useTranslation, Trans as T } from 'react-i18next';
-import appModel from 'models/app';
-import Sample from 'models/sample';
-
 import { useDisableBackButton } from '@flumens';
 import { IonItem, IonIcon, IonLabel } from '@ionic/react';
-import { checkmarkOutline } from 'ionicons/icons';
-import surveyStatistics from './surveyStatistics.json';
+import appModel from 'models/app';
+import Sample from 'models/sample';
 import CustomAlert from '../../CustomAlert';
 import './styles.scss';
+import surveyStatistics from './surveyStatistics.json';
 
 type Props = {
   sample: Sample;

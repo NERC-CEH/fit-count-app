@@ -1,10 +1,10 @@
-import { IonGrid, IonList, IonRow, IonCol } from '@ionic/react';
-import { Header, Page, Main, Section } from '@flumens';
-import appModel from 'models/app';
 import { Trans as T } from 'react-i18next';
-import surpassLogo from './images/SURPASS_logo.png';
-import pomsLogo from './images/PoMS_Logo_WithStrap_Positive_Black.png';
+import { Header, Page, Main, Section } from '@flumens';
+import { IonGrid, IonList, IonRow, IonCol } from '@ionic/react';
+import appModel from 'models/app';
 import pMSkyLogo from './images/PoMSKy.png';
+import pomsLogo from './images/PoMS_Logo_WithStrap_Positive_Black.png';
+import surpassLogo from './images/SURPASS_logo.png';
 import './styles.scss';
 
 const { H, P } = Section;
