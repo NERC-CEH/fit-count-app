@@ -19,6 +19,7 @@ import Media from './media';
 type Attrs = SampleAttrs & {
   date: any;
   location: any;
+  country: string;
   activity?: Activity;
   surveyStartTime?: any;
   'weather-wind'?: any;
@@ -97,11 +98,18 @@ class AppSample extends Sample {
       .reduce(addUpOccurrencesCounts, 0);
   };
 
+  shouldUseActivities = () => this.attrs.country === 'UK';
+
   getSurveyStepCount = () => {
     const { SURVEY_STEP_COUNT } = this.getSurvey();
     const needsLocationName =
       !this.attrs.location?.latitude || this.attrs['location-name'];
-    return needsLocationName ? SURVEY_STEP_COUNT + 1 : SURVEY_STEP_COUNT;
+
+    let count = needsLocationName ? SURVEY_STEP_COUNT + 1 : SURVEY_STEP_COUNT;
+
+    if (this.shouldUseActivities()) count++;
+
+    return count;
   };
 
   async upload() {

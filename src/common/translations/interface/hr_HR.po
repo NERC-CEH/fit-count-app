@@ -1655,51 +1655,14 @@ msgstr ""
 msgid "Strength"
 msgstr ""
 
-# Survey activity page label
+# User login failure message
 #: interface
-msgid "Information"
+msgid "Incorrect password gor email"
 msgstr ""
 
-# Survey activity page divider message
-#: interface
-msgid "Projects"
-msgstr ""
-
-# Survey activity page message
-#: interface
-msgid "Incorrect password or email"
-msgstr ""
-
-# Survey activity page message
-#: interface
-msgid "Is this survey part of a <1>project</1>?"
-msgstr ""
-
-# Survey activity page message
+# Offline message
 #: interface
 msgid "Sorry, looks like you're offline."
-msgstr ""
-
-# Survey activity page message
-#: interface
-msgid "Pull the page down to refresh the list of projects."
-msgstr ""
-
-#  Survey activity page message
-#: interface
-msgid ""
-"To see more information about a project, swipe the project entry to the "
-"right and tap on the link."
-msgstr ""
-
-# Survey activity page message
-#: interface
-msgid "My past projects"
-msgstr ""
-
-# Survey activity page message
-#: interface
-msgid "Your selected country does not have any projects."
 msgstr ""
 
 # Photo picker content

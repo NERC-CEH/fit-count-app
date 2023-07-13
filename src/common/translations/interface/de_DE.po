@@ -1662,55 +1662,15 @@ msgstr ""
 msgid "Strength"
 msgstr "Stärke"
 
-# Survey activity page label
+# User login failure message
 #: interface
-msgid "Information"
-msgstr "Information"
+msgid "Incorrect password gor email"
+msgstr ""
 
-# Survey activity page divider message
-#: interface
-msgid "Projects"
-msgstr "Projekte"
-
-# Survey activity page message
-#: interface
-msgid "Incorrect password or email"
-msgstr "Falsches Passwort oder Email"
-
-# Survey activity page message
-#: interface
-msgid "Is this survey part of a <1>project</1>?"
-msgstr "Ist diese Zählung Teil eines <1>Projektes</1>?"
-
-# Survey activity page message
+# Offline message
 #: interface
 msgid "Sorry, looks like you're offline."
 msgstr "Sieht so aus, als wärst du offline"
-
-# Survey activity page message
-#: interface
-msgid "Pull the page down to refresh the list of projects."
-msgstr ""
-"Zieh die Seite nach unten, um die Liste der Projekte zu aktualisieren."
-
-#  Survey activity page message
-#: interface
-msgid ""
-"To see more information about a project, swipe the project entry to the "
-"right and tap on the link."
-msgstr ""
-"Um weitere Informationen zu einem Projekt zu erhalten, streiche den "
-"Projekteintrag nach rechts und tippe auf den Link."
-
-# Survey activity page message
-#: interface
-msgid "My past projects"
-msgstr "Meine vergangenen Projekte"
-
-# Survey activity page message
-#: interface
-msgid "Your selected country does not have any projects."
-msgstr "In dem von Dir gewählten Land gibt es keine Projekte."
 
 # Photo picker content
 #: interface

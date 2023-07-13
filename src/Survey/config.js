@@ -200,7 +200,7 @@ const survey = {
   id: 641,
   name: 'survey',
 
-  SURVEY_STEP_COUNT: 11,
+  SURVEY_STEP_COUNT: 10,
 
   DEFAULT_SURVEY_TIME: isProd ? DEFAULT_SURVEY_TIME : DEV_SURVEY_TIME,
 

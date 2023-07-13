@@ -3,6 +3,7 @@ import { observer } from 'mobx-react';
 import { Page, Attr, Main, InfoMessage } from '@flumens';
 import Sample from 'models/sample';
 import { informationCircleOutline } from 'ionicons/icons';
+import FinishFooter from 'Survey/Components/FinishFooter';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import './styles.scss';
@@ -21,6 +22,15 @@ const WeatherWind: FC<Props> = ({ sample }) => {
   const surveyConfig = sample.getSurvey();
   const { attrProps } = surveyConfig.attrs['weather-wind'].pageProps;
 
+  const recordActivities = sample.shouldUseActivities();
+
+  let footer;
+  if (recordActivities) {
+    footer = isValueValid() && <Footer link={NEXT_PAGE} />;
+  } else {
+    footer = <FinishFooter sample={sample} />;
+  }
+
   return (
     <Page id="survey-weather-wind-page">
       <Header
@@ -37,7 +47,7 @@ const WeatherWind: FC<Props> = ({ sample }) => {
         <Attr attr="weather-wind" model={sample} {...attrProps} />
       </Main>
 
-      {isValueValid() && <Footer link={NEXT_PAGE} />}
+      {footer}
     </Page>
   );
 };

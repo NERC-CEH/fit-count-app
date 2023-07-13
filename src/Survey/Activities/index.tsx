@@ -1,4 +1,4 @@
-import { FC, useState, useEffect, useContext } from 'react';
+import { FC, useEffect } from 'react';
 import { Trans as T } from 'react-i18next';
 import { observer } from 'mobx-react';
 import {
@@ -13,7 +13,7 @@ import {
 } from '@flumens';
 import appModel, { Activity } from 'models/app';
 import userModel, { useUserStatusCheck } from 'models/user';
-import Sample, { useValidateCheck } from 'models/sample';
+import Sample from 'models/sample';
 import {
   IonItem,
   IonIcon,
@@ -27,13 +27,11 @@ import {
   IonItemOptions,
   IonItemOption,
   IonItemDivider,
-  NavContext,
 } from '@ionic/react';
 import { informationCircleOutline, openOutline } from 'ionicons/icons';
+import FinishFooter from 'Survey/Components/FinishFooter';
 import helpIcon from './images/helpIcon.jpg';
-import ThankYouAlert from './ThankYouAlert';
 import Header from '../Components/Header';
-import Footer from '../Components/Footer';
 import unPinIcon from './unpinIcon.svg';
 import './styles.scss';
 
@@ -44,13 +42,9 @@ type Props = {
 };
 
 const ActivityController: FC<Props> = ({ sample }) => {
-  const { navigate } = useContext(NavContext);
   const toast = useToast();
   const loader = useLoader();
   const checkUserStatus = useUserStatusCheck();
-  const checkSampleStatus = useValidateCheck(sample);
-
-  const [showThanks, setShowThanks] = useState(false);
 
   const fetchedActivities = Array.isArray(appModel.attrs.activities);
   const activities = fetchedActivities ? appModel.attrs.activities! : [];
@@ -68,39 +62,6 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
     appModel.attrs.pastActivities = uniquePastActivitiesIds;
     appModel.save();
-  };
-
-  const _processDraft = async () => {
-    appModel.attrs['draftId:survey'] = '';
-    await appModel.save();
-
-    // eslint-disable-next-line no-param-reassign
-    sample.metadata.saved = true;
-    sample.save();
-  };
-
-  const onFinish = async () => {
-    setPastActivity();
-
-    if (!sample.metadata.saved) {
-      await _processDraft();
-    }
-
-    setShowThanks(true);
-  };
-
-  const goHome = () => navigate('/home/surveys', 'root');
-
-  const uploadSurvey = async () => {
-    const isUserOK = await checkUserStatus();
-    if (!isUserOK) return;
-
-    const isValid = checkSampleStatus();
-    if (!isValid) return;
-
-    sample.upload().catch(toast.error);
-
-    goHome();
   };
 
   const fetchActivitiesForFirstTime = () => {
@@ -145,8 +106,17 @@ const ActivityController: FC<Props> = ({ sample }) => {
   };
 
   const onChange = (e: any) => {
+    const newValue = e.detail.value;
+
+    if (!newValue) {
+      // eslint-disable-next-line no-param-reassign
+      sample.attrs.activity = undefined;
+      sample.save();
+      return;
+    }
+
     const selectedActivity = activities.find(
-      (activity: Activity) => activity.id === e.detail.value
+      (activity: Activity) => activity.id === newValue
     );
 
     // eslint-disable-next-line no-param-reassign
@@ -192,7 +162,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
               </IonItemOption>
             </IonItemOptions>
           )}
-          <IonItem className="radio-input-default-option">
+          <IonItem>
             <IonLabel>{name}</IonLabel>
             <IonRadio value={id} />
           </IonItem>
@@ -226,12 +196,22 @@ const ActivityController: FC<Props> = ({ sample }) => {
       );
     }
 
+    const defaultEmptySelection = (
+      <IonItemSliding>
+        <IonItem className="radio-input-default-option">
+          <IonLabel>
+            <T>Not linked to any project</T>
+          </IonLabel>
+          <IonRadio value="" />
+        </IonItem>
+      </IonItemSliding>
+    );
+
     return (
       <IonList lines="full" className="radio-input-attr">
         <IonRadioGroup
-          allowEmptySelection
           onIonChange={onChange}
-          value={sample.attrs.activity?.id}
+          value={sample.attrs.activity?.id || ''}
         >
           {!!favouriteActivities.length && (
             <>
@@ -252,6 +232,9 @@ const ActivityController: FC<Props> = ({ sample }) => {
               </div>
             )}
           </IonItemDivider>
+
+          {defaultEmptySelection}
+
           {getActivityEntries(remainingActivities, false)}
         </IonRadioGroup>
       </IonList>
@@ -273,19 +256,52 @@ const ActivityController: FC<Props> = ({ sample }) => {
           skipTranslation
         >
           <T>
-            Is this survey part of a <b>project</b>?
+            If you count has been done as part of a project please select the
+            project from the list below, otherwise select “Not linked to any
+            project”.
+          </T>
+          <br />
+          <br />
+          <T>
+            <i>
+              Note that if you link your count to a project, your count results
+              (including your name and the location of the count) will be made
+              available to that project.
+            </i>
           </T>
           <InfoButton label="Information" header="Info" skipTranslation>
             <p>
-              <T>Pull the page down to refresh the list of projects.</T>
+              <T>
+                To update the list of available projects, close this help text
+                then swipe down on the project page to refresh the list of
+                projects.
+              </T>
             </p>
             <p>
               <T>
-                To see more information about a project, swipe the project entry
-                to the right and tap on the link.
+                If your count is being done as part of one of these projects,
+                please tap to make the link.
               </T>
             </p>
-
+            <p>
+              <T>
+                If your count is not part of a project just tap on “not linked
+                to any project”.
+              </T>
+            </p>
+            <p>
+              <T>
+                Your choice will be at the top of the list for any subsequent
+                counts, but can be changed at any time.
+              </T>
+            </p>
+            <p>
+              <T>
+                To see more information about each project, swipe the project
+                name to the right and tap on the link (this will open a web page
+                in your phone’s browser).
+              </T>
+            </p>
             <img src={helpIcon} className="helpIcon" />
           </InfoButton>
         </InfoMessage>
@@ -297,15 +313,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
         {getActivitiesList()}
       </Main>
 
-      {showThanks && (
-        <ThankYouAlert
-          sample={sample}
-          uploadSurvey={uploadSurvey}
-          goHome={goHome}
-        />
-      )}
-
-      <Footer title="Save my count" onClick={onFinish} />
+      <FinishFooter sample={sample} setPastActivity={setPastActivity} />
     </Page>
   );
 };

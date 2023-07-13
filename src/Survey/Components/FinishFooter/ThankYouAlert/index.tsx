@@ -7,7 +7,7 @@ import { useDisableBackButton } from '@flumens';
 import { IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { checkmarkOutline } from 'ionicons/icons';
 import surveyStatistics from './surveyStatistics.json';
-import CustomAlert from '../Components/CustomAlert';
+import CustomAlert from '../../CustomAlert';
 import './styles.scss';
 
 type Props = {
@@ -45,7 +45,7 @@ const ThankYouAlert: FC<Props> = ({ sample, uploadSurvey, goHome }) => {
   const averageInsectCountForThisMonth = getAverageInsectCount(month);
 
   return (
-    <CustomAlert>
+    <CustomAlert className="thank-you-alert">
       <div className="center">
         <IonIcon icon={checkmarkOutline} />
       </div>
