@@ -54,6 +54,12 @@ const countries = [
     value: 'CL',
     warehouseId: 18973,
   },
+  {
+    flag: PT,
+    label: 'Portugal',
+    value: 'PT',
+    warehouseId: 21813,
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
@@ -71,12 +77,6 @@ if (isDemo) {
         label: 'Argentina',
         value: 'AR',
         warehouseId: 18969,
-      },
-      {
-        flag: PT,
-        label: 'Portugal',
-        value: 'PT',
-        warehouseId: -1,
       },
     ]
   );

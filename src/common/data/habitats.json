@@ -313,14 +313,17 @@
     "SE": true
   },
   {
+    "warehouseId": 21815,
     "value": "Balcony and small porches",
     "PT": true
   },
   {
+    "warehouseId": 21816,
     "value": "Dune systems",
     "PT": true
   },
   {
+    "warehouseId": 21817,
     "value": "Montado (Low density trees)",
     "PT": true
   }

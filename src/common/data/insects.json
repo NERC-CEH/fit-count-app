@@ -234,21 +234,25 @@
   },
   {
     "id": "smallwildbees",
+    "warehouseId": 617395,
     "name": "Small wildbees (< 10mm)",
     "PT": true
   },
   {
     "id": "bigwildbees",
+    "warehouseId": 617396,
     "name": "Big wildbees (=> 10mm)",
     "PT": true
   },
   {
     "id": "butterflies",
+    "warehouseId": 617397,
     "name": "Butterflies",
     "PT": true
   },
   {
     "id": "moths",
+    "warehouseId": 617398,
     "name": "Moths",
     "PT": true
   }

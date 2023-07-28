@@ -163,7 +163,7 @@
   },
   {
     "id": "broomsAndgorses",
-    "warehouseId": -1,
+    "warehouseId": 21823,
     "type": "Individual Flower",
     "name": "Brooms and gorses",
     "scientificName": "Cytisus spp./Ulex spp./Genista spp.",
@@ -319,6 +319,7 @@
   },
   {
     "id": "crucifers",
+    "warehouseId": 21818,
     "type": "Individual Flower",
     "name": "Crucifers",
     "scientificName": "Diplotaxis spp./Brassica spp./Raphanus spp. ",
@@ -366,6 +367,7 @@
   },
   {
     "id": "echium",
+    "warehouseId": 21819,
     "type": "Individual Flower",
     "name": "Echium",
     "scientificName": "Echium spp.",
@@ -391,6 +393,7 @@
   },
   {
     "id": "fruitAndhawthorn",
+    "warehouseId": 21820,
     "type": "Individual Flower",
     "name": "Fruit trees and Hawthorn",
     "scientificName": "Prunus spp./ Crataegus monogyna",
@@ -585,6 +588,7 @@
   },
   {
     "id": "mallows",
+    "warehouseId": 21821,
     "type": "Individual Flower",
     "name": "Mallows",
     "scientificName": "Malva spp.",
@@ -608,6 +612,7 @@
   },
   {
     "id": "mintAndthyme",
+    "warehouseId": 21822,
     "type": "Spike",
     "name": "Mint and Thyme",
     "scientificName": "Mentha spp. ",
@@ -829,7 +834,7 @@
   },
   {
     "id": "umbellifers",
-    "warehouseId": -1,
+    "warehouseId": 21824,
     "type": "Umbel",
     "name": "Umbellifers",
     "scientificName": "Daucus spp./Oenanthe spp./ Conopodium spp. ",
