@@ -6,6 +6,7 @@ const languages = {
   el: 'Eλληνικά',
   pt: { default: 'pt-BR' },
   'pt-BR': 'Português (Brasil)',
+  'pt-PT': 'Português (Portugal)',
   de: 'Deutsch',
   es: { default: 'es-CL' },
   'es-CL': 'Español',
@@ -16,7 +17,6 @@ const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   Object.assign(languages, {
     se: 'Svenska',
-    'pt-PT': 'Português (Portugal)',
   });
 }
 
