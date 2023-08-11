@@ -1,3 +1,7 @@
+# 1.5.1
+
+Fixed a typo.
+
 # 1.5.0
 
 Added Portugal.

@@ -258,7 +258,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
           skipTranslation
         >
           <T>
-            If you count has been done as part of a project please select the
+            If your count has been done as part of a project please select the
             project from the list below, otherwise select “Not linked to any
             project”.
           </T>
