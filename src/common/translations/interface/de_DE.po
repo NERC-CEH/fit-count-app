@@ -1787,11 +1787,6 @@ msgid "Social wasps"
 msgstr "Soziale Wespen"
 
 # insects name
-#: SE
-msgid "Other wasps"
-msgstr "Andere Wespen"
-
-# insects name
 #: PT
 msgid "Small wildbees (< 10mm)"
 msgstr "Kleine Wildbienen (< 10mm)"
@@ -2517,13 +2512,20 @@ msgid "Long narrow cell in veins at edge of wing"
 msgstr "Lange schmale Zelle in den Adern am Flügelrand"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
 "In UK gibt es nur eine Honigbienenart. Sie nisten in künstlichen "
 "Bienenstöcken, wobei sich gelegentlich Kolonien in der freien Natur bilden."
+
+# photos extraText
+#: SE
+msgid ""
+"There is just one species of honeybee in the Sweden. They nest in artificial"
+" hives,with occasional colonies establishing in the wild."
+msgstr ""
 
 # photos extraText
 #: DE
@@ -2634,13 +2636,20 @@ msgstr ""
 "Die Augen bedecken die Seiten des Kopfes, mit viel Haar zwischen den Augen"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
 "Hummeln haben ein charakteristisches \"brummendes\" Flugmuster und schweben "
 "nicht. In UK gibt es 24 Arten."
+
+# photos extraText
+#: SE
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are about 40 species in Sweden."
+msgstr ""
 
 # photos extraText
 #: HR
@@ -2853,13 +2862,20 @@ msgstr ""
 " kleine Hummelarbeiterinnen"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
 "Solitärbienen fliegen aktiv von Blüte zu Blüte und ruhen manchmal in der "
 "Sonne. Die meisten Arten schweben nicht. In UK gibt es etwa 250 Arten."
+
+# photos extraText
+#: SE
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 270 species in Sweden."
+msgstr ""
 
 # photos extraText
 #: DE
@@ -3435,7 +3451,7 @@ msgstr ""
 "(einige andere Fliegenarten sind deutlich borstig)"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
@@ -3443,6 +3459,13 @@ msgstr ""
 "Schwebfliegen ernähren sich von Nektar und Pollen, sammeln jedoch keinen "
 "Nektar und haben auch keine Pollenhöschen. In UK gibt es etwa 285 Arten von "
 "Schwebfliegen."
+
+# photos extraText
+#: SE
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 350 species of hoverfly in Sweden."
+msgstr ""
 
 # photos extraText
 #: DE

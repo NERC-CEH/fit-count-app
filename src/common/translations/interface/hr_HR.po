@@ -1778,11 +1778,6 @@ msgid "Social wasps"
 msgstr ""
 
 # insects name
-#: SE
-msgid "Other wasps"
-msgstr ""
-
-# insects name
 #: PT
 msgid "Small wildbees (< 10mm)"
 msgstr ""
@@ -2508,10 +2503,17 @@ msgid "Long narrow cell in veins at edge of wing"
 msgstr "Duguljasta uska stanica na rubu krila"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
+msgstr ""
+
+# photos extraText
+#: SE
+msgid ""
+"There is just one species of honeybee in the Sweden. They nest in artificial"
+" hives,with occasional colonies establishing in the wild."
 msgstr ""
 
 # photos extraText
@@ -2617,10 +2619,17 @@ msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr "Oči pokrivaju bočne strane glave, područje između očiju je dlakavo"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
+msgstr ""
+
+# photos extraText
+#: SE
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are about 40 species in Sweden."
 msgstr ""
 
 # photos extraText
@@ -2809,10 +2818,17 @@ msgstr ""
 "Uglavnom manje od matica bumbara, iako su naše najveće solitarne pčele veće"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
+msgstr ""
+
+# photos extraText
+#: SE
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 270 species in Sweden."
 msgstr ""
 
 # photos extraText
@@ -3323,10 +3339,17 @@ msgstr ""
 "čekinjaste)"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
+msgstr ""
+
+# photos extraText
+#: SE
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 350 species of hoverfly in Sweden."
 msgstr ""
 
 # photos extraText

@@ -9,7 +9,18 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "UK": true,
+    "UK": true
+  },
+  {
+    "id": "honeybees",
+    "pictureId": 1,
+    "intro_text": "Honeybees are larger than most (not all) solitary bees, and smaller than most bumblebees. ",
+    "caption_1": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_2": "Eyes covering the sides of the head",
+    "caption_3": "Hind legs broad and flattened",
+    "caption_4": "Abdomen can vary from mostly dark to mostly orange",
+    "caption_5": "Long narrow cell in veins at edge of wing",
+    "extraText": "There is just one species of honeybee in the Sweden. They nest in artificial hives,with occasional colonies establishing in the wild.",
     "SE": true
   },
   {
@@ -115,7 +126,18 @@
     "caption_4": "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over",
     "caption_5": "Eyes cover the sides of the head, with lots of hair between the eyes",
     "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK.",
-    "UK": true,
+    "UK": true
+  },
+  {
+    "id": "bumblebees",
+    "pictureId": 1,
+    "intro_text": "Bumblebees are very rounded and furry bees. The queens are among our largest bees; workers can be quite small, but are larger than most solitary bees.",
+    "caption_1": "Very hairy / fluffy bees",
+    "caption_2": "Rounded, almost globular in shape, often have tail ‘tucked under’ when visiting flowers",
+    "caption_3": "Long thin antennae, often angled to form an ‘elbow’ shape",
+    "caption_4": "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over",
+    "caption_5": "Eyes cover the sides of the head, with lots of hair between the eyes",
+    "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are about 40 species in Sweden.",
     "SE": true
   },
   {
@@ -253,7 +275,18 @@
     "caption_4": "Long antennae, often held straight out in front",
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
     "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK.",
-    "UK": true,
+    "UK": true
+  },
+  {
+    "id": "solitaryBees",
+    "pictureId": 1,
+    "intro_text": "Solitary bees are less rounded than bumblebees, and most are smaller than both bumblebees and honeybees. ",
+    "caption_1": "Usually quite elongate in shape (but there is lots of variety)",
+    "caption_2": "Usually hairy, but often less densely covered in hairs than bumblebees",
+    "caption_3": "Colours usually more subdued and less contrasting than bumblebees",
+    "caption_4": "Long antennae, often held straight out in front",
+    "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
+    "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 270 species in Sweden.",
     "SE": true
   },
   {
@@ -542,7 +575,18 @@
     "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
     "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
     "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK.",
-    "UK": true,
+    "UK": true
+  },
+  {
+    "id": "hoverflies",
+    "pictureId": 1,
+    "intro_text": "Hoverflies are very active and agile flyers, and are frequently seen hovering, as you would expect from their name. ",
+    "caption_1": "Large eyes, covering most of the head in males (as shown above) or with a small gap between the eyes at the top of the head in females",
+    "caption_2": "Most hoverflies have much shorter antennae than bees and wasps",
+    "caption_3": "In the wings there is a ‘false margin’ wing vein, running more-or-less parallel to the true edge of the wing",
+    "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
+    "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
+    "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 350 species of hoverfly in Sweden.",
     "SE": true
   },
   {

@@ -226,13 +226,6 @@
     "SE": true
   },
   {
-    "id": "otherWasps",
-    "warehouseId": -1,
-    "sort": 0,
-    "name": "Other wasps",
-    "SE": true
-  },
-  {
     "id": "smallwildbees",
     "warehouseId": 617395,
     "name": "Small wildbees (< 10mm)",

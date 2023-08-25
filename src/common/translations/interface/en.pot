@@ -1758,11 +1758,6 @@ msgid "Social wasps"
 msgstr "Social wasps"
 
 # insects name
-#: SE
-msgid "Other wasps"
-msgstr "Other wasps"
-
-# insects name
 #: PT
 msgid "Small wildbees (< 10mm)"
 msgstr "Small wildbees (< 10mm)"
@@ -2483,9 +2478,14 @@ msgid "Long narrow cell in veins at edge of wing"
 msgstr "Long narrow cell in veins at edge of wing"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild."
 msgstr "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild."
+
+# photos extraText
+#: SE
+msgid "There is just one species of honeybee in the Sweden. They nest in artificial hives,with occasional colonies establishing in the wild."
+msgstr "There is just one species of honeybee in the Sweden. They nest in artificial hives,with occasional colonies establishing in the wild."
 
 # photos extraText
 #: DE
@@ -2553,9 +2553,14 @@ msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr "Eyes cover the sides of the head, with lots of hair between the eyes"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK."
 msgstr "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 24 species in the UK."
+
+# photos extraText
+#: SE
+msgid "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are about 40 species in Sweden."
+msgstr "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are about 40 species in Sweden."
 
 # photos extraText
 #: HR
@@ -2698,9 +2703,14 @@ msgid "Smaller than queen bumblebees, but the largest solitaries are bigger than
 msgstr "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 250 species in the UK."
+
+# photos extraText
+#: SE
+msgid "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 270 species in Sweden."
+msgstr "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 270 species in Sweden."
 
 # photos extraText
 #: DE
@@ -3048,9 +3058,14 @@ msgid "Hoverflies are not usually as hairy as bees (but there are some exception
 msgstr "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK."
 msgstr "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK."
+
+# photos extraText
+#: SE
+msgid "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 350 species of hoverfly in Sweden."
+msgstr "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 350 species of hoverfly in Sweden."
 
 # photos extraText
 #: DE

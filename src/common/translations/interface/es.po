@@ -1,35 +1,36 @@
 # 
 # Translators:
-# Vilius Stankaitis <vilius@flumens.io>, 2021
-# idiom : Welsh translation & language services <post@idiom.cymru>, 2021
+# Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
 # Karolis, 2022
+# Giselle Muschett <giselle.muschett@pucv.cl>, 2022
+# Eduardo E. Zattara <ezattara@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2022\n"
-"Language-Team: Welsh (https://app.transifex.com/ceh/teams/116172/cy/)\n"
+"Last-Translator: Eduardo E. Zattara <ezattara@gmail.com>, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cy\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Generator: POEditor.com\n"
 
 # Button title
 #: interface
 msgid "Back"
-msgstr "Nôl"
+msgstr "Atrás"
 
 # App toolbar label
 #: interface
 msgid "Menu"
-msgstr "Dewislen"
+msgstr "Menu"
 
 # App toolbar label
 #: interface
 msgid "About"
-msgstr "Ynghylch"
+msgstr "Acerca de"
 
 # About page content
 #: interface
@@ -37,34 +38,34 @@ msgid ""
 "The Flower-Insect Timed Count (FIT Count) is a 10-minute survey designed to "
 "collect new data on numbers of flower-visiting insects."
 msgstr ""
-"Mae'r Cyfrif Blodau-Pryfed wedi'i Amseru (Cyfrif FIT) yn arolwg 10 munud "
-"sydd wedi'i ddylunio i gasglu data newydd ar niferoedd pryfed sy'n ymweld â "
-"blodau."
+"El recuento de flores e insectos (FIT Count) es un registro de 10 minutos "
+"diseñado para recopilar nuevos datos sobre la cantidad de insectos que "
+"visitan las flores."
 
 # Menu page content
 #: interface
 msgid "Info"
-msgstr "Gwybodaeth"
+msgstr "Información"
 
 # Menu page content
 #: interface
 msgid "Privacy Policy"
-msgstr "Polisi Preifatrwydd"
+msgstr "Política de privacidad"
 
 # Menu page content
 #: interface
 msgid "Credits"
-msgstr "Cydnabyddiaeth"
+msgstr "Créditos"
 
 # Menu page content
 #: interface
 msgid "Settings"
-msgstr "Gosodiadau"
+msgstr "Configuración"
 
 # Menu page content
 #: interface
 msgid "App"
-msgstr ""
+msgstr "Aplicación"
 
 # User account error.
 #: interface
@@ -74,12 +75,12 @@ msgstr ""
 # User account delete in the settings
 #: interface
 msgid "Delete account"
-msgstr ""
+msgstr "Eliminar cuenta"
 
 # User account delete in the settings
 #: interface
 msgid "You can delete your user account from the system."
-msgstr ""
+msgstr "Puede eliminar su cuenta de usuario del sistema."
 
 # User account delete in the settings
 #: interface
@@ -87,77 +88,82 @@ msgid ""
 "This will remove your account on the FIT Count website. You will lose access"
 " to any records that you have previously submitted using the app or website."
 msgstr ""
+"Esta acción eliminará su cuenta en el sitio web de FIT Count. Perderá el "
+"acceso a cualquier registro que haya enviado previamente utilizando la "
+"aplicación o el sitio web."
 
 # User account delete in the settings
 #: interface
 msgid "Account delete"
-msgstr ""
+msgstr "Eliminar cuenta"
 
 # User account delete in the settings
 #: interface
 msgid "Are you sure you want to delete your account?"
-msgstr ""
+msgstr "Está seguro que quiere eliminar su cuenta?"
 
 # Menu page content
 #: interface
 msgid "Cymraeg"
-msgstr "Cymraeg"
+msgstr "Galés"
 
 # Menu page content
 #: interface
 msgid "Language"
-msgstr "Iaith"
+msgstr "idioma"
 
 # Menu page content
 #: interface
 msgid "Country"
-msgstr "Gwlad"
+msgstr "País"
 
 # Menu page content
 #: interface
 msgid "Share App Analytics"
-msgstr "Rhannu Data Dadansoddi'r Ap"
+msgstr "Compartir análisis de aplicaciones"
 
 # Menu page content
 #: interface
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
-"Rhannwch ddata'r ap am chwalfeydd i'n helpu i wneud yr ap yn fwy dibynadwy."
+"Comparta los datos de fallo de la aplicación para que podamos hacerla más "
+"confiable."
 
 # Credits page content
 #: interface
 msgid "We are grateful to all the people who helped to create this app:"
-msgstr "Rydyn ni'n ddiolchgar i bawb a helpodd i greu'r ap hwn:"
+msgstr ""
+"Agradecemos a todas las personas que ayudaron a crear esta aplicación:"
 
 # Credits page content
 #: interface
 msgid "App design concepts"
-msgstr ""
+msgstr "Conceptos de diseños de la aplicación"
 
 # Onboarding Page button label
 #: interface
 msgid "Got it!"
-msgstr "Deall!"
+msgstr "Entendido!"
 
 # ID Guide toolbar label
 #: interface
 msgid "ID Guide"
-msgstr "Canllaw Adnabod"
+msgstr "Guía de Identificación"
 
 # ID Guide segment label
 #: interface
 msgid "Insect Groups"
-msgstr "Grwpiau Pryfed"
+msgstr "Grupos de insectos"
 
 # ID Guide segment label
 #: interface
 msgid "Flowers"
-msgstr "Blodau"
+msgstr "Flores"
 
 # Country page content
 #: interface
 msgid "Argentina"
-msgstr "Yr Ariannin"
+msgstr "Argentina"
 
 # Country page content
 #: interface
@@ -172,22 +178,22 @@ msgstr "Chile"
 # Country page content
 #: interface
 msgid "Cyprus"
-msgstr "Cyprus"
+msgstr "Chipre"
 
 # Country page content
 #: interface
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 # Country page content
 #: interface
 msgid "United Kingdom"
-msgstr "Y Deyrnas Unedig"
+msgstr "Reino Unido"
 
 # Country page content
 #: interface
 msgid "Sweden"
-msgstr ""
+msgstr "Suecia"
 
 # Country page content
 #: interface
@@ -202,56 +208,55 @@ msgstr ""
 # Home page toolbar label
 #: interface
 msgid "Home"
-msgstr "Hafan"
+msgstr "Inicio"
 
 # Home page button label
 #: interface
 msgid "Start Survey"
-msgstr "Dechrau'r Arolwg"
+msgstr "Comenzar registro"
 
 # Start survey alert message
 #: interface
 msgid "Discard"
-msgstr "Diddymu"
+msgstr "Descartar"
 
 # Start survey alert button label
 #: interface
 msgid "Continue"
-msgstr "Parhau"
+msgstr "Continuar"
 
 # Start survey alert button label
 #: interface
 msgid "Draft"
-msgstr "Drafft"
+msgstr "Borrador"
 
 # Start survey alert button message
 #: interface
 msgid "Previous survey draft exists, would you like to continue it?"
-msgstr "Mae drafft blaenorol o'r arolwg yn bodoli. Hoffech chi barhau ag ef?"
+msgstr "Existe un borrador del registro anterior, ¿le gustaría continuarlo?"
 
 # Survey content
 #: interface
 msgid "Use the map to zoom in and tap on your <1>location</1>."
-msgstr ""
-"Defnyddiwch y map i weld yn agosach a thapiwch ar eich <1>lleoliad</1>."
+msgstr "Use el mapa para acercar y tocar su <1>localización</1>."
 
 # Survey content
 #: interface
 msgid "Cancel"
-msgstr "Canslo"
+msgstr "Cancelar"
 
 # Survey content
 #: interface
 msgid "Delete Survey"
-msgstr "Dileu'r Arolwg"
+msgstr "Eliminar registro"
 
 # Survey content
 #: interface
 msgid ""
 "Warning - This will discard the survey information you have entered so far."
 msgstr ""
-"Rhybudd - Bydd hyn yn diddymu'r wybodaeth rydych chi wedi'i rhoi yn yr "
-"arolwg hyd yma."
+"Advertencia: esto descartará la información del registro que ha ingresado "
+"hasta ahora."
 
 # Survey Location page info message
 #: interface
@@ -268,22 +273,22 @@ msgid ""
 "results will be visible to others at the 1 km square level via the UKPoMS "
 "website.</p></3>"
 msgstr ""
-"Galluogwch GPS er mwyn gosod eich lleoliad, neu defnyddiwch y map i weld yn "
-"agosach a thapiwch ar eich <1>lleoliad</1>.<3><p>Gall eich lleoliad fod "
-"unrhyw le ble mae blodau i ddenu pryfed peillio, ble mae gennych ganiatâd i "
-"fod, a ble mae'n ddiogel mynd iddo.</p><p>Mae gardd neu barc, fferm neu "
-"warchodfa natur i gyd yn lleoliadau da iawn ar gyfer Cyfrifon "
-"FIT.</p><p>Chwyddwch y map i weld y man sy'n cyfateb orau i'ch lleoliad "
-"chi.</p><p>Sicrhewch bod y GPS ymlaen a'ch bod wedi cael pob caniatâd. Os "
-"ydych chi'n gwneud Cyfrif FIT all-lein neu heb gysylltiad rhwydwaith, fydd "
-"yr ap ddim yn dod o hyd i'ch lleoliad ar y map, ond dylai'r GPS gofnodi hyn "
-"i'w lwytho i fyny nes ymlaen. </p><p>Bydd pobl eraill yn gallu gweld "
-"canlyniadau eich cyfrif ar y lefel 1 km sgwâr drwy wefan UKPoMS.</p></3>"
+"Habilite su GPS para establecer su ubicación, o use el mapa para acercar y "
+"tocar su <1>ubicación</1>.<3><p>Su ubicación puede ser cualquier lugar donde"
+" haya flores para atraer insectos polinizadores, donde tenga permiso para "
+"estar y donde sea seguro ir. </p><p>Un jardín o un parque, una granja o una "
+"reserva natural son lugares excelentes para FIT Counts.</p><p>Acerca el zoom"
+" para encontrar el lugar que mejor se adapte a tu ubicación.</p><p>Asegúrate"
+" de tener el GPS encendido y los permisos otorgados. Si está realizando un "
+"recuento FIT sin conexión o sin una conexión de red, la aplicación no "
+"encontrará su ubicación en el mapa, pero su GPS debería registrarlo para "
+"cargarlo más tarde.</p><p>Los resultados de su recuento serán visibles para "
+"otros en 1 km cuadrado a través del sitio web de UKPoMS</p></3>"
 
 # Survey Location
 #: interface
 msgid "missing"
-msgstr ""
+msgstr "no encontrado"
 
 # Survey Location
 #: interface
@@ -291,56 +296,59 @@ msgid ""
 "Looks like you're offline. The map view is only available with an internet "
 "connection. You can still use the GPS to set your current survey location."
 msgstr ""
+"Parece que no estás conectado a la red. La vista de mapa sólo está "
+"disponible con una conexión a Internet. Puedes usar el GPS para definir la "
+"localización de tu observación actual ."
 
 # Survey Location
 #: interface
 msgid "Current survey location: <1>{{location}}</1>"
-msgstr ""
+msgstr "Localización del registro actual: <1>{{location}}</1>"
 
 # Survey Location
 #: interface
 msgid "Refresh"
-msgstr ""
+msgstr "Actualizar"
 
 # Survey Location
 #: interface
 msgid "Skip"
-msgstr ""
+msgstr "Saltear"
 
 # Survey Location
 #: interface
 msgid "Please set a survey location."
-msgstr ""
+msgstr "Por favor, define la localización del registro."
 
 # Survey Location alert messag
 #: interface
 msgid "Please select a more accurate location"
-msgstr "Dewiswch leoliad mwy manwl"
+msgstr "Por favor, seleccione una ubicación más precisa"
 
 # Survey Location Name
 #: interface
 msgid "Enter your survey location name."
-msgstr ""
+msgstr "Ingresa el nombre de la localización de tu registro."
 
 # Survey Location Name
 #: interface
 msgid "Location name"
-msgstr ""
+msgstr "Nombre de la localización"
 
 # Survey Location Name
 #: interface
 msgid "Site name eg nearby village"
-msgstr ""
+msgstr "Nombre del lugar (e.g., población cercana)"
 
 # Survey content
 #: interface
 msgid "Next"
-msgstr "Nesaf"
+msgstr "Siguiente"
 
 # Survey content
 #: interface
 msgid "of"
-msgstr "o"
+msgstr "de"
 
 # Survey habitat info message
 #: interface
@@ -350,10 +358,10 @@ msgid ""
 "listed here, please select “Other” and type in a short description of the "
 "habitat.</p></3>"
 msgstr ""
-"Dewiswch un <1>cynefin</1> sy'n cyfateb orau.<3><p>Dewiswch y cynefin sy'n "
-"disgrifio orau y llain 50x50 cm a ddewiswyd ar gyfer eich cyfrif "
-"chi.</p><p>Os nad yw wedi'i restru yma, dewiswch “Arall” a theipio "
-"disgrifiad byr o'r cynefin.</p></3>"
+"Seleccione un <1>hábitat</1> que mejor se ajuste.<3><p>Seleccione el hábitat"
+" que mejor describe el parche de 50x50 cm elegido para tu recuento.</p><p>Si"
+" no aparece aquí, seleccione \"Otro\" y escriba una breve descripción del "
+"hábitat.</p></3>"
 
 # Survey habitat page other placeholder text
 #: interface
@@ -361,18 +369,18 @@ msgid ""
 "Please type in the name of the habitat you have chosen then go back to the "
 "habitat page"
 msgstr ""
-"Teipiwch enw'r cynefin rydych wedi'i ddewis yna ewch yn ôl i dudalen y "
-"cynefin"
+"Escriba el nombre del hábitat que ha elegido y vuelva a la página del "
+"hábitat"
 
 # Survey habitat page other header label
 #: interface
 msgid "Habitat"
-msgstr "Cynefin"
+msgstr "Hábitat"
 
 # Survey habitat page divider label
 #: interface
 msgid "Other habitat"
-msgstr "Cynefin arall"
+msgstr "Otro hábitat"
 
 # Survey flower-cover info message
 #: interface
@@ -381,64 +389,64 @@ msgid ""
 " how much of your 50×50 cm patch is occupied by the target flowers (but not "
 "by the leaves of the target plant).</p></3>"
 msgstr ""
-"Beth yw cyfradd y <1>blodau targed ar yr wyneb</1> yn eich llain 50x50 "
-"cm?<3><p>Amcangyfrifwch faint o'ch llain 50×50 cm sydd wedi'i orchuddio gan "
-"y blodau targed (ond nid gan ddail y planhigyn targed).</p></3>"
+"¿Cuál es la <1>cobertura de flores</1> objetivo en su parche 50x50 cm "
+"?<3><p>Estime qué parte de su parcela de 50×50 cm está ocupada por las "
+"flores objetivo (pero no por las hojas de la planta objetivo).</p></3>"
 
 # Survey flower-cover info message header
 #: interface
 msgid "Flower Cover"
-msgstr "Blodau ar yr Wyneb"
+msgstr "Cobertura de flores"
 
 # Survey flower-cover radio input
 #: interface
 msgid "Less than half"
-msgstr "Llai na hanner"
+msgstr "Menos de la mitad"
 
 # Survey flower-cover radio input
 #: interface
 msgid "Half of patch"
-msgstr "Hanner y llain"
+msgstr "Mitad del parche"
 
 # Survey flower-cover radio input
 #: interface
 msgid "More than half of patch"
-msgstr "Dros hanner y llain"
+msgstr "Más de la mitad del parche"
 
 # Survey flower-cover radio input
 #: interface
 msgid "Not recorded"
-msgstr "Heb ei gofnodi"
+msgstr "No registrado"
 
 # User registration page
 #: interface
 msgid "Create a free account"
-msgstr "Creu cyfrif am ddim"
+msgstr "Crea una cuenta gratis"
 
 # User registration page
 #: interface
 msgid "Full name"
-msgstr "Enw llawn"
+msgstr "Nombre completo"
 
 # User registration page
 #: interface
 msgid "Email"
-msgstr "E-bost"
+msgstr "Correo electrónico"
 
 # User registration page
 #: interface
 msgid "Password"
-msgstr "Cyfrinair"
+msgstr "Contraseña"
 
 # User registration page
 #: interface
 msgid "How did you hear about FIT Counts?"
-msgstr "Sut wnaethoch chi glywed am Gyfrifon FIT?"
+msgstr "¿Cómo se enteró de FIT Counts?"
 
 # User registration page
 #: interface
 msgid "Your identification experience"
-msgstr "Eich profiad o adnabod"
+msgstr "Tu experiencia en identificación "
 
 # User registration page
 #: interface
@@ -446,23 +454,23 @@ msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
-"Drwy glicio Cofrestru, rydych yn cytuno i'n <2>Polisi Preifatrwydd</2> a'n "
-"<6>Telerau ac Amodau</6>"
+"Al hacer clic en Registrarse, acepta nuestra  <2>Política de privacidad </2>"
+" y <6>Términos y condiciones</6>"
 
 # User registration page
 #: interface
 msgid "Sign Up"
-msgstr "Cofrestru"
+msgstr "Inscribirse"
 
 # User registration page
 #: interface
 msgid "I am already a member"
-msgstr "Rwy'n aelod eisoes"
+msgstr "Ya soy un miembro"
 
 # User registration page
 #: interface
 msgid "Sign In"
-msgstr "Mewngofnodi"
+msgstr "Iniciar sesión"
 
 # User registration page
 #: interface
@@ -470,6 +478,8 @@ msgid ""
 "Looks like your <1>{{email}}</1> email hasn't been verified "
 "yet.<3><0>Refresh</0><1>Resend Email</1></3>"
 msgstr ""
+"Parece que tu correo electrónico <1> {{email}} </1> aún no ha sido "
+"verificado. <3><0>Actualizar</0><1> reenviar correo electrónico</1></3>"
 
 # User registration page
 #: interface
@@ -477,36 +487,39 @@ msgid ""
 "A new verification email was successfully sent now. If you did not receive "
 "the email, then check your Spam or Junk email folders."
 msgstr ""
+"Un nuevo correo electrónico de verificación ha sido enviado con éxito. Si no"
+" ha recibido el correo electrónico, revise sus carpetas de correo no deseado"
+" o spam."
 
 # Country page content
 #: interface
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 # Website link
 #: interface
 msgid "website"
-msgstr ""
+msgstr "sitio web"
 
 # User registration page
 #: interface
 msgid "How did you hear about us?"
-msgstr "Sut wnaethoch chi glywed amdanom ni?"
+msgstr "Cómo escuchastes sobre nosotros?"
 
 # User registration page
 #: interface
 msgid "Identification experience"
-msgstr "Profiad o adnabod"
+msgstr "Experiencia en identificación"
 
 # User registration page
 #: interface
 msgid "Please fill in"
-msgstr "Llenwch"
+msgstr "Por favor rellenalo"
 
 # User registration page
 #: interface
 msgid "I am new to identifying wildlife"
-msgstr "Rwy'n newydd i adnabod bywyd gwyllt"
+msgstr "Soy nueva en la identificación de vida silvestre"
 
 # User registration page
 #: interface
@@ -514,85 +527,92 @@ msgid ""
 "I am familiar with identifying some wildlife groups (e.g. birds or "
 "butterflies) but not most pollinating insects"
 msgstr ""
-"Rwy'n gyfarwydd ag adnabod rhai grwpiau bywyd gwyllt (e.e. adar neu bili-"
-"palod) ond nid y rhan fwyaf o bryfed peillio"
+"Estoy familiarizado con la identificación de algunos grupos de vida "
+"silvestre (por ejemplo, aves o mariposas) pero no con la mayoría de los "
+"insectos polinizadores"
 
 # User registration page
 #: interface
 msgid "I am familiar with recognising the main groups of pollinating insect"
-msgstr "Rwy'n gyfarwydd ag adnabod y prif grwpiau o bryfed peillio"
+msgstr ""
+"Estoy familiarizado con la identificación de algunos grupos de insectos "
+"polinizadores"
 
 # User registration page
 #: interface
 msgid ""
 "I am confident in identifying the commonly-occurring pollinating insects to "
 "species level"
-msgstr "Rwy'n hyderus yn adnabod y rhywogaethau o bryfed peillio cyffredin"
+msgstr ""
+"Estoy seguro de poder identificar los insectos polinizadores más comunes a "
+"nivel de especie"
 
 # User registration page
 #: interface
 msgid "Not stated"
-msgstr "Heb ei ddatgan"
+msgstr "No se indica"
 
 # User registration page
 #: interface
 msgid "Select"
-msgstr "Dewiswch"
+msgstr "Seleccionar"
 
 # User login page
 #: interface
 msgid "Welcome back"
-msgstr "Croeso nôl"
+msgstr "Bienvenido de nuevo"
 
 # User login page
 #: interface
 msgid "Sign in to your account to start"
-msgstr "Mewngofnodwch i'ch cyfrif er mwyn dechrau"
+msgstr "Inicia sesión en tu cuenta para empezar"
 
 # User login page
 #: interface
 msgid "Forgot password?"
-msgstr "Wedi anghofio'ch cyfrinair?"
+msgstr "¿Se te olvidó tu contraseña?"
 
 # User login page
 #: interface
 msgid "email is a required field"
-msgstr "Mae'n rhaid rhoi e-bost"
+msgstr "Correo electrónico es un campo obligatorio"
 
 # User login page
 #: interface
 msgid "password is a required field"
-msgstr "Mae'n rhaid rhoi cyfrinair"
+msgstr " la contraseña es un campo obligatorio"
 
 # User reset page
 #: interface
 msgid "Enter your email address to request a password reset."
-msgstr "Rhowch eich cyfeiriad e-bost i wneud cais i ailosod eich cyfrinair."
+msgstr ""
+"Introduzca su dirección de correo electrónico para solicitar el "
+"restablecimiento de la contraseña."
 
 # User reset page
 #: interface
 msgid "Reset"
-msgstr "Ailosod"
+msgstr "Reiniciar"
 
 # User reset page
 #: interface
 msgid "email must be a valid email"
-msgstr "Rhaid i'r e-bost fod yn un dilys"
+msgstr "el correo electrónico debe ser válido"
 
 # Upload user register form message
 #: interface
 msgid "Please wait..."
-msgstr "Un foment..."
+msgstr "Por favor espere..."
 
 # Successful register alert message
 #: interface
 msgid "OK, got it"
-msgstr "Iawn, deall"
+msgstr "De acuerdo, lo tengo."
 
 # Successful register alert message
 #: interface
 msgid "Welcome aboard"
-msgstr "Croeso!"
+msgstr "Bienvenido a bordo"
 
 # Successful register alert message
 #: interface
@@ -600,78 +620,78 @@ msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
 msgstr ""
-"Cyn dechrau unrhyw arolygon, edrychwch yn eich e-bost a chlicio ar y ddolen "
-"ddilysu."
+"Antes de empezar cualquier conteo, revisa tu correo electrónico y haz clic "
+"en el enlace de verificación."
 
 # Settings page label
 #: interface
 msgid "Logout"
-msgstr "Allgofnodi"
+msgstr "Cerrar sesión"
 
 # Settings page label
 #: interface
 msgid "Login"
-msgstr "Mewngofnodi"
+msgstr "Iniciar sesión"
 
 # Settings page label
 #: interface
 msgid "Register"
-msgstr "Cofrestru"
+msgstr "Registrarse"
 
 # ID guide honeybees species profile
 #: interface
 msgid "Description"
-msgstr "Disgrifiad"
+msgstr "Descripción"
 
 # ID guide honeybees species profile
 #: interface
 msgid "Extra information"
-msgstr "Gwybodaeth ychwanegol"
+msgstr "Información extra"
 
 # My surveys page content
 #: interface
 msgid "My Surveys"
-msgstr "Fy Arolygon"
+msgstr "Mis registros"
 
 # My surveys page content
 #: interface
 msgid "Pending"
-msgstr "I'w cyflwyno"
+msgstr "Pendiente"
 
 # My surveys page content
 #: interface
 msgid "Uploaded"
-msgstr "Wedi'u cyflwyno"
+msgstr "Enviado"
 
 # My surveys page content
 #: interface
 msgid "<0>You have no finished surveys.</0>"
-msgstr "<0>Nid oes arolygon wedi'u cwblhau gyda chi.</0>"
+msgstr "<0>No tiene registros terminados</0>"
 
 # My surveys page content
 #: interface
 msgid "No uploaded surveys"
-msgstr "Dim arolygon wedi'u cyflwyno"
+msgstr "Sin registros enviados"
 
 # Survey species selection page species list
 #: interface
 msgid "<0>Which</0> target flower have you chosen?"
-msgstr "<0>Pa</0> flodyn targed ydych chi wedi'i ddewis?"
+msgstr "<0>¿Qué </0>flor objetivo has elegido?"
 
 # Survey species selection page species list
 #: interface
 msgid "Please add species image"
-msgstr "Rhowch lun o'r rhywogaeth"
+msgstr "Por favor añada foto de la especie"
 
 # Survey species selection page species list
 #: interface
 msgid "No photo has been added.<br/>Press <3></3> to add."
-msgstr "Nid oes llun wedi'i ychwanegu."
+msgstr "Sin fotos añadidas"
 
 # Survey species selection page info message
 #: interface
 msgid "Press <1></1> to add."
-msgstr "Pwyswch <1></1> i ychwanegu."
+msgstr "Pulse <1></1> para añadir"
 
 # Survey species selection page read more message
 #: interface
@@ -685,30 +705,30 @@ msgid ""
 " upload one or two photos of your target flower.</p><p>This allows us to "
 "double-check the flower species used for the counts.</p></3>"
 msgstr ""
-"Pa un o'r <1>blodau</1> targed ydych chi wedi'i ddewis?<3><p>Lle bo modd, "
-"dewiswch lain o flodau o un o'r grwpiau o flodau targed yn y "
-"rhestr.</p><p>Os nad oes yr un o'r rhain ar gael yn eich lleoliad, gallwch "
-"ddewis blodyn arall sy'n denu pryfed a chlicio “Arall”, yna deipio'r "
-"enw.</p><p>Gall eich blodyn targed fod yn tyfu mewn llain sy'n cynnwys dim "
-"ond y math hwnnw o flodyn, neu gymysgedd o wahanol rywogaethau o "
-"flodau.</p><p>Ar gyfer pob Cyfrif FIT, llwythwch un neu ddau o luniau i fyny"
-" o'ch blodyn targed.</p><p>Mae hyn yn caniatáu i ni wirio'r rhywogaethau o "
-"flodau a ddefnyddir ar gyfer y cyfrifon.</p></3>"
+"¿Qué <1>flor </1>objetivo ha elegido?<3><p>Siempre que sea posible, elija un"
+" parche de flores de uno de los grupos de flores objetivo de la "
+"lista.</p><p>Si ninguna de ellas está disponible en su ubicación, puede "
+"elegir otra flor que atraiga a los insectos y seleccionar \"Otra\", y luego "
+"escribir el nombre.</p><p>Su flor objetivo puede estar creciendo en un "
+"parche de la misma flor, o entre diferentes especies de flores.</p><p>Para "
+"cada recuento FIT, cargue una o dos fotos de su flor objetivo.</p><p>Esto "
+"nos permite comprobar de nuevo las especies de flores utilizadas para los "
+"recuentos.</p>"
 
 # Survey species selection page read more header
 #: interface
 msgid "Flower"
-msgstr "Blodyn"
+msgstr "Flor"
 
 # Survey species selection page divider label
 #: interface
 msgid "Please add the name of the flower"
-msgstr "Rhowch enw'r blodyn"
+msgstr "Por favor añada el nombre de la flor"
 
 # Survey species selection page label
 #: interface
 msgid "Other flower name"
-msgstr "Enw arall ar y blodyn"
+msgstr "Otro nombre de la flor"
 
 # Survey species manual entry placeholder
 #: interface
@@ -716,13 +736,13 @@ msgid ""
 "Please type in the name of the target flower you have chosen then go back to"
 " the target flower page"
 msgstr ""
-"Teipiwch enw'r blodyn targed rydych chi wedi'i ddewis yna ewch yn ôl i "
-"dudalen y blodyn targed"
+"Escriba el nombre de la flor objetivo que ha elegido y luego vuelva a la "
+"página de la florobjetivo."
 
 # Survey flower count page divider label
 #: interface
 msgid "Number"
-msgstr "Nifer"
+msgstr "Número"
 
 # Survey flower count page info message
 #: interface
@@ -744,162 +764,164 @@ msgid ""
 "flowers are arranged along a stem, e.g. lavender) – each spike counts as one"
 " unit</3></5></5>"
 msgstr ""
-"Beth yw <1>nifer</1> a <3>math</3> y blodau yn eich llain?<5><p>Gall "
-"cysylltiad cryf fod rhwng nifer y blodau mewn llain a nifer y pryfed a "
-"gofnodir, felly mae'n bwysig rhoi'r wybodaeth hon!</p><p>Dim ond y blodau "
-"sy'n gymharol ffres ac sy'n debygol o ddenu pryfed y dylech chi eu cyfrif – "
-"ni ddylid cyfrif blodau marw na phennau hadau.</p><p>Mae angen cyfrif blodau"
-" mewn gwahanol ffyrdd, yn dibynnu ar eu strwythur.</p><p>Os ydych chi wedi "
-"dewis blodyn targed o'n rhestr, caiff y math o flodyn ei ddangos yn "
-"ddiofyn.</p><p>Os ydych chi wedi dewis blodyn targed “Arall”, cyfrwch fel "
-"hyn:</p><5><0><0>Blodau unigol</0> - mae pob blodyn yn cyfrif fel un "
-"uned</0><1><0>Pennau blodau</0> (lle mae llawer o flodau bychain o fewn pen "
-"blodyn mwy, e.e. dant y llew neu lygad y dydd) – mae pob pen blodau yn "
-"cyfrif fel un uned</1><2><0>Wmbelau</0> (ar gyfer blodau ble mae blodau "
-"bychain wedi'u grwpio mewn ‘wmbelau’, fel ymbarél tu chwith allan, e.e. "
-"efwr) – mae pob wmbel yn cyfrif fel un uned</2><3><0>Pigynnau</0> (lle mae "
-"nifer o flodau bychain wedi'u trefnu ar hyd coesyn, e.e. lafant) – mae pob "
-"pigyn yn cyfrif fel un uned</3></5></5> "
+"¿Cuál es el  número y<3>el tipo</3> de flores de su parche?<5><p> El número "
+"de flores de una parcela puede estar muy relacionado con el número de "
+"visitantes de insectos que se registran, ¡por lo que es importante "
+"proporcionar esta información!</p><p>Cuente sólo las flores que estén "
+"razonablemente frescas y que puedan atraer a los insectos: no deben contarse"
+" las flores con cabezas muertas ni las cabezas de semillas.</p>Las flores "
+"deben contarse de diferentes maneras en función de su estructura.<p>Si ha "
+"elegido una flor de nuestra lista, el tipo de flor se muestra por "
+"defecto.</p><p>Si ha elegido \"Otra\" flor objetivo, "
+"cuente:</p><5><0><0>Flores individuales</0> - cada flor cuenta como una "
+"unidad</0><1><0>Cabezas de flores</0> (cuando hay muchas flores pequeñas "
+"dentro de una cabeza de flor más grande, por ejemplo, diente de león o "
+"margarita). Cada cabeza de flor cuenta como una unidad</1><2><0>Umbelas</0> "
+"(para las flores que tienen pequeñas flores agrupadas en \"umbelas\", como "
+"paraguas de adentro hacia afuera, por ejemplo, la zanahoria silvestre) - "
+"cada umbela cuenta como una unidad</2><3><0>Espigas</0> (donde un número de "
+"pequeñas flores están dispuestas a lo largo de un tallo, por ejemplo, "
+"lavanda) - cada espiga cuenta como una unidad</3></5></5>"
 
 # Survey flower count page info header
 #: interface
 msgid "Flower Count"
-msgstr "Cyfrif Blodau"
+msgstr "Recuento de flores"
 
 # Survey flower count page divider label
 #: interface
 msgid "Type"
-msgstr "Math"
+msgstr "Tipo"
 
 # Survey flower count page content
 #: interface
 msgid "Individual Flower"
-msgstr "Blodyn unigol"
+msgstr "Flor individual"
 
 # Survey flower count page content
 #: interface
 msgid "Head"
-msgstr "Pen blodau"
+msgstr "Cabeza"
 
 # Survey flower count page content
 #: interface
 msgid "Umbel"
-msgstr "Wmbel"
+msgstr "Umbela"
 
 # Survey flower count page content
 #: interface
 msgid "Spike"
-msgstr "Pigyn"
+msgstr "Espiga"
 
 # My surveys page content
 #: interface
 msgid "Today"
-msgstr "Heddiw"
+msgstr "Hoy"
 
 # My surveys page content
 #: interface
 msgid "Record"
-msgstr "Cofnod"
+msgstr "Registro"
 
 # My surveys page content
 #: interface
 msgid "Delete"
-msgstr "Dileu"
+msgstr "Borrar"
 
 # My surveys page content
 #: interface
 msgid "Yesterday"
-msgstr "Ddoe"
+msgstr "Ayer"
 
 # My surveys page content info background message
 #: interface
 msgid "To delete any surveys swipe it to the left."
-msgstr "Llusgwch arolwg i'r chwith i'w ddileu."
+msgstr "Para borrar los registros deslícelo hacia la izquierda."
 
 # My surveys page content info background message button
 #: interface
 msgid "Hide"
-msgstr "Cuddio"
+msgstr "Ocultar"
 
 # My surveys page content info background message
 #: interface
 msgid "You have no finished surveys."
-msgstr "Nid oes arolygon wedi'u cwblhau gyda chi."
+msgstr "No tiene registros terminados"
 
 # Add Photo message
 #: interface
 msgid "Choose a method to upload a photo"
-msgstr "Dewiswch ddull i lwytho llun i fyny"
+msgstr "Elija un método para enviar una foto"
 
 # Add Photo message
 #: interface
 msgid "Gallery"
-msgstr "Oriel"
+msgstr "Galería"
 
 # Add Photo message
 #: interface
 msgid "Camera"
-msgstr "Camera"
+msgstr "Cámara"
 
 # Credits page content
 #: interface
 msgid "Graphics:"
-msgstr "Graffeg:"
+msgstr "Gráficos"
 
 # Credits page content
 #: interface
 msgid "Team members of the following projects"
-msgstr "Aelodau timau'r prosiectau canlynol"
+msgstr "Miembros del grupo de los sigueintes proyectos"
 
 # Credits page content
 #: interface
 msgid "Photos of flowers and insects by:"
-msgstr "Ffotograffau o flodau a phryfed gan:"
+msgstr "Fotos de flores e insectos de: "
 
 # Credits page content
 #: interface
 msgid "Thanks to the following for additional photos"
-msgstr "Diolch i'r canlynol am ffotograffau ychwanegol"
+msgstr "Gracias a los siguientes por las fotos adicionales"
 
 # Credits page content
 #: interface
 msgid "Icons made by <2>Freepik</2> from <6>www.flaticon.com</6>"
-msgstr "Eiconau gan <2>Freepik</2> o <6>www.flaticon.com</6>"
+msgstr "Iconos realizados por <2>Freepik</2> de <6>www.flaticon.com</6>"
 
 # Credits page content
 #: interface
 msgid "App guide illustrations made by"
-msgstr "Darluniadau canllaw'r ap gan"
+msgstr "Las ilustraciones de la guía de la aplicación fueron realizadas por"
 
 # Survey flower page info message
 #: interface
 msgid "Which target <1>flower</1> have you chosen?"
-msgstr "Pa <1>flodyn</1> targed ydych chi wedi'i ddewis?"
+msgstr "¿Qué <1>flor</1> objetivo ha elegido?"
 
 # Survey flower page section divider
 #: interface
 msgid "Photo of your target flower"
-msgstr "Ffotograff o'ch blodyn targed"
+msgstr "Foto de su flor objetivo"
 
 # Survey flower page section divider
 #: interface
 msgid "Target flower chosen"
-msgstr "Blodyn targed a ddewiswyd"
+msgstr "Flor objetivo elegida"
 
 # Survey flower patch page values
 #: interface
 msgid "In a larger patch of the same flower"
-msgstr "Mewn llain mwy o'r un blodyn"
+msgstr "En un parche más grande de la misma flor"
 
 # Survey flower patch page values
 #: interface
 msgid "In a larger patch of many different flowers"
-msgstr "Mewn llain mwy o nifer o wahanol flodau"
+msgstr "En un parche más grande de muchas flores diferentes"
 
 # Survey flower patch page values
 #: interface
 msgid "More or less isolated"
-msgstr "Ar ei ben ei hun fwy neu lai"
+msgstr "Más o menos aislado"
 
 # Survey flower patch "Read more" alert message
 #: interface
@@ -909,106 +931,106 @@ msgid ""
 "insects.</p><p>Please indicate the situation that best describes the area "
 "around your flower patch (roughly within 5 metres).</p></3>"
 msgstr ""
-"Ydy'ch llain 50x50cm chi o <1>flodau targed</1> yn tyfu:<3><p>Gall yr hyn "
-"sy'n amgylchynu llain o flodau effeithio ar ba mor atyniadol ydyw i "
-"bryfed.</p><p>Nodwch y sefyllfa sy'n disgrifio orau yr ardal o amgylch eich "
-"llain blodau chi (o fewn tua 5 metr).</p></3>"
+"¿Está creciendo su parche de 50x50cm de <1>flores objetivo</1> :<3><p>El "
+"entorno de un parche de flores puede afectar a su atractivo para los "
+"insectos.</p><p>Por favor indique la situación que mejor describa la zona "
+"que rodea a su parche de flores (aproximadamente en un radio de 5 "
+"metros).</p></3>"
 
 # Survey flower patch info button label
 #: interface
 msgid "READ MORE"
-msgstr "DARLLEN MWY"
+msgstr "LEER MÁS"
 
 # Survey flower patch "Read more" alert header text
 #: interface
 msgid "Flower patch"
-msgstr "Llain blodau"
+msgstr "Parche de flores"
 
 # Survey flower patch "Read more" alert button text
 #: interface
 msgid "Got it"
-msgstr "Deall"
+msgstr "Entendido"
 
 # Survey weather sky page values
 #: interface
 msgid "All or mostly blue"
-msgstr "I gyd neu'r rhan fwyaf yn las"
+msgstr "Todo o casi todo azul"
 
 # Survey weather sky page values
 #: interface
 msgid "Half blue and half cloud"
-msgstr "Hanner yn las a hanner yn gymylog"
+msgstr "Mitad azul y mitad nuboso"
 
 # Survey weather sky page values
 #: interface
 msgid "All or mostly cloud"
-msgstr "Yn gwbl neu'n bennaf gymylog"
+msgstr "Todo o casi todo nuboso"
 
 # Survey weather shade page values
 #: interface
 msgid "Entirely in sunshine"
-msgstr "Yn gyfan gwbl yn yr haul"
+msgstr "Totalmente en sol"
 
 # Survey weather shade page values
 #: interface
 msgid "Partly in sun and partly shaded"
-msgstr "Rhannol yn yr haul a rhannol yn y cysgod"
+msgstr "Parcialmente en sol y sombra"
 
 # Survey weather shade page values
 #: interface
 msgid "Entirely shaded"
-msgstr "Yn gyfan gwbl yn y cysgod"
+msgstr "Totalmente en sombra"
 
 # Survey weather wind page values
 #: interface
 msgid "Leaves still/moving occasionally"
-msgstr "Y dail yn llonydd/yn symud weithiau"
+msgstr "Hojas quietas/que se mueven ocasionalmente"
 
 # Survey weather wind page values
 #: interface
 msgid "Leaves moving gently all the time"
-msgstr "Y dail yn symud yn ysgafn drwy'r amser"
+msgstr "Las hojas se mueven suavemente todo el tiempo"
 
 # Survey weather wind page values
 #: interface
 msgid "Leaves moving strongly"
-msgstr "Y dail yn symud yn sylweddol"
+msgstr "Las hojas se mueven con fuerza"
 
 # Survey weather wind page button label
 #: interface
 msgid "Save my count"
-msgstr "Cadw fy nghyfrif"
+msgstr "Guardar mi registro"
 
 # Survey insect count page counter button label
 #: interface
 msgid "Paused"
-msgstr "Wedi oedi"
+msgstr "Pausado"
 
 # Survey insect count page counter button label
 #: interface
 msgid "Time's up!"
-msgstr "Amser ar ben!"
+msgstr "¡Se acabó el tiempo!"
 
 # Survey insect count page counter warning message
 #: interface
 msgid "Time expire!"
-msgstr "Amser ar ben!"
+msgstr "¡El tiempo expira!"
 
 # My Records page info message
 #: interface
 msgid "Please do not forget to upload any pending surveys!"
-msgstr ""
-"Peidiwch anghofio llwytho unrhyw arolygon i fyny sydd heb eu cyflwyno eto!"
+msgstr "¡No olvide enviar cualquier registro pendiente!"
 
 # Credit page
 #: interface
 msgid "FIT Count logo"
-msgstr "Logo Cyfrif FIT"
+msgstr "Logo de Registro FIT"
 
 # Toast message after successful login
 #: interface
 msgid "Successfully logged in"
-msgstr "Wedi mewngofnodi'n llwyddiannus"
+msgstr "Se ha conectado con éxito"
 
 # Message when logging out
 #: interface
@@ -1016,6 +1038,8 @@ msgid ""
 "Your pending and uploaded <1>records will not be deleted </1> from this "
 "device."
 msgstr ""
+"Tus <1>registros pendientes y enviados \n"
+"no serán eliminados </1> de este dispositivo."
 
 # Onboarding content
 #: interface
@@ -1023,8 +1047,8 @@ msgid ""
 "<0>Pollinators are important!</0><br/>Help us monitor them with a Flower-"
 "Insect Timed Count"
 msgstr ""
-"<0>Mae peillwyr yn bwysig!</0><br/>Helpwch ni i'w monitro gyda Chyfrif "
-"Blodau-Pryfed wedi'i Amseru"
+"<0>Los polinizadores son importantes!</0> <br/>Ayúdenos a monitorearlos con "
+"un conteo cronometrado de flores e insectos"
 
 # Onboarding content
 #: interface
@@ -1035,11 +1059,11 @@ msgid ""
 "when your ten minutes is up</4><5>Save your count, and upload it to the "
 "website</5></0>"
 msgstr ""
-"<0><0>Arhoswch am dywydd da! </0><1>Dewiswch lain (ardal fechan) o flodau "
-"targed</1><2>Cyfrifwch y blodau yn eich llain</2><3>Cyfrifwch <1>yr holl</1>"
-" bryfed sy'n <3>glanio</3> ar y <6>blodau targed</6></3><4>Bydd yr ap yn "
-"rhoi gwybod i chi pan fydd eich deng munud ar ben</4><5>Arbedwch eich cyfrif"
-" a'i lwytho i fyny i'r wefan</5></0>"
+"<0><0>¡Espere que haga buen tiempo! </0><1>Encuentre un parche de flores "
+"objetivo</1><2>Cuente las flores en su parche</2><3>Cuente <1>todos</1> los "
+"insectos que <3>se posan</3> en las <6>flores objetivo</6></3><4>La "
+"aplicación le avisará cuando se acaben sus diez minutos</4><5>Guarde su "
+"recuento y súbalo al sitio web</5></0>"
 
 # Onboarding content
 #: interface
@@ -1047,33 +1071,33 @@ msgid ""
 "Read our full ‘how-to’ guide, check out insect ID pages, and you’re ready to"
 " get started!"
 msgstr ""
-"Darllenwch ein canllaw arweiniol llawn ar gyfer yr arolwg, edrychwch ar ein "
-"tudalennau adnabod pryfed, ac rydych chi'n barod i fynd!"
+"Lea la guía \"cómo hacerlo\", consulte las páginas de identificación de "
+"insectos y ¡ya está listo para empezar!"
 
 # Onboarding content
 #: interface
 msgid "Let's start the count!"
-msgstr "Ewch ati i gyfrif!"
+msgstr "Empecemos el conteo!"
 
 # User authentication toast message
 #: interface
 msgid "Sorry"
-msgstr "Sori"
+msgstr "Lo siento"
 
 # User authentication toast message
 #: interface
 msgid "The user credentials were incorrect."
-msgstr "Roedd manylion y defnyddiwr yn anghywir."
+msgstr "Las credenciales del usuario eran incorrectas."
 
 # How To page content
 #: interface
 msgid "How To"
-msgstr "Canllaw Cyflym"
+msgstr "Cómo hacerlo"
 
 # How To page content
 #: interface
 msgid "FIT Count quick guide"
-msgstr "Canllaw cyflym i'r Cyfrif FIT"
+msgstr "Guía rápida"
 
 # How To page content
 #: interface
@@ -1081,21 +1105,24 @@ msgid ""
 "FIT Counts take about 10–15 minutes, during which you are asked to count "
 "every insect that lands on the flowers of your chosen target flower species."
 msgstr ""
-"Mae Cyfrifon FIT yn cymryd tua 10-15 munud i'w cwblhau, ac yn ystod yr amser"
-" hwn mae gofyn i chi gyfrif pob pryfyn sy'n glanio ar y blodau a ddewisoch "
-"fel rhywogaeth darged o flodau."
+"Los conteos FIT duran unos 10-15 minutos, durante los cuales se le pide que "
+"cuente todos los insectos que se posan en las flores de la especie de flor "
+"objetivo elegida."
 
 # How To page content
 #: interface
 msgid ""
 "You can complete a FIT Count in good weather between 1 April and 30 "
 "September."
-msgstr "Gallwch wneud Cyfrif FIT mewn tywydd da rhwng 1 Ebrill a 30 Medi."
+msgstr ""
+"Puede realizar un recuento FIT con buen tiempo entre el 11 de septiembre y "
+"el 30 de marzo. "
 
 # How To page content (non-UK)
 #: interface
 msgid "You can complete a FIT Count in good weather at any time of year."
 msgstr ""
+"Puede realizar un conteo FIT con buen tiempo y en cualquier época del año."
 
 # How To page content
 #: interface
@@ -1104,14 +1131,15 @@ msgid ""
 "one of the FIT Count target flowers, but if you can't find one from the list"
 " you can choose a different flower as the target."
 msgstr ""
-"Dewiswch ddim ond un math o flodyn fel blodyn targed - lle bo modd "
-"defnyddiwch un o flodau targed y Cyfrif FIT, ond os na allwch ddod o hyd i "
-"un o'r rhestr, gallwch ddewis blodyn gwahanol fel targed."
+"Elija un solo tipo de flor como objetivo: siempre que sea posible, utilice "
+"una de las flores objetivo del conteo incluidos en la aplicación FIT, pero "
+"si no puede encontrar ninguna de la lista, puede elegir una flor diferente "
+"como objetivo."
 
 # How To page content
 #: interface
 msgid "Mark out a 50 × 50 cm patch containing your target."
-msgstr "Marciwch lain 50 x 50 cm yn cynnwys eich targed."
+msgstr "Marque un parche de 50 × 50 cm que contenga tu objetivo."
 
 # How To page content
 #: interface
@@ -1119,8 +1147,8 @@ msgid ""
 "Count the number of individual flowers for your target species that are "
 "within your patch."
 msgstr ""
-"Cyfrifwch nifer y blodau unigol o'ch rhywogaeth darged sydd o fewn eich "
-"llain chi."
+"Cuente el número de flores individuales de su especie objetivo que hay en su"
+" parche."
 
 # How To page content
 #: interface
@@ -1129,24 +1157,24 @@ msgid ""
 " on the target flowers (ignore other flowers, and do your best to count each"
 " individual insect once only!)."
 msgstr ""
-"Gan ddefnyddio'r amserydd yn yr ap, treuliwch ddeng munud yn cyfrif pob "
-"pryfyn sy'n glanio ar y blodau targed (anwybyddwch flodau eraill, a gwnewch "
-"eich gorau i gyfrif pob un pryfyn unigol unwaith yn unig!)"
+"Utilizando el cronómetro de la aplicación, dedique diez minutos a contar "
+"todos los insectos que se posan en las flores objetivo (ignore las demás "
+"flores y haga todo lo posible por contar cada insecto una sola vez)."
 
 # How To page content
 #: interface
 msgid "Fill in some simple weather details."
-msgstr "Rhowch fanylion syml am y tywydd."
+msgstr "Rellene algunos datos meteorológicos sencillos."
 
 # How To page content
 #: interface
 msgid "Save your count, and upload it to the website."
-msgstr "Arbedwch eich cyfrif a'i lwytho i fyny i'r wefan."
+msgstr "Guarde su conteo y súbalo al sitio web."
 
 # How To page content
 #: interface
 msgid "Further information and guides are available at"
-msgstr "Mae rhagor o wybodaeth a chanllawiau i'w cael yn"
+msgstr "Puede encontrar más información y guías en"
 
 # How To page content
 #: interface
@@ -1154,8 +1182,8 @@ msgid ""
 "Identify the insects into their broad groups (bumblebees, hoverflies etc.) –"
 " any that you don't recognise should be counted as \"other insects\"."
 msgstr ""
-"Rhannwch y pryfed yn ôl eu grwpiau bras (cacwn, pryfed hofran, ayb.) – "
-"dylech gyfrif unrhyw rai na allwch eu hadnabod fel pryfed eraill."
+"Identifique los insectos de acuerdo con su grupo general (abejorros, moscas,"
+" etc.); los que no reconozca deben contarse como \"otros insectos\"."
 
 # How To page content
 #: interface
@@ -1163,13 +1191,13 @@ msgid ""
 "\"Good weather\" is dry, and with temperature at least 13°C in sunny "
 "conditions, or at least 15°C when cloudy."
 msgstr ""
-"\"Tywydd da\" yw tywydd sych ble mae'r tymheredd yn 13°C o leiaf pan mae'n "
-"heulog, neu'n 15°C o leiaf pan mae'n gymylog."
+"\"Buen clima\" es seco, y con una temperatura de al menos 13°C en "
+"condiciones de sol, o de al menos 15°C cuando esté nublado."
 
 # Context term
 #: interface
 msgid "The timer will now start!"
-msgstr "Bydd yr amserydd yn dechrau nawr!"
+msgstr "El cronómetro comenzará ahora!"
 
 # Context term
 #: interface
@@ -1177,8 +1205,8 @@ msgid ""
 "Count every insect that lands on the target flowers (count each individual "
 "once)."
 msgstr ""
-"Cyfrifwch bob pryfyn sy'n glanio ar y blodau targed (cyfrifwch bob unigolyn "
-"unwaith)."
+"Cuente cada insecto que se pose en las flores objetivo (cuente cada "
+"individuo una sola vez)."
 
 # Context term
 #: interface
@@ -1186,13 +1214,13 @@ msgid ""
 "Tap the insect images to increase your count (minus buttons will decrease "
 "the count)"
 msgstr ""
-"Tapiwch y lluniau o'r pryfed i gyfrif i fyny (bydd y botymau minws yn cyfrif"
-" i lawr)"
+"Toque las imágenes de los insectos para aumentar su conteo (los botones con "
+"el signo menos disminuirán el conteo)"
 
 # Context term
 #: interface
 msgid "Start Count"
-msgstr "Dechrau Cyfrif"
+msgstr "Inicie el conteo"
 
 # Context term
 #: BR
@@ -1201,6 +1229,9 @@ msgid ""
 "every flower visitor that lands on the flowers of your chosen target flower "
 "species."
 msgstr ""
+"Los conteos FIT duran unos 10-15 minutos, durante los cuales se le pide que "
+"cuente todos los insectos que se posan en las flores de la especie de flor "
+"objetivo elegida."
 
 # Context term
 #: BR
@@ -1209,6 +1240,9 @@ msgid ""
 "that land on the target flowers (ignore other flowers, and do your best to "
 "count each individual flower visitor once only!)."
 msgstr ""
+"Utilizando el cronómetro de la aplicación, dedique diez minutos a contar "
+"todos los insectos que se posan en las flores objetivo (ignore las demás "
+"flores y haga todo lo posible por contar cada insecto una sola vez)."
 
 # Context term
 #: BR
@@ -1217,95 +1251,97 @@ msgid ""
 " etc.) – any that you don't recognise should be counted as \"other insects\""
 " or \"don't know\"."
 msgstr ""
+"Identifique los insectos de acuerdo con su grupo general (abejorros, moscas,"
+" etc.); los que no reconozca deben contarse como \"otros insectos\" o \"no "
+"sé\"."
 
 # From survey pages
 #: interface
 msgid "Note: it will remain in the gallery."
-msgstr "Noder: bydd yn aros yn yr oriel."
+msgstr "Nota: permanecerá en la galería."
 
 # From survey pages
 #: interface
 msgid "Oops! Something went wrong."
-msgstr "Wps! Mae rhywbeth wedi mynd o'i le."
+msgstr "¡Uy! Algo salió mal."
 
 # From survey pages
 #: interface
 msgid "This is the error event id: {{eventId}}"
-msgstr "Dyma rif adnabod yr achos o wall: {{eventId}}"
+msgstr "Este es el id de evento de error: {{eventId}}"
 
 # From survey pages
 #: interface
 msgid "What is the <1>sky</1> above your location?"
-msgstr "Sut mae'r <1>awyr</1> uwch ben eich lleoliad?"
+msgstr "¿Cómo es el <1>cielo</1> sobre su ubicación?"
 
 # From survey pages
 #: interface
 msgid "How much <1>sun</1> fell on your patch during the FIT Count; was it:"
-msgstr ""
-"Faint o <1>haul</1> oedd ar eich llain yn ystod y Cyfrif FIT? Oedd y llain:"
+msgstr "Cuánto <1>sol</1> había en su parche durante el recuento FIT; fue de:"
 
 # From survey pages
 #: interface
 msgid "What was the <1>wind</1> strength?"
-msgstr "Beth oedd cryfder y <1>gwynt</1>?"
+msgstr "¿Qué tan fuerte era el <1>viento</1>?"
 
 # Button label
 #: interface
 msgid "Upload"
-msgstr "Llwytho i fyny"
+msgstr "Cargar"
 
 # Context term
 #: interface
 msgid ""
 "If you don't know which insect group, add to the \"Other insects\" category."
 msgstr ""
-"Os nad ydych chi'n gwybod pa grŵp o bryfed, rhowch yn y catogri \"Pryfed "
-"eraill\"."
+"Si no sabe a qué grupo de insectos pertenece, añádalo a la categoría \"Otros"
+" insectos\"."
 
 # Logout message
 #: interface
 msgid "Are you sure you want to logout?"
-msgstr "Ydych chi'n sicr eich bod am allgofnodi?"
+msgstr "¿Está seguro de que quiere cerrar la sesión?"
 
 # Logout message
 #: interface
 msgid "Discard local data"
-msgstr "Diddymu'r data lleol"
+msgstr "Descartar datos locales"
 
 # Survey back button label
 #: interface
 msgid "Insect"
-msgstr "Pryf"
+msgstr "Insecto"
 
 # Survey back button label
 #: interface
 msgid "Location"
-msgstr "Lleoliad"
+msgstr "Ubicación"
 
 # Survey back button label
 #: interface
 msgid "Count"
-msgstr "Cyfrif"
+msgstr "Conteo"
 
 # Survey back button label
 #: interface
 msgid "Cover"
-msgstr "Gorchudd"
+msgstr "Cobertura"
 
 # Survey back button label
 #: interface
 msgid "Patch"
-msgstr "Llain"
+msgstr "Parche"
 
 # Survey back button label
 #: interface
 msgid "Sky"
-msgstr "Awyr"
+msgstr "Cielo"
 
 # Survey back button label
 #: interface
 msgid "Shade"
-msgstr "Cysgod"
+msgstr "Sombra"
 
 # Alert message at the end of survey
 #: interface
@@ -1313,8 +1349,8 @@ msgid ""
 "Thanks for completing your FIT Count - all results help us to monitor insect"
 " populations."
 msgstr ""
-"Diolch am gwblhau eich Cyfrif FIT - mae'r holl ganlyniadau'n ein helpu ni i "
-"fonitro poblogaethau pryfed."
+"Gracias por completar su conteo FIT - todos los resultados nos ayudan a "
+"monitorear las poblaciones de insectos."
 
 # Alert message at the end of survey
 #: interface
@@ -1323,155 +1359,154 @@ msgid ""
 "average for <3>{{month}}</3> is <6>{{averageInsectCountForThisMonth}}</6> "
 "insects per count."
 msgstr ""
-"Fe gyfroch chi <1>{{numberOfOccurrences}} </1>o bryfed i gyd - cyfartaledd y"
-" Deyrnas Unedig ar gyfer mis <3>{{month}}</3> yw "
-"<6>{{averageInsectCountForThisMonth}}</6> o bryfed y cyfrif."
+"Contaste <1>{{numberOfOccurrences}} </1>insecto(s) en total - el promedio en"
+" el Reino Unido para <3>{{month}}</3> es "
+"<6>{{averageInsectCountForThisMonth}}</6> insectos por conteo."
 
 # Alert message at the end of survey - non UK
 #: interface
 msgid "You counted <1>{{numberOfOccurrences}} </1>insect(s) altogether."
-msgstr ""
+msgstr "Ha contado <1>{{numberOfOccurrences}} </1>insecto(s) en total."
 
 # Alert message at the end of survey
 #: interface
 msgid "Go Home"
-msgstr "Mynd Adref"
+msgstr "Ir a Inicio"
 
 # Settings page divider label
 #: interface
 msgid "User"
-msgstr "Defnyddiwr"
+msgstr "Usuario"
 
 # User registration identification experience button label
 #: interface
 msgid "Done"
-msgstr "Wedi gorffen"
+msgstr "Hecho"
 
 # User registration "Happy to be contacted" label
 #: interface
 msgid "Happy to be contacted"
-msgstr "Yn hapus i chi gysylltu â fi"
+msgstr "Feliz de ser contactado"
 
 # Delete survey alert message
 #: interface
 msgid "Are you sure you want to delete this survey?"
-msgstr "Ydych chi'n sicr eich bod am ddileu'r arolwg hwn?"
+msgstr "¿Está seguro que quiere eliminar este registro?"
 
 # App version
 #: interface
 msgid "App version"
-msgstr "Fersiwn yr ap"
+msgstr "Versión app"
 
 # Month name
 #: interface
 msgid "January"
-msgstr "Ionawr"
+msgstr "Enero"
 
 # Month name
 #: interface
 msgid "February"
-msgstr "Chwefror"
+msgstr "Febrero"
 
 # Month name
 #: interface
 msgid "March"
-msgstr "Mawrth"
+msgstr "Marzo"
 
 # Month name
 #: interface
 msgid "April"
-msgstr "Ebrill"
+msgstr "Abril"
 
 # Month name
 #: interface
 msgid "May"
-msgstr "Mai"
+msgstr "Mayo"
 
 # Month name
 #: interface
 msgid "June"
-msgstr "Mehefin"
+msgstr "Junio"
 
 # Month name
 #: interface
 msgid "July"
-msgstr "Gorffennaf"
+msgstr "Julio"
 
 # Month name
 #: interface
 msgid "August"
-msgstr "Awst"
+msgstr "Agosto"
 
 # Month name
 #: interface
 msgid "September"
-msgstr "Medi"
+msgstr "Septiembre"
 
 # Month name
 #: interface
 msgid "October"
-msgstr "Hydref"
+msgstr "Octubre"
 
 # Month name
 #: interface
 msgid "November"
-msgstr "Tachwedd"
+msgstr "Noviembre"
 
 # Month name
 #: interface
 msgid "December"
-msgstr "Rhagfyr"
+msgstr "Diciembre"
 
 # A label part of user surveys page
 #: interface
 msgid "Insects"
-msgstr "Pryfed"
+msgstr "Insectos"
 
 # A label part of user surveys page
 #: interface
 msgid "Survey"
-msgstr "Arolwg"
+msgstr "Registro"
 
 # Survey upload process alert message
 #: interface
 msgid "Sorry, your account hasn't been verified yet or is blocked."
-msgstr ""
-"Yn anffodus, nid yw eich cyfrif wedi'i wirio eto, neu mae wedi'i atal."
+msgstr "Lo sentimos, su cuenta aún no ha sido verificada o está bloqueada."
 
 # Survey upload process alert message
 #: interface
 msgid "Please log in first."
-msgstr "Mewngofnodwch yn gyntaf."
+msgstr "Por favor inicie sesión primero."
 
 # Survey upload process alert message
 #: interface
 msgid "Looks like you are offline!"
-msgstr "Dydych chi ddim i weld ar-lein!"
+msgstr "¡Parece que estás desconectado!"
 
 # Survey remove photo alert message
 #: interface
 msgid "Are you sure you want to remove this photo?"
-msgstr "Ydych chi'n siŵr eich bod am ddileu'r llun hwn?"
+msgstr "¿Estás seguro de que quieres eliminar esta foto?"
 
 # Failed to upload image message
 #: interface
 msgid "Sorry, we couldn't get the image."
-msgstr "Yn anffodus, doedd hi ddim yn bosib i ni gael y ddelwedd."
+msgstr "Lo sentimos, no pudimos conseguir la imagen."
 
 # ID guide title
 #: interface
 msgid "Pollinator Groups"
-msgstr "Grwpiau Peillwyr"
+msgstr "Grupo de polinizadores"
 
 # Menu page label
 #: interface
 msgid "Terms and Conditions"
-msgstr "Telerau ac Amodau"
+msgstr "Términos y Condiciones"
 
 # Survey required label
 #: interface
 msgid "required"
-msgstr "gofynnol"
+msgstr "obligatorio"
 
 # About page content
 #: interface
@@ -1480,9 +1515,9 @@ msgid ""
 "done at any time during the FIT Count season – see the quick guide <1></1> "
 "for the season in your country."
 msgstr ""
-"Mae Cyfrifon FIT yn addas i bawb, mewn lleoliadau trefol neu gefn gwlad, a "
-"gellir eu gwneud unrhyw adeg yn ystod y tymor Cyfrifon FIT – gweler y "
-"canllaw cyflym <1></1> i weld y tymor yn eich gwlad chi."
+"Los recuentos FIT son adecuados para todos, en zonas urbanas o rurales, y se"
+" pueden realizar en cualquier momento durante la temporada del recuento FIT;"
+" consulte la guía rápida <1></1> para la temporada en su país."
 
 # About page content
 #: interface
@@ -1495,14 +1530,15 @@ msgid ""
 "need to identify the insects to species level, only to within broad groups "
 "e.g. bumblebees, hoverflies, butterflies & moths, wasps."
 msgstr ""
-"Mae mwyfwy o dystiolaeth yn awgrymu bod yr amrywiaeth mewn rhywogaethau "
-"peillwyr wedi gostwng mewn sawl rhan o'r byd, ac mae'r dystiolaeth gryfaf yn"
-" dod o Ewrop a Gogledd America. Rydym yn gwybod llai am newidiadau yn "
-"helaethrwydd peillwyr, ac mae angen llawer mwy o ddata er mwyn gallu olrhain"
-" hyn. Gallwch ein helpu drwy wneud Cyfrif FIT, ac efallai ei ail-wneud ar "
-"hyd y tymor hyd yn oed. Does dim angen i chi enwi'r union rywogaethau o "
-"bryfed, dim ond eu rhoi mewn grwpiau bras, e.e. cacwn, pryfed hofran, pili-"
-"palod a gwyfynod, gwenyn meirch."
+"Una cantidad cada vez mayor de evidencias sugiere que la diversidad de "
+"especies de polinizadores ha disminuido en muchas partes del mundo, y la "
+"evidencia más sólida proviene de Europa y América del Norte. Se sabe mucho "
+"menos sobre los cambios en las abundancias de polinizadores y necesitamos "
+"muchos más datos para poder rastrear esto. Puede ayudar haciendo un FIT "
+"Count, tal vez incluso repitiéndolo durante la temporada. No es necesario "
+"que identifique los insectos a nivel de especie, solo dentro de grupos "
+"amplios, p. ej. abejorros, moscas de las flores, mariposas y polillas, "
+"avispas."
 
 # About page content
 #: interface
@@ -1511,10 +1547,10 @@ msgid ""
 "Scheme (PoMS). Similar methods are now being adopted in other countries, and"
 " this app is used by a wide range of pollinator monitoring projects:"
 msgstr ""
-"Datblygwyd y Cyfrif FIT yn wreiddiol drwy Gynllun Monitro Peillwyr y DU "
-"(PoMS). Mae dulliau tebyg bellach yn cael eu defnyddio mewn gwledydd eraill,"
-" ac mae'r ap hwn yn cael ei ddefnyddio gan amrywiaeth eang o brosiectau "
-"monitro peillwyr:"
+"El recuento FIT se desarrolló originalmente a través del Programa de "
+"Seguimiento de Polinizadores (PoMS) del Reino Unido. En la actualidad, se "
+"están adoptando métodos similares en otros países, y esta aplicación es "
+"utilizada por una amplia gama de proyectos de seguimiento de polinizadores:"
 
 # About page content
 #: interface
@@ -1522,18 +1558,18 @@ msgid ""
 "The FIT Count project is supported by the UK Centre for Ecology & Hydrology "
 "and can be contacted <1>here</1>."
 msgstr ""
-"Mae'r prosiect Cyfrif FIT yn cael ei gefnogi gan Ganolfan Ecoleg a Hydroleg "
-"y DU, a gellir cysylltu â'r prosiect <1>yma</1>."
+"El proyecto FIT Count cuenta con el apoyo del Centro de Ecología e "
+"Hidrología del Reino Unido y se puede contactar <1>aquí </1>."
 
 # Credits page content
 #: interface
 msgid "This app has been created by the"
-msgstr "Crëwyd yr ap hwn gan y "
+msgstr "Esta app ha sido creada por el "
 
 # Credits page content
 #: interface
 msgid "with technical development by"
-msgstr "gyda gwaith datblygu technegol gan "
+msgstr "con desarrollo tecnológico por"
 
 # Credits page content
 #: interface
@@ -1541,93 +1577,93 @@ msgid ""
 "App development has been supported by the funders and partners of these "
 "pollinator projects around the world"
 msgstr ""
-"Mae'r gwaith o ddatblygu'r ap wedi'i gefnogi gan gyllidwyr a phartneriaid y "
-"prosiectau peillwyr hyn ar draws y byd"
+"El desarrollo de la aplicacion ha sido apoyado por los patrocinadores y "
+"socios de estos proyectos de polinizadores en todo el mundo."
 
 # Survey validation message
 #: interface
 msgid "Please add at least 1 photo."
-msgstr "Rhowch un ffotograff o leiaf."
+msgstr "Por favor añada al menos 1 foto."
 
 # Survey validation message
 #: interface
 msgid "Flower number is a required field."
-msgstr "Mae'n rhaid rhoi nifer y blodau."
+msgstr "Número de flores es un campo obligatorio."
 
 # Survey validation message
 #: interface
 msgid "Flower type is a required field."
-msgstr "Mae'n rhaid rhoi'r math o flodyn."
+msgstr "El tipo de flores es un campo obligatorio."
 
 # Survey validation message
 #: interface
 msgid "Survey incomplete"
-msgstr "Arolwg heb ei gwblhau"
+msgstr "Registro incompleto"
 
 # Survey validation message
 #: interface
 msgid "Habitat \"Other\" is a required field."
-msgstr "Mae'n rhaid rhoi math \"Arall\" o gynefin."
+msgstr "El hábitat \"Otro\" es un campo obligatorio."
 
 # Survey validation message
 #: interface
 msgid "Flower \"Other\" is a required field."
-msgstr "Mae'n rhaid rhoi math \"Arall\" o flodyn."
+msgstr "La flor \"Otra\" es un campo obligatorio."
 
 # Menu path adress
 #: interface
 msgid "privacy-notice"
-msgstr "hysbysiad-preifatrwydd"
+msgstr "aviso de privacidad"
 
 # Menu path adress
 #: interface
 msgid "terms"
-msgstr "telerau"
+msgstr "términos"
 
 # Location name search on a map
 #: interface
 msgid "Search for a location..."
-msgstr "Chwiliwch am leoliad..."
+msgstr "Buscar una localización..."
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Enjoying the app?"
-msgstr "Ydych chi’n mwynhau’r ap?"
+msgstr "¿Disfrutando la app?"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Not really"
-msgstr "Dim felly"
+msgstr "La verdad que no"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Yes!"
-msgstr "Ydw!"
+msgstr "¡Sí!"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "Would you mind giving us some feedback?"
-msgstr "Fyddech chi’n fodlon rhoi rhywfaint o adborth i ni?"
+msgstr "¿Le importaría darnos algunos comentarios?"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "No, thanks"
-msgstr "Dim diolch"
+msgstr "No, gracias"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "OK, sure"
-msgstr "Dim problem"
+msgstr "Sí, claro"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "How about a rating on the App Store then?"
-msgstr "Beth am adael sgôr i ni yn yr App Store te?"
+msgstr "¿Qué tal una calificación en la App Store entonces?"
 
 # Asking user for a feedback on app stores
 #: interface
 msgid "How about a rating on the Play Store then?"
-msgstr "Beth am adael sgôr i ni yn y Play Store te?"
+msgstr "¿Qué tal una calificación en el Play Store entonces?"
 
 # Shown when tapping an uploaded survey
 #: interface
@@ -1635,8 +1671,8 @@ msgid ""
 "To view your FIT Count data after uploading please visit the project website"
 " for your country, where available (e.g. <2>UK PoMS</2>)"
 msgstr ""
-"I weld eich data Cyfrif FIT ar ôl i chi ei lwytho i fyny, ewch i wefan y "
-"prosiect ar gyfer eich gwlad chi, os oes un ar gael (e.e. <2>UK PoMS</2>)"
+"Para ver los datos de FIT Count después del envío, visite el sitio web del "
+"proyecto para su país, donde esté disponible (por ejemplo, <2>UK PoMS</2>)"
 
 # Back button label
 #: interface
@@ -1673,92 +1709,92 @@ msgstr ""
 # insects name
 #: UK BR CL CY AR IE DE SE HR PT
 msgid "Beetles"
-msgstr "Chwilod"
+msgstr "Escarabajos"
 
 # insects name
 #: UK CL CY IE DE SE HR PT
 msgid "Bumblebees"
-msgstr "Cacwn"
+msgstr "Abejorros"
 
 # insects name
 #: UK BR CL CY AR IE DE SE HR
 msgid "Butterflies and moths"
-msgstr "Pili-palod a gwyfynod"
+msgstr "Mariposas y polillas"
 
 # insects name
 #: UK BR CL CY AR IE DE SE HR PT
 msgid "Honeybees"
-msgstr "Gwenyn mêl"
+msgstr "Abejas de la miel"
 
 # insects name
 #: UK CL CY IE DE SE HR PT
 msgid "Hoverflies"
-msgstr "Pryfed hofran"
+msgstr "Moscas de las flores"
 
 # insects name
 #: UK CL CY IE DE SE HR PT
 msgid "Other flies"
-msgstr "Clêr"
+msgstr "Otras moscas"
 
 # insects name
 #: UK BR CL CY AR IE DE SE HR PT
 msgid "Other insects"
-msgstr "Pryfed eraill"
+msgstr "Otros insectos"
 
 # insects name
 #: UK BR CY AR IE DE SE HR PT
 msgid "Small insects (<3mm)"
-msgstr "Pryfed bychain (<3mm)"
+msgstr "Pequeños insectos (<3mm)"
 
 # insects name
 #: UK BR CL CY AR IE DE SE HR
 msgid "Solitary bees"
-msgstr "Gwenyn unig"
+msgstr "Abejas solitarias"
 
 # insects name
 #: UK BR CL CY AR IE DE HR PT
 msgid "Wasps"
-msgstr "Gwenyn meirch"
+msgstr "Avispas"
 
 # insects name
 #: BR AR
 msgid "Bats"
-msgstr ""
+msgstr "Murciélagos"
 
 # insects name
 #: BR CL AR
 msgid "Hummingbirds"
-msgstr ""
+msgstr "Picaflores"
 
 # insects name
 #: BR
 msgid "Orchid bees"
-msgstr ""
+msgstr "Abejas de las orquídeas"
 
 # insects name
 #: BR
 msgid "Stingless bees"
-msgstr ""
+msgstr "Abeja sin aguijón"
 
 # insects name
 #: BR AR
 msgid "Bumblebees sensu lato"
-msgstr ""
+msgstr "Abejorros y abejas carpinteras"
 
 # insects name
 #: BR AR
 msgid "Flies"
-msgstr ""
+msgstr "Moscas"
 
 # insects name
 #: BR PT
 msgid "Don't know"
-msgstr ""
+msgstr "No lo sé"
 
 # insects name
 #: DE HR
 msgid "Carpenter bees"
-msgstr ""
+msgstr "Abejas carpinteras"
 
 # insects name
 #: SE
@@ -1788,107 +1824,107 @@ msgstr ""
 # habitats value
 #: UK BR CL CY AR IE DE SE HR PT
 msgid "Garden"
-msgstr "Gardd"
+msgstr "Jardín"
 
 # habitats value
 #: UK CL AR IE
 msgid "School Grounds"
-msgstr "Tir ysgol"
+msgstr "Patios de colegio"
 
 # habitats value
 #: UK BR CL CY AR IE SE HR
 msgid "Parkland with trees"
-msgstr "Tir parc gyda choed"
+msgstr "Parque con árboles"
 
 # habitats value
 #: UK IE
 msgid "Churchyard"
-msgstr "Mynwent eglwys"
+msgstr "Patio de iglesia o capilla"
 
 # habitats value
 #: UK AR IE SE PT
 msgid "Grassy verge or hedgerow edge"
-msgstr "Ymyl glaswelltog neu ymyl gwrych"
+msgstr "Vereda con césped o borde de cerco vivo"
 
 # habitats value
 #: UK BR CL CY AR IE DE SE HR PT
 msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
+msgstr "Pastizales con flores silvestres (por ejemplo, praderas)"
 
 # habitats value
 #: UK BR AR IE DE SE
 msgid "Amenity grassland (usually mown short)"
-msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
+msgstr "Césped (en general, cortado)"
 
 # habitats value
 #: UK BR CL AR IE PT
 msgid "Farm crops or grassy pasture"
-msgstr "Cnydau fferm neu dir pori glaswelltog"
+msgstr "Cultivos agrícolas o pastos cubiertos de hierba"
 
 # habitats value
 #: UK AR SE
 msgid "Upland moorland"
-msgstr "Rhostir ucheldir"
+msgstr "Páramos de montaña"
 
 # habitats value
 #: UK SE
 msgid "Lowland heath"
-msgstr "Gweundir iseldir"
+msgstr "Brezal de tierras bajas"
 
 # habitats value
 #: UK BR AR DE
 msgid "Waste ground or brownfield site"
-msgstr "Tir gwastraff neu safle tir llwyd"
+msgstr "Terreno baldío o terreno abandonado"
 
 # habitats value
 #: UK AR IE
 msgid "Woodland"
-msgstr "Coetir"
+msgstr "Bosque"
 
 # habitats value
 #: BR CY AR
 msgid "Botanical garden"
-msgstr ""
+msgstr "Jardín botánico"
 
 # habitats value
 #: BR CL CY AR DE HR PT
 msgid "Forest"
-msgstr ""
+msgstr "Bosque"
 
 # habitats value
 #: CY AR SE HR
 msgid "Cultivation"
-msgstr ""
+msgstr "Cultivo"
 
 # habitats value
 #: CY AR SE
 msgid "Salt marsh"
-msgstr ""
+msgstr "Salina"
 
 # habitats value
 #: BR CY AR SE PT
 msgid "Freshwater wetland"
-msgstr ""
+msgstr "Humedal de agua dulce"
 
 # habitats value
 #: CY AR
 msgid "Dry shrub"
-msgstr ""
+msgstr "Arbusto seco"
 
 # habitats value
 #: CY
 msgid "Acacia stands"
-msgstr ""
+msgstr "Acacias"
 
 # habitats value
 #: CY AR HR PT
 msgid "Roadside verges"
-msgstr ""
+msgstr "Borde de carretera"
 
 # habitats value
 #: UK BR CL CY AR IE DE SE HR PT
 msgid "Other"
-msgstr "Arall"
+msgstr "Otro"
 
 # habitats value
 #: BR
@@ -1898,7 +1934,7 @@ msgstr ""
 # habitats value
 #: BR PT
 msgid "Plantation forest"
-msgstr ""
+msgstr "Plantación forestal"
 
 # habitats value
 #: BR
@@ -1908,17 +1944,17 @@ msgstr ""
 # habitats value
 #: DE
 msgid "Grassy verge "
-msgstr ""
+msgstr "Vereda con césped "
 
 # habitats value
 #: DE
 msgid "Hedgerow edge "
-msgstr ""
+msgstr "Borde de cerco vivo "
 
 # habitats value
 #: CL AR DE PT
 msgid "Freshwater edge"
-msgstr ""
+msgstr "Borde de agua dulce"
 
 # habitats value
 #: DE HR
@@ -1943,27 +1979,27 @@ msgstr ""
 # habitats value
 #: IE
 msgid "Upland bog/heath"
-msgstr ""
+msgstr "Humedal de altura"
 
 # habitats value
 #: IE
 msgid "Lowland bog/heath"
-msgstr ""
+msgstr "Pantano/brezal de tierras bajas"
 
 # habitats value
 #: IE
 msgid "Waste ground"
-msgstr ""
+msgstr "Terreno baldío"
 
 # habitats value
 #: CL HR PT SE
 msgid "Shrubland"
-msgstr ""
+msgstr "Matorral"
 
 # habitats value
 #: CL
 msgid "Vegtable patch"
-msgstr ""
+msgstr "Huerta"
 
 # habitats value
 #: HR
@@ -2022,7 +2058,7 @@ msgstr ""
 # flowers name
 #: CY CL PT
 msgid "Acacia"
-msgstr ""
+msgstr "Acacia"
 
 # flowers name
 #: BR
@@ -2032,7 +2068,7 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Achira"
-msgstr ""
+msgstr "Achira"
 
 # flowers name
 #: CY
@@ -2047,7 +2083,7 @@ msgstr ""
 # flowers name
 #: CL
 msgid "Arrayan"
-msgstr ""
+msgstr "Arrayán"
 
 # flowers name
 #: BR PT
@@ -2057,12 +2093,12 @@ msgstr ""
 # flowers name
 #: CL
 msgid "Azara"
-msgstr ""
+msgstr "Azara"
 
 # flowers name
 #: BR
 msgid "Basil"
-msgstr ""
+msgstr "Albahaca"
 
 # flowers name
 #: CY PT
@@ -2082,7 +2118,7 @@ msgstr ""
 # flowers name
 #: UK IE DE HR PT
 msgid "Bramble"
-msgstr "Miaren"
+msgstr "Zarza"
 
 # flowers name
 #: BR
@@ -2107,7 +2143,7 @@ msgstr ""
 # flowers name
 #: UK IE DE
 msgid "Buddleja"
-msgstr "Buddleja"
+msgstr ""
 
 # flowers name
 #: HR
@@ -2117,7 +2153,7 @@ msgstr ""
 # flowers name
 #: UK IE DE HR PT
 msgid "Buttercup"
-msgstr "Blodyn menyn"
+msgstr ""
 
 # flowers name
 #: BR
@@ -2127,17 +2163,17 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Campanilla"
-msgstr ""
+msgstr "Campanilla"
 
 # flowers name
 #: CL AR
 msgid "Canelo"
-msgstr ""
+msgstr "Canelo"
 
 # flowers name
 #: CL
 msgid "Cherry"
-msgstr ""
+msgstr "Cerezo"
 
 # flowers name
 #: CY
@@ -2147,12 +2183,12 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Cicuta"
-msgstr ""
+msgstr "Cicuta"
 
 # flowers name
 #: AR
 msgid "Naranjo/Limonero"
-msgstr ""
+msgstr "Naranjo/limonero"
 
 # flowers name
 #: PT BR
@@ -2172,7 +2208,7 @@ msgstr ""
 # flowers name
 #: CL
 msgid "Copihue"
-msgstr ""
+msgstr "Copihue"
 
 # flowers name
 #: SE
@@ -2187,12 +2223,12 @@ msgstr ""
 # flowers name
 #: CL AR
 msgid "Daisy"
-msgstr ""
+msgstr "Margarita"
 
 # flowers name
 #: UK BR CL AR IE DE SE HR PT
 msgid "Dandelion"
-msgstr "Dant y llew"
+msgstr "Diente de león"
 
 # flowers name
 #: SE
@@ -2207,7 +2243,7 @@ msgstr ""
 # flowers name
 #: CY HR
 msgid "Fennel"
-msgstr ""
+msgstr "Hinojo"
 
 # flowers name
 #: PT
@@ -2217,7 +2253,7 @@ msgstr ""
 # flowers name
 #: CL AR
 msgid "Fuchsia"
-msgstr ""
+msgstr "Chilco"
 
 # flowers name
 #: SE
@@ -2232,22 +2268,22 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Guarán"
-msgstr ""
+msgstr "Guarán"
 
 # flowers name
 #: UK IE DE
 msgid "Hawthorn"
-msgstr "Draenen wen"
+msgstr ""
 
 # flowers name
 #: UK IE DE SE PT
 msgid "Heather"
-msgstr "Grug"
+msgstr ""
 
 # flowers name
 #: UK IE DE
 msgid "Hogweed"
-msgstr "Efwr"
+msgstr ""
 
 # flowers name
 #: SE
@@ -2262,17 +2298,17 @@ msgstr ""
 # flowers name
 #: UK IE DE HR PT
 msgid "Ivy"
-msgstr "Iorwg"
+msgstr ""
 
 # flowers name
 #: CY AR
 msgid "Spanish Jasmine"
-msgstr ""
+msgstr "Jazmín español"
 
 # flowers name
 #: UK IE DE HR
 msgid "Knapweed"
-msgstr "Y Bengaled"
+msgstr ""
 
 # flowers name
 #: CY
@@ -2287,7 +2323,7 @@ msgstr ""
 # flowers name
 #: UK IE DE HR PT
 msgid "Lavender"
-msgstr "Lafant"
+msgstr "Lavanda"
 
 # flowers name
 #: SE
@@ -2297,12 +2333,12 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Ligustro"
-msgstr ""
+msgstr "Ligustro"
 
 # flowers name
 #: CL AR
 msgid "Magnolia"
-msgstr ""
+msgstr "Magnolia"
 
 # flowers name
 #: PT
@@ -2327,7 +2363,7 @@ msgstr ""
 # flowers name
 #: CL
 msgid "Murta"
-msgstr ""
+msgstr "Murta"
 
 # flowers name
 #: CY HR
@@ -2337,27 +2373,27 @@ msgstr ""
 # flowers name
 #: CY
 msgid "Olive"
-msgstr ""
+msgstr "Olivo"
 
 # flowers name
 #: AR
 msgid "Tuna"
-msgstr ""
+msgstr "Tuna o higo chumbo"
 
 # flowers name
 #: BR
 msgid "Orchids"
-msgstr ""
+msgstr "Orquídeas"
 
 # flowers name
 #: BR CL
 msgid "Oxalis"
-msgstr ""
+msgstr "Oxalis"
 
 # flowers name
 #: BR
 msgid "Passionfruit"
-msgstr ""
+msgstr "Fruta de la pasión"
 
 # flowers name
 #: CY
@@ -2367,12 +2403,12 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Pocoto"
-msgstr ""
+msgstr "Pocoto"
 
 # flowers name
 #: UK IE DE
 msgid "Ragwort"
-msgstr "Llysiau'r gingroen"
+msgstr ""
 
 # flowers name
 #: IE DE HR
@@ -2397,7 +2433,7 @@ msgstr ""
 # flowers name
 #: CL
 msgid "Rose"
-msgstr ""
+msgstr "Rosa"
 
 # flowers name
 #: SE
@@ -2407,7 +2443,7 @@ msgstr ""
 # flowers name
 #: AR
 msgid "Senecio"
-msgstr ""
+msgstr "Senecio"
 
 # flowers name
 #: BR
@@ -2417,12 +2453,12 @@ msgstr ""
 # flowers name
 #: UK IE DE SE PT
 msgid "Thistle"
-msgstr "Ysgall"
+msgstr ""
 
 # flowers name
 #: CY AR
 msgid "Tree Tobacco"
-msgstr ""
+msgstr "Palán-palán o tabaco moro"
 
 # flowers name
 #: PT
@@ -2437,12 +2473,12 @@ msgstr ""
 # flowers name
 #: UK IE DE SE
 msgid "White Clover"
-msgstr "Meillionen wen"
+msgstr "Trébol blanco"
 
 # flowers name
 #: UK IE DE
 msgid "White Dead-nettle"
-msgstr "Marddanhadlen wen"
+msgstr "Ortiga blanca"
 
 # flowers name
 #: CY
@@ -2460,33 +2496,34 @@ msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
 msgstr ""
-"Mae gwenyn mêl yn fwy na'r rhan fwyaf (ond nid pob un) o wenyn unig, ac "
-"maent yn llai na'r rhan fwyaf o gacwn."
+"Las abejas de la miel son más grandes que la mayoría (no todas) de las "
+"abejas solitarias y más pequeñas que la mayoría de los abejorros."
 
 # photos caption_1
 #: UK SE DE CY AR IE CL HR BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
-msgstr "Teimlyddion hir a thenau, ar ongl yn aml fel siâp 'penelin'"
+msgstr ""
+"Antenas largas y delgadas, a menudo en ángulo tomando una forma de \"codo\""
 
 # photos caption_2
 #: UK SE DE CY AR IE CL HR BR
 msgid "Eyes covering the sides of the head"
-msgstr "Llygaid yn gorchuddio ochrau'r pen"
+msgstr "Ojos cubriendo los lados de la cabeza"
 
 # photos caption_3
 #: UK SE DE CY AR IE CL HR BR
 msgid "Hind legs broad and flattened"
-msgstr "Y coesau ôl yn llydan ac yn fflat"
+msgstr "Patas traseras anchas y aplanadas"
 
 # photos caption_4
 #: UK SE DE CY AR IE CL HR BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
-msgstr "Gall yr abdomen amrywio o bennaf dywyll i bennaf oren"
+msgstr "Abdomen puede variar de mayormente oscuro a mayormente naranja"
 
 # photos caption_5
 #: UK SE DE CY AR IE CL HR BR
 msgid "Long narrow cell in veins at edge of wing"
-msgstr "Cell hir a chul yn y gwythiennau ar ymyl yr adain"
+msgstr "Celda larga y estrecha en las venas al borde del ala"
 
 # photos extraText
 #: UK
@@ -2494,9 +2531,9 @@ msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
-"Dim ond un rhywogaeth o wenyn mêl sydd i'w chael yn y Deyrnas Unedig. Maent "
-"yn nythu mewn cychod gwenyn gwneud, ac mae ambell i nyth yn sefydlu yn y "
-"gwyllt."
+"Solo hay una especie de abeja de la miel en el Reino Unido. Anidan en "
+"colmenas artificiales, con colonias ocasionales que se establecen en la "
+"naturaleza."
 
 # photos extraText
 #: SE
@@ -2511,6 +2548,8 @@ msgid ""
 "There is just one species of honeybee in Germany. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"Hay una única especie de abeja melífera en Alemania. Anidan en colmenas "
+"artificiales, ocasionalmente estableciendo colmenas silvestres."
 
 # photos extraText
 #: CY AR
@@ -2518,6 +2557,8 @@ msgid ""
 "There is just one species of honeybee. They nest in artificial hives,with "
 "occasional colonies establishing in the wild."
 msgstr ""
+"Solo hay una especie de abeja de la miel o melífera. Anidan en colmenas "
+"artificiales, con colonias ocasionales que se establecen en la naturaleza."
 
 # photos extraText
 #: IE
@@ -2525,6 +2566,8 @@ msgid ""
 "There is just one species of honeybee in Ireland. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
+"Hay una única especie de abeja melífera en Irlanda. Anidan en colmenas "
+"artificiales, ocasionalmente estableciendo colmenas silvestres."
 
 # photos extraText
 #: CL
@@ -2533,6 +2576,9 @@ msgid ""
 " nest in artificial hives, with occasional colonies establishing in the "
 "wild.”?"
 msgstr ""
+"En Chile sólo existe una especie de abeja melífera (la abeja europea). "
+"Anidan en colmenas artificiales, con colonias ocasionales que se establecen "
+"en la naturaleza\"?"
 
 # photos extraText
 #: HR
@@ -2555,15 +2601,16 @@ msgid ""
 "Most of the honeybees you see will be workers, which are female, and collect"
 " pollen into a moistened ball on the outside of the hind legs"
 msgstr ""
-"Gweithwyr, sy'n fenywaidd, fydd y rhan fwyaf o'r gwenyn mêl a welwch, ac "
-"maent yn casglu paill yn belen wedi'i gwlychu ar y tu allan i'r coesau ôl"
+"La mayoría de las abejas melíferas que verá serán obreras, estas son "
+"hembras, y recogen el polen en una bola humedecida en la parte exterior de "
+"las patas traseras."
 
 # photos extraText
 #: UK CL CY AR IE DE SE HR BR PT
 msgid "Male honeybees (drones) are similar but have much larger eyes."
 msgstr ""
-"Mae gwenyn mêl gwrywaidd (gwenyn gormes) yn debyg ond mae eu llygaid yn "
-"llawer mwy."
+"Los machos de abejas melíferas (zánganos) son similares pero tienen ojos "
+"mucho más grandes."
 
 # photos intro_text
 #: UK SE HR DE IE CY
@@ -2571,14 +2618,14 @@ msgid ""
 "Bumblebees are very rounded and furry bees. The queens are among our largest"
 " bees; workers can be quite small, but are larger than most solitary bees."
 msgstr ""
-"Mae cacwn ('bumblebee' yn Saesneg) yn wenyn blewog a chrwn iawn. Mae'r "
-"frenhines yn un o'n gwenyn mwyaf; gall y gweithwyr fod yn eithaf bach, ond "
-"maent yn fwy na'r rhan fwyaf o wenyn unig."
+"Los abejorros son abejas muy redondeadas y peludas. Las reinas se encuentran"
+" entre nuestras abejas más grandes; las obreras pueden ser bastante "
+"pequeñas, pero son más grandes que la mayoría de las abejas solitarias."
 
 # photos caption_1
 #: UK SE HR DE IE CY BR AR CL
 msgid "Very hairy / fluffy bees"
-msgstr "Gwenyn blewog / fflwffog iawn"
+msgstr "Abejas muy peludas / esponjosas"
 
 # photos caption_2
 #: UK SE HR DE IE CY BR AR CL
@@ -2586,8 +2633,8 @@ msgid ""
 "Rounded, almost globular in shape, often have tail ‘tucked under’ when "
 "visiting flowers"
 msgstr ""
-"Siâp crwn, globylog bron, gyda'r gynffon wedi'i 'phlygu oddi tani' yn aml "
-"wrth ymweld â blodau"
+"Redondeados, de forma casi globular, a menudo tienen la cola \"escondida\" "
+"cuando visitan las flores."
 
 # photos caption_4
 #: UK SE HR DE IE CY
@@ -2595,15 +2642,14 @@ msgid ""
 "Many species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be ginger all over"
 msgstr ""
-"Mae gan lawer o rywogaethau fandiau lliw gwrthgyferbyniol syml (melyn, gwyn,"
-" du), a gall eraill fod yn oren drostynt i gyd"
+"Muchas especies tienen bandas de colores simples y contrastantes (amarillos,"
+" blancos, negros), otras pueden ser rojizas por todas partes."
 
 # photos caption_5
 #: UK SE HR DE IE CY
 msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr ""
-"Mae'r llygaid yn gorchuddio ochrau'r pen, ac mae llawer o flew rhwng y "
-"llygaid"
+"Los ojos cubren los lados de la cabeza, con mucho pelo entre los ojos."
 
 # photos extraText
 #: UK
@@ -2611,8 +2657,6 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
-"Mae cacwn yn hedfan mewn ffordd ychydig yn herciog, ac nid ydynt yn hofran. "
-"Mae 24 o rywogaethau yn y Deyrnas Unedig."
 
 # photos extraText
 #: SE
@@ -2648,8 +2692,6 @@ msgid ""
 "Queen and worker bumblebees collect pollen into a moistened ball on the "
 "outside of the hind legs"
 msgstr ""
-"Mae brenhines a gweithwyr y cacwn yn casglu paill yn belen, yn gwlychu'r "
-"belen ac yn ei chario ar du allan eu coesau ôl"
 
 # photos caption_2
 #: UK DE SE HR
@@ -2657,8 +2699,6 @@ msgid ""
 "This bumblebee is one of the species that are more-or-less ginger-coloured "
 "all over"
 msgstr ""
-"Mae'r gacynen hon yn aelod o'r rhywogaeth sydd fwy neu lai yn oren drostynt "
-"i gyd"
 
 # photos extraText
 #: UK DE SE HR CY IE PT
@@ -2666,9 +2706,6 @@ msgid ""
 "Male bumblebees are similar looking to females but have slightly longer "
 "antennae, and do not collect pollen. They visit flowers to feed on nectar."
 msgstr ""
-"Mae cacwn gwrywaidd yn debyg o ran edrychiad i'r benywod, ond mae eu "
-"teimlyddion ychydig yn hirach, ac nid ydynt yn casglu paill. Maent yn ymweld"
-" â blodau i fwydo ar neithdar."
 
 # photos extraText
 #: CY
@@ -2719,6 +2756,10 @@ msgid ""
 "largest bees; workers can be quite small, but are larger than most solitary "
 "bees. "
 msgstr ""
+"Los abejorros son abejas sociales redondeadas y bastante peludas. Las reinas"
+" están entre las abejas más grandes; las obreras  pueden ser bastante "
+"pequeñas, pero en general son más grandes que la mayoría de las abejas "
+"solitarias."
 
 # photos caption_4
 #: BR AR
@@ -2726,6 +2767,8 @@ msgid ""
 "Some species have simple, contrasting colour bands (yellows, whites, "
 "blacks), others can be all black"
 msgstr ""
+"Algunas especies tienen franjas de colores contrastantes (amarillo, blanco, "
+"negro); otras pueden ser de un único color (naranja o negro)."
 
 # photos extraText
 #: BR AR
@@ -2733,6 +2776,8 @@ msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover."
 msgstr ""
+"Los abejorros tienen un zumbido y patrón de vuelo bamboleante "
+"característicos, y no pueden mantenerse suspendidos en el aire."
 
 # photos intro_text
 #: CL
@@ -2740,11 +2785,15 @@ msgid ""
 "European bumblebees are very rounded and furry bees. The queens are among "
 "our largest bees; workers are larger than most native bees."
 msgstr ""
+"Los abejorros europeos son abejas muy redondas y peludas. Las reinas están "
+"entre las abejas más grandes; las obreras son más grandes que la mayoría de "
+"nuestras abejas nativas."
 
 # photos caption_1
 #: CL
 msgid "European bumblebees can be easily identified by their white/buff rump."
 msgstr ""
+"Los abejorros europeos se identifican fácilmente por su rabadilla blanca."
 
 # photos intro_text
 #: CL
@@ -2753,21 +2802,24 @@ msgid ""
 "to 40mm. It is the only native bumblebee of Chile and is easy to identify "
 "due to its red-orange colour."
 msgstr ""
+"Nuestro abejorro (Bombus dahlbomii) es la especie de abeja más grande del "
+"mundo, midiendo hasta 40 mm. Es el único abejorro nativo de Chile y es fácil"
+" de identificar por su color rojo anaranjado."
 
 # photos caption_1
 #: CL
 msgid "very fluffly , large, red-orange bee"
-msgstr ""
+msgstr "abeja muy afelpada o peluda, de gran tamaño, y de color rojo-naranja"
 
 # photos caption_2
 #: CL
 msgid "Large eyes covering most of the sides of the head"
-msgstr ""
+msgstr "Ojos grandes que cubren la mayor parte de los lados de la cabeza."
 
 # photos caption_3
 #: CL
 msgid "Black legs and underside"
-msgstr ""
+msgstr "Patas y parte inferior negras"
 
 # photos intro_text
 #: UK SE DE HR CY IE AR
@@ -2775,28 +2827,33 @@ msgid ""
 "Solitary bees are less rounded than bumblebees, and most are smaller than "
 "both bumblebees and honeybees. "
 msgstr ""
-"Mae gwenyn unig yn llai crwn na chacwn, ac mae'r rhan fwyaf yn llai eu maint"
-" na chacwn a gwenyn mêl hefyd."
+"Las abejas solitarias son más estilizadas que los abejorros, y en general "
+"son más pequeñas que abejorros o abejas melíferas."
 
 # photos caption_1
 #: UK SE DE HR CY IE AR BR
 msgid "Usually quite elongate in shape (but there is lots of variety)"
-msgstr "Fel arfer yn eithaf hir eu siâp (ond maent yn amrywio'n fawr)"
+msgstr ""
+"Generalmente de forma bastante estilizada (aunque hay una gran variedad)"
 
 # photos caption_2
 #: UK SE DE HR CY IE AR BR
 msgid "Usually hairy, but often less densely covered in hairs than bumblebees"
-msgstr "Fel arfer yn flewog, ond yn aml mae'r blew yn llai trwchus na chacwn"
+msgstr ""
+"Generalmente peludas, pero a menudo con un pelaje menos denso que el de los "
+"abejorros"
 
 # photos caption_3
 #: UK SE DE HR CY IE AR
 msgid "Colours usually more subdued and less contrasting than bumblebees"
-msgstr "Y lliwiau fel arfer yn wannach na chacwn gyda llai o wrthgyferbyniad"
+msgstr ""
+"De colores generalmente más apagados y menos contrastante que los de los "
+"abejorros"
 
 # photos caption_4
 #: UK SE DE HR CY IE AR BR
 msgid "Long antennae, often held straight out in front"
-msgstr "Teimlyddion hir, yn aml yn pwyntio'n syth allan"
+msgstr "Antenas largas, generalmente extendidas hacia adelante"
 
 # photos caption_5
 #: UK SE DE HR CY IE AR
@@ -2804,8 +2861,8 @@ msgid ""
 "Smaller than queen bumblebees, but the largest solitaries are bigger than "
 "small worker bumblebees"
 msgstr ""
-"Yn llai na brenhines cacwn, ond mae'r mwyaf o'r rhai unig yn fwy na "
-"gweithwyr cacwn bach"
+"Más pequeñas que las reinas de abejorros, pero las solitarias más grandes "
+"son mayores que obreras pequeñas de abejorros"
 
 # photos extraText
 #: UK
@@ -2813,9 +2870,6 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
 msgstr ""
-"Mae gwenyn unig yn hedfan yn actif rhwng blodau, a weithiau maent yn "
-"gorweddian yn yr haul. Nid yw'r rhan fwyaf o rywogaethau yn hofran. Mae tua "
-"250 o rywogaethau yn y Deyrnas Unedig."
 
 # photos extraText
 #: SE
@@ -2858,6 +2912,9 @@ msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover."
 msgstr ""
+"Las abejas solitarias vuelan activamente entre las flores, y a veces se "
+"calientan al sol. La mayoría de las especies no es capaz de mantenerse "
+"suspendidas en vuelo."
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -2865,8 +2922,6 @@ msgid ""
 "Some solitary bees collect dry pollen into a pollen basket at the base of "
 "the hind legs (see the mining bee on the left above)"
 msgstr ""
-"Mae rhai gwenyn unig yn casglu paill sych mewn basged paill ar waelod y "
-"coesau ôl (gweler y wenynen durio uchod ar y chwith)"
 
 # photos caption_2
 #: UK IE DE SE HR
@@ -2874,8 +2929,6 @@ msgid ""
 "Others have the pollen basket underneath their abdomen (see the leafcutter "
 "bee on the right above)"
 msgstr ""
-"Mae gan eraill fasged paill o dan yr abdomen (gweler y wenynen ddeildorrol "
-"uchod ar y dde)"
 
 # photos extraText
 #: UK IE DE SE HR CY
@@ -2884,9 +2937,6 @@ msgid ""
 "mining bees, dig burrows into soil. Another group, including the mason bees "
 "and leafcutter bees, make use of holes in wood, plants or walls."
 msgstr ""
-"Ar y cyfan mae gwenyn unig yn nythu mewn tyllau. Mae un grŵp mawr, y gwenyn "
-"turio, yn gwneud tyllau yn y pridd. Mae grŵp arall, yn cynnwys y saerwenyn "
-"a'r gwenyn deildorrol, yn defnyddio tyllau mewn pren, planhigion neu waliau."
 
 # photos caption_1
 #: CY
@@ -2908,17 +2958,12 @@ msgid ""
 "Among the many species of solitary bee, there is a lot of variation in size,"
 " colour and how hairy they appear. Some examples are shown above."
 msgstr ""
-"Ymysg y rhywogaethau niferus o wenyn unig, mae llawer o amrywiaeth o ran "
-"maint, lliw a pha mor flewog maen nhw. Mae rhai enghreifftiau i'w gweld "
-"uchod."
 
 # photos caption_1
 #: UK DE SE HR IE
 msgid ""
 "The Ashy Mining Bee (<i>Andrena cineraria</i>) has black and grey stripes"
 msgstr ""
-"Mae gan y math hwn o Wenynen Durio, <i>Andrena cineraria</i>, streipiau du a"
-" llwyd"
 
 # photos caption_2
 #: UK DE SE HR IE
@@ -2927,10 +2972,6 @@ msgid ""
 "they have bee-like hairs on part of their body, and most are similar in "
 "shape and with a mix of black, red and yellow colours"
 msgstr ""
-"Gall gwenyn yn y genws <i>Nomada</i> edrych yn debyg iawn i wenyn meirch, "
-"ond mae ganddynt flew tebyg i flew gwenyn ar ran o'u corff, ac mae'r rhan "
-"fwyaf yn debyg o ran siâp ac mae ganddynt gymysgedd o liwiau du, coch a "
-"melyn."
 
 # photos caption_3
 #: UK DE SE HR
@@ -2938,8 +2979,6 @@ msgid ""
 "This scissor bee (genus <i>Chelostoma</i>) is one of the smallest solitary "
 "bees, at around 4mm long"
 msgstr ""
-"Mae'r wenynen hon o'r genws <i>Chelostoma</i> yn un o'r gwenyn unig lleiaf "
-"ac yn tua 4mm o hyd"
 
 # photos caption_4
 #: UK DE SE HR IE
@@ -2947,9 +2986,6 @@ msgid ""
 "In late summer the Ivy Bee (<i>Colletes hederae</i>) visits Ivy flowers – "
 "when fresh these bees have clear black and yellow stripes on the abdomen"
 msgstr ""
-"Ddiwedd yr haf mae'r wenynen hon, <i>Colletes hederae</i>, yn ymweld â "
-"blodau iorwg – pan maent yn ffres mae gan y gwenyn hyn streipiau du a melyn "
-"clir ar yr abdomen"
 
 # photos extraText
 #: UK DE SE HR CY IE BR
@@ -2957,8 +2993,6 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “solitary bees”!"
 msgstr ""
-"Does dim angen i chi adnabod y rhywogaethau unigol i wneud Cyfrif FIT. Mae "
-"pob un yn cael ei chyfrif fel “gwenynen unig”!"
 
 # photos caption_1
 #: CY
@@ -3071,21 +3105,24 @@ msgid ""
 "augusti) presents two different colour morphs, the dark morph is pictured "
 "above."
 msgstr ""
+"Las abejas nativas de Chile suelen ser solitarias. La abeja carpintera "
+"(Xylocopa augusti) presenta dos morfologías de color, la morfología oscura "
+"se muestra arriba."
 
 # photos caption_1
 #: CL
 msgid "Dark eyes and head"
-msgstr ""
+msgstr "Ojos y cabeza oscuros"
 
 # photos caption_2
 #: CL
 msgid "Abdomen is dark with orange flanks"
-msgstr ""
+msgstr "El abdomen es oscuro con los costados anaranjados"
 
 # photos caption_3
 #: CL
 msgid "Pollen that has been deposited on its back or legs"
-msgstr ""
+msgstr "Polen que ha quedado depositado en el lomo o en las patas"
 
 # photos intro_text
 #: CL
@@ -3093,16 +3130,18 @@ msgid ""
 "The yellow or golden morph of the carpenter bee (Xylocopa augusti) is "
 "pictured above."
 msgstr ""
+"La morfología amarilla o dorada de la abeja carpintera (Xylocopa augusti) "
+"aparece en la foto de arriba."
 
 # photos caption_1
 #: CL
 msgid "Bright greenish eyes"
-msgstr ""
+msgstr "Ojos verdosos y brillantes"
 
 # photos caption_2
 #: CL
 msgid "Fuzzy golden yellow body and legs"
-msgstr ""
+msgstr "Cuerpo y patas peludos de color amarillo dorado"
 
 # photos intro_text
 #: CL
@@ -3110,16 +3149,18 @@ msgid ""
 "Cadeguala occidentalis is probably the native bee that most resembles the "
 "European honeybee"
 msgstr ""
+"Cadeguala occidentalis es probablemente la abeja nativa que más se parece a "
+"la abeja europea"
 
 # photos caption_1
 #: CL
 msgid "Large, dark eyes"
-msgstr ""
+msgstr "Ojos grandes y oscuros"
 
 # photos caption_2
 #: CL
 msgid "Fuzzy orange body and legs"
-msgstr ""
+msgstr "Cuerpo y patas peludos de color naranja"
 
 # photos intro_text
 #: UK CY AR IE DE HR BR SE
@@ -3127,13 +3168,13 @@ msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
 msgstr ""
-"Mae llawer o wahanol rywogaethau o wenyn meirch, ond y rhai mwyaf cyfarwydd "
-"yw'r gwenyn meirch cymdeithasol, fel yr un uchod."
+"Hay muchas especies diferentes de avispas, pero las más familiares son las "
+"avispas sociales, como la que se ve arriba."
 
 # photos caption_1
 #: UK CY AR IE DE HR BR CL SE
 msgid "Long antennae (distinguishes them from most flies)"
-msgstr "Teimlyddion hir (sy'n wahanol i'r rhan fwyaf o glêr)"
+msgstr "Antenas largas (las distingue de la mayoría de las moscas)"
 
 # photos caption_2
 #: UK CY AR IE DE HR BR CL SE
@@ -3141,8 +3182,8 @@ msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
 msgstr ""
-"Mae rhywfaint o flew ar y corff, ond fel arfer mae'r blew ar wenyn meirch yn"
-" llawer llai trwchus a fflwffog nag ar wenyn"
+"Tienen algunos pelos en el cuerpo, pero en general las avispas son mucho "
+"menos peludas en comparación con las abejas"
 
 # photos caption_3
 #: UK CY AR IE DE HR BR CL
@@ -3150,20 +3191,21 @@ msgid ""
 "Social wasps and some of the solitary species have bold black and yellow "
 "stripes"
 msgstr ""
+"Tanto las avispas sociales como algunas de las especies solitarias tienen "
+"rayas negras y amarillas"
 
 # photos caption_4
 #: UK CY AR IE DE HR BR CL SE
 msgid "Some wasps have their wings rolled up when at rest"
-msgstr ""
-"Mae rhai gwenyn meirch yn rholio'u hadenydd i fyny pan maen nhw'n gorffwys"
+msgstr "Algunas avispas tienen las alas plegadas cuando están en reposo"
 
 # photos caption_5
 #: UK CY AR IE DE HR BR CL SE
 msgid ""
 "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 msgstr ""
-"Mae gan wenyn meirch ganol main iawn nodweddiadol lle mae'r thoracs a'r "
-"abdomen yn cwrdd"
+"Las avispas tienen una \"cintura de avispa\" muy estrecha en la unión entre "
+"el tórax y el abdomen"
 
 # photos intro_text
 #: UK CY IE DE HR BR
@@ -3173,27 +3215,23 @@ msgid ""
 "pollen they have no pollen basket (although pollen may become stuck to their"
 " bodies)."
 msgstr ""
-"Mae llawer o amrywiaeth ymysg y gwenyn meirch unig o ran eu maint, eu siâp "
-"a'r marciau arnynt. Fel arfer nid ydynt yn amlwg flewog, ac am nad ydynt yn "
-"casglu paill, does dim basged paill ganddyn nhw (er gall paill lynu wrth eu "
-"cyrff)."
 
 # photos caption_1
 #: UK CY IE DE HR CL
 msgid "Many solitary wasps have a distinctive broad, boxy head shape"
-msgstr "Mae gan lawer o wenyn meirch unig siâp pen llydan amlwg fel bocs"
+msgstr ""
+"Muchas avispas solitarias tienen una distintiva forma de cabeza ancha y "
+"cuadrada"
 
 # photos caption_2
 #: UK CY IE DE HR
 msgid "Some have typical black and yellow wasp stripes"
-msgstr "Mae gan rai streipiau du a melyn nodweddiadol y gwenyn meirch"
+msgstr ""
 
 # photos caption_3
 #: UK CY IE DE HR
 msgid "Others may be black and red, or all black as in this example"
 msgstr ""
-"Gall rhai eraill fod yn ddu a choch, neu'n gwbl ddu, fel yn yr enghraifft "
-"hwn"
 
 # photos extraText
 #: UK CY IE DE HR BR
@@ -3201,8 +3239,6 @@ msgid ""
 "Solitary wasps generally nest in burrows or holes, in a similar manner to "
 "the solitary bees."
 msgstr ""
-"Ar y cyfan mae gwenyn meirch unig yn nythu mewn tyllau, yn debyg i'r gwenyn "
-"unig."
 
 # photos intro_text
 #: UK IE DE HR CY BR
@@ -3210,15 +3246,11 @@ msgid ""
 "There are many different parasitic wasps, some of which visit flowers for "
 "nectar. Two examples are shown above."
 msgstr ""
-"Mae nifer o wahanol wenyn meirch parasitig, ac mae rhai ohonynt yn ymweld â "
-"blodau i gael neithdar. Mae dwy enghraifft i'w gweld uchod."
 
 # photos caption_1
 #: UK IE DE HR CY BR
 msgid "Many parasitic wasps are very long and thin, with a tiny wasp waist"
 msgstr ""
-"Mae llawer o wenyn meirch parasitig yn denau a hir iawn, a'u canol yn "
-"arbennig o fain."
 
 # photos caption_2
 #: UK IE DE HR CY BR
@@ -3226,8 +3258,6 @@ msgid ""
 "The majority of species have very long antennae, made up of lots of "
 "individual segments"
 msgstr ""
-"Mae gan y rhan fwyaf o rywogaethau deimlyddion hir iawn, wedi'u gwneud o "
-"lawer o adrannau unigol."
 
 # photos caption_3
 #: UK IE DE HR CY BR
@@ -3235,8 +3265,6 @@ msgid ""
 "Female parasitic wasps can have a sharp ovipositor used for egg-laying – in "
 "some species this is very long"
 msgstr ""
-"Gall fod gan fenyw y gwnenyn meirch parasitig wyddodydd miniog y mae'n ei "
-"ddefnyddio i ddodwy ei hwyau – mewn rhai rhywogaethau mae hwn yn hir iawn"
 
 # photos caption_4
 #: UK IE DE HR CY BR
@@ -3244,8 +3272,6 @@ msgid ""
 "Colours are usually a mix of black and red or yellow – some species are all-"
 "black"
 msgstr ""
-"Fel arfer maent yn gymysgedd o ddu a choch neu felyn eu lliw – mae rhai "
-"rhywogaethau yn gyfan gwbl ddu"
 
 # photos extraText
 #: UK IE DE HR CY BR
@@ -3253,8 +3279,6 @@ msgid ""
 "Parasitic wasps lay their eggs into other invertebrates, or their nests, and"
 " the larvae of the wasps consume the host invertebrate."
 msgstr ""
-"Mae gwenyn meirch parasitig yn dodwy eu hwyau mewn infertebratau eraill, neu"
-" yn eu nythod, ac mae larfâu'r gwenyn meirch yn bwyta'r infertebrat lletyol."
 
 # photos extraText
 #: BR
@@ -3281,6 +3305,9 @@ msgid ""
 "social wasps such as the one shown above. All wasps pictured are UK species "
 "for reference."
 msgstr ""
+"Hay muchas especies diferentes de avispas, pero las más conocidas son las "
+"sociales, como la que se muestra arriba. Las avispas que aparecen son "
+"especies del Reino Unido como referencia."
 
 # photos intro_text
 #: CL
@@ -3289,6 +3316,9 @@ msgid ""
 "wasps. They are usually not obviously hairy, and they do not have no pollen "
 "basket."
 msgstr ""
+"Entre las avispas solitarias hay una gran variación de tamaño, forma y "
+"marcas. Por lo general, no son evidentemente peludas y no tienen cesta de "
+"polen."
 
 # photos intro_text
 #: UK SE DE CY HR IE
@@ -3296,9 +3326,6 @@ msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
 msgstr ""
-"Math o glêr yw pryfed hofran, yn perthyn i urdd Diptera. Mae pryfed hofran "
-"yn ehedwyr actif a chwim iawn, ac fe'i gwelir yn aml yn hofran, fel y "
-"byddech yn ei ddisgwyl yn ôl yr enw."
 
 # photos caption_1
 #: UK SE DE CY HR IE
@@ -3306,15 +3333,13 @@ msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
 msgstr ""
-"Llygaid mawr, yn gorchuddio'r rhan fwyaf o'r pen yn y gwrywod (fel gwelir "
-"uchod) neu gyda bwlch bychan rhwng y llygaid ar dop y pen yn y benywod"
 
 # photos caption_2
 #: UK SE DE CY HR IE BR AR
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
-"Mae gan y rhan fwyaf o bryfed hofran deimlyddion llawer byrrach na gwenyn a "
-"gwenyn meirch"
+"La mayoría de las moscas florícolas tienen antenas mucho más cortas que las "
+"de abejas o avispas"
 
 # photos caption_3
 #: UK SE DE CY HR IE
@@ -3322,8 +3347,6 @@ msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
 msgstr ""
-"Yn yr adenydd mae gwythïen ‘ymyl ffug’, sydd fwy neu lai'n gyfochrog â gwir "
-"ymyl yr adain"
 
 # photos caption_4
 #: UK SE DE CY HR IE BR AR
@@ -3331,8 +3354,8 @@ msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
 msgstr ""
-"Mae gan lawer o rywogaethau pryfed hofran streipiau du a melyn, ond mae rhai"
-" yn ddu drostynt i gyd neu mae ganddynt batrymau eraill arnynt"
+"Muchas especies de moscas florícolas tienen franjas negras y amarillas, pero"
+" algunas son completamente oscuras o tienen otros patrones."
 
 # photos caption_5
 #: UK SE DE CY HR IE BR AR
@@ -3341,9 +3364,9 @@ msgid ""
 "exceptions!), and they do not usually have prominent bristles on the body "
 "(some other types of fly are obviously bristly)"
 msgstr ""
-"Fel arfer nid yw pryfed hofran mor flewog â gwenyn (ond mae rhai "
-"eithriadau!), ac fel arfer does ganddyn nhw ddim gwrych amlwg ar eu cyrff "
-"(mae rhai mathau eraill o glêr yn amlwg wrychog)"
+"Las moscas florícolas son menos peludas que las abejas (aunque hay "
+"excepciones) y generalmente no tienen cerdas prominentes en el cuerpo (otros"
+" tipos de moscas tienen muchas cerdas)"
 
 # photos extraText
 #: UK
@@ -3351,9 +3374,6 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
 msgstr ""
-"Mae pryfed hofran yn bwydo ar neithdar a phaill, ond nid ydynt yn casglu "
-"neithdar ac nid oes ganddynt fasgedi paill. Mae tua 285 o rywogaethau o "
-"bryfed hofran yn y Deyrnas Unedig."
 
 # photos extraText
 #: SE
@@ -3397,33 +3417,27 @@ msgid ""
 "quite a lot of variety in shape, size and marking among the full range of "
 "species. Some examples are shown above."
 msgstr ""
-"Mae gan nifer o bryfed hofran y marciau du a melyn nodweddiadol, ond mae "
-"cryn dipyn o amrywiaeth ymysg yr ystod lawn o rywogaethau o ran eu siâp, eu "
-"maint a'r marciau arnynt. Mae rhai enghreifftiau i'w gweld uchod."
 
 # photos caption_1
 #: UK IE DE SE HR
 msgid "Drone-fly hoverflies have much shorter antennae than honeybees"
 msgstr ""
-"Mae gan bryfed hofran yn y genws <i>Eristalis</i>, sy'n debyg i wenyn "
-"gormes, deimlyddion llawer byrrach na gwenyn mêl"
 
 # photos caption_2
 #: UK IE DE SE HR CY PT
 msgid "The eyes cover more of the head"
-msgstr "Mae'r llygaid yn gorchuddio'r rhan fwyaf o'r pen"
+msgstr ""
 
 # photos caption_3
 #: UK IE DE SE HR CY
 msgid ""
 "The back legs are much narrower than the broad flattened legs of honeybees"
 msgstr ""
-"Mae'r coesau ôl yn llawer teneuach na choesau llydan a fflat gwenyn mêl"
 
 # photos caption_4
 #: UK IE DE SE HR CY PT
 msgid "The typical ‘false margin’ wing vein is present"
-msgstr "Mae'r wythïen ‘ymyl ffug’ nodweddiadol i'w gweld ar yr adain"
+msgstr ""
 
 # photos caption_5
 #: UK IE DE SE HR CY
@@ -3431,8 +3445,6 @@ msgid ""
 "Drone-fly hoverflies have a distinctive ‘loop’ in the wing vein near the tip"
 " of the wing"
 msgstr ""
-"Mae gan bryfed hofran yn y genws hwn 'ddolen' nodweddiadol yn y wythïen ger "
-"pen yr adain"
 
 # photos caption_1
 #: CY
@@ -3447,8 +3459,6 @@ msgid ""
 "The Hornet Hoverfly (<i>Volucella zonaria</i>) is our largest hoverfly and "
 "is a good mimic of hornets, but note the short antennae"
 msgstr ""
-"Y math hwn o bryf hofran, <i>Volucella zonaria</i> yw'n pryf hofran mwyaf ac"
-" mae'n dda am efelychu gwenyn meirch mawr, ond sylwch ar y teimlyddion byr"
 
 # photos caption_2
 #: UK DE SE HR IE
@@ -3456,8 +3466,6 @@ msgid ""
 "A few species have extended ‘noses’ – this one is <i>Rhingia campestris</i>,"
 " a widespread species with a distinctive grey and orange colour"
 msgstr ""
-"Mae gan rai rhywogaethau ‘drwynau’ hir – <i>Rhingia campestris</i> yw hwn, "
-"sy'n rhywogaeth gyffredin a chanddi liw llwyd ac oren unigryw"
 
 # photos caption_3
 #: UK DE SE HR CY IE
@@ -3465,8 +3473,6 @@ msgid ""
 "A few hoverflies are very good bumblebee mimics – check the antennae to be "
 "sure they are not bumblebees!"
 msgstr ""
-"Mae rhai pryfed hofran yn dda iawn am efelychu cacwn – edrychwch ar y "
-"teimlyddion i wirio nad cacwn ydyn nhw!"
 
 # photos caption_4
 #: UK DE SE HR CY IE
@@ -3475,10 +3481,6 @@ msgid ""
 "wing veins (if you can get close enough to see them) and in flight will "
 "hover like typical hoverflies"
 msgstr ""
-"Mae rhai pryfed hofran yn fach ac yn bennaf dywyll eu lliw, ond mae ganddynt"
-" y gwythiennau nodweddiadol ar eu hadenydd (os gallwch fynd yn ddigon agos "
-"i'w gweld nhw) ac wrth hedfan maen nhw'n hofran fel pryfed hofran "
-"nodweddiadol"
 
 # photos caption_1
 #: CY
@@ -3509,16 +3511,18 @@ msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name."
 msgstr ""
+"Las moscas planeadoras son voladoras muy activas y ágiles, y se las ve con "
+"frecuencia volando suspendidas y estáticas frente a las flores."
 
 # photos caption_1
 #: CL
 msgid "Large eyes, covering most of the head in males"
-msgstr ""
+msgstr "Ojos grandes, que cubren la mayor parte de la cabeza en los machos"
 
 # photos caption_2
 #: CL
 msgid "Short antennae"
-msgstr ""
+msgstr "Antenas cortas"
 
 # photos caption_3
 #: CL
@@ -3526,16 +3530,18 @@ msgid ""
 "They can have black and yellow stripes, but some are all dark or have other "
 "patterns"
 msgstr ""
+"Pueden tener rayas negras y amarillas, pero algunas son todas oscuras o "
+"tienen otros patrones"
 
 # photos intro_text
 #: CL
 msgid "The fly Toxomerus vertebratus pictured here also has:"
-msgstr ""
+msgstr "La mosca Toxomerus vertebratus que aparece aquí también tiene:"
 
 # photos caption_3
 #: CL
 msgid "All dark abdomen, or black and yellow stripes"
-msgstr ""
+msgstr "Todo el abdomen oscuro, o rayas negras y amarillas"
 
 # photos intro_text
 #: BR AR
@@ -3544,11 +3550,14 @@ msgid ""
 " are very active and agile flyers, and are frequently seen hovering, as you "
 "would expect from their name. "
 msgstr ""
+"Hay muchos tipos de moscas que pueden verse visitando flores. Las moscas "
+"florícolas son voladores activos y ágiles, y frecuentemente se ven "
+"suspendidas en el aire, manteniendo una posición fija durante el vuelo."
 
 # photos caption_1
 #: BR AR
 msgid "Large eyes, covering most of the head"
-msgstr ""
+msgstr "Ojos grandes, cubriendo la mayor parte de la cabeza"
 
 # photos extraText
 #: BR AR
@@ -3556,27 +3565,35 @@ msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets."
 msgstr ""
+"Las moscas florícolas se alimentan de néctar y polen, pero no recolectan "
+"néctar ni tienen estructuras especializadas para juntar polen."
 
 # photos intro_text
 #: BR AR
 msgid ""
 "Other flies do not have the ability to hover. Two examples are shown above."
 msgstr ""
+"Otras moscas no tienen la habilidad de mantenerse suspendidas en el aire. "
+"Arriba se muestran dos ejemplos."
 
 # photos caption_1
 #: BR AR
 msgid "This is a fly of the family Empididae"
-msgstr ""
+msgstr "Esta es una mosca de la familia Empididae"
 
 # photos caption_2
 #: BR AR
 msgid "Empididae flies have a long thin proboscis under the head"
 msgstr ""
+"Las moscas de la familia Empididae tienen una trompa larga y delgada debajo "
+"de la cabeza"
 
 # photos caption_3
 #: BR AR
 msgid "Many Empididae flies have a distinctly humped thorax"
 msgstr ""
+"Muchas moscas de la familia Empididae tienen un tórax jorobado "
+"característico"
 
 # photos caption_4
 #: BR AR
@@ -3585,11 +3602,15 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body. This is a parasitic fly from family Tachinidae"
 msgstr ""
+"Algunas de las moscas más grandes que vas a ver en las flores son de "
+"familias \"caliptradas\", la mayoría de las cuales son insectos más bien "
+"redondeados con cerdas evidentes en patas y cuerpo. Esta es una mosca "
+"parasítica de la familia Tachinidae"
 
 # photos caption_5
 #: BR AR UK IE DE SE HR CY
 msgid "It has prominent bristles on the abdomen"
-msgstr "Mae ganddi wrych amlwg ar ei habdomen"
+msgstr "Tiene cerdas prominentes en el abdomen"
 
 # photos extraText
 #: BR AR
@@ -3597,6 +3618,8 @@ msgid ""
 "You don’t need to recognise the individual species to do a FIT Count, they "
 "all get counted as “flies”!"
 msgstr ""
+"No es necesario reconocer la especie individual para hacer un Conteo FIT. "
+"¡Todas son contadas como \"moscas\"!"
 
 # photos intro_text
 #: UK IE DE SE HR CY
@@ -3607,11 +3630,6 @@ msgid ""
 "but not many other flies have. Two examples of “other flies” are shown above"
 " and two on the next screen."
 msgstr ""
-"Gallwch weld nifer o wahanol fathau o glêr yn ymweld â blodau – ar gyfer y "
-"Cyfrif FIT dim ond eu gwahanu'n “bryfed hofran” a “chlêr” eraill mae angen i"
-" chi wneud! Peidiwch ag anghofio bod pryfed hofran yn gallu hofran, rhywbeth"
-" y gall rhai clêr eraill ei wneud, ond dim llawer ohonynt. Mae dwy "
-"enghraifft o “glêr” eraill i'w gweld uchod a dwy ar y sgrin nesaf."
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -3621,12 +3639,14 @@ msgstr ""
 # photos caption_2
 #: UK IE DE SE HR CY CL
 msgid "Many dance flies have a long thin proboscis under the head"
-msgstr "Mae gan lawer o bryfed dawnsio drwnc hir a main o dan y pen"
+msgstr ""
+"Muchas moscas danzantes tienen una probóscide larga y delgada situada debajo"
+" de la cabeza"
 
 # photos caption_3
 #: UK IE DE SE HR CY CL
 msgid "Many dance flies have a distinctly humped thorax"
-msgstr "Mae gan lawer o bryfed dawnsio thoracs cefngrwm amlwg"
+msgstr "Muchas moscas danzantes tienen un tórax claramente jorobado"
 
 # photos caption_4
 #: UK IE DE SE HR CL
@@ -3634,13 +3654,13 @@ msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
 msgstr ""
-"Pryf Milwrol Gwyrdd yw hwn (<i>Chloromyia formosa</i>), ac fe'i gwelir yn "
-"aml ar efwr a blodau tebyg"
+"Esta es una mosca soldado (Chloromyia formosa) que se ve a menudo en el "
+"perejil y las flores afines."
 
 # photos caption_5
 #: UK IE DE SE HR CY CL
 msgid "The abdomen is broader and flatter than in hoverflies"
-msgstr "Mae'r abdomen yn lletach ac yn fwy fflat na mewn pryfed hofran"
+msgstr "El abdomen es más ancho y plano que en las moscas planeadoras"
 
 # photos caption_6
 #: UK IE DE SE HR CY CL
@@ -3648,8 +3668,8 @@ msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
 msgstr ""
-"Mae gwythieniad yr adenydd yn wahanol i bryfed hofran, ac nid oes gwythïen "
-"‘ymyl ffug’ yn gyfochrog â gwir ymyl yr adain"
+"Las venas de las alas es diferente a las moscas planeadoras, ya que no hay "
+"una vena alar de \"falso margen\" paralela al verdadero borde del ala"
 
 # photos caption_1
 #: CY
@@ -3670,19 +3690,16 @@ msgid ""
 " families, most of which are rather rounded insects with obvious bristles on"
 " the legs and body."
 msgstr ""
-"Mae rhai o'r clêr mwy a welwch ar flodau yn perthyn i deuluoedd y "
-"‘calypterate’, a'r rhan fwyaf o'r rhain yn bryfed eithaf crwn a chanddynt "
-"wrych amlwg ar eu coesau a'u cyrff."
 
 # photos caption_1
 #: UK IE DE SE HR
 msgid "This is a parasitic fly from family Tachinidae"
-msgstr "Cleren barasitig yw hon o'r teulu Tachinidae"
+msgstr ""
 
 # photos caption_3
 #: UK IE DE SE HR
 msgid "This is the Yellow Dung-fly (family Scathophagidae)"
-msgstr "Cleren Felen y Dom yw hon (teulu'r Scathophagidae)"
+msgstr ""
 
 # photos caption_4
 #: UK IE DE SE HR CY
@@ -3690,8 +3707,6 @@ msgid ""
 "It has bristles on the body and legs, and the males in particular have "
 "fluffy yellow hairs on the body"
 msgstr ""
-"Mae ganddi wrych ar ei chorff a'i choesau, ac mae gan y gwrywod yn arbennig "
-"flew melyn fflwffog ar eu cyrff"
 
 # photos caption_1
 #: CY
@@ -3712,11 +3727,16 @@ msgid ""
 "but not many other flies have. The two examples shown here are UK species "
 "for reference."
 msgstr ""
+"Hay muchas moscas diferentes que podrá ver visitando las flores; para el "
+"conteo FIT sólo necesita separarlas en \"moscas planeadoras\" y \"demás "
+"moscas\". No olvide que las moscas planeadoras pueden permanecer estáticas "
+"en el aire, una habilidad que sólo tienen algunas moscas. Los dos ejemplos "
+"mostrados aquí son especies del Reino Unido como referencia."
 
 # photos caption_1
 #: CL
 msgid "This is a dance fly (family Empididae)"
-msgstr ""
+msgstr "Esta es una mosca danzante (familia Empdididae)"
 
 # photos intro_text
 #: UK IE DE SE HR
@@ -3730,12 +3750,12 @@ msgstr ""
 # photos caption_1
 #: UK IE DE SE HR
 msgid "Small Tortoiseshell butterfly"
-msgstr "Trilliw Bach"
+msgstr ""
 
 # photos caption_2
 #: UK IE DE SE HR CY
 msgid "Common Blue butterfly"
-msgstr "Y Glesyn Cyffredin"
+msgstr ""
 
 # photos extraText
 #: UK IE DE SE HR CY BR
@@ -3743,8 +3763,6 @@ msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
 msgstr ""
-"Ar gyfer y Cyfrif FIT, does dim angen gwahaniaethu rhwng pili-palod a "
-"gwyfynod – maen nhw i gyd yn cael eu cyfrif o fewn yr un categori."
 
 # photos intro_text
 #: UK IE DE SE HR CY
@@ -3754,20 +3772,16 @@ msgid ""
 "moths”). All moths have patterns and colours produced by the tiny scales on "
 "their wings."
 msgstr ""
-"Gellir gweld amrywiaeth o wyfynod sy'n hedfan yn y dydd yn ymweld â blodau. "
-"Mae rhai o'r rhain yn eithaf mawr (“gwyfynod mawr”) a lliwgar, ac mae rhai "
-"yn fach iawn (“gwyfynod bach”). Mae gan yr holl wyfynod batrymau a lliwiau "
-"sy'n cael eu cynhyrchu gan y cennau pitw bach ar eu hadenydd."
 
 # photos caption_1
 #: UK IE DE SE HR
 msgid "Six-spot Burnet moth (a macro-moth)"
-msgstr "Bwrned chwe smotyn (gwyfyn mawr)"
+msgstr ""
 
 # photos caption_2
 #: UK IE DE SE HR
 msgid "Nettle-tap moth (a micro-moth)"
-msgstr "Gwyfyn o'r genws <i>Anthophila</i> (gwyfyn bach)"
+msgstr ""
 
 # photos intro_text
 #: CY
@@ -3777,11 +3791,6 @@ msgid ""
 "night. Some moths (see next screen) are quite small and could be overlooked "
 "as other types of insect."
 msgstr ""
-"Rydym yn gyfarwydd iawn â gweld pili-palod yn ymweld â blodau. Efallai ein "
-"bod yn sylwi ar wyfynod yn llai aml ond maen nhw hefyd yn ymweld â blodau'n "
-"rheolaidd, naill ai yn ystod y dydd neu yn y nos. Mae rhai gwyfynod (gweler "
-"y sgrin nesaf) yn eithaf bach ac maen bosib y byddwch yn anghofio amdanynt "
-"fel mathau eraill o bryfed."
 
 # photos caption_1
 #: CY
@@ -3822,11 +3831,14 @@ msgid ""
 "Butterflies are very familiar flower visitors. The butterfly Vanessa carye, "
 "pictured here is one of the most common butterfly species in Chile."
 msgstr ""
+"Las mariposas son visitantes florales muy comunes. La mariposa Vanessa "
+"carye, fotografiada aquí, es una de las especies de mariposas más comunes en"
+" Chile."
 
 # photos intro_text
 #: AR
 msgid "Butterflies are very familiar flower visitors."
-msgstr ""
+msgstr "Las mariposas son visitantes florales muy conocidos."
 
 # photos intro_text
 #: CL
@@ -3835,11 +3847,16 @@ msgid ""
 " mostly white wings with a dark wing edge, and a pair of dark spots on the "
 "dorsal side"
 msgstr ""
+"Arriba hay dos fotos de otra mariposa común, Pieris brassicae. Tiene las "
+"alas mayoritariamente blancas con un borde alar oscuro, y un par de manchas "
+"oscuras en la parte dorsal"
 
 # photos intro_text
 #: CL AR
 msgid "Moths also visit flowers regularly, either by day or by night."
 msgstr ""
+"Las polillas también visitan regularmente las flores, ya sea de día o de "
+"noche."
 
 # photos caption_1
 #: CL AR
@@ -3847,11 +3864,14 @@ msgid ""
 "The Hyles annei moth pictured here is a regular flower visitor. It is a "
 "large moth and from a distance can be confused with a hummingbird"
 msgstr ""
+"La polilla Hyles annei que aparece en la foto es un visitante regular de las"
+" flores. Es una polilla grande y a la distancia puede confundirse con un "
+"colibrí."
 
 # photos caption_2
 #: CL AR
 msgid "Other moths include Ormiscodes amphinome, pictured here"
-msgstr ""
+msgstr "Otras polillas incluyen la Ormiscodes amphinome, ilustrada aquí."
 
 # photos intro_text
 #: UK CY AR IE DE SE HR BR
@@ -3861,11 +3881,10 @@ msgid ""
 " colour, but can be recognised as beetles by the hard wing cases covering "
 "their abdomen."
 msgstr ""
-"Cymharol brin yw'r rhywogaethau o chwilod sy'n ymweld â blodau, ond mae'r "
-"rhai sy'n gwneud yn gallu bod yn doreithiog iawn. Mae'r gwahanol "
-"rywogaethau'n amrywio'n fawr o ran eu maint, eu siâp a'u lliw, ond gellir eu"
-" hadnabod fel chwilod oherwydd y cistiau adenydd caled sy'n gorchuddio'r "
-"abdomen."
+"Hay relativamente pocas especies de escarabajo que visiten flores, pero las "
+"que lo hacen pueden ser muy abundantes. Aunque hay una gran diversidad de "
+"tamaños, formas y colores, pueden ser reconocidas como escarabajos por las "
+"alas endurecidas que cubren su abdomen."
 
 # photos caption_1
 #: UK CY AR IE DE SE HR BR
@@ -3873,13 +3892,13 @@ msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
 msgstr ""
-"Mae gan chwilod adenydd blaen sydd wedi caledu ac sy'n gweithio fel gorchudd"
-" ar gyfer yr adenydd ôl mwy meddal a'r abdomen"
+"Los escarabajos tienen élitros: un par de alas delanteras endurecidas que "
+"cubren y protegen las delicadas alas traseras y el abdomen"
 
 # photos caption_2
 #: UK CY AR IE DE SE HR BR
 msgid "Beetles have chewing mouthparts"
-msgstr "Mae gan chwilod rannau cnoi yn eu cegau"
+msgstr "Los escarabajos tienen piezas bucales que sirven para masticar"
 
 # photos caption_3
 #: UK CY AR IE DE SE HR
@@ -3887,13 +3906,13 @@ msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
 msgstr ""
-"Chwilen o'r enw <i>Oedemera nobilis</i> yw hon, ac mae gan y gwrywod goesau "
-"ôl tew amlwg"
+"Este es el escarabajo metálico de fémur grueso (<i>Oedemera nobilis</i>), "
+"especie en la que los machos tienen patas traseras ensanchadas"
 
 # photos intro_text
 #: UK IE DE SE HR CY
 msgid "Above are two more examples of beetles that regularly visit flowers."
-msgstr "Uchod mae dwy enghraifft o chwilen sy'n ymweld â blodau'n aml."
+msgstr ""
 
 # photos caption_1
 #: UK IE DE SE HR
@@ -3901,8 +3920,6 @@ msgid ""
 "Red soldier beetle (<i>Rhagonycha fulva</i>) with black tips to wing cases –"
 " very abundant on flowers in mid-summer"
 msgstr ""
-"Chwilen o'r enw <i>Rhagonycha fulva</i> gyda'r pig ar gas ei hadenydd yn ddu"
-" – toreithiog iawn ar flodau ganol yr haf"
 
 # photos caption_2
 #: UK IE DE SE HR
@@ -3910,8 +3927,6 @@ msgid ""
 "Black and yellow longhorn beetle (<i>Rutpela maculata</i>), a large beetle –"
 " larvae live in decaying wood"
 msgstr ""
-"Chwilen fawr o'r enw <i>Rutpela maculata</i> – mae'r larfâu'n byw mewn pren "
-"sy'n pydru"
 
 # photos caption_1
 #: CY
@@ -3952,11 +3967,13 @@ msgid ""
 "The Cylindrophora maulica beetle is a rare flower visitor but is easily "
 "identified."
 msgstr ""
+"El escarabajo Cylindrophora maulica es un visitante floral poco frecuente, "
+"pero se identifica fácilmente."
 
 # photos caption_1
 #: CL
 msgid "A metallic/iridescent body"
-msgstr ""
+msgstr "Cuerpo metálico/iridiscente."
 
 # photos intro_text
 #: UK AR IE DE SE HR BR CY
@@ -3966,10 +3983,11 @@ msgid ""
 "other insects visiting the flowers). Just count them (or estimate them if "
 "there is a large number) and assign them all to this category."
 msgstr ""
-"Mae'r categori hwn ar gyfer unrhyw bryfed sy'n llai na 3mm o hyd. Gall fod "
-"yn anodd gwybod pa grŵp i roi'r rhain ynddo heb edrych yn agos iawn arnynt "
-"(a fyddai'n tarfu ar bryfed eraill sy'n ymweld â'r blodau). Cyfrwch nhw (neu"
-" ddyfalu eu nifer os oes nifer fawr) a rhowch nhw i gyd yn y categori hwn."
+"Esta categoría es para cualquier insecto de menos de 3mm de largo. Estos "
+"insectos pueden ser difíciles de asignar a un grupo particular sin "
+"observarlos muy de cerca (lo que perturbaría a otros insectos visitando las "
+"flores). Simplemente contalos (o hacé una estimación si están en gran "
+"cantidad) y asignalos a todos a esta categoría. "
 
 # photos caption_1
 #: UK AR IE DE SE HR
@@ -3977,9 +3995,9 @@ msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
 msgstr ""
-"Mae'r enghraifft hon yn dangos blodyn â nifer o chwilod paill (o'r teulu "
-"Nitidulidae) – gall “pryfed bychain” eraill gynnwys clêr pitw bach a gwenyn "
-"meirch parasitig"
+"Este ejemplo muestra una flor con muchos escarabajos del polen (familia "
+"Nitidulidae) - otros \"insectos pequeños\" pueden incluir moscas minúsculas "
+"y avispas parasitoides"
 
 # photos caption_1
 #: BR CY
@@ -4090,6 +4108,9 @@ msgid ""
 "of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
 "America to South America."
 msgstr ""
+"Esta categoría es para cualquier murciélago nectarívoro. Glossophaginae es "
+"una subfamilia de murciélagos de hoja nasal (Phyllostomidae) que puede ser "
+"observada en el sur de Norteamérica, y en todo Centroamérica y Sudamérica. "
 
 # photos caption_1
 #: BR AR
@@ -4097,6 +4118,8 @@ msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
 msgstr ""
+"Este ejemplo muestra una flor siendo visitada por un murciélago de la "
+"especie <i>Glossophaga soricine</i> "
 
 # photos intro_text
 #: BR
@@ -4123,7 +4146,7 @@ msgstr ""
 # photos intro_text
 #: CL AR
 msgid "Hummingbirds are small, maximum 20cm in length"
-msgstr ""
+msgstr "Los picaflores son pequeños, con un máximo 20 cm de largo"
 
 # photos caption_1
 #: CL AR
@@ -4131,11 +4154,16 @@ msgid ""
 "Males of the Green-backed firecrown (Sephanoides sephaniodes) have "
 "iridescent red/orange feathers on their crown. Females have a green crown."
 msgstr ""
+"Los machos del picaflor chico (Sephanoides sephaniodes) tienen plumas "
+"iridiscentes de color rojo/naranja en la corona. Las hembras tienen una "
+"corona verde."
 
 # photos caption_2
 #: CL AR
 msgid "Both males and females have grey bellies, with a mottled appearance"
 msgstr ""
+"Tanto los machos como las hembras tienen el vientre gris, con un aspecto "
+"moteado."
 
 # photos intro_text
 #: CL AR
@@ -4143,6 +4171,8 @@ msgid ""
 "Hummingbirds can hover or perch as they drink nectar from flowers. They can "
 "fly forwards and backwards and are very fast."
 msgstr ""
+"Los picaflores pueden revolotear o posarse mientras beben el néctar de las "
+"flores. Pueden volar hacia delante y hacia atrás, y son muy rápidos."
 
 # photos caption_1
 #: CL AR
@@ -4150,6 +4180,8 @@ msgid ""
 "Males of the Oasis hummingbird (Rhodopis vesper) have iridescent violet "
 "feathers on their throats"
 msgstr ""
+"Los machos del picaflor del norte (Rhodopis vesper) tienen plumas violetas "
+"iridiscentes en parte del cuello."
 
 # photos intro_text
 #: CL
@@ -4158,11 +4190,14 @@ msgid ""
 "greyish/green, with a buff throat and belly and do not have iridescent "
 "feathers"
 msgstr ""
+"Tanto los machos como las hembras del picaflor gigante (Patagona gigas) son "
+"de color verde/grisáceo, con la garganta y el vientre de color marrón claro "
+"y no tienen plumas iridiscentes."
 
 # photos caption_1
 #: CL
 msgid "Buff throat and belly, mottled with rusty orange."
-msgstr ""
+msgstr "Garganta y vientre de color marrón claro, moteados de naranja."
 
 # photos intro_text
 #: UK AR IE DE HR BR CY
@@ -4174,12 +4209,12 @@ msgid ""
 "“other insects”. Sawflies are related to bees and wasps but there are a "
 "number of differences."
 msgstr ""
-"Mae'r categori hwn ar gyfer unrhyw bryfed sydd ddim yn ffitio yn y grwpiau "
-"eraill o bryfed, a gellir ei ddefnyddio hefyd ar gyfer unrhyw bryfed na "
-"allwch eu rhoi mewn grŵp o gwbl. Cyfrwch bob pryf a welwch, a defnyddio "
-"\"pryfed eraill\" ar gyfer unrhyw rai nad ydych chi'n eu hadnabod. Er "
-"enghraifft, caiff llifbryfed eu cyfrif fel \"pryfed eraill\". Mae'r llifbryf"
-" yn perthyn i'r gwenyn a'r gwenyn meirch, ond mae nifer o wahaniaethau."
+"Esta categoría es para cualquier insecto que no encaja en ningún otro grupo "
+"de insectos, y también puede usarse para cualquier insecto que no llegues a "
+"identificar en absoluto. Por favor, contá todos los insectos que veas, y usá"
+" \"otros insectos\" para cualquiera que no reconozcas. Por ejemplo, las "
+"moscas de sierra están emparentadas con abejas y avispas, pero presentan "
+"varias diferencias con estas."
 
 # photos caption_1
 #: UK AR IE DE HR SE BR CY
@@ -4187,9 +4222,9 @@ msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
 msgstr ""
-"Ymysg y pryfed eraill y gallech eu gweld mae'r llifbrif, sy'n dod mewn "
-"amrywiaeth o feintiau a lliwiau - mae rhai yn edrych yn eithaf tebyg i wenyn"
-" meirch"
+"Otros insectos que podrías observar incluyen a las moscas de sierra, que "
+"vienen en una variedad de colores y tamaños - algunas de las cuales se "
+"parecen bastante a las avispas"
 
 # photos caption_2
 #: UK AR IE DE HR SE BR CY
@@ -4197,21 +4232,20 @@ msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
 msgstr ""
-"Nid oes canol main ganddynt fel gwenyn meirch – nid oes bwlch rhwng yr "
-"abdomen a'r thoracs"
+"No tienen \"cintura de avispa\" - no hay una angostura entre abdomen y tórax"
 
 # photos caption_3
 #: UK AR IE DE HR SE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
-msgstr "Nid yw'r llifbryf yn flewog ac nid oes ganddo fasged paill"
+msgstr "Las moscas de sierra no son peludas ni tienen una canastilla de polen"
 
 # photos caption_4
 #: UK AR IE DE HR
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
-"Maen nhw'n symud yn eithaf araf fel arfer, ac yn hedfan yn fwy gwan na "
-"gwenyn neu wenyn meirch"
+"En general se mueve de modo más lento y con un vuelo más débil que abejas o "
+"avispas"
 
 # photos intro_text
 #: SE
@@ -4238,9 +4272,6 @@ msgid ""
 "occasionally, and if so they are counted in the “other insects” category. "
 "They are sometimes confused with beetles."
 msgstr ""
-"Nid yw pryfed yn urdd Hemiptera yn ymweld yn aml â blodau, ond efallai y "
-"gwelwch nhw weithiau, ac os gwnewch chi, rhowch nhw yn y categori \"pryfed "
-"eraill\". Weithiau mae pobl yn drysu rhwng y rhain a chwilod."
 
 # photos caption_1
 #: UK BR IE DE SE HR CY
@@ -4248,9 +4279,6 @@ msgid ""
 "True bugs have wings that overlap, so there is no clear midline along the "
 "abdomen – the wings form a X-shape"
 msgstr ""
-"Mae gan bryfed yn urdd Hemiptera ('true bugs' yn Saesneg) adenydd sy'n "
-"gorgyffwrdd, felly nid oes llinell ganol glir ar hyd yr abdomen – mae'r "
-"adenydd yn creu siâp X."
 
 # photos caption_2
 #: UK BR IE DE SE HR CY
@@ -4258,8 +4286,6 @@ msgid ""
 "Some bugs have a more-or-less triangular “scutellum” covering part of the "
 "abdomen, and adding to the X-shape effect"
 msgstr ""
-"Mae gan rai aelodau o'r grŵp hwn \"sgwtelwm\" trionglog yn gorchuddio rhan "
-"o'r abdomen, ac sy'n ychwanegu at effaith y siâp X"
 
 # photos caption_3
 #: UK BR IE DE SE HR CY
@@ -4267,14 +4293,12 @@ msgid ""
 "True bugs have sucking mouthparts, with a long proboscis or rostrum (but "
 "this is usually hidden away underneath the bug)"
 msgstr ""
-"Mae gan aelodau'r grŵp hwn rannau sugno yn eu cegau, a thrwnc neu rostrwm "
-"hir (ond fel arfer mae wedi'i guddio o dan y pryfyn)"
 
 # photos caption_4
 #: UK BR IE DE SE HR CY
 msgid ""
 "Some bugs are very colourful, while others are shades or green or brown"
-msgstr "Mae rhai yn lliwgar iawn, ac eraill yn wyrdd neu'n frown"
+msgstr ""
 
 # photos intro_text
 #: CL
@@ -4282,16 +4306,19 @@ msgid ""
 "Some insects don’t fit into any other category. The bug Oncopeltus miles is "
 "a rare flower visitor"
 msgstr ""
+"Algunos insectos no encajan en ninguna otra categoría. El insecto Oncopeltus"
+" miles es un raro visitante de las flores."
 
 # photos caption_1
 #: CL
 msgid "Wings overlap and there is no clear midline along the abdomen"
 msgstr ""
+"Las alas se traslapan y no hay una línea media clara a lo largo del abdomen"
 
 # photos caption_2
 #: CL
 msgid "Bright, contrasting colours are common"
-msgstr ""
+msgstr "Los colores brillantes y contrastantes son comunes."
 
 # photos intro_text
 #: BR PT

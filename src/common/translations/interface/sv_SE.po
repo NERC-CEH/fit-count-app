@@ -70,7 +70,7 @@ msgstr "App"
 # User account error.
 #: interface
 msgid "User re-login is required."
-msgstr ""
+msgstr "Vänligen logga in igen"
 
 # User account delete in the settings
 #: interface
@@ -196,7 +196,7 @@ msgstr "Sverige"
 # Country page content
 #: interface
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 # Country page content
 #: interface
@@ -1647,27 +1647,28 @@ msgstr ""
 # Back button label
 #: interface
 msgid "Strength"
-msgstr ""
+msgstr "Styrka"
 
 # User login failure message
 #: interface
 msgid "Incorrect password gor email"
-msgstr ""
+msgstr "Fel lösenord eller email"
 
 # Offline message
 #: interface
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Du verkar vara offline!"
 
 # Photo picker content
 #: interface
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
 msgstr ""
+"Inget foto har lagts till. <br/>Tryck<4><0></0></4> för att lägga till. "
 
 # Survey activity page message
 #: interface
 msgid "Please pull down the page to see projects list."
-msgstr ""
+msgstr "Dra neråt för att se alla projekt.  "
 
 # ============================================================================
 # ============================================================================
@@ -1772,29 +1773,24 @@ msgid "Social wasps"
 msgstr "Sociala getingar"
 
 # insects name
-#: SE
-msgid "Other wasps"
-msgstr "Övriga getingar"
-
-# insects name
 #: PT
 msgid "Small wildbees (< 10mm)"
-msgstr ""
+msgstr "Små bin (<10mm)"
 
 # insects name
 #: PT
 msgid "Big wildbees (=> 10mm)"
-msgstr ""
+msgstr "Stora bin (=>10mm)"
 
 # insects name
 #: PT
 msgid "Butterflies"
-msgstr ""
+msgstr "Fjärilar"
 
 # insects name
 #: PT
 msgid "Moths"
-msgstr ""
+msgstr "Nattfjärilar"
 
 # habitats value
 #: UK BR CL CY AR IE DE SE HR PT
@@ -2018,17 +2014,17 @@ msgstr "Artificiell mark"
 # habitats value
 #: PT
 msgid "Balcony and small porches"
-msgstr ""
+msgstr "Balkonger och små verandor"
 
 # habitats value
 #: PT
 msgid "Dune systems"
-msgstr ""
+msgstr "Sanddyner"
 
 # habitats value
 #: PT
 msgid "Montado (Low density trees)"
-msgstr ""
+msgstr "Montado (få träd)"
 
 # flowers name
 #: CY CL PT
@@ -2108,7 +2104,7 @@ msgstr "Bromeliader"
 # flowers name
 #: PT
 msgid "Brooms and gorses"
-msgstr ""
+msgstr "Ärttörne"
 
 # flowers name
 #: SE
@@ -2173,7 +2169,7 @@ msgstr "Klöver"
 # flowers name
 #: HR
 msgid "Common chicory"
-msgstr ""
+msgstr "Cikoria"
 
 # flowers name
 #: HR
@@ -2193,7 +2189,7 @@ msgstr "Lingon"
 # flowers name
 #: PT
 msgid "Crucifers"
-msgstr ""
+msgstr "Korsblommiga växter"
 
 # flowers name
 #: CL AR
@@ -2213,7 +2209,7 @@ msgstr "Ängsvädd/Åkervädd"
 # flowers name
 #: PT
 msgid "Echium"
-msgstr ""
+msgstr "Snokörtssläktet"
 
 # flowers name
 #: CY HR
@@ -2223,7 +2219,7 @@ msgstr "Fänkål"
 # flowers name
 #: PT
 msgid "Fruit trees and Hawthorn"
-msgstr ""
+msgstr "Fruktträd och hagtorn"
 
 # flowers name
 #: CL AR
@@ -2318,7 +2314,7 @@ msgstr "Magnolia"
 # flowers name
 #: PT
 msgid "Mallows"
-msgstr ""
+msgstr "Malvor"
 
 # flowers name
 #: CY
@@ -2333,7 +2329,7 @@ msgstr "Mimosa"
 # flowers name
 #: PT
 msgid "Mint and Thyme"
-msgstr ""
+msgstr "Mint och timjan"
 
 # flowers name
 #: CL
@@ -2403,7 +2399,7 @@ msgstr "Solvändor"
 # flowers name
 #: HR PT
 msgid "Rock Roses"
-msgstr ""
+msgstr "Solvändeväxter"
 
 # flowers name
 #: CL
@@ -2438,7 +2434,7 @@ msgstr "Blåtobak"
 # flowers name
 #: PT
 msgid "Umbellifers"
-msgstr ""
+msgstr "Flockblommiga växter"
 
 # flowers name
 #: CY
@@ -2502,13 +2498,20 @@ msgid "Long narrow cell in veins at edge of wing"
 msgstr "Långt, smalt fält mellan ribborna nära vingkanten"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
 msgstr ""
 "Det finns bara en art av honungsbi i Sverige. De bor i bikupor, men ibland "
 "kan en svärm skapa en koloni i naturen."
+
+# photos extraText
+#: SE
+msgid ""
+"There is just one species of honeybee in the Sweden. They nest in artificial"
+" hives,with occasional colonies establishing in the wild."
+msgstr ""
 
 # photos extraText
 #: DE
@@ -2621,13 +2624,20 @@ msgid "Eyes cover the sides of the head, with lots of hair between the eyes"
 msgstr "Ögonen täcker huvudets sidor, och de har mycket hår mellan ögonen"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
 "not hover. There are 24 species in the UK."
 msgstr ""
 "Humlor har en typisk 'humle-aktig' surrande flykt men hovrar (står still i "
 "luften) inte. Det finns 38 arter i Sverige."
+
+# photos extraText
+#: SE
+msgid ""
+"Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do "
+"not hover. There are about 40 species in Sweden."
+msgstr ""
 
 # photos extraText
 #: HR
@@ -2843,7 +2853,7 @@ msgstr ""
 "humlearbetare"
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Solitary bees fly actively between flowers, and will sometimes bask in "
 "sunshine. Most species do not hover. There are about 250 species in the UK."
@@ -2851,6 +2861,13 @@ msgstr ""
 "Solitärbin flyger snabbt mellan olika blommor, och vilar ibland på ett "
 "soligt blad eller liknande. De flesta arter brukar inte hovra (stå still i "
 "luften). Det finns nästan 300 arter i Sverige"
+
+# photos extraText
+#: SE
+msgid ""
+"Solitary bees fly actively between flowers, and will sometimes bask in "
+"sunshine. Most species do not hover. There are about 270 species in Sweden."
+msgstr ""
 
 # photos extraText
 #: DE
@@ -3420,13 +3437,20 @@ msgstr ""
 "tydliga borst)."
 
 # photos extraText
-#: UK SE
+#: UK
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
 msgstr ""
 "Blomflugor lever av nektar och pollen, men de samlar inte in pollen och har "
 "inga pollenkorgar. Det finns ca. 390 arter blomflugor i Sverige."
+
+# photos extraText
+#: SE
+msgid ""
+"Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
+"pollen baskets. There are about 350 species of hoverfly in Sweden."
+msgstr ""
 
 # photos extraText
 #: DE
@@ -4521,27 +4545,29 @@ msgid ""
 "This single species is around 10 millimetres, a medium size for a bee. It is"
 " our reference to determine big and small wild bees."
 msgstr ""
+"Denna art är ca 10mm och ett medelstort bi. Det är referensstorleken för att"
+" bestämma stora och små vilda bin.   "
 
 # photos caption_1
 #: PT
 msgid "Long thin antennae (different from most flies)"
-msgstr ""
+msgstr "Långa tunna antenner (olikt de flesta flugor)"
 
 # photos caption_2
 #: PT
 msgid "Eyes covered with hairs"
-msgstr ""
+msgstr "Ögon täckta med hår"
 
 # photos caption_3
 #: PT
 msgid ""
 "Abdomen with short and light brown hairs and surface orange to dark brown."
-msgstr ""
+msgstr "Buken har orange till mörkt brun yta med korta ljust bruna hår. "
 
 # photos caption_4
 #: PT
 msgid "“Banana shape” marginal cell on front wing"
-msgstr ""
+msgstr "\"Bananformad\" marginalcell på framvingarna"
 
 # photos extraText
 #: PT
@@ -4549,6 +4575,8 @@ msgid ""
 "Honeybee nest in artificial hives, with occasional colonies establishing in "
 "the wild."
 msgstr ""
+"Honungsbin bor i artificiella bikupor, men förrymda kolonier kan tillfälligt"
+" förekomma vilt. "
 
 # photos caption_1
 #: PT
@@ -4557,6 +4585,8 @@ msgid ""
 "collect pollen into a moistened ball on the outside of the hind legs, often "
 "quite visible."
 msgstr ""
+"De flesta honungsbin du ser är arbetare (honor) som samlar pollen som ofta "
+"syns tydligt på utsidan av bakbenen. "
 
 # photos intro_text
 #: PT
@@ -4565,11 +4595,14 @@ msgid ""
 "sizes, colours, shapes and body structures. There are 733 species from "
 "continental Portugal, 16 in Madeira and 15 in Azores."
 msgstr ""
+"Små vilda bin flyger aktivt mellan blommor. Vildbin har olika storlek, färg,"
+" form och kroppsstuktur. Det finns 733 arter på kontinentala Portugal, 16 i "
+"Madeira och 15 på Azorerna. "
 
 # photos caption_1
 #: PT
 msgid "Long antennae (different from most flies)"
-msgstr ""
+msgstr "Långa tunna antenner (olikt de flesta flugor)"
 
 # photos caption_2
 #: PT
@@ -4577,6 +4610,8 @@ msgid ""
 "Hind legs without broadened, shinny and bare segments, and often covered "
 "with hairs of different shapes and colours that might carry pollen"
 msgstr ""
+"Bakbenen utan pollenkorgar (bara segment ofta täckta med hår för att bära "
+"pollen)"
 
 # photos caption_3
 #: PT
@@ -4584,11 +4619,13 @@ msgid ""
 "Abdomen not as cylindrical as in the honeybee and with different appearance "
 "(surface colour and hair colours or arrangement)"
 msgstr ""
+"Bakkroppen inte lika cylindrisk som honungsbiets och med varierande "
+"utseende, såsom kroppens färg eller hårens färg och placering. "
 
 # photos caption_4
 #: PT
 msgid "Smaller than an honeybee (< 10 mm)"
-msgstr ""
+msgstr "Mindre än honungsbin (<10mm)"
 
 # photos intro_text
 #: PT
@@ -4597,26 +4634,29 @@ msgid ""
 "smaller than an honeybee, different from the honeybee and bumblebees (which "
 "have very particular looks). Above are some examples."
 msgstr ""
+"Små vilda bin är väldigt varierande och definieras här som alla bin mindre "
+"än 10mm, och inte är ett honungsbi eller en humla (som har karaktäristiska "
+"utseenden). Ovan är några exempel. "
 
 # photos caption_1
 #: PT
 msgid "Colletes"
-msgstr ""
+msgstr "Sidenbin"
 
 # photos caption_2
 #: PT
 msgid "Osmia"
-msgstr ""
+msgstr "Murarbin"
 
 # photos caption_3
 #: PT
 msgid "Andrena"
-msgstr ""
+msgstr "Sandbin"
 
 # photos caption_4
 #: PT
 msgid "Halictus"
-msgstr ""
+msgstr "Bandbin"
 
 # photos intro_text
 #: PT
@@ -4626,16 +4666,19 @@ msgid ""
 "pollen is gathered in a specialized hairy structure called scopa, either on "
 "the hind legs or under the abdomen, depending on the family"
 msgstr ""
+"De flesta vildbin är solitära och varje hona samlar och transporterar pollen"
+" till boet och dess avkomma. Pollen samlas på så kallade pollenkorgar, som "
+"finns antingen på bakbenen eller under bakkroppen. "
 
 # photos caption_1
 #: PT
 msgid "Scopa on the hind legs (non Megachilidae family), as in Andrena"
-msgstr ""
+msgstr "Pollenkorg på bakbenen (ej hos buksamlarbin), som hos sandbin"
 
 # photos caption_2
 #: PT
 msgid "Scopa under the abdomen (Megachilidae family), as in Heriades"
-msgstr ""
+msgstr "Pollenkorg under bakkroppen (Buksamlarbin), som hos väggbin"
 
 # photos extraText
 #: PT
@@ -4644,6 +4687,9 @@ msgid ""
 "burrows into the soil. Other groups, including the Megachilidae, make use of"
 " holes in wood, plants or walls"
 msgstr ""
+"Solitära bin bygger ofta bon i hål. En stor grupp gräver hål i jorden. En "
+"annan grupp, inklusive buksamlarbin, använder hål i trä, växter eller "
+"väggar."
 
 # photos intro_text
 #: PT
@@ -4652,6 +4698,8 @@ msgid ""
 "all the wild bees are “bee like” at first glance! Some examples of small "
 "wild bees are shown here."
 msgstr ""
+"Vildbin varierar mycket i storlek, form, färg och hårighet. Alla ser inte ut"
+" som typiska bin vid första anblick! Här är några exempel på små bin. "
 
 # photos caption_1
 #: PT
@@ -4659,6 +4707,8 @@ msgid ""
 "Ceratina species (12 mainland) have a shinny body (blue, black or green) "
 "with pale markings on the face (a line or a triangle)"
 msgstr ""
+"Märgbin (12 på fastlandet) har en glansig kropp (blå, svart eller grön) med "
+"bleka markeringar i ansiktet (en linje eller en triangel) "
 
 # photos caption_2
 #: PT
@@ -4668,6 +4718,10 @@ msgid ""
 "and thorax. The face markings might be two separate marks or extensively "
 "pale all over"
 msgstr ""
+"Citronbin (39 på fastlandet, 2 i Madeira och 3 på Azorerna) är ofta små "
+"snabbflygande bin med svart kropp och bleka markeringar på ansikte, ben och "
+"mellankropp. Ansiktsteckningen kan vara två separata mönster eller blekt "
+"över hela ansiktet"
 
 # photos caption_3
 #: PT
@@ -4678,6 +4732,11 @@ msgid ""
 "included in the parasitic bees (163 in mainland and 1 in Madeira) that visit"
 " flowers for nectar, often having a wasp like appearance"
 msgstr ""
+"Gökbin (77 på fastlandet) har en mörk kropp med mycket bleka markeringar "
+"över hela kroppen i gula, röda eller orange toner. Vingarna är ofta mörka "
+"med genomskinliga områden nära vingkanten. Detta släkte inkluderar "
+"parasitiska bin (163 på fastlandet och 1 på Madeira) som besöker blommor för"
+" nektar, och liknar ofta getingar. "
 
 # photos caption_4
 #: PT
@@ -4686,6 +4745,9 @@ msgid ""
 "often present yellow or orange markings; females present scopa under the "
 "abdomen (except the parasitic genus Stelis)"
 msgstr ""
+"Gruppen Anthiidini består av robusta bin som ofta har gula eller orangea "
+"markeringar; honor har pollensamlingskorg på bakkroppens undersida (utom "
+"pansarbin)"
 
 # photos intro_text
 #: PT
@@ -4694,11 +4756,14 @@ msgid ""
 "sizes, colours, shapes and body structures. There are 733 species from "
 "continental Portugal, 16 in Madeira and 15 in Azores"
 msgstr ""
+"Stora vilda bin flyger aktivt mellan blommor. Vilda bin varierar mycket i "
+"storlek, färg, form och kroppsstruktur. Det finns 733 arter på kontinentala "
+"Portugal, 16 i Madeira och 15 på Azorerna"
 
 # photos caption_4
 #: PT
 msgid "Bigger than a honeybee (>= 10 mm)"
-msgstr ""
+msgstr "Större än ett honungsbi (>=10mm)"
 
 # photos intro_text
 #: PT
@@ -4707,31 +4772,36 @@ msgid ""
 "or equal to the honeybee, different from the honeybee and bumblebees (which "
 "have very particular looks). Here are some examples."
 msgstr ""
+"Stora vildbin är en väldigt varierande grupp, och bestämd därför som alla "
+"bin som är lika stora eller större än ett honungsbi och som inte är ett "
+"honungsbi eller en humla (som har tydliga kännetecken). Här är några exempel"
 
 # photos caption_1
 #: PT
 msgid "Dasypoda"
-msgstr ""
+msgstr "Byxbin"
 
 # photos caption_2
 #: PT
 msgid "Anthophora"
-msgstr ""
+msgstr "Pälsbin"
 
 # photos caption_3
 #: PT
 msgid "Eucera"
-msgstr ""
+msgstr "Långhornsbin"
 
 # photos caption_4
 #: PT
 msgid "Xylocopa"
-msgstr ""
+msgstr "Snickarbin"
 
 # photos caption_2
 #: PT
 msgid "Scopa under the abdomen (Megachilidae family), as in Megachile"
 msgstr ""
+"Pollensamlingskorg på bakkroppens undersida (buksamlarbin), som "
+"tapetserarbin"
 
 # photos extraText
 #: PT
@@ -4740,6 +4810,9 @@ msgid ""
 "burrows into soil. Other groups, including the Megachilidae, make use of "
 "holes in wood, plants or walls"
 msgstr ""
+"Solitärbin bygger oftast bon i håligheter. En stor grupp gräver hålor i "
+"jord. Andra grupper, inklusive buksamlarbin, använder sig av hål i trä, "
+"växter eller väggar"
 
 # photos intro_text
 #: PT
@@ -4748,6 +4821,9 @@ msgid ""
 "all the wild bees are “bee like” at first glance! Some examples of big wild "
 "bees are shown here"
 msgstr ""
+"Vilda bin varierar mycket i storlek, form, färg och hur håriga de är. Inte "
+"alla vilda bin ser ut som bin vid första anblick! Här är några exempel på "
+"stora vilda bin"
 
 # photos caption_2
 #: PT
@@ -4756,6 +4832,9 @@ msgid ""
 "often present yellow or orange markings; females present scopa under the "
 "abdomen"
 msgstr ""
+"Gruppen Anthiidini består av robusta bin som ofta har gula eller orangea "
+"markeringar; honor har pollensamlingskorg på bakkroppens undersida (utom "
+"pansarbin)"
 
 # photos intro_text
 #: PT
@@ -4765,11 +4844,14 @@ msgid ""
 "wings. They are closely related to moths but are separated by these "
 "characteristics."
 msgstr ""
+"Fjärilar är vanliga blombesökare. Oftast kan de identifieras till art "
+"utifrån mönstret på vingarnas ovan- och undersida. De är nära släkt med "
+"nattfjärilar, men skiljs åt av dessa karaktärer"
 
 # photos caption_1
 #: PT
 msgid "Antennae are club-shaped"
-msgstr ""
+msgstr "Klubbformade antenner"
 
 # photos caption_2
 #: PT
@@ -4778,6 +4860,8 @@ msgid ""
 "and the abdomen. They can also close the wings vertically on the back of the"
 " body"
 msgstr ""
+"Fjärilar har två framvingar och två bakvingar. I vila kan de hålla vingarna "
+"vertikalt upp från kroppen. "
 
 # photos intro_text
 #: PT
@@ -4786,6 +4870,9 @@ msgid ""
 "vary a lot depending on the conditions of the habitat, where they can find "
 "their host plants to feed on as larvae."
 msgstr ""
+"Fjärilar besöker blommor för att livnära sig på nektar. Vilka arter man ser "
+"beror mycket på naturtypen runt omkring, där fjärilarna hittar värdväxter "
+"där de lägger sina ägg.   "
 
 # photos extraText
 #: PT
@@ -4794,6 +4881,9 @@ msgid ""
 "vary a lot depending on the conditions of the habitat, where they can find "
 "their host plants to feed on as larvae"
 msgstr ""
+"Fjärilar besöker blommor för att livnära sig på nektar. Vilka arter man ser "
+"beror mycket på naturtypen runt omkring, där fjärilarna hittar värdväxter "
+"där de lägger sina ägg. "
 
 # photos intro_text
 #: PT
@@ -4802,6 +4892,9 @@ msgid ""
 "than hoverflies. Some of them may look very similar and you should consider "
 "the specific traits that differentiate them."
 msgstr ""
+"Det finns många arter av flugor förutom blomflugor som besöker blommor. "
+"Några av de kan likna blomflugor och du kan titta på de specifika "
+"kännetecknen för att skilja dem åt."
 
 # photos caption_1
 #: PT
@@ -4809,6 +4902,8 @@ msgid ""
 "Frequently, other flies have thick and upright hairs on the body, mainly in "
 "the thorax, abdomen or legs – hoverflies do not have this type of hairs"
 msgstr ""
+"Oftast har andra flugor tjocka utåtstående hår på kroppen, främst "
+"mellankropp, bakkropp och benen - blomflugor saknar dessa hår"
 
 # photos caption_2
 #: PT
@@ -4816,6 +4911,8 @@ msgid ""
 "Wing venation is different from hoverflies, as most times the wings do not "
 "present a ‘false margin’ – the vena spuria wing vein is absent"
 msgstr ""
+"Vingribborna skiljer sig från blomflugornas, då de oftast inte har en falsk "
+"vingkant samt saknar falsk vingribba"
 
 # photos caption_3
 #: PT
@@ -4823,6 +4920,8 @@ msgid ""
 "Most flies do not have yellowish or reddish markings, especially not in "
 "combination with metallic surfaces"
 msgstr ""
+"De flesta flugor har inte gula eller röda markeringar, framförallt inte i "
+"kombination med metallglans"
 
 # photos intro_text
 #: PT
@@ -4832,6 +4931,9 @@ msgid ""
 "including bristles on the legs and body (1). Nevertheless there are some "
 "families that might pose a challenge."
 msgstr ""
+"De flesta andra flugor du ser på blommor har en tydligt annorlunda "
+"kroppsform, ofta inkluderande hår på ben och kropp (1). Det finns trots "
+"detta några familjer som kan vara utmanande. "
 
 # photos caption_1
 #: PT
@@ -4839,6 +4941,8 @@ msgid ""
 "Conopidae might have yellow and red markings all over the body, but the "
 "abdomen is curved downwards, and they have a long ‘tongue’ (proboscis)"
 msgstr ""
+"Stekelflugor kan ha gula eller röda markeringar på kroppen, men bakkroppen "
+"är böjd nedåt och de har en lång 'tunga' (probocis)"
 
 # photos caption_2
 #: PT
@@ -4846,6 +4950,8 @@ msgid ""
 "Bombyliidae might have pale markings or be very similar to hoverflies, but "
 "lack a ‘false margin’ in the wing, and present a long proboscis"
 msgstr ""
+"Svävflugor kan haa bleka markeringar eller vara väldigt lika blomflugor, men"
+" saknar en falsk vingkant och har en lång snabel"
 
 # photos caption_3
 #: PT
@@ -4854,6 +4960,8 @@ msgid ""
 " a especially flattened body, a cut short abdomen and lack a ‘false margin’ "
 "in the wing"
 msgstr ""
+"Vapenflugor kan ha liknanade mönster som blomflugor, men de har en platt "
+"kropp, en kort bakkropp och saknar falsk vingkant"
 
 # photos intro_text
 #: PT
@@ -4862,11 +4970,14 @@ msgid ""
 " nectar to complement their diet. Wasps may be similar to some bees and "
 "hoverflies, so these are the features you should look for. "
 msgstr ""
+"Det finns många olika arter getingar, och de besöker blommor främst för "
+"nektar. Getingar kan vara lika bin och blomflugor, men det finns kännetecken"
+" du kan titta efter."
 
 # photos caption_1
 #: PT
 msgid "Long or extremely long antennae"
-msgstr ""
+msgstr "Långa eller extremt långa antenner"
 
 # photos caption_2
 #: PT
@@ -4874,11 +4985,12 @@ msgid ""
 "Less dense and furry hairs on the body in comparison with bees (in most "
 "cases)"
 msgstr ""
+"Glesare och färre hår på kroppen i jämförelse med bin (i de flesta fall)"
 
 # photos caption_3
 #: PT
 msgid "Wings rolled up when at rest (in some wasps)"
-msgstr ""
+msgstr "Vingar ihopvikta i vila (hos vissa getingar)"
 
 # photos caption_4
 #: PT
@@ -4886,6 +4998,8 @@ msgid ""
 "Very narrow “wasp waist” at the joint between thorax and abdomen (except the"
 " suborder Symphyta). They can also show additional abdomen constrictions"
 msgstr ""
+"Väldigt smal \"getingmidja\" mellan mellankroppen och bakkroppen (förutom "
+"hos växtsteklar). De kan även ha ytterligare avsmalningar på bakkroppen "
 
 # photos intro_text
 #: PT
@@ -4895,26 +5009,28 @@ msgid ""
 "than one hundred species that might be seen on flowers. These are some of "
 "the very common wasps."
 msgstr ""
+"Getingar syns ofta på blommor. De kan variera i utseende och det finns över "
+"hundra arter som besöker blommor. Dessa är några väldigt vanliga getingar. "
 
 # photos caption_1
 #: PT
 msgid "Vespula"
-msgstr ""
+msgstr "Jordgetingar"
 
 # photos caption_2
 #: PT
 msgid "Polistes"
-msgstr ""
+msgstr "Pappersgetingar"
 
 # photos caption_3
 #: PT
 msgid "Eumenes"
-msgstr ""
+msgstr "Krukmakargetingar"
 
 # photos caption_4
 #: PT
 msgid "Vespa velutina (a common invasive species)"
-msgstr ""
+msgstr "Sammetsgeting (vanlig invasiv art)"
 
 # photos intro_text
 #: PT
@@ -4922,11 +5038,13 @@ msgid ""
 "Be aware that wasps present a lot of variation in size, shape and marking "
 "patterns in the body."
 msgstr ""
+"Lägg märke till att getingar varierar mycket i storlek, form och dess "
+"markeringar på kroppen"
 
 # photos caption_1
 #: PT
 msgid "Some groups like Crabronidae, often show bulky heads or enlarged eyes"
-msgstr ""
+msgstr "Vissa grupper, som rovsteklar har ofta stora huvuden eller stora ögon"
 
 # photos caption_2
 #: PT
@@ -4934,6 +5052,8 @@ msgid ""
 "The presence of thick and upright hairs on the legs or abdomen is common for"
 " some groups like Scoliidae"
 msgstr ""
+"Tjocka och utåtstående hår på ben och bakkropp är vanligt hos vissa grupper "
+"som dolksteklar"
 
 # photos caption_3
 #: PT
@@ -4941,6 +5061,8 @@ msgid ""
 "The species belonging to the Chrysididae show very intense pink, green and "
 "blue metallic shininess"
 msgstr ""
+"Arter som tillhör gruppen Guldsteklar har starka rosa, gröna och blå färger "
+"med metallglans"
 
 # photos caption_4
 #: PT
@@ -4949,6 +5071,8 @@ msgid ""
 "that are variable in colour pattern, with long antennae and a ovipositor on "
 "the abdomen used for egg-laying (females)"
 msgstr ""
+"Många parasitsteklar, som Ichneumonidae, har långa smala kroppar med "
+"varierande färgmönster, långa antenner och ett äggläggningsrör (hos honor)"
 
 # photos intro_text
 #: PT
@@ -4957,17 +5081,19 @@ msgid ""
 "different species vary a lot in size, shape and colour, but can be quickly "
 "recognised as beetles."
 msgstr ""
+"Vissa skalbaggsarter besöker blommor i jakt på mat. Olika arter varierar "
+"mycket i storlek, form och färg, men kan snabbt kännas igen som skalbaggar. "
 
 # photos caption_1
 #: PT
 msgid ""
 "Hardened forewings that act as covers for the softer hindwings and abdomen"
-msgstr ""
+msgstr "Hårda täckvingar som täcker kroppen och de mjukare bakvingarna."
 
 # photos caption_2
 #: PT
 msgid "Their chewing mouthparts"
-msgstr ""
+msgstr "Deras tuggande mundelar"
 
 # photos intro_text
 #: PT
@@ -4977,6 +5103,10 @@ msgid ""
 "(2), Tenebrionidae (3), Curculionidae (4), Buprestidae, Cantharidae or "
 "Cerambycidae"
 msgstr ""
+"Skalbaggar är väldigt talrika och varierande. Bland de mest vanliga "
+"familjerna som besöker blommor finns: Blombaggar, bladhorningar (1), "
+"glansbaggar (2), svartbaggar (3), vivlar (4), praktbaggar, flugbaggar och "
+"långhorningar. "
 
 # photos intro_text
 #: PT
@@ -4986,11 +5116,14 @@ msgid ""
 " overlooked as other types of insects. Moths can be distinguished from "
 "butterflies by the traits above. "
 msgstr ""
+"Nattfjärilar kan också besöka blommor, antingen under dagen eller natten. "
+"Några nattfjärilar är rätt små och kan likna andra typer av insekter. "
+"Nattfjärilar skiljs från dagfjärilar med hjälp av ovan nämnda kännetecknen. "
 
 # photos caption_1
 #: PT
 msgid "Non club-shaped antennae"
-msgstr ""
+msgstr "Ej klubbformade antenner"
 
 # photos caption_2
 #: PT
@@ -4998,6 +5131,8 @@ msgid ""
 "When resting, the wings are folded, covering most of the rear pair of wings "
 "and the abdomen, having an overall triangular shape"
 msgstr ""
+"I vila läggs vingarna över kroppen, och de får en mer eller mindre "
+"triangulär form. "
 
 # photos intro_text
 #: PT
@@ -5006,6 +5141,9 @@ msgid ""
 " butterfly, for example, Zygaenidae (1) and Crambidae (2) or other insects, "
 "for example, Sesiidae (3) and Sphingidae (4). "
 msgstr ""
+"En rad olika nattfjärilar kan ses besöka blommor. Några av dessa kan likna "
+"dagfjärilar, exempelvis bastardsvärmare (1), familjen Crambidae (2) eller "
+"andra insekter som glasvingar (3) och svärmare (4). "
 
 # photos extraText
 #: PT
@@ -5013,6 +5151,8 @@ msgid ""
 "As in butterflies, all moths have colour patterns on the wings produced by "
 "the scales on the wing surface."
 msgstr ""
+"Precis som hos dagfjärilar har nattfjärilar färgmönster på vingarna som "
+"skapas av små fjäll."
 
 # photos intro_text
 #: PT
@@ -5022,6 +5162,11 @@ msgid ""
 "disturb other insects visiting the flowers). Just count them (or estimate "
 "them if there is a large number) and assign them all to this category. "
 msgstr ""
+"Denna kategori är för alla insekter som är mindre än 3mm långa. De kan "
+"nämligen vara svåra att sortera till andra grupper utan att titta på dem "
+"noga, vilket kan störa andra insekter som besöker blommorna. Räkna dem "
+"(eller uppskatta en siffra om de är många) och sortera dem till denna "
+"kategori. "
 
 # photos extraText
 #: PT
@@ -5029,6 +5174,8 @@ msgid ""
 "This may include many beetles and other small bodied insects like flies and "
 "parasitic wasps"
 msgstr ""
+"Detta kan inkludera många skalbaggar eller små insekter som flugor och "
+"parastisteklar. "
 
 # photos intro_text
 #: PT
@@ -5037,6 +5184,9 @@ msgid ""
 "and can also be used for the ones that you cannot identify. Above are some "
 "of the most frequent."
 msgstr ""
+"Denna kategorin är till för de insekter som inte passar in i någon annan "
+"kategori och kan användas för de insekter du inte kan bestämma. Ovan är "
+"några av de vanligast förekommande. "
 
 # photos caption_1
 #: PT
@@ -5046,6 +5196,10 @@ msgid ""
 "abdomen and also possess long sucking mouthparts (usually hidden underneath "
 "the body)"
 msgstr ""
+"Halvvingar har vingar som överlappar, så det finns ingen tydlig mittlinje "
+"längs kroppens ovansida. De har en mer eller mindre triangulär platta som "
+"täcker delar av bakkroppen och har långa sugande mundelar (som ofta döljs "
+"under kroppen)"
 
 # photos caption_2
 #: PT
@@ -5053,6 +5207,8 @@ msgid ""
 "Most Neuroptera have very fragile slim and long body, long antennae and "
 "large transparent wings, with very developed venation"
 msgstr ""
+"De flesta nätvingar har väldigt ömtåliga smala långa kroppar, långa antenner"
+" och stora genomskinliga vingar, med tydlig ådring. "
 
 # photos caption_3
 #: PT
@@ -5060,6 +5216,8 @@ msgid ""
 "Orthoptera have big legs, especially the overdeveloped last pair of legs. "
 "Most times, nymphs are observed, with green or paler tones"
 msgstr ""
+"Hopprätvingar har stora ben, framförallt bakbenen. Oftast förekommer nymfer "
+"som har gröna eller bleka toner. "
 
 # photos caption_4
 #: PT
@@ -5067,6 +5225,8 @@ msgid ""
 "Ants (Formicidae) have a clear segmented body (head, thorax and abdomen), "
 "with thin legs and no wings (in most of the times)."
 msgstr ""
+"Myror har tydligt uppdelad kropp (huvud, mellankropp och bakkropp), med "
+"tunna ben och de saknar (oftast) vingar. "
 
 # photos intro_text
 #: PT
@@ -5075,11 +5235,14 @@ msgid ""
 " bees; workers vary in size, mostly larger than a honeybee, but might be "
 "smaller."
 msgstr ""
+"Humlor ä väldigt runda och pälsiga bin. Drottningarna är bland våra största "
+"bin. Arbetare varierar i storlek och är oftast, men inte alltid, större än "
+"ett honungsbi. "
 
 # photos caption_1
 #: PT
 msgid "In comparison to flies, bumblebees have long, thin antennae"
-msgstr ""
+msgstr "I jämförelse med flugor har humlor långa, tunna antenner"
 
 # photos caption_2
 #: PT
@@ -5087,6 +5250,8 @@ msgid ""
 "Compared to flies, their eyes cover the sides of the head, with lots of hair"
 " between the eyes"
 msgstr ""
+"Jämfört med flugor täcker deras ögon endast sidorna av huvudet, med mycket "
+"hår mellan ögonen. "
 
 # photos caption_3
 #: PT
@@ -5094,6 +5259,7 @@ msgid ""
 "Bumblebees differ from most bees because of the dense and long hair on the "
 "body"
 msgstr ""
+"Humlor skiljer sig från de flesta bin med deras tjocka långa hår på kroppen"
 
 # photos caption_4
 #: PT
@@ -5101,6 +5267,8 @@ msgid ""
 "In comparison to bees, bumblebees have contrasting colour bands (yellow, "
 "white, black or orange) on their body, some are ginger all over"
 msgstr ""
+"Jämfört med bin har humlor kontrastrika färgband (i gult, vitt, svart eller "
+"orange) på kroppen, vissa är brunorange över hela kroppen."
 
 # photos extraText
 #: PT
@@ -5108,24 +5276,27 @@ msgid ""
 "Bumblebees have a characteristic buzzing flight pattern and do not hover. "
 "There are 16 species in continental Portugal, 1 in Madeira and 3 in Azores."
 msgstr ""
+"Märgbin (12 på fastlandet) har en glansig kropp (blå, svart eller grön) med "
+"bleka markeringar i ansiktet (en linje eller en triangel)"
 
 # photos caption_1
 #: PT
 msgid "In comparison to flies, they have long thin antennae"
-msgstr ""
+msgstr "Jämfört med flugor har de långa, tunna antenner"
 
 # photos caption_2
 #: PT
 msgid ""
 "Also considering flies, their eyes cover the sides of the head, with lots of"
 " hair between the eyes"
-msgstr ""
+msgstr "Ögonen täcker huvudets sidor, och de har mycket hår mellan ögonen"
 
 # photos caption_3
 #: PT
 msgid ""
 "They differ from most bees because of the dense and long hair on the body"
 msgstr ""
+"De skiljer sig från de flesta bin med deras tjocka långa hår på kroppen"
 
 # photos caption_4
 #: PT
@@ -5133,6 +5304,8 @@ msgid ""
 "Bumblebees also differ from other bees due to the presence of contrasting "
 "colour bands (yellow, white, black or orange), some are ginger all over"
 msgstr ""
+"Humlor skiljer sig också från andra bin genom deras olika fägband (gul, vit,"
+" svart eller orange), vissa är helt brunorange."
 
 # photos intro_text
 #: PT
@@ -5141,6 +5314,8 @@ msgid ""
 "hovering around the flowers. They might be confused with other flies, bees "
 "and wasps."
 msgstr ""
+"Blomflugor är väldigt aktiva och skickliga flygare och ses ofta hovra kring "
+"blommor. De kan blandas ihop med andra flugor, bin och getingar. "
 
 # photos caption_1
 #: PT
@@ -5148,6 +5323,8 @@ msgid ""
 "Hoverflies have larger eyes, covering most of the head, differing from most "
 "bees and wasps"
 msgstr ""
+"Blomflugor har större ögon, som täcker större delen av huvudet, jämfört med "
+"bin och getingar. "
 
 # photos caption_2
 #: PT
@@ -5155,6 +5332,8 @@ msgid ""
 "Compared to bees and wasps, they have much shorter antennae (in most "
 "species)"
 msgstr ""
+"Jämfört med andra bin och getingar har de (nästan alltid) mycket kortare "
+"antenner"
 
 # photos caption_3
 #: PT
@@ -5164,6 +5343,9 @@ msgid ""
 " Hoverflies also have a unique vein called “vena spuria”, only visible in "
 "very good photos (3.2)"
 msgstr ""
+"Till skillnad från andra flugor har många blomflugor en falsk vingribba, mer"
+" eller mindre parallell med vingens kant (3.1). Blomflugor har också en "
+"falsk vingribba, vena spuria, som bara syns på bra foton (3.2)."
 
 # photos caption_4
 #: PT
@@ -5171,6 +5353,8 @@ msgid ""
 "The presence of black and yellow markings is more frequent than in other "
 "flies but be aware that some hoverflies are all dark and shiny metallic"
 msgstr ""
+"Svarta och gula mönster är vanligare än hos andra flugor, men vissa "
+"blomflugor kan vara mörka med metallglans."
 
 # photos caption_5
 #: PT
@@ -5178,6 +5362,8 @@ msgid ""
 "Hoverflies are not usually as hairy as bees, and do not have thick and "
 "upright hairs on the body as in other flies"
 msgstr ""
+"Blomflugor är oftast inte lika håriga som bin, och har inte tjocka "
+"utåtstående hår på kroppen som andra flugor"
 
 # photos extraText
 #: PT
@@ -5187,6 +5373,9 @@ msgid ""
 "about 214 species of hoverflies in mainland Portugal, 24 in Azores and 30 in"
 " Madeira."
 msgstr ""
+"Blomflugor livnär sig på pollen, men samlar inte pollen och har inga "
+"pollenkorgar. Det finns ungefär 214 arter blomflugor på portugals fastland, "
+"24 på Azorerna och 30 i Madeira."
 
 # photos intro_text
 #: PT
@@ -5196,18 +5385,21 @@ msgid ""
 "resemblance to the honeybee, such as the genus Eristalis (in the picture). "
 "Nevertheless there are a number of differences to look out for."
 msgstr ""
+"Det är viktigt att titta på blomflugor i fält eftersom vissa arter kan vara "
+"svåra att känna igen i början. Några arter liknar honungsbin, som slamflugor"
+" (se bild). Det finns dock vissa kännetecken man kan titta på. "
 
 # photos caption_1
 #: PT
 msgid "Much shorter antennae"
-msgstr ""
+msgstr "Mycket kortare antenner"
 
 # photos caption_3
 #: PT
 msgid ""
 "The back legs are much narrower than the broad flattened legs of the "
 "honeybee"
-msgstr ""
+msgstr "Bakbenen är mycket smalare än de breda, platta benen hos honungsbin"
 
 # photos intro_text
 #: PT
@@ -5217,6 +5409,10 @@ msgid ""
 "mimicking other insects like bees and wasps. The generic hoverfly traits "
 "presented before should always work. Some examples are shown above. "
 msgstr ""
+"Många blomflugor har typiska svarta och gula mönster, men det finns mycket "
+"variation i storlek, form och mönster hos dem och de liknar ofta andra "
+"insekter som bin eller getingar. De typiska kännetecknen för blomflugor "
+"stämmer alltid, några exempel visas ovan. "
 
 # photos caption_1
 #: PT
@@ -5224,6 +5420,8 @@ msgid ""
 "Very common genera present very elongated bodies, as in Sphaerophoria (in "
 "the image), Melanostoma or Syritta"
 msgstr ""
+"Väldigt vanliga grupper har en utdragen kropp, som sländblomflugor (på "
+"bilden), gräsblomflugor eller kompostblomflugor"
 
 # photos caption_2
 #: PT
@@ -5231,6 +5429,8 @@ msgid ""
 "Slight elongated bodies with metallic dark or green are very common in "
 "genera like Cheilosia"
 msgstr ""
+"Lite utdragen mörk eller grön kropp med metallglans ör vanligt hos "
+"örtblomflugor."
 
 # photos caption_3
 #: PT
@@ -5238,6 +5438,8 @@ msgid ""
 "Some species of the genus Merodon are very good bumblebee mimics – check the"
 " antennae to be sure they are not bumblebees!"
 msgstr ""
+"Några arter av narcissblomflugor är väldigt lika humlor - titta på "
+"antennerna för att vara säker på att de inte är humlor! "
 
 # photos caption_4
 #: PT
@@ -5245,3 +5447,5 @@ msgid ""
 "Some hoverflies are small and mostly dark in colour, but have the generic "
 "hoverfly traits, as in Paragus"
 msgstr ""
+"Några blomflugor är små och mörka, men har typiska karaktärer, som "
+"stäppblomflugor"
