@@ -1,7 +1,6 @@
 {
   "appId": "uk.ac.ceh.fit",
   "appName": "FIT Count",
-  "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
   "cordova": {}

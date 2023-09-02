@@ -1,3 +1,7 @@
+# 1.5.2
+
+Updated libraries (Capacitor).
+
 # 1.5.1
 
 Fixed a typo.
