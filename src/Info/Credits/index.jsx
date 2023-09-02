@@ -17,9 +17,15 @@ const Credits = () => {
   const isGermany = country === 'DE';
   const isCroatia = country === 'HR';
   const isPortugal = country === 'PT';
+  const isSweden = country === 'SE';
 
   const isRestOfWorld =
-    !isCyprus && !isBrazil && !isIreland && !isGermany && !isCroatia;
+    !isCyprus &&
+    !isBrazil &&
+    !isIreland &&
+    !isGermany &&
+    !isCroatia &&
+    !isSweden;
 
   return (
     <Page id="credits">
@@ -253,6 +259,20 @@ const Credits = () => {
                 <li>GT1976, Wikimedia Commons</li>
               </ul>
             )}
+            (
+            {isSweden && (
+              <ul>
+                <li>Aiwok via Wikimedia</li>
+                <li>Gail Hampshire via Wikimedia</li>
+                <li>Gilles San Martin vias Wikispecies</li>
+                <li>Malcolm Storey via BioImages</li>
+                <li>Peter O'Connor via Flickr CC </li>
+                <li>Trounce via Wikimedia</li>
+                <li>Stefan Andersson</li>
+                <li>Jan Thomas Johansson</li>
+              </ul>
+            )}
+            )
             {isRestOfWorld && (
               <ul>
                 <li>Aiwok via Wikimedia</li>
