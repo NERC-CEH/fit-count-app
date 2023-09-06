@@ -79,7 +79,7 @@ import './smallwildbees_PT1.jpg?originalName';
 import './smallwildbees_PT2.jpg?originalName';
 import './smallwildbees_PT3.jpg?originalName';
 import './smallwildbees_PT4.jpg?originalName';
-import './socialwasps_1.jpg?originalName';
+import './socialWasps_1.jpg?originalName';
 import './solitaryBees_1.jpg?originalName';
 import './solitaryBees_2.jpg?originalName';
 import './solitaryBees_3.jpg?originalName';
