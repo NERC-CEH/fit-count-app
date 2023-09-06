@@ -1795,9 +1795,9 @@ msgid "Moths"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Garden"
-msgstr "Κήπος"
+#: UK BR AR IE DE SE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Περιοχή με γρασίδι"
 
 # habitats value
 #: UK CL AR IE
@@ -1805,9 +1805,9 @@ msgid "School Grounds"
 msgstr "Προαύλιο σχολείου"
 
 # habitats value
-#: UK BR CL CY AR IE SE HR
-msgid "Parkland with trees"
-msgstr "Πάρκινγκ με δέντρα"
+#: SE
+msgid "Artificial land"
+msgstr ""
 
 # habitats value
 #: UK IE
@@ -1815,19 +1815,19 @@ msgid "Churchyard"
 msgstr "Προαύλιο εκκλησίας"
 
 # habitats value
-#: UK AR IE SE PT
-msgid "Grassy verge or hedgerow edge"
-msgstr "Περιθώρια δρόμου/ πεζοδρόμιο/ Φυτοφράχτης"
+#: SE
+msgid "Bare land"
+msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Λιβάδι με αγριολούλουδα"
+#: SE
+msgid "Coniferous forest"
+msgstr ""
 
 # habitats value
-#: UK BR AR IE DE SE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Περιοχή με γρασίδι"
+#: CY AR SE HR
+msgid "Cultivation"
+msgstr "Αγροτική καλλιέργεια"
 
 # habitats value
 #: UK BR CL AR IE PT
@@ -1835,14 +1835,14 @@ msgid "Farm crops or grassy pasture"
 msgstr "Γεωργική καλλιέργεια"
 
 # habitats value
-#: UK AR SE
-msgid "Upland moorland"
-msgstr "Υψίπεδο"
+#: SE
+msgid "Decidous forest"
+msgstr ""
 
 # habitats value
-#: UK SE
-msgid "Lowland heath"
-msgstr "Φρύγανα με Ερείκη"
+#: DE SE
+msgid "Field margins "
+msgstr ""
 
 # habitats value
 #: UK BR AR DE
@@ -1865,19 +1865,19 @@ msgid "Forest"
 msgstr "Δάσος"
 
 # habitats value
-#: CY AR SE HR
-msgid "Cultivation"
-msgstr "Αγροτική καλλιέργεια"
-
-# habitats value
-#: CY AR SE
-msgid "Salt marsh"
-msgstr "Υφάλμυρο έλος"
-
-# habitats value
 #: BR CY AR SE PT
 msgid "Freshwater wetland"
 msgstr "Υδροβιότοπος γλυκού νερού"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Garden"
+msgstr "Κήπος"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Λιβάδι με αγριολούλουδα"
 
 # habitats value
 #: CY AR
@@ -1895,9 +1895,9 @@ msgid "Roadside verges"
 msgstr "Περιθώρια δρόμων"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Other"
-msgstr "Άλλο"
+#: UK AR IE SE PT
+msgid "Grassy verge or hedgerow edge"
+msgstr "Περιθώρια δρόμου/ πεζοδρόμιο/ Φυτοφράχτης"
 
 # habitats value
 #: BR
@@ -1935,9 +1935,9 @@ msgid "Forest edge "
 msgstr ""
 
 # habitats value
-#: DE SE
-msgid "Field margins "
-msgstr ""
+#: UK SE
+msgid "Lowland heath"
+msgstr "Φρύγανα με Ερείκη"
 
 # habitats value
 #: DE
@@ -1994,24 +1994,24 @@ msgid "Waste ground/exploited land"
 msgstr ""
 
 # habitats value
-#: SE
-msgid "Coniferous forest"
-msgstr ""
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Other"
+msgstr "Άλλο"
 
 # habitats value
-#: SE
-msgid "Decidous forest"
-msgstr ""
+#: UK BR CL CY AR IE SE HR
+msgid "Parkland with trees"
+msgstr "Πάρκινγκ με δέντρα"
 
 # habitats value
-#: SE
-msgid "Bare land"
-msgstr ""
+#: CY AR SE
+msgid "Salt marsh"
+msgstr "Υφάλμυρο έλος"
 
 # habitats value
-#: SE
-msgid "Artificial land"
-msgstr ""
+#: UK AR SE
+msgid "Upland moorland"
+msgstr "Υψίπεδο"
 
 # habitats value
 #: PT

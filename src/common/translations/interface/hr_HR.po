@@ -1798,9 +1798,9 @@ msgid "Moths"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Garden"
-msgstr "Dvorište ili vrt"
+#: UK BR AR IE DE SE
+msgid "Amenity grassland (usually mown short)"
+msgstr ""
 
 # habitats value
 #: UK CL AR IE
@@ -1808,9 +1808,9 @@ msgid "School Grounds"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE SE HR
-msgid "Parkland with trees"
-msgstr "Gradski park"
+#: SE
+msgid "Artificial land"
+msgstr ""
 
 # habitats value
 #: UK IE
@@ -1818,19 +1818,19 @@ msgid "Churchyard"
 msgstr ""
 
 # habitats value
-#: UK AR IE SE PT
-msgid "Grassy verge or hedgerow edge"
+#: SE
+msgid "Bare land"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Travnjak (livada ili pašnjak)"
+#: SE
+msgid "Coniferous forest"
+msgstr ""
 
 # habitats value
-#: UK BR AR IE DE SE
-msgid "Amenity grassland (usually mown short)"
-msgstr ""
+#: CY AR SE HR
+msgid "Cultivation"
+msgstr "Kultivirana površina (npr. voćnjak, polje)"
 
 # habitats value
 #: UK BR CL AR IE PT
@@ -1838,13 +1838,13 @@ msgid "Farm crops or grassy pasture"
 msgstr ""
 
 # habitats value
-#: UK AR SE
-msgid "Upland moorland"
+#: SE
+msgid "Decidous forest"
 msgstr ""
 
 # habitats value
-#: UK SE
-msgid "Lowland heath"
+#: DE SE
+msgid "Field margins "
 msgstr ""
 
 # habitats value
@@ -1868,19 +1868,19 @@ msgid "Forest"
 msgstr "Šuma"
 
 # habitats value
-#: CY AR SE HR
-msgid "Cultivation"
-msgstr "Kultivirana površina (npr. voćnjak, polje)"
-
-# habitats value
-#: CY AR SE
-msgid "Salt marsh"
-msgstr ""
-
-# habitats value
 #: BR CY AR SE PT
 msgid "Freshwater wetland"
 msgstr ""
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Garden"
+msgstr "Dvorište ili vrt"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Travnjak (livada ili pašnjak)"
 
 # habitats value
 #: CY AR
@@ -1898,9 +1898,9 @@ msgid "Roadside verges"
 msgstr "Rub ceste"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Other"
-msgstr "Ostalo"
+#: UK AR IE SE PT
+msgid "Grassy verge or hedgerow edge"
+msgstr ""
 
 # habitats value
 #: BR
@@ -1938,8 +1938,8 @@ msgid "Forest edge "
 msgstr "Rub šume"
 
 # habitats value
-#: DE SE
-msgid "Field margins "
+#: UK SE
+msgid "Lowland heath"
 msgstr ""
 
 # habitats value
@@ -1997,23 +1997,23 @@ msgid "Waste ground/exploited land"
 msgstr ""
 
 # habitats value
-#: SE
-msgid "Coniferous forest"
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Other"
+msgstr "Ostalo"
+
+# habitats value
+#: UK BR CL CY AR IE SE HR
+msgid "Parkland with trees"
+msgstr "Gradski park"
+
+# habitats value
+#: CY AR SE
+msgid "Salt marsh"
 msgstr ""
 
 # habitats value
-#: SE
-msgid "Decidous forest"
-msgstr ""
-
-# habitats value
-#: SE
-msgid "Bare land"
-msgstr ""
-
-# habitats value
-#: SE
-msgid "Artificial land"
+#: UK AR SE
+msgid "Upland moorland"
 msgstr ""
 
 # habitats value

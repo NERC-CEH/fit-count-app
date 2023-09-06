@@ -1786,9 +1786,9 @@ msgid "Moths"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Garden"
-msgstr "Gardd"
+#: UK BR AR IE DE SE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
 
 # habitats value
 #: UK CL AR IE
@@ -1796,9 +1796,9 @@ msgid "School Grounds"
 msgstr "Tir ysgol"
 
 # habitats value
-#: UK BR CL CY AR IE SE HR
-msgid "Parkland with trees"
-msgstr "Tir parc gyda choed"
+#: SE
+msgid "Artificial land"
+msgstr ""
 
 # habitats value
 #: UK IE
@@ -1806,19 +1806,19 @@ msgid "Churchyard"
 msgstr "Mynwent eglwys"
 
 # habitats value
-#: UK AR IE SE PT
-msgid "Grassy verge or hedgerow edge"
-msgstr "Ymyl glaswelltog neu ymyl gwrych"
+#: SE
+msgid "Bare land"
+msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
+#: SE
+msgid "Coniferous forest"
+msgstr ""
 
 # habitats value
-#: UK BR AR IE DE SE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
+#: CY AR SE HR
+msgid "Cultivation"
+msgstr ""
 
 # habitats value
 #: UK BR CL AR IE PT
@@ -1826,14 +1826,14 @@ msgid "Farm crops or grassy pasture"
 msgstr "Cnydau fferm neu dir pori glaswelltog"
 
 # habitats value
-#: UK AR SE
-msgid "Upland moorland"
-msgstr "Rhostir ucheldir"
+#: SE
+msgid "Decidous forest"
+msgstr ""
 
 # habitats value
-#: UK SE
-msgid "Lowland heath"
-msgstr "Gweundir iseldir"
+#: DE SE
+msgid "Field margins "
+msgstr ""
 
 # habitats value
 #: UK BR AR DE
@@ -1856,19 +1856,19 @@ msgid "Forest"
 msgstr ""
 
 # habitats value
-#: CY AR SE HR
-msgid "Cultivation"
-msgstr ""
-
-# habitats value
-#: CY AR SE
-msgid "Salt marsh"
-msgstr ""
-
-# habitats value
 #: BR CY AR SE PT
 msgid "Freshwater wetland"
 msgstr ""
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Garden"
+msgstr "Gardd"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
 
 # habitats value
 #: CY AR
@@ -1886,9 +1886,9 @@ msgid "Roadside verges"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Other"
-msgstr "Arall"
+#: UK AR IE SE PT
+msgid "Grassy verge or hedgerow edge"
+msgstr "Ymyl glaswelltog neu ymyl gwrych"
 
 # habitats value
 #: BR
@@ -1926,9 +1926,9 @@ msgid "Forest edge "
 msgstr ""
 
 # habitats value
-#: DE SE
-msgid "Field margins "
-msgstr ""
+#: UK SE
+msgid "Lowland heath"
+msgstr "Gweundir iseldir"
 
 # habitats value
 #: DE
@@ -1985,24 +1985,24 @@ msgid "Waste ground/exploited land"
 msgstr ""
 
 # habitats value
-#: SE
-msgid "Coniferous forest"
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Other"
+msgstr "Arall"
+
+# habitats value
+#: UK BR CL CY AR IE SE HR
+msgid "Parkland with trees"
+msgstr "Tir parc gyda choed"
+
+# habitats value
+#: CY AR SE
+msgid "Salt marsh"
 msgstr ""
 
 # habitats value
-#: SE
-msgid "Decidous forest"
-msgstr ""
-
-# habitats value
-#: SE
-msgid "Bare land"
-msgstr ""
-
-# habitats value
-#: SE
-msgid "Artificial land"
-msgstr ""
+#: UK AR SE
+msgid "Upland moorland"
+msgstr "Rhostir ucheldir"
 
 # habitats value
 #: PT

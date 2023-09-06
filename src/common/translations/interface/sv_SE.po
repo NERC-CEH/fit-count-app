@@ -1793,9 +1793,9 @@ msgid "Moths"
 msgstr "Nattfjärilar"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Garden"
-msgstr "Trädgård"
+#: UK BR AR IE DE SE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Gräsmatta (vanligen kortklippt)"
 
 # habitats value
 #: UK CL AR IE
@@ -1803,9 +1803,9 @@ msgid "School Grounds"
 msgstr "Skolgård"
 
 # habitats value
-#: UK BR CL CY AR IE SE HR
-msgid "Parkland with trees"
-msgstr "Parkområde med träd"
+#: SE
+msgid "Artificial land"
+msgstr "Artificiell mark"
 
 # habitats value
 #: UK IE
@@ -1813,19 +1813,19 @@ msgid "Churchyard"
 msgstr "Kyrkogård"
 
 # habitats value
-#: UK AR IE SE PT
-msgid "Grassy verge or hedgerow edge"
-msgstr "Gräskant intill häck, väg eller dylikt."
+#: SE
+msgid "Bare land"
+msgstr "Bar mark"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Gräsmark med vilda blommor (t.ex. äng)"
+#: SE
+msgid "Coniferous forest"
+msgstr "Barrskog"
 
 # habitats value
-#: UK BR AR IE DE SE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Gräsmatta (vanligen kortklippt)"
+#: CY AR SE HR
+msgid "Cultivation"
+msgstr "Odling"
 
 # habitats value
 #: UK BR CL AR IE PT
@@ -1833,14 +1833,14 @@ msgid "Farm crops or grassy pasture"
 msgstr "Grödor eller betesmark"
 
 # habitats value
-#: UK AR SE
-msgid "Upland moorland"
-msgstr "Fjällhed"
+#: SE
+msgid "Decidous forest"
+msgstr "Lövskog"
 
 # habitats value
-#: UK SE
-msgid "Lowland heath"
-msgstr "Hedmark nedanför fjällen, t ex ljunghed."
+#: DE SE
+msgid "Field margins "
+msgstr "Åkerkant"
 
 # habitats value
 #: UK BR AR DE
@@ -1863,19 +1863,19 @@ msgid "Forest"
 msgstr "Skogsmark"
 
 # habitats value
-#: CY AR SE HR
-msgid "Cultivation"
-msgstr "Odling"
-
-# habitats value
-#: CY AR SE
-msgid "Salt marsh"
-msgstr "Havsstrandsäng"
-
-# habitats value
 #: BR CY AR SE PT
 msgid "Freshwater wetland"
 msgstr "Våtmark"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Garden"
+msgstr "Trädgård"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Gräsmark med vilda blommor (t.ex. äng)"
 
 # habitats value
 #: CY AR
@@ -1893,9 +1893,9 @@ msgid "Roadside verges"
 msgstr "Vägrenar"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Other"
-msgstr "Annan"
+#: UK AR IE SE PT
+msgid "Grassy verge or hedgerow edge"
+msgstr "Gräskant intill häck, väg eller dylikt."
 
 # habitats value
 #: BR
@@ -1933,9 +1933,9 @@ msgid "Forest edge "
 msgstr "Skogsbryn"
 
 # habitats value
-#: DE SE
-msgid "Field margins "
-msgstr "Åkerkant"
+#: UK SE
+msgid "Lowland heath"
+msgstr "Hedmark nedanför fjällen, t ex ljunghed."
 
 # habitats value
 #: DE
@@ -1992,24 +1992,24 @@ msgid "Waste ground/exploited land"
 msgstr "Exploaterad mark"
 
 # habitats value
-#: SE
-msgid "Coniferous forest"
-msgstr "Barrskog"
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Other"
+msgstr "Annan"
 
 # habitats value
-#: SE
-msgid "Decidous forest"
-msgstr "Lövskog"
+#: UK BR CL CY AR IE SE HR
+msgid "Parkland with trees"
+msgstr "Parkområde med träd"
 
 # habitats value
-#: SE
-msgid "Bare land"
-msgstr "Bar mark"
+#: CY AR SE
+msgid "Salt marsh"
+msgstr "Havsstrandsäng"
 
 # habitats value
-#: SE
-msgid "Artificial land"
-msgstr "Artificiell mark"
+#: UK AR SE
+msgid "Upland moorland"
+msgstr "Fjällhed"
 
 # habitats value
 #: PT

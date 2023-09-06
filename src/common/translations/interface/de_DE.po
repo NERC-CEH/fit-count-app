@@ -1807,9 +1807,9 @@ msgid "Moths"
 msgstr "Nachtfalter"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Garden"
-msgstr "Garten"
+#: UK BR AR IE DE SE
+msgid "Amenity grassland (usually mown short)"
+msgstr "Zierrasen (meist kurz gemäht)"
 
 # habitats value
 #: UK CL AR IE
@@ -1817,9 +1817,9 @@ msgid "School Grounds"
 msgstr "Schulgelände"
 
 # habitats value
-#: UK BR CL CY AR IE SE HR
-msgid "Parkland with trees"
-msgstr "Parklandschaft mit Bäumen"
+#: SE
+msgid "Artificial land"
+msgstr "KÜnstliche Fläche"
 
 # habitats value
 #: UK IE
@@ -1827,19 +1827,19 @@ msgid "Churchyard"
 msgstr "Kirchhof"
 
 # habitats value
-#: UK AR IE SE PT
-msgid "Grassy verge or hedgerow edge"
-msgstr "Grasiger Saum oder Heckensaum"
+#: SE
+msgid "Bare land"
+msgstr "Kahle Fläche"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Grassland with wild flowers (e.g. meadow)"
-msgstr "Blütenreiche Wiesen und Weiden"
+#: SE
+msgid "Coniferous forest"
+msgstr "Nadelwald"
 
 # habitats value
-#: UK BR AR IE DE SE
-msgid "Amenity grassland (usually mown short)"
-msgstr "Zierrasen (meist kurz gemäht)"
+#: CY AR SE HR
+msgid "Cultivation"
+msgstr "Landwirtschaftliche Nutzfläche"
 
 # habitats value
 #: UK BR CL AR IE PT
@@ -1847,14 +1847,14 @@ msgid "Farm crops or grassy pasture"
 msgstr "Acker oder Weidefläche"
 
 # habitats value
-#: UK AR SE
-msgid "Upland moorland"
-msgstr "Hochmoor"
+#: SE
+msgid "Decidous forest"
+msgstr "Laubwald"
 
 # habitats value
-#: UK SE
-msgid "Lowland heath"
-msgstr "Heide"
+#: DE SE
+msgid "Field margins "
+msgstr "Feldrand/Feldsaum"
 
 # habitats value
 #: UK BR AR DE
@@ -1877,19 +1877,19 @@ msgid "Forest"
 msgstr "Wald"
 
 # habitats value
-#: CY AR SE HR
-msgid "Cultivation"
-msgstr "Landwirtschaftliche Nutzfläche"
-
-# habitats value
-#: CY AR SE
-msgid "Salt marsh"
-msgstr "Salzmarsch"
-
-# habitats value
 #: BR CY AR SE PT
 msgid "Freshwater wetland"
 msgstr "Süßwasser-Feuchtgebiet"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Garden"
+msgstr "Garten"
+
+# habitats value
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Grassland with wild flowers (e.g. meadow)"
+msgstr "Blütenreiche Wiesen und Weiden"
 
 # habitats value
 #: CY AR
@@ -1907,9 +1907,9 @@ msgid "Roadside verges"
 msgstr "Straßenränder"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
-msgid "Other"
-msgstr "Andere"
+#: UK AR IE SE PT
+msgid "Grassy verge or hedgerow edge"
+msgstr "Grasiger Saum oder Heckensaum"
 
 # habitats value
 #: BR
@@ -1947,9 +1947,9 @@ msgid "Forest edge "
 msgstr "Waldrand"
 
 # habitats value
-#: DE SE
-msgid "Field margins "
-msgstr "Feldrand/Feldsaum"
+#: UK SE
+msgid "Lowland heath"
+msgstr "Heide"
 
 # habitats value
 #: DE
@@ -2006,24 +2006,24 @@ msgid "Waste ground/exploited land"
 msgstr "Brachland"
 
 # habitats value
-#: SE
-msgid "Coniferous forest"
-msgstr "Nadelwald"
+#: UK BR CL CY AR IE DE SE HR PT
+msgid "Other"
+msgstr "Andere"
 
 # habitats value
-#: SE
-msgid "Decidous forest"
-msgstr "Laubwald"
+#: UK BR CL CY AR IE SE HR
+msgid "Parkland with trees"
+msgstr "Parklandschaft mit Bäumen"
 
 # habitats value
-#: SE
-msgid "Bare land"
-msgstr "Kahle Fläche"
+#: CY AR SE
+msgid "Salt marsh"
+msgstr "Salzmarsch"
 
 # habitats value
-#: SE
-msgid "Artificial land"
-msgstr "KÜnstliche Fläche"
+#: UK AR SE
+msgid "Upland moorland"
+msgstr "Hochmoor"
 
 # habitats value
 #: PT
