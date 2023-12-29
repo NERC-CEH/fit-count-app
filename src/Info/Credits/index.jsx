@@ -5,6 +5,7 @@ import appModel from 'models/app';
 import pMSkyLogo from './images/PoMSKy.png';
 import pomsLogo from './images/PoMS_Logo_WithStrap_Positive_Black.png';
 import surpassLogo from './images/SURPASS_logo.png';
+import springLogo from './images/spring.png';
 import './styles.scss';
 
 const { H, P } = Section;
@@ -90,6 +91,13 @@ const Credits = () => {
                 <IonCol>
                   <a href="https://bee-surpass.org">
                     <img src={surpassLogo} />
+                  </a>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol>
+                  <a href="https://www.ufz.de/spring-pollination">
+                    <img src={springLogo} />
                   </a>
                 </IonCol>
               </IonRow>
@@ -259,7 +267,6 @@ const Credits = () => {
                 <li>GT1976, Wikimedia Commons</li>
               </ul>
             )}
-            (
             {isSweden && (
               <ul>
                 <li>Harriet Arnberg</li>
@@ -273,7 +280,6 @@ const Credits = () => {
                 <li>Jan Thomas Johansson</li>
               </ul>
             )}
-            )
             {isRestOfWorld && (
               <ul>
                 <li>Aiwok via Wikimedia</li>
