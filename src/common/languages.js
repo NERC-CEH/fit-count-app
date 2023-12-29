@@ -11,13 +11,12 @@ const languages = {
   es: { default: 'es-CL' },
   'es-CL': 'Español',
   hr: 'Hrvatski',
+  se: 'Svenska',
 };
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
-  Object.assign(languages, {
-    se: 'Svenska',
-  });
+  Object.assign(languages, {});
 }
 
 export default languages;

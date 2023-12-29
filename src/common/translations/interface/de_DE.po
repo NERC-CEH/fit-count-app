@@ -1665,7 +1665,7 @@ msgstr "Stärke"
 # User login failure message
 #: interface
 msgid "Incorrect password gor email"
-msgstr ""
+msgstr "Falsche Email oder Passwort"
 
 # Offline message
 #: interface
@@ -1977,7 +1977,7 @@ msgid "Waste ground"
 msgstr "Ödland"
 
 # habitats value
-#: CL HR PT SE
+#: CL SE HR PT
 msgid "Shrubland"
 msgstr "Gebüsch"
 

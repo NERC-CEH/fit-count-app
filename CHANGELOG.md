@@ -1,5 +1,7 @@
 # 1.5.3
 
+Added Sweden.
+
 # 1.5.2
 
 Updated libraries (Capacitor).

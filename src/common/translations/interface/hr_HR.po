@@ -1968,7 +1968,7 @@ msgid "Waste ground"
 msgstr ""
 
 # habitats value
-#: CL HR PT SE
+#: CL SE HR PT
 msgid "Shrubland"
 msgstr "Šikara ili grmlje"
 

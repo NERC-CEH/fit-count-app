@@ -1948,7 +1948,7 @@ msgid "Waste ground"
 msgstr "Waste ground"
 
 # habitats value
-#: CL HR PT SE
+#: CL SE HR PT
 msgid "Shrubland"
 msgstr "Shrubland"
 

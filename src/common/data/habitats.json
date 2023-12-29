@@ -18,7 +18,7 @@
     "CL": true
   },
   {
-    "warehouseId": -1,
+    "warehouseId": 21888,
     "value": "Artificial land",
     "SE": true
   },
@@ -29,12 +29,12 @@
     "IE": true
   },
   {
-    "warehouseId": -1,
+    "warehouseId": 21885,
     "value": "Bare land",
     "SE": true
   },
   {
-    "warehouseId": -1,
+    "warehouseId": 21886,
     "value": "Coniferous forest",
     "SE": true
   },
@@ -57,7 +57,7 @@
     "PT": true
   },
   {
-    "warehouseId": -1,
+    "warehouseId": 21887,
     "value": "Decidous forest",
     "SE": true
   },
@@ -240,6 +240,7 @@
     "warehouseId": 20296,
     "value": "Shrubland",
     "CL": true,
+    "SE": true,
     "HR": true,
     "PT": true
   },
@@ -298,11 +299,6 @@
     "value": "Salt marsh",
     "CY": true,
     "AR": true,
-    "SE": true
-  },
-  {
-    "warehouseId": -1,
-    "value": "Shrubland",
     "SE": true
   },
   {

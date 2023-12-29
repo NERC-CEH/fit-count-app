@@ -120,7 +120,7 @@
   },
   {
     "id": "blueberry",
-    "warehouseId": -1,
+    "warehouseId": 21889,
     "type": "Spike",
     "name": "Blueberry",
     "scientificName": "Vaccinium myrtillus",
@@ -171,10 +171,10 @@
   },
   {
     "id": "brownGreaterKnapweed",
-    "warehouseId": -1,
+    "warehouseId": 21890,
     "type": "Head",
     "name": "Brown knapweed/Greater knapweed",
-    "scientificName": "Centaurea jacea/Centaurea scabiosa ",
+    "scientificName": "Centaurea jacea/Centaurea scabiosa",
     "SE": true
   },
   {
@@ -311,7 +311,7 @@
   },
   {
     "id": "cowberry",
-    "warehouseId": -1,
+    "warehouseId": 21891,
     "type": "Spike",
     "name": "Cowberry",
     "scientificName": "Vaccinium vitis-idaea",
@@ -359,7 +359,7 @@
   },
   {
     "id": "devilScabious",
-    "warehouseId": -1,
+    "warehouseId": 21892,
     "type": "Head",
     "name": "Devil's-bit Scabious/Field Scabious",
     "scientificName": "Succisa pratensis/Knautia arvensis",
@@ -410,7 +410,7 @@
   },
   {
     "id": "geranium",
-    "warehouseId": -1,
+    "warehouseId": 21893,
     "type": "Individual Flower",
     "name": "Geranium",
     "scientificName": "Geranium spp",
@@ -418,7 +418,7 @@
   },
   {
     "id": "goldenrod",
-    "warehouseId": -1,
+    "warehouseId": 21894,
     "type": "Spike",
     "name": "European goldenrod",
     "scientificName": "Solidago virgaurea",
@@ -473,7 +473,7 @@
   },
   {
     "id": "hogweedAngelica",
-    "warehouseId": -1,
+    "warehouseId": 21895,
     "type": "Umbel",
     "name": "Hogweed/wild angelica/garden angelica",
     "scientificName": "Heracleum sphondylium/Angelica sylvestris/Angelica archangelica",
@@ -563,7 +563,7 @@
   },
   {
     "id": "leontodon",
-    "warehouseId": -1,
+    "warehouseId": 21896,
     "type": "Umbel",
     "name": "Leontodon, Picris, Hypochaeris and others",
     "scientificName": "(Leontodon, Picris, Hypochaeris and others incl Hieracium, Pilosella)",
@@ -743,7 +743,7 @@
   },
   {
     "id": "redZigZagClover",
-    "warehouseId": -1,
+    "warehouseId": 21897,
     "type": "Head",
     "name": "Red clover/Zigzag clover",
     "scientificName": "Trifolium pratense/medium",
@@ -782,7 +782,7 @@
   },
   {
     "id": "rosebay",
-    "warehouseId": -1,
+    "warehouseId": 21898,
     "type": "Spike",
     "name": "Rosebay willowherb",
     "scientificName": "Chamaenerion angustifolium",

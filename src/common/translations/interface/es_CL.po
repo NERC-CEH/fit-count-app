@@ -1989,7 +1989,7 @@ msgid "Waste ground"
 msgstr "Terreno baldío"
 
 # habitats value
-#: CL HR PT SE
+#: CL SE HR PT
 msgid "Shrubland"
 msgstr "Matorral"
 

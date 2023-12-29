@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2022
 # Karolis, 2022
 # Giselle Muschett <giselle.muschett@pucv.cl>, 2022
 # Eduardo E. Zattara <ezattara@gmail.com>, 2023
+# Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Eduardo E. Zattara <ezattara@gmail.com>, 2023\n"
+"Last-Translator: Cristina Sevilleja <cristina.sevilleja@gmail.com>, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/ceh/teams/116172/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +70,7 @@ msgstr "Aplicación"
 # User account error.
 #: interface
 msgid "User re-login is required."
-msgstr ""
+msgstr "Es necesario que el usuario vuelva a iniciar sesión."
 
 # User account delete in the settings
 #: interface
@@ -198,12 +198,12 @@ msgstr "Suecia"
 # Country page content
 #: interface
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 # Country page content
 #: interface
 msgid "Croatia"
-msgstr ""
+msgstr "Croacia"
 
 # Home page toolbar label
 #: interface
@@ -1677,27 +1677,27 @@ msgstr ""
 # Back button label
 #: interface
 msgid "Strength"
-msgstr ""
+msgstr "Fortaleza"
 
 # User login failure message
 #: interface
 msgid "Incorrect password gor email"
-msgstr ""
+msgstr "Contraseña o email incorrecto"
 
 # Offline message
 #: interface
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Lo siento, parece que estás desconectado."
 
 # Photo picker content
 #: interface
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
-msgstr ""
+msgstr "Ninguna foto ha sido añadida Pulse <4><0></0></4> para añadir."
 
 # Survey activity page message
 #: interface
 msgid "Please pull down the page to see projects list."
-msgstr ""
+msgstr "Por favor, baje la página para ver la lista de proyectos."
 
 # ============================================================================
 # ============================================================================
@@ -1799,27 +1799,27 @@ msgstr "Abejas carpinteras"
 # insects name
 #: SE
 msgid "Social wasps"
-msgstr ""
+msgstr "Avispas sociales"
 
 # insects name
 #: PT
 msgid "Small wildbees (< 10mm)"
-msgstr ""
+msgstr "Pequeñas abejas silvestres (< 10mm)"
 
 # insects name
 #: PT
 msgid "Big wildbees (=> 10mm)"
-msgstr ""
+msgstr "Grandes abejas silvestres (=> 10mm)"
 
 # insects name
 #: PT
 msgid "Butterflies"
-msgstr ""
+msgstr "Mariposas"
 
 # insects name
 #: PT
 msgid "Moths"
-msgstr ""
+msgstr "Polillas"
 
 # habitats value
 #: UK BR AR IE DE SE
@@ -1834,7 +1834,7 @@ msgstr "Patios de colegio"
 # habitats value
 #: SE
 msgid "Artificial land"
-msgstr ""
+msgstr "Tierra artificial"
 
 # habitats value
 #: UK IE
@@ -1844,12 +1844,12 @@ msgstr "Patio de iglesia o capilla"
 # habitats value
 #: SE
 msgid "Bare land"
-msgstr ""
+msgstr "Tierra desnuda"
 
 # habitats value
 #: SE
 msgid "Coniferous forest"
-msgstr ""
+msgstr "Bosque de coníferas"
 
 # habitats value
 #: CY AR SE HR
@@ -1864,12 +1864,12 @@ msgstr "Cultivos agrícolas o pastos cubiertos de hierba"
 # habitats value
 #: SE
 msgid "Decidous forest"
-msgstr ""
+msgstr "Bosque caducifolio"
 
 # habitats value
 #: DE SE
 msgid "Field margins "
-msgstr ""
+msgstr "Márgenes del campo"
 
 # habitats value
 #: UK BR AR DE
@@ -1959,7 +1959,7 @@ msgstr "Borde de agua dulce"
 # habitats value
 #: DE HR
 msgid "Forest edge "
-msgstr ""
+msgstr "Borde del bosque"
 
 # habitats value
 #: UK SE
@@ -1969,12 +1969,12 @@ msgstr "Brezal de tierras bajas"
 # habitats value
 #: DE
 msgid "Orchard meadow "
-msgstr ""
+msgstr "Pradera del huerto"
 
 # habitats value
 #: DE
 msgid "Fallow land "
-msgstr ""
+msgstr "Barbecho"
 
 # habitats value
 #: IE
@@ -1992,7 +1992,7 @@ msgid "Waste ground"
 msgstr "Terreno baldío"
 
 # habitats value
-#: CL HR PT SE
+#: CL SE HR PT
 msgid "Shrubland"
 msgstr "Matorral"
 
@@ -2004,21 +2004,21 @@ msgstr "Huerta"
 # habitats value
 #: HR
 msgid "Rocky habitat"
-msgstr ""
+msgstr "Hábitat rocoso"
 
 # habitats value
 #: HR
 msgid "Wet habitat"
-msgstr ""
+msgstr "Hábitat húmero"
 
 # habitats value
 #: HR
 msgid "Urban green spaces"
-msgstr ""
+msgstr "Espacios urbanos verdes"
 
 # habitats value
 msgid "Waste ground/exploited land"
-msgstr ""
+msgstr "Terrenos baldíos/explotados"
 
 # habitats value
 #: UK BR CL CY AR IE DE SE HR PT
@@ -2043,17 +2043,17 @@ msgstr "Páramos de montaña"
 # habitats value
 #: PT
 msgid "Balcony and small porches"
-msgstr ""
+msgstr "Balcón  y pequeños porches"
 
 # habitats value
 #: PT
 msgid "Dune systems"
-msgstr ""
+msgstr "Sistema dunar"
 
 # habitats value
 #: PT
 msgid "Montado (Low density trees)"
-msgstr ""
+msgstr "Montado (Baja densidad de árboles)"
 
 # flowers name
 #: CY CL PT

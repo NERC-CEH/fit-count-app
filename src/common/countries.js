@@ -60,18 +60,18 @@ const countries = [
     value: 'PT',
     warehouseId: 21813,
   },
+  {
+    flag: SE,
+    label: 'Sweden',
+    value: 'SE',
+    warehouseId: 20646,
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
   countries.push(
     ...[
-      {
-        flag: SE,
-        label: 'Sweden',
-        value: 'SE',
-        warehouseId: 20646,
-      },
       {
         flag: AR,
         label: 'Argentina',
