@@ -1,6 +1,6 @@
 # 1.5.3
 
-Added Sweden.
+Added Sweden
 
 # 1.5.2
 

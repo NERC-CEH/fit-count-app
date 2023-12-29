@@ -20,12 +20,12 @@ import {
 } from '@flumens';
 import { IonButton, IonSpinner, IonIcon } from '@ionic/react';
 import config from 'common/config';
+import countries from 'common/countries';
 import hasWebGL from 'common/helpers/webGLSupport';
 import appModel from 'models/app';
 import Sample from 'models/sample';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
-import COUNTRIES_CENTROID from './country_centroide';
 import './styles.scss';
 
 const DEFAULT_ZOOM = 5;
@@ -100,9 +100,8 @@ const Location: FC<Props> = ({ sample: model }) => {
 
   const location = model.attrs.location || {};
 
-  let { country } = appModel.attrs;
-  country = country === 'UK' ? 'GB' : country; // UK -> GB
-  country = country || 'GB'; // default GB
+  const { country } = appModel.attrs;
+  const geocodedCountry = country === 'UK' ? 'GB' : country; // UK -> GB
 
   const startGPS = () => !model.isGPSRunning() && model.startGPS();
 
@@ -110,13 +109,14 @@ const Location: FC<Props> = ({ sample: model }) => {
 
   const hasLocationName = !!model.attrs['location-name'];
 
-  const selectedCountry = COUNTRIES_CENTROID[country];
+  const byCountryId = ({ value }: any) => value === country;
+  const selectedCountry = countries.find(byCountryId);
 
   const mapCenter = selectedCountry
-    ? [selectedCountry.lat, selectedCountry.lng]
+    ? [selectedCountry.coords.lat, selectedCountry.coords.lng]
     : DEFAULT_CENTER;
 
-  const mapZoom = selectedCountry?.zoom || DEFAULT_ZOOM;
+  const mapZoom = selectedCountry?.coords.zoom || DEFAULT_ZOOM;
 
   return (
     <Page id="survey-location-page">
@@ -171,7 +171,7 @@ const Location: FC<Props> = ({ sample: model }) => {
             geocodingParams={{
               access_token: config.map.mapboxApiKey,
               types: 'locality,place,district,neighborhood,region,postcode',
-              country,
+              country: geocodedCountry || 'GB',
             }}
             icon={searchOutline}
             placeholder="Search for a location..."
