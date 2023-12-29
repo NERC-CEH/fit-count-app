@@ -262,6 +262,7 @@ const Credits = () => {
             (
             {isSweden && (
               <ul>
+                <li>Harriet Arnberg</li>
                 <li>Aiwok via Wikimedia</li>
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Gilles San Martin vias Wikispecies</li>
