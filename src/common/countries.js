@@ -75,21 +75,18 @@ const countries = [
     warehouseId: 20646,
     coords: { lat: 60.128161, lng: 18.643501, zoom: 4 },
   },
+  {
+    flag: AR,
+    label: 'Argentina',
+    value: 'AR',
+    warehouseId: 18969,
+    coords: { lat: -34.996496, lng: -64.967282, zoom: 4 },
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
-  countries.push(
-    ...[
-      {
-        flag: AR,
-        label: 'Argentina',
-        value: 'AR',
-        warehouseId: 18969,
-        coords: { lat: -34.996496, lng: -64.967282, zoom: 4 },
-      },
-    ]
-  );
+  countries.push(...[]);
 }
 
 export default countries;

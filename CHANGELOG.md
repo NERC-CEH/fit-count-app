@@ -1,6 +1,8 @@
 # 1.5.3
 
-Added Sweden
+Added Sweden.
+Added Argentina.
+Updated translations.
 
 # 1.5.2
 
