@@ -1,6 +1,8 @@
 import { isPlatform } from '@ionic/react';
 
-const languages = {
+export type Languages = { [key: string]: string | { default: string } };
+
+const languages: Languages = {
   en: 'English',
   cy: 'Cymraeg',
   el: 'Eλληνικά',

@@ -1,3 +1,7 @@
+# 1.5.4
+
+Improved default language selection.
+
 # 1.5.3
 
 Added Sweden.

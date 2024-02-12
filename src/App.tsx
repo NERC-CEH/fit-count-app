@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 import { Route, Redirect } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import CountriesSelectRequire from 'common/Components/CountriesSelectRequire';
+import CountriesSelectRequired from 'common/Components/CountriesSelectRequired';
 import appModel from 'models/app';
 import Home from './Home';
 import OnBoardingScreens from './Info/OnBoardingScreens';
@@ -18,7 +18,7 @@ const HomeRedirect = () => {
 
 const App: FC = () => (
   <IonApp>
-    <CountriesSelectRequire>
+    <CountriesSelectRequired>
       <OnBoardingScreens appModel={appModel}>
         <IonReactRouter>
           <IonRouterOutlet id="main">
@@ -31,7 +31,7 @@ const App: FC = () => (
           </IonRouterOutlet>
         </IonReactRouter>
       </OnBoardingScreens>
-    </CountriesSelectRequire>
+    </CountriesSelectRequired>
   </IonApp>
 );
 

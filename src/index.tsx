@@ -41,8 +41,7 @@ async function init() {
 
   if (!appModel.attrs.language) {
     const langCode =
-      (await getLangCodeFromDevice(Object.entries(languages))) ||
-      config.DEFAULT_LANGUAGE;
+      (await getLangCodeFromDevice(languages)) || config.DEFAULT_LANGUAGE;
 
     appModel.attrs.language = langCode;
     appModel.save();

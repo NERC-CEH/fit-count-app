@@ -1,23 +1,21 @@
-import PropTypes from 'prop-types';
-import exact from 'prop-types-exact';
 import { Trans as T } from 'react-i18next';
 import { IonItem, IonLabel } from '@ionic/react';
 import './styles.scss';
 
-function CountryButton({ appModel, country }) {
-  const { flag, label, value } = country;
+type Props = {
+  country: any;
+  onClick: any;
+};
 
-  const selectCountry = () => {
-    appModel.attrs.country = value; // eslint-disable-line no-param-reassign
-    appModel.save();
-  };
+function CountryButton({ country, onClick }: Props) {
+  const { flag, label } = country;
 
   return (
     <IonItem
       key={label}
       lines="none"
       className="country-list-item"
-      onClick={selectCountry}
+      onClick={onClick}
       detail
     >
       <img className="country-icons" src={flag} />
@@ -32,10 +30,5 @@ function CountryButton({ appModel, country }) {
     </IonItem>
   );
 }
-
-CountryButton.propTypes = exact({
-  country: PropTypes.object.isRequired,
-  appModel: PropTypes.object.isRequired,
-});
 
 export default CountryButton;

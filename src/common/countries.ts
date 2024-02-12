@@ -11,10 +11,18 @@ import PT from 'common/images/ptFlag.svg';
 import SE from 'common/images/seFlag.svg';
 import UK from 'common/images/ukFlag.svg';
 
-const countries = [
+export type Country = {
+  label: string;
+  flag: string;
+  value: string;
+  warehouseId: number;
+  coords: { lat: number; lng: number; zoom: number };
+};
+
+const countries: Country[] = [
   {
-    flag: UK,
     label: 'United Kingdom',
+    flag: UK,
     value: 'UK',
     warehouseId: 18965,
     coords: { lat: 53.5, lng: -2.5, zoom: 5 },
@@ -86,7 +94,7 @@ const countries = [
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
-  countries.push(...[]);
+  countries.push(...([] as any));
 }
 
 export default countries;
