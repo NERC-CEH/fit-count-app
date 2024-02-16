@@ -2324,9 +2324,14 @@ msgid "Lantana"
 msgstr "Lantana"
 
 # flowers name
-#: UK IE DE HR PT
+#: UK IE DE HR
 msgid "Lavender"
 msgstr "Lavândula"
+
+# flowers name
+#: PT
+msgid "Lavender and Rosemary"
+msgstr ""
 
 # flowers name
 #: SE
@@ -4663,13 +4668,18 @@ msgstr "Superfície dos olhos coberta de pelos"
 
 # photos caption_3
 #: PT
+msgid "Hind legs broad, flattened and shiny"
+msgstr ""
+
+# photos caption_4
+#: PT
 msgid ""
 "Abdomen with short and light brown hairs and surface orange to dark brown."
 msgstr ""
 "Abdómen com superfície laranja a castanha escura e com pelos curtos de cor "
 "castanha clara"
 
-# photos caption_4
+# photos caption_5
 #: PT
 msgid "“Banana shape” marginal cell on front wing"
 msgstr "Célula marginal em \"forma de banana\" na asa dianteira"
@@ -5064,6 +5074,13 @@ msgstr ""
 # photos caption_1
 #: PT
 msgid ""
+"Many of the other flies you will see on flowers have bristles on the legs "
+"and body. "
+msgstr ""
+
+# photos caption_2
+#: PT
+msgid ""
 "Conopidae might have yellow and red markings all over the body, but the "
 "abdomen is curved downwards, and they have a long ‘tongue’ (proboscis)"
 msgstr ""
@@ -5071,7 +5088,7 @@ msgstr ""
 "corpo, mas o abdómen é curvado para baixo e apresentam uma \"língua\" "
 "(probóscide) comprida"
 
-# photos caption_2
+# photos caption_3
 #: PT
 msgid ""
 "Bombyliidae might have pale markings or be very similar to hoverflies, but "
@@ -5081,7 +5098,7 @@ msgstr ""
 "muito semelhantes a moscas-das-flores, mas não apresentam a \"falsa margem\""
 " nas asas, e têm uma probóscide longa."
 
-# photos caption_3
+# photos caption_4
 #: PT
 msgid ""
 "Stratiomyidae could show similar colour patterns to hoverflies but they have"

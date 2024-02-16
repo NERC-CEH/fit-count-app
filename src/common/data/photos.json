@@ -1141,8 +1141,9 @@
     "intro_text": "This single species is around 10 millimetres, a medium size for a bee. It is our reference to determine big and small wild bees.",
     "caption_1": "Long thin antennae (different from most flies)",
     "caption_2": "Eyes covered with hairs",
-    "caption_3": "Abdomen with short and light brown hairs and surface orange to dark brown.",
-    "caption_4": "“Banana shape” marginal cell on front wing",
+    "caption_3": "Hind legs broad, flattened and shiny",
+    "caption_4": "Abdomen with short and light brown hairs and surface orange to dark brown.",
+    "caption_5": "“Banana shape” marginal cell on front wing",
     "extraText": "Honeybee nest in artificial hives, with occasional colonies establishing in the wild.",
     "PT": true
   },
@@ -1257,9 +1258,10 @@
     "id": "otherFlies",
     "pictureId": "PT2",
     "intro_text": "Most of the other flies that you will see on flowers have a clearly different body shape, especially modified, elongated or rounded, frequently including bristles on the legs and body (1). Nevertheless there are some families that might pose a challenge.",
-    "caption_1": "Conopidae might have yellow and red markings all over the body, but the abdomen is curved downwards, and they have a long ‘tongue’ (proboscis)",
-    "caption_2": "Bombyliidae might have pale markings or be very similar to hoverflies, but lack a ‘false margin’ in the wing, and present a long proboscis",
-    "caption_3": "Stratiomyidae could show similar colour patterns to hoverflies but they have a especially flattened body, a cut short abdomen and lack a ‘false margin’ in the wing",
+    "caption_1": "Many of the other flies you will see on flowers have bristles on the legs and body. ",
+    "caption_2": "Conopidae might have yellow and red markings all over the body, but the abdomen is curved downwards, and they have a long ‘tongue’ (proboscis)",
+    "caption_3": "Bombyliidae might have pale markings or be very similar to hoverflies, but lack a ‘false margin’ in the wing, and present a long proboscis",
+    "caption_4": "Stratiomyidae could show similar colour patterns to hoverflies but they have a especially flattened body, a cut short abdomen and lack a ‘false margin’ in the wing",
     "PT": true
   },
   {
