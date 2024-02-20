@@ -1,6 +1,7 @@
 # 1.5.4
 
 Improved default language selection.
+Updated translations.
 
 # 1.5.3
 

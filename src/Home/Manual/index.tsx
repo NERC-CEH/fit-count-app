@@ -1,5 +1,6 @@
 import { Trans as T } from 'react-i18next';
 import { Page, Main, Section } from '@flumens';
+import config from 'common/config';
 import appModel from 'models/app';
 import './styles.scss';
 
@@ -189,31 +190,11 @@ const Manual = () => {
   const { country } = appModel.attrs;
   const isUK = country === 'UK';
   const isBrazil = country === 'BR';
-  const isIreland = country === 'IE';
-  const isGermany = country === 'DE';
   const isRestOfWorld = !isUK && !isBrazil;
 
-  let furtherLink = (
-    <a href="http://ukpoms.org.uk/fit-counts">
-      http://ukpoms.org.uk/fit-counts
-    </a>
-  );
-
-  if (isIreland) {
-    furtherLink = (
-      <a href="https://biodiversityireland.ie/surveys/fit-counts">
-        https://biodiversityireland.ie/surveys/fit-counts
-      </a>
-    );
-  }
-
-  if (isGermany) {
-    furtherLink = (
-      <a href="https://www.ufz.de/spring-pollination/index.php?de=49254">
-        https://www.ufz.de/spring-pollination/index.php?de=49254
-      </a>
-    );
-  }
+  const { furtherInfoLink } = config;
+  const furtherLink =
+    (furtherInfoLink as any)[country] || furtherInfoLink.default;
 
   return (
     <Page id="manual">
@@ -233,7 +214,7 @@ const Manual = () => {
         <Section>
           <P skipTranslation>
             <T>Further information and guides are available at</T>:{' '}
-            {furtherLink}
+            <a href={furtherLink}>{furtherLink}</a>
           </P>
         </Section>
       </Main>

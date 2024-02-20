@@ -75,11 +75,10 @@ const Guide: FC = () => {
   };
 
   const { country } = appModel.attrs;
-  const isCyprus = country === 'CY';
   const showFeedback = shouldShowFeedback();
-  const { feedbackEmail, feedbackEmailCY } = config;
+  const { feedbackEmail } = config;
 
-  const email = isCyprus ? feedbackEmailCY : feedbackEmail;
+  const email = (feedbackEmail as any)[country] || feedbackEmail.default;
 
   const dismissModal = () => setSpecies(null);
 

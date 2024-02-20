@@ -10,10 +10,8 @@ const { P } = Section;
 
 const About = () => {
   const { country } = appModel.attrs;
-  const isCyprus = country === 'CY';
-
-  const { feedbackLink, feedbackLinkCY } = config;
-  const feedback = isCyprus ? feedbackLinkCY : feedbackLink;
+  const { feedbackLink } = config;
+  const feedback = (feedbackLink as any)[country] || feedbackLink.default;
 
   return (
     <Page id="about">
@@ -79,6 +77,12 @@ const About = () => {
             <li>
               <a href="https://www.ufz.de/spring-pollination/index.php?en=49053">
                 EU-Projekt SPRING
+              </a>
+            </li>
+            <li>
+              <a href="https://www.pollinet.pt/polinização">
+                PolinizAÇÃO: Plano de Ação para a Conservação e Sustentabilidade
+                dos Polinizadores
               </a>
             </li>
           </ul>

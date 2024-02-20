@@ -15,11 +15,24 @@ const config = {
 
   sentryDNS: process.env.APP_SENTRY_KEY as string,
 
-  feedbackLink: 'https://fitcount.ceh.ac.uk/contact',
-  feedbackLinkCY: 'https://www.ris-ky.info/poms-ky',
+  furtherInfoLink: {
+    default: 'http://ukpoms.org.uk/fit-counts',
+    IE: 'https://biodiversityireland.ie/surveys/fit-counts',
+    DE: 'https://www.ufz.de/spring-pollination/index.php?de=49254',
+    PT: 'https://www.pollinet.pt/fitcount',
+  },
 
-  feedbackEmail: 'poms%40ceh.ac.uk',
-  feedbackEmailCY: 'pomscyprus%40gmail.com',
+  feedbackLink: {
+    default: 'https://fitcount.ceh.ac.uk/contact',
+    CY: 'https://www.ris-ky.info/poms-ky',
+    PT: 'https://www.pollinet.pt/fitcount',
+  },
+
+  feedbackEmail: {
+    default: 'poms%40ceh.ac.uk',
+    CY: 'pomscyprus%40gmail.com',
+    PT: 'polinizacao%40pollinet.pt',
+  },
 
   map: {
     mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY as string,
