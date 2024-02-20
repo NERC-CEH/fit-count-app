@@ -3,12 +3,12 @@
 # Hugo Manuel Silva Gaspar, 2023
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2023
 # Karolis, 2023
-# FLOWer Lab, 2023
+# FLOWer Lab, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: FLOWer Lab, 2023\n"
+"Last-Translator: FLOWer Lab, 2024\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/ceh/teams/116172/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2331,7 +2331,7 @@ msgstr "Lavândula"
 # flowers name
 #: PT
 msgid "Lavender and Rosemary"
-msgstr ""
+msgstr "Lavândula e Alecrim"
 
 # flowers name
 #: SE
@@ -4669,7 +4669,7 @@ msgstr "Superfície dos olhos coberta de pelos"
 # photos caption_3
 #: PT
 msgid "Hind legs broad, flattened and shiny"
-msgstr ""
+msgstr "Pernas traseiras largas, achatadas e brilhantes"
 
 # photos caption_4
 #: PT
@@ -5077,6 +5077,11 @@ msgid ""
 "Many of the other flies you will see on flowers have bristles on the legs "
 "and body. "
 msgstr ""
+"A maioria das outras moscas que encontrará nas floras tem uma forma corporal"
+" claramente distinta, sendo especialmente modificada, alongada ou redonda, "
+"frequentemente acompanhadas de pelos grossos e eretos nas patas e corpo (1)."
+" No entanto, podem existir algumas famílias que poderão ser desafiantes para"
+" identificar"
 
 # photos caption_2
 #: PT
