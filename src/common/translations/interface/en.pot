@@ -1778,7 +1778,7 @@ msgid "Moths"
 msgstr "Moths"
 
 # insects name
-#: AI
+#: 
 msgid "Other bees"
 msgstr "Other bees"
 
