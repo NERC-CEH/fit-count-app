@@ -19,6 +19,7 @@ const Credits = () => {
   const isCroatia = country === 'HR';
   const isPortugal = country === 'PT';
   const isSweden = country === 'SE';
+  const isAnguilla = country === 'AI';
 
   const isRestOfWorld =
     !isCyprus &&
@@ -149,6 +150,38 @@ const Credits = () => {
                 <li>Colm Moriarty</li>
                 <li>John Walsh</li>
                 <li>Mary Douglas</li>
+              </ul>
+            )}
+            {isAnguilla && (
+              <ul>
+                <li>Alan Weakley</li>
+                <li>Agnes Trekker</li>
+                <li>Samuel Brinker</li>
+                <li>Ajit Ampalakkad</li>
+                <li>Luis Carlos Rodríguez Méndez</li>
+                <li>vjethro</li>
+                <li>Larissa Olivares</li>
+                <li>Nate Parrish</li>
+                <li>natmiller</li>
+                <li>David Tan</li>
+                <li>dbeeke</li>
+                <li>Kyhl Austin</li>
+                <li>Adriel Quintana</li>
+                <li>annafrias71</li>
+                <li>Diana Muñoz</li>
+                <li>abirks</li>
+                <li>stalmack</li>
+                <li>jeremyttw</li>
+                <li>omer_z_906</li>
+                <li>Fátima Tec</li>
+                <li>Leshell</li>
+                <li>aaron_dp</li>
+                <li>Heather DeGaetano</li>
+                <li>Guilherme Guirau</li>
+                <li>Steve Maldonado Silvestrini</li>
+                <li>Farah Mukhida</li>
+                <li>Devon Carter</li>
+                <li>Jonas Hochart</li>
               </ul>
             )}
             {isCroatia && (
