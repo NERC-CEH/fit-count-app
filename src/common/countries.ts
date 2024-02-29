@@ -1,4 +1,5 @@
 import { isPlatform } from '@ionic/react';
+import AI from 'common/images/aiFlag.svg';
 import AR from 'common/images/arFlag.svg';
 import 'common/images/argFlag.svg';
 import BR from 'common/images/braFlag.svg';
@@ -94,7 +95,17 @@ const countries: Country[] = [
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
-  countries.push(...([] as any));
+  countries.push(
+    ...([
+      {
+        flag: AI,
+        label: 'Anguilla',
+        value: 'AI',
+        warehouseId: 22019,
+        coords: { lat: 18.209543, lng: -63.055193, zoom: 12 },
+      },
+    ] as any)
+  );
 }
 
 export default countries;

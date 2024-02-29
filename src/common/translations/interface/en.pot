@@ -1777,6 +1777,11 @@ msgstr "Butterflies"
 msgid "Moths"
 msgstr "Moths"
 
+# insects name
+#: AI
+msgid "Other bees"
+msgstr "Other bees"
+
 # habitats value
 #: UK BR AR IE DE SE
 msgid "Amenity grassland (usually mown short)"
@@ -2011,6 +2016,26 @@ msgstr "Dune systems"
 #: PT
 msgid "Montado (Low density trees)"
 msgstr "Montado (Low density trees)"
+
+# habitats value
+#: 
+msgid "Coastal"
+msgstr "Coastal"
+
+# habitats value
+#: 
+msgid "Golf course"
+msgstr "Golf course"
+
+# habitats value
+#: 
+msgid "Hotel grounds"
+msgstr "Hotel grounds"
+
+# habitats value
+#: 
+msgid "Wetland"
+msgstr "Wetland"
 
 # flowers name
 #: CY CL PT
@@ -2451,6 +2476,226 @@ msgstr "White Mustard"
 #: BR
 msgid "Wild plantain/Heliconia"
 msgstr "Wild plantain/Heliconia"
+
+# flowers name
+#: 
+msgid "Aloe"
+msgstr "Aloe"
+
+# flowers name
+#: 
+msgid "Coral vine"
+msgstr "Coral vine"
+
+# flowers name
+#: 
+msgid "Chinese violet"
+msgstr "Chinese violet"
+
+# flowers name
+#: 
+msgid "Neem tree"
+msgstr "Neem tree"
+
+# flowers name
+#: 
+msgid "Lesser bougainvillea"
+msgstr "Lesser bougainvillea"
+
+# flowers name
+#: 
+msgid "Chink bush"
+msgstr "Chink bush"
+
+# flowers name
+#: 
+msgid "Pride of barbados"
+msgstr "Pride of barbados"
+
+# flowers name
+#: 
+msgid "Giant milkweed"
+msgstr "Giant milkweed"
+
+# flowers name
+#: 
+msgid "Big num-num"
+msgstr "Big num-num"
+
+# flowers name
+#: 
+msgid "Butterfly pea"
+msgstr "Butterfly pea"
+
+# flowers name
+#: 
+msgid "Seagrape"
+msgstr "Seagrape"
+
+# flowers name
+#: 
+msgid "Buttonwood"
+msgstr "Buttonwood"
+
+# flowers name
+#: 
+msgid "Scarlet cordia"
+msgstr "Scarlet cordia"
+
+# flowers name
+#: 
+msgid "Flamboyant"
+msgstr "Flamboyant"
+
+# flowers name
+#: 
+msgid "Bleeding hearth"
+msgstr "Bleeding hearth"
+
+# flowers name
+#: 
+msgid "Red nicker"
+msgstr "Red nicker"
+
+# flowers name
+#: 
+msgid "Morning glory"
+msgstr "Morning glory"
+
+# flowers name
+#: 
+msgid "Jungle flame"
+msgstr "Jungle flame"
+
+# flowers name
+#: 
+msgid "White wild clustervine"
+msgstr "White wild clustervine"
+
+# flowers name
+#: 
+msgid "Skyblue clustervine"
+msgstr "Skyblue clustervine"
+
+# flowers name
+#: 
+msgid "Brazilian jasmine"
+msgstr "Brazilian jasmine"
+
+# flowers name
+#: 
+msgid "Physic nut"
+msgstr "Physic nut"
+
+# flowers name
+#: 
+msgid "Wild sage"
+msgstr "Wild sage"
+
+# flowers name
+#: 
+msgid "Christmas candlestick"
+msgstr "Christmas candlestick"
+
+# flowers name
+#: 
+msgid "Zanzibar pearl tree"
+msgstr "Zanzibar pearl tree"
+
+# flowers name
+#: 
+msgid "Mauve"
+msgstr "Mauve"
+
+# flowers name
+#: 
+msgid "Noni"
+msgstr "Noni"
+
+# flowers name
+#: 
+msgid "Moringa"
+msgstr "Moringa"
+
+# flowers name
+#: 
+msgid "Oleander"
+msgstr "Oleander"
+
+# flowers name
+#: 
+msgid "Bread and cheese"
+msgstr "Bread and cheese"
+
+# flowers name
+#: 
+msgid "Frangipani"
+msgstr "Frangipani"
+
+# flowers name
+#: 
+msgid "Pudic frangipani"
+msgstr "Pudic frangipani"
+
+# flowers name
+#: 
+msgid "Mexican petunia"
+msgstr "Mexican petunia"
+
+# flowers name
+#: 
+msgid "Canker berry"
+msgstr "Canker berry"
+
+# flowers name
+#: 
+msgid "Trailing"
+msgstr "Trailing"
+
+# flowers name
+#: 
+msgid "Worry wine"
+msgstr "Worry wine"
+
+# flowers name
+#: 
+msgid "Mutton polly"
+msgstr "Mutton polly"
+
+# flowers name
+#: 
+msgid "Wiss"
+msgstr "Wiss"
+
+# flowers name
+#: 
+msgid "White cedar"
+msgstr "White cedar"
+
+# flowers name
+#: 
+msgid "Yellow elder"
+msgstr "Yellow elder"
+
+# flowers name
+#: 
+msgid "Rabbit thistle"
+msgstr "Rabbit thistle"
+
+# flowers name
+#: 
+msgid "Marshmallow"
+msgstr "Marshmallow"
+
+# flowers name
+#: 
+msgid "Wild marigold"
+msgstr "Wild marigold"
+
+# flowers name
+#: 
+msgid "Pommeserette"
+msgstr "Pommeserette"
 
 # photos intro_text
 #: UK SE DE CY AR IE CL HR

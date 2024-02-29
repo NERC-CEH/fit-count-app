@@ -162,7 +162,8 @@ class SpeciesProfile extends Component {
 
     const images = this.getImages();
     if (!images.length) {
-      console.error("This species doesn't have any guide photos", species.id);
+      if (species.id !== 'otherBees')
+        console.error("This species doesn't have any guide photos", species.id);
       return null;
     }
 

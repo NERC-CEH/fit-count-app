@@ -885,5 +885,365 @@
     "type": "Spike",
     "name": "Wild plantain/Heliconia",
     "BR": true
+  },
+  {
+    "id": "aloeVera",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Aloe",
+    "scientificName": "Aloe vera",
+    "AI": true
+  },
+  {
+    "id": "antigononLeptotus",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Coral vine",
+    "scientificName": "Antigonon leptopus",
+    "AI": true
+  },
+  {
+    "id": "asystasiaGangetica",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Chinese violet",
+    "scientificName": "Asystasia gangetica",
+    "AI": true
+  },
+  {
+    "id": "azadirachtaIndica",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Neem tree",
+    "scientificName": "Azadirachta indica",
+    "AI": true
+  },
+  {
+    "id": "bougainvilleaGlabra",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Lesser bougainvillea",
+    "scientificName": "Bougainvillea glabra",
+    "AI": true
+  },
+  {
+    "id": "bourreriaSucculenta",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Chink bush",
+    "scientificName": "Bourreria succulenta",
+    "AI": true
+  },
+  {
+    "id": "caesalpiniaPulcherrima",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Pride of barbados",
+    "scientificName": "Caesalpinia pulcherrima",
+    "AI": true
+  },
+  {
+    "id": "calotropisProcera",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Giant milkweed",
+    "scientificName": "Calotropis procera",
+    "AI": true
+  },
+  {
+    "id": "carissaMacrocarpa",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Big num-num",
+    "scientificName": "Carissa macrocarpa",
+    "AI": true
+  },
+  {
+    "id": "centrosemaVirginianum",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Butterfly pea",
+    "scientificName": "Centrosema virginianum",
+    "AI": true
+  },
+  {
+    "id": "coccolobaUvifera",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Seagrape",
+    "scientificName": "Coccoloba uvifera",
+    "AI": true
+  },
+  {
+    "id": "conocarpusErectus",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Buttonwood",
+    "scientificName": "Conocarpus erectus",
+    "AI": true
+  },
+  {
+    "id": "cordiaSebestena",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Scarlet cordia",
+    "scientificName": "Cordia sebestena",
+    "AI": true
+  },
+  {
+    "id": "delonixRegia",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Flamboyant",
+    "scientificName": "Delonix regia",
+    "AI": true
+  },
+  {
+    "id": "euphorbiaTitymaloides",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Bleeding hearth",
+    "scientificName": "Euphorbia tithymaloides",
+    "AI": true
+  },
+  {
+    "id": "guilandinaCilliata",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Red nicker",
+    "scientificName": "Guilandina ciliata",
+    "AI": true
+  },
+  {
+    "id": "ipoloeaPescaprae",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Morning glory",
+    "scientificName": "Ipomoea pes-caprae",
+    "AI": true
+  },
+  {
+    "id": "ixoraCoccinea",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Jungle flame",
+    "scientificName": "Ixora coccinea",
+    "AI": true
+  },
+  {
+    "id": "jacquemontiaNodiflora",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "White wild clustervine",
+    "scientificName": "Jacquemontia nodiflora",
+    "AI": true
+  },
+  {
+    "id": "jacquemontiaPentanthos",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Skyblue clustervine",
+    "scientificName": "Jacquemontia pentanthos",
+    "AI": true
+  },
+  {
+    "id": "jasminumFluminense",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Brazilian jasmine",
+    "scientificName": "Jasminum fluminense",
+    "AI": true
+  },
+  {
+    "id": "jatrophaGossypifolia",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Physic nut",
+    "scientificName": "Jatropha gossypifolia",
+    "AI": true
+  },
+  {
+    "id": "lantanaInvolucrata",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Wild sage",
+    "scientificName": "Lantana involucrata",
+    "AI": true
+  },
+  {
+    "id": "leonotisNepetifolia",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Christmas candlestick",
+    "scientificName": "Leonotis nepetifolia",
+    "AI": true
+  },
+  {
+    "id": "majideaZanguebarica",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Zanzibar pearl tree",
+    "scientificName": "Majidea zanguebarica",
+    "AI": true
+  },
+  {
+    "id": "melochiaTomentosa",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Mauve",
+    "scientificName": "Melochia tomentosa",
+    "AI": true
+  },
+  {
+    "id": "morindaCitrifolia",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Noni",
+    "scientificName": "Morinda citrifolia",
+    "AI": true
+  },
+  {
+    "id": "moringaOleifera",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Moringa",
+    "scientificName": "Moringa oleifera",
+    "AI": true
+  },
+  {
+    "id": "neriumOleander",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Oleander",
+    "scientificName": "Nerium oleander",
+    "AI": true
+  },
+  {
+    "id": "ocimumBasilicum",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Basil",
+    "scientificName": "Ocimum basilicum",
+    "AI": true
+  },
+  {
+    "id": "pithecellobiumUnguis",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Bread and cheese",
+    "scientificName": "Pithecellobium unguis-cati",
+    "AI": true
+  },
+  {
+    "id": "plumeriaAlba",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Frangipani",
+    "scientificName": "Plumeria alba",
+    "AI": true
+  },
+  {
+    "id": "plumeriaPudica",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Pudic frangipani",
+    "scientificName": "Plumeria pudica",
+    "AI": true
+  },
+  {
+    "id": "ruelliaSimplex",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Mexican petunia",
+    "scientificName": "Ruellia simplex",
+    "AI": true
+  },
+  {
+    "id": "solanumBahamense",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Canker berry",
+    "scientificName": "Solanum bahamense",
+    "AI": true
+  },
+  {
+    "id": "sphagneticolaTrilobata",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Trailing",
+    "scientificName": "Sphagneticola trilobata",
+    "AI": true
+  },
+  {
+    "id": "stachytarphetaJamaicensis",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Worry wine",
+    "scientificName": "Stachytarpheta jamaicensis",
+    "AI": true
+  },
+  {
+    "id": "stenostomumAcutatum",
+    "warehouseId": -1,
+    "type": "Umbel",
+    "name": "Mutton polly",
+    "scientificName": "Stenostomum acutatum",
+    "AI": true
+  },
+  {
+    "id": "stigmaphyllonEmarginatum",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Wiss",
+    "scientificName": "Stigmaphyllon emarginatum",
+    "AI": true
+  },
+  {
+    "id": "tabebuiaHeterophylla",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "White cedar",
+    "scientificName": "Tabebuia heterophylla",
+    "AI": true
+  },
+  {
+    "id": "tecomaStans",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Yellow elder",
+    "scientificName": "Tecoma stans",
+    "AI": true
+  },
+  {
+    "id": "tridaxProcumbens",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Rabbit thistle",
+    "scientificName": "Tridax procumbens",
+    "AI": true
+  },
+  {
+    "id": "waltheriaIndica",
+    "warehouseId": -1,
+    "type": "Head",
+    "name": "Marshmallow",
+    "scientificName": "Waltheria indica",
+    "AI": true
+  },
+  {
+    "id": "wedeliaCalcynea",
+    "warehouseId": -1,
+    "type": "Individual Flower",
+    "name": "Wild marigold",
+    "scientificName": "Wedelia calycina",
+    "AI": true
+  },
+  {
+    "id": "ziziphusMauritiania",
+    "warehouseId": -1,
+    "type": "Spike",
+    "name": "Pommeserette",
+    "scientificName": "Ziziphus mauritiana",
+    "AI": true
   }
 ]

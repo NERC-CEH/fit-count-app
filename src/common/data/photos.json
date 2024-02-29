@@ -9,7 +9,8 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in the UK. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "UK": true
+    "UK": true,
+    "AI": true
   },
   {
     "id": "honeybees",
@@ -474,7 +475,8 @@
     "AR": true,
     "IE": true,
     "DE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "wasps",
@@ -575,7 +577,8 @@
     "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
     "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
     "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in the UK.",
-    "UK": true
+    "UK": true,
+    "AI": true
   },
   {
     "id": "hoverflies",
@@ -753,7 +756,8 @@
     "IE": true,
     "DE": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "otherFlies",
@@ -814,7 +818,8 @@
     "IE": true,
     "DE": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "butterfliesAndMoths",
@@ -894,7 +899,8 @@
     "IE": true,
     "DE": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "beetles",
@@ -950,7 +956,8 @@
     "IE": true,
     "DE": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "smallInsects",
@@ -1002,7 +1009,8 @@
     "intro_text": "This category is for any nectar-feeding bats. Glossophaginae is a subfamily of leaf-nosed bats (Phyllostomidae) that can be found from southern North America to South America.",
     "caption_1": "This example shows a flower being visited by a <i>Glossophaga soricine</i> bat",
     "AR": true,
-    "BR": true
+    "BR": true,
+    "AI": true
   },
   {
     "id": "hummingbirds",
@@ -1010,7 +1018,8 @@
     "intro_text": "Hummingbirds are birds native to the Americas and comprise the biological family Trochilidae. With about 360 species, they occur from Alaska to Tierra del Fuego, but the vast majority of the species are found in the tropics. They are small birds, with most species measuring 7.5–13 cm (3–5 in) in length. Many plants pollinated by hummingbirds produce flowers in shades of red, orange, and bright pink, though the birds take nectar from flowers of other colors, as well.",
     "caption_1": "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)",
     "caption_2": "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)",
-    "BR": true
+    "BR": true,
+    "AI": true
   },
   {
     "id": "hummingbirds",
@@ -1048,7 +1057,8 @@
     "AR": true,
     "IE": true,
     "DE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "otherInsects",

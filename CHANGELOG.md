@@ -1,3 +1,7 @@
+# 1.5.5
+
+Added Anguilla.
+
 # 1.5.4
 
 Improved default language selection.

@@ -12,6 +12,7 @@ import './hoverflies.png?originalName';
 import './hummingbirds.png?originalName';
 import './moths.png?originalName';
 import './orchidBees.png?originalName';
+import './otherBees.png?originalName';
 import './otherFlies.png?originalName';
 import './otherInsects.png?originalName';
 import './otherWasps.png?originalName';

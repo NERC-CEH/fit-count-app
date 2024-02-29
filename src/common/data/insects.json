@@ -13,7 +13,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "id": "bumblebees",
@@ -42,7 +43,8 @@
     "DE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "honeybees",
@@ -58,7 +60,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "id": "hoverflies",
@@ -72,7 +75,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "id": "otherFlies",
@@ -86,7 +90,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "id": "otherInsects",
@@ -102,7 +107,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "id": "smallInsects",
@@ -117,7 +123,8 @@
     "DE": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "id": "solitaryBees",
@@ -146,7 +153,8 @@
     "IE": true,
     "DE": true,
     "CL": true,
-    "HR": true
+    "HR": true,
+    "AI": true
   },
   {
     "id": "waspsPT",
@@ -161,7 +169,8 @@
     "sort": 0,
     "name": "Bats",
     "AR": true,
-    "BR": true
+    "BR": true,
+    "AI": true
   },
   {
     "id": "hummingbirds",
@@ -170,7 +179,8 @@
     "name": "Hummingbirds",
     "AR": true,
     "BR": true,
-    "CL": true
+    "CL": true,
+    "AI": true
   },
   {
     "id": "orchidBees",
@@ -248,5 +258,11 @@
     "warehouseId": 617398,
     "name": "Moths",
     "PT": true
+  },
+  {
+    "id": "otherBees",
+    "warehouseId": 629143,
+    "name": "Other bees",
+    "AI": true
   }
 ]

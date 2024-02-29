@@ -54,7 +54,8 @@
     "BR": true,
     "IE": true,
     "CL": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "warehouseId": 21887,
@@ -87,7 +88,8 @@
     "value": "Botanical garden",
     "CY": true,
     "AR": true,
-    "BR": true
+    "BR": true,
+    "AI": true
   },
   {
     "warehouseId": 18786,
@@ -121,7 +123,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "warehouseId": 13562,
@@ -135,7 +138,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "warehouseId": 18790,
@@ -154,7 +158,8 @@
     "CY": true,
     "AR": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "warehouseId": 13561,
@@ -242,7 +247,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "warehouseId": 20297,
@@ -280,7 +286,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "PT": true
+    "PT": true,
+    "AI": true
   },
   {
     "warehouseId": 13559,
@@ -322,5 +329,25 @@
     "warehouseId": 21817,
     "value": "Montado (Low density trees)",
     "PT": true
+  },
+  {
+    "warehouseId": 22021,
+    "value": "Coastal",
+    "AI": true
+  },
+  {
+    "warehouseId": 22022,
+    "value": "Golf course",
+    "AI": true
+  },
+  {
+    "warehouseId": 22023,
+    "value": "Hotel grounds",
+    "AI": true
+  },
+  {
+    "warehouseId": 22024,
+    "value": "Wetland",
+    "AI": true
   }
 ]
