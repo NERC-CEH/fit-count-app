@@ -91,21 +91,18 @@ const countries: Country[] = [
     warehouseId: 18969,
     coords: { lat: -34.996496, lng: -64.967282, zoom: 4 },
   },
+  {
+    flag: AI,
+    label: '',
+    value: 'AI',
+    warehouseId: 22019,
+    coords: { lat: 18.209543, lng: -63.055193, zoom: 12 },
+  },
 ];
 
 const isDemo = !isPlatform('hybrid');
 if (isDemo) {
-  countries.push(
-    ...([
-      {
-        flag: AI,
-        label: 'Anguilla',
-        value: 'AI',
-        warehouseId: 22019,
-        coords: { lat: 18.209543, lng: -63.055193, zoom: 12 },
-      },
-    ] as any)
-  );
+  countries.push(...([] as any));
 }
 
 export default countries;
