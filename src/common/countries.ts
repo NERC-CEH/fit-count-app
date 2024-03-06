@@ -93,7 +93,7 @@ const countries: Country[] = [
   },
   {
     flag: AI,
-    label: '',
+    label: 'Anguilla',
     value: 'AI',
     warehouseId: 22019,
     coords: { lat: 18.209543, lng: -63.055193, zoom: 12 },
