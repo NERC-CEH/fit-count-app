@@ -1,33 +1,38 @@
-import { Occurrence, OccurrenceAttrs, validateRemoteModel } from '@flumens';
+import { IObservableArray } from 'mobx';
+import {
+  Occurrence as OccurrenceOriginal,
+  OccurrenceOptions,
+  OccurrenceAttrs,
+  validateRemoteModel,
+  Sample,
+} from '@flumens';
 import Media from './media';
 
 type Attrs = OccurrenceAttrs & {
   count: number;
 };
 
-export default class AppOccurrence extends Occurrence {
-  static fromJSON(json: any) {
-    return super.fromJSON(json, Media);
-  }
+export default class Occurrence extends OccurrenceOriginal<Attrs> {
+  declare media: IObservableArray<Media>;
 
-  attrs: Attrs = this.attrs;
+  declare parent?: Sample;
 
   validateRemote = validateRemoteModel;
 
-  _hasZeroCount() {
-    return !this.attrs.count;
+  constructor(options: OccurrenceOptions) {
+    super({ ...options, Media });
   }
 
-  getSubmission() {
+  _hasZeroCount() {
+    return !this.data.count;
+  }
+
+  toDTO() {
     if (this._hasZeroCount()) {
       // skip the occurrence from submission
       return null;
     }
 
-    return super.getSubmission();
-  }
-
-  isDisabled() {
-    return this.isUploaded();
+    return super.toDTO();
   }
 }

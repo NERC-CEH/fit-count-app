@@ -18,7 +18,7 @@ const FinishFooter = ({ sample, setPastActivity }: Props) => {
   const [showThanks, setShowThanks] = useState(false);
 
   const _processDraft = async () => {
-    appModel.attrs['draftId:survey'] = '';
+    appModel.data['draftId:survey'] = '';
     await appModel.save();
 
     // eslint-disable-next-line no-param-reassign

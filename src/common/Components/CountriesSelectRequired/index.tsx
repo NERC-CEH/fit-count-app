@@ -11,7 +11,7 @@ import './styles.scss';
 function CountriesSelectRequired({ children }: any) {
   const { t } = useTranslation();
 
-  if (appModel.attrs.country) {
+  if (appModel.data.country) {
     return children;
   }
 
@@ -20,7 +20,7 @@ function CountriesSelectRequired({ children }: any) {
 
   const getCountry = (country: Country) => {
     const selectCountryAndAdjustLanguge = () => {
-      appModel.attrs.country = country.value; // eslint-disable-line no-param-reassign
+      appModel.data.country = country.value; // eslint-disable-line no-param-reassign
       appModel.save();
     };
 

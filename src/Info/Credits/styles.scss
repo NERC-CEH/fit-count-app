@@ -1,12 +1,11 @@
 #credits.ion-page ion-content {
   ul {
     li {
+      margin-bottom: 10px;
       a {
         display: block;
         padding: 0px 0px 10px 0px;
       }
-
-      margin-bottom: 10px;
     }
   }
 
@@ -14,20 +13,22 @@
     text-align: center;
 
     img {
+      display: block;
+      margin: 0 auto;
       max-width: 40vw;
     }
   }
 
   .list-background {
-    background-color: #fff;
-
-    border-radius: 15px;
-    padding: 0 !important;
     margin-bottom: 20px;
 
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0 !important;
+
     ion-col {
-      padding: 25px 10px;
       margin: auto;
+      padding: 25px 10px;
 
       ion-img {
         margin: auto;

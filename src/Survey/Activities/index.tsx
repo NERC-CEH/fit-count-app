@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { useEffect } from 'react';
 import { observer } from 'mobx-react';
 import { informationCircleOutline, openOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
@@ -15,7 +15,6 @@ import {
 import {
   IonItem,
   IonIcon,
-  IonLabel,
   IonRefresher,
   IonRefresherContent,
   IonRadio,
@@ -24,7 +23,6 @@ import {
   IonItemSliding,
   IonItemOptions,
   IonItemOption,
-  IonItemDivider,
 } from '@ionic/react';
 import appModel, { Activity } from 'models/app';
 import Sample from 'models/sample';
@@ -41,26 +39,26 @@ type Props = {
   sample: Sample;
 };
 
-const ActivityController: FC<Props> = ({ sample }) => {
+const ActivityController = ({ sample }: Props) => {
   const toast = useToast();
   const loader = useLoader();
   const checkUserStatus = useUserStatusCheck();
 
-  const fetchedActivities = Array.isArray(appModel.attrs.activities);
-  const activities = fetchedActivities ? appModel.attrs.activities! : [];
+  const fetchedActivities = Array.isArray(appModel.data.activities);
+  const activities = fetchedActivities ? appModel.data.activities! : [];
 
   const setPastActivity = () => {
-    const currentSelectedActivityId = sample.attrs.activity?.id;
+    const currentSelectedActivityId = sample.data.activity?.id;
 
-    appModel.attrs.pastActivities.push(currentSelectedActivityId);
+    appModel.data.pastActivities.push(currentSelectedActivityId);
 
-    const pastActivities = [...appModel.attrs.pastActivities];
+    const pastActivities = [...appModel.data.pastActivities];
 
     const uniqueActivities = new Set(pastActivities);
 
     const uniquePastActivitiesIds = [...uniqueActivities];
 
-    appModel.attrs.pastActivities = uniquePastActivitiesIds;
+    appModel.data.pastActivities = uniquePastActivitiesIds;
     appModel.save();
   };
 
@@ -110,7 +108,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
     if (!newValue) {
       // eslint-disable-next-line no-param-reassign
-      sample.attrs.activity = undefined;
+      sample.data.activity = undefined;
       sample.save();
       return;
     }
@@ -120,15 +118,15 @@ const ActivityController: FC<Props> = ({ sample }) => {
     );
 
     // eslint-disable-next-line no-param-reassign
-    sample.attrs.activity = JSON.parse(JSON.stringify(selectedActivity));
+    sample.data.activity = JSON.parse(JSON.stringify(selectedActivity));
     sample.save();
   };
 
   const byPastActivities = (activity: any) =>
-    appModel.attrs.pastActivities.includes(activity.id);
+    appModel.data.pastActivities.includes(activity.id);
 
   const byNonFavorite = (activity: any) =>
-    !appModel.attrs.pastActivities.includes(activity.id);
+    !appModel.data.pastActivities.includes(activity.id);
 
   const pastActivities = activities.filter(byPastActivities);
   const remainingActivities = activities.filter(byNonFavorite);
@@ -148,8 +146,8 @@ const ActivityController: FC<Props> = ({ sample }) => {
       };
 
       const unpinFromPastActivityList = () => {
-        const index = appModel.attrs.pastActivities.indexOf(id);
-        appModel.attrs.pastActivities.splice(index, 1);
+        const index = appModel.data.pastActivities.indexOf(id);
+        appModel.data.pastActivities.splice(index, 1);
         appModel.save();
       };
 
@@ -163,8 +161,7 @@ const ActivityController: FC<Props> = ({ sample }) => {
             </IonItemOptions>
           )}
           <IonItem>
-            <IonLabel>{name}</IonLabel>
-            <IonRadio value={id} />
+            <IonRadio value={id}>{name}</IonRadio>
           </IonItem>
 
           {isPastActivity && (
@@ -201,10 +198,9 @@ const ActivityController: FC<Props> = ({ sample }) => {
     const defaultEmptySelection = (
       <IonItemSliding>
         <IonItem className="radio-input-default-option">
-          <IonLabel>
+          <IonRadio value="">
             <T>Not linked to any project</T>
-          </IonLabel>
-          <IonRadio value="" />
+          </IonRadio>
         </IonItem>
       </IonItemSliding>
     );
@@ -213,27 +209,27 @@ const ActivityController: FC<Props> = ({ sample }) => {
       <IonList lines="full" className="radio-input-attr">
         <IonRadioGroup
           onIonChange={onChange}
-          value={sample.attrs.activity?.id || ''}
+          value={sample.data.activity?.id || ''}
         >
           {!!pastActivities.length && (
             <>
-              <IonItemDivider mode="ios" className="survey-divider">
+              <h3 className="list-title">
                 <div>
                   <T>My past projects</T>
                 </div>
-              </IonItemDivider>
+              </h3>
 
               {getActivityEntries(pastActivities, true)}
             </>
           )}
 
-          <IonItemDivider mode="ios" className="survey-divider">
+          <h3 className="list-title">
             {!!pastActivities.length && (
               <div>
                 <T>Projects</T>
               </div>
             )}
-          </IonItemDivider>
+          </h3>
 
           {defaultEmptySelection}
 
@@ -253,8 +249,9 @@ const ActivityController: FC<Props> = ({ sample }) => {
 
       <Main>
         <InfoMessage
-          icon={informationCircleOutline}
-          className="info-message"
+          prefix={<IonIcon src={informationCircleOutline} className="size-6" />}
+          color="tertiary"
+          className="mb-3"
           skipTranslation
         >
           <T>
@@ -271,7 +268,12 @@ const ActivityController: FC<Props> = ({ sample }) => {
               available to that project.
             </i>
           </T>
-          <InfoButton label="Information" header="Info" skipTranslation>
+          <InfoButton
+            label="Information"
+            header="Info"
+            skipTranslation
+            color="tertiary"
+          >
             <p>
               <T>
                 To update the list of available projects, close this help text

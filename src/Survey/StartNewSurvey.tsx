@@ -3,9 +3,9 @@ import { Trans as T } from 'react-i18next';
 import { useAlert, useDisableBackButton } from '@flumens';
 import { NavContext, isPlatform } from '@ionic/react';
 import appModel from 'models/app';
+import savedSamples from 'models/collections/samples';
 import Occurrence from 'models/occurrence';
 import Sample from 'models/sample';
-import savedSamples from 'models/savedSamples';
 import userModel from 'models/user';
 
 async function showDraftAlert(alert: any) {
@@ -41,14 +41,14 @@ async function getNewSample(survey: any, draftIdKey: string) {
   await sample.save();
 
   savedSamples.push(sample);
-  (appModel.attrs as any)[draftIdKey] = sample.cid;
+  (appModel.data as any)[draftIdKey] = sample.cid;
   await appModel.save();
 
   return sample;
 }
 
 async function getDraft(draftIdKey: string, alert: any) {
-  const draftID = (appModel.attrs as any)[draftIdKey];
+  const draftID = (appModel.data as any)[draftIdKey];
   if (draftID) {
     const byId = ({ cid }: any) => cid === draftID;
     const draftSample = savedSamples.find(byId);

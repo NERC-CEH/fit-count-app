@@ -2,7 +2,7 @@
  * User model describing the user model on backend. Persistent.
  **************************************************************************** */
 import { useContext } from 'react';
-import * as Yup from 'yup';
+import { z, object } from 'zod';
 import {
   DrupalUserModel,
   device,
@@ -12,8 +12,9 @@ import {
   DrupalUserModelAttrs,
 } from '@flumens';
 import { NavContext } from '@ionic/react';
+import * as Sentry from '@sentry/browser';
 import CONFIG from 'common/config';
-import { genericStore } from './store';
+import { mainStore } from './store';
 
 export interface Attrs extends DrupalUserModelAttrs {
   fullName: string;
@@ -25,21 +26,29 @@ const defaults: Attrs = {
   email: '',
 };
 
-export class UserModel extends DrupalUserModel {
-  attrs: Attrs = DrupalUserModel.extendAttrs(this.attrs, defaults);
+export class UserModel extends DrupalUserModel<Attrs> {
+  static registerSchema: any = object({
+    email: z.string().email('Please fill in'),
+    password: z.string().min(1, 'Please fill in'),
+    fullName: z.string().min(1, 'Please fill in'),
+    identificationExperience: z.string().min(1, 'Please fill in'),
+    happyToBeContacted: z.boolean().optional(),
+  });
 
-  registerSchema = Yup.object().shape({
-    email: Yup.string().email('email is not valid').required('Please fill in'),
-    password: Yup.string().required('Please fill in'),
-    fullName: Yup.string().required('Please fill in'),
-    identificationExperience: Yup.string().required('Please fill in'),
+  static resetSchema: any = object({
+    email: z.string().email('Please fill in'),
+  });
+
+  static loginSchema: any = object({
+    email: z.string().email('Please fill in'),
+    password: z.string().min(1, 'Please fill in'),
   });
 
   constructor(options: any) {
-    super(options);
+    super({ ...options, data: { ...defaults, ...options.data } });
 
     const checkForValidation = () => {
-      if (this.isLoggedIn() && !this.attrs.verified) {
+      if (this.isLoggedIn() && !this.data.verified) {
         console.log('User: refreshing profile for validation');
         this.refreshProfile();
       }
@@ -47,24 +56,30 @@ export class UserModel extends DrupalUserModel {
     this.ready?.then(checkForValidation);
   }
 
+  async logIn(email: string, password: string) {
+    await super.logIn(email, password);
+
+    if (this.id) Sentry.setUser({ id: this.id });
+  }
+
   async checkActivation() {
     if (!this.isLoggedIn()) return false;
 
-    if (!this.attrs.verified) {
+    if (!this.data.verified) {
       try {
         await this.refreshProfile();
       } catch (e) {
         // do nothing
       }
 
-      if (!this.attrs.verified) return false;
+      if (!this.data.verified) return false;
     }
 
     return true;
   }
 
   async resendVerificationEmail() {
-    if (!this.isLoggedIn() || this.attrs.verified) return false;
+    if (!this.isLoggedIn() || this.data.verified) return false;
 
     await this._sendVerificationEmail();
 
@@ -72,13 +87,13 @@ export class UserModel extends DrupalUserModel {
   }
 
   resetDefaults() {
-    return super.resetDefaults(defaults);
+    return super.reset(defaults);
   }
 }
 
 const userModel = new UserModel({
   cid: 'user',
-  store: genericStore,
+  store: mainStore,
   config: CONFIG.backend,
 });
 
@@ -99,7 +114,7 @@ export const useUserStatusCheck = () => {
       return false;
     }
 
-    if (!userModel.attrs.verified) {
+    if (!userModel.data.verified) {
       await loader.show('Please wait...');
       const isVerified = await userModel.checkActivation();
       loader.hide();

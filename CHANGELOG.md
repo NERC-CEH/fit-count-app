@@ -1,3 +1,7 @@
+# 1.6.0
+
+Updated framework.
+
 # 1.5.5
 
 Added Anguilla.

@@ -65,4 +65,4 @@ const newLanguageCodeWrap = ({ newValue }) => {
   document.body.setAttribute('lang', newValue);
 };
 
-observe(appModel.attrs, 'language', newLanguageCodeWrap);
+observe(appModel.data, 'language', newLanguageCodeWrap);

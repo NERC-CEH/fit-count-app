@@ -1,5 +1,5 @@
 import { RouteWithModels, AttrPage } from '@flumens';
-import savedSamples from 'models/savedSamples';
+import savedSamples from 'models/collections/samples';
 import Activities from './Activities';
 import Flower from './Flower';
 import FlowerCount from './FlowerCount';

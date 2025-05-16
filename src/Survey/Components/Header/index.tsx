@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import {
@@ -20,13 +19,15 @@ type Props = {
   rightSlot?: any;
 };
 
-const SurveyHeader: FC<Props> = ({
-  onCancel,
-  surveyProgressIndex,
-  backButtonLabel,
-  rightSlot,
-  sample,
-}) => {
+const SurveyHeader = (
+  {
+    onCancel,
+    surveyProgressIndex,
+    backButtonLabel,
+    rightSlot,
+    sample
+  }: Props
+) => {
   const surveyStepCount = sample.getSurveyStepCount();
 
   return (

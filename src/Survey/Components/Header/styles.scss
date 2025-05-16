@@ -11,8 +11,8 @@
   }
 
   #countdown {
-    padding: 0 5px;
     margin: 0;
+    padding: 0 5px;
   }
 
   ion-item {
@@ -25,12 +25,13 @@
       font-size: 1.2em;
 
       span.warn {
-        color: var(--ion-color-warning);
+        color: var(--color-warning-200);
       }
     }
   }
 
   ion-progress-bar {
     height: 5px;
+    --background: rgba(var(--color-secondary-800-rgb), 0.3);
   }
 }

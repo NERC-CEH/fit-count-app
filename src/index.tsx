@@ -1,21 +1,20 @@
 import { configure as mobxConfig } from 'mobx';
 import i18n from 'i18next';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { initReactI18next } from 'react-i18next';
 import { App as AppPlugin } from '@capacitor/app';
-import '@capacitor/core';
 import { SplashScreen } from '@capacitor/splash-screen';
 import { StatusBar, Style as StatusBarStyle } from '@capacitor/status-bar';
-import { initAnalytics } from '@flumens';
-import '@ionic/core/css/core.css';
-import '@ionic/core/css/ionic.bundle.css';
+import { sentryOptions } from '@flumens';
+import { loadingController } from '@ionic/core';
 import { setupIonicReact, isPlatform } from '@ionic/react';
+import * as SentryBrowser from '@sentry/browser';
 import config from 'common/config';
 import languages from 'common/languages';
-import 'common/theme.scss';
-import 'common/translations/translator';
+import migrate from 'common/models/migrate';
+import { db } from 'common/models/store';
 import appModel from 'models/app';
-import savedSamples from 'models/savedSamples';
+import samples from 'models/collections/samples';
 import userModel from 'models/user';
 import getLangCodeFromDevice from 'helpers/getLangCodeFromDevice';
 import App from './App';
@@ -26,44 +25,58 @@ i18n.use(initReactI18next).init({
   lng: config.DEFAULT_LANGUAGE,
 });
 
-mobxConfig({
-  enforceActions: 'never',
-});
+mobxConfig({ enforceActions: 'never' });
 
 setupIonicReact({
   swipeBackEnabled: false,
 });
 
 async function init() {
-  await appModel.ready;
-  await userModel.ready;
-  await savedSamples.ready;
+  if (isPlatform('hybrid') && !localStorage.getItem('sqliteMigrated')) {
+    SentryBrowser.init({
+      ...sentryOptions,
+      release: config.version,
+      dist: config.build,
+      dsn: config.sentryDSN,
+    });
+    (await loadingController.create({ message: 'Upgrading...' })).present();
+    await migrate();
+    localStorage.setItem('sqliteMigrated', 'true');
+    window.location.reload();
+    return;
+  }
+  await db.init();
+  await userModel.fetch();
+  await appModel.fetch();
+  await samples.fetch();
 
-  if (!appModel.attrs.language) {
+  if (!appModel.data.language) {
     const langCode =
       (await getLangCodeFromDevice(languages)) || config.DEFAULT_LANGUAGE;
 
-    appModel.attrs.language = langCode;
+    appModel.data.language = langCode;
     appModel.save();
   }
 
-  appModel.attrs.sendAnalytics &&
-    initAnalytics({
-      dsn: config.sentryDNS,
+  appModel.data.sendAnalytics &&
+    SentryBrowser.init({
+      ...sentryOptions,
+      dsn: config.sentryDSN,
       environment: config.environment,
-      build: config.build,
       release: config.version,
-      userId: userModel.id,
-      tags: {
-        'app.appSession': appModel.attrs.appSession,
+      dist: config.build,
+      enabled: config.environment === 'production',
+      initialScope: {
+        user: { id: userModel.id },
+        tags: { session: appModel.data.appSession },
       },
     });
 
-  appModel.attrs.appSession += 1;
-  appModel.save();
+  appModel.data.appSession += 1;
 
-  ReactDOM.render(<App />, document.getElementById('root'));
-
+  const container = document.getElementById('root');
+  const root = createRoot(container!);
+  root.render(<App />);
   if (isPlatform('hybrid')) {
     StatusBar.setStyle({
       style: StatusBarStyle.Dark,

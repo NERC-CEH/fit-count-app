@@ -8,20 +8,17 @@ export default class AppMedia extends Media {
   async destroy(silent?: boolean) {
     // remove from internal storage
     if (!isPlatform('hybrid')) {
-      if (!this.parent) {
-        return null;
-      }
+      if (!this.parent) return;
 
       this.parent.media.remove(this);
 
-      if (silent) {
-        return null;
-      }
+      if (silent) return;
 
-      return this.parent.save();
+      this.parent.save();
+      return;
     }
 
-    const URL = this.attrs.data;
+    const URL = this.data.data;
 
     try {
       await Filesystem.deleteFile({
@@ -29,26 +26,20 @@ export default class AppMedia extends Media {
         directory: Directory.Data,
       });
 
-      if (!this.parent) {
-        return null;
-      }
+      if (!this.parent) return;
 
       this.parent.media.remove(this);
 
-      if (silent) {
-        return null;
-      }
+      if (silent) return;
 
-      return this.parent.save();
+      this.parent.save();
     } catch (err) {
       console.error(err);
     }
-
-    return null;
   }
 
   getURL() {
-    const { data: name } = this.attrs;
+    const { data: name } = this.data;
 
     if (!isPlatform('hybrid') || process.env.NODE_ENV === 'test') {
       return name;

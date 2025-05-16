@@ -1,167 +1,144 @@
-import { FC, useState } from 'react';
-import { Formik, Form } from 'formik';
+import { useState } from 'react';
+import clsx from 'clsx';
 import {
-  personOutline,
-  mailOutline,
   keyOutline,
+  personOutline,
   eyeOutline,
   eyeOffOutline,
+  mailOutline,
   helpCircleOutline,
 } from 'ionicons/icons';
+import { SubmitHandler, useForm } from 'react-hook-form';
 import { Trans as T } from 'react-i18next';
-import { AnySchema } from 'yup';
-import { Main, InputWithValidation, MenuAttrToggle } from '@flumens';
-import { IonIcon, IonButton, IonList, IonRouterLink } from '@ionic/react';
-import getURLSpecificToLanguage from 'common/Components/getURLSpecificToLanguage';
-import SelectWithValidation from './SelectWithValidation';
+import { TypeOf } from 'zod';
+import { Main, Button, Toggle, Select, Input } from '@flumens';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { IonIcon, IonRouterLink } from '@ionic/react';
+import config from 'common/config';
+import { UserModel } from 'models/user';
 
-const optionsIdentificationExperience = [
-  'I am new to identifying wildlife',
-  'I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects',
-  'I am familiar with recognising the main groups of pollinating insect',
-  'I am confident in identifying the commonly-occurring pollinating insects to species level',
-  'Not stated',
-];
+type Details = TypeOf<typeof UserModel.registerSchema>;
 
 type Props = {
-  onSubmit: any;
-  schema: AnySchema;
+  onSubmit: SubmitHandler<Details>;
 };
 
-const RegisterMain: FC<Props> = ({ onSubmit, schema }) => {
+const optionsIdentificationExperience = [
+  { value: 'I am new to identifying wildlife' },
+  {
+    value:
+      'I am familiar with identifying some wildlife groups (e.g. birds or butterflies) but not most pollinating insects',
+  },
+  {
+    value:
+      'I am familiar with recognising the main groups of pollinating insect',
+  },
+  {
+    value:
+      'I am confident in identifying the commonly-occurring pollinating insects to species level',
+  },
+  { value: 'Not stated' },
+];
+
+const RegisterMain = ({ onSubmit }: Props) => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
 
   const togglePassword = () => setShowPassword(!showPassword);
 
-  const registrationForm = ({
-    handleChange,
-    handleBlur,
-    errors,
-    touched,
-    values,
-    setFieldValue,
-    isValid,
-  }: any) => {
-    const formikProps = {
-      handleChange,
-      handleBlur,
-      errors,
-      touched,
-      values,
-    };
+  const { formState, handleSubmit, control, setValue, getValues } =
+    useForm<Details>({
+      defaultValues: {
+        fullName: '',
+        email: '',
+        password: '',
+        happyToBeContacted: null,
+        identificationExperience: null,
+      },
+      resolver: zodResolver(UserModel.registerSchema),
+    });
 
-    return (
-      <Form>
-        <IonList lines="full">
-          <div className="rounded">
-            <InputWithValidation
+  return (
+    <Main>
+      <div className="mx-auto max-w-md px-3">
+        <h1 className="my-10 text-center">
+          <T>Create a free account</T>
+        </h1>
+
+        <form className="mt-8" onSubmit={handleSubmit(onSubmit)}>
+          {/* Fake onSubmit on Enter */}
+          <input type="submit" className="hidden" />
+
+          <div className="rounded-list">
+            <Input.Form
+              control={control}
               name="fullName"
+              prefix={<IonIcon icon={personOutline} className="size-5" />}
               placeholder="Full name"
-              icon={personOutline}
-              type="text"
-              // autocomplete="off"
-              {...formikProps}
             />
-            <InputWithValidation
+
+            <Input.Form
+              control={control}
               name="email"
-              placeholder="Email"
-              icon={mailOutline}
+              prefix={<IonIcon icon={mailOutline} className="size-5" />}
               type="email"
-              // autocomplete="off"
-              {...formikProps}
+              placeholder="Email"
             />
-            <InputWithValidation
+            <Input.Form
+              control={control}
               name="password"
-              placeholder="Password"
-              icon={keyOutline}
-              type={showPassword ? 'text' : 'password'}
-              // autocomplete="off"
-              {...formikProps}
-            >
-              <IonButton slot="end" onClick={togglePassword} fill="clear">
+              prefix={<IonIcon icon={keyOutline} className="size-5" />}
+              suffix={
                 <IonIcon
                   icon={showPassword ? eyeOutline : eyeOffOutline}
-                  className="faint"
-                  size="small"
+                  className="size-5 opacity-50"
+                  onClick={togglePassword}
                 />
-              </IonButton>
-            </InputWithValidation>
+              }
+              type={showPassword ? 'text' : 'password'}
+              placeholder="Password"
+            />
 
-            <SelectWithValidation
-              icon={helpCircleOutline}
+            <Select.Form
+              control={control}
+              prefix={<IonIcon src={helpCircleOutline} className="size-6" />}
               placeholder="Identification experience"
               name="identificationExperience"
               options={optionsIdentificationExperience}
-              interfaceProps={{
-                cssClass: 'user-register-alert-styles',
-              }}
-              {...formikProps}
             />
 
-            <MenuAttrToggle
-              icon={mailOutline}
+            <Toggle
+              prefix={<IonIcon src={mailOutline} className="size-6" />}
               label="Happy to be contacted"
-              onChange={(val: boolean) =>
-                setFieldValue('happyToBeContacted', val)
-              }
-              value={values.happyToBeContacted}
+              onChange={(val: boolean) => setValue('happyToBeContacted', val)}
+              defaultSelected={getValues('happyToBeContacted')}
             />
           </div>
 
-          <div className="terms-info-text">
+          <div className="my-6 px-5 text-base">
             <T>
               By clicking Sign Up, you agree to our{' '}
-              <IonRouterLink href={getURLSpecificToLanguage('privacy-notice')}>
+              <IonRouterLink href={`${config.backend.url}/privacy-notice`}>
                 Privacy Policy
               </IonRouterLink>{' '}
               and{' '}
-              <IonRouterLink href={getURLSpecificToLanguage('terms')}>
+              <IonRouterLink href={`${config.backend.url}/terms_of_use`}>
                 Terms and Conditions
               </IonRouterLink>
             </T>
           </div>
-        </IonList>
 
-        {/** https://github.com/formium/formik/issues/1418 */}
-        <input type="submit" style={{ display: 'none' }} />
-        <IonButton
-          color={isValid ? 'primary' : 'medium'}
-          type="submit"
-          expand="block"
-        >
-          <T>Sign Up</T>
-        </IonButton>
-
-        <div className="signin-button">
-          <T>I am already a member</T>.{' '}
-          <IonRouterLink routerLink="/user/login">
-            <T>Sign In</T>
-          </IonRouterLink>
-        </div>
-      </Form>
-    );
-  };
-
-  return (
-    <Main>
-      <h1>
-        <T>Create a free account</T>
-      </h1>
-
-      <Formik
-        validationSchema={schema}
-        onSubmit={onSubmit}
-        initialValues={{
-          fullName: '',
-          email: '',
-          identificationExperience: '',
-          password: '',
-          happyToBeContacted: false,
-        }}
-        validateOnMount
-      >
-        {registrationForm}
-      </Formik>
+          <Button
+            className={clsx(
+              'mx-auto mt-10',
+              !formState.isValid && 'opacity-50'
+            )}
+            color="primary"
+            onPress={() => handleSubmit(onSubmit)()}
+          >
+            Sign Up
+          </Button>
+        </form>
+      </div>
     </Main>
   );
 };

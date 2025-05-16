@@ -11,7 +11,7 @@ import './styles.scss';
 const { H, P } = Section;
 
 const Credits = () => {
-  const { country } = appModel.attrs;
+  const { country } = appModel.data;
   const isCyprus = country === 'CY';
   const isBrazil = country === 'BR';
   const isIreland = country === 'IE';
@@ -51,19 +51,17 @@ const Credits = () => {
             :
           </P>
 
-          <ul>
+          <ul className="my-5 ml-2 !list-disc pl-4">
             <li>
               <a href="http://ukpoms.org.uk">
                 UK Pollinator Monitoring Scheme (UK PoMS)
               </a>
             </li>
-
             <li>
               <a href="https://www.ris-ky.info/poms-ky">
                 Pollinator Monitoring Scheme Kýpros: PoMS-Ký
               </a>
             </li>
-
             <li>
               <a href="https://bee-surpass.org">
                 Safeguarding pollinators and pollination services in a changing
@@ -119,7 +117,7 @@ const Credits = () => {
 
           <P skipTranslation>
             <T>Photos of flowers and insects by:</T>
-            <ul>
+            <ul className="my-5 ml-2 !list-disc pl-4">
               <li>Martin Harvey</li>
               <li>Nadine Mitschunas</li>
               {isBrazil && (
@@ -134,7 +132,7 @@ const Credits = () => {
           <P skipTranslation>
             <T>Thanks to the following for additional photos</T>:
             {isCyprus && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Marios Philippou</li>
                 <li>Pantelis Charilaou</li>
                 <li>Graham Johnstone</li>
@@ -153,7 +151,7 @@ const Credits = () => {
               </ul>
             )}
             {isAnguilla && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Alan Weakley</li>
                 <li>Agnes Trekker</li>
                 <li>Samuel Brinker</li>
@@ -185,7 +183,7 @@ const Credits = () => {
               </ul>
             )}
             {isCroatia && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li> Igor Boršić</li>
                 <li>Tamara Kirin</li>
                 <li>Ana Ješovnik</li>
@@ -193,7 +191,7 @@ const Credits = () => {
               </ul>
             )}
             {isIreland && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Aiwok via Wikimedia</li>
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Gilles San Martin vias Wikispecies</li>
@@ -207,7 +205,7 @@ const Credits = () => {
               </ul>
             )}
             {isBrazil && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Kleber Del-Claro via Ciência que nós fazemos</li>
                 <li>Malcolm Storey via BioImages</li>
                 <li>Filipi Miranda Soares via iNaturalist</li>
@@ -243,7 +241,7 @@ const Credits = () => {
               </ul>
             )}
             {isGermany && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Aiwok via Wikimedia</li>
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Gilles San Martin vias Wikispecies</li>
@@ -254,7 +252,7 @@ const Credits = () => {
               </ul>
             )}
             {isPortugal && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Silvia Castro</li>
                 <li>Sara Lopes</li>
                 <li>Viridi Green, Unsplash</li>
@@ -301,7 +299,7 @@ const Credits = () => {
               </ul>
             )}
             {isSweden && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Harriet Arnberg</li>
                 <li>Aiwok via Wikimedia</li>
                 <li>Gail Hampshire via Wikimedia</li>
@@ -314,7 +312,7 @@ const Credits = () => {
               </ul>
             )}
             {isRestOfWorld && (
-              <ul>
+              <ul className="my-5 ml-2 !list-disc pl-4">
                 <li>Aiwok via Wikimedia</li>
                 <li>Gail Hampshire via Wikimedia</li>
                 <li>Gilles San Martin vias Wikispecies</li>
@@ -342,7 +340,7 @@ const Credits = () => {
 
           <P skipTranslation>
             <T>App guide illustrations made by</T>:
-            <ul>
+            <ul className="my-5 ml-2 !list-disc pl-4">
               <li>
                 <a href="https://www.divulgare.net/" title="Divulgare">
                   www.divulgare.net

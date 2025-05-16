@@ -1,27 +1,7 @@
 #survey-location-page {
-  .info-message {
-    z-index: 10000000;
-    margin: 0;
-    border-radius: 0;
-
-    ion-label {
-      padding: 0 !important;
-    }
-  }
-
-  .info-message.warning {
-    --background: rgba(var(--ion-color-secondary-rgb), 0.1);
-    background: white; // needed for opacity
-
-    ion-note,
-    ion-icon {
-      color: var(--ion-color-secondary-dark) !important;
-    }
-  }
-
   .offline-survey-location {
-    background: white;
     margin: 10px;
+    background: white;
     padding: 20px;
 
     b {
@@ -29,8 +9,8 @@
     }
 
     ion-button {
-      max-width: 200px;
       margin: 10px auto 0;
+      max-width: 200px;
 
       ion-spinner {
         height: 15px;
@@ -40,19 +20,27 @@
 
   .location-name-attr {
     --ion-toolbar-background: white;
-    color: var(--ion-color-primary);
     border-top: 1px solid #afafaf;
+    color: var(--color-tertiary-900);
 
     ion-spinner {
-      color: var(--ion-color-primary);
+      color: var(--color-tertiary-900);
     }
     ion-input {
       --placeholder-color: black;
       --placeholder-font-weight: 300;
+      margin-top: 0.2em;
 
       color: black;
       font-size: 1em;
-      margin-top: 0.2em;
+
+      input::placeholder {
+        font-size: 1.2em;
+      }
+
+      button {
+        color: var(--color-tertiary-900);
+      }
     }
 
     .auto-suggest-input-attr {
@@ -60,14 +48,14 @@
     }
   }
 
-  .md .model-location-map {
-    height: calc(100% - 96px - 54px);
+  .md .map-container {
     bottom: 0;
+    height: calc(100% - 100px - 54px);
   }
 
-  .ios .model-location-map {
-    height: calc(100% - 87px - 54px);
+  .ios .map-container {
     bottom: 0;
+    height: calc(100% - 100px - 54px);
   }
 
   #survey-footer {

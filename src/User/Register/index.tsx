@@ -1,24 +1,14 @@
-import { FC, useContext } from 'react';
+import { useContext } from 'react';
 import { Trans as T } from 'react-i18next';
+import { TypeOf } from 'zod';
 import { Page, Header, device, useToast, useAlert, useLoader } from '@flumens';
 import { NavContext } from '@ionic/react';
-import { UserModel } from 'models/user';
+import userModel, { UserModel } from 'models/user';
 import Main from './Main';
-import './styles.scss';
 
-export type Details = {
-  password: string;
-  email: string;
-  fullName: string;
-  happyToBeContacted: boolean;
-  identificationExperience: any;
-};
+type Details = TypeOf<typeof UserModel.registerSchema>;
 
-type Props = {
-  userModel: UserModel;
-};
-
-const RegisterContainer: FC<Props> = ({ userModel }) => {
+const RegisterContainer = () => {
   const context = useContext(NavContext);
   const alert = useAlert();
   const toast = useToast();
@@ -48,7 +38,7 @@ const RegisterContainer: FC<Props> = ({ userModel }) => {
     try {
       await userModel.register(email, password, otherDetails);
 
-      userModel.attrs.fullName = fullName; // eslint-disable-line
+      userModel.data.fullName = fullName; // eslint-disable-line
       userModel.save();
 
       alert({
@@ -76,8 +66,8 @@ const RegisterContainer: FC<Props> = ({ userModel }) => {
 
   return (
     <Page id="user-register">
-      <Header className="ion-no-border" />
-      <Main schema={userModel.registerSchema} onSubmit={onRegister} />
+      <Header />
+      <Main onSubmit={onRegister} />
     </Page>
   );
 };

@@ -1,7 +1,7 @@
-import { FC } from 'react';
 import { observer } from 'mobx-react';
 import { informationCircleOutline } from 'ionicons/icons';
 import { Page, Attr, Main, InfoMessage } from '@flumens';
+import { IonIcon } from '@ionic/react';
 import Sample from 'models/sample';
 import FinishFooter from 'Survey/Components/FinishFooter';
 import Footer from '../Components/Footer';
@@ -16,8 +16,8 @@ type Props = {
   sample: Sample;
 };
 
-const WeatherWind: FC<Props> = ({ sample }) => {
-  const isValueValid = () => !!sample.attrs['weather-wind'];
+const WeatherWind = ({ sample }: Props) => {
+  const isValueValid = () => !!sample.data['weather-wind'];
 
   const surveyConfig = sample.getSurvey();
   const { attrProps } = surveyConfig.attrs['weather-wind'].pageProps;
@@ -40,7 +40,11 @@ const WeatherWind: FC<Props> = ({ sample }) => {
       />
 
       <Main>
-        <InfoMessage icon={informationCircleOutline}>
+        <InfoMessage
+          prefix={<IonIcon src={informationCircleOutline} className="size-6" />}
+          color="tertiary"
+          className="mb-3"
+        >
           What was the <b>wind</b> strength?
         </InfoMessage>
 

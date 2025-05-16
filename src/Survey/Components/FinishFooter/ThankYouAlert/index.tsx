@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { checkmarkOutline } from 'ionicons/icons';
 import { useTranslation, Trans as T } from 'react-i18next';
 import { useDisableBackButton } from '@flumens';
@@ -15,8 +14,14 @@ type Props = {
   goHome: () => void;
 };
 
-const ThankYouAlert: FC<Props> = ({ sample, uploadSurvey, goHome }) => {
-  const { country } = appModel.attrs;
+const ThankYouAlert = (
+  {
+    sample,
+    uploadSurvey,
+    goHome
+  }: Props
+) => {
+  const { country } = appModel.data;
   const isUK = country === 'UK';
   const isRestOfWorld = !isUK;
 
@@ -28,9 +33,7 @@ const ThankYouAlert: FC<Props> = ({ sample, uploadSurvey, goHome }) => {
 
   const englishFormat = Intl.DateTimeFormat('en', { month: 'long' });
 
-  const englishMonth = englishFormat.format(
-    new Date(sample.metadata.created_on)
-  );
+  const englishMonth = englishFormat.format(new Date(sample.createdAt));
 
   const getAverageInsectCount = (month: any) => {
     const byMonth = (obj: any) => obj.month_name === month;
@@ -59,9 +62,10 @@ const ThankYouAlert: FC<Props> = ({ sample, uploadSurvey, goHome }) => {
       {!!averageInsectCountForThisMonth && isUK && (
         <p>
           <T>
-            You counted <b>{{ numberOfOccurrences }} </b>insect(s) altogether -
-            the UK average for <b>{{ month }}</b> is{' '}
-            <b>{{ averageInsectCountForThisMonth }}</b> insects per count.
+            You counted <b>{{ numberOfOccurrences } as any} </b>insect(s)
+            altogether - the UK average for <b>{{ month } as any}</b> is{' '}
+            <b>{{ averageInsectCountForThisMonth } as any}</b> insects per
+            count.
           </T>
         </p>
       )}
@@ -69,7 +73,8 @@ const ThankYouAlert: FC<Props> = ({ sample, uploadSurvey, goHome }) => {
       {isRestOfWorld && (
         <p>
           <T>
-            You counted <b>{{ numberOfOccurrences }} </b>insect(s) altogether.
+            You counted <b>{{ numberOfOccurrences } as any} </b>insect(s)
+            altogether.
           </T>
         </p>
       )}

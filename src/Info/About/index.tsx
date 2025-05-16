@@ -9,7 +9,7 @@ import './styles.scss';
 const { P } = Section;
 
 const About = () => {
-  const { country } = appModel.attrs;
+  const { country } = appModel.data;
   const { feedbackLink } = config;
   const feedback = (feedbackLink as any)[country] || feedbackLink.default;
 
@@ -53,7 +53,7 @@ const About = () => {
             monitoring projects:
           </P>
 
-          <ul>
+          <ul className="my-5 ml-2 !list-disc pl-4">
             <li>
               <a href="https://ukpoms.org.uk">
                 UK Pollinator Monitoring Scheme

@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { observer } from 'mobx-react';
 import {
   warningOutline,
@@ -8,19 +7,12 @@ import {
   languageOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
-import {
-  Main,
-  useAlert,
-  InfoMessage,
-  MenuAttrToggle,
-  MenuAttrItem,
-} from '@flumens';
+import { Main, useAlert, InfoMessage, Toggle, MenuAttrItem } from '@flumens';
 import {
   IonIcon,
   IonList,
   IonItem,
   IonLabel,
-  IonItemDivider,
 } from '@ionic/react';
 import countries from 'common/countries';
 import languages from 'common/languages';
@@ -37,7 +29,7 @@ function useUserDeleteDialog(deleteUser: any) {
           <T>Are you sure you want to delete your account?</T>
           <InfoMessage
             color="danger"
-            icon={warningOutline}
+            prefix={<IonIcon src={warningOutline} className="size-6" />}
             className="destructive-warning"
           >
             This will remove your account on the FIT Count website. You will
@@ -72,14 +64,16 @@ type Props = {
   sendAnalytics?: boolean;
 };
 
-const MenuMain: FC<Props> = ({
-  isLoggedIn,
-  deleteUser,
-  sendAnalytics,
-  language,
-  country,
-  onToggle,
-}) => {
+const MenuMain = (
+  {
+    isLoggedIn,
+    deleteUser,
+    sendAnalytics,
+    language,
+    country,
+    onToggle
+  }: Props
+) => {
   const showUserDeleteDialog = useUserDeleteDialog(deleteUser);
 
   const countryName = ({ value }: any) => value === country;
@@ -91,11 +85,11 @@ const MenuMain: FC<Props> = ({
   return (
     <Main>
       <IonList lines="full">
-        <IonItemDivider>
+        <h3 className="list-title">
           <T>Settings</T>
-        </IonItemDivider>
+        </h3>
 
-        <div className="rounded">
+        <div className="rounded-list">
           <MenuAttrItem
             routerLink="/settings/language"
             value={(languages as any)[language]}
@@ -111,15 +105,15 @@ const MenuMain: FC<Props> = ({
             icon={globeOutline}
           />
 
-          <MenuAttrToggle
+          <Toggle
             className="exception-rounded"
-            icon={shareSocialOutline}
+            prefix={<IonIcon src={shareSocialOutline} className="size-6" />}
             label="Share App Analytics"
-            value={sendAnalytics}
+            defaultSelected={sendAnalytics}
             onChange={onSendAnalyticsToggle}
           />
 
-          <InfoMessage color="medium">
+          <InfoMessage>
             Share app crash data so we can make the app more reliable.
           </InfoMessage>
         </div>
@@ -133,7 +127,7 @@ const MenuMain: FC<Props> = ({
                   <T>Delete account</T>
                 </IonLabel>
               </IonItem>
-              <InfoMessage color="medium">
+              <InfoMessage>
                 You can delete your user account from the system.
               </InfoMessage>
             </>

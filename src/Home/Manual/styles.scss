@@ -4,11 +4,11 @@
   }
 
   ol {
-    list-style: none;
     counter-reset: steps;
-    padding: 0px;
-    text-align: left;
     margin: 0;
+    padding: 0px;
+    list-style: none;
+    text-align: left;
   }
   ol li {
     counter-increment: steps;
@@ -16,16 +16,16 @@
     font-size: 1em;
   }
   ol li::before {
-    content: counter(steps);
-    margin-right: 0.5rem;
-    background: #ffffff;
-    color: var(--ion-color-primary);
-    border: 2px solid var(--ion-color-primary-tint);
-    height: 1.4rem;
-    width: 1.4rem;
-    border-radius: 50%;
     display: inline-grid;
     place-items: center;
+    margin-right: 0.5rem;
+    border: 1px solid var(--color-primary-700);
+    border-radius: 50%;
+    background: #ffffff;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: counter(steps);
+    color: var(--color-primary-700);
     line-height: 1.4rem;
   }
   ol ol li::before {

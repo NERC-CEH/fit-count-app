@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import { Page, device, useAlert, useLoader, useToast } from '@flumens';
@@ -35,7 +34,7 @@ function showLogoutConfirmationDialog(callback: any, alert: any) {
   });
 }
 
-const MenuController: FC = () => {
+const MenuController = () => {
   const alert = useAlert();
   const loader = useLoader();
   const toast = useToast();
@@ -55,7 +54,7 @@ const MenuController: FC = () => {
     await loader.show('Please wait...');
     try {
       await userModel.checkActivation();
-      if (!userModel.attrs.verified) {
+      if (!userModel.data.verified) {
         toast.warn('The user has not been activated or is blocked.');
       }
     } catch (err: any) {
@@ -85,10 +84,10 @@ const MenuController: FC = () => {
   return (
     <Page id="home-menu">
       <Main
-        email={userModel.attrs.email}
-        userName={userModel.attrs.fullName}
+        email={userModel.data.email}
+        userName={userModel.data.fullName}
         isLoggedIn={isLoggedIn}
-        isVerified={!!userModel.attrs.verified}
+        isVerified={!!userModel.data.verified}
         logOut={logOut}
         refreshAccount={checkActivation}
         resendVerificationEmail={resendVerificationEmail}

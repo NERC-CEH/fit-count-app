@@ -13,7 +13,7 @@ const config = {
 
   DEFAULT_LANGUAGE: 'en',
 
-  sentryDNS: process.env.APP_SENTRY_KEY as string,
+  sentryDSN: process.env.APP_SENTRY_KEY as string,
 
   furtherInfoLink: {
     default: 'http://ukpoms.org.uk/fit-counts',

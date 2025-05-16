@@ -1,15 +1,14 @@
-import { useState, FC } from 'react';
+import { useState } from 'react';
 import { observer } from 'mobx-react';
 import { useTranslation, Trans as T } from 'react-i18next';
-import { Page, Main, ModalHeader, UserFeedbackRequest } from '@flumens';
+import { Page, Main, ModalHeader } from '@flumens';
 import { IonCol, IonGrid, IonRow, IonModal, IonImg } from '@ionic/react';
-import config from 'common/config';
 import insectsData from 'common/data';
 import appModel from 'models/app';
-import SpeciesProfile from './species/components/SpeciesProfile';
+import SpeciesProfile from './SpeciesProfile';
 import './styles.scss';
 
-const Guide: FC = () => {
+const Guide = () => {
   const [species, setSpecies] = useState(null);
   const [speciesName, setSpeciesName] = useState('');
   const { t } = useTranslation();
@@ -43,7 +42,7 @@ const Guide: FC = () => {
   };
 
   const getListGrid = (flowersOrInsectsData: any) => {
-    const { country } = appModel.attrs;
+    const { country } = appModel.data;
 
     const bySortId = (a: any, b: any) => a.sort - b.sort;
     const byCountry = (sp: any) => sp[country] && sp.id !== 'unknown';
@@ -60,26 +59,6 @@ const Guide: FC = () => {
     );
   };
 
-  const onFeedbackDone = () => {
-    appModel.attrs.feedbackGiven = true;
-    appModel.save();
-  };
-
-  const shouldShowFeedback = () => {
-    const { feedbackGiven, appSession } = appModel.attrs;
-    if (feedbackGiven) {
-      return false;
-    }
-
-    return appSession > 5;
-  };
-
-  const { country } = appModel.attrs;
-  const showFeedback = shouldShowFeedback();
-  const { feedbackEmail } = config;
-
-  const email = (feedbackEmail as any)[country] || feedbackEmail.default;
-
   const dismissModal = () => setSpecies(null);
 
   return (
@@ -88,17 +67,6 @@ const Guide: FC = () => {
         <h1>
           <T>Pollinator Groups</T>
         </h1>
-
-        {showFeedback && (
-          <IonRow className="user-feedback-row">
-            <IonCol size="12">
-              <UserFeedbackRequest
-                email={email}
-                onFeedbackDone={onFeedbackDone}
-              />
-            </IonCol>
-          </IonRow>
-        )}
 
         {getListGrid(insectsData)}
 

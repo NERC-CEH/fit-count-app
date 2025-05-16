@@ -1,8 +1,25 @@
 {
-  "appId": "uk.ac.ceh.fit",
-  "appName": "FIT Count",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "build",
-  "cordova": {}
+	"appId": "uk.ac.ceh.fit",
+	"appName": "FIT Count",
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {},
+	"android": {
+		"adjustMarginsForEdgeToEdge": "force"
+	},
+	"packageClassList": [
+		"CapacitorSQLitePlugin",
+		"AppPlugin",
+		"CAPCameraPlugin",
+		"DevicePlugin",
+		"FilesystemPlugin",
+		"GeolocationPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"CAPNetworkPlugin",
+		"SharePlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin",
+		"BlobWriter"
+	]
 }

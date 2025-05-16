@@ -1,4 +1,4 @@
-import { FC, useContext } from 'react';
+import { useContext } from 'react';
 import { observer } from 'mobx-react';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { Page, Header, useToast, PickByType, useLoader } from '@flumens';
@@ -35,16 +35,16 @@ function onToggle(
   setting: keyof PickByType<AppModelAttrs, boolean>,
   checked: boolean
 ) {
-  appModel.attrs[setting] = checked; // eslint-disable-line
+  appModel.data[setting] = checked; // eslint-disable-line
   appModel.save();
 
   isPlatform('hybrid') && Haptics.impact({ style: ImpactStyle.Light });
 }
 
-const MenuController: FC = () => {
+const MenuController = () => {
   const deleteUser = useDeleteUser();
 
-  const { sendAnalytics, language, country } = appModel.attrs;
+  const { sendAnalytics, language, country } = appModel.data;
 
   return (
     <Page id="settings">

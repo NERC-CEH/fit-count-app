@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { observer } from 'mobx-react';
 import clsx from 'clsx';
 import { flagOutline, chevronForwardOutline } from 'ionicons/icons';
@@ -13,7 +12,14 @@ type Props = {
   className?: string;
 };
 
-const Footer: FC<Props> = ({ link, title, onClick, className }) => {
+const Footer = (
+  {
+    link,
+    title,
+    onClick,
+    className
+  }: Props
+) => {
   const navigateTo = link || undefined;
 
   const footerTitle = title || 'Next';

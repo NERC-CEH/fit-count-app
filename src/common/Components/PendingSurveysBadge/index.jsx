@@ -5,7 +5,7 @@ import { IonBadge } from '@ionic/react';
 import './styles.scss';
 
 function getPendingCount(savedSamples) {
-  const byUploadStatus = sample => !sample.metadata.synced_on;
+  const byUploadStatus = sample => !sample.syncedAt;
 
   return savedSamples.filter(byUploadStatus).length;
 }

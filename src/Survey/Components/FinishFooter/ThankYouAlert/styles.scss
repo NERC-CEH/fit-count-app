@@ -2,10 +2,10 @@
   text-align: center;
 
   h3 {
+    margin: 0;
     padding: 20px 30px;
     color: var(--ion-color-dark);
     text-align: left;
-    margin: 0;
   }
 
   .center {
@@ -24,12 +24,13 @@
   .message {
     padding: 0;
 
+    h3,
     p {
-      text-align: center;
-      font-size: 1.2em;
-      padding: 20px 20px;
       margin-top: 5% 0 0 0;
       background: var(--ion-color-light-tint);
+      padding: 20px 20px;
+      font-size: 1.2em;
+      text-align: center;
     }
 
     .button-wrapper {
@@ -40,12 +41,12 @@
         --background-activated: none;
         --color: white;
         --border-radius: 5px;
-        width: 80%;
-        border-radius: 5px;
-        color: white;
-        box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
-        font-weight: bold;
         margin: 10px auto;
+        box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
+        border-radius: 5px;
+        width: 80%;
+        color: white;
+        font-weight: bold;
 
         ion-label {
           color: white;

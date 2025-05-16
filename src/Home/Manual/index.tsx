@@ -187,7 +187,7 @@ const guide = (
 );
 
 const Manual = () => {
-  const { country } = appModel.attrs;
+  const { country } = appModel.data;
   const isUK = country === 'UK';
   const isBrazil = country === 'BR';
   const isRestOfWorld = !isUK && !isBrazil;
