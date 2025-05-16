@@ -54,7 +54,6 @@
     "ionicons": "7.4.0",
     "jeep-sqlite": "2.8.0",
     "jwt-decode": "^4",
-    "localforage-cordovasqlitedriver": "1.8.0",
     "lodash": "^4.17.21",
     "mapbox-gl": "3.12.0",
     "mobx": "^6.13.7",
