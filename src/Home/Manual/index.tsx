@@ -107,9 +107,10 @@ const UKGuide = (
     </li>
     <li>
       <T>
-        Using the timer in the app, spend ten minutes counting all insects that
-        land on the target flowers (ignore other flowers, and do your best to
-        count each individual insect once only!).
+        Using the timer in the app, spend ten minutes counting every insect that
+        you see that is SITTING on or LANDS on one of your target flowers
+        (ignore other flowers, and do your best to count each individual insect
+        once only!).
       </T>
     </li>
     <li>
