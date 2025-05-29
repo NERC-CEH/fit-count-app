@@ -1403,5 +1403,14 @@
     "caption_3": "Some species of the genus Merodon are very good bumblebee mimics – check the antennae to be sure they are not bumblebees!",
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the generic hoverfly traits, as in Paragus",
     "PT": true
+  },
+  {
+    "id": "stinglessBeesMS",
+    "pictureId": 1,
+    "intro_text": "Montserrat has a species of stingless bee which may be endemic. They require a variety of plants for food and often nest in hollow tree trunks.",
+    "caption_1": "Solid brown abdomen",
+    "caption_2": "Reddish brown furry thorax",
+    "caption_3": "Approx under 1cm in size",
+    "MS": true
   }
 ]

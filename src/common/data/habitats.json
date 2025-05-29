@@ -7,7 +7,8 @@
     "BR": true,
     "IE": true,
     "DE": true,
-    "SE": true
+    "SE": true,
+    "MS": true
   },
   {
     "warehouseId": 13558,
@@ -15,7 +16,8 @@
     "UK": true,
     "AR": true,
     "IE": true,
-    "CL": true
+    "CL": true,
+    "MS": true
   },
   {
     "warehouseId": 21888,
@@ -70,11 +72,13 @@
   },
   {
     "warehouseId": 13567,
+    "warehouseTerm": "Brownfield or other 'waste ground'",
     "value": "Waste ground or brownfield site",
     "UK": true,
     "AR": true,
     "BR": true,
-    "DE": true
+    "DE": true,
+    "MS": true
   },
   {
     "warehouseId": 13568,
@@ -89,7 +93,8 @@
     "CY": true,
     "AR": true,
     "BR": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "warehouseId": 18786,
@@ -113,6 +118,7 @@
   },
   {
     "warehouseId": 13557,
+    "warehouseTerm": "Garden or allotment",
     "value": "Garden",
     "UK": true,
     "CY": true,
@@ -124,7 +130,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "warehouseId": 13562,
@@ -139,7 +146,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "warehouseId": 18790,
@@ -189,7 +197,8 @@
   {
     "warehouseId": 20084,
     "value": "Grassy verge ",
-    "DE": true
+    "DE": true,
+    "MS": true
   },
   {
     "warehouseId": 20085,
@@ -287,7 +296,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "warehouseId": 13559,
@@ -299,7 +309,8 @@
     "IE": true,
     "CL": true,
     "SE": true,
-    "HR": true
+    "HR": true,
+    "MS": true
   },
   {
     "warehouseId": 18788,
@@ -333,7 +344,8 @@
   {
     "warehouseId": 22021,
     "value": "Coastal",
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "warehouseId": 22022,
@@ -348,6 +360,27 @@
   {
     "warehouseId": 22024,
     "value": "Wetland",
-    "AI": true
+    "AI": true,
+    "MS": true
+  },
+  {
+    "warehouseId": 24093,
+    "value": "Dry thicket/scrub",
+    "MS": true
+  },
+  {
+    "warehouseId": 24094,
+    "value": "Dry forest",
+    "MS": true
+  },
+  {
+    "warehouseId": 24095,
+    "value": "Mesic forest",
+    "MS": true
+  },
+  {
+    "warehouseId": 24096,
+    "value": "Elfin forest",
+    "MS": true
   }
 ]

@@ -181,6 +181,16 @@ msgstr ""
 
 # Country page content
 #: interface
+msgid "Montserrat"
+msgstr ""
+
+# Country page content
+#: interface
+msgid "Anguilla"
+msgstr ""
+
+# Country page content
+#: interface
 msgid "United Kingdom"
 msgstr "Y Deyrnas Unedig"
 
@@ -1671,7 +1681,7 @@ msgstr ""
 # ============================================================================
 # ============================================================================
 # insects name
-#: UK BR CL CY AR IE DE SE HR PT
+#: UK BR CL CY AR IE DE SE HR PT MS AI
 msgid "Beetles"
 msgstr "Chwilod"
 
@@ -1681,32 +1691,32 @@ msgid "Bumblebees"
 msgstr "Cacwn"
 
 # insects name
-#: UK BR CL CY AR IE DE SE HR
+#: UK BR CL CY AR IE DE SE HR MS AI
 msgid "Butterflies and moths"
 msgstr "Pili-palod a gwyfynod"
 
 # insects name
-#: UK BR CL CY AR IE DE SE HR PT
+#: UK BR CL CY AR IE DE SE HR PT MS AI
 msgid "Honeybees"
 msgstr "Gwenyn mêl"
 
 # insects name
-#: UK CL CY IE DE SE HR PT
+#: UK CL CY IE DE SE HR PT AI
 msgid "Hoverflies"
 msgstr "Pryfed hofran"
 
 # insects name
-#: UK CL CY IE DE SE HR PT
+#: UK CL CY IE DE SE HR PT AI
 msgid "Other flies"
 msgstr "Clêr"
 
 # insects name
-#: UK BR CL CY AR IE DE SE HR PT
+#: UK BR CL CY AR IE DE SE HR PT MS AI
 msgid "Other insects"
 msgstr "Pryfed eraill"
 
 # insects name
-#: UK BR CY AR IE DE SE HR PT
+#: UK BR CY AR IE DE SE HR PT MS AI
 msgid "Small insects (<3mm)"
 msgstr "Pryfed bychain (<3mm)"
 
@@ -1716,17 +1726,17 @@ msgid "Solitary bees"
 msgstr "Gwenyn unig"
 
 # insects name
-#: UK BR CL CY AR IE DE HR PT
+#: UK BR CL CY AR IE DE HR MS AI PT
 msgid "Wasps"
 msgstr "Gwenyn meirch"
 
 # insects name
-#: BR AR
+#: BR AR AI
 msgid "Bats"
 msgstr ""
 
 # insects name
-#: BR CL AR
+#: BR CL AR MS AI
 msgid "Hummingbirds"
 msgstr ""
 
@@ -1736,7 +1746,7 @@ msgid "Orchid bees"
 msgstr ""
 
 # insects name
-#: BR
+#: BR MS
 msgid "Stingless bees"
 msgstr ""
 
@@ -1746,7 +1756,7 @@ msgid "Bumblebees sensu lato"
 msgstr ""
 
 # insects name
-#: BR AR
+#: BR AR MS
 msgid "Flies"
 msgstr ""
 
@@ -1756,7 +1766,7 @@ msgid "Don't know"
 msgstr ""
 
 # insects name
-#: DE HR
+#: DE HR MS
 msgid "Carpenter bees"
 msgstr ""
 
@@ -1785,13 +1795,18 @@ msgstr ""
 msgid "Moths"
 msgstr ""
 
+# insects name
+#: AI
+msgid "Other bees"
+msgstr ""
+
 # habitats value
-#: UK BR AR IE DE SE
+#: UK BR AR IE DE SE MS
 msgid "Amenity grassland (usually mown short)"
 msgstr "Glaswelltir amwynder (wedi'i dorri'n fyr fel arfer)"
 
 # habitats value
-#: UK CL AR IE
+#: UK CL AR IE MS
 msgid "School Grounds"
 msgstr "Tir ysgol"
 
@@ -1821,7 +1836,7 @@ msgid "Cultivation"
 msgstr ""
 
 # habitats value
-#: UK BR CL AR IE PT
+#: UK BR CL AR IE PT AI
 msgid "Farm crops or grassy pasture"
 msgstr "Cnydau fferm neu dir pori glaswelltog"
 
@@ -1836,7 +1851,7 @@ msgid "Field margins "
 msgstr ""
 
 # habitats value
-#: UK BR AR DE
+#: UK BR AR DE MS
 msgid "Waste ground or brownfield site"
 msgstr "Tir gwastraff neu safle tir llwyd"
 
@@ -1846,7 +1861,7 @@ msgid "Woodland"
 msgstr "Coetir"
 
 # habitats value
-#: BR CY AR
+#: BR CY AR MS AI
 msgid "Botanical garden"
 msgstr ""
 
@@ -1861,12 +1876,12 @@ msgid "Freshwater wetland"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
+#: UK BR CL CY AR IE DE SE HR PT MS AI
 msgid "Garden"
 msgstr "Gardd"
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
+#: UK BR CL CY AR IE DE SE HR PT MS AI
 msgid "Grassland with wild flowers (e.g. meadow)"
 msgstr "Glaswelltir gyda blodau gwyllt (e.e. dôl)"
 
@@ -1881,7 +1896,7 @@ msgid "Acacia stands"
 msgstr ""
 
 # habitats value
-#: CY AR HR PT
+#: CY AR HR PT AI
 msgid "Roadside verges"
 msgstr ""
 
@@ -1906,7 +1921,7 @@ msgid "Cerrado"
 msgstr ""
 
 # habitats value
-#: DE
+#: DE MS
 msgid "Grassy verge "
 msgstr ""
 
@@ -1956,7 +1971,7 @@ msgid "Waste ground"
 msgstr ""
 
 # habitats value
-#: CL SE HR PT
+#: CL SE HR PT AI
 msgid "Shrubland"
 msgstr ""
 
@@ -1985,12 +2000,12 @@ msgid "Waste ground/exploited land"
 msgstr ""
 
 # habitats value
-#: UK BR CL CY AR IE DE SE HR PT
+#: UK BR CL CY AR IE DE SE HR PT MS AI
 msgid "Other"
 msgstr "Arall"
 
 # habitats value
-#: UK BR CL CY AR IE SE HR
+#: UK BR CL CY AR IE SE HR MS
 msgid "Parkland with trees"
 msgstr "Tir parc gyda choed"
 
@@ -2019,6 +2034,46 @@ msgstr ""
 msgid "Montado (Low density trees)"
 msgstr ""
 
+# habitats value
+#: MS AI
+msgid "Coastal"
+msgstr ""
+
+# habitats value
+#: AI
+msgid "Golf course"
+msgstr ""
+
+# habitats value
+#: AI
+msgid "Hotel grounds"
+msgstr ""
+
+# habitats value
+#: MS AI
+msgid "Wetland"
+msgstr ""
+
+# habitats value
+#: MS
+msgid "Dry thicket/scrub"
+msgstr ""
+
+# habitats value
+#: MS
+msgid "Dry forest"
+msgstr ""
+
+# habitats value
+#: MS
+msgid "Mesic forest"
+msgstr ""
+
+# habitats value
+#: MS
+msgid "Elfin forest"
+msgstr ""
+
 # flowers name
 #: CY CL PT
 msgid "Acacia"
@@ -2035,6 +2090,11 @@ msgid "Achira"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Aloe"
+msgstr ""
+
+# flowers name
 #: CY
 msgid "Anemone"
 msgstr ""
@@ -2045,8 +2105,18 @@ msgid "Anthurium"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Coral vine"
+msgstr ""
+
+# flowers name
 #: CL
 msgid "Arrayan"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Milkweed"
 msgstr ""
 
 # flowers name
@@ -2055,12 +2125,27 @@ msgid "Asteraceae (herbaceous)"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Chinese violet"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Neem tree"
+msgstr ""
+
+# flowers name
 #: CL
 msgid "Azara"
 msgstr ""
 
 # flowers name
-#: BR
+#: MS
+msgid "Saltbush"
+msgstr ""
+
+# flowers name
+#: BR MS AI
 msgid "Basil"
 msgstr ""
 
@@ -2070,8 +2155,23 @@ msgid "Bermuda Buttercup"
 msgstr ""
 
 # flowers name
+#: MS
+msgid "Spanish needle"
+msgstr ""
+
+# flowers name
 #: SE
 msgid "Blueberry"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Lesser bougainvillea"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Chink bush"
 msgstr ""
 
 # flowers name
@@ -2120,8 +2220,18 @@ msgid "Buttercup"
 msgstr "Blodyn menyn"
 
 # flowers name
+#: MS AI
+msgid "Pride of barbados"
+msgstr ""
+
+# flowers name
 #: BR
 msgid "Calliandra"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Giant milkweed"
 msgstr ""
 
 # flowers name
@@ -2135,8 +2245,38 @@ msgid "Canelo"
 msgstr ""
 
 # flowers name
+#: MS
+msgid "Tisane"
+msgstr ""
+
+# flowers name
+#: AI
+msgid "Big num-num"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Love vine"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Madagascar periwinkle"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Butterfly pea"
+msgstr ""
+
+# flowers name
 #: CL
 msgid "Cherry"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Davis root"
 msgstr ""
 
 # flowers name
@@ -2150,6 +2290,11 @@ msgid "Cicuta"
 msgstr ""
 
 # flowers name
+#: MS
+msgid "Liana"
+msgstr ""
+
+# flowers name
 #: AR
 msgid "Naranjo/Limonero"
 msgstr ""
@@ -2157,6 +2302,11 @@ msgstr ""
 # flowers name
 #: PT BR
 msgid "Clover/Trefoil"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Seagrape"
 msgstr ""
 
 # flowers name
@@ -2170,13 +2320,28 @@ msgid "Common sage"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Buttonwood"
+msgstr ""
+
+# flowers name
 #: CL
 msgid "Copihue"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Scarlet cordia"
+msgstr ""
+
+# flowers name
 #: SE
 msgid "Cowberry"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Bitter Balsam"
 msgstr ""
 
 # flowers name
@@ -2195,6 +2360,11 @@ msgid "Dandelion"
 msgstr "Dant y llew"
 
 # flowers name
+#: MS AI
+msgid "Flamboyant"
+msgstr ""
+
+# flowers name
 #: SE
 msgid "Devil's-bit Scabious/Field Scabious"
 msgstr ""
@@ -2202,6 +2372,11 @@ msgstr ""
 # flowers name
 #: PT
 msgid "Echium"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Bleeding hearth"
 msgstr ""
 
 # flowers name
@@ -2235,6 +2410,11 @@ msgid "Guarán"
 msgstr ""
 
 # flowers name
+#: AI
+msgid "Red nicker"
+msgstr ""
+
+# flowers name
 #: UK IE DE
 msgid "Hawthorn"
 msgstr "Draenen wen"
@@ -2260,13 +2440,53 @@ msgid "Ipe"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Morning glory"
+msgstr ""
+
+# flowers name
 #: UK IE DE HR PT
 msgid "Ivy"
 msgstr "Iorwg"
 
 # flowers name
+#: AI
+msgid "Jungle flame"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Ixora"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "White wild clustervine"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Skyblue clustervine"
+msgstr ""
+
+# flowers name
 #: CY AR
 msgid "Spanish Jasmine"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Brazilian jasmine"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Physic nut"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Leaf of life"
 msgstr ""
 
 # flowers name
@@ -2275,13 +2495,18 @@ msgid "Knapweed"
 msgstr "Y Bengaled"
 
 # flowers name
-#: CY
+#: CY MS
 msgid "Common Lantana"
 msgstr ""
 
 # flowers name
 #: BR
 msgid "Lantana"
+msgstr ""
+
+# flowers name
+#: AI
+msgid "Wild sage"
 msgstr ""
 
 # flowers name
@@ -2292,6 +2517,11 @@ msgstr "Lafant"
 # flowers name
 #: PT
 msgid "Lavender and Rosemary"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Christmas candlestick"
 msgstr ""
 
 # flowers name
@@ -2310,8 +2540,18 @@ msgid "Magnolia"
 msgstr ""
 
 # flowers name
+#: AI
+msgid "Zanzibar pearl tree"
+msgstr ""
+
+# flowers name
 #: PT
 msgid "Mallows"
+msgstr ""
+
+# flowers name
+#: AI
+msgid "Mauve"
 msgstr ""
 
 # flowers name
@@ -2325,8 +2565,28 @@ msgid "Mimosa"
 msgstr ""
 
 # flowers name
+#: MS
+msgid "Sensitive plant"
+msgstr ""
+
+# flowers name
 #: PT
 msgid "Mint and Thyme"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Pung coolie"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Noni"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Moringa"
 msgstr ""
 
 # flowers name
@@ -2337,6 +2597,11 @@ msgstr ""
 # flowers name
 #: CY HR
 msgid "Myrtle"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Oleander"
 msgstr ""
 
 # flowers name
@@ -2365,13 +2630,38 @@ msgid "Passionfruit"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Bread and cheese"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Cattle tongue"
+msgstr ""
+
+# flowers name
 #: CY
 msgid "Blue Plumbago"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Frangipani"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Pudic frangipani"
+msgstr ""
+
+# flowers name
 #: AR
 msgid "Pocoto"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Guava"
 msgstr ""
 
 # flowers name
@@ -2410,6 +2700,16 @@ msgid "Rosebay willowherb"
 msgstr ""
 
 # flowers name
+#: AI
+msgid "Mexican petunia"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Shrimp plant"
+msgstr ""
+
+# flowers name
 #: AR
 msgid "Senecio"
 msgstr ""
@@ -2417,6 +2717,51 @@ msgstr ""
 # flowers name
 #: BR
 msgid "Sleeping hibiscus/Malvaviscus"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Nightshade"
+msgstr ""
+
+# flowers name
+#: AI
+msgid "Canker berry"
+msgstr ""
+
+# flowers name
+#: MS
+msgid "Turtle berry "
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Trailing"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Worry wine"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Mutton polly"
+msgstr ""
+
+# flowers name
+#: AI
+msgid "Wiss"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "White cedar"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Yellow elder"
 msgstr ""
 
 # flowers name
@@ -2430,6 +2775,11 @@ msgid "Tree Tobacco"
 msgstr ""
 
 # flowers name
+#: MS AI
+msgid "Rabbit thistle"
+msgstr ""
+
+# flowers name
 #: PT
 msgid "Umbellifers"
 msgstr ""
@@ -2437,6 +2787,16 @@ msgstr ""
 # flowers name
 #: CY
 msgid "Narrow-leaved Viper’s-bugloss"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Marshmallow"
+msgstr ""
+
+# flowers name
+#: MS AI
+msgid "Wild marigold"
 msgstr ""
 
 # flowers name
@@ -2459,8 +2819,13 @@ msgstr ""
 msgid "Wild plantain/Heliconia"
 msgstr ""
 
+# flowers name
+#: AI
+msgid "Pommeserette"
+msgstr ""
+
 # photos intro_text
-#: UK SE DE CY AR IE CL HR
+#: UK AI SE DE CY AR IE CL HR
 msgid ""
 "Honeybees are larger than most (not all) solitary bees, and smaller than "
 "most bumblebees. "
@@ -2469,32 +2834,32 @@ msgstr ""
 "maent yn llai na'r rhan fwyaf o gacwn."
 
 # photos caption_1
-#: UK SE DE CY AR IE CL HR BR
+#: UK AI SE DE CY AR IE CL HR BR
 msgid "Long thin antennae, often angled to form an ‘elbow’ shape"
 msgstr "Teimlyddion hir a thenau, ar ongl yn aml fel siâp 'penelin'"
 
 # photos caption_2
-#: UK SE DE CY AR IE CL HR BR
+#: UK AI SE DE CY AR IE CL HR BR
 msgid "Eyes covering the sides of the head"
 msgstr "Llygaid yn gorchuddio ochrau'r pen"
 
 # photos caption_3
-#: UK SE DE CY AR IE CL HR BR
+#: UK AI SE DE CY AR IE CL HR BR
 msgid "Hind legs broad and flattened"
 msgstr "Y coesau ôl yn llydan ac yn fflat"
 
 # photos caption_4
-#: UK SE DE CY AR IE CL HR BR
+#: UK AI SE DE CY AR IE CL HR BR
 msgid "Abdomen can vary from mostly dark to mostly orange"
 msgstr "Gall yr abdomen amrywio o bennaf dywyll i bennaf oren"
 
 # photos caption_5
-#: UK SE DE CY AR IE CL HR BR
+#: UK AI SE DE CY AR IE CL HR BR
 msgid "Long narrow cell in veins at edge of wing"
 msgstr "Cell hir a chul yn y gwythiennau ar ymyl yr adain"
 
 # photos extraText
-#: UK
+#: UK AI
 msgid ""
 "There is just one species of honeybee in the UK. They nest in artificial "
 "hives,with occasional colonies establishing in the wild."
@@ -3127,7 +3492,7 @@ msgid "Fuzzy orange body and legs"
 msgstr ""
 
 # photos intro_text
-#: UK CY AR IE DE HR BR SE
+#: UK CY AR IE DE HR AI BR SE
 msgid ""
 "There are many different species of wasp, but the most familiar are the "
 "social wasps such as the one shown above."
@@ -3136,12 +3501,12 @@ msgstr ""
 "yw'r gwenyn meirch cymdeithasol, fel yr un uchod."
 
 # photos caption_1
-#: UK CY AR IE DE HR BR CL SE
+#: UK CY AR IE DE HR AI BR CL SE
 msgid "Long antennae (distinguishes them from most flies)"
 msgstr "Teimlyddion hir (sy'n wahanol i'r rhan fwyaf o glêr)"
 
 # photos caption_2
-#: UK CY AR IE DE HR BR CL SE
+#: UK CY AR IE DE HR AI BR CL SE
 msgid ""
 "There are some hairs on the body, but wasps are usually much less dense and "
 "furry compared to bees"
@@ -3150,20 +3515,20 @@ msgstr ""
 " llawer llai trwchus a fflwffog nag ar wenyn"
 
 # photos caption_3
-#: UK CY AR IE DE HR BR CL
+#: UK CY AR IE DE HR AI BR CL
 msgid ""
 "Social wasps and some of the solitary species have bold black and yellow "
 "stripes"
 msgstr ""
 
 # photos caption_4
-#: UK CY AR IE DE HR BR CL SE
+#: UK CY AR IE DE HR AI BR CL SE
 msgid "Some wasps have their wings rolled up when at rest"
 msgstr ""
 "Mae rhai gwenyn meirch yn rholio'u hadenydd i fyny pan maen nhw'n gorffwys"
 
 # photos caption_5
-#: UK CY AR IE DE HR BR CL SE
+#: UK CY AR IE DE HR AI BR CL SE
 msgid ""
 "Wasps have a very narrow “wasp waist” at the join between thorax and abdomen"
 msgstr ""
@@ -3296,7 +3661,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK SE DE CY HR IE
+#: UK AI SE DE CY HR IE
 msgid ""
 "Hoverflies are very active and agile flyers, and are frequently seen "
 "hovering, as you would expect from their name. "
@@ -3306,7 +3671,7 @@ msgstr ""
 "byddech yn ei ddisgwyl yn ôl yr enw."
 
 # photos caption_1
-#: UK SE DE CY HR IE
+#: UK AI SE DE CY HR IE
 msgid ""
 "Large eyes, covering most of the head in males (as shown above) or with a "
 "small gap between the eyes at the top of the head in females"
@@ -3315,14 +3680,14 @@ msgstr ""
 "uchod) neu gyda bwlch bychan rhwng y llygaid ar dop y pen yn y benywod"
 
 # photos caption_2
-#: UK SE DE CY HR IE BR AR
+#: UK AI SE DE CY HR IE BR AR
 msgid "Most hoverflies have much shorter antennae than bees and wasps"
 msgstr ""
 "Mae gan y rhan fwyaf o bryfed hofran deimlyddion llawer byrrach na gwenyn a "
 "gwenyn meirch"
 
 # photos caption_3
-#: UK SE DE CY HR IE
+#: UK AI SE DE CY HR IE
 msgid ""
 "In the wings there is a ‘false margin’ wing vein, running more-or-less "
 "parallel to the true edge of the wing"
@@ -3331,7 +3696,7 @@ msgstr ""
 "ymyl yr adain"
 
 # photos caption_4
-#: UK SE DE CY HR IE BR AR
+#: UK AI SE DE CY HR IE BR AR
 msgid ""
 "Many hoverfly species have black and yellow stripes, but some are all dark "
 "or have other patterns"
@@ -3340,7 +3705,7 @@ msgstr ""
 " yn ddu drostynt i gyd neu mae ganddynt batrymau eraill arnynt"
 
 # photos caption_5
-#: UK SE DE CY HR IE BR AR
+#: UK AI SE DE CY HR IE BR AR
 msgid ""
 "Hoverflies are not usually as hairy as bees (but there are some "
 "exceptions!), and they do not usually have prominent bristles on the body "
@@ -3351,7 +3716,7 @@ msgstr ""
 "(mae rhai mathau eraill o glêr yn amlwg wrychog)"
 
 # photos extraText
-#: UK
+#: UK AI
 msgid ""
 "Hoverflies feed on nectar and pollen, but do not collect nectar and have no "
 "pollen baskets. There are about 285 species of hoverfly in the UK."
@@ -3604,7 +3969,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: UK IE DE SE HR CY
+#: UK IE DE SE HR AI CY
 msgid ""
 "There are many different flies that you may see visiting flowers – for the "
 "FIT Count all you need to do is separate them into “hoverflies” and all "
@@ -3619,22 +3984,22 @@ msgstr ""
 "enghraifft o “glêr” eraill i'w gweld uchod a dwy ar y sgrin nesaf."
 
 # photos caption_1
-#: UK IE DE SE HR
+#: UK IE DE SE HR AI
 msgid "This is a dance fly (family Empididae). "
 msgstr ""
 
 # photos caption_2
-#: UK IE DE SE HR CY CL
+#: UK IE DE SE HR AI CY CL
 msgid "Many dance flies have a long thin proboscis under the head"
 msgstr "Mae gan lawer o bryfed dawnsio drwnc hir a main o dan y pen"
 
 # photos caption_3
-#: UK IE DE SE HR CY CL
+#: UK IE DE SE HR AI CY CL
 msgid "Many dance flies have a distinctly humped thorax"
 msgstr "Mae gan lawer o bryfed dawnsio thoracs cefngrwm amlwg"
 
 # photos caption_4
-#: UK IE DE SE HR CL
+#: UK IE DE SE HR AI CL
 msgid ""
 "This is a soldierfly, the Broad Centurion (<i>Chloromyia formosa</i>), often"
 " seen on hogweed and related flowers"
@@ -3643,12 +4008,12 @@ msgstr ""
 "aml ar efwr a blodau tebyg"
 
 # photos caption_5
-#: UK IE DE SE HR CY CL
+#: UK IE DE SE HR AI CY CL
 msgid "The abdomen is broader and flatter than in hoverflies"
 msgstr "Mae'r abdomen yn lletach ac yn fwy fflat na mewn pryfed hofran"
 
 # photos caption_6
-#: UK IE DE SE HR CY CL
+#: UK IE DE SE HR AI CY CL
 msgid ""
 "The wing venation is different to hoverflies, with no ‘false margin’ wing "
 "vein parallel to the true edge of the wing"
@@ -3724,7 +4089,7 @@ msgid "This is a dance fly (family Empididae)"
 msgstr ""
 
 # photos intro_text
-#: UK IE DE SE HR
+#: UK IE DE SE HR AI
 msgid ""
 "Butterflies are very familiar flower visitors. Moths are perhaps less "
 "frequently noticed but also visit flowers regularly, either by day or by "
@@ -3733,17 +4098,17 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: UK IE DE SE HR
+#: UK IE DE SE HR AI
 msgid "Small Tortoiseshell butterfly"
 msgstr "Trilliw Bach"
 
 # photos caption_2
-#: UK IE DE SE HR CY
+#: UK IE DE SE HR AI CY
 msgid "Common Blue butterfly"
 msgstr "Y Glesyn Cyffredin"
 
 # photos extraText
-#: UK IE DE SE HR CY BR
+#: UK IE DE SE HR AI CY BR
 msgid ""
 "For the FIT Count there is no need to distinguish between butterflies and "
 "moths – they are all counted in the same category."
@@ -3859,7 +4224,7 @@ msgid "Other moths include Ormiscodes amphinome, pictured here"
 msgstr ""
 
 # photos intro_text
-#: UK CY AR IE DE SE HR BR
+#: UK CY AR IE DE SE HR AI BR
 msgid ""
 "There are relatively few beetle species that visit flowers, but those that "
 "do can be very abundant. The different species vary a lot in size, shape and"
@@ -3873,7 +4238,7 @@ msgstr ""
 "abdomen."
 
 # photos caption_1
-#: UK CY AR IE DE SE HR BR
+#: UK CY AR IE DE SE HR AI BR
 msgid ""
 "Beetles have forewings that have become hardened and act as covers for the "
 "softer hindwings and abdomen"
@@ -3882,12 +4247,12 @@ msgstr ""
 " ar gyfer yr adenydd ôl mwy meddal a'r abdomen"
 
 # photos caption_2
-#: UK CY AR IE DE SE HR BR
+#: UK CY AR IE DE SE HR AI BR
 msgid "Beetles have chewing mouthparts"
 msgstr "Mae gan chwilod rannau cnoi yn eu cegau"
 
 # photos caption_3
-#: UK CY AR IE DE SE HR
+#: UK CY AR IE DE SE HR AI
 msgid ""
 "This beetle is the Thick-kneed Flower Beetle (<i>Oedemera nobilis</i>), in "
 "which the males have distinctive thickened hind legs"
@@ -3964,7 +4329,7 @@ msgid "A metallic/iridescent body"
 msgstr ""
 
 # photos intro_text
-#: UK AR IE DE SE HR BR CY
+#: UK AR IE DE SE HR AI BR CY
 msgid ""
 "This category is for any insects under 3mm long. These can be hard to assign"
 " to a particular group without peering at them closely (which would disturb "
@@ -3977,7 +4342,7 @@ msgstr ""
 " ddyfalu eu nifer os oes nifer fawr) a rhowch nhw i gyd yn y categori hwn."
 
 # photos caption_1
-#: UK AR IE DE SE HR
+#: UK AR IE DE SE HR AI
 msgid ""
 "This example shows a flower with many pollen beetles (family Nitidulidae) – "
 "other “small insects” may include tiny flies and parasitic wasps"
@@ -4089,7 +4454,7 @@ msgid ""
 msgstr ""
 
 # photos intro_text
-#: BR AR
+#: BR AR AI
 msgid ""
 "This category is for any nectar-feeding bats. Glossophaginae is a subfamily "
 "of leaf-nosed bats (Phyllostomidae) that can be found from southern North "
@@ -4097,14 +4462,14 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: BR AR
+#: BR AR AI
 msgid ""
 "This example shows a flower being visited by a <i>Glossophaga soricine</i> "
 "bat"
 msgstr ""
 
 # photos intro_text
-#: BR
+#: BR AI
 msgid ""
 "Hummingbirds are birds native to the Americas and comprise the biological "
 "family Trochilidae. With about 360 species, they occur from Alaska to Tierra"
@@ -4116,12 +4481,12 @@ msgid ""
 msgstr ""
 
 # photos caption_1
-#: BR
+#: BR AI
 msgid "Sapphire-spangled Emerald (<i>Amazilia lactea</i>)"
 msgstr ""
 
 # photos caption_2
-#: BR
+#: BR AI
 msgid "Glittering-bellied Emerald (<i>Chlorostilbon lucidus</i>)"
 msgstr ""
 
@@ -4170,7 +4535,7 @@ msgid "Buff throat and belly, mottled with rusty orange."
 msgstr ""
 
 # photos intro_text
-#: UK AR IE DE HR BR CY
+#: UK AR IE DE HR AI BR CY
 msgid ""
 "This category is for any insects that don’t fit into the other insect "
 "groups, and can also be used for any insects that you can’t identify into a "
@@ -4187,7 +4552,7 @@ msgstr ""
 " yn perthyn i'r gwenyn a'r gwenyn meirch, ond mae nifer o wahaniaethau."
 
 # photos caption_1
-#: UK AR IE DE HR SE BR CY
+#: UK AR IE DE HR AI SE BR CY
 msgid ""
 "Other insects you may see include sawflies, which come in a variety of "
 "colours and sizes - some look rather like wasps"
@@ -4197,7 +4562,7 @@ msgstr ""
 " meirch"
 
 # photos caption_2
-#: UK AR IE DE HR SE BR CY
+#: UK AR IE DE HR AI SE BR CY
 msgid ""
 "They do not have a “wasp waist” – there is no gap between the abdomen and "
 "thorax"
@@ -4206,12 +4571,12 @@ msgstr ""
 "abdomen a'r thoracs"
 
 # photos caption_3
-#: UK AR IE DE HR SE BR CY
+#: UK AR IE DE HR AI SE BR CY
 msgid "Sawflies are not hairy and do not have a pollen basket"
 msgstr "Nid yw'r llifbryf yn flewog ac nid oes ganddo fasged paill"
 
 # photos caption_4
-#: UK AR IE DE HR
+#: UK AR IE DE HR AI
 msgid ""
 "They are usually quite slow-moving, with a weaker flight than bees or wasps"
 msgstr ""
@@ -5075,4 +5440,26 @@ msgstr ""
 msgid ""
 "Some hoverflies are small and mostly dark in colour, but have the generic "
 "hoverfly traits, as in Paragus"
+msgstr ""
+
+# photos intro_text
+#: MS
+msgid ""
+"Montserrat has a species of stingless bee which may be endemic. They require"
+" a variety of plants for food and often nest in hollow tree trunks."
+msgstr ""
+
+# photos caption_1
+#: MS
+msgid "Solid brown abdomen"
+msgstr ""
+
+# photos caption_2
+#: MS
+msgid "Reddish brown furry thorax"
+msgstr ""
+
+# photos caption_3
+#: MS
+msgid "Approx under 1cm in size"
 msgstr ""

@@ -92,6 +92,7 @@ import './solitaryBees_CH4.jpg?originalName';
 import './solitaryBees_CH5.jpg?originalName';
 import './solitaryBees_CH6.jpg?originalName';
 import './solitaryBees_IE3.jpg?originalName';
+import './stinglessBeesMS_1.jpg?originalName';
 import './stinglessBees_BR1.jpg?originalName';
 import './stinglessBees_BR2.jpg?originalName';
 import './unknown_BR1.jpg?originalName';

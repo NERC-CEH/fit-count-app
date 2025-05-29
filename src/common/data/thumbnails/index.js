@@ -21,6 +21,7 @@ import './smallwildbees.png?originalName';
 import './socialWasps.png?originalName';
 import './solitaryBees.png?originalName';
 import './stinglessBees.png?originalName';
+import './stinglessBeesMS.png?originalName';
 import './unknown.png?originalName';
 import './wasps.png?originalName';
 import './waspsPT.png?originalName';

@@ -14,7 +14,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "bumblebees",
@@ -44,7 +45,8 @@
     "CL": true,
     "SE": true,
     "HR": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "honeybees",
@@ -61,7 +63,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "hoverflies",
@@ -108,7 +111,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "smallInsects",
@@ -124,7 +128,8 @@
     "SE": true,
     "HR": true,
     "PT": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "solitaryBees",
@@ -154,7 +159,8 @@
     "DE": true,
     "CL": true,
     "HR": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "waspsPT",
@@ -180,7 +186,8 @@
     "AR": true,
     "BR": true,
     "CL": true,
-    "AI": true
+    "AI": true,
+    "MS": true
   },
   {
     "id": "orchidBees",
@@ -210,7 +217,8 @@
     "sort": 0,
     "name": "Flies",
     "AR": true,
-    "BR": true
+    "BR": true,
+    "MS": true
   },
   {
     "id": "unknown",
@@ -226,7 +234,8 @@
     "sort": 0,
     "name": "Carpenter bees",
     "DE": true,
-    "HR": true
+    "HR": true,
+    "MS": true
   },
   {
     "id": "socialWasps",
@@ -264,5 +273,11 @@
     "warehouseId": 629143,
     "name": "Other bees",
     "AI": true
+  },
+  {
+    "id": "stinglessBeesMS",
+    "warehouseId": 538657,
+    "name": "Stingless bees",
+    "MS": true
   }
 ]
