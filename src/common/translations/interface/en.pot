@@ -2684,6 +2684,11 @@ msgid "Rock Roses"
 msgstr "Rock Roses"
 
 # flowers name
+#: MS
+msgid "Pribby"
+msgstr "Pribby"
+
+# flowers name
 #: CL
 msgid "Rose"
 msgstr "Rose"

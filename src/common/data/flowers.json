@@ -1348,6 +1348,15 @@
     "PT": true
   },
   {
+    "id": "rondeletiaBuxifolia",
+    "warehouseId": 24101,
+    "warehouseTerm": "Pribby - Rondeletia buxifolia",
+    "type": "Individual Flower",
+    "name": "Pribby",
+    "scientificName": "Rondeletia buxifolia",
+    "MS": true
+  },
+  {
     "id": "rose",
     "warehouseId": 20305,
     "warehouseTerm": "Rose - Rosa",
