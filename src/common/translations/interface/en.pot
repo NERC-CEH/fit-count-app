@@ -2099,9 +2099,14 @@ msgid "Anthurium"
 msgstr "Anthurium"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Coral vine"
 msgstr "Coral vine"
+
+# flowers name
+#: MS
+msgid "Grave yard vine"
+msgstr "Grave yard vine"
 
 # flowers name
 #: CL
@@ -2119,9 +2124,14 @@ msgid "Asteraceae (herbaceous)"
 msgstr "Asteraceae (herbaceous)"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Chinese violet"
 msgstr "Chinese violet"
+
+# flowers name
+#: MS
+msgid "Chinese"
+msgstr "Chinese"
 
 # flowers name
 #: MS AI
@@ -2159,14 +2169,24 @@ msgid "Blueberry"
 msgstr "Blueberry"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Lesser bougainvillea"
 msgstr "Lesser bougainvillea"
 
 # flowers name
-#: MS AI
+#: MS
+msgid "Bougainvillea"
+msgstr "Bougainvillea"
+
+# flowers name
+#: AI
 msgid "Chink bush"
 msgstr "Chink bush"
+
+# flowers name
+#: MS
+msgid "Bodywood, Chinkswood"
+msgstr "Bodywood, Chinkswood"
 
 # flowers name
 #: CY
@@ -2215,8 +2235,8 @@ msgstr "Buttercup"
 
 # flowers name
 #: MS AI
-msgid "Pride of barbados"
-msgstr "Pride of barbados"
+msgid "Pride of Barbados"
+msgstr "Pride of Barbados"
 
 # flowers name
 #: BR
@@ -2324,9 +2344,14 @@ msgid "Copihue"
 msgstr "Copihue"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Scarlet cordia"
 msgstr "Scarlet cordia"
+
+# flowers name
+#: MS
+msgid "Cordia"
+msgstr "Cordia"
 
 # flowers name
 #: SE
@@ -2369,9 +2394,14 @@ msgid "Echium"
 msgstr "Echium"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Bleeding hearth"
 msgstr "Bleeding hearth"
+
+# flowers name
+#: MS
+msgid "Lady slipper, Milkbush"
+msgstr "Lady slipper, Milkbush"
 
 # flowers name
 #: CY HR
@@ -2459,9 +2489,14 @@ msgid "White wild clustervine"
 msgstr "White wild clustervine"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Skyblue clustervine"
 msgstr "Skyblue clustervine"
+
+# flowers name
+#: MS
+msgid "Wild morning glory"
+msgstr "Wild morning glory"
 
 # flowers name
 #: CY AR
@@ -2469,14 +2504,24 @@ msgid "Spanish Jasmine"
 msgstr "Spanish Jasmine"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Brazilian jasmine"
 msgstr "Brazilian jasmine"
 
 # flowers name
-#: MS AI
+#: MS
+msgid "Jasminum"
+msgstr "Jasminum"
+
+# flowers name
+#: AI
 msgid "Physic nut"
 msgstr "Physic nut"
+
+# flowers name
+#: MS
+msgid "Bellyache bush"
+msgstr "Bellyache bush"
 
 # flowers name
 #: MS
@@ -2489,7 +2534,7 @@ msgid "Knapweed"
 msgstr "Knapweed"
 
 # flowers name
-#: CY MS
+#: CY
 msgid "Common Lantana"
 msgstr "Common Lantana"
 
@@ -2499,7 +2544,7 @@ msgid "Lantana"
 msgstr "Lantana"
 
 # flowers name
-#: AI
+#: AI MS
 msgid "Wild sage"
 msgstr "Wild sage"
 
@@ -2514,9 +2559,14 @@ msgid "Lavender and Rosemary"
 msgstr "Lavender and Rosemary"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Christmas candlestick"
 msgstr "Christmas candlestick"
+
+# flowers name
+#: MS
+msgid "Lord Lavington"
+msgstr "Lord Lavington"
 
 # flowers name
 #: SE
@@ -2644,9 +2694,14 @@ msgid "Frangipani"
 msgstr "Frangipani"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Pudic frangipani"
 msgstr "Pudic frangipani"
+
+# flowers name
+#: MS
+msgid "Bridal bouquet "
+msgstr "Bridal bouquet "
 
 # flowers name
 #: AR
@@ -2734,14 +2789,24 @@ msgid "Turtle berry "
 msgstr "Turtle berry "
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Trailing"
 msgstr "Trailing"
 
 # flowers name
-#: MS AI
+#: MS
+msgid "Videya, Trailing daisy"
+msgstr "Videya, Trailing daisy"
+
+# flowers name
+#: AI
 msgid "Worry wine"
 msgstr "Worry wine"
+
+# flowers name
+#: MS
+msgid "Blue vervain"
+msgstr "Blue vervain"
 
 # flowers name
 #: MS AI
@@ -2759,9 +2824,14 @@ msgid "White cedar"
 msgstr "White cedar"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Yellow elder"
 msgstr "Yellow elder"
+
+# flowers name
+#: MS
+msgid "Yellow trumpet flower"
+msgstr "Yellow trumpet flower"
 
 # flowers name
 #: UK IE DE SE PT
@@ -2794,9 +2864,14 @@ msgid "Marshmallow"
 msgstr "Marshmallow"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Wild marigold"
 msgstr "Wild marigold"
+
+# flowers name
+#: MS
+msgid "Black sage"
+msgstr "Black sage"
 
 # flowers name
 #: UK IE DE SE
