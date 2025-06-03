@@ -2124,14 +2124,9 @@ msgid "Asteraceae (herbaceous)"
 msgstr "Asteraceae (herbaceous)"
 
 # flowers name
-#: AI
+#: AI MS
 msgid "Chinese violet"
 msgstr "Chinese violet"
-
-# flowers name
-#: MS
-msgid "Chinese"
-msgstr "Chinese"
 
 # flowers name
 #: MS AI
