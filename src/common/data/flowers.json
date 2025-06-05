@@ -257,7 +257,7 @@
     "warehouseId": 24020,
     "warehouseTerm": "Chink bush - Bourreria succulenta",
     "type": "Individual Flower",
-    "name": "Bodywood, Chinkswood",
+    "name": "Bodywood",
     "scientificName": "Bourreria succulenta",
     "MS": true
   },
@@ -692,7 +692,7 @@
     "warehouseId": 24029,
     "warehouseTerm": "Bleeding hearth - Euphorbia tithymaloides",
     "type": "Individual Flower",
-    "name": "Lady slipper, Milkbush",
+    "name": "Lady slipper",
     "scientificName": "Euphorbia tithymaloides",
     "MS": true
   },
@@ -933,7 +933,7 @@
     "warehouseId": 24035,
     "warehouseTerm": "Brazilian jasmine - Jasminum fluminense",
     "type": "Individual Flower",
-    "name": "Jasminum",
+    "name": "Brazilian jasmine",
     "scientificName": "Jasminum fluminense",
     "MS": true
   },
@@ -1009,7 +1009,7 @@
     "warehouseTerm": "Common Lantana - Lantana camara",
     "type": "Head",
     "sort": 24,
-    "name": "Wild sage",
+    "name": "Lantana",
     "scientificName": "Lantana camara",
     "MS": true
   },
@@ -1507,7 +1507,7 @@
     "warehouseId": 24077,
     "warehouseTerm": "Turtle berry - Solanum torvum",
     "type": "Individual Flower",
-    "name": "Turtle berry ",
+    "name": "Turkey berry",
     "scientificName": "Solanum torvum",
     "MS": true
   },
@@ -1525,7 +1525,7 @@
     "warehouseId": 24050,
     "warehouseTerm": "Trailing - Sphagneticola trilobata",
     "type": "Individual Flower",
-    "name": "Videya, Trailing daisy",
+    "name": "Trailing daisy",
     "scientificName": "Sphagneticola trilobata",
     "MS": true
   },
@@ -1536,15 +1536,7 @@
     "type": "Spike",
     "name": "Worry wine",
     "scientificName": "Stachytarpheta jamaicensis",
-    "AI": true
-  },
-  {
-    "id": "stachytarphetaJamaicensisMS",
-    "warehouseId": 24051,
-    "warehouseTerm": "Worry wine - Stachytarpheta jamaicensis",
-    "type": "Spike",
-    "name": "Blue vervain",
-    "scientificName": "Stachytarpheta jamaicensis",
+    "AI": true,
     "MS": true
   },
   {
@@ -1633,7 +1625,15 @@
     "type": "Individual Flower",
     "name": "Rabbit thistle",
     "scientificName": "Tridax procumbens",
-    "AI": true,
+    "AI": true
+  },
+  {
+    "id": "tridaxProcumbensMS",
+    "warehouseId": 24056,
+    "warehouseTerm": "Rabbit thistle - Tridax procumbens",
+    "type": "Individual Flower",
+    "name": "Tridax daisy",
+    "scientificName": "Tridax procumbens",
     "MS": true
   },
   {
@@ -1679,7 +1679,7 @@
     "warehouseId": 24058,
     "warehouseTerm": "Wild marigold - Wedelia calycina",
     "type": "Individual Flower",
-    "name": "Black sage",
+    "name": "Black sage / Creeping oxeye",
     "scientificName": "Wedelia calycina",
     "MS": true
   },

@@ -2180,8 +2180,8 @@ msgstr "Chink bush"
 
 # flowers name
 #: MS
-msgid "Bodywood, Chinkswood"
-msgstr "Bodywood, Chinkswood"
+msgid "Bodywood"
+msgstr "Bodywood"
 
 # flowers name
 #: CY
@@ -2395,8 +2395,8 @@ msgstr "Bleeding hearth"
 
 # flowers name
 #: MS
-msgid "Lady slipper, Milkbush"
-msgstr "Lady slipper, Milkbush"
+msgid "Lady slipper"
+msgstr "Lady slipper"
 
 # flowers name
 #: CY HR
@@ -2499,14 +2499,9 @@ msgid "Spanish Jasmine"
 msgstr "Spanish Jasmine"
 
 # flowers name
-#: AI
+#: AI MS
 msgid "Brazilian jasmine"
 msgstr "Brazilian jasmine"
-
-# flowers name
-#: MS
-msgid "Jasminum"
-msgstr "Jasminum"
 
 # flowers name
 #: AI
@@ -2534,12 +2529,12 @@ msgid "Common Lantana"
 msgstr "Common Lantana"
 
 # flowers name
-#: BR
+#: BR MS
 msgid "Lantana"
 msgstr "Lantana"
 
 # flowers name
-#: AI MS
+#: AI
 msgid "Wild sage"
 msgstr "Wild sage"
 
@@ -2780,8 +2775,8 @@ msgstr "Canker berry"
 
 # flowers name
 #: MS
-msgid "Turtle berry "
-msgstr "Turtle berry "
+msgid "Turkey berry"
+msgstr "Turkey berry"
 
 # flowers name
 #: AI
@@ -2790,18 +2785,13 @@ msgstr "Trailing"
 
 # flowers name
 #: MS
-msgid "Videya, Trailing daisy"
-msgstr "Videya, Trailing daisy"
+msgid "Trailing daisy"
+msgstr "Trailing daisy"
 
 # flowers name
-#: AI
+#: MS AI
 msgid "Worry wine"
 msgstr "Worry wine"
-
-# flowers name
-#: MS
-msgid "Blue vervain"
-msgstr "Blue vervain"
 
 # flowers name
 #: MS AI
@@ -2839,9 +2829,14 @@ msgid "Tree Tobacco"
 msgstr "Tree Tobacco"
 
 # flowers name
-#: MS AI
+#: AI
 msgid "Rabbit thistle"
 msgstr "Rabbit thistle"
+
+# flowers name
+#: MS
+msgid "Tridax daisy"
+msgstr "Tridax daisy"
 
 # flowers name
 #: PT
@@ -2865,8 +2860,8 @@ msgstr "Wild marigold"
 
 # flowers name
 #: MS
-msgid "Black sage"
-msgstr "Black sage"
+msgid "Black sage / Creeping oxeye"
+msgstr "Black sage / Creeping oxeye"
 
 # flowers name
 #: UK IE DE SE
