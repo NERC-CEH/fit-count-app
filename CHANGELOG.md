@@ -1,6 +1,7 @@
 # 1.6.0
 
 Updated framework.
+Added Montserrat.
 
 # 1.5.5
 
