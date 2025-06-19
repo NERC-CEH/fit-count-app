@@ -72,6 +72,21 @@ msgstr "Delete account"
 msgid "You can delete your user account from the system."
 msgstr "You can delete your user account from the system."
 
+# Data export in the settings
+#: interface
+msgid "Export database"
+msgstr "Export database"
+
+# Data export in the settings
+#: interface
+msgid "Export"
+msgstr "Export"
+
+# Data export in the settings
+#: interface
+msgid "Are you sure you want to export the data?<1>This feature is intended solely for technical support and is not a supported method for exporting your data</1>"
+msgstr "Are you sure you want to export the data?<1>This feature is intended solely for technical support and is not a supported method for exporting your data</1>"
+
 # User account delete in the settings
 #: interface
 msgid "This will remove your account on the FIT Count website. You will lose access to any records that you have previously submitted using the app or website."

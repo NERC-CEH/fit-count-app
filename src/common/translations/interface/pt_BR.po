@@ -79,6 +79,24 @@ msgstr ""
 msgid "You can delete your user account from the system."
 msgstr ""
 
+# Data export in the settings
+#: interface
+msgid "Export database"
+msgstr ""
+
+# Data export in the settings
+#: interface
+msgid "Export"
+msgstr ""
+
+# Data export in the settings
+#: interface
+msgid ""
+"Are you sure you want to export the data?<1>This feature is intended solely "
+"for technical support and is not a supported method for exporting your "
+"data</1>"
+msgstr ""
+
 # User account delete in the settings
 #: interface
 msgid ""

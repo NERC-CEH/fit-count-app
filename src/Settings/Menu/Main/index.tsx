@@ -5,18 +5,46 @@ import {
   shareSocialOutline,
   globeOutline,
   languageOutline,
+  cloudDownloadOutline,
+  cloudUploadOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { Main, useAlert, InfoMessage, Toggle, MenuAttrItem } from '@flumens';
-import {
-  IonIcon,
-  IonList,
-  IonItem,
-  IonLabel,
-} from '@ionic/react';
+import { IonIcon, IonList, IonItem, IonLabel, isPlatform } from '@ionic/react';
 import countries from 'common/countries';
 import languages from 'common/languages';
 import './styles.scss';
+
+function useDatabaseExportDialog(exportFn: any) {
+  const alert = useAlert();
+
+  const showDatabaseExportDialog = () => {
+    alert({
+      header: 'Export',
+      message: (
+        <T>
+          Are you sure you want to export the data?
+          <p className="my-2 font-bold">
+            This feature is intended solely for technical support and is not a
+            supported method for exporting your data
+          </p>
+        </T>
+      ),
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+        },
+        {
+          text: 'Export',
+          handler: exportFn,
+        },
+      ],
+    });
+  };
+
+  return showDatabaseExportDialog;
+}
 
 function useUserDeleteDialog(deleteUser: any) {
   const alert = useAlert();
@@ -59,21 +87,24 @@ type Props = {
   deleteUser: any;
   isLoggedIn: boolean;
   onToggle: any;
+  exportDatabase: any;
+  importDatabase: any;
   language: string;
   country: string;
   sendAnalytics?: boolean;
 };
 
-const MenuMain = (
-  {
-    isLoggedIn,
-    deleteUser,
-    sendAnalytics,
-    language,
-    country,
-    onToggle
-  }: Props
-) => {
+const MenuMain = ({
+  isLoggedIn,
+  deleteUser,
+  sendAnalytics,
+  language,
+  country,
+  onToggle,
+  exportDatabase,
+  importDatabase,
+}: Props) => {
+  const showDatabaseExportDialog = useDatabaseExportDialog(exportDatabase);
   const showUserDeleteDialog = useUserDeleteDialog(deleteUser);
 
   const countryName = ({ value }: any) => value === country;
@@ -116,9 +147,21 @@ const MenuMain = (
           <InfoMessage>
             Share app crash data so we can make the app more reliable.
           </InfoMessage>
+
+          <IonItem onClick={showDatabaseExportDialog}>
+            <IonIcon icon={cloudDownloadOutline} size="small" slot="start" />
+            <T>Export database</T>
+          </IonItem>
+
+          {!isPlatform('hybrid') && (
+            <IonItem onClick={importDatabase}>
+              <IonIcon icon={cloudUploadOutline} size="small" slot="start" />
+              Import database
+            </IonItem>
+          )}
         </div>
 
-        <div className="destructive-item rounded">
+        <div className="destructive-item rounded-list mt-5">
           {isLoggedIn && (
             <>
               <IonItem onClick={showUserDeleteDialog}>
