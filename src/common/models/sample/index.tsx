@@ -62,6 +62,11 @@ export default class Sample extends SampleOriginal<Attrs, Metadata> {
 
     this.survey = surveyConfig as any;
 
+    if (!this.data.surveyId) {
+      // backwards compatibility
+      this.data.surveyId = surveyConfig.id;
+    }
+
     this.gpsExtensionInit();
   }
 
