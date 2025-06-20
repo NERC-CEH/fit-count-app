@@ -1,3 +1,7 @@
+# 1.6.2
+
+Fixed password reset.
+
 # 1.6.1
 
 Fix surveyId backwards compatibility.

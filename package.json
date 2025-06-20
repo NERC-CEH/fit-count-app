@@ -1,6 +1,6 @@
 {
   "name": "uk.ac.ceh.fit",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "title": "FIT Count",
   "scripts": {
     "prepare": "husky",
