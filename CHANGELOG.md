@@ -1,3 +1,7 @@
+# 1.6.3
+
+Fixed Android SQLite build.
+
 # 1.6.2
 
 Fixed password reset.
