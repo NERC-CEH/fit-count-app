@@ -85,7 +85,7 @@
     "@babel/preset-react": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
     "@capacitor/cli": "^8.0.2",
-    "@flumens/eslint-config": "^3.0.1",
+    "@flumens/eslint-config": "^3.0.2",
     "@flumens/fetch-onedrive-excel": "^0.3.4",
     "@flumens/prettier-config": "^0.4.0",
     "@flumens/webpack-config": "^6.0.3",
