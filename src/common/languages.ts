@@ -1,6 +1,6 @@
 import { isPlatform } from '@ionic/react';
 
-export type Languages = { [key: string]: string | { default: string } };
+export type Languages = Record<string, string | { default: string }>;
 
 const languages: Languages = {
   en: 'English',

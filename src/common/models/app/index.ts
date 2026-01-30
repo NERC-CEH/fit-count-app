@@ -3,15 +3,15 @@ import { Model, ModelAttrs } from '@flumens';
 import { mainStore } from 'models/store';
 import ActivitiesExtension from './activitiesExt';
 
-export interface Activity {
+export type Activity = {
   id: number;
   name: string;
   countryName?: string;
   countryCode?: string;
   websiteUrl?: string;
-}
+};
 
-export interface Attrs extends ModelAttrs {
+export type Attrs = {
   sendAnalytics: boolean;
   appSession: number;
   language: string;
@@ -29,7 +29,7 @@ export interface Attrs extends ModelAttrs {
   // tips
   showSurveysDeleteTip: boolean;
   showSurveyUploadTip: boolean;
-}
+} & ModelAttrs;
 
 const defaults: Attrs = {
   sendAnalytics: true,

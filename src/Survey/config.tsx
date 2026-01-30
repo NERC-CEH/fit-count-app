@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-filename-extension */
 import i18n from 'i18next';
 import { z } from 'zod';
 import { dateFormat } from '@flumens';
@@ -19,19 +18,19 @@ import flowerCoverMediumGroupImage from './FlowerCover/images/groupMedium.png';
 import flowerCoverSmallGroupImage from './FlowerCover/images/groupSmall.png';
 
 // define types for select values
-interface SelectValue {
+type SelectValue = {
   id: number | string;
   value: string;
   prefix?: any;
   photo?: string;
   label?: string;
-}
+};
 
 // define type for location
-interface Location {
+type Location = {
   latitude: number;
   longitude: number;
-}
+};
 
 const isProd = process.env.NODE_ENV === 'production';
 

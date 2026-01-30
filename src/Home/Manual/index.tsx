@@ -201,7 +201,7 @@ const Manual = () => {
     <Page id="manual">
       <Main>
         <Section>
-          <h1>
+          <h1 className="text-center">
             <T>FIT Count quick guide</T>
           </h1>
 

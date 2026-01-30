@@ -42,10 +42,12 @@ const FlowerPatch = observer((props: Props) => {
   );
 
   // check if the selected value is valid
-  const isValueValid = useCallback((): boolean => {
-    // check if flower-patch value exists
-    return !!sample.data['flower-patch'];
-  }, [sample]);
+  const isValueValid = useCallback(
+    (): boolean =>
+      // check if flower-patch value exists
+      !!sample.data['flower-patch'],
+    [sample]
+  );
 
   // get survey config and attribute props
   const attrProps = useMemo(() => {

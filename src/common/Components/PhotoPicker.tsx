@@ -29,9 +29,9 @@ export function usePromptImageSource() {
   return promptMessage;
 }
 
-interface Props extends Omit<ComponentProps<typeof PhotoPicker>, 'getImage'> {
+type Props = {
   model: Sample | Occurrence;
-}
+} & Omit<ComponentProps<typeof PhotoPicker>, 'getImage'>;
 
 const AppPhotoPicker = ({ model, isDisabled, ...restProps }: Props) => {
   const toast = useToast();

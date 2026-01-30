@@ -1,47 +1,49 @@
 PODS:
-  - Capacitor (7.2.0):
+  - Capacitor (8.0.2):
     - CapacitorCordova
-  - CapacitorApp (7.0.1):
+  - CapacitorApp (8.0.0):
     - Capacitor
   - CapacitorBlobWriter (0.0.1):
     - Capacitor
     - GCDWebServer (~> 3.0)
-  - CapacitorCamera (7.0.1):
+  - CapacitorCamera (8.0.0):
     - Capacitor
-  - CapacitorCommunitySqlite (7.0.0):
+  - CapacitorCommunitySqlite (8.0.0):
     - Capacitor
     - SQLCipher
     - ZIPFoundation
-  - CapacitorCordova (7.2.0)
-  - CapacitorDevice (7.0.1):
+  - CapacitorCordova (8.0.2)
+  - CapacitorDevice (8.0.0):
     - Capacitor
-  - CapacitorFilesystem (7.0.1):
+  - CapacitorFilesystem (8.1.0):
     - Capacitor
-  - CapacitorGeolocation (7.1.2):
+    - IONFilesystemLib (~> 1.1.0)
+  - CapacitorGeolocation (8.0.0):
     - Capacitor
-    - IONGeolocationLib (~> 1.0)
-  - CapacitorHaptics (7.0.1):
+    - IONGeolocationLib (= 2.0.0)
+  - CapacitorHaptics (8.0.0):
     - Capacitor
-  - CapacitorKeyboard (7.0.1):
+  - CapacitorKeyboard (8.0.0):
     - Capacitor
-  - CapacitorNetwork (7.0.1):
+  - CapacitorNetwork (8.0.0):
     - Capacitor
-  - CapacitorShare (7.0.1):
+  - CapacitorShare (8.0.0):
     - Capacitor
-  - CapacitorSplashScreen (7.0.1):
+  - CapacitorSplashScreen (8.0.0):
     - Capacitor
-  - CapacitorStatusBar (7.0.1):
+  - CapacitorStatusBar (8.0.0):
     - Capacitor
   - GCDWebServer (3.5.4):
     - GCDWebServer/Core (= 3.5.4)
   - GCDWebServer/Core (3.5.4)
-  - IONGeolocationLib (1.0.0)
-  - SQLCipher (4.6.1):
-    - SQLCipher/standard (= 4.6.1)
-  - SQLCipher/common (4.6.1)
-  - SQLCipher/standard (4.6.1):
+  - IONFilesystemLib (1.1.0)
+  - IONGeolocationLib (2.0.0)
+  - SQLCipher (4.10.0):
+    - SQLCipher/standard (= 4.10.0)
+  - SQLCipher/common (4.10.0)
+  - SQLCipher/standard (4.10.0):
     - SQLCipher/common
-  - ZIPFoundation (0.9.19)
+  - ZIPFoundation (0.9.20)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -63,6 +65,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - GCDWebServer
+    - IONFilesystemLib
     - IONGeolocationLib
     - SQLCipher
     - ZIPFoundation
@@ -100,26 +103,27 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/status-bar"
 
 SPEC CHECKSUMS:
-  Capacitor: 106e7a4205f4618d582b886a975657c61179138d
-  CapacitorApp: d63334c052278caf5d81585d80b21905c6f93f39
+  Capacitor: cfc1ce4a70dbc19fdc4e66e17808937088029752
+  CapacitorApp: cfa0120a1f3a6f69d4d37d3041782aa5c5167d0b
   CapacitorBlobWriter: 110eeaf80611f19bf01a8a05ff3672149ed0baad
-  CapacitorCamera: eb8687d8687fed853598ec9460d94bcd5e16babe
-  CapacitorCommunitySqlite: 6501e7349acf998346acf24ef757861bb3f6fc2b
-  CapacitorCordova: 5967b9ba03915ef1d585469d6e31f31dc49be96f
-  CapacitorDevice: fe3f190e1d718f4607bdc6b73993433d1c84f409
-  CapacitorFilesystem: 307f97c27a265edf8396a1c9c235592fd8572fe3
-  CapacitorGeolocation: 8c86a3afea574c84447c17905da96f2356ad913e
-  CapacitorHaptics: 70e47470fa1a6bd6338cd102552e3846b7f9a1b3
-  CapacitorKeyboard: 969647d0ca2e5c737d7300088e2517aa832434e2
-  CapacitorNetwork: 07ec4c69c1bb696f41c23e00d31bda1bbb221bba
-  CapacitorShare: 58d6c2da63b093e8693287b2d36db92435538435
-  CapacitorSplashScreen: 19cd3573e57507e02d6f34597a8c421e00931487
-  CapacitorStatusBar: 275cbf2f4dfc00388f519ef80c7ec22edda342c9
+  CapacitorCamera: 05ac5bd4499ed4b8cf5358d1b4a874b385de7b4d
+  CapacitorCommunitySqlite: 618bf60537d8a455c65abc39af94d1e735cb6fe3
+  CapacitorCordova: 921bdb690ebe82421b24fce45552fd3dea2ae43a
+  CapacitorDevice: 56baac70d6493c42756676d521e99eea5cc83e71
+  CapacitorFilesystem: 57c128a5ea9875aa7bb54eb7431e63d7721bedd4
+  CapacitorGeolocation: a8381371f7b460e6be569576557285e70f0c9d6c
+  CapacitorHaptics: 7a77ce744c4b516b3ffd7f8c96d3de574d77b898
+  CapacitorKeyboard: 0a2e7c0635ccf3db60abed14bd6f35147ce25942
+  CapacitorNetwork: e03b0c02b4a9d76e58c19e15e9e0c200929529b9
+  CapacitorShare: 703a2744f755982f1a4950f5120bea9763d6dfea
+  CapacitorSplashScreen: 4b78177a21f0f73ccc1c78dd93b2a94854ac4b83
+  CapacitorStatusBar: c6fa2d404083e41d145ea56698707a6986d4428b
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
-  IONGeolocationLib: 81f33f88d025846946de2cf63b0c7628e7c6bc9d
-  SQLCipher: 77fbe633cd84db04b07876dd50766b4924b57d61
-  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
+  IONFilesystemLib: 50b9a0f3052a9b40b9bedb43f328a8fe222f9f87
+  IONGeolocationLib: a5e40b54edc2ee9902036eda5aaa41ddf07bb68d
+  SQLCipher: eb79c64049cb002b4e9fcb30edb7979bf4706dfc
+  ZIPFoundation: dfd3d681c4053ff7e2f7350bc4e53b5dba3f5351
 
-PODFILE CHECKSUM: a9d46308ffcc55f68fca2f3f916901b79530ef65
+PODFILE CHECKSUM: 828d2ab1b9a027ed4d7869f1d1bfeb8f17f931b2
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.16.2

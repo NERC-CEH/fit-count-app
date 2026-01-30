@@ -1,6 +1,6 @@
 import { Route } from 'react-router-dom';
 import Login from './Login';
-import Registration from './Register';
+import Register from './Register';
 import Reset from './Reset';
 
 export default [
@@ -9,7 +9,7 @@ export default [
     path="/user/register"
     key="/user/register"
     exact
-    component={Registration}
+    component={Register}
   />,
   <Route path="/user/reset" key="/user/reset" exact component={Reset} />,
 ];

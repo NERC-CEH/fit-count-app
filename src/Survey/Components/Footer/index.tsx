@@ -12,14 +12,7 @@ type Props = {
   className?: string;
 };
 
-const Footer = (
-  {
-    link,
-    title,
-    onClick,
-    className
-  }: Props
-) => {
+const Footer = ({ link, title, onClick, className }: Props) => {
   const navigateTo = link || undefined;
 
   const footerTitle = title || 'Next';
@@ -39,7 +32,7 @@ const Footer = (
           mode="md"
         >
           <IonIcon slot="end" color="light" icon={icon} />
-          <IonLabel className="ion-text-center">
+          <IonLabel className="text-center">
             <T>{footerTitle}</T>
           </IonLabel>
         </IonItem>

@@ -19,15 +19,13 @@ type Props = {
   rightSlot?: any;
 };
 
-const SurveyHeader = (
-  {
-    onCancel,
-    surveyProgressIndex,
-    backButtonLabel,
-    rightSlot,
-    sample
-  }: Props
-) => {
+const SurveyHeader = ({
+  onCancel,
+  surveyProgressIndex,
+  backButtonLabel,
+  rightSlot,
+  sample,
+}: Props) => {
   const surveyStepCount = sample.getSurveyStepCount();
 
   return (

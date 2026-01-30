@@ -14,13 +14,7 @@ type Props = {
   goHome: () => void;
 };
 
-const ThankYouAlert = (
-  {
-    sample,
-    uploadSurvey,
-    goHome
-  }: Props
-) => {
+const ThankYouAlert = ({ sample, uploadSurvey, goHome }: Props) => {
   const { country } = appModel.data;
   const isUK = country === 'UK';
   const isRestOfWorld = !isUK;

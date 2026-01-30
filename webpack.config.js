@@ -11,8 +11,8 @@ const required = [
 ];
 
 const development = {
-  APP_BACKEND_INDICIA_URL: '',
   APP_BACKEND_URL: '',
+  APP_BACKEND_INDICIA_URL: '',
 };
 
 appConfig.plugins.unshift(

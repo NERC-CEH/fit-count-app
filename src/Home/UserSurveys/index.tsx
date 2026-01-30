@@ -45,9 +45,11 @@ const UserSurveyComponent = observer(() => {
   );
 
   // render surveys list
-  const getSurveys = useCallback((surveys: Sample[]) => {
-    return surveys.map(sample => <Survey key={sample.cid} sample={sample} />);
-  }, []);
+  const getSurveys = useCallback(
+    (surveys: Sample[]) =>
+      surveys.map(sample => <Survey key={sample.cid} sample={sample} />),
+    []
+  );
 
   // uploaded surveys section
   const getUploadedSurveys = useCallback(() => {

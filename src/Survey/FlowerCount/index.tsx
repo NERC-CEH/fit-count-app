@@ -113,13 +113,14 @@ const NumberFlower = observer((props: Props) => {
             <T>Number</T> {!flowerNumber && <RequiredLabel />}
           </div>
         </h3>
-
-        <Attr
-          attr="flower-count-number"
-          model={sample}
-          {...attrPropsNumber}
-          onChange={onValueChangeSlider}
-        />
+        <div className="m-3">
+          <Attr
+            attr="flower-count-number"
+            model={sample}
+            {...attrPropsNumber}
+            onChange={onValueChangeSlider}
+          />
+        </div>
 
         <h3 className="list-title pl-3">
           <div>

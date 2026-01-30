@@ -101,11 +101,9 @@ function SpeciesProfile(props: Props) {
     if (!extraText) return null;
 
     return (
-      <>
-        <div className="species-card-content">
-          <T>{extraText}</T>
-        </div>
-      </>
+      <div className="species-card-content">
+        <T>{extraText}</T>
+      </div>
     );
   };
 
@@ -113,11 +111,9 @@ function SpeciesProfile(props: Props) {
     if (!introText) return null;
 
     return (
-      <>
-        <div className="species-card-content">
-          <T>{introText}</T>
-        </div>
-      </>
+      <div className="species-card-content">
+        <T>{introText}</T>
+      </div>
     );
   };
 

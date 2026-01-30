@@ -38,15 +38,13 @@ async function fetchActivitiesReport(token: string): Promise<Activity[]> {
     const isValidResponse = schemaBackend.safeParse(response).success;
     if (!isValidResponse) throw new Error('Invalid server response.');
 
-    const format = (activity: any): Activity => {
-      return {
-        id: parseInt(activity.id, 10),
-        name: activity.name,
-        countryCode: activity.country_code,
-        countryName: activity.country_name,
-        websiteUrl: activity.website_url,
-      };
-    };
+    const format = (activity: any): Activity => ({
+      id: parseInt(activity.id, 10),
+      name: activity.name,
+      countryCode: activity.country_code,
+      countryName: activity.country_name,
+      websiteUrl: activity.website_url,
+    });
 
     return response.data.map(format);
   } catch (error: any) {
@@ -89,11 +87,11 @@ const extension: any = {
 
     console.log('Syncing activities');
     const token = await userModel.getAccessToken();
-    const newActivities = await fetchActivities(token!);
+    const newActivities = await fetchActivities(token);
 
     this.data.activities = newActivities;
     this.save();
   },
 };
 
-export { extension as default };
+export default extension;

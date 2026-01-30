@@ -98,9 +98,7 @@ export default class Sample extends SampleOriginal<Attrs, Metadata> {
     return timeLeft <= threshold;
   };
 
-  hasCountdown2MinutesLeft = () => {
-    return this.hasCountdownTimedOut(2000);
-  };
+  hasCountdown2MinutesLeft = () => this.hasCountdownTimedOut(2000);
 
   getInsectCount = () => {
     const hasAbundance = (occ: Occurrence) => occ.data.count;

@@ -25,7 +25,7 @@ const exportDatabase = async () => {
 
   await writeBlob({ path, directory, blob });
   const { uri: url } = await Filesystem.getUri({ directory, path });
-  await Share.share({ title: `App database`, files: [url] });
+  await Share.share({ title: 'App database', files: [url] });
   await Filesystem.deleteFile({ directory, path });
 };
 
@@ -34,7 +34,7 @@ const importDatabase = async () => {
   const blob = await new Promise<Blob>(resolve => {
     const input = document.createElement('input');
     input.type = 'file';
-    input.addEventListener('change', function () {
+    input.addEventListener('change', () => {
       const fileReader = new FileReader();
       fileReader.onloadend = async (e: any) =>
         resolve(
@@ -78,7 +78,7 @@ function onToggle(
   setting: keyof PickByType<AppModelAttrs, boolean>,
   checked: boolean
 ) {
-  appModel.data[setting] = checked; // eslint-disable-line
+  appModel.data[setting] = checked;
   appModel.save();
 
   isPlatform('hybrid') && Haptics.impact({ style: ImpactStyle.Light });

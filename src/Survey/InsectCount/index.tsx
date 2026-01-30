@@ -52,7 +52,7 @@ const InsectCount = observer((props: Props) => {
   const hasCountStarted = !!sample.data.surveyStartTime;
 
   // state for countdown timeout
-  const [hasCountdownTimedOut, setCountdownTimedOut] = useState(
+  const [hasCountdownTimedOut, setHasCountdownTimedOut] = useState(
     sample.hasCountdownTimedOut()
   );
 
@@ -118,7 +118,7 @@ const InsectCount = observer((props: Props) => {
 
     // wrap set countdown timed out
     const setCountdownTimedOutWrap = (): void => {
-      setCountdownTimedOut(true);
+      setHasCountdownTimedOut(true);
     };
 
     return (

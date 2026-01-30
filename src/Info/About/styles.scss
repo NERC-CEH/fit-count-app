@@ -17,4 +17,16 @@
       }
     }
   }
+
+  .app-logo-wrapper-no-background {
+    position: relative;
+    width: 100%;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+      max-width: 90%;
+    }
+  }
 }

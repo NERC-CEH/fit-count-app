@@ -49,7 +49,7 @@ const Location = ({ sample: model }: Props) => {
   const isValueValid = () => model.data.location;
 
   const setLocation = (location: any) => {
-    if (location && location.source === 'map' && location.accuracy >= 500) {
+    if (location?.source === 'map' && location.accuracy >= 500) {
       toast.warn('Please select a more accurate location');
       return;
     }

@@ -1,6 +1,5 @@
 import species from './insects.json';
-import speciesPhotos from './photos.json';
-import './photos/index';
+import speciesPhotos from './photos';
 import './thumbnails';
 
 const extendImagesWithCaptions = sp => {

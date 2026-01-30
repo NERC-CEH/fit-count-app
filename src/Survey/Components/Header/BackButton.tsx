@@ -1,9 +1,12 @@
-import PropTypes from 'prop-types';
-import exact from 'prop-types-exact';
 import { useTranslation, Trans as T } from 'react-i18next';
 import { IonBackButton, IonButton } from '@ionic/react';
 
-const BackButton = ({ onCancel, backButtonLabel }) => {
+type Props = {
+  onCancel?: () => void;
+  backButtonLabel: string;
+};
+
+const BackButton = ({ onCancel, backButtonLabel }: Props) => {
   const { t } = useTranslation();
 
   return (
@@ -19,10 +22,5 @@ const BackButton = ({ onCancel, backButtonLabel }) => {
     </>
   );
 };
-
-BackButton.propTypes = exact({
-  onCancel: PropTypes.func,
-  backButtonLabel: PropTypes.string.isRequired,
-});
 
 export default BackButton;

@@ -5,24 +5,24 @@ import GPS from 'helpers/GPS';
 const DEFAULT_ACCURACY_LIMIT = 50; // meters
 
 const extension = {
-  setLocation([longitude, latitude], source = 'map', accuracy) {
+  setLocation([longitude, latitude], source, accuracy) {
     this.data.location = {
       latitude,
       longitude,
-      source,
+      source: source || 'map',
       accuracy,
     };
 
     return this.save();
   },
 
-  toggleGPStracking(state) {
+  toggleGPStracking(state, accuracyLimit = DEFAULT_ACCURACY_LIMIT) {
     if (this.isGPSRunning() || state === false) {
       this.stopGPS();
       return;
     }
 
-    this.startGPS();
+    this.startGPS(accuracyLimit);
   },
 
   gpsExtensionInit() {
@@ -30,7 +30,6 @@ const extension = {
   },
 
   async startGPS(accuracyLimit = DEFAULT_ACCURACY_LIMIT) {
-    // eslint-disable-next-line
     const that = this;
     const options = {
       accuracyLimit,
@@ -70,4 +69,4 @@ const extension = {
   },
 };
 
-export { extension as default };
+export default extension;

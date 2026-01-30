@@ -9,7 +9,7 @@ function SelectCountry() {
   const navigate = useContext(NavContext);
 
   const onSelect = (newValue: string) => {
-    appModel.data.country = newValue; // eslint-disable-line no-param-reassign
+    appModel.data.country = newValue;
     appModel.save();
     navigate.goBack();
   };

@@ -51,9 +51,9 @@ const CountdownClock = ({
   }
 
   return (
-    <IonLabel id="countdown" slot="end">
+    <IonLabel id="countdown" slot="end" className="text-white!">
       {isPaused ? (
-        <span className="paused">
+        <span>
           <T>Paused</T>
         </span>
       ) : (

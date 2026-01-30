@@ -44,10 +44,12 @@ const WeatherSky = observer((props: Props) => {
   );
 
   // check if value is valid
-  const isValueValid = useCallback((): boolean => {
-    // check if weather-sky value exists
-    return !!sample.data['weather-sky'];
-  }, [sample]);
+  const isValueValid = useCallback(
+    (): boolean =>
+      // check if weather-sky value exists
+      !!sample.data['weather-sky'],
+    [sample]
+  );
 
   // get survey config and attribute props
   const attrProps = useMemo(() => {

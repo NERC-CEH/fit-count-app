@@ -15,7 +15,7 @@ import WeatherSky from './WeatherSky';
 import WeatherWind from './WeatherWind';
 import survey from './config';
 
-const baseURL = `/survey/new`;
+const baseURL = '/survey/new';
 
 const { AttrPageFromRoute } = AttrPage;
 

@@ -45,10 +45,12 @@ const FlowerCover = observer((props: Props) => {
   );
 
   // check if value is valid
-  const isValueValid = useCallback((): boolean => {
-    // check if flower-cover value exists
-    return !!sample.data['flower-cover'];
-  }, [sample]);
+  const isValueValid = useCallback(
+    (): boolean =>
+      // check if flower-cover value exists
+      !!sample.data['flower-cover'],
+    [sample]
+  );
 
   // get survey config and attribute props
   const attrProps = useMemo(() => {

@@ -4,10 +4,10 @@
   }
 
   .header {
-    width: 100%;
     z-index: 2;
-    text-align: center;
     margin: 14px auto;
+    width: 100%;
+    text-align: center;
 
     ion-icon {
       font-size: 80px;
@@ -18,38 +18,38 @@
 
   h4 {
     margin-left: 10px;
-    text-align: left;
     color: #2f4a6f;
+    text-align: left;
   }
 
   ion-list {
-    text-align: center;
-    height: 100vh;
     background: #fafbfd;
+    height: 100vh;
+    text-align: center;
 
     .country-icons {
-      height: 50px;
       width: 50px;
+      height: 50px;
     }
 
     .countries-container {
-      overflow-y: scroll;
       height: calc(100vh - 120px);
+      overflow-y: scroll;
 
       ion-item {
+        margin: 20px auto;
         border-radius: 10px;
         max-width: 90%;
-        margin: 20px auto;
         --background: white;
-        color: var(--ion-color-dark);
         box-shadow: 0 0 10px #e2e2e2;
         border: 1px solid #2f4a6f52;
+        color: var(--ion-color-dark);
       }
     }
 
     .country-list-item {
-      border-radius: 10px;
       margin-bottom: 6px;
+      border-radius: 10px;
       background: white;
       padding: 5px;
 
@@ -62,8 +62,8 @@
       }
 
       h3 {
-        font-size: 1.1em;
         font-weight: 500;
+        font-size: 1.1em;
       }
     }
   }

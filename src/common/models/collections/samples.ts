@@ -15,4 +15,11 @@ const samples = new SampleCollection<Sample>({
   getAccessToken: () => userModel.getAccessToken(),
 }) as any;
 
+export function getPending() {
+  const byUploadStatus = (sample: Sample) =>
+    !sample.syncedAt && sample.metadata.saved;
+
+  return samples.filter(byUploadStatus);
+}
+
 export default samples;

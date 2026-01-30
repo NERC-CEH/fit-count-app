@@ -75,28 +75,28 @@ const Credits = () => {
               <IonRow>
                 <IonCol>
                   <a href="http://ukpoms.org.uk">
-                    <img src={pomsLogo} />
+                    <img src={pomsLogo} alt="UK POMS" />
                   </a>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol>
                   <a href="https://www.ris-ky.info/poms-ky">
-                    <img src={pMSkyLogo} />
+                    <img src={pMSkyLogo} alt="POMS-KY" />
                   </a>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol>
                   <a href="https://bee-surpass.org">
-                    <img src={surpassLogo} />
+                    <img src={surpassLogo} alt="SURPASS" />
                   </a>
                 </IonCol>
               </IonRow>
               <IonRow>
                 <IonCol>
                   <a href="https://www.ufz.de/spring-pollination">
-                    <img src={springLogo} />
+                    <img src={springLogo} alt="SPRING" />
                   </a>
                 </IonCol>
               </IonRow>

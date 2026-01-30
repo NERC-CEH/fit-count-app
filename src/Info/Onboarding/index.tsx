@@ -26,19 +26,19 @@ const SplashScreen = () => {
 
   function exit() {
     console.log('Info:Welcome:Controller: exit.');
-    // eslint-disable-next-line no-param-reassign
+
     appModel.data.showedWelcome = true;
     appModel.save();
   }
 
   const handleSlideChangeStart = async () => {
-    const isEnd = controlledSwiper && controlledSwiper.isEnd;
+    const isEnd = controlledSwiper?.isEnd;
     setMoreSlidesExist(!isEnd);
   };
 
   const slideNextOrClose = () => {
     if (moreSlidesExist) {
-      controlledSwiper && controlledSwiper.slideNext();
+      controlledSwiper?.slideNext();
       return;
     }
 
@@ -47,7 +47,7 @@ const SplashScreen = () => {
 
   return (
     <Page id="welcome-page">
-      <Main className="[--background:white]">
+      <Main className="[--background:white]!">
         <Swiper
           onSwiper={setControlledSwiper}
           modules={[Pagination]}
@@ -121,9 +121,9 @@ const SplashScreen = () => {
   );
 };
 
-interface OnBoardingScreensProps {
+type OnBoardingScreensProps = {
   children: ReactNode;
-}
+};
 
 const onBoardingScreens: React.FC<OnBoardingScreensProps> = ({ children }) => {
   const { showedWelcome } = appModel.data;

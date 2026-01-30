@@ -2,16 +2,16 @@
   ion-list {
     ion-item {
       ion-img {
+        border-radius: 5px;
+        border-radius: 0;
+        background: #fbdeefab;
         width: 25%;
         max-width: 100px;
-        border-radius: 5px;
-        background: #fbdeefab;
-        border-radius: 0;
       }
 
       ion-label {
-        white-space: normal;
         margin-left: 10px;
+        white-space: normal;
       }
     }
   }

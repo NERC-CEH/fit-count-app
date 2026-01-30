@@ -5,10 +5,10 @@ import { Badge } from 'common/flumens';
 import Sample from 'common/models/sample';
 import './styles.scss';
 
-interface UsersSurveysProps {
+type UsersSurveysProps = {
   sample: Sample;
   onUpload: any;
-}
+};
 
 // usersSurveys component displays survey status and upload button
 const UsersSurveys = ({ onUpload, sample }: UsersSurveysProps) => {

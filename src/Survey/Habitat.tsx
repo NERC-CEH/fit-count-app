@@ -19,9 +19,9 @@ import RequiredLabel from './Components/RequiredLabel';
 const PAGE_INDEX = 2;
 const NEXT_PAGE = 'flower';
 
-interface Props {
+type Props = {
   sample: any;
-}
+};
 
 const Habitat = observer(({ sample }: Props) => {
   const navContext = useContext(NavContext);

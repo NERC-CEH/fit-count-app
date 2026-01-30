@@ -90,7 +90,9 @@ const Flower = observer((props: Props) => {
             </div>
           </h3>
 
-          <MenuAttrItemFromModel model={sample} attr="flower-manual-entry" />
+          <div className="m-3 overflow-hidden rounded-md">
+            <MenuAttrItemFromModel model={sample} attr="flower-manual-entry" />
+          </div>
         </div>
       );
     }

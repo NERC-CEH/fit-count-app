@@ -12,14 +12,14 @@ import {
   DrupalUserModelAttrs,
 } from '@flumens';
 import { NavContext } from '@ionic/react';
-import * as Sentry from '@sentry/browser';
+import { setUser } from '@sentry/browser';
 import CONFIG from 'common/config';
 import { mainStore } from './store';
 
-export interface Attrs extends DrupalUserModelAttrs {
+export type Attrs = {
   fullName: string;
   email: string;
-}
+} & DrupalUserModelAttrs;
 
 const defaults: Attrs = {
   fullName: '',
@@ -59,7 +59,7 @@ export class UserModel extends DrupalUserModel<Attrs> {
   async logIn(email: string, password: string) {
     await super.logIn(email, password);
 
-    if (this.id) Sentry.setUser({ id: this.id });
+    if (this.id) setUser({ id: this.id });
   }
 
   async checkActivation() {
@@ -110,7 +110,7 @@ export const useUserStatusCheck = () => {
     }
 
     if (!userModel.isLoggedIn()) {
-      navigate(`/user/login`);
+      navigate('/user/login');
       return false;
     }
 

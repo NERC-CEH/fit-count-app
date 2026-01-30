@@ -11,10 +11,10 @@ import { IonApp, IonRouterOutlet, isPlatform } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import CountriesSelectRequired from 'common/Components/CountriesSelectRequired';
 import samples from 'common/models/collections/samples';
-import 'common/theme.scss';
+import 'common/theme.css';
 import 'common/translations/translator';
 import Home from './Home';
-import OnBoardingScreens from './Info/OnBoardingScreens';
+import Onboarding from './Info/Onboarding';
 import Info from './Info/router';
 import Settings from './Settings/router';
 import Survey from './Survey/router';
@@ -35,7 +35,7 @@ const HomeRedirect = () => <Redirect to="home" />;
 const App = () => (
   <IonApp>
     <CountriesSelectRequired>
-      <OnBoardingScreens>
+      <Onboarding>
         <TailwindContext.Provider value={tailwindContext}>
           <TailwindBlockContext.Provider value={tailwindBlockContext}>
             <SamplesContext.Provider value={samplesContext}>
@@ -52,7 +52,7 @@ const App = () => (
             </SamplesContext.Provider>
           </TailwindBlockContext.Provider>
         </TailwindContext.Provider>
-      </OnBoardingScreens>
+      </Onboarding>
     </CountriesSelectRequired>
   </IonApp>
 );

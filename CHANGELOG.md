@@ -1,3 +1,7 @@
+# 1.7.0
+
+Updated libraries.
+
 # 1.6.3
 
 Fixed Android SQLite build.

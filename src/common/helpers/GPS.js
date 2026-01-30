@@ -16,7 +16,7 @@ const API = {
 
     const onPosition = (position, err) => {
       if (err) {
-        callback && callback(new Error(err.message));
+        if (callback) callback(new Error(err.message));
         return;
       }
 
@@ -29,10 +29,11 @@ const API = {
       };
 
       if (location.accuracy <= accuracyLimit) {
-        callback && callback(null, location);
-      } else {
-        onUpdate && onUpdate(location);
+        if (callback) callback(null, location);
+        return;
       }
+
+      if (onUpdate) onUpdate(location);
     };
 
     return Geolocation.watchPosition(GPSoptions, onPosition);
@@ -43,4 +44,4 @@ const API = {
   },
 };
 
-export { API as default };
+export default API;

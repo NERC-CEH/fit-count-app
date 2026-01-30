@@ -4,7 +4,6 @@ import { Trans as T } from 'react-i18next';
 import { useAlert, useToast, getRelativeDate } from '@flumens';
 import {
   IonItem,
-  IonLabel,
   IonItemSliding,
   IonItemOptions,
   IonItemOption,
@@ -55,7 +54,7 @@ function getSampleInfo(sample: any) {
   const insectCount = sample.getInsectCount();
 
   return (
-    <>
+    <div className="flex w-full items-center justify-start">
       <div className="count">
         <div className="number">{insectCount}</div>
         <div className="label">
@@ -63,17 +62,17 @@ function getSampleInfo(sample: any) {
         </div>
       </div>
 
-      <IonLabel mode="ios" color="dark">
-        <IonLabel className="ion-text-wrap">
-          <h2>
+      <div>
+        <div>
+          <div className="text-medium font-bold">
             <T>Survey</T>
-          </h2>
-        </IonLabel>
-        <IonLabel className="ion-text-wrap">
+          </div>
+        </div>
+        <div className="text-sm">
           <T>{prettyDate}</T>
-        </IonLabel>
-      </IonLabel>
-    </>
+        </div>
+      </div>
+    </div>
   );
 }
 

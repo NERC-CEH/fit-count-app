@@ -74,11 +74,10 @@ function StartNewSurvey({ match, survey }: any) {
   const draftIdKey = `draftId:${survey.name}`;
 
   const pickDraftOrCreateSampleWrap = () => {
-    // eslint-disable-next-line
     (async () => {
       const isDemoAppTranslator = !isPlatform('hybrid'); // allow translators to skip login
       if (!userModel.isLoggedIn() && !isDemoAppTranslator) {
-        context.navigate(`/user/register`, 'none', 'replace');
+        context.navigate('/user/register', 'none', 'replace');
         return;
       }
 
@@ -97,7 +96,6 @@ function StartNewSurvey({ match, survey }: any) {
   return null;
 }
 
-// eslint-disable-next-line @getify/proper-arrows/name
 StartNewSurvey.with = (survey: any) => {
   const StartNewSurveyWrap = (params: any) => (
     <StartNewSurvey survey={survey} {...params} />

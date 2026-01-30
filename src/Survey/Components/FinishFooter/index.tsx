@@ -17,7 +17,7 @@ const FinishFooter = ({ sample, setPastActivity }: Props) => {
 
   const [showThanks, setShowThanks] = useState(false);
 
-  const _processDraft = async () => {
+  const processDraft = async () => {
     appModel.data['draftId:survey'] = '';
     await appModel.save();
 
@@ -27,10 +27,10 @@ const FinishFooter = ({ sample, setPastActivity }: Props) => {
   };
 
   const onFinish = async () => {
-    setPastActivity && setPastActivity();
+    setPastActivity?.();
 
     if (!sample.metadata.saved) {
-      await _processDraft();
+      await processDraft();
     }
 
     setShowThanks(true);

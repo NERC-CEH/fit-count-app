@@ -17,7 +17,6 @@ import {
 } from '@ionic/react';
 import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
 import flyIcon from 'common/images/fly.svg';
-import savedSamples from 'models/collections/samples';
 import Guide from './Guide';
 import Home from './Home';
 import Manual from './Manual';
@@ -58,41 +57,39 @@ const HomeComponent: FC = () => {
 
   // render home tabs and routes
   return (
-    <>
-      <IonTabs>
-        <IonRouterOutlet>
-          <Redirect exact path="/home" to="/home/info" />
-          <Route path="/home/info" component={Home} exact />
-          <Route path="/home/surveys" component={Surveys} exact />
-          <Route path="/home/manual" component={Manual} exact />
-          <Route path="/home/guide" component={Guide} exact />
-          <Route path="/home/menu" component={Menu} exact />
-        </IonRouterOutlet>
+    <IonTabs>
+      <IonRouterOutlet>
+        <Redirect exact path="/home" to="/home/info" />
+        <Route path="/home/info" component={Home} exact />
+        <Route path="/home/surveys" component={Surveys} exact />
+        <Route path="/home/manual" component={Manual} exact />
+        <Route path="/home/guide" component={Guide} exact />
+        <Route path="/home/menu" component={Menu} exact />
+      </IonRouterOutlet>
 
-        <IonTabBar slot="bottom" className="home-tab-bar">
-          <IonTabButton tab="home/info" href="/home/info">
-            <IonIcon icon={homeOutline} />
-          </IonTabButton>
+      <IonTabBar slot="bottom" className="home-tab-bar">
+        <IonTabButton tab="home/info" href="/home/info">
+          <IonIcon icon={homeOutline} />
+        </IonTabButton>
 
-          <IonTabButton tab="home/manual" href="/home/manual">
-            <IonIcon icon={informationCircleOutline} />
-          </IonTabButton>
+        <IonTabButton tab="home/manual" href="/home/manual">
+          <IonIcon icon={informationCircleOutline} />
+        </IonTabButton>
 
-          <IonTabButton tab="home/guide" href="/home/guide">
-            <IonIcon icon={flyIcon} />
-          </IonTabButton>
+        <IonTabButton tab="home/guide" href="/home/guide">
+          <IonIcon icon={flyIcon} />
+        </IonTabButton>
 
-          <IonTabButton tab="/home/surveys" href="/home/surveys">
-            <IonIcon icon={layersOutline} />
-            <PendingSurveysBadge savedSamples={savedSamples} />
-          </IonTabButton>
+        <IonTabButton tab="/home/surveys" href="/home/surveys">
+          <IonIcon icon={layersOutline} />
+          <PendingSurveysBadge className="absolute bottom-1/4 left-2/4" />
+        </IonTabButton>
 
-          <IonTabButton tab="home/menu" href="/home/menu">
-            <IonIcon icon={menuOutline} />
-          </IonTabButton>
-        </IonTabBar>
-      </IonTabs>
-    </>
+        <IonTabButton tab="home/menu" href="/home/menu">
+          <IonIcon icon={menuOutline} />
+        </IonTabButton>
+      </IonTabBar>
+    </IonTabs>
   );
 };
 

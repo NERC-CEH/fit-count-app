@@ -11,7 +11,7 @@ function SelectLanguage() {
   const currentValue = appModel.data.language;
 
   function onSelect(newValue: string) {
-    appModel.data.language = newValue; // eslint-disable-line no-param-reassign
+    appModel.data.language = newValue;
     appModel.save();
 
     navigate.goBack();

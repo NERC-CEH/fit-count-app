@@ -1,14 +1,12 @@
 import { configure as mobxConfig } from 'mobx';
-import i18n from 'i18next';
 import { createRoot } from 'react-dom/client';
-import { initReactI18next } from 'react-i18next';
 import { App as AppPlugin } from '@capacitor/app';
 import { SplashScreen } from '@capacitor/splash-screen';
 import { StatusBar, Style as StatusBarStyle } from '@capacitor/status-bar';
 import { sentryOptions } from '@flumens';
 import { loadingController } from '@ionic/core';
 import { setupIonicReact, isPlatform } from '@ionic/react';
-import * as SentryBrowser from '@sentry/browser';
+import SentryBrowser from '@sentry/browser';
 import config from 'common/config';
 import languages from 'common/languages';
 import migrate from 'common/models/migrate';
@@ -19,19 +17,13 @@ import userModel from 'models/user';
 import getLangCodeFromDevice from 'helpers/getLangCodeFromDevice';
 import App from './App';
 
-console.log('🚩 App starting.'); // eslint-disable-line
+console.log('🚩 App starting.');
 
-i18n.use(initReactI18next).init({
-  lng: config.DEFAULT_LANGUAGE,
-});
+setupIonicReact();
 
 mobxConfig({ enforceActions: 'never' });
 
-setupIonicReact({
-  swipeBackEnabled: false,
-});
-
-async function init() {
+(async function () {
   if (isPlatform('hybrid') && !localStorage.getItem('sqliteMigrated')) {
     SentryBrowser.init({
       ...sentryOptions,
@@ -45,6 +37,7 @@ async function init() {
     window.location.reload();
     return;
   }
+
   await db.init();
   await userModel.fetch();
   await appModel.fetch();
@@ -77,6 +70,7 @@ async function init() {
   const container = document.getElementById('root');
   const root = createRoot(container!);
   root.render(<App />);
+
   if (isPlatform('hybrid')) {
     StatusBar.setStyle({
       style: StatusBarStyle.Dark,
@@ -88,6 +82,4 @@ async function init() {
       /* disable android app exit using back button */
     });
   }
-}
-
-init();
+})();

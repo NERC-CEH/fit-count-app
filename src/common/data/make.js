@@ -1,3 +1,5 @@
+/* eslint-env node */
+/* global require, process */
 const fs = require('fs');
 // require('dotenv').config({ silent: true, path: '../../../.env' }); // eslint-disable-line
 const fetchSheet = require('@flumens/fetch-onedrive-excel'); // eslint-disable-line
@@ -134,7 +136,7 @@ function checkImagesExist(data, path, fileNameProcess) {
   data.forEach(checkImage);
 
   if (missing.length) {
-    console.warn(`\n⛑  Missing images:\n`);
+    console.warn('\n⛑  Missing images:\n');
     console.warn('\x1b[43m', `${missing.join('\n')}\n`, '\x1b[0m');
   }
 }
@@ -148,7 +150,7 @@ const getData = async () => {
   checkImagesExist(
     sheetData,
     `${process.env.INIT_CWD}/src/common/data/thumbnails`,
-    ({ id }) => `${id}.png` // eslint-disable-line @getify/proper-arrows/name
+    ({ id }) => `${id}.png`
   );
 
   sheetData = await fetchSheet({ drive, file, sheet: 'habitats' });
@@ -196,7 +198,7 @@ const getData = async () => {
   checkImagesExist(
     sheetData,
     `${process.env.INIT_CWD}/src/common/data/photos`,
-    ({ id, pictureId }) => `${id}_${pictureId}.jpg` // eslint-disable-line @getify/proper-arrows/name
+    ({ id, pictureId }) => `${id}_${pictureId}.jpg`
   );
 
   saveTranslations(translations.join('\n\n'));
