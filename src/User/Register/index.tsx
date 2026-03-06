@@ -24,9 +24,11 @@ const RegisterContainer = () => {
       details;
 
     const otherDetails = {
+      /* eslint-disable @typescript-eslint/naming-convention */
       field_full_name: [{ value: fullName.trim() }],
       field_identification_experience: [{ value: identificationExperience }],
       field_happy_to_be_contacted: [{ value: happyToBeContacted }],
+      /* eslint-enable @typescript-eslint/naming-convention */
     };
 
     if (!device.isOnline) {

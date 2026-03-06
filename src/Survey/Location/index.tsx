@@ -165,6 +165,7 @@ const Location = ({ sample: model }: Props) => {
               inputProps={{ autofocus: false }}
               icon={searchOutline}
               geocodingParams={{
+                // eslint-disable-next-line @typescript-eslint/naming-convention
                 access_token: config.map.mapboxApiKey,
                 types: 'locality,place,district,neighborhood,region,postcode',
                 country: geocodedCountry || 'GB',

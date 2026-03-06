@@ -10,9 +10,9 @@ const schemaBackend = z.object({
     z.object({
       id: z.string(),
       name: z.string(),
-      country_name: z.string().optional(),
-      country_code: z.string().optional(),
-      website_url: z.string().optional(),
+      countryName: z.string().optional(),
+      countryCode: z.string().optional(),
+      websiteUrl: z.string().optional(),
     })
   ),
 });
@@ -35,9 +35,6 @@ async function fetchActivitiesReport(token: string): Promise<Activity[]> {
   try {
     const { data: response } = await axios(options);
 
-    const isValidResponse = schemaBackend.safeParse(response).success;
-    if (!isValidResponse) throw new Error('Invalid server response.');
-
     const format = (activity: any): Activity => ({
       id: parseInt(activity.id, 10),
       name: activity.name,
@@ -46,7 +43,12 @@ async function fetchActivitiesReport(token: string): Promise<Activity[]> {
       websiteUrl: activity.website_url,
     });
 
-    return response.data.map(format);
+    const data = response.data.map(format);
+
+    const isValidResponse = schemaBackend.safeParse(data).success;
+    if (!isValidResponse) throw new Error('Invalid server response.');
+
+    return data;
   } catch (error: any) {
     if (isAxiosNetworkError(error))
       throw new HandledError(

@@ -90,7 +90,7 @@ export default class Sample extends SampleOriginal<Attrs, Metadata> {
 
     const countdown =
       startTime.getTime() +
-      this.getSurvey().DEFAULT_SURVEY_TIME +
+      this.getSurvey().defaultSurveyTime +
       this.metadata.pausedTotalTime;
 
     const timeLeft = (countdown - Date.now()) / 60;
@@ -113,11 +113,11 @@ export default class Sample extends SampleOriginal<Attrs, Metadata> {
   shouldUseActivities = () => this.data.country === 'UK';
 
   getSurveyStepCount = () => {
-    const { SURVEY_STEP_COUNT } = this.getSurvey();
+    const { surveyStepCount } = this.getSurvey();
     const needsLocationName =
       !this.data.location?.latitude || this.data['location-name'];
 
-    let count = needsLocationName ? SURVEY_STEP_COUNT + 1 : SURVEY_STEP_COUNT;
+    let count = needsLocationName ? surveyStepCount + 1 : surveyStepCount;
 
     if (this.shouldUseActivities()) count++;
 

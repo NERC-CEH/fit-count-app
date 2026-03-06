@@ -11,7 +11,7 @@ const config = {
   version: process.env.APP_VERSION as string,
   build: process.env.APP_BUILD as string,
 
-  DEFAULT_LANGUAGE: 'en',
+  defaultLanguage: 'en',
 
   sentryDSN: process.env.APP_SENTRY_KEY as string,
 

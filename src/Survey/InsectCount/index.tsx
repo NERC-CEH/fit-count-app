@@ -107,7 +107,7 @@ const InsectCount = observer((props: Props) => {
     // calculate countdown
     const countdown =
       startTime +
-      surveyConfig.DEFAULT_SURVEY_TIME +
+      surveyConfig.defaultSurveyTime +
       sample.metadata.pausedTotalTime;
 
     // check if timer is paused

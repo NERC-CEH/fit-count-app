@@ -256,9 +256,9 @@ const survey = {
   id: 641,
   name: 'survey',
 
-  SURVEY_STEP_COUNT: 10,
+  surveyStepCount: 10,
 
-  DEFAULT_SURVEY_TIME: isProd ? DEFAULT_SURVEY_TIME : DEV_SURVEY_TIME,
+  defaultSurveyTime: isProd ? DEFAULT_SURVEY_TIME : DEV_SURVEY_TIME,
 
   attrs: {
     date: {
@@ -526,7 +526,7 @@ const survey = {
         date: new Date().toISOString(),
         enteredSrefSystem: 4326,
         surveyId: survey.id,
-        privacy_precision: 1000,
+        privacyPrecision: 1000,
         recorder: userModel.data.fullName,
         surveyStartTime: null,
         location: null,
