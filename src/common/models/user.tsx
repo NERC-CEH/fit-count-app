@@ -32,7 +32,6 @@ export class UserModel extends DrupalUserModel<Attrs> {
     password: z.string().min(1, 'Please fill in'),
     fullName: z.string().min(1, 'Please fill in'),
     identificationExperience: z.string().min(1, 'Please fill in'),
-    happyToBeContacted: z.boolean().optional(),
   });
 
   static resetSchema: any = object({

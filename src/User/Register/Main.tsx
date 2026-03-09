@@ -11,7 +11,7 @@ import {
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { Trans as T } from 'react-i18next';
 import { TypeOf } from 'zod';
-import { Main, Button, Toggle, Select, Input } from '@flumens';
+import { Main, Button, Select, Input } from '@flumens';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { IonIcon, IonRouterLink } from '@ionic/react';
 import config from 'common/config';
@@ -45,17 +45,15 @@ const RegisterMain = ({ onSubmit }: Props) => {
 
   const togglePassword = () => setShowPassword(!showPassword);
 
-  const { formState, handleSubmit, control, setValue, getValues } =
-    useForm<Details>({
-      defaultValues: {
-        fullName: '',
-        email: '',
-        password: '',
-        happyToBeContacted: null,
-        identificationExperience: null,
-      },
-      resolver: zodResolver(UserModel.registerSchema),
-    });
+  const { formState, handleSubmit, control } = useForm<Details>({
+    defaultValues: {
+      fullName: '',
+      email: '',
+      password: '',
+      identificationExperience: null,
+    },
+    resolver: zodResolver(UserModel.registerSchema),
+  });
 
   return (
     <Main>
@@ -104,13 +102,6 @@ const RegisterMain = ({ onSubmit }: Props) => {
               placeholder="Identification experience"
               name="identificationExperience"
               options={optionsIdentificationExperience}
-            />
-
-            <Toggle
-              prefix={<IonIcon src={mailOutline} className="size-6" />}
-              label="Happy to be contacted"
-              onChange={(val: boolean) => setValue('happyToBeContacted', val)}
-              defaultSelected={getValues('happyToBeContacted')}
             />
           </div>
 
