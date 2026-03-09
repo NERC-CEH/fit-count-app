@@ -3,6 +3,7 @@ import { Trans as T } from 'react-i18next';
 import { TypeOf } from 'zod';
 import { Page, Header, device, useToast, useAlert, useLoader } from '@flumens';
 import { NavContext } from '@ionic/react';
+import appModel from 'common/models/app';
 import userModel, { UserModel } from 'models/user';
 import Main from './Main';
 
@@ -22,10 +23,15 @@ const RegisterContainer = () => {
     const email = details.email.trim();
     const { password, fullName, identificationExperience } = details;
 
+    const fieldIndiciaCountry = (
+      appModel.data.country || ''
+    ).toLocaleLowerCase();
+
     const otherDetails = {
       /* eslint-disable @typescript-eslint/naming-convention */
       field_full_name: [{ value: fullName.trim() }],
       field_identification_experience: [{ value: identificationExperience }],
+      field_indicia_country: [{ value: fieldIndiciaCountry }],
       /* eslint-enable @typescript-eslint/naming-convention */
     };
 

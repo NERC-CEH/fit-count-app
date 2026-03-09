@@ -32,6 +32,7 @@ export class UserModel extends DrupalUserModel<Attrs> {
     password: z.string().min(1, 'Please fill in'),
     fullName: z.string().min(1, 'Please fill in'),
     identificationExperience: z.string().min(1, 'Please fill in'),
+    fieldIndiciaCountry: z.string().min(1, 'Please fill in').optional(), // optional because it's auto-filled based on appModel's country
   });
 
   static resetSchema: any = object({

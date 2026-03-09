@@ -56,7 +56,7 @@ const MenuComponent = ({
         )}
 
         {isLoggedIn && !isVerified && (
-          <InfoMessage className="verification-warning">
+          <InfoMessage className="verification-warning p-4!">
             Looks like your <b>{{ email } as any}</b> email hasn't been verified
             yet.
             <div>
