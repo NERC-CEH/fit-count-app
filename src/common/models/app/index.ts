@@ -29,6 +29,7 @@ export type Attrs = {
   // tips
   showSurveysDeleteTip: boolean;
   showSurveyUploadTip: boolean;
+  showTermsUpdatedMessage: boolean;
 } & ModelAttrs;
 
 const defaults: Attrs = {
@@ -49,6 +50,7 @@ const defaults: Attrs = {
   // tips
   showSurveysDeleteTip: true,
   showSurveyUploadTip: true,
+  showTermsUpdatedMessage: true,
 };
 
 export class AppModel extends Model<Attrs> {

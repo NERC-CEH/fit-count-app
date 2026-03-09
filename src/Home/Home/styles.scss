@@ -25,37 +25,24 @@
         }
       }
 
-      ion-item-group {
-        position: absolute;
-        top: 80%;
-        transform: translateY(-90%);
-        width: 100%;
+      .pretty-button {
+        text-align: center;
+        --inner-border-width: 0;
+        border-radius: 10px;
+        --border-radius: 10px;
+        --background: var(--ion-color-secondary);
+        --color: white;
+        --color-activated: white;
+        box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
+        font-weight: 600;
+        letter-spacing: 2px;
 
-        .pretty-button {
-          top: 50%;
-          left: 50%;
-          -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-          margin-bottom: 10px;
-          width: 88%;
+        ion-label {
+          padding: 6px;
+          width: 100%;
           text-align: center;
-          --inner-border-width: 0;
-          border-radius: 10px;
-          --border-radius: 10px;
-          --background: var(--ion-color-secondary);
-          --color: white;
-          --color-activated: white;
-          box-shadow: 0 0 5px rgba(244, 169, 0, 0.9);
-          font-weight: 600;
-          letter-spacing: 2px;
-
-          ion-label {
-            padding: 6px;
-            width: 100%;
-            text-align: center;
-            text-transform: uppercase;
-            white-space: normal;
-          }
+          text-transform: uppercase;
+          white-space: normal;
         }
       }
     }

@@ -1479,8 +1479,12 @@ msgstr "Pollinator Groups"
 
 # Menu page label
 #: interface
-msgid "Terms and Conditions"
-msgstr "Terms and Conditions"
+msgid "Terms of Use"
+msgstr "Terms of Use"
+
+# Context term 
+msgid "We’ve updated our <2>Terms of Use</2> and <5>Privacy Notice</5>. Please take a moment to review them before continuing."
+msgstr "We’ve updated our <2>Terms of Use</2> and <5>Privacy Notice</5>. Please take a moment to review them before continuing."
 
 # Survey required label
 #: interface
