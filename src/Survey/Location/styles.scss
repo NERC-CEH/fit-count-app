@@ -21,6 +21,7 @@
   .location-name-attr {
     --ion-toolbar-background: white;
     border-top: 1px solid #afafaf;
+    padding-top: 0 !important;
     color: var(--color-tertiary-900);
 
     ion-spinner {

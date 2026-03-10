@@ -19,7 +19,7 @@ const style: CSSProperties = {
 
 const Home = () => (
   <Page id="home-info">
-    <Main forceOverscroll={false}>
+    <Main forceOverscroll={false} scrollY={false}>
       <div className="app-home-background" style={style}>
         <div className="app-logo-wrapper">
           <img className="app-logo" src={appLogo} alt="appLogo" />
