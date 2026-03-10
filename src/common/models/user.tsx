@@ -14,11 +14,13 @@ import {
 import { NavContext } from '@ionic/react';
 import { setUser } from '@sentry/browser';
 import CONFIG from 'common/config';
+import appModel from './app';
 import { mainStore } from './store';
 
 export type Attrs = {
   fullName: string;
   email: string;
+  fieldIndiciaCountry?: string;
 } & DrupalUserModelAttrs;
 
 const defaults: Attrs = {
@@ -54,12 +56,52 @@ export class UserModel extends DrupalUserModel<Attrs> {
       }
     };
     this.ready?.then(checkForValidation);
+
+    // migrate existing users' country setting to the website
+    // TODO: remove this after a year when most users have the setting filled
+    this.ready
+      ?.then(() => {
+        if (this.data.fieldIndiciaCountry || !appModel.data.country)
+          return null;
+        return this.updateUserCountrySetting(appModel.data.country);
+      })
+      .catch(() => {});
+  }
+
+  async updateUserCountrySetting(country: string) {
+    const userReady =
+      this.isLoggedIn() && this.data.verified && this.data.profileFetched;
+
+    if (!device.isOnline) return;
+    if (!userReady) return;
+
+    const originalValue = this.data.fieldIndiciaCountry;
+
+    try {
+      const fieldIndiciaCountry = country.toLocaleLowerCase();
+      this.data.fieldIndiciaCountry = fieldIndiciaCountry;
+
+      await this.updateRemote({
+        // eslint-disable-next-line @typescript-eslint/naming-convention
+        field_indicia_country: [{ value: fieldIndiciaCountry }],
+      });
+    } catch (error: any) {
+      this.data.fieldIndiciaCountry = originalValue;
+      throw error;
+    }
   }
 
   async logIn(email: string, password: string) {
     await super.logIn(email, password);
 
     if (this.id) setUser({ id: this.id });
+
+    try {
+      if (this.data.fieldIndiciaCountry || !appModel.data.country) return;
+      this.updateUserCountrySetting(appModel.data.country);
+    } catch (error) {
+      // do nothing
+    }
   }
 
   async checkActivation() {
@@ -157,5 +199,7 @@ export const useUserStatusCheck = () => {
 
   return check;
 };
+
+(window as any).userModel = userModel;
 
 export default userModel;
