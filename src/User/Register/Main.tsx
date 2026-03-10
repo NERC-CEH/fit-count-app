@@ -113,7 +113,7 @@ const RegisterMain = ({ onSubmit }: Props) => {
               </IonRouterLink>{' '}
               and{' '}
               <IonRouterLink href={`${config.backend.url}/terms`}>
-                Terms and Conditions
+                Terms of Use
               </IonRouterLink>
             </T>
           </div>

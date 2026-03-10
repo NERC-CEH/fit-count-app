@@ -1,14 +1,14 @@
-# 
 # Translators:
 # Diana Kurch, 2022
 # Vilius Stankaitis <vilius@flumens.io>, 2022
 # Jim Chiazzese <JimChi@ceh.ac.uk>, 2023
 # Elisabeth Kühn, 2023
+# Karolis, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Elisabeth Kühn, 2023\n"
+"Last-Translator: Karolis, 2026\n"
 "Language-Team: German (Germany) (https://app.transifex.com/ceh/teams/116172/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -482,8 +482,8 @@ msgstr "Deine Artenkenntnis"
 # User registration page
 #: interface
 msgid ""
-"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
-" Conditions</6>"
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms of "
+"Use</6>"
 msgstr ""
 "Indem Du auf Registrieren klickst, erklärst Du Dich mit unserer "
 "<2>Datenschutzrichtlinie</2> und den <6>Allgemeinen Geschäftsbedingungen</6>"
@@ -1394,11 +1394,6 @@ msgstr "Nutzer"
 msgid "Done"
 msgstr "Erledigt"
 
-# User registration "Happy to be contacted" label
-#: interface
-msgid "Happy to be contacted"
-msgstr "Ich freue mich über weitere Informationen."
-
 # Delete survey alert message
 #: interface
 msgid "Are you sure you want to delete this survey?"
@@ -1511,8 +1506,14 @@ msgstr "Bestäuber-Gruppen"
 
 # Menu page label
 #: interface
-msgid "Terms and Conditions"
+msgid "Terms of Use"
 msgstr "Bedingungen und Konditionen"
+
+# Context term
+msgid ""
+"We’ve updated our <2>Terms of Use</2> and <5>Privacy Notice</5>. Please take"
+" a moment to review them before continuing."
+msgstr ""
 
 # Survey required label
 #: interface

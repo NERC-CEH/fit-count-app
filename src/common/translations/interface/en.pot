@@ -452,12 +452,8 @@ msgstr "Your identification experience"
 
 # User registration page
 #: interface
-msgid ""
-"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
-" Conditions</6>"
-msgstr ""
-"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
-" Conditions</6>"
+msgid "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms of Use</6>"
+msgstr "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms of Use</6>"
 
 # User registration page
 #: interface

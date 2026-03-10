@@ -114,7 +114,7 @@ const MenuComponent = ({
           detailIcon={openOutline}
         >
           <IonIcon icon={lockClosedOutline} size="small" slot="start" />
-          <T>Terms and Conditions</T>
+          <T>Terms of Use</T>
         </IonItem>
       </div>
 
