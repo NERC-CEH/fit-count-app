@@ -1,6 +1,8 @@
 # 1.7.0
 
 Updated libraries.
+New T&Cs.
+User country setting sync to website.
 
 # 1.6.3
 
