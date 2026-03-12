@@ -1,5 +1,7 @@
 import species from './insects.json';
 import speciesPhotos from './photos';
+// eslint-disable-next-line import-x/no-useless-path-segments
+import './photos/index';
 import './thumbnails';
 
 const extendImagesWithCaptions = sp => {
