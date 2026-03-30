@@ -5,17 +5,15 @@ import config from 'common/config';
 import appModel, { Activity } from 'models/app';
 import userModel from '../user';
 
-const schemaBackend = z.object({
-  data: z.array(
-    z.object({
-      id: z.string(),
-      name: z.string(),
-      countryName: z.string().optional(),
-      countryCode: z.string().optional(),
-      websiteUrl: z.string().optional(),
-    })
-  ),
-});
+const schemaBackend = z.array(
+  z.object({
+    id: z.number(),
+    name: z.string(),
+    countryName: z.string().optional(),
+    countryCode: z.string().optional(),
+    websiteUrl: z.string().optional(),
+  })
+);
 
 async function fetchActivitiesReport(token: string): Promise<Activity[]> {
   const countryCode = appModel.data.country;
