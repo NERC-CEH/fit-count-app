@@ -56,18 +56,20 @@ const Habitat = observer(({ sample }: Props) => {
 
     if (habitatValue === 'Other') {
       return (
-        <div className="record-manual-entry-wrapper">
+        <div className="record-manual-entry-wrapper mx-3">
           <h3 className="list-title">
             <div>
               <T>Other</T> {isMissing && <RequiredLabel />}
             </div>
           </h3>
 
-          <MenuAttrItemFromModel
-            model={sample}
-            attr="habitat-manual-entry"
-            skipValueTranslation
-          />
+          <div className="rounded-list">
+            <MenuAttrItemFromModel
+              model={sample}
+              attr="habitat-manual-entry"
+              skipValueTranslation
+            />
+          </div>
         </div>
       );
     }
@@ -101,7 +103,10 @@ const Habitat = observer(({ sample }: Props) => {
         backButtonLabel="Location"
       />
 
-      <Main ref={contentRef}>
+      <Main
+        ref={contentRef}
+        className="[--padding-bottom:calc(env(safe-area-inset-top)+50px)]"
+      >
         <InfoMessage
           prefix={<IonIcon src={informationCircleOutline} className="size-6" />}
           color="tertiary"

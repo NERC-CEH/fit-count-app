@@ -46,6 +46,7 @@
 
   .swiper-pagination-bullets {
     bottom: 2%;
+    padding-bottom: env(safe-area-inset-top);
 
     .swiper-pagination-bullet {
       opacity: 1;

@@ -11,14 +11,13 @@ import {
   device,
   InfoButton,
   useLoader,
+  RadioInput,
 } from '@flumens';
 import {
   IonItem,
   IonIcon,
   IonRefresher,
   IonRefresherContent,
-  IonRadio,
-  IonRadioGroup,
   IonList,
   IonItemSliding,
   IonItemOptions,
@@ -103,9 +102,7 @@ const ActivityController = ({ sample }: Props) => {
     loader.hide();
   };
 
-  const onChange = (e: any) => {
-    const newValue = e.detail.value;
-
+  const onChange = (newValue: string) => {
     if (!newValue) {
       // eslint-disable-next-line no-param-reassign
       sample.data.activity = undefined;
@@ -114,7 +111,7 @@ const ActivityController = ({ sample }: Props) => {
     }
 
     const selectedActivity = activities.find(
-      (activity: Activity) => activity.id === newValue
+      (activity: Activity) => `${activity.id}` === newValue
     );
 
     // eslint-disable-next-line no-param-reassign
@@ -152,7 +149,7 @@ const ActivityController = ({ sample }: Props) => {
       };
 
       return (
-        <IonItemSliding key={`${name} + ${id}`}>
+        <IonItemSliding key={`${name} + ${id}`} className="rounded-md">
           {websiteUrl && (
             <IonItemOptions side="start">
               <IonItemOption color="tertiary" onClick={navigateTo}>
@@ -160,8 +157,14 @@ const ActivityController = ({ sample }: Props) => {
               </IonItemOption>
             </IonItemOptions>
           )}
-          <IonItem>
-            <IonRadio value={id}>{name}</IonRadio>
+          <IonItem className="[--padding-start:0] [--inner-padding-end:0] [--border-style:none]">
+            <div className="flex flex-col w-full rounded-md ">
+              <RadioInput.Option
+                value={`${id}`}
+                label={name}
+                className="w-full border-none"
+              />
+            </div>
           </IonItem>
 
           {isPastActivity && (
@@ -196,20 +199,19 @@ const ActivityController = ({ sample }: Props) => {
     }
 
     const defaultEmptySelection = (
-      <IonItemSliding>
-        <IonItem className="radio-input-default-option">
-          <IonRadio value="">
-            <T>Not linked to any project</T>
-          </IonRadio>
-        </IonItem>
-      </IonItemSliding>
+      <RadioInput.Option
+        value=""
+        label="Not linked to any project"
+        className="w-full border-none"
+      />
     );
 
     return (
       <IonList lines="full" className="radio-input-attr">
-        <IonRadioGroup
-          onIonChange={onChange}
-          value={sample.data.activity?.id || ''}
+        <RadioInput
+          onChange={onChange}
+          defaultValue={`${sample.data.activity?.id || ''}`}
+          className="[&>div]:p-0"
         >
           {!!pastActivities.length && (
             <>
@@ -223,7 +225,7 @@ const ActivityController = ({ sample }: Props) => {
             </>
           )}
 
-          <h3 className="list-title">
+          <h3 className="list-title mt-8!">
             {!!pastActivities.length && (
               <div>
                 <T>Projects</T>
@@ -234,7 +236,7 @@ const ActivityController = ({ sample }: Props) => {
           {defaultEmptySelection}
 
           {getActivityEntries(remainingActivities)}
-        </IonRadioGroup>
+        </RadioInput>
       </IonList>
     );
   };
@@ -247,7 +249,7 @@ const ActivityController = ({ sample }: Props) => {
         backButtonLabel="Strength"
       />
 
-      <Main>
+      <Main className="[--padding-bottom:calc(env(safe-area-inset-top)+50px)]">
         <InfoMessage
           prefix={<IonIcon src={informationCircleOutline} className="size-6" />}
           color="tertiary"

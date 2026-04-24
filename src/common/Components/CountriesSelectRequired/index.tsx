@@ -37,7 +37,7 @@ function CountriesSelectRequired({ children }: any) {
 
   return (
     <Page id="country-select">
-      <Main>
+      <Main className="[--padding-bottom:env(safe-area-inset-top)]">
         <IonList className="ion-no-padding">
           <div className="header">
             <IonIcon icon={globeOutline} />

@@ -2,6 +2,7 @@
   position: none;
   background: var(--ion-page-background);
   padding: 20px;
+  padding-bottom: calc(env(safe-area-inset-top) + 20px);
 
   .next-button {
     left: 50%;

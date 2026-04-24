@@ -223,25 +223,6 @@ ion-button[color='tertiary'] {
   --ion-color-base: var(--color-tertiary-900) !important;
 }
 
-.record-manual-entry-wrapper {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  margin: 0 auto;
-  min-height: 25%;
-  overflow: hidden;
-}
-.record-manual-entry-wrapper.menu-attr-item {
-  --inner-border-width: 0;
-  --border-radius: 15px;
-  margin-bottom: 25px;
-  padding: 0 10px;
-}
-.record-manual-entry-wrapper ion-label[slot='end'] {
-  margin: auto;
-  max-width: 80px;
-}
-
 /* Fix neutral alert buttons being primary red */
 .alert-button:not(.alert-button-role-destructive) {
   color: black;

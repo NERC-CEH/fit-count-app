@@ -130,7 +130,10 @@ const Flower = observer((props: Props) => {
         backButtonLabel="Habitat"
       />
 
-      <Main ref={contentRef}>
+      <Main
+        ref={contentRef}
+        className="[--padding-bottom:calc(env(safe-area-inset-top)+50px)]"
+      >
         <InfoMessage
           prefix={<IonIcon src={informationCircleOutline} className="size-6" />}
           color="tertiary"

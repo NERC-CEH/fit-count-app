@@ -1,3 +1,7 @@
+# 1.7.1
+
+Bug fixes.
+
 # 1.7.0
 
 Updated libraries.

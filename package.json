@@ -2,7 +2,7 @@
   "name": "fit-count-app",
   "id": "uk.ac.ceh.fit",
   "title": "FIT Count",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "scripts": {
     "prepare": "husky",
     "start": "webpack serve --progress --port 8000",

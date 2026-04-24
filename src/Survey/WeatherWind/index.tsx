@@ -1,7 +1,9 @@
+/* eslint-disable no-param-reassign */
+import { useCallback, useContext } from 'react';
 import { observer } from 'mobx-react';
 import { informationCircleOutline } from 'ionicons/icons';
 import { Page, Attr, Main, InfoMessage } from '@flumens';
-import { IonIcon } from '@ionic/react';
+import { IonIcon, NavContext } from '@ionic/react';
 import Sample from 'models/sample';
 import FinishFooter from 'Survey/Components/FinishFooter';
 import Footer from '../Components/Footer';
@@ -17,15 +19,35 @@ type Props = {
 };
 
 const WeatherWind = ({ sample }: Props) => {
+  const navContext = useContext(NavContext);
+
   const isValueValid = () => !!sample.data['weather-wind'];
 
   const surveyConfig = sample.getSurvey();
   const { attrProps } = surveyConfig.attrs['weather-wind'].pageProps;
 
-  const recordActivities = sample.shouldUseActivities();
+  const useActivities = sample.shouldUseActivities();
+
+  const onValueChange = useCallback(
+    (value: string): void => {
+      sample.data['weather-wind'] = value;
+      sample.save();
+
+      if (!useActivities) return;
+
+      // navigate to next page after short delay
+      const navigateToNextPage = () =>
+        navContext.navigate(NEXT_PAGE, undefined, undefined, undefined, {
+          unmount: true,
+        });
+
+      setTimeout(navigateToNextPage, 50);
+    },
+    [navContext, useActivities, sample]
+  );
 
   let footer;
-  if (recordActivities) {
+  if (useActivities) {
     footer = isValueValid() && <Footer link={NEXT_PAGE} />;
   } else {
     footer = <FinishFooter sample={sample} />;
@@ -48,7 +70,12 @@ const WeatherWind = ({ sample }: Props) => {
           What was the <b>wind</b> strength?
         </InfoMessage>
 
-        <Attr attr="weather-wind" model={sample} {...attrProps} />
+        <Attr
+          attr="weather-wind"
+          model={sample}
+          {...attrProps}
+          onChange={onValueChange}
+        />
       </Main>
 
       {footer}

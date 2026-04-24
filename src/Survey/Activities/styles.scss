@@ -6,17 +6,12 @@
     }
 
     ion-item-sliding {
-      margin: 10px 0;
       border-radius: 10px;
       background: #fff;
 
       ion-item {
         margin: 0;
         --border-radius: 10px !important;
-
-        &.radio-input-default-option {
-          opacity: 0.6;
-        }
       }
 
       ion-icon {
