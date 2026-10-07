@@ -2,6 +2,7 @@ import { isPlatform } from '@ionic/react';
 import AI from 'common/images/aiFlag.svg';
 import AR from 'common/images/arFlag.svg';
 import 'common/images/argFlag.svg';
+import AT from 'common/images/atFlag.svg';
 import BR from 'common/images/braFlag.svg';
 import CL from 'common/images/chlFlag.svg';
 import CY from 'common/images/cypFlag.svg';
@@ -105,6 +106,13 @@ const countries: Country[] = [
     value: 'MS',
     warehouseId: 24013,
     coords: { lat: 16.75, lng: -62.2, zoom: 11 },
+  },
+  {
+    flag: AT,
+    label: 'Austria',
+    value: 'AT',
+    warehouseId: 24909,
+    coords: { lat: 47.516231, lng: 14.550072, zoom: 6 },
   },
 ];
 

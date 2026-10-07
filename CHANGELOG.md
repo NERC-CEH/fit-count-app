@@ -1,3 +1,7 @@
+# 1.8.0
+
+Added Austria.
+
 # 1.7.1
 
 Bug fixes.

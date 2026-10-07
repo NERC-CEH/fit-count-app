@@ -7,6 +7,7 @@
     "BR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "MS": true
   },
@@ -68,6 +69,7 @@
     "warehouseId": 20088,
     "value": "Field margins ",
     "DE": true,
+    "AT": true,
     "SE": true
   },
   {
@@ -78,6 +80,7 @@
     "AR": true,
     "BR": true,
     "DE": true,
+    "AT": true,
     "MS": true
   },
   {
@@ -103,6 +106,7 @@
     "AR": true,
     "BR": true,
     "DE": true,
+    "AT": true,
     "CL": true,
     "HR": true,
     "PT": true
@@ -126,6 +130,7 @@
     "BR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "CL": true,
     "SE": true,
     "HR": true,
@@ -142,6 +147,7 @@
     "BR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "CL": true,
     "SE": true,
     "HR": true,
@@ -198,18 +204,21 @@
     "warehouseId": 20084,
     "value": "Grassy verge ",
     "DE": true,
+    "AT": true,
     "MS": true
   },
   {
     "warehouseId": 20085,
     "value": "Hedgerow edge ",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "warehouseId": 20086,
     "value": "Freshwater edge",
     "AR": true,
     "DE": true,
+    "AT": true,
     "CL": true,
     "PT": true
   },
@@ -217,6 +226,7 @@
     "warehouseId": 20087,
     "value": "Forest edge ",
     "DE": true,
+    "AT": true,
     "HR": true
   },
   {
@@ -228,12 +238,14 @@
   {
     "warehouseId": 20089,
     "value": "Orchard meadow ",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "warehouseId": 20090,
     "value": "Fallow land ",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "warehouseId": 20081,
@@ -292,6 +304,7 @@
     "BR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "CL": true,
     "SE": true,
     "HR": true,

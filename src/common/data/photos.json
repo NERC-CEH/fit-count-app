@@ -34,7 +34,8 @@
     "caption_4": "Abdomen can vary from mostly dark to mostly orange",
     "caption_5": "Long narrow cell in veins at edge of wing",
     "extraText": "There is just one species of honeybee in Germany. They nest in artificial hives,with occasional colonies establishing in the wild.",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "id": "honeybees",
@@ -106,6 +107,7 @@
     "AR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "CL": true,
     "SE": true,
     "HR": true
@@ -163,7 +165,8 @@
     "caption_4": "Many species have simple, contrasting colour bands (yellows, whites, blacks), others can be ginger all over",
     "caption_5": "Eyes cover the sides of the head, with lots of hair between the eyes",
     "extraText": "Bumblebees have a characteristic ‘bumbling’, buzzing flight pattern, and do not hover. There are 40 species in Germany.",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "id": "bumblebees",
@@ -185,6 +188,7 @@
     "extraText": "Male bumblebees are similar looking to females but have slightly longer antennae, and do not collect pollen. They visit flowers to feed on nectar.",
     "UK": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -300,7 +304,8 @@
     "caption_4": "Long antennae, often held straight out in front",
     "caption_5": "Smaller than queen bumblebees, but the largest solitaries are bigger than small worker bumblebees",
     "extraText": "Solitary bees fly actively between flowers, and will sometimes bask in sunshine. Most species do not hover. There are about 560 species in Germany.",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "id": "solitaryBees",
@@ -360,6 +365,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -382,6 +388,7 @@
     "extraText": "You don’t need to recognise the individual species to do a FIT Count, they all get counted as “solitary bees”!",
     "UK": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -475,6 +482,7 @@
     "AR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "HR": true,
     "AI": true
   },
@@ -490,6 +498,7 @@
     "CY": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "HR": true
   },
   {
@@ -504,6 +513,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "HR": true
   },
   {
@@ -602,7 +612,8 @@
     "caption_4": "Many hoverfly species have black and yellow stripes, but some are all dark or have other patterns",
     "caption_5": "Hoverflies are not usually as hairy as bees (but there are some exceptions!), and they do not usually have prominent bristles on the body (some other types of fly are obviously bristly)",
     "extraText": "Hoverflies feed on nectar and pollen, but do not collect nectar and have no pollen baskets. There are about 285 species of hoverfly in Germany.",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "id": "hoverflies",
@@ -652,6 +663,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -676,6 +688,7 @@
     "caption_4": "Some hoverflies are small and mostly dark in colour, but have the typical wing veins (if you can get close enough to see them) and in flight will hover like typical hoverflies",
     "UK": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -755,6 +768,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true,
     "AI": true
@@ -782,6 +796,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -817,6 +832,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true,
     "AI": true
@@ -830,6 +846,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -898,6 +915,7 @@
     "AR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true,
     "AI": true
@@ -911,6 +929,7 @@
     "UK": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -955,6 +974,7 @@
     "AR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true,
     "AI": true
@@ -1057,6 +1077,7 @@
     "AR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "HR": true,
     "AI": true
   },
@@ -1093,6 +1114,7 @@
     "BR": true,
     "IE": true,
     "DE": true,
+    "AT": true,
     "SE": true,
     "HR": true
   },
@@ -1126,7 +1148,8 @@
     "id": "carpenterbees",
     "pictureId": 1,
     "intro_text": "The blue-black carpenter bee is a very large and conspicuous species of bee with a black hairy body and blackish to violet shimmering wings. The warmth-loving species has spread in recent years. In Germany there are two other species of the genus Xylocopa that look very similar, but are much rarer.",
-    "DE": true
+    "DE": true,
+    "AT": true
   },
   {
     "id": "carpenterbees",
