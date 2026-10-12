@@ -22,6 +22,20 @@
     <string>1</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false />
+    <key>NSCameraUsageDescription</key>
+    <string>Allow camera access to attach photos to your records.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Allow geolocation so we can improve your records.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Allow geolocation so we can improve your records.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>To Record Audio With Video</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Store camera photos to camera</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Required so that we can identify and attach species photos to your records.</string>
     <key>UIApplicationSceneManifest</key>
     <dict>
       <key>UIApplicationSupportsMultipleScenes</key>
